@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>大学院出愿情报 | 生物・化学 2026-2027</title>
+<meta name="description" content="日本大学院 生物・化学专业 出愿情报汇总 2026年3月~2027年3月">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#f5f7fa; --card:#ffffff; --primary:#4f6df5; --primary-dark:#3b50d4;
+  --primary-light:#eef1ff; --border:#e8ecf1; --text:#1a1f36; --text-sec:#6b7294;
+  --success:#00c48c; --warning:#ff8c00; --danger:#ff4757; --shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04);
+  --shadow-lg:0 8px 30px rgba(0,0,0,.08); --radius:14px; --radius-sm:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter','Noto Sans JP',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+
+/* === HERO === */
+.hero{background:linear-gradient(135deg,#4f6df5 0%,#6e8efb 40%,#a777e3 100%);color:#fff;padding:3rem 1.5rem 2.5rem;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(255,255,255,.08) 0%,transparent 60%);animation:float 8s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,-20px)}}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.18);backdrop-filter:blur(10px);padding:6px 16px;border-radius:20px;font-size:.75rem;font-weight:500;margin-bottom:1rem;letter-spacing:.3px}
+.hero h1{font-size:1.75rem;font-weight:700;margin-bottom:.4rem;letter-spacing:-.5px}
+.hero p{font-size:.9rem;opacity:.85;max-width:400px;margin:0 auto}
+.hero-stats{display:flex;justify-content:center;gap:2rem;margin-top:1.5rem}
+.hero-stat{text-align:center}
+.hero-stat .num{font-size:1.5rem;font-weight:700;display:block}
+.hero-stat .label{font-size:.7rem;opacity:.7;text-transform:uppercase;letter-spacing:.5px}
+
+/* === STICKY CONTROLS === */
+.controls{position:sticky;top:0;z-index:100;background:var(--card);border-bottom:1px solid var(--border);padding:12px 16px;box-shadow:var(--shadow)}
+.search-wrap{position:relative;margin-bottom:10px}
+.search-wrap svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--text-sec);pointer-events:none}
+.search-input{width:100%;padding:10px 14px 10px 42px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.9rem;background:#f8f9fc;transition:all .2s;outline:none;font-family:inherit}
+.search-input:focus{border-color:var(--primary);background:#fff;box-shadow:0 0 0 3px var(--primary-light)}
+.search-input::placeholder{color:#a0a5bd}
+.clear-btn{position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1.2rem;color:var(--text-sec);cursor:pointer;display:none}
+.clear-btn.show{display:block}
+
+.filters{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;-ms-overflow-style:none}
+.filters::-webkit-scrollbar{display:none}
+.chip{white-space:nowrap;padding:6px 14px;border-radius:20px;font-size:.78rem;font-weight:500;cursor:pointer;border:1.5px solid var(--border);background:#fff;color:var(--text-sec);transition:all .15s;user-select:none;flex-shrink:0}
+.chip:hover{border-color:var(--primary);color:var(--primary)}
+.chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+
+.filter-row{display:flex;gap:6px;flex-wrap:nowrap;margin-bottom:8px;overflow-x:auto;scrollbar-width:none}
+.filter-row::-webkit-scrollbar{display:none}
+.filter-row:last-child{margin-bottom:0}
+
+.sort-row{display:flex;gap:6px;margin-top:8px;background:#f8f9fc;border-radius:var(--radius-sm);padding:3px}
+.sort-btn{flex:1;text-align:center;padding:6px 0;font-size:.72rem;font-weight:500;border-radius:8px;cursor:pointer;color:var(--text-sec);transition:all .15s}
+.sort-btn.on{background:#fff;color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+
+/* === RESULT STATS === */
+.result-bar{padding:8px 16px;font-size:.75rem;color:var(--text-sec);display:flex;justify-content:space-between;align-items:center}
+
+/* === CARD LIST === */
+.list{padding:0 12px 80px}
+
+.card{background:var(--card);border-radius:var(--radius);margin-bottom:12px;box-shadow:var(--shadow);overflow:hidden;transition:transform .15s,box-shadow .15s;cursor:pointer}
+.card:active{transform:scale(.985);box-shadow:var(--shadow-lg)}
+
+.card-accent{height:4px;width:100%}
+.card-accent.nat{background:linear-gradient(90deg,#00c48c,#36d1a0)}
+.card-accent.pri{background:linear-gradient(90deg,#a777e3,#c49bec)}
+
+.card-body{padding:16px}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.card-uni{font-size:.95rem;font-weight:700;color:var(--text);flex:1}
+.type-badge{font-size:.65rem;font-weight:600;padding:3px 8px;border-radius:6px;flex-shrink:0;margin-left:8px}
+.type-badge.nat{background:#e6f9f1;color:#00915e}
+.type-badge.pri{background:#f3edfc;color:#7c3aed}
+
+.card-dept{font-size:.78rem;color:var(--text-sec);margin-bottom:2px}
+.card-major{font-size:.88rem;font-weight:600;color:var(--text);margin-bottom:10px}
+
+.card-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.tag{font-size:.68rem;font-weight:600;padding:3px 9px;border-radius:6px}
+.tag-bio{background:#e6faf5;color:#0d7d6a}
+.tag-chem{background:#fef6e6;color:#b87a00}
+.tag-med{background:#fee6e8;color:#c0293a}
+.tag-agr{background:#f0fae6;color:#4c7c0e}
+
+.dates-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:6px;margin-bottom:10px}
+.date-box{background:#f8f9fc;border-radius:8px;padding:8px;text-align:center}
+.date-box .dl{font-size:.6rem;color:var(--text-sec);text-transform:uppercase;letter-spacing:.3px}
+.date-box .dv{font-size:.82rem;font-weight:600;margin-top:2px}
+.date-box .dv.past{color:#c0c5d8;text-decoration:line-through}
+.date-box .dv.soon{color:var(--warning)}
+.date-box .dv.future{color:var(--success)}
+.no-date{font-size:.75rem;color:#c0c5d8;background:#f8f9fc;border-radius:8px;padding:8px 12px;text-align:center}
+
+.card-bottom{display:flex;justify-content:space-between;align-items:center}
+.eng-pills{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.eng-req{font-size:.68rem;font-weight:600;padding:2px 7px;border-radius:4px;background:#fff0f0;color:var(--danger)}
+.eng-opt{font-size:.68rem;font-weight:500;padding:2px 7px;border-radius:4px;background:#f0f0f5;color:var(--text-sec)}
+.eng-pill{font-size:.65rem;font-weight:600;padding:2px 7px;border-radius:4px;background:var(--primary-light);color:var(--primary)}
+.arrow{font-size:.75rem;color:var(--primary);font-weight:600}
+
+/* === MODAL (detail) === */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);backdrop-filter:blur(4px);z-index:200;opacity:0;pointer-events:none;transition:opacity .25s}
+.modal-overlay.open{opacity:1;pointer-events:auto}
+.modal{position:fixed;bottom:0;left:0;right:0;max-height:90vh;background:var(--card);border-radius:20px 20px 0 0;z-index:201;transform:translateY(100%);transition:transform .3s cubic-bezier(.4,0,.2,1);overflow-y:auto;overscroll-behavior:contain}
+.modal.open{transform:translateY(0)}
+.modal-handle{width:36px;height:4px;background:#d8dbe6;border-radius:2px;margin:10px auto}
+.modal-close{position:absolute;top:12px;right:16px;background:none;border:none;font-size:1.5rem;color:var(--text-sec);cursor:pointer;z-index:5;line-height:1}
+.modal-head{padding:8px 20px 16px;border-bottom:1px solid var(--border)}
+.modal-head .m-uni{font-size:1.1rem;font-weight:700}
+.modal-head .m-dept{font-size:.82rem;color:var(--text-sec)}
+.modal-head .m-major{font-size:.95rem;font-weight:600;margin-top:2px}
+.modal-content{padding:16px 20px 40px}
+
+.m-section{margin-bottom:20px}
+.m-section-title{font-size:.82rem;font-weight:700;color:var(--text);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.m-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.m-box{background:#f8f9fc;border-radius:var(--radius-sm);padding:12px}
+.m-box.full{grid-column:1/-1}
+.m-box .bl{font-size:.68rem;color:var(--text-sec);margin-bottom:2px}
+.m-box .bv{font-size:.88rem;font-weight:600}
+
+.m-score-row{display:flex;gap:8px}
+.m-score{flex:1;text-align:center;background:#f8f9fc;border-radius:var(--radius-sm);padding:10px 0}
+.m-score .sn{font-size:.7rem;color:var(--text-sec)}
+.m-score .sv{font-size:1.2rem;font-weight:700}
+.m-score .sv.yes{color:var(--success)}
+.m-score .sv.no{color:#d8dbe6}
+
+.m-checks{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.m-check{display:flex;align-items:center;gap:8px;background:#f8f9fc;border-radius:8px;padding:10px 12px}
+.m-check .ci{width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:700;flex-shrink:0}
+.m-check .ci.y{background:#e6f9f1;color:#00915e}
+.m-check .ci.n{background:#f0f0f5;color:#c0c5d8}
+.m-check .ct{font-size:.78rem;color:var(--text)}
+
+.m-note{background:#fff8ee;border-left:3px solid var(--warning);padding:10px 14px;border-radius:0 8px 8px 0;font-size:.82rem;color:#8b6914}
+
+.m-link-btn{display:block;width:100%;padding:14px;background:var(--primary);color:#fff;border:none;border-radius:var(--radius-sm);font-size:.9rem;font-weight:600;text-align:center;cursor:pointer;font-family:inherit;transition:background .15s}
+.m-link-btn:active{background:var(--primary-dark)}
+.m-url-hint{font-size:.68rem;color:var(--text-sec);margin-top:6px;word-break:break-all;text-align:center}
+
+/* === EMPTY / FOOTER === */
+.empty{text-align:center;padding:60px 20px}
+.empty-icon{font-size:3rem;margin-bottom:12px;display:block}
+.empty-text{color:var(--text-sec);font-size:.9rem}
+
+.footer{text-align:center;padding:20px 16px 40px;font-size:.72rem;color:var(--text-sec);line-height:1.8}
+.footer a{color:var(--primary);text-decoration:none}
+
+/* === RESPONSIVE === */
+@media(min-width:640px){
+  .hero h1{font-size:2rem}
+  .list{max-width:560px;margin:0 auto}
+  .controls{max-width:100%}
+  .modal{max-width:500px;left:50%;right:auto;transform:translateX(-50%) translateY(100%);border-radius:20px 20px 0 0}
+  .modal.open{transform:translateX(-50%) translateY(0)}
+}
+@media(min-width:900px){
+  .list{max-width:900px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .list .card{margin-bottom:0}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">📚 2026年3月 ~ 2027年3月</div>
+  <h1>大学院出愿情报</h1>
+  <p>生物・化学专业 帝国大 + 有名国公立 + 私立</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><span class="num" id="hUni">22</span><span class="label">大学</span></div>
+    <div class="hero-stat"><span class="num" id="hProg">51</span><span class="label">专业</span></div>
+    <div class="hero-stat"><span class="num" id="hNat">17</span><span class="label">国公立</span></div>
+  </div>
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input class="search-input" id="q" placeholder="搜索大学、研究科、専攻…" autocomplete="off">
+    <button class="clear-btn" id="clearBtn" onclick="document.getElementById('q').value='';this.classList.remove('show');rerender()">×</button>
+  </div>
+  <div class="filter-row" id="typeRow">
+    <span class="chip on" data-v="all">全部</span>
+    <span class="chip" data-v="国公立">🏛 国公立</span>
+    <span class="chip" data-v="私立">🎓 私立</span>
+  </div>
+  <div class="filter-row" id="catRow">
+    <span class="chip on" data-v="all">全学科</span>
+    <span class="chip" data-v="生命科学">🧬 生命科学</span>
+    <span class="chip" data-v="応用生化学">⚗️ 応用生化学</span>
+    <span class="chip" data-v="医学">🏥 医学</span>
+    <span class="chip" data-v="農学">🌿 農学</span>
+  </div>
+  <div class="sort-row" id="sortRow">
+    <div class="sort-btn on" data-v="uni">按大学</div>
+    <div class="sort-btn" data-v="deadline">按截止日</div>
+    <div class="sort-btn" data-v="exam">按考试日</div>
+  </div>
+</div>
+
+<div class="result-bar" id="resultBar"></div>
+
+<!-- LIST -->
+<div class="list" id="list"></div>
+<div class="empty" id="empty" style="display:none"><span class="empty-icon">🔍</span><span class="empty-text">没有找到匹配的项目<br>试试其他关键词</span></div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="overlay" onclick="closeModal()"></div>
+<div class="modal" id="modal">
+  <div class="modal-handle"></div>
+  <button class="modal-close" onclick="closeModal()">×</button>
+  <div class="modal-head" id="modalHead"></div>
+  <div class="modal-content" id="modalContent"></div>
+</div>
+
+<div class="footer">
+  <p>部分日程为参考上年度推算，请以各大学官网最新公布为准</p>
+  <p>最后更新: 2026年3月</p>
+</div>
+
+<script>
+const D=[
+{id:1,c:"医学",t:"国公立",u:"東京大学大学院",d:"新領域創成科学研究科",m:"メディカル情報生命専攻",co:"修士",ex:"多种共通",s:"2025-11-12",e:"2025-11-18",w:"2025-01-14",iv:"2026-01-16",r:"2026-02-12",jp:"任意",en:"必須",tf:"〇",tc:"×",il:"×",eN:"二年",ct:"×",pl:"〇",rs:"〇",rc:"×",ov:"〇",url:"https://www.cbms.k.u-tokyo.ac.jp/admission/"},
+{id:2,c:"生命科学",t:"国公立",u:"東京大学大学院",d:"新領域創成科学研究科",m:"先端生命科学専攻",co:"修士（博士前期）",ex:"留学生入試",e:"2026-01-09",iv:"2026-01-23",jp:"不要",en:"必須",tf:"〇",tc:"×",il:"×",eN:"二年",ct:"〇",pl:"〇",rs:"〇",ov:"〇"},
+{id:3,c:"応用生化学",t:"国公立",u:"東京大学大学院",d:"農学生命科学研究科",m:"応用生命化学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2025-11-21",e:"2025-11-27",w:"2026-01-30",iv:"2026-02-07",r:"2026-02-20",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"〇"},
+{id:4,c:"応用生化学",t:"国公立",u:"東京大学大学院",d:"理学系研究科",m:"化学専攻",co:"修士",ex:"一般入試",s:"2026-06-21",e:"2026-06-27",w:"2026-08-18",iv:"2026-08-29",r:"2026-09-20",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"×"},
+{id:5,c:"生命科学",t:"国公立",u:"東京大学大学院",d:"理学系研究科",m:"生物科学専攻",co:"修士",ex:"一般入試",s:"2026-06-21",e:"2026-06-27",w:"2026-08-18",iv:"2026-08-29",r:"2026-09-20",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"×"},
+{id:6,c:"医学",t:"国公立",u:"東京大学大学院",d:"医学系研究科",m:"医科学専攻",co:"修士",ex:"一般入試",s:"2026-06-21",e:"2026-06-30",w:"2026-08-21",iv:"2026-08-22",r:"2026-09-08",jp:"不要",en:"必須",tf:"〇",il:"〇",ct:"〇"},
+{id:7,c:"応用生化学",t:"国公立",u:"京都大学大学院",d:"理学研究科",m:"化学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-06-23",e:"2026-06-27",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",eN:"二年以内",ct:"〇",pl:"〇",url:"https://www.kuchem.kyoto-u.ac.jp/",nt:"2027年度は2026年春公開予定"},
+{id:8,c:"生命科学",t:"国公立",u:"京都大学大学院",d:"理学研究科",m:"生物科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-06-23",e:"2026-06-27",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",ct:"〇",pl:"〇"},
+{id:9,c:"生命科学",t:"国公立",u:"京都大学大学院",d:"生命科学研究科",m:"生命科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-06-30",e:"2026-07-01",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇",nt:"事前に教員への連絡必須"},
+{id:10,c:"応用生化学",t:"国公立",u:"京都大学大学院",d:"農学研究科",m:"応用生命科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"〇",nt:"日程は2026年6月頃公開予定"},
+{id:11,c:"生命科学",t:"国公立",u:"京都大学大学院",d:"農学研究科",m:"応用生物科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"〇"},
+{id:12,c:"医学",t:"国公立",u:"京都大学大学院",d:"医学研究科",m:"医科学専攻",co:"修士",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",il:"〇",ct:"〇",pl:"〇",rs:"〇",nt:"日程は2026年4月公開予定"},
+{id:13,c:"応用生化学",t:"国公立",u:"京都大学大学院",d:"薬学研究科",m:"薬科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"〇"},
+{id:14,c:"生命科学",t:"国公立",u:"大阪大学大学院",d:"生命機能研究科",m:"生命機能専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:15,c:"生命科学",t:"国公立",u:"大阪大学大学院",d:"理学研究科",m:"生物科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",ct:"〇",pl:"〇"},
+{id:16,c:"農学",t:"国公立",u:"東北大学大学院",d:"農学研究科",m:"応用生命科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-07-01",e:"2026-07-07",w:"2026-08-20",r:"2026-09-05",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:17,c:"農学",t:"国公立",u:"東北大学大学院",d:"農学研究科",m:"資源生物科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-07-01",e:"2026-07-07",w:"2026-08-20",r:"2026-09-05",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:18,c:"生命科学",t:"国公立",u:"東北大学大学院",d:"生命科学研究科",m:"分子生命科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-07-01",e:"2026-07-08",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:19,c:"生命科学",t:"国公立",u:"東北大学大学院",d:"生命科学研究科",m:"脳生命統御科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:20,c:"農学",t:"国公立",u:"名古屋大学大学院",d:"生命農学研究科",m:"応用生命科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:21,c:"農学",t:"国公立",u:"名古屋大学大学院",d:"生命農学研究科",m:"森林・環境資源科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:22,c:"農学",t:"国公立",u:"九州大学大学院",d:"生物資源環境科学府",m:"生命機能科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:23,c:"農学",t:"国公立",u:"九州大学大学院",d:"生物資源環境科学府",m:"資源生物科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:24,c:"生命科学",t:"国公立",u:"北海道大学大学院",d:"生命科学院",m:"生命科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-07-01",e:"2026-07-08",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:25,c:"生命科学",t:"国公立",u:"北海道大学大学院",d:"生命科学院",m:"ソフトマター専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:26,c:"生命科学",t:"国公立",u:"筑波大学大学院",d:"理工情報生命学術院",m:"生命地球科学研究群",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:27,c:"応用生化学",t:"国公立",u:"筑波大学大学院",d:"理工情報生命学術院",m:"数理物質科学研究群",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:28,c:"応用生化学",t:"国公立",u:"神戸大学大学院",d:"理学研究科",m:"化学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-06-30",e:"2026-07-03",w:"2026-08-25",iv:"2026-08-26",jp:"不要",en:"必須",tf:"×",tc:"〇",il:"×",eN:"TOEIC L&R公開テストのみ",url:"http://www.chem.sci.kobe-u.ac.jp/exam-info/master.html"},
+{id:29,c:"生命科学",t:"国公立",u:"神戸大学大学院",d:"理学研究科",m:"生物学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-06-30",e:"2026-07-03",w:"2026-08-25",iv:"2026-08-26",jp:"不要",en:"必須",tc:"〇",eN:"TOEIC L&R公開テストのみ",url:"https://www.sci.kobe-u.ac.jp/admissions/master.html"},
+{id:30,c:"生命科学",t:"国公立",u:"広島大学大学院",d:"統合生命科学研究科",m:"統合生命科学専攻",co:"修士（博士前期）",ex:"推薦入試A",s:"2026-06-06",e:"2026-06-12",w:"2026-07-05",r:"2026-07-18",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",url:"https://www.hiroshima-u.ac.jp/ilife/nyuusi_admission"},
+{id:31,c:"生命科学",t:"国公立",u:"広島大学大学院",d:"統合生命科学研究科",m:"統合生命科学専攻",co:"修士（博士前期）",ex:"一般入試",s:"2026-07-23",e:"2026-07-29",w:"2026-08-26",r:"2026-09-05",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",url:"https://www.hiroshima-u.ac.jp/ilife/nyuusi_admission"},
+{id:32,c:"生命科学",t:"国公立",u:"東京科学大学大学院",d:"生命理工学院",m:"生命理工学系",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",eN:"公式テストのみ",ct:"〇",pl:"〇",nt:"旧東京工業大学",url:"https://admissions.isct.ac.jp/ja/013/graduate/guideline"},
+{id:33,c:"応用生化学",t:"国公立",u:"東京科学大学大学院",d:"理学院",m:"化学系",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",eN:"公式テストのみ",ct:"〇",pl:"〇",url:"https://admissions.isct.ac.jp/ja/013/graduate/guideline"},
+{id:34,c:"生命科学",t:"国公立",u:"東京都立大学大学院",d:"理学研究科",m:"生命科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",pl:"〇"},
+{id:35,c:"応用生化学",t:"国公立",u:"金沢大学大学院",d:"自然科学研究科",m:"物質化学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",url:"https://www.nst.kanazawa-u.ac.jp/admission/master/"},
+{id:36,c:"生命科学",t:"国公立",u:"金沢大学大学院",d:"自然科学研究科",m:"生命科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",url:"https://www.nst.kanazawa-u.ac.jp/admission/master/"},
+{id:37,c:"生命科学",t:"国公立",u:"岡山大学大学院",d:"環境生命自然科学研究科",m:"生物科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",url:"https://www.elst.okayama-u.ac.jp/admission/"},
+{id:38,c:"応用生化学",t:"国公立",u:"岡山大学大学院",d:"環境生命自然科学研究科",m:"化学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",url:"https://www.elst.okayama-u.ac.jp/admission/"},
+{id:39,c:"応用生化学",t:"国公立",u:"横浜国立大学大学院",d:"理工学府",m:"化学・生命系理工学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",url:"https://www.fse.ynu.ac.jp/exam/exam/master.html"},
+{id:40,c:"生命科学",t:"国公立",u:"千葉大学大学院",d:"融合理工学府",m:"先進理化学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",ct:"〇",nt:"事前に教員への連絡必須",url:"https://www.se.chiba-u.jp/admission/"},
+{id:41,c:"生命科学",t:"国公立",u:"新潟大学大学院",d:"自然科学研究科",m:"生命・食料科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇"},
+{id:42,c:"応用生化学",t:"国公立",u:"新潟大学大学院",d:"自然科学研究科",m:"材料生産システム専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇"},
+{id:43,c:"生命科学",t:"国公立",u:"熊本大学大学院",d:"薬学教育部",m:"創薬・生命薬科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇"},
+{id:44,c:"医学",t:"私立",u:"慶應義塾大学大学院",d:"医学研究科",m:"医科学専攻",co:"修士",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",ct:"〇",pl:"〇",url:"https://www.st.keio.ac.jp/admissions/"},
+{id:45,c:"生命科学",t:"私立",u:"慶應義塾大学大学院",d:"理工学研究科",m:"基礎理工学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",ct:"〇",pl:"〇",url:"https://www.st.keio.ac.jp/admissions/rikou-m.html"},
+{id:46,c:"応用生化学",t:"私立",u:"早稲田大学大学院",d:"先進理工学研究科",m:"化学・生命化学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",ct:"〇",pl:"〇",url:"https://www.waseda.jp/fsci/admissions_gs/guidelines/master/"},
+{id:47,c:"生命科学",t:"私立",u:"早稲田大学大学院",d:"先進理工学研究科",m:"生命医科学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",ct:"〇",pl:"〇",url:"https://www.waseda.jp/fsci/admissions_gs/guidelines/master/"},
+{id:48,c:"応用生化学",t:"私立",u:"早稲田大学大学院",d:"先進理工学研究科",m:"応用化学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"必須",tf:"〇",tc:"〇",il:"〇",ct:"〇",pl:"〇",url:"https://www.waseda.jp/fsci/admissions_gs/guidelines/master/"},
+{id:49,c:"応用生化学",t:"私立",u:"東京理科大学大学院",d:"理学研究科",m:"化学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"任意",url:"https://www.tus.ac.jp/admissions/university/guideline/graduateschool/"},
+{id:50,c:"生命科学",t:"私立",u:"東京理科大学大学院",d:"先進工学研究科",m:"生命システム工学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"任意",url:"https://www.tus.ac.jp/admissions/university/guideline/graduateschool/"},
+{id:51,c:"生命科学",t:"私立",u:"上智大学大学院",d:"理工学研究科",m:"理工学専攻",co:"修士（博士前期）",ex:"一般入試",jp:"不要",en:"任意",ct:"〇",pl:"〇"}
+];
+
+const UO={'東京大学大学院':1,'京都大学大学院':2,'大阪大学大学院':3,'東北大学大学院':4,'名古屋大学大学院':5,'九州大学大学院':6,'北海道大学大学院':7,'東京科学大学大学院':8,'筑波大学大学院':9,'神戸大学大学院':10,'広島大学大学院':11,'千葉大学大学院':12,'金沢大学大学院':13,'岡山大学大学院':14,'横浜国立大学大学院':15,'東京都立大学大学院':16,'新潟大学大学院':17,'熊本大学大学院':18,'慶應義塾大学大学院':19,'早稲田大学大学院':20,'東京理科大学大学院':21,'上智大学大学院':22};
+const CC={'生命科学':'tag-bio','応用生化学':'tag-chem','医学':'tag-med','農学':'tag-agr'};
+
+let fType='all',fCat='all',fSort='uni';
+const now=new Date();
+
+function ds(d){if(!d)return'';const dt=new Date(d),df=(dt-now)/864e5;return df<0?'past':df<30?'soon':'future'}
+function fd(d){return d?d.substring(5):''}
+
+function chipSetup(id,setter){
+  document.getElementById(id).addEventListener('click',e=>{
+    const ch=e.target.closest('.chip');if(!ch)return;
+    document.getElementById(id).querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+    ch.classList.add('on');setter(ch.dataset.v);rerender();
+  });
+}
+chipSetup('typeRow',v=>{fType=v});
+chipSetup('catRow',v=>{fCat=v});
+document.getElementById('sortRow').addEventListener('click',e=>{
+  const b=e.target.closest('.sort-btn');if(!b)return;
+  document.getElementById('sortRow').querySelectorAll('.sort-btn').forEach(c=>c.classList.remove('on'));
+  b.classList.add('on');fSort=b.dataset.v;rerender();
+});
+document.getElementById('q').addEventListener('input',e=>{
+  document.getElementById('clearBtn').classList.toggle('show',!!e.target.value);
+  rerender();
+});
+
+function rerender(){
+  const kw=document.getElementById('q').value.toLowerCase();
+  let list=D.filter(r=>{
+    if(fType!=='all'&&r.t!==fType)return false;
+    if(fCat!=='all'&&r.c!==fCat)return false;
+    if(kw&&!(r.u+r.d+r.m+(r.nt||'')).toLowerCase().includes(kw))return false;
+    return true;
+  });
+  if(fSort==='deadline')list.sort((a,b)=>(a.e||'z').localeCompare(b.e||'z'));
+  else if(fSort==='exam')list.sort((a,b)=>((a.w||a.iv||'z')).localeCompare(b.w||b.iv||'z'));
+  else list.sort((a,b)=>(UO[a.u]||99)-(UO[b.u]||99));
+
+  const unis=new Set(list.map(r=>r.u));
+  document.getElementById('resultBar').innerHTML=`<span>${unis.size} 校 · ${list.length} 个专业</span><span style="font-size:.7rem">${fSort==='deadline'?'按截止日排序':fSort==='exam'?'按考试日排序':'按大学排序'}</span>`;
+
+  const el=document.getElementById('list');
+  const em=document.getElementById('empty');
+  if(!list.length){el.innerHTML='';em.style.display='';return}
+  em.style.display='none';
+
+  el.innerHTML=list.map(r=>{
+    const isN=r.t==='国公立';
+    const dates=[];
+    if(r.e)dates.push({l:'截止',v:fd(r.e),s:ds(r.e)});
+    if(r.w)dates.push({l:'笔试',v:fd(r.w),s:ds(r.w)});
+    if(r.iv)dates.push({l:'面试',v:fd(r.iv),s:ds(r.iv)});
+    if(r.r)dates.push({l:'发表',v:fd(r.r),s:ds(r.r)});
+    const enPills=[];
+    if(r.tf==='〇')enPills.push('TOEFL');
+    if(r.tc==='〇')enPills.push('TOEIC');
+    if(r.il==='〇')enPills.push('IELTS');
+
+    return`<div class="card" onclick="openModal(${r.id})">
+<div class="card-accent ${isN?'nat':'pri'}"></div>
+<div class="card-body">
+<div class="card-top"><div class="card-uni">${r.u}</div><div class="type-badge ${isN?'nat':'pri'}">${r.t}</div></div>
+<div class="card-dept">${r.d}</div>
+<div class="card-major">${r.m}</div>
+<div class="card-tags"><span class="tag ${CC[r.c]||'tag-bio'}">${r.c}</span><span class="tag" style="background:#f0f4ff;color:#4f6df5">${r.ex}</span></div>
+${dates.length?`<div class="dates-grid">${dates.map(dd=>`<div class="date-box"><div class="dl">${dd.l}</div><div class="dv ${dd.s}">${dd.v}</div></div>`).join('')}</div>`:`<div class="no-date">日程未公開</div>`}
+<div class="card-bottom">
+<div class="eng-pills">${r.en==='必須'?'<span class="eng-req">英语必須</span>':'<span class="eng-opt">英语任意</span>'}${enPills.map(p=>`<span class="eng-pill">${p}</span>`).join('')}</div>
+<span class="arrow">详情 ›</span>
+</div></div></div>`;
+  }).join('');
+}
+
+function openModal(id){
+  const r=D.find(x=>x.id===id);if(!r)return;
+  const isN=r.t==='国公立';
+  document.getElementById('modalHead').innerHTML=`
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><span class="m-uni">${r.u}</span><span class="type-badge ${isN?'nat':'pri'}" style="font-size:.65rem">${r.t}</span></div>
+<div class="m-dept">${r.d}</div><div class="m-major">${r.m}</div>
+<div style="display:flex;gap:5px;margin-top:8px"><span class="tag ${CC[r.c]||'tag-bio'}">${r.c}</span><span class="tag" style="background:#f0f4ff;color:#4f6df5">${r.co}</span><span class="tag" style="background:#f8f9fc;color:#6b7294">${r.ex}</span></div>`;
+
+  let html='';
+  // dates
+  html+=`<div class="m-section"><div class="m-section-title">📅 日程</div><div class="m-grid">
+<div class="m-box"><div class="bl">出愿开始</div><div class="bv ${ds(r.s)}">${r.s||'未定'}</div></div>
+<div class="m-box"><div class="bl">出愿截止</div><div class="bv ${ds(r.e)}">${r.e||'未定'}</div></div>
+<div class="m-box"><div class="bl">笔试</div><div class="bv ${ds(r.w)}">${r.w||'未定'}</div></div>
+<div class="m-box"><div class="bl">面试</div><div class="bv ${ds(r.iv)}">${r.iv||'未定'}</div></div>
+<div class="m-box full"><div class="bl">合格发表</div><div class="bv">${r.r||'未定'}</div></div>
+</div></div>`;
+  // jp
+  html+=`<div class="m-section"><div class="m-section-title">🇯🇵 日语</div><div class="m-box full"><div class="bl">提出要求</div><div class="bv" style="color:${r.jp==='必須'?'var(--danger)':r.jp==='不要'?'var(--text-sec)':'var(--text)'}">${r.jp||'-'}</div></div></div>`;
+  // en
+  html+=`<div class="m-section"><div class="m-section-title">🇬🇧 英语</div>
+<div class="m-box full" style="margin-bottom:8px"><div class="bl">提出要求</div><div class="bv" style="color:${r.en==='必須'?'var(--danger)':'var(--text-sec)'}">${r.en||'-'}</div></div>
+<div class="m-score-row">
+<div class="m-score"><div class="sn">TOEFL</div><div class="sv ${r.tf==='〇'?'yes':'no'}">${r.tf||'-'}</div></div>
+<div class="m-score"><div class="sn">TOEIC</div><div class="sv ${r.tc==='〇'?'yes':'no'}">${r.tc||'-'}</div></div>
+<div class="m-score"><div class="sn">IELTS</div><div class="sv ${r.il==='〇'?'yes':'no'}">${r.il||'-'}</div></div>
+</div>
+${r.eN?`<div class="m-note" style="margin-top:8px">${r.eN}</div>`:''}</div>`;
+  // checks
+  const checks=[['ct','事前联系教授'],['pl','研究計画書'],['rs','志望理由書'],['rc','推薦書'],['ov','海外出愿可']];
+  html+=`<div class="m-section"><div class="m-section-title">📋 材料要求</div><div class="m-checks">
+${checks.map(([k,l])=>`<div class="m-check"><span class="ci ${r[k]==='〇'?'y':'n'}">${r[k]==='〇'?'✓':'—'}</span><span class="ct">${l}</span></div>`).join('')}
+</div></div>`;
+  // note
+  if(r.nt)html+=`<div class="m-section"><div class="m-section-title">📝 备考</div><div class="m-note">${r.nt}</div></div>`;
+  // url
+  if(r.url)html+=`<div class="m-section"><button class="m-link-btn" onclick="navigator.clipboard?navigator.clipboard.writeText('${r.url}').then(()=>alert('链接已复制')):prompt('请复制以下链接:','${r.url}')">📎 复制募集要項链接</button><div class="m-url-hint">${r.url}</div></div>`;
+
+  document.getElementById('modalContent').innerHTML=html;
+  document.getElementById('overlay').classList.add('open');
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){
+  document.getElementById('overlay').classList.remove('open');
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+rerender();
+</script>
+</body>
+</html>
