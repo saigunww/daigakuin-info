@@ -1,0 +1,1 @@
+# daigakuin-info
