@@ -5,7 +5,7 @@
       "name": "何同学",
       "university": "同志社大学理工学部",
       "year": "2027",
-      "subject": "other",
+      "subject": "chem",
       "image": "assets/honors/05bf9776b8c1e9d6f74e7fc4.webp"
     },
     {
@@ -13,55 +13,23 @@
       "name": "何同学",
       "university": "立命館大学生命科学部",
       "year": "2027",
-      "subject": "other",
+      "subject": "chem",
       "image": "assets/honors/25145edb4a96b4366d8da3c4.webp"
-    },
-    {
-      "id": "253f4109c8ac496d1ffc9b2c04b5c9f0c187a1c79791b530069876759e652b85",
-      "name": "喬同学",
-      "university": "東京大学理学系研究科",
-      "year": "2027",
-      "subject": "other",
-      "image": "assets/honors/253f4109c8ac496d1ffc9b2c.webp"
     },
     {
       "id": "330ecadd0b3962813363963fa14cb923ccf4e919d74e847b8ea275221665c7b7",
       "name": "崔同学",
       "university": "筑波大学理工情報生命学術院",
       "year": "2027",
-      "subject": "other",
+      "subject": "chem",
       "image": "assets/honors/330ecadd0b3962813363963f.webp"
-    },
-    {
-      "id": "1ff2043d8f5d618a046406b27469b5380e4b74fe8b0562ac6bc8cb733925e104",
-      "name": "張同学",
-      "university": "東京大学医学系研究科",
-      "year": "2027",
-      "subject": "other",
-      "image": "assets/honors/1ff2043d8f5d618a046406b2.webp"
-    },
-    {
-      "id": "cb48aa67a56a0f4a5d83950ebb6caeea867410b0636e9f3fb2b0f43a76d7ae6f",
-      "name": "王同学",
-      "university": "京都大学理学研究科",
-      "year": "2027",
-      "subject": "other",
-      "image": "assets/honors/cb48aa67a56a0f4a5d83950e.webp"
-    },
-    {
-      "id": "b5cd6c518d84c24d75e81c526fb663b4580186963f0d333128f9d653290d1bb2",
-      "name": "王同学",
-      "university": "東京大学医学系研究科",
-      "year": "2027",
-      "subject": "other",
-      "image": "assets/honors/b5cd6c518d84c24d75e81c52.webp"
     },
     {
       "id": "f3cf3985a634d79d20d02c229478abbc3456c8346b2caa415ae5d7b4641eb3a9",
       "name": "王同学",
       "university": "東京大学工学系研究科",
       "year": "2027",
-      "subject": "other",
+      "subject": "chem",
       "image": "assets/honors/f3cf3985a634d79d20d02c22.webp"
     },
     {
@@ -69,15 +37,55 @@
       "name": "王同学",
       "university": "東京大学理学系研究科",
       "year": "2027",
-      "subject": "other",
+      "subject": "chem",
       "image": "assets/honors/7ce2b37918a21cfc2d55a5c6.webp"
+    },
+    {
+      "id": "eed411109f1dd6aea1cf2790b1dec46bb212ceffb607cd9839696db4f90d003b",
+      "name": "金同学",
+      "university": "東京大学新領域創成科学研究科",
+      "year": "2027",
+      "subject": "chem",
+      "image": "assets/honors/eed411109f1dd6aea1cf2790.webp"
+    },
+    {
+      "id": "253f4109c8ac496d1ffc9b2c04b5c9f0c187a1c79791b530069876759e652b85",
+      "name": "喬同学",
+      "university": "東京大学理学系研究科",
+      "year": "2027",
+      "subject": "bio",
+      "image": "assets/honors/253f4109c8ac496d1ffc9b2c.webp"
+    },
+    {
+      "id": "1ff2043d8f5d618a046406b27469b5380e4b74fe8b0562ac6bc8cb733925e104",
+      "name": "張同学",
+      "university": "東京大学医学系研究科",
+      "year": "2027",
+      "subject": "bio",
+      "image": "assets/honors/1ff2043d8f5d618a046406b2.webp"
+    },
+    {
+      "id": "cb48aa67a56a0f4a5d83950ebb6caeea867410b0636e9f3fb2b0f43a76d7ae6f",
+      "name": "王同学",
+      "university": "京都大学理学研究科",
+      "year": "2027",
+      "subject": "bio",
+      "image": "assets/honors/cb48aa67a56a0f4a5d83950e.webp"
+    },
+    {
+      "id": "b5cd6c518d84c24d75e81c526fb663b4580186963f0d333128f9d653290d1bb2",
+      "name": "王同学",
+      "university": "東京大学医学系研究科",
+      "year": "2027",
+      "subject": "bio",
+      "image": "assets/honors/b5cd6c518d84c24d75e81c52.webp"
     },
     {
       "id": "e3730b0f50f79690df4bddda0fa2a61520ec6517aab9f65f612720c81a0acd41",
       "name": "邵同学",
       "university": "東京慈恵会医科大学医学研究科",
       "year": "2027",
-      "subject": "other",
+      "subject": "bio",
       "image": "assets/honors/e3730b0f50f79690df4bddda.webp"
     },
     {
@@ -85,16 +93,8 @@
       "name": "鄧同学",
       "university": "順天堂大学医学研究科",
       "year": "2027",
-      "subject": "other",
+      "subject": "bio",
       "image": "assets/honors/5ebfc44c854a0d21b6e951e7.webp"
-    },
-    {
-      "id": "eed411109f1dd6aea1cf2790b1dec46bb212ceffb607cd9839696db4f90d003b",
-      "name": "金同学",
-      "university": "東京大学新領域創成科学研究科",
-      "year": "2027",
-      "subject": "other",
-      "image": "assets/honors/eed411109f1dd6aea1cf2790.webp"
     },
     {
       "id": "932f4d77af57d0f4a5bce0112740921eb41c0fa4993fe67d5ceef5da30e562c5",
@@ -441,5 +441,5 @@
       "image": "assets/honors/45aa9ac885746928283d8db2.webp"
     }
   ],
-  "updated_at": "2026-11-12T13:42:39+09:00"
+  "updated_at": "2026-11-12T14:06:32+09:00"
 }
