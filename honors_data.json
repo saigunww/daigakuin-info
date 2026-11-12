@@ -321,6 +321,14 @@
       "image": "assets/honors/2b2b4d553b4bb647128ed81e.webp"
     },
     {
+      "id": "c1cdcb6832297e5b12348a9bfb0de378458598ac4bf12a328cf741b1e23bb246",
+      "name": "艾同学",
+      "university": "東京理科大学工学研究科",
+      "year": "2026",
+      "subject": "chem",
+      "image": "assets/honors/c1cdcb6832297e5b12348a9b.webp"
+    },
+    {
       "id": "672075a0ed034200ee0a10bf5b31827190aab9b9031176e793026b0d12770ca2",
       "name": "閔同学",
       "university": "東京大学総合文化研究科",
@@ -489,6 +497,30 @@
       "image": "assets/honors/a8e7ac1c14fb3eadf11e9eca.webp"
     },
     {
+      "id": "96195b22d1a5fad39ebe0a720dbfd3b0617afcff71d9fba7f337ba50948e3912",
+      "name": "刘同学",
+      "university": "東京大学工学系研究科",
+      "year": "2026",
+      "subject": "bio",
+      "image": "assets/honors/96195b22d1a5fad39ebe0a72.webp"
+    },
+    {
+      "id": "9d57a2d876e35969ce45822fbef6cd862a737ce3ce9e15ee422eb9f2a4eb9536",
+      "name": "刘同学",
+      "university": "東京科学大学環境・社会理工学院",
+      "year": "2026",
+      "subject": "bio",
+      "image": "assets/honors/9d57a2d876e35969ce45822f.webp"
+    },
+    {
+      "id": "e5a3d3e53e74001d862d29ad7eacf50ca7cba44185376b6fe1de4fd254f9bef0",
+      "name": "尹同学",
+      "university": "東京大学新領域創成科学研究科",
+      "year": "2026",
+      "subject": "bio",
+      "image": "assets/honors/e5a3d3e53e74001d862d29ad.webp"
+    },
+    {
       "id": "4551879b6e1ca58b688f846acf81615a5850ea3870fb4dfb2ef27274555716e9",
       "name": "尹同学",
       "university": "東京大学理学系研究科",
@@ -511,6 +543,14 @@
       "year": "2026",
       "subject": "bio",
       "image": "assets/honors/70bd41a0b435fcbcc98302d1.webp"
+    },
+    {
+      "id": "c2b49d7687513f2ed08098f306065d2881968eb0dbe54b5d76406f634ad71e51",
+      "name": "张同学",
+      "university": "東京理科大学薬学研究科",
+      "year": "2026",
+      "subject": "bio",
+      "image": "assets/honors/c2b49d7687513f2ed08098f3.webp"
     },
     {
       "id": "16f20305dbda341a14ce116011ab5f4aba665c228b027308f4cea2c4e223d601",
@@ -657,5 +697,5 @@
       "image": "assets/honors/45aa9ac885746928283d8db2.webp"
     }
   ],
-  "updated_at": "2026-11-12T15:44:46+09:00"
+  "updated_at": "2026-11-12T15:59:35+09:00"
 }
