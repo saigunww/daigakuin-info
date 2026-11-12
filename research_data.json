@@ -1,6 +1,39 @@
 {
   "items": [
     {
+      "id": "doi:10.1017/thg.2026.10113",
+      "doi": "10.1017/thg.2026.10113",
+      "title": "Detection of Silent Carriers of Spinal Muscular Atrophy: A Survey of Clinical Practice and Recommendations for Screening.",
+      "summary": "",
+      "source": "Twin research and human genetics : the official journal of the International Society for Twin Studies",
+      "published_at": "2026-11-12",
+      "url": "https://doi.org/10.1017/thg.2026.10113",
+      "added_on": "2026-11-13",
+      "category": "biology"
+    },
+    {
+      "id": "doi:10.1021/acsami.6c16436",
+      "doi": "10.1021/acsami.6c16436",
+      "title": "Electrode-Side Catalytic Regulation Directs Electrolyte Decomposition for Stable Silicon Anodes.",
+      "summary": "",
+      "source": "ACS applied materials & interfaces",
+      "published_at": "2026-11-12",
+      "url": "https://doi.org/10.1021/acsami.6c16436",
+      "added_on": "2026-11-13",
+      "category": "chemistry"
+    },
+    {
+      "id": "doi:10.1093/rheumatology/keag626",
+      "doi": "10.1093/rheumatology/keag626",
+      "title": "Endothelial IFI16 drives vasculopathy and profibrotic remodeling in systemic sclerosis by activating JAK/STAT signaling.",
+      "summary": "",
+      "source": "Rheumatology (Oxford, England)",
+      "published_at": "2026-11-12",
+      "url": "https://doi.org/10.1093/rheumatology/keag626",
+      "added_on": "2026-11-13",
+      "category": "ai"
+    },
+    {
       "id": "doi:10.2141/jpsa.2026026",
       "doi": "10.2141/jpsa.2026026",
       "title": "Effect of Sea-Freight Vibrations and Microclimates on Blood Chemistry, Weight Loss, and Meat Quality: A Comparison of Speedboat and Ferry Transit in Broilers.",
@@ -34,5 +67,5 @@
       "category": "ai"
     }
   ],
-  "updated_at": "2026-11-12T13:15:47+09:00"
+  "updated_at": "2026-11-13T00:18:15+09:00"
 }

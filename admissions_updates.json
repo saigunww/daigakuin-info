@@ -7,7 +7,7 @@
         1
       ],
       "title": "大学院医学系研究科入学:東京大学大学院医学系研究科・医学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "4c393b555b294fe5d6e2e8805dfb89e5196e07040fb40c5659bf42041eb35660",
@@ -54,7 +54,7 @@
         2
       ],
       "title": "学生募集要項(医科学専攻(5年一貫制博士課程)) | 京都大学大学院医学研究科・医学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "00135f4e4704cd7f0458a2345f695068bc3f9aaaae13ac71047e7073891ffef0",
@@ -85,7 +85,7 @@
         3
       ],
       "title": "入試情報【修士課程】 | \t大阪大学医学系研究科・医学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "7d16b591b84b44777353557e9940a708b9908a50984326f15c99eb26157eff82",
@@ -124,7 +124,7 @@
         4
       ],
       "title": "募集要項 | 東北大学大学院医学系研究科・医学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "206314a8b545a2d03d37a149cb29490beb03ef36d993a6de92a88a8b8de383c7",
@@ -163,7 +163,7 @@
         5
       ],
       "title": "入試情報|名古屋大学大学院医学系研究科・医学部医学科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "978fe617503c7cdfd60d3d658cc1c87f53b0eaeb288c1b7e687affe5302b8d93",
@@ -206,7 +206,7 @@
         6
       ],
       "title": "入試情報 | 医科学専攻(修士) | 入学希望の方 | 九州大学 大学院 医学系学府 医科学専攻・医学専攻",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "efb5e22e76dfac3d10a3e3a886bc370f8a94003024d4d333074171fe418eea51",
@@ -238,7 +238,7 @@
         7
       ],
       "title": "修士課程受験案内 | 北海道大学 医学部医学科|大学院医学院|大学院医理工学院|大学院医学研究院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "a61a0c53b27c7da436b7d246a1234e4f4696a4c41919923d9744213a77bdd138",
@@ -261,7 +261,7 @@
         8
       ],
       "title": "修士課程・博士前期課程 (医学系) 募集要項 | 筑波大学大学院 募集要項",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "8c44dbf9b04d5593489f3890274fa415b88dffceb312994c4baa043d4dda3376",
@@ -308,7 +308,7 @@
         9
       ],
       "title": "入学試験情報 | 大学院を目指す皆様へ | 国立大学法人 千葉大学 大学院医学薬学府",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "0a263c1b7e1770d1ad6e552907a23e8b03b6a7354ffe4f19f904ff04daa57011",
@@ -355,7 +355,7 @@
         10
       ],
       "title": "入試情報 | 広島大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "b98d57838ed5e4c42a526cf59f29e8cd6f13d5fc78d7b444163d73c1c57a91b1",
@@ -385,7 +385,7 @@
         11
       ],
       "status": "unavailable",
-      "attempted_on": "2026-11-12",
+      "attempted_on": "2026-11-13",
       "error": "SSLError",
       "notices": [],
       "application_windows": []
@@ -397,10 +397,10 @@
         12
       ],
       "title": "医学部/大学院医学研究科 | 慶應義塾大学",
-      "checked_on": "2026-11-12",
-      "changed_on": "2026-11-12",
+      "checked_on": "2026-11-13",
+      "changed_on": "2026-11-13",
       "status": "ok",
-      "fingerprint": "93d02200f94edc8e69584946d2d8359799cf9aaf20519af29ff9fb9ea34217a3",
+      "fingerprint": "7050f92ee83eb1ba12856d4179265b5e73cf6850c35a53d865e90a35e915932a",
       "notices": [],
       "application_windows": []
     },
@@ -411,7 +411,7 @@
         13
       ],
       "title": "募集要項|順天堂大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "d126ed104a743c4c748bdc8f1d6c0e75c2ca8c0f1d95fab4311322018b20a84c",
@@ -467,7 +467,7 @@
         14
       ],
       "title": "入試情報|大学院入試情報|東京大学大学院 薬学系研究科・薬学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "20211aa21ffbeb29ad13e887017b5124cfa630473a849d5542e533bb876b66a1",
@@ -494,7 +494,7 @@
         15
       ],
       "title": "修士課程 | 京都大学大学院薬学研究科・薬学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "7b646e2d72512b33380cf73ede6caa04a038b30d7821477f91fbaaa3661efaa6",
@@ -533,7 +533,7 @@
         16
       ],
       "title": "大阪大学 大学院薬学研究科 薬学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "a27480daccdc2a51e5fe3219153251fef47cedc380b9a3f3263f1e573f7f4992",
@@ -560,7 +560,7 @@
         17
       ],
       "title": "入学案内 大学院薬学研究科 – 東北大学大学院薬学研究科・薬学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "c6422aef3bd9ddb0e2b84f2fbd413ef279875cd5c7f524c369dbe986a862676c",
@@ -607,7 +607,7 @@
         18
       ],
       "title": "大学院入試情報 | 在学生の皆様 | 九州大学大学院薬学研究院大学院薬学府 薬学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "782b65c5b1307aed97dbd81312961f728b605f89bedd83bb4e482c631d197aa2",
@@ -642,7 +642,7 @@
         19
       ],
       "title": "大学院に入学希望の方へ|薬学部・大学院薬学研究院|北海道大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "f736014e81eaf045dc5fd9fbc69f670e19eb4bd12c6665a25aa401a6300a076b",
@@ -669,7 +669,7 @@
         20
       ],
       "title": "大学院を目指す皆様へ | 国立大学法人 千葉大学 大学院医学薬学府",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "9ca11700de0ee11a113c8a8579de05b0118bbb4328c7de0bdf31fdc78c4477ac",
@@ -688,7 +688,7 @@
         21
       ],
       "title": "大学院の入試情報|入試情報|金沢大学 医薬保健学域 薬学類 / 大学院医薬保健学総合研究科 薬学専攻・創薬科学専攻",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "c102e20cdc7c0d01061c92a978fb97102c3ae5c76aefa3c12b67b4d0897f66da",
@@ -735,10 +735,10 @@
         22
       ],
       "title": "大学院入試情報 | 熊本大学 薬学部・大学院薬学教育部",
-      "checked_on": "2026-11-12",
-      "changed_on": "2026-11-12",
+      "checked_on": "2026-11-13",
+      "changed_on": "2026-11-13",
       "status": "ok",
-      "fingerprint": "0fab2309ad4197027198285a6f70383ba3a94310b0416d87f86daca39b831439",
+      "fingerprint": "ed36cc2a4daea4918891f1f2105005b51ad1fa8b5c5d244121fd89c5bcc07965",
       "notices": [
         {
           "title": "(募集要項)",
@@ -782,10 +782,10 @@
         23
       ],
       "title": "慶應義塾",
-      "checked_on": "2026-11-12",
-      "changed_on": "2026-11-12",
+      "checked_on": "2026-11-13",
+      "changed_on": "2026-11-13",
       "status": "ok",
-      "fingerprint": "fc104cc769c4fb7fe5441128584deb14cf14164899da5814402832fb95ee1762",
+      "fingerprint": "cf083dfe1a6088b9d28cc4159e70009e310880de8c713cfa42eab5d206afd0b9",
       "notices": [],
       "application_windows": []
     },
@@ -796,7 +796,7 @@
         24
       ],
       "title": "学生募集要項|入試情報|受験生サイト|東京薬科大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "6c1a2179ce389afda731ee19fe3a7aa3139cee72e33e811eb0e899ad3657ad5c",
@@ -839,10 +839,10 @@
         25
       ],
       "title": "募集要項・出願用紙|北里大学",
-      "checked_on": "2026-11-12",
-      "changed_on": "2026-11-12",
+      "checked_on": "2026-11-13",
+      "changed_on": "2026-11-13",
       "status": "ok",
-      "fingerprint": "f4ef41b5eeb408c47163eb3c779621187dd528c808206c9e93050dfb8139c541",
+      "fingerprint": "4e580c4c272805a67c3a02f41401122d8db0a6fff0536c825f292a84f5e50445",
       "notices": [
         {
           "title": "大学学部 募集要項",
@@ -886,7 +886,7 @@
         26
       ],
       "title": "入試案内・募集要項 | 東京大学大学院農学生命科学研究科・農学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "7d5f70c27f43284df5abcd18dd42a59f7f375fdc8ef8243d580f717539af4272",
@@ -925,10 +925,10 @@
         27
       ],
       "title": "大学院入試 | 京都大学 農学研究科/農学部",
-      "checked_on": "2026-11-12",
-      "changed_on": "2026-11-12",
+      "checked_on": "2026-11-13",
+      "changed_on": "2026-11-13",
       "status": "ok",
-      "fingerprint": "a1b90c4ba2c352eb693a93c0079614c93071d927326026e01a97dc00c832dcad",
+      "fingerprint": "edb28630c3fafe989cf14304efb421a1f6df9813c35d8439ed9bdee7b25c77b4",
       "notices": [
         {
           "title": "【お知らせ】2027年度修士課程入学試験合格者のみなさまへ(入学手続について)",
@@ -972,7 +972,7 @@
         28
       ],
       "title": "募集要項等 | 大阪大学 大学院 生命機能研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "19dcf9971d0284ab7f661b3963ee504d9af6fcb134837a66241cf420f39575af",
@@ -999,7 +999,7 @@
         29
       ],
       "title": "東北大学 大学院農学研究科・農学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "083670100b1a5a353d4f97a6a8da662eaf95e5b43feb20c71b1071e06f91b690",
@@ -1054,7 +1054,7 @@
         30
       ],
       "status": "unavailable",
-      "attempted_on": "2026-11-12",
+      "attempted_on": "2026-11-13",
       "error": "SSLError",
       "notices": [],
       "application_windows": []
@@ -1066,7 +1066,7 @@
         31
       ],
       "title": "国際・留学 | 九州大学-農学部 大学院生物資源環境科学府 大学院農学研究院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "9dbdcbeaed8d128ca56cb64f2a7d333b428bf6aedcc015ef117dff7b246ee8a1",
@@ -1089,7 +1089,7 @@
         32
       ],
       "title": "農学部入試情報 – 北海道大学 農学部/大学院農学院/大学院農学研究院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "eabad6e6084ef77874e7c16394faa08d7c4bd8cf0eaffee508de6fbf8fcac6ca",
@@ -1104,7 +1104,7 @@
         92
       ],
       "title": "筑波大学大学院 募集要項",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "6355aedcb5e72ae4473a84682c4093629d586ac8646ab594c26bc21af5604701",
@@ -1151,7 +1151,7 @@
         34
       ],
       "title": "入試情報 | 広島大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "5791a07d41806cab62b195293299178051ec39a4e97ae7aca1cb17100670553f",
@@ -1198,7 +1198,7 @@
         35
       ],
       "title": "博士課程前期課程入試情報 | 神戸大学大学院農学研究科・神戸大学農学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "2d1d36fb06f77cd5e8691075ab463ac4dedfd8bae04d1ca936b9a6057be43b4a",
@@ -1238,7 +1238,7 @@
         95
       ],
       "title": "入試 | 大学院 自然科学研究科 | 岡山大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "7315b1155b2dcbfe0ba68263a1fc326bef1dfe671882ea15ec0042054160eae4",
@@ -1256,7 +1256,7 @@
         98
       ],
       "title": "修士課程  –  早稲田大学 理工学術院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "7beafa3c63898a66b36d824c73ae47ce93c6fe0d583848e347874edfa55d4365",
@@ -1275,7 +1275,7 @@
         38
       ],
       "title": "募集要項・出願様式等 | 東京農業大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "0207f1f8a4d257dc56e3d6a2249e1e7707ac0ebeb49ace8854f0dfeebc480b46",
@@ -1302,7 +1302,7 @@
         39
       ],
       "title": "入試日程・募集要項 | 明治大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "876d06fcd93aa549cdd337ea2b0c8601e037e47c98dea61a40280dfe43f25ec2",
@@ -1358,7 +1358,7 @@
         40
       ],
       "title": "試験日程 | 東京大学大学院 新領域創成科学研究科 メディカル情報生命専攻",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "2226bfe4a3e4eedcdb3cb0d40b7fa0cd6682672aa7e20dc43f7659fedd51d2fe",
@@ -1389,7 +1389,7 @@
         41
       ],
       "title": "修士課程入学案内 - 東京大学 大学院理学系研究科・理学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "690c8e302d99c3cfca71783f83f3086c54b43bca2c606127afe6a353f06be1fc",
@@ -1412,7 +1412,7 @@
         42
       ],
       "title": "募集要項 | 京都大学大学院生命科学研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "55cf0c4916e8618501e49b772bd267b9695119bcdcfe236b587fa720c86902db",
@@ -1455,7 +1455,7 @@
         43
       ],
       "title": "入試情報(大学院)|大阪大学大学院理学研究科 生物科学専攻・生物科学科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "27685845a263ec4ade28902f1bf505beaa5634138c0c42cb2d99d7bece0a4373",
@@ -1490,7 +1490,7 @@
         44
       ],
       "title": "入試日程・募集要項|東北大学 大学院 生命科学研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "0a427253097c126be89e891920136c7c7d77f78e1ff62738fa1fdd5b80d91131",
@@ -1537,7 +1537,7 @@
         45
       ],
       "title": "大学院入試案内 | 入試情報 | 名古屋大学理学部 大学院 理学研究科/多元数理科学研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "2fc7e8ee86d642244c5c1d7bcab85f9cfcfe583a77aa3fb15f45ed091d3aef65",
@@ -1585,7 +1585,7 @@
         76
       ],
       "title": "大学院入試 | 九州大学 理学研究院 理学府 理学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "73defe36909f7f1ea1a16539c8ade610b8cf804499b930c4ccb0eae88b00707a",
@@ -1612,7 +1612,7 @@
         47
       ],
       "title": "入試:募集要項・スケジュール | 北海道大学 大学院 生命科学院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "09b8ecd1a961702f83067c512020ce7108a1cb08952b9b0ebbe1176e00b24a67",
@@ -1632,7 +1632,7 @@
         79
       ],
       "title": "大学院・博士課程前期課程(修士) | 神戸大学大学院理学研究科・理学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "d94086d815a84f4a55b0a407c6ad8f91dbe6dcb17c5b557e89b02d814fc1e853",
@@ -1679,7 +1679,7 @@
         49
       ],
       "title": "入試情報 | 横浜国立大学・環境情報学府",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "324467efb7a759f7533bf9c04020a9aa005cd502bc131958845838fd12d943e6",
@@ -1706,7 +1706,7 @@
         50
       ],
       "title": "各要項一覧・請求方法 | 京都大学理学研究科・理学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "5c9d4f708c126cc341c52e2b0a14f9e5a211755972125c4cd42192334b9664fb",
@@ -1728,7 +1728,7 @@
         51
       ],
       "status": "unavailable",
-      "attempted_on": "2026-11-12",
+      "attempted_on": "2026-11-13",
       "error": "HTTPError",
       "notices": [],
       "application_windows": []
@@ -1742,7 +1742,7 @@
         97
       ],
       "title": "2026年度 理工学研究科 修士課程入学試験(2026年9月、2027年4月入学者向け) | 修士課程入学試験 | 慶應義塾",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "0f3ff994102bd868a9927ac269420f56dd665b56397bfdec917ae2e6e6e7a258",
@@ -1792,7 +1792,7 @@
         99
       ],
       "title": "入学者募集要項(大学院入試)|東京理科大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "7b95aff24b2d4a522b8179083ae669f45d02795008f133a73ff4aae05fa5ff05",
@@ -1839,7 +1839,7 @@
         55
       ],
       "title": "入試について | 生命科学研究科 | 立命館大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "93775ad44650236a305a76d2fe97d3050828644f816b47cac4199c89b84ad78d",
@@ -1862,7 +1862,7 @@
         56
       ],
       "title": "大学院入試要項・説明会(生命医科学研究科) |大学院入試概要|同志社大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "9329711a4d2bfa742fb2d8f4519104a3805ab709c14815e05d2ba37a8a521144",
@@ -1886,7 +1886,7 @@
         84
       ],
       "title": "入進学情報 - 工学系研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "08a360cb4d4e2273411bd63797d8a9822ddbe342f531dbaa0456aa2b39d60753",
@@ -1901,7 +1901,7 @@
         85
       ],
       "title": "2026年度修士課程学生募集要項 — 京都大学 工学部・大学院工学研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "2a1c180bcf443b8e1d445a00b909e93daaaad7b4375c28ebd624651ce05cad68",
@@ -1937,7 +1937,7 @@
         86
       ],
       "title": "入試情報 - 大阪大学工学部/大学院工学研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "9a0a655e17e9767972c4dd17789d44da1f7a175ce4985297809ffdaea42c2f90",
@@ -1969,7 +1969,7 @@
         87
       ],
       "title": "入学案内 | 東北大学 工学研究科・工学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "fe1f5933e3966188e025f561c5d6f1214f39a5a381cdd0a9f42935871edf1c8c",
@@ -1997,7 +1997,7 @@
         88
       ],
       "title": "受験生の方へ |  名古屋大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "dea9ddd8ceff1f71afb962a681d4918848d7da26599bd73ea31ccaa8bd7956d9",
@@ -2045,7 +2045,7 @@
         89
       ],
       "title": "大学院入試 | 九州大学 工学部・大学院工学府・大学院工学研究院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "9fe5ba4b734fdf26adb2ebe36f7bc1855f8ddd04b07798e0e9897c7775d4b324",
@@ -2093,7 +2093,7 @@
         90
       ],
       "title": "入試情報 | 北海道大学大学院工学研究院・大学院工学院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "db519eed2ef9b972977486c7c271b6a015c439fe0262ec4d8bfbb2a0b1b53fc2",
@@ -2140,7 +2140,7 @@
         64
       ],
       "title": "入試 | 国立大学法人 千葉大学 融合理工学府",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "e2a6cc7f169315532309d9d8a480919f49713d9bc48e62e2afc22c52b6c69cff",
@@ -2171,7 +2171,7 @@
         65
       ],
       "title": "資料ダウンロード(学生募集要項) - 横浜国立大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "46aae7eaaa2bae9dcfa16b29a83e69102379b62307c9616de59856d4896e0019",
@@ -2192,7 +2192,7 @@
         91
       ],
       "title": "募集要項 | Science Tokyo 受験生",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "38dd0c4158b0c9936de34636da0c44a3352038f39fff5039f6ee0c2302f61ad7",
@@ -2239,7 +2239,7 @@
         70
       ],
       "title": "入試情報(大学院) | 日大理工学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "cda9d6f60b9152c138b8a40ecd55ad5c343aff0d821a8e55d85d8e21386401ef",
@@ -2258,7 +2258,7 @@
         71
       ],
       "title": "修士課程入試情報 | 東京大学 大学院理学系研究科 化学専攻・理学部化学科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "5e0e31813bb0cd85e422828693c439d8c2a9bb3d01b4419dfe817f6eadc1d13d",
@@ -2289,7 +2289,7 @@
         72
       ],
       "title": "2027(令和9)年度\r\n大学院理学研究科修士課程学生募集要項(化学専攻関係)| 京都大学大学院理学研究科化学専攻 京都大学理学部化学教室",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "98891ae6473e9e2902894f6186531b8b4c00d0032ed70765a6da19ebf4982a97",
@@ -2316,7 +2316,7 @@
         73
       ],
       "title": "大学院入試 – 大阪大学 大学院理学研究科・理学部",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "74751acc2dcf9382b0e339e04ba5981ee5a22f0b5bb1eda7392364095f6daa2a",
@@ -2363,7 +2363,7 @@
         74
       ],
       "title": "東北大学 大学院理学研究科・理学部\n    |\n      受験生の方へ\n    |\n      大学院入試方法",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "71f04030a9c9e1cf23e29eb79eb39c45f278c04144d7419f06fa0a25aadb1cae",
@@ -2410,7 +2410,7 @@
         75
       ],
       "title": "入試情報(大学院) | 名古屋大学理学部化学科 大学院理学研究科理学専攻化学講座",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "4c76f2124502d722ce750cff25f12e93a3af02be92c784f632ab150c8c03b9c8",
@@ -2453,7 +2453,7 @@
         77
       ],
       "title": "入試情報 – 北海道大学 大学院総合化学院",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "11ab846c2e04b30f886d1a4787e9c81c1f748c63a8090d40673957acf7b45040",
@@ -2486,14 +2486,14 @@
         93
       ],
       "title": "入試情報 | 広島大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "a842e0fe8e4d3c5889932fe657bcb6a42bea1e3af0f5ac6e967d36abb95d38d3",
       "notices": [
         {
           "title": "入試情報",
-          "url": "https://www.hiroshima-u.ac.jp/adse/admission"
+          "url": "https://www.hiroshima-u.ac.jp/index.php/adse/admission"
         },
         {
           "title": "博士課程前期 学生募集について",
@@ -2506,6 +2506,10 @@
         {
           "title": "国際連携専攻 学生募集について",
           "url": "https://www.hiroshima-u.ac.jp/adse/admission/%E5%9B%BD%E9%9A%9B%E9%80%A3%E6%90%BA%E5%B0%82%E6%94%BB%EF%BC%88%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%B3%E3%83%88%E3%83%BB%E3%83%87%E3%82%A3%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%EF%BC%89%E5%85%A5%E8%A9%A6%E6%83%85%E5%A0%B1"
+        },
+        {
+          "title": "入試情報",
+          "url": "https://www.hiroshima-u.ac.jp/adse/admission"
         }
       ],
       "application_windows": []
@@ -2517,7 +2521,7 @@
         80
       ],
       "title": "博士前期課程入試案内|金沢大学大学院自然科学研究科",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "c79bc5529a5edfd79595f836edeadb0b5d711eb2a463a2f85721a645be58179e",
@@ -2544,7 +2548,7 @@
         94
       ],
       "title": "熊本大学大学院自然科学教育部   » 入試情報",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "90b0b75fd7260aea852756791469354942ae258a9415bdd68010e9ff5e71b903",
@@ -2590,7 +2594,7 @@
         96
       ],
       "status": "unavailable",
-      "attempted_on": "2026-11-12",
+      "attempted_on": "2026-11-13",
       "error": "HTTPError",
       "notices": [],
       "application_windows": []
@@ -2602,7 +2606,7 @@
         100
       ],
       "title": "理工学研究科/入試制度に関する重要事項|入試・学費・奨学金|理工学研究科|立命館大学",
-      "checked_on": "2026-11-12",
+      "checked_on": "2026-11-13",
       "changed_on": "2026-11-12",
       "status": "ok",
       "fingerprint": "3f8dbe53d1eba6d7b23e3ad422ffab52a0e9e9ed6512087f6f5daed518b9af71",
@@ -2610,5 +2614,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-12T14:28:27+09:00"
+  "updated_at": "2026-11-13T00:17:37+09:00"
 }
