@@ -1,0 +1,3419 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-12",
+  "scope": "Representative university laboratories; curated from official sources. Independent of the daily literature feed.",
+  "fields": [
+    {
+      "id": "genetics_epigenetics",
+      "subject": "bio",
+      "label": {
+        "zh": "遗传与表观遗传",
+        "tw": "遺傳與表觀遺傳",
+        "ja": "遺伝学・エピジェネティクス",
+        "en": "Genetics & Epigenetics"
+      },
+      "description": {
+        "zh": "研究遗传信息如何传递，以及染色质、DNA修饰和基因调控怎样影响细胞特征，常结合测序与分子实验。",
+        "tw": "研究遺傳信息如何傳遞，以及染色質、DNA修飾和基因調控怎樣影響細胞特徵，常結合測序與分子實驗。",
+        "ja": "遺伝情報の伝達と、クロマチンやDNA修飾による遺伝子制御を、シークエンス解析や分子実験で調べる。",
+        "en": "Studies how genetic information is inherited and how chromatin, DNA modifications and gene regulation shape cellular traits, commonly combining sequencing, molecular experiments and computational analysis."
+      }
+    },
+    {
+      "id": "cell_biology",
+      "subject": "bio",
+      "label": {
+        "zh": "细胞生物学",
+        "tw": "細胞生物學",
+        "ja": "細胞生物学",
+        "en": "Cell Biology"
+      },
+      "description": {
+        "zh": "研究细胞内部的结构、运输、分裂与信息交流，运用显微成像、细胞培养和分子操作解释细胞如何工作。",
+        "tw": "研究細胞內部的結構、運輸、分裂與信息交流，運用顯微成像、細胞培養和分子操作解釋細胞如何工作。",
+        "ja": "細胞の構造、輸送、分裂、情報伝達を、顕微鏡観察、細胞培養、分子操作によって理解する。",
+        "en": "Explores cellular structures, transport, division and communication, using microscopy, cell culture and molecular manipulation to explain how cells organize their components and carry out essential functions."
+      }
+    },
+    {
+      "id": "development_regeneration",
+      "subject": "bio",
+      "label": {
+        "zh": "发育、干细胞与再生",
+        "tw": "發育、幹細胞與再生",
+        "ja": "発生・幹細胞・再生",
+        "en": "Development, Stem Cells & Regeneration"
+      },
+      "description": {
+        "zh": "研究细胞怎样形成组织和个体，以及损伤后的修复过程，常使用胚胎模型、干细胞分化和类器官培养。",
+        "tw": "研究細胞怎樣形成組織和個體，以及損傷後的修復過程，常使用胚胎模型、幹細胞分化和類器官培養。",
+        "ja": "細胞から組織・個体が形成される過程と損傷修復を、胚モデル、幹細胞分化、オルガノイドで調べる。",
+        "en": "Investigates how cells form tissues and organisms and how damaged tissues are repaired, often using embryonic models, stem-cell differentiation and organoid cultures to study developmental mechanisms."
+      }
+    },
+    {
+      "id": "protein",
+      "subject": "bio",
+      "label": {
+        "zh": "蛋白质与结构生物学",
+        "tw": "蛋白質與結構生物學",
+        "ja": "タンパク質・構造生物学",
+        "en": "Proteins & Structural Biology"
+      },
+      "description": {
+        "zh": "研究蛋白质和生物大分子的形状、运动与功能，结合结构测定、生化学和计算分析理解分子怎样发挥作用。",
+        "tw": "研究蛋白質和生物大分子的形狀、運動與功能，結合結構測定、生化學和計算分析理解分子怎樣發揮作用。",
+        "ja": "タンパク質などの生体分子の構造・動き・機能を、構造解析、生化学、計算手法を組み合わせて調べる。",
+        "en": "Studies the shapes, movements and functions of proteins and other biological macromolecules, combining structural measurements, biochemical experiments and computational analysis to explain how molecular mechanisms work."
+      }
+    },
+    {
+      "id": "metabolism_biochemistry",
+      "subject": "bio",
+      "label": {
+        "zh": "代谢与生物化学",
+        "tw": "代謝與生物化學",
+        "ja": "代謝・生化学",
+        "en": "Metabolism & Biochemistry"
+      },
+      "description": {
+        "zh": "研究生物体内的化学反应、能量转换与代谢调节，利用酶学实验、质谱和组学分析连接分子变化与生理功能。",
+        "tw": "研究生物體內的化學反應、能量轉換與代謝調節，利用酶學實驗、質譜和組學分析連接分子變化與生理功能。",
+        "ja": "生体内の化学反応、エネルギー変換、代謝制御を、酵素実験、質量分析、オミクス解析によって理解する。",
+        "en": "Examines biochemical reactions, energy conversion and metabolic regulation in living systems, using enzyme assays, mass spectrometry and omics approaches to connect molecular changes with physiological functions."
+      }
+    },
+    {
+      "id": "immunology",
+      "subject": "bio",
+      "label": {
+        "zh": "免疫学",
+        "tw": "免疫學",
+        "ja": "免疫学",
+        "en": "Immunology"
+      },
+      "description": {
+        "zh": "研究免疫细胞如何识别威胁并维持组织平衡，结合细胞实验、动物模型和组学理解炎症、自身免疫与防御机制。",
+        "tw": "研究免疫細胞如何識別威脅並維持組織平衡，結合細胞實驗、動物模型和組學理解炎症、自身免疫與防禦機制。",
+        "ja": "免疫細胞による異物認識と組織維持を、細胞実験、動物モデル、オミクス解析から調べる。",
+        "en": "Explores how immune cells recognize threats and maintain tissue balance, combining cellular experiments, animal models and omics analysis to understand defense mechanisms, inflammation and autoimmune processes."
+      }
+    },
+    {
+      "id": "microbiology_infection",
+      "subject": "bio",
+      "label": {
+        "zh": "微生物与感染",
+        "tw": "微生物與感染",
+        "ja": "微生物・感染",
+        "en": "Microbiology & Infection"
+      },
+      "description": {
+        "zh": "研究微生物的生命活动及其与宿主、环境的相互作用，通过培养、遗传分析和流行病学解释感染与传播过程。",
+        "tw": "研究微生物的生命活動及其與宿主、環境的相互作用，通過培養、遺傳分析和流行病學解釋感染與傳播過程。",
+        "ja": "微生物の生命活動と宿主・環境との相互作用を、培養、遺伝解析、疫学調査で調べる。",
+        "en": "Studies microorganisms and their interactions with hosts and environments, using cultivation, genetic analysis and epidemiology to explain microbial functions, infection mechanisms and patterns of transmission."
+      }
+    },
+    {
+      "id": "plant_science",
+      "subject": "bio",
+      "label": {
+        "zh": "植物科学",
+        "tw": "植物科學",
+        "ja": "植物科学",
+        "en": "Plant Science"
+      },
+      "description": {
+        "zh": "研究植物的生长、繁殖、激素与环境响应，利用遗传学、成像和生化学解析植物适应环境及形成性状的机制。",
+        "tw": "研究植物的生長、繁殖、激素與環境響應，利用遺傳學、成像和生化學解析植物適應環境及形成性狀的機制。",
+        "ja": "植物の成長、生殖、ホルモン、環境応答を、遺伝学、イメージング、生化学により解析する。",
+        "en": "Investigates plant growth, reproduction, hormones and environmental responses, using genetics, imaging and biochemistry to understand how plants adapt to their surroundings and develop particular traits."
+      }
+    },
+    {
+      "id": "ecology_evolution",
+      "subject": "bio",
+      "label": {
+        "zh": "生态与进化",
+        "tw": "生態與進化",
+        "ja": "生態・進化",
+        "en": "Ecology & Evolution"
+      },
+      "description": {
+        "zh": "研究生物多样性、环境适应和物种间关系，结合野外调查、实验与基因组比较解释生态系统和性状的变化。",
+        "tw": "研究生物多樣性、環境適應和物種間關係，結合野外調查、實驗與基因組比較解釋生態系統和性狀的變化。",
+        "ja": "生物多様性、環境適応、生物間関係を、野外調査、実験、ゲノム比較から理解する。",
+        "en": "Studies biodiversity, environmental adaptation and interactions among organisms, combining field observations, experiments and genome comparisons to explain changes in ecosystems and the evolution of biological traits."
+      }
+    },
+    {
+      "id": "cancer",
+      "subject": "bio",
+      "label": {
+        "zh": "癌症与疾病机制",
+        "tw": "癌症與疾病機制",
+        "ja": "がん・疾患機構",
+        "en": "Cancer & Disease Mechanisms"
+      },
+      "description": {
+        "zh": "研究细胞异常怎样引发疾病及肿瘤进展，结合分子实验、疾病模型和患者相关数据寻找关键机制与干预线索。",
+        "tw": "研究細胞異常怎樣引發疾病及腫瘤進展，結合分子實驗、疾病模型和患者相關數據尋找關鍵機制與干預線索。",
+        "ja": "細胞の異常による疾患発症やがんの進展を、分子実験、疾患モデル、患者関連データで調べる。",
+        "en": "Investigates how cellular abnormalities cause disease and tumor progression, combining molecular experiments, disease models and patient-related data to identify underlying mechanisms and potential points for intervention."
+      }
+    },
+    {
+      "id": "neuro",
+      "subject": "bio",
+      "label": {
+        "zh": "神经科学",
+        "tw": "神經科學",
+        "ja": "神経科学",
+        "en": "Neuroscience"
+      },
+      "description": {
+        "zh": "研究神经细胞、神经环路与行为之间的联系，利用电生理、成像和计算方法解释感觉、学习及脑功能。",
+        "tw": "研究神經細胞、神經環路與行為之間的聯繫，利用電生理、成像和計算方法解釋感覺、學習及腦功能。",
+        "ja": "神経細胞・回路と行動の関係を、電気生理、イメージング、計算手法で解析する。",
+        "en": "Explores links between neurons, neural circuits and behavior, using electrophysiology, imaging and computational approaches to understand sensory processing, learning and other functions of the nervous system."
+      }
+    },
+    {
+      "id": "rna",
+      "subject": "bio",
+      "label": {
+        "zh": "RNA与基因表达",
+        "tw": "RNA與基因表達",
+        "ja": "RNA・遺伝子発現",
+        "en": "RNA & Gene Expression"
+      },
+      "description": {
+        "zh": "研究RNA的生成、结构、加工和功能，结合分子实验、测序与计算分析理解基因表达调控及RNA相关技术。",
+        "tw": "研究RNA的生成、結構、加工和功能，結合分子實驗、測序與計算分析理解基因表達調控及RNA相關技術。",
+        "ja": "RNAの生成、構造、加工、機能を、分子実験、シークエンス、計算解析で調べる。",
+        "en": "Studies RNA production, structure, processing and function, combining molecular experiments, sequencing and computational analysis to understand gene-expression regulation and develop technologies based on RNA molecules."
+      }
+    },
+    {
+      "id": "synthetic_biotechnology",
+      "subject": "bio",
+      "label": {
+        "zh": "合成生物与生物工程",
+        "tw": "合成生物與生物工程",
+        "ja": "合成生物学・生物工学",
+        "en": "Synthetic Biology & Biotechnology"
+      },
+      "description": {
+        "zh": "研究如何设计和改造生物系统，结合基因组编辑、代谢工程和人工细胞方法，探索有用功能与生物制造。",
+        "tw": "研究如何設計和改造生物系統，結合基因組編輯、代謝工程和人工細胞方法，探索有用功能與生物製造。",
+        "ja": "ゲノム編集、代謝工学、人工細胞などを用い、生物システムの設計・改変と機能利用を研究する。",
+        "en": "Investigates how biological systems can be designed and modified, combining genome editing, metabolic engineering and artificial-cell approaches to explore useful functions and possibilities for biological manufacturing."
+      }
+    },
+    {
+      "id": "bioinformatics_ai",
+      "subject": "bio",
+      "label": {
+        "zh": "生物信息与AI",
+        "tw": "生物信息與AI",
+        "ja": "バイオインフォマティクス・AI",
+        "en": "Bioinformatics & AI"
+      },
+      "description": {
+        "zh": "研究如何从基因组和多组学数据中提取生物规律，使用统计、算法和机器学习分析分子功能、细胞状态与疾病。",
+        "tw": "研究如何從基因組和多組學數據中提取生物規律，使用統計、算法和機器學習分析分子功能、細胞狀態與疾病。",
+        "ja": "ゲノムやマルチオミクスを統計、アルゴリズム、機械学習で解析し、生体分子や細胞、疾患の仕組みを探る。",
+        "en": "Develops statistical, algorithmic and machine-learning methods to extract biological insights from genomic and multi-omics data, studying molecular functions, cellular states and mechanisms associated with disease."
+      }
+    },
+    {
+      "id": "food_nutrition",
+      "subject": "bio",
+      "label": {
+        "zh": "食品与营养",
+        "tw": "食品與營養",
+        "ja": "食品・栄養",
+        "en": "Food & Nutrition"
+      },
+      "description": {
+        "zh": "研究食品成分、饮食结构与健康之间的关系，通过成分分析、细胞和代谢实验理解营养调节及食品功能。",
+        "tw": "研究食品成分、飲食結構與健康之間的關係，通過成分分析、細胞和代謝實驗理解營養調節及食品功能。",
+        "ja": "食品成分や食事と健康の関係を、成分分析、細胞実験、代謝研究によって理解する。",
+        "en": "Studies relationships between food components, dietary patterns and health, using chemical analysis, cellular experiments and metabolic research to understand nutritional regulation and the biological functions of food."
+      }
+    },
+    {
+      "id": "pharmacology_dds",
+      "subject": "bio",
+      "label": {
+        "zh": "药理与药物递送",
+        "tw": "藥理與藥物遞送",
+        "ja": "薬理・薬物送達",
+        "en": "Pharmacology & Drug Delivery"
+      },
+      "description": {
+        "zh": "研究药物怎样作用并到达目标组织，结合药理实验、体内动力学和材料设计探索药效、分布与递送机制。",
+        "tw": "研究藥物怎樣作用併到達目標組織，結合藥理實驗、體內動力學和材料設計探索藥效、分佈與遞送機制。",
+        "ja": "薬物の作用と標的組織への送達を、薬理実験、動態解析、材料設計により研究する。",
+        "en": "Examines how medicines act and reach target tissues, combining pharmacological experiments, pharmacokinetic analysis and materials design to understand drug effects, distribution and mechanisms of delivery."
+      }
+    },
+    {
+      "id": "organic",
+      "subject": "chem",
+      "label": {
+        "zh": "有机化学",
+        "tw": "有機化學",
+        "ja": "有機化学",
+        "en": "Organic Chemistry"
+      },
+      "description": {
+        "zh": "研究含碳分子的结构、反应与合成，运用反应设计、分析表征和机理实验构建复杂分子并理解化学转化。",
+        "tw": "研究含碳分子的結構、反應與合成，運用反應設計、分析表徵和機理實驗構建複雜分子並理解化學轉化。",
+        "ja": "炭素を含む分子の構造・反応・合成を、反応設計、分析、機構研究により調べる。",
+        "en": "Studies the structures, reactions and synthesis of carbon-containing molecules, using reaction design, analytical characterization and mechanistic experiments to build complex molecules and understand chemical transformations."
+      }
+    },
+    {
+      "id": "inorganic",
+      "subject": "chem",
+      "label": {
+        "zh": "无机与配位化学",
+        "tw": "無機與配位化學",
+        "ja": "無機・錯体化学",
+        "en": "Inorganic & Coordination Chemistry"
+      },
+      "description": {
+        "zh": "研究金属、配位化合物和无机材料的结构与性质，结合合成、光谱和结构分析探索元素组合带来的功能。",
+        "tw": "研究金屬、配位化合物和無機材料的結構與性質，結合合成、光譜和結構分析探索元素組合帶來的功能。",
+        "ja": "金属、錯体、無機材料の構造と性質を、合成、分光、構造解析により理解する。",
+        "en": "Explores metals, coordination compounds and inorganic materials, combining synthesis, spectroscopy and structural analysis to understand how elemental composition and chemical bonding create distinctive properties and functions."
+      }
+    },
+    {
+      "id": "physical",
+      "subject": "chem",
+      "label": {
+        "zh": "物理化学",
+        "tw": "物理化學",
+        "ja": "物理化学",
+        "en": "Physical Chemistry"
+      },
+      "description": {
+        "zh": "研究分子运动、能量变化和反应速度的规律，运用光谱、动力学、热力学与理论计算解释化学现象。",
+        "tw": "研究分子運動、能量變化和反應速度的規律，運用光譜、動力學、熱力學與理論計算解釋化學現象。",
+        "ja": "分子運動、エネルギー変化、反応速度を、分光、動力学、熱力学、理論計算で理解する。",
+        "en": "Investigates molecular motion, energy changes and reaction rates, using spectroscopy, kinetics, thermodynamics and theoretical calculations to explain the physical principles governing chemical behavior in different systems."
+      }
+    },
+    {
+      "id": "analytical",
+      "subject": "chem",
+      "label": {
+        "zh": "分析化学",
+        "tw": "分析化學",
+        "ja": "分析化学",
+        "en": "Analytical Chemistry"
+      },
+      "description": {
+        "zh": "研究怎样准确识别和测量物质，开发分离、光谱、质谱与传感方法，解决复杂样品的组成和含量分析问题。",
+        "tw": "研究怎樣準確識別和測量物質，開發分離、光譜、質譜與傳感方法，解決複雜樣品的組成和含量分析問題。",
+        "ja": "物質を正確に識別・定量するため、分離、分光、質量分析、センシング手法を開発する。",
+        "en": "Develops methods to identify and measure substances accurately, using separation techniques, spectroscopy, mass spectrometry and sensors to determine the composition and amounts of components in complex samples."
+      }
+    },
+    {
+      "id": "catalyst",
+      "subject": "chem",
+      "label": {
+        "zh": "催化与反应开发",
+        "tw": "催化與反應開發",
+        "ja": "触媒・反応開発",
+        "en": "Catalysis & Reaction Development"
+      },
+      "description": {
+        "zh": "研究催化剂如何改变反应路径和选择性，结合分子设计、材料制备与机理分析，开发更有效的化学反应。",
+        "tw": "研究催化劑如何改變反應路徑和選擇性，結合分子設計、材料製備與機理分析，開發更有效的化學反應。",
+        "ja": "触媒による反応経路や選択性の制御を、分子設計、材料合成、機構解析から研究する。",
+        "en": "Studies how catalysts alter reaction pathways and selectivity, combining molecular design, materials preparation and mechanistic analysis to develop chemical transformations with improved performance and control."
+      }
+    },
+    {
+      "id": "materials",
+      "subject": "chem",
+      "label": {
+        "zh": "材料与纳米化学",
+        "tw": "材料與納米化學",
+        "ja": "材料・ナノ化学",
+        "en": "Materials & Nanochemistry"
+      },
+      "description": {
+        "zh": "研究材料结构、组成与性能之间的关系，运用合成、纳米结构控制和表征方法探索电子、光学及界面功能。",
+        "tw": "研究材料結構、組成與性能之間的關係，運用合成、納米結構控制和表徵方法探索電子、光學及界面功能。",
+        "ja": "材料の構造・組成と性質の関係を、合成、ナノ構造制御、各種評価法により調べる。",
+        "en": "Investigates relationships between material structure, composition and performance, using synthesis, nanoscale control and characterization methods to explore electronic, optical and interfacial properties and their possible uses."
+      }
+    },
+    {
+      "id": "polymer",
+      "subject": "chem",
+      "label": {
+        "zh": "高分子化学",
+        "tw": "高分子化學",
+        "ja": "高分子化学",
+        "en": "Polymer Chemistry"
+      },
+      "description": {
+        "zh": "研究聚合物的合成、结构和物性，利用聚合反应设计与材料表征调节分子链、组装行为及宏观性能。",
+        "tw": "研究聚合物的合成、結構和物性，利用聚合反應設計與材料表徵調節分子鏈、組裝行為及宏觀性能。",
+        "ja": "高分子の合成、構造、物性を研究し、重合反応の設計と材料評価によって機能を調節する。",
+        "en": "Studies polymer synthesis, structure and physical properties, using polymerization design and materials characterization to control molecular chains, assembly behavior and the macroscopic performance of polymer systems."
+      }
+    },
+    {
+      "id": "supramolecular",
+      "subject": "chem",
+      "label": {
+        "zh": "超分子与自组装",
+        "tw": "超分子與自組裝",
+        "ja": "超分子・自己組織化",
+        "en": "Supramolecular Chemistry & Self-Assembly"
+      },
+      "description": {
+        "zh": "研究分子如何通过非共价作用识别和组装，结合分子设计、结构分析与物性测量构建可响应的复杂体系。",
+        "tw": "研究分子如何通過非共價作用識別和組裝，結合分子設計、結構分析與物性測量構建可響應的複雜體系。",
+        "ja": "非共有結合による分子認識と自己組織化を、分子設計、構造解析、物性測定で調べる。",
+        "en": "Explores how molecules recognize one another and assemble through noncovalent interactions, combining molecular design, structural analysis and property measurements to construct complex systems with responsive behavior."
+      }
+    },
+    {
+      "id": "electrochemistry",
+      "subject": "chem",
+      "label": {
+        "zh": "电化学与能源",
+        "tw": "電化學與能源",
+        "ja": "電気化学・エネルギー",
+        "en": "Electrochemistry & Energy"
+      },
+      "description": {
+        "zh": "研究电子转移、电极界面与能量转换，结合电化学测试、材料设计和机理分析探索电池、电解及相关反应。",
+        "tw": "研究電子轉移、電極界面與能量轉換，結合電化學測試、材料設計和機理分析探索電池、電解及相關反應。",
+        "ja": "電子移動、電極界面、エネルギー変換を、電気化学測定、材料設計、機構解析で研究する。",
+        "en": "Investigates electron transfer, electrode interfaces and energy conversion, using electrochemical measurements, materials design and mechanistic analysis to study batteries, electrolysis and other reactions driven by electrical energy."
+      }
+    },
+    {
+      "id": "photochemistry",
+      "subject": "chem",
+      "label": {
+        "zh": "光化学与光功能分子",
+        "tw": "光化學與光功能分子",
+        "ja": "光化学・光機能分子",
+        "en": "Photochemistry & Photoactive Molecules"
+      },
+      "description": {
+        "zh": "研究分子吸收光后的激发态和反应，利用光谱、时间分辨测量与分子设计理解发光、光转换和光驱动过程。",
+        "tw": "研究分子吸收光後的激發態和反應，利用光譜、時間分辨測量與分子設計理解發光、光轉換和光驅動過程。",
+        "ja": "光励起された分子の状態と反応を、分光、時間分解測定、分子設計によって理解する。",
+        "en": "Studies molecular excited states and reactions following light absorption, using spectroscopy, time-resolved measurements and molecular design to understand luminescence, photoconversion and processes driven by light."
+      }
+    },
+    {
+      "id": "chemical_biology",
+      "subject": "chem",
+      "label": {
+        "zh": "化学生物学与医药化学",
+        "tw": "化學生物學與醫藥化學",
+        "ja": "ケミカルバイオロジー・医薬化学",
+        "en": "Chemical Biology & Medicinal Chemistry"
+      },
+      "description": {
+        "zh": "使用化学分子研究生命过程，结合合成、分子探针和活性评价解析生物靶点，并探索药物分子的设计原则。",
+        "tw": "使用化學分子研究生命過程，結合合成、分子探針和活性評價解析生物靶點，並探索藥物分子的設計原則。",
+        "ja": "合成化学、分子プローブ、活性評価を用いて生命過程や生体標的を調べ、医薬分子設計を探る。",
+        "en": "Uses chemical molecules to investigate biological processes, combining synthesis, molecular probes and activity assays to study biological targets and explore principles for designing potential medicinal compounds."
+      }
+    },
+    {
+      "id": "green",
+      "subject": "chem",
+      "label": {
+        "zh": "绿色与环境化学",
+        "tw": "綠色與環境化學",
+        "ja": "グリーン・環境化学",
+        "en": "Green & Environmental Chemistry"
+      },
+      "description": {
+        "zh": "研究化学物质的环境行为及资源高效利用，结合反应、催化和分析方法探索低负担合成、污染控制与循环利用。",
+        "tw": "研究化學物質的環境行為及資源高效利用，結合反應、催化和分析方法探索低負擔合成、汙染控制與循環利用。",
+        "ja": "化学物質の環境動態と資源利用を、反応、触媒、分析手法から調べ、環境負荷低減を目指す。",
+        "en": "Studies the environmental behavior of chemicals and efficient resource use, applying reaction chemistry, catalysis and analysis to explore lower-impact synthesis, pollution control and recycling of materials."
+      }
+    },
+    {
+      "id": "process",
+      "subject": "chem",
+      "label": {
+        "zh": "化学工程与过程设计",
+        "tw": "化學工程與過程設計",
+        "ja": "化学工学・プロセス設計",
+        "en": "Chemical Engineering & Process Design"
+      },
+      "description": {
+        "zh": "研究化学反应怎样转化为可控制的生产过程，结合传递、分离、反应器设计和模拟分析解决规模化问题。",
+        "tw": "研究化學反應怎樣轉化為可控制的生產過程，結合傳遞、分離、反應器設計和模擬分析解決規模化問題。",
+        "ja": "化学反応を制御可能なプロセスにするため、移動現象、分離、反応器設計、シミュレーションを研究する。",
+        "en": "Examines how chemical reactions become controllable production processes, combining transport phenomena, separation methods, reactor design and simulation to understand process behavior and address challenges of scale-up."
+      }
+    },
+    {
+      "id": "computational",
+      "subject": "chem",
+      "label": {
+        "zh": "计算与理论化学",
+        "tw": "計算與理論化學",
+        "ja": "計算・理論化学",
+        "en": "Computational & Theoretical Chemistry"
+      },
+      "description": {
+        "zh": "使用量子化学、分子模拟与理论模型研究结构和反应，解释实验难以直接观察的分子行为并预测物质性质。",
+        "tw": "使用量子化學、分子模擬與理論模型研究結構和反應，解釋實驗難以直接觀察的分子行為並預測物質性質。",
+        "ja": "量子化学、分子シミュレーション、理論モデルで分子の構造・反応・物性を理解し予測する。",
+        "en": "Uses quantum chemistry, molecular simulations and theoretical models to investigate structures and reactions, explain molecular behavior that is difficult to observe experimentally and predict properties of substances."
+      }
+    },
+    {
+      "id": "chemai",
+      "subject": "chem",
+      "label": {
+        "zh": "化学信息与AI",
+        "tw": "化學信息與AI",
+        "ja": "ケモインフォマティクス・AI",
+        "en": "Cheminformatics & AI"
+      },
+      "description": {
+        "zh": "将化学知识与数据科学结合，利用分子表示、机器学习和优化算法预测性质、规划反应并辅助材料和分子设计。",
+        "tw": "將化學知識與數據科學結合，利用分子表示、機器學習和優化算法預測性質、規劃反應並輔助材料和分子設計。",
+        "ja": "化学知識とデータ科学を結び、分子表現、機械学習、最適化により物性予測や分子設計を支援する。",
+        "en": "Combines chemical knowledge with data science, using molecular representations, machine learning and optimization algorithms to predict properties, plan reactions and support the design of molecules and materials."
+      }
+    }
+  ],
+  "labs": [
+    {
+      "field": "genetics_epigenetics",
+      "university": "東京大学",
+      "department": "定量生命科学研究所／大学院理学系研究科 生物科学専攻",
+      "lab": "クロマチン構造機能研究分野",
+      "pi": "胡桃坂 仁志",
+      "theme_zh": "从染色质结构解释基因开关与表观遗传调控。",
+      "summary_zh": "研究核小体与染色质如何组织基因组，并影响基因的开启、关闭及染色体功能。通过体外重构和结构解析，把染色质组成、空间结构与功能联系起来，理解不改变DNA序列的遗传调控机制。",
+      "keywords": [
+        "染色质",
+        "核小体",
+        "表观遗传",
+        "结构解析"
+      ],
+      "url": "https://www.iqb.u-tokyo.ac.jp/lab/kurumizaka/",
+      "references": [
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/lab/kurumizaka/",
+          "evidence": "研究介绍说明体外重构真核染色质并研究结构与功能；成员页列胡桃坂仁志教授。"
+        },
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/kurumizakalab/member/index.html",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "クロマチンの構造から遺伝子のオン・オフとエピジェネティクスを理解する。",
+      "theme_en": "Understanding gene regulation and epigenetics through chromatin structure.",
+      "summary_ja": "ヌクレオソームとクロマチンがゲノムを収納し、遺伝子の発現や染色体の機能を調節する仕組みを研究。試験管内再構成と構造解析により、クロマチンの組成・立体構造・機能を結び付け、DNA配列を変えない遺伝子制御を解明する。",
+      "summary_en": "Studies how nucleosomes and chromatin organize the genome and regulate gene expression and chromosome function. In vitro reconstitution and structural analysis connect chromatin composition and three-dimensional architecture with its functions, revealing mechanisms of gene regulation that do not alter the DNA sequence.",
+      "theme_tw": "從染色質結構解釋基因開關與表觀遺傳調控。",
+      "summary_tw": "研究核小體與染色質如何組織基因組，並影響基因的開啟、關閉及染色體功能。通過體外重構和結構解析，把染色質組成、空間結構與功能聯繫起來，理解不改變DNA序列的遺傳調控機制。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "genetics_epigenetics-1"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "九州大学",
+      "department": "生体防御医学研究所／大学院システム生命科学府",
+      "lab": "トランスクリプトミクス分野（大川研究室）",
+      "pi": "大川 恭行",
+      "theme_zh": "解析细胞分化时染色质如何选择需要表达的基因。",
+      "summary_zh": "围绕相同基因组怎样产生不同细胞类型，研究染色质结构与转录调控的关系。结合单细胞测序、表观组分析和生化学，关注组蛋白变体、核小体位置及高阶结构，追踪分化命运的决定过程。",
+      "keywords": [
+        "单细胞",
+        "表观组",
+        "转录组",
+        "细胞分化",
+        "染色质"
+      ],
+      "url": "https://tx.bioreg.kyushu-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://tx.bioreg.kyushu-u.ac.jp/",
+          "evidence": "研究室说明染色质中的基因选择和单细胞转录组技术；学府目录确认大川教授与所属。"
+        },
+        {
+          "url": "https://www.sls.kyushu-u.ac.jp/study/course/medical_molecular_cell_biology/transcriptomics/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "細胞分化に伴うクロマチン構造と遺伝子選択の仕組みを探る。",
+      "theme_en": "Exploring how chromatin selects gene expression programs during cell differentiation.",
+      "summary_ja": "同じゲノムから異なる細胞が生まれる仕組みを、クロマチンと転写制御から研究。単一細胞のシークエンス解析、エピゲノム解析、生化学を組み合わせ、ヒストンバリアント、ヌクレオソーム配置、高次構造と分化運命の関係を調べる。",
+      "summary_en": "Investigates how the same genome produces different cell types through chromatin structure and transcriptional regulation. Single-cell sequencing, epigenomic analysis and biochemistry examine histone variants, nucleosome positioning and higher-order structures to understand how cell fates are established.",
+      "theme_tw": "解析細胞分化時染色質如何選擇需要表達的基因。",
+      "summary_tw": "圍繞相同基因組怎樣產生不同細胞類型，研究染色質結構與轉錄調控的關係。結合單細胞測序、表觀組分析和生化學，關注組蛋白變體、核小體位置及高階結構，追蹤分化命運的決定過程。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "genetics_epigenetics-2"
+    },
+    {
+      "field": "cell_biology",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科",
+      "lab": "膜輸送機構解析分野（福田研究室）",
+      "pi": "福田 光則",
+      "theme_zh": "理解细胞内运输如何支持神经传递、色素形成和自噬。",
+      "summary_zh": "把细胞内不同的膜运输过程放在一起比较，研究神经递质释放、黑素体运输、自噬与上皮极性形成。运用分子生物学、生化学和分子成像，寻找控制囊泡移动与膜动态的分子机制。",
+      "keywords": [
+        "膜运输",
+        "囊泡",
+        "自噬",
+        "黑素体",
+        "细胞极性"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory---id-2582.html",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory---id-2582.html",
+          "evidence": "生命科学研究科页面同时列福田光则教授、四项研究主题及使用方法。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory---id-2582.html",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "神経伝達、色素形成、オートファジーを支える膜輸送を理解する。",
+      "theme_en": "Understanding membrane trafficking in neurotransmission, pigmentation and autophagy.",
+      "summary_ja": "神経伝達物質の放出、メラノソームの輸送、オートファジー、上皮細胞の極性形成を比較しながら研究。分子生物学、生化学、分子イメージングを用い、小胞の移動や膜動態を制御する仕組みを明らかにする。",
+      "summary_en": "Compares membrane trafficking processes involved in neurotransmitter release, melanosome transport, autophagy and epithelial polarity. Molecular biology, biochemistry and molecular imaging are used to identify mechanisms controlling vesicle movement and membrane dynamics.",
+      "theme_tw": "理解細胞內運輸如何支持神經傳遞、色素形成和自噬。",
+      "summary_tw": "把細胞內不同的膜運輸過程放在一起比較，研究神經遞質釋放、黑素體運輸、自噬與上皮極性形成。運用分子生物學、生化學和分子成像，尋找控制囊泡移動與膜動態的分子機制。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "cell_biology-1"
+    },
+    {
+      "field": "cell_biology",
+      "university": "大阪大学",
+      "department": "大学院医学系研究科 解剖学講座",
+      "lab": "細胞生物学教室",
+      "pi": "原田 彰宏",
+      "theme_zh": "解释上皮和神经细胞如何形成方向性并准确运输蛋白。",
+      "summary_zh": "以细胞极性为核心，研究蛋白如何被分选并送到细胞的正确位置。利用基因改造小鼠、原代细胞培养、超分辨与电子显微镜，分析运输相关分子怎样影响上皮形态、神经结构和细胞功能。",
+      "keywords": [
+        "细胞极性",
+        "膜运输",
+        "Rab",
+        "SNARE",
+        "显微成像"
+      ],
+      "url": "https://www.med.osaka-u.ac.jp/introduction/research/anatomy/cellbiology",
+      "references": [
+        {
+          "url": "https://www.med.osaka-u.ac.jp/introduction/research/anatomy/cellbiology",
+          "evidence": "医学系研究科页面列原田彰宏教授，介绍SNARE/Rab敲除小鼠和极性运输成像。"
+        },
+        {
+          "url": "https://www.harada-lab.online/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "上皮・神経細胞の極性と正確なタンパク質輸送の仕組みを探る。",
+      "theme_en": "Exploring cell polarity and precise protein transport in epithelial and neuronal cells.",
+      "summary_ja": "細胞極性を中心に、タンパク質が選別され適切な場所へ運ばれる仕組みを研究。遺伝子改変マウス、初代培養、超解像・電子顕微鏡を用い、輸送関連分子が上皮や神経の構造と細胞機能に及ぼす影響を解析する。",
+      "summary_en": "Studies how proteins are sorted and delivered to the correct cellular locations, with a focus on cell polarity. Genetically modified mice, primary cultures, super-resolution microscopy and electron microscopy reveal how trafficking molecules influence epithelial and neuronal structures and cell function.",
+      "theme_tw": "解釋上皮和神經細胞如何形成方向性並準確運輸蛋白。",
+      "summary_tw": "以細胞極性為核心，研究蛋白如何被分選並送到細胞的正確位置。利用基因改造小鼠、原代細胞培養、超分辨與電子顯微鏡，分析運輸相關分子怎樣影響上皮形態、神經結構和細胞功能。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "cell_biology-2"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "京都大学",
+      "department": "iPS細胞研究所 未来生命科学開拓部門",
+      "lab": "斎藤研究室",
+      "pi": "斎藤 通紀",
+      "theme_zh": "用多能干细胞重建生殖细胞的形成过程。",
+      "summary_zh": "研究精子和卵子的来源以及遗传信息如何传给下一代。以小鼠、灵长类和人类的生殖细胞发育为对象，结合ES与iPS细胞的体外分化体系，比较细胞命运决定、减数分裂及表观遗传重编程。",
+      "keywords": [
+        "生殖细胞",
+        "iPS细胞",
+        "细胞分化",
+        "减数分裂",
+        "重编程"
+      ],
+      "url": "https://www.cira.kyoto-u.ac.jp/j/research/msaitou_summary.html",
+      "references": [
+        {
+          "url": "https://www.cira.kyoto-u.ac.jp/j/research/msaitou_summary.html",
+          "evidence": "CiRA页面列现部門和斎藤教授，并介绍小鼠、灵长类和人的生殖细胞体外重建研究。"
+        },
+        {
+          "url": "https://www.med.kyoto-u.ac.jp/research/field/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "多能性幹細胞を用いて生殖細胞の形成過程を再構成する。",
+      "theme_en": "Reconstructing germ-cell development using pluripotent stem cells.",
+      "summary_ja": "精子・卵子の起源と次世代への遺伝情報継承を研究。マウス、霊長類、ヒトの生殖細胞発生を対象に、ES・iPS細胞の体外分化系を組み合わせ、細胞運命決定、減数分裂、エピゲノムリプログラミングを比較する。",
+      "summary_en": "Studies the origins of sperm and eggs and the transmission of genetic information. Research on mouse, primate and human germ-cell development uses ES- and iPS-cell differentiation systems to compare cell-fate specification, meiosis and epigenetic reprogramming.",
+      "theme_tw": "用多能幹細胞重建生殖細胞的形成過程。",
+      "summary_tw": "研究精子和卵子的來源以及遺傳信息如何傳給下一代。以小鼠、靈長類和人類的生殖細胞發育為對象，結合ES與iPS細胞的體外分化體系，比較細胞命運決定、減數分裂及表觀遺傳重編程。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "development_regeneration-1"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "大阪大学",
+      "department": "大学院医学系研究科 ゲノム生物学講座",
+      "lab": "生殖遺伝学教室",
+      "pi": "林 克彦",
+      "theme_zh": "重建生殖细胞及其支持组织，研究配子形成和质量维护。",
+      "summary_zh": "利用多能干细胞和多细胞重构体系，研究生殖细胞发育、卵母细胞休眠及配子性差。关注遗传信息如何在长期维持中保持质量，并发展能够在体外再现生殖细胞与支持细胞相互作用的模型。",
+      "keywords": [
+        "生殖细胞",
+        "卵母细胞",
+        "类器官",
+        "多能干细胞",
+        "遗传信息"
+      ],
+      "url": "https://www.med.osaka-u.ac.jp/introduction/research/genome/germline",
+      "references": [
+        {
+          "url": "https://www.med.osaka-u.ac.jp/introduction/research/genome/germline",
+          "evidence": "大阪大学医学研究科及PRIMe页面均确认林克彦；研究内容为生殖细胞重构及生殖腺类器官。"
+        },
+        {
+          "url": "https://prime.osaka-u.ac.jp/ja/member/hayashi-katsuhiko/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "生殖細胞と支持組織を再構成し、配偶子形成と品質維持を調べる。",
+      "theme_en": "Reconstructing germ cells and supporting tissues to study gamete formation and maintenance.",
+      "summary_ja": "多能性幹細胞と多細胞再構築系を使い、生殖細胞発生、卵母細胞の休眠、配偶子の性差を研究。長期間にわたる遺伝情報の品質維持に注目し、生殖細胞と支持細胞の相互作用を体外で再現するモデルを開発する。",
+      "summary_en": "Uses pluripotent stem cells and multicellular reconstruction systems to study germ-cell development, oocyte dormancy and differences between male and female gametes. The group examines long-term genetic information maintenance and develops models of interactions between germ cells and their supporting cells.",
+      "theme_tw": "重建生殖細胞及其支持組織，研究配子形成和質量維護。",
+      "summary_tw": "利用多能幹細胞和多細胞重構體系，研究生殖細胞發育、卵母細胞休眠及配子性差。關注遺傳信息如何在長期維持中保持質量，並發展能夠在體外再現生殖細胞與支持細胞相互作用的模型。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "development_regeneration-2"
+    },
+    {
+      "field": "protein",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 生物科学専攻",
+      "lab": "濡木研究室（構造生命科学）",
+      "pi": "濡木理",
+      "theme_zh": "生物大分子的结构、动态与功能机制",
+      "summary_zh": "运用冷冻电镜、X射线晶体学、分子动力学模拟及功能实验，研究蛋白质与核酸如何相互作用。主要关注RNA调控、膜蛋白运输与感知、GPCR信号传递和大型分子复合体，连接原子结构与生命功能。",
+      "keywords": [
+        "冷冻电镜",
+        "结构生物学",
+        "膜蛋白",
+        "GPCR",
+        "分子动力学"
+      ],
+      "url": "https://www.bs.s.u-tokyo.ac.jp/labs/nureki/",
+      "references": [
+        {
+          "url": "https://www.bs.s.u-tokyo.ac.jp/labs/nureki/",
+          "evidence": "大学研究室页列明濡木理和结构生命科学；列出RNA表达、膜蛋白、GPCR、超分子动态结构四项课题及结构解析/模拟方法。"
+        }
+      ],
+      "theme_ja": "生体高分子の構造・動態と機能の仕組み",
+      "theme_en": "Biomolecular structure, dynamics and mechanisms",
+      "theme_tw": "生物大分子的結構、動態與功能機制",
+      "summary_ja": "クライオ電顕、X線結晶解析、分子動力学シミュレーション、機能実験を用いてタンパク質と核酸の相互作用を研究。RNA制御、膜タンパク質の輸送と感覚受容、GPCRシグナル、大型複合体に注目し、原子構造と生命機能を結び付けます。",
+      "summary_en": "Combines cryo-EM, X-ray crystallography, molecular dynamics and functional experiments to study protein–nucleic-acid interactions. Work connects atomic structures to function through RNA regulation, membrane transport and sensing, GPCR signaling and large molecular complexes.",
+      "summary_tw": "運用冷凍電顯、X射線晶體學、分子動力學模擬及功能實驗，研究蛋白質與核酸如何相互作用。主要關注RNA調控、膜蛋白運輸與感知、GPCR訊號傳遞和大型分子複合體，連接原子結構與生命功能。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "protein-1"
+    },
+    {
+      "field": "protein",
+      "university": "大阪大学",
+      "department": "蛋白質研究所",
+      "lab": "分子創製学研究室",
+      "pi": "高木淳一",
+      "theme_zh": "细胞外信号分子的结构解析与蛋白质工程",
+      "summary_zh": "以细胞外配体及其受体为切入点，通过结构生物学解释细胞信号如何传递。研究同时开展高质量重组蛋白表达与纯化，并依据结构信息改造蛋白质，将神经、发育和免疫相关分子的机制研究连接到生物药物设计。",
+      "keywords": [
+        "结构生物学",
+        "细胞外配体",
+        "受体",
+        "蛋白质工程",
+        "重组蛋白"
+      ],
+      "url": "https://www.protein.osaka-u.ac.jp/rcsfp/synthesis/",
+      "references": [
+        {
+          "url": "https://www.protein.osaka-u.ac.jp/rcsfp/synthesis/",
+          "evidence": "官网介绍细胞外配体/受体结构、蛋白质工程、生物药物与动物细胞表达纯化；新闻显示2026-05-25更新成员。"
+        },
+        {
+          "url": "https://www.protein.osaka-u.ac.jp/rcsfp/synthesis/member.html",
+          "evidence": "现成员页列明高木淳一及分子創製学研究室。"
+        }
+      ],
+      "theme_ja": "細胞外シグナル分子の構造解析とタンパク質工学",
+      "theme_en": "Structural analysis and engineering of extracellular signaling proteins",
+      "theme_tw": "細胞外訊號分子的結構解析與蛋白質工程",
+      "summary_ja": "細胞外リガンドと受容体を対象に、構造生物学からシグナル伝達機構を解析。高品質な組換えタンパク質の発現・精製や構造情報に基づく改変を行い、神経・発生・免疫に関わる分子の仕組みをバイオ医薬の設計へつなげます。",
+      "summary_en": "Uses structural biology to explain signaling by extracellular ligands and receptors. High-quality recombinant protein production and structure-guided engineering connect mechanistic studies of molecules involved in neural function, development and immunity with biologic drug design.",
+      "summary_tw": "以細胞外配體及其受體為切入點，透過結構生物學解釋細胞訊號如何傳遞。研究同時開展高品質重組蛋白表達與純化，並依據結構資訊改造蛋白質，將神經、發育和免疫相關分子的機制研究連接到生物藥物設計。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "protein-2"
+    },
+    {
+      "field": "protein",
+      "university": "京都大学",
+      "department": "大学院薬学研究科 薬科学専攻",
+      "lab": "構造生物薬学分野",
+      "pi": "小川治夫",
+      "theme_zh": "膜受体、运输体与药物作用的结构基础",
+      "summary_zh": "通过蛋白质立体结构解析，研究膜受体和运输体如何识别配体、传递信号或完成物质转运。重点涉及心肌型雷诺定受体、NPR受体及ABC运输体，并发展冷冻电镜分析方法，为理解药物作用提供分子依据。",
+      "keywords": [
+        "结构药理学",
+        "膜受体",
+        "ABC运输体",
+        "冷冻电镜",
+        "配体识别"
+      ],
+      "url": "https://www.pharm.kyoto-u.ac.jp/structbl/",
+      "references": [
+        {
+          "url": "https://www.pharm.kyoto-u.ac.jp/structbl/",
+          "evidence": "官网明确2026年度起小川治夫主宰；列有心肌型雷诺定受体、NPR/GCase受体、ABC运输体及冷冻电镜新技术课题。"
+        },
+        {
+          "url": "https://www.pharm.kyoto-u.ac.jp/research/research-organization/faculties/",
+          "evidence": "2026-10-01现状教员表列明结构生物药学教授为小川治夫。"
+        }
+      ],
+      "theme_ja": "膜受容体・輸送体と薬物作用の構造基盤",
+      "theme_en": "Structural mechanisms of membrane receptors, transporters and drug action",
+      "theme_tw": "膜受體、運輸體與藥物作用的結構基礎",
+      "summary_ja": "タンパク質の立体構造から、膜受容体や輸送体によるリガンド認識、情報伝達、物質輸送を研究。心筋型リアノジン受容体、NPR受容体、ABC輸送体に注目し、クライオ電顕の解析法も開発して薬物作用の分子基盤を探ります。",
+      "summary_en": "Investigates ligand recognition, signaling and transport through protein structures. Work focuses on cardiac ryanodine receptors, NPR receptors and ABC transporters, while developing cryo-EM methods to provide molecular insight into drug action.",
+      "summary_tw": "透過蛋白質立體結構解析，研究膜受體和運輸體如何辨識配體、傳遞訊號或完成物質轉運。重點涉及心肌型雷諾定受體、NPR受體及ABC運輸體，並發展冷凍電顯分析方法，為理解藥物作用提供分子依據。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "protein-3"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "慶應義塾大学",
+      "department": "ヒト生物学-微生物叢-量子計算研究センター（Bio2Q）",
+      "lab": "メタボローム研究グループ",
+      "pi": "曽我 朋義",
+      "theme_zh": "通过代谢物测量理解细胞调控、癌症代谢与疾病标志物。",
+      "summary_zh": "以毛细管电泳质谱为核心测量技术，比较微生物、植物和人体样本中的代谢物。研究代谢途径及调控方式，并将代谢变化用于理解基因与蛋白功能、癌症代谢和疾病相关生物标志物。",
+      "keywords": [
+        "代谢组学",
+        "CE-MS",
+        "癌症代谢",
+        "生物标志物",
+        "分析技术"
+      ],
+      "url": "https://metabolome.iab.keio.ac.jp/ja/",
+      "references": [
+        {
+          "url": "https://metabolome.iab.keio.ac.jp/ja/",
+          "evidence": "现主页注明曽我为Bio2Q特任教授/名誉教授，非旧IAB常任教授；列CE-MS与代谢、癌症、标志物主题。"
+        },
+        {
+          "url": "https://bio2q.keio.ac.jp/ja/members-list/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "代謝物測定から細胞制御、がん代謝、疾患指標を理解する。",
+      "theme_en": "Understanding cellular regulation, cancer metabolism and disease markers by measuring metabolites.",
+      "summary_ja": "キャピラリー電気泳動・質量分析を中心に、微生物、植物、ヒト試料の代謝物を比較。代謝経路と調節機構を研究し、代謝変化から遺伝子・タンパク質機能、がん代謝、疾患関連バイオマーカーを理解する。",
+      "summary_en": "Uses capillary electrophoresis–mass spectrometry to compare metabolites in microbes, plants and human samples. Studies of metabolic pathways and regulation connect metabolic changes with gene and protein functions, cancer metabolism and disease-related biomarkers.",
+      "theme_tw": "通過代謝物測量理解細胞調控、癌症代謝與疾病標誌物。",
+      "summary_tw": "以毛細管電泳質譜為核心測量技術，比較微生物、植物和人體樣本中的代謝物。研究代謝途徑及調控方式，並將代謝變化用於理解基因與蛋白功能、癌症代謝和疾病相關生物標誌物。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "metabolism_biochemistry-1"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "大阪大学",
+      "department": "大学院医学系研究科 生化学・分子生物学講座",
+      "lab": "システム代謝学",
+      "pi": "馬場 健史",
+      "theme_zh": "建立高精度代谢组技术并连接疾病机制和多组学数据。",
+      "summary_zh": "利用色谱与质谱测量亲水和疏水代谢物，开发适用于微量样本的定量技术。研究还包括样本处理自动化、跨机构标准化及AI辅助解析，并将代谢组与其他组学结合来解释细胞状态和疾病机制。",
+      "keywords": [
+        "代谢组学",
+        "质谱",
+        "脂质组",
+        "多组学",
+        "数据标准化"
+      ],
+      "url": "https://www.med.osaka-u.ac.jp/introduction/research/biochemistry/systems_metabolomics",
+      "references": [
+        {
+          "url": "https://www.med.osaka-u.ac.jp/introduction/research/biochemistry/systems_metabolomics",
+          "evidence": "大阪大学现研究室目录列马场健史教授并介绍色谱质谱、标准化、AI和多组学；成员页交叉确认。"
+        },
+        {
+          "url": "https://www.med.osaka-u.ac.jp/pub/sysmet/takeshi-bamba/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "高精度メタボロミクスを開発し、疾患機構とマルチオミクスにつなげる。",
+      "theme_en": "Developing precise metabolomics for disease research and multi-omics integration.",
+      "summary_ja": "クロマトグラフィーと質量分析で親水性・疎水性代謝物を測定し、微量試料に対応する定量技術を開発。試料処理の自動化、施設間標準化、AI解析にも取り組み、他のオミクスと統合して細胞状態や疾患機構を解析する。",
+      "summary_en": "Develops chromatography and mass-spectrometry methods for quantifying hydrophilic and hydrophobic metabolites in small samples. Research also covers sample-processing automation, standardization across institutions and AI-assisted analysis, integrating metabolomics with other omics to explain cellular states and disease mechanisms.",
+      "theme_tw": "建立高精度代謝組技術並連接疾病機制和多組學數據。",
+      "summary_tw": "利用色譜與質譜測量親水和疏水代謝物，開發適用於微量樣本的定量技術。研究還包括樣本處理自動化、跨機構標準化及AI輔助解析，並將代謝組與其他組學結合來解釋細胞狀態和疾病機制。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "metabolism_biochemistry-2"
+    },
+    {
+      "field": "immunology",
+      "university": "大阪大学",
+      "department": "大学院医学系研究科／生命機能研究科／免疫学フロンティア研究センター",
+      "lab": "免疫細胞生物学研究室",
+      "pi": "石井 優",
+      "theme_zh": "通过活体成像观察免疫细胞如何移动、协作和影响组织。",
+      "summary_zh": "把免疫学问题转化为可观察的细胞动态，利用活体成像追踪免疫与血液细胞的迁移和相互作用。以骨等组织为研究场景，在单细胞尺度分析细胞功能，理解组织稳态、炎症及疾病中的免疫网络。",
+      "keywords": [
+        "免疫细胞",
+        "活体成像",
+        "骨代谢",
+        "细胞迁移",
+        "组织稳态"
+      ],
+      "url": "https://www.med.osaka-u.ac.jp/introduction/research/microbiology/immunology",
+      "references": [
+        {
+          "url": "https://www.med.osaka-u.ac.jp/introduction/research/microbiology/immunology",
+          "evidence": "医学与生命机能研究科均列石井优教授；介绍免疫血液细胞动态、骨内活体成像。"
+        },
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/14",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "生体イメージングで免疫細胞の移動・協働と組織への作用を観察する。",
+      "theme_en": "Watching immune-cell movement and cooperation through live imaging.",
+      "summary_ja": "免疫・血液細胞の移動や相互作用を、生体イメージングによって直接観察する研究。骨などの組織を対象に単一細胞の役割を解析し、組織の恒常性、炎症、疾患に関わる免疫ネットワークを理解する。",
+      "summary_en": "Uses live imaging to observe the migration and interactions of immune and blood cells. Studies in bone and other tissues analyze individual cell functions to understand immune networks involved in tissue homeostasis, inflammation and disease.",
+      "theme_tw": "通過活體成像觀察免疫細胞如何移動、協作和影響組織。",
+      "summary_tw": "把免疫學問題轉化為可觀察的細胞動態，利用活體成像追蹤免疫與血液細胞的遷移和相互作用。以骨等組織為研究場景，在單細胞尺度分析細胞功能，理解組織穩態、炎症及疾病中的免疫網絡。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "immunology-1"
+    },
+    {
+      "field": "immunology",
+      "university": "九州大学",
+      "department": "生体防御医学研究所",
+      "lab": "免疫ゲノム生物学分野",
+      "pi": "馬場 義裕",
+      "theme_zh": "研究B细胞分化及其促进或抑制免疫反应的机制。",
+      "summary_zh": "以B细胞为中心，分析抗体产生、细胞分化及免疫调节。结合基因改造小鼠和人类B细胞研究，关注记忆细胞、浆细胞与调节性B细胞的作用，理解自身免疫、过敏和炎症中的异常调控。",
+      "keywords": [
+        "B细胞",
+        "抗体",
+        "免疫调节",
+        "自身免疫",
+        "炎症"
+      ],
+      "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022390_ja.html",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022390_ja.html",
+          "evidence": "2026年更新的研究者目录列马场义裕教授及两项B细胞主题；大学研究成果页佐证调节性B细胞研究。"
+        },
+        {
+          "url": "https://sdgs.kyushu-u.ac.jp/31216",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "B細胞の分化と免疫反応を促進・抑制する仕組みを研究する。",
+      "theme_en": "Studying B-cell differentiation and the regulation of immune responses.",
+      "summary_ja": "B細胞を中心に抗体産生、細胞分化、免疫調節を解析。遺伝子改変マウスとヒトB細胞を用い、記憶B細胞、形質細胞、制御性B細胞の働きに注目して、自己免疫、アレルギー、炎症における制御異常を調べる。",
+      "summary_en": "Focuses on B-cell differentiation, antibody production and immune regulation. Studies using genetically modified mice and human B cells examine memory cells, plasma cells and regulatory B cells to understand abnormal regulation in autoimmunity, allergy and inflammation.",
+      "theme_tw": "研究B細胞分化及其促進或抑制免疫反應的機制。",
+      "summary_tw": "以B細胞為中心，分析抗體產生、細胞分化及免疫調節。結合基因改造小鼠和人類B細胞研究，關注記憶細胞、漿細胞與調節性B細胞的作用，理解自身免疫、過敏和炎症中的異常調控。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "immunology-2"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "北海道大学",
+      "department": "人獣共通感染症国際共同研究所",
+      "lab": "国際疫学部門",
+      "pi": "髙田 礼人",
+      "theme_zh": "连接病毒分子机制、自然宿主与野外传播研究。",
+      "summary_zh": "从病毒蛋白与宿主分子的相互作用出发，研究感染成立、宿主范围及致病性，同时开展自然宿主和传播路径调查。将结构与计算分析、感染实验和野外流行病学结合，理解人兽共患病毒的传播。",
+      "keywords": [
+        "病毒学",
+        "人兽共患",
+        "宿主范围",
+        "病毒蛋白",
+        "流行病学"
+      ],
+      "url": "https://www.czc.hokudai.ac.jp/epidemiol/",
+      "references": [
+        {
+          "url": "https://www.czc.hokudai.ac.jp/epidemiol/",
+          "evidence": "部門研究页介绍病毒结构、感染机制和野外调查；研究所现组织表列高田礼人教授。"
+        },
+        {
+          "url": "https://www.czc.hokudai.ac.jp/intro/organigram/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "ウイルスの分子機構、自然宿主、野外での伝播をつなぐ。",
+      "theme_en": "Connecting viral molecular mechanisms with natural hosts and transmission in the field.",
+      "summary_ja": "ウイルスタンパク質と宿主分子の相互作用から、感染成立、宿主域、病原性を研究し、自然宿主や伝播経路も調査。構造・計算解析、感染実験、野外疫学を組み合わせ、人獣共通感染ウイルスの伝播を理解する。",
+      "summary_en": "Studies interactions between viral proteins and host molecules to understand infection, host range and pathogenicity, alongside surveys of natural hosts and transmission routes. Structural and computational analysis, infection experiments and field epidemiology connect molecular mechanisms with zoonotic virus transmission.",
+      "theme_tw": "連接病毒分子機制、自然宿主與野外傳播研究。",
+      "summary_tw": "從病毒蛋白與宿主分子的相互作用出發，研究感染成立、宿主範圍及致病性，同時開展自然宿主和傳播路徑調查。將結構與計算分析、感染實驗和野外流行病學結合，理解人獸共患病毒的傳播。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "microbiology_infection-1"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "長崎大学",
+      "department": "熱帯医学研究所 病原体解析部門",
+      "lab": "細菌学分野",
+      "pi": "児玉 年央",
+      "theme_zh": "解释肠道病原细菌如何感染宿主并形成流行。",
+      "summary_zh": "研究弧菌、沙门菌等肠道病原细菌，连接环境与患者样本的流行病学调查和分子机制分析。关注细菌毒力因子、宿主免疫及肠道微生物的相互作用，为感染控制和新型干预手段提供基础知识。",
+      "keywords": [
+        "细菌学",
+        "肠道感染",
+        "弧菌",
+        "沙门菌",
+        "宿主互作"
+      ],
+      "url": "https://www.tm.nagasaki-u.ac.jp/nekken/departments/bacteriology.html",
+      "references": [
+        {
+          "url": "https://www.tm.nagasaki-u.ac.jp/nekken/departments/bacteriology.html",
+          "evidence": "热研官网列児玉年央教授并介绍弧菌和沙门菌研究；研究科教员目录交叉确认。"
+        },
+        {
+          "url": "https://www.tmgh.nagasaki-u.ac.jp/professors_cat/nagasaki-university",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "腸管病原細菌の感染機構と流行の成り立ちを調べる。",
+      "theme_en": "Investigating how intestinal bacterial pathogens infect hosts and spread.",
+      "summary_ja": "ビブリオ属菌やサルモネラなどを対象に、環境・患者由来試料の疫学調査と分子機構解析をつなぐ。病原因子、宿主免疫、腸内微生物との相互作用に注目し、感染制御や新しい介入法の基礎知識を得る。",
+      "summary_en": "Studies intestinal pathogens including Vibrio and Salmonella, linking epidemiological surveys of environmental and patient samples with molecular analysis. Work on virulence factors, host immunity and gut-microbe interactions provides basic knowledge for infection control and potential new interventions.",
+      "theme_tw": "解釋腸道病原細菌如何感染宿主並形成流行。",
+      "summary_tw": "研究弧菌、沙門菌等腸道病原細菌，連接環境與患者樣本的流行病學調查和分子機制分析。關注細菌毒力因子、宿主免疫及腸道微生物的相互作用，為感染控制和新型干預手段提供基礎知識。",
+      "aliases": [
+        "长崎大学",
+        "長崎大學",
+        "Nagasaki University"
+      ],
+      "id": "microbiology_infection-2"
+    },
+    {
+      "field": "plant_science",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻 生命理学領域／WPI-ITbM",
+      "lab": "植物生理学グループ",
+      "pi": "木下 俊則",
+      "theme_zh": "研究植物如何感知光与二氧化碳并调节气孔和生长。",
+      "summary_zh": "以气孔保卫细胞为主要材料，研究植物怎样把光照、二氧化碳等环境变化转为生理响应。围绕气孔开闭和植物生长，分析信号传递与膜蛋白调控机制，连接基础植物生理学和作物环境适应研究。",
+      "keywords": [
+        "气孔",
+        "环境响应",
+        "光信号",
+        "二氧化碳",
+        "植物生理"
+      ],
+      "url": "https://plantphys.bio.nagoya-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://plantphys.bio.nagoya-u.ac.jp/",
+          "evidence": "研究室主页列木下俊则教授和理学研究科/ITbM所属；概述气孔保卫细胞的环境响应。"
+        },
+        {
+          "url": "https://plantphys.bio.nagoya-u.ac.jp/member/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "光や二酸化炭素の感知と気孔・成長制御を研究する。",
+      "theme_en": "Studying how plants sense light and carbon dioxide to regulate stomata and growth.",
+      "summary_ja": "気孔孔辺細胞を主な材料として、光や二酸化炭素などの環境変化を植物が生理応答に変える仕組みを研究。気孔開閉と成長に関わる情報伝達や膜タンパク質制御を調べ、植物生理学と作物の環境適応を結び付ける。",
+      "summary_en": "Uses stomatal guard cells to study how plants translate changes in light, carbon dioxide and other environmental signals into physiological responses. Research on signaling and membrane-protein regulation connects stomatal movement and growth with plant physiology and crop adaptation.",
+      "theme_tw": "研究植物如何感知光與二氧化碳並調節氣孔和生長。",
+      "summary_tw": "以氣孔保衛細胞為主要材料，研究植物怎樣把光照、二氧化碳等環境變化轉為生理響應。圍繞氣孔開閉和植物生長，分析信號傳遞與膜蛋白調控機制，連接基礎植物生理學和作物環境適應研究。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "plant_science-1"
+    },
+    {
+      "field": "plant_science",
+      "university": "横浜市立大学",
+      "department": "木原生物学研究所／大学院生命ナノシステム科学研究科",
+      "lab": "生命化学部門 嶋田・奥村グループ",
+      "pi": "嶋田 幸久",
+      "theme_zh": "用植物激素与化学工具研究环境响应和作物生长。",
+      "summary_zh": "研究生长素等植物激素如何介导光照、重力与生长之间的联系。结合化学生物学、基因表达分析及激素合成抑制剂，在拟南芥和水稻、番茄、草莓等材料中比较机制，并探索农业应用。",
+      "keywords": [
+        "植物激素",
+        "生长素",
+        "化学生物学",
+        "环境响应",
+        "作物"
+      ],
+      "url": "https://www.yokohama-cu.ac.jp/kihara/labo/ouge.html",
+      "references": [
+        {
+          "url": "https://www.yokohama-cu.ac.jp/kihara/labo/ouge.html",
+          "evidence": "研究组页说明植物激素、化学抑制剂和作物应用；研究所目录确认嶋田教授。"
+        },
+        {
+          "url": "https://www.yokohama-cu.ac.jp/kihara/labo/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关东",
+      "university_type": "公立",
+      "theme_ja": "植物ホルモンと化学ツールで環境応答・作物成長を解明する。",
+      "theme_en": "Using plant hormones and chemical tools to study environmental responses and crop growth.",
+      "summary_ja": "オーキシンなどの植物ホルモンが光・重力・成長を結び付ける仕組みを研究。ケミカルバイオロジー、遺伝子発現解析、ホルモン生合成阻害剤を組み合わせ、シロイヌナズナ、イネ、トマト、イチゴで比較し農業利用を探る。",
+      "summary_en": "Studies how plant hormones such as auxin link light and gravity responses with growth. Chemical biology, gene-expression analysis and hormone-biosynthesis inhibitors are used in Arabidopsis, rice, tomato and strawberry to compare mechanisms and explore agricultural applications.",
+      "theme_tw": "用植物激素與化學工具研究環境響應和作物生長。",
+      "summary_tw": "研究生長素等植物激素如何介導光照、重力與生長之間的聯繫。結合化學生物學、基因表達分析及激素合成抑制劑，在擬南芥和水稻、番茄、草莓等材料中比較機制，並探索農業應用。",
+      "aliases": [
+        "横滨市立大学",
+        "橫濱市立大學",
+        "Yokohama City University"
+      ],
+      "id": "plant_science-2"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科",
+      "lab": "進化ゲノミクス分野（牧野研究室）",
+      "pi": "牧野 能士",
+      "theme_zh": "通过基因组比较解释动植物形态和生态特征的演化。",
+      "summary_zh": "利用基因组与基因表达大数据，寻找生物性状的遗传基础。重点分析基因重复和非编码调控区域的变化，把分子层面的演化与动植物的生态特征、发光、寄生等表型联系起来。",
+      "keywords": [
+        "进化基因组",
+        "基因重复",
+        "比较基因组",
+        "表型演化"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/evolgenomics/",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/evolgenomics/",
+          "evidence": "主页概述基因重复与性状演化；成员页确认牧野教授并列动植物、寄生和发光研究主题。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/evolgenomics/members/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "ゲノム比較で動植物の形態・生態的特徴の進化を読み解く。",
+      "theme_en": "Explaining the evolution of animal and plant traits through genome comparisons.",
+      "summary_ja": "ゲノムと遺伝子発現の大規模データから、生物の形質の遺伝的基盤を探る。遺伝子重複と非コード制御領域の変化に注目し、分子進化を動植物の生態的特徴、発光、寄生などの表現型と関連付ける。",
+      "summary_en": "Uses genomic and gene-expression datasets to identify the genetic basis of biological traits. Particular attention goes to gene duplication and noncoding regulatory regions, linking molecular evolution with ecological characteristics, bioluminescence and parasitic traits in animals and plants.",
+      "theme_tw": "通過基因組比較解釋動植物形態和生態特徵的演化。",
+      "summary_tw": "利用基因組與基因表達大數據，尋找生物性狀的遺傳基礎。重點分析基因重複和非編碼調控區域的變化，把分子層面的演化與動植物的生態特徵、發光、寄生等表型聯繫起來。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "ecology_evolution-1"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "東京都立大学",
+      "department": "大学院理学研究科 生命科学専攻",
+      "lab": "進化遺伝学研究室 髙橋グループ",
+      "pi": "髙橋 文",
+      "theme_zh": "用果蝇研究适应进化、物种形成及基因表达的演化。",
+      "summary_zh": "以果蝇为主要研究对象，追问种群如何适应环境以及不同物种如何产生生殖隔离。结合遗传学与全基因组表达数据分析，研究自然选择、性状差异及基因表达调控机制在演化中的变化。",
+      "keywords": [
+        "果蝇",
+        "适应进化",
+        "物种形成",
+        "生殖隔离",
+        "转录组"
+      ],
+      "url": "https://www.tmu.ac.jp/stafflist/data/ta/4498.html",
+      "references": [
+        {
+          "url": "https://www.tmu.ac.jp/stafflist/data/ta/4498.html",
+          "evidence": "大学教员页确认髙桥文教授及适应、种分化、转录组主题；研究者主页注明进化遗传学研究室。"
+        },
+        {
+          "url": "https://sites.google.com/view/aya-takahashi",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关东",
+      "university_type": "公立",
+      "theme_ja": "ショウジョウバエで適応進化、種分化、発現制御の進化を調べる。",
+      "theme_en": "Using fruit flies to study adaptation, speciation and the evolution of gene regulation.",
+      "summary_ja": "ショウジョウバエを主な対象に、集団の環境適応と種間の生殖隔離が生まれる仕組みを研究。遺伝学とゲノムワイドな発現データ解析を組み合わせ、自然選択、形質差、遺伝子発現制御の進化的変化を調べる。",
+      "summary_en": "Uses fruit flies to investigate how populations adapt and how reproductive isolation develops between species. Genetics and genome-wide expression analysis examine natural selection, trait differences and evolutionary changes in gene regulation.",
+      "theme_tw": "用果蠅研究適應進化、物種形成及基因表達的演化。",
+      "summary_tw": "以果蠅為主要研究對象，追問種群如何適應環境以及不同物種如何產生生殖隔離。結合遺傳學與全基因組表達數據分析，研究自然選擇、性狀差異及基因表達調控機制在演化中的變化。",
+      "aliases": [
+        "东京都立大学",
+        "東京都立大學",
+        "Tokyo Metropolitan University"
+      ],
+      "id": "ecology_evolution-2"
+    },
+    {
+      "field": "cancer",
+      "university": "京都大学",
+      "department": "大学院医学研究科 医学・医科学専攻",
+      "lab": "腫瘍生物学（病理学第二講座）",
+      "pi": "小川誠司",
+      "theme_zh": "癌症基因组变化与克隆演化",
+      "summary_zh": "从遗传学与分子生物学角度研究恶性肿瘤的形成和发展。结合基因组分析、信息学及功能实验，关注肿瘤细胞不断获得突变后如何经历克隆选择，以及组织环境和免疫反应怎样影响细胞群体的多样性与癌变。",
+      "keywords": [
+        "癌症基因组",
+        "克隆演化",
+        "肿瘤异质性",
+        "遗传学",
+        "生物信息学"
+      ],
+      "url": "https://www.med.kyoto-u.ac.jp/research/field/doctoral_course/r-006",
+      "references": [
+        {
+          "url": "https://www.med.kyoto-u.ac.jp/research/field/doctoral_course/r-006",
+          "evidence": "医学研究科官方介绍列明小川誠司；研究恶性肿瘤遗传基础、克隆选择与遗传多样性，使用genomics/informatics和分子生物学。"
+        }
+      ],
+      "theme_ja": "がんのゲノム変化とクローン進化",
+      "theme_en": "Cancer genome alterations and clonal evolution",
+      "theme_tw": "癌症基因組變化與克隆演化",
+      "summary_ja": "遺伝学と分子生物学から悪性腫瘍の発生・進展を研究。ゲノム解析、情報学、機能実験を組み合わせ、変異を獲得する細胞のクローン選択と、組織環境や免疫応答が細胞集団の多様性・がん化に及ぼす影響を調べます。",
+      "summary_en": "Studies malignant tumor formation and progression through genetics and molecular biology. Genomics, informatics and functional experiments examine clonal selection as mutations accumulate, and how tissue environments and immune responses shape cellular diversity and transformation.",
+      "summary_tw": "從遺傳學與分子生物學角度研究惡性腫瘤的形成和發展。結合基因組分析、資訊學及功能實驗，關注腫瘤細胞不斷獲得突變後如何經歷克隆選擇，以及組織環境和免疫反應怎樣影響細胞群體的多樣性與癌變。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "cancer-1"
+    },
+    {
+      "field": "cancer",
+      "university": "慶應義塾大学",
+      "department": "医学部 医化学教室",
+      "lab": "佐藤俊朗研究室",
+      "pi": "佐藤俊朗",
+      "theme_zh": "类器官模型中的癌变、转移与药物耐受",
+      "summary_zh": "利用患者来源和正常组织来源的类器官，在体外重现人体组织及肿瘤的部分特征。结合CRISPR基因编辑，分析驱动突变如何促成癌变、浸润、转移和耐药，并开展组织干细胞调控及肠道再生相关研究。",
+      "keywords": [
+        "类器官",
+        "癌症模型",
+        "CRISPR",
+        "肿瘤转移",
+        "耐药"
+      ],
+      "url": "https://organoidmed.org/",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/k_100001725/",
+          "evidence": "大学官方页列明佐藤俊朗为医学部医化学教室教授，介绍患者来源癌类器官、CRISPR重构癌变、浸润转移耐药及再生研究。"
+        },
+        {
+          "url": "https://organoidmed.org/",
+          "evidence": "实验室官网标题及研究主题确认为慶應義塾大学医化学教室佐藤俊朗研究室，2026年新闻持续更新。"
+        }
+      ],
+      "theme_ja": "オルガノイドを用いた発がん・転移・薬剤耐性の研究",
+      "theme_en": "Organoid models of cancer, metastasis and drug resistance",
+      "theme_tw": "類器官模型中的癌變、轉移與藥物耐受",
+      "summary_ja": "患者由来および正常組織由来のオルガノイドで、ヒト組織や腫瘍の特徴を体外に再現。CRISPRによる遺伝子編集を組み合わせ、ドライバー変異が発がん、浸潤、転移、薬剤耐性に及ぼす影響や、組織幹細胞制御・腸管再生を研究します。",
+      "summary_en": "Uses patient-derived and normal-tissue organoids to reproduce aspects of human tissues and tumors in vitro. CRISPR editing probes how driver mutations promote cancer, invasion, metastasis and drug resistance, alongside studies of tissue stem-cell regulation and intestinal regeneration.",
+      "summary_tw": "利用患者來源和正常組織來源的類器官，在體外重現人體組織及腫瘤的部分特徵。結合CRISPR基因編輯，分析驅動突變如何促成癌變、浸潤、轉移和耐藥，並開展組織幹細胞調控及腸道再生相關研究。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "cancer-2"
+    },
+    {
+      "field": "cancer",
+      "university": "金沢大学",
+      "department": "がん進展制御研究所",
+      "lab": "腫瘍遺伝学研究分野",
+      "pi": "大島正伸",
+      "theme_zh": "消化系统肿瘤的遗传变化与微环境",
+      "summary_zh": "研究胃癌、大肠癌等消化系统肿瘤的发生与恶性化，关注基因突变、肿瘤微环境及宿主反应之间的相互作用。使用小鼠模型和类器官移植模型，分析相关信号途径及转移过程，为理解癌症进展提供实验依据。",
+      "keywords": [
+        "消化系统肿瘤",
+        "肿瘤微环境",
+        "遗传突变",
+        "类器官",
+        "小鼠模型"
+      ],
+      "url": "https://ganken.cri.kanazawa-u.ac.jp/about/department/cscr08/",
+      "references": [
+        {
+          "url": "https://ganken.cri.kanazawa-u.ac.jp/about/department/cscr08/",
+          "evidence": "金沢大学研究所官方分野页列明大島正伸及腫瘍遺伝学；研究目的列出消化器癌、遗传变异与微环境/宿主反应、小鼠和类器官移植模型，并含2025年论文说明。"
+        },
+        {
+          "url": "https://s-yobou.w3.kanazawa-u.ac.jp/faculty/",
+          "evidence": "大学院先進予防医学研究科专任教员列表仍列腫瘍遺伝学与大島正伸。"
+        }
+      ],
+      "theme_ja": "消化器がんの遺伝子変化と微小環境",
+      "theme_en": "Genetic alterations and microenvironments in digestive-system cancers",
+      "theme_tw": "消化系統腫瘤的遺傳變化與微環境",
+      "summary_ja": "胃がんや大腸がんなど消化器がんの発生・悪性化を対象に、遺伝子変異、腫瘍微小環境、宿主反応の相互作用を研究。マウスやオルガノイド移植モデルでシグナル経路と転移過程を解析し、がん進展の仕組みを調べます。",
+      "summary_en": "Studies gastrointestinal cancer development and progression, including gastric and colorectal cancers, through interactions among mutations, the tumor microenvironment and host responses. Mouse and organoid transplantation models examine signaling pathways and metastatic processes.",
+      "summary_tw": "研究胃癌、大腸癌等消化系統腫瘤的發生與惡性化，關注基因突變、腫瘤微環境及宿主反應之間的相互作用。使用小鼠模型和類器官移植模型，分析相關訊號途徑及轉移過程，為理解癌症進展提供實驗依據。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "金泽大学",
+        "金澤大學",
+        "Kanazawa University"
+      ],
+      "id": "cancer-3"
+    },
+    {
+      "field": "neuro",
+      "university": "東京大学",
+      "department": "大学院薬学系研究科",
+      "lab": "薬品作用学教室",
+      "pi": "池谷裕二",
+      "theme_zh": "神经环路的可塑性、记忆与情绪调控",
+      "summary_zh": "关注海马、大脑皮层等神经网络如何参与学习、情绪与社会行为。通过电生理、光学记录、行为药理和大规模神经活动分析，研究突触及环路可塑性、身体与脑的功能联系，以及神经功能异常的形成机制。",
+      "keywords": [
+        "神经环路",
+        "可塑性",
+        "学习记忆",
+        "电生理",
+        "行为药理"
+      ],
+      "url": "https://www.yakusaku.jp/",
+      "references": [
+        {
+          "url": "https://www.f.u-tokyo.ac.jp/research/index.html?id=1377181341",
+          "evidence": "2026-11-01现状教室介绍列明池谷裕二；药品作用学课题包括学习情绪社会性、身体脑功能联系、嗅觉环路形成及AI研究。"
+        },
+        {
+          "url": "https://www.yakusaku.jp/",
+          "evidence": "实验室官网以脑可塑性为主要问题，介绍神经环路形成、功能和失调；页面有2026-11-01实验室新闻。"
+        }
+      ],
+      "theme_ja": "神経回路の可塑性と記憶・情動の制御",
+      "theme_en": "Neural-circuit plasticity, memory and emotional regulation",
+      "theme_tw": "神經迴路的可塑性、記憶與情緒調控",
+      "summary_ja": "海馬や大脳皮質の神経ネットワークが学習・情動・社会行動を担う仕組みを研究。電気生理、光学計測、行動薬理、大規模神経活動解析を用い、シナプスと回路の可塑性、身体と脳の機能的連関、神経機能異常の成り立ちを調べます。",
+      "summary_en": "Examines how hippocampal and cortical networks support learning, emotion and social behavior. Electrophysiology, optical recording, behavioral pharmacology and large-scale activity analysis investigate synaptic and circuit plasticity, body–brain interactions and mechanisms of neural dysfunction.",
+      "summary_tw": "關注海馬、大腦皮層等神經網路如何參與學習、情緒與社會行為。透過電生理、光學記錄、行為藥理和大規模神經活動分析，研究突觸及迴路可塑性、身體與腦的功能聯繫，以及神經功能異常的形成機制。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "neuro-1"
+    },
+    {
+      "field": "neuro",
+      "university": "京都大学",
+      "department": "高等研究院 物質－細胞統合システム拠点（iCeMS）",
+      "lab": "見学研究室",
+      "pi": "見学美根子",
+      "theme_zh": "神经元迁移、形态分化与脑发育",
+      "summary_zh": "研究发育中的神经元如何迁移到正确位置，并形成具有特定形态的轴突、树突及神经连接。结合分子生物学、活细胞成像与力学生物学，观察细胞运动和形态变化，以理解脑皮层及神经环路形成的基本原理。",
+      "keywords": [
+        "脑发育",
+        "神经元迁移",
+        "树突",
+        "活细胞成像",
+        "力学生物学"
+      ],
+      "url": "https://kengaku.icems.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.icems.kyoto-u.ac.jp/people/363/",
+          "evidence": "iCeMS官方PI页列明見学美根子、神经发生学研究及研究室链接；关联新闻更新至2026年。"
+        },
+        {
+          "url": "https://kengaku.icems.kyoto-u.ac.jp/",
+          "evidence": "实验室介绍明确研究神经元迁移、形态分化、树突分支，采用分子生物学、活细胞成像和mechanobiology。"
+        }
+      ],
+      "theme_ja": "ニューロンの移動・形態分化と脳発生",
+      "theme_en": "Neuronal migration, morphological differentiation and brain development",
+      "theme_tw": "神經元遷移、形態分化與腦發育",
+      "summary_ja": "発生期のニューロンが適切な位置へ移動し、特有の軸索・樹状突起や神経接続を形成する仕組みを研究。分子生物学、生細胞イメージング、メカノバイオロジーで運動と形態変化を捉え、大脳皮質と神経回路形成の原理を探ります。",
+      "summary_en": "Studies how developing neurons migrate to appropriate locations and form characteristic axons, dendrites and connections. Molecular biology, live-cell imaging and mechanobiology track cell movement and shape changes to explain cortical development and neural-circuit formation.",
+      "summary_tw": "研究發育中的神經元如何遷移到正確位置，並形成具有特定形態的軸突、樹突及神經連接。結合分子生物學、活細胞成像與力學生物學，觀察細胞運動和形態變化，以理解腦皮層及神經迴路形成的基本原理。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "neuro-2"
+    },
+    {
+      "field": "neuro",
+      "university": "筑波大学",
+      "department": "国際統合睡眠医科学研究機構（IIIS）",
+      "lab": "柳沢・船戸研究室",
+      "pi": "柳沢正史",
+      "theme_zh": "睡眠与觉醒的分子及神经环路机制",
+      "summary_zh": "以睡眠和觉醒的调控为核心，利用正向遗传学寻找相关基因，并结合在体钙成像、多细胞记录和脑片膜片钳分析神经活动。同时研究食欲素受体等分子靶点，探索睡眠障碍的机制及干预方法的基础。",
+      "keywords": [
+        "睡眠",
+        "觉醒",
+        "正向遗传学",
+        "钙成像",
+        "食欲素"
+      ],
+      "url": "https://wpi-iiis.tsukuba.ac.jp/japanese/research/member/detail/masashiyanagisawa/",
+      "references": [
+        {
+          "url": "https://wpi-iiis.tsukuba.ac.jp/japanese/research/member/detail/masashiyanagisawa/",
+          "evidence": "IIIS官方研究者页列明柳沢正史、柳沢・船戸研究室名称及官网链接；研究概要包含正向遗传学、在体钙成像、多细胞记录、膜片钳和食欲素受体药物研究。"
+        }
+      ],
+      "theme_ja": "睡眠・覚醒を制御する分子と神経回路",
+      "theme_en": "Molecular and circuit mechanisms of sleep and wakefulness",
+      "theme_tw": "睡眠與覺醒的分子及神經迴路機制",
+      "summary_ja": "睡眠・覚醒の制御を中心に、フォワードジェネティクスで関連遺伝子を探索し、生体内カルシウムイメージング、多細胞記録、脳スライスのパッチクランプで神経活動を解析。オレキシン受容体なども調べ、睡眠障害の理解と介入法の基盤を探ります。",
+      "summary_en": "Uses forward genetics to identify sleep-regulating genes, alongside in vivo calcium imaging, multicellular recordings and brain-slice patch clamping. Studies molecular targets including orexin receptors to understand sleep disorders and establish foundations for potential interventions.",
+      "summary_tw": "以睡眠和覺醒的調控為核心，利用正向遺傳學尋找相關基因，並結合活體鈣成像、多細胞記錄和腦片膜片鉗分析神經活動。同時研究食慾素受體等分子標靶，探索睡眠障礙的機制及介入方法的基礎。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "筑波大学",
+        "筑波大學",
+        "University of Tsukuba"
+      ],
+      "id": "neuro-3"
+    },
+    {
+      "field": "rna",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 生物科学専攻",
+      "lab": "塩見研究室（RNA生物学）",
+      "pi": "塩見美喜子",
+      "theme_zh": "小RNA介导的基因沉默与生殖细胞基因组保护",
+      "summary_zh": "以果蝇及哺乳动物生殖细胞为对象，研究小分子RNA的生成及其抑制转座子的机制。结合生化实验与信息分析，探索RNA沉默如何维持遗传信息稳定，以及这一过程对生殖细胞表观基因组形成的影响。",
+      "keywords": [
+        "小RNA",
+        "RNA沉默",
+        "转座子",
+        "生殖细胞",
+        "表观基因组"
+      ],
+      "url": "https://www.bs.s.u-tokyo.ac.jp/labs/siomi/",
+      "references": [
+        {
+          "url": "https://www.bs.s.u-tokyo.ac.jp/labs/siomi/",
+          "evidence": "大学官方研究室页列明塩見美喜子及RNA生物学所属；研究课题为生殖组织小RNA生合成、转座子抑制及小鼠生殖细胞表观基因组形成。"
+        }
+      ],
+      "theme_ja": "小分子RNAによる遺伝子サイレンシングと生殖細胞ゲノムの保護",
+      "theme_en": "Small-RNA silencing and genome protection in germ cells",
+      "theme_tw": "小RNA介導的基因沉默與生殖細胞基因組保護",
+      "summary_ja": "ショウジョウバエや哺乳類の生殖細胞を対象に、小分子RNAの生合成とトランスポゾン抑制機構を研究。生化学と情報解析を組み合わせ、RNAサイレンシングが遺伝情報の安定性を保つ仕組みと、生殖細胞のエピゲノム形成への影響を調べます。",
+      "summary_en": "Studies small-RNA production and transposon repression in fly and mammalian germ cells. Biochemical experiments and computational analyses examine how RNA silencing maintains genome stability and influences germ-cell epigenome formation.",
+      "summary_tw": "以果蠅及哺乳動物生殖細胞為對象，研究小分子RNA的生成及其抑制轉座子的機制。結合生化實驗與資訊分析，探索RNA沉默如何維持遺傳資訊穩定，以及這一過程對生殖細胞表觀基因組形成的影響。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "rna-1"
+    },
+    {
+      "field": "rna",
+      "university": "大阪大学",
+      "department": "大学院生命機能研究科 細胞ネットワーク講座",
+      "lab": "RNA生体機能研究室",
+      "pi": "廣瀬哲郎",
+      "theme_zh": "非编码RNA驱动的相分离与细胞内结构形成",
+      "summary_zh": "研究非编码RNA如何招募蛋白质并形成无膜细胞结构，重点关注相分离、应激反应及RNA与染色质的相互作用。结合分子与细胞生物学、生物物理和信息科学方法，解析RNA构建细胞内功能空间的机制。",
+      "keywords": [
+        "非编码RNA",
+        "相分离",
+        "无膜细胞结构",
+        "应激反应",
+        "染色质"
+      ],
+      "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/7",
+      "references": [
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/7",
+          "evidence": "官方研究室及成员页列明廣瀬哲郎；介绍ncRNA诱导相分离与非膜性结构形成，问答列出ncRNA结构体和染色质相互作用。"
+        }
+      ],
+      "theme_ja": "非コードRNAによる相分離と細胞内構造体の形成",
+      "theme_en": "Noncoding RNA, phase separation and cellular organization",
+      "theme_tw": "非編碼RNA驅動的相分離與細胞內結構形成",
+      "summary_ja": "非コードRNAがタンパク質を集めて非膜性構造体を形成する仕組みを研究。相分離、ストレス応答、RNAとクロマチンの相互作用に注目し、分子・細胞生物学、生物物理学、情報科学を組み合わせて細胞内の機能空間の構築を解析します。",
+      "summary_en": "Investigates how noncoding RNA recruits proteins to assemble membraneless structures. Molecular and cell biology, biophysics and informatics are combined to study phase separation, stress responses and RNA–chromatin interactions, revealing how RNA organizes functional spaces inside cells.",
+      "summary_tw": "研究非編碼RNA如何招募蛋白質並形成無膜細胞結構，重點關注相分離、壓力反應及RNA與染色質的相互作用。結合分子與細胞生物學、生物物理和資訊科學方法，解析RNA構建細胞內功能空間的機制。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "rna-2"
+    },
+    {
+      "field": "rna",
+      "university": "北海道大学",
+      "department": "大学院薬学研究院 創薬科学部門",
+      "lab": "RNA生物学研究室",
+      "pi": "中川真一",
+      "theme_zh": "非编码RNA与RNA剪接的生理功能",
+      "summary_zh": "围绕非编码RNA及RNA剪接研究生命活动的调控机制。利用基因改造小鼠、转录组测序、基因组编辑和超分辨成像，分析RNA在基因表达与细胞核结构中的作用，并探索尚未明确的RNA功能和药物研究基础。",
+      "keywords": [
+        "非编码RNA",
+        "RNA剪接",
+        "转录组",
+        "基因组编辑",
+        "细胞核结构"
+      ],
+      "url": "https://www.pharm.hokudai.ac.jp/lab_02.html",
+      "references": [
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/lab_02.html",
+          "evidence": "药学研究院官方页列明中川真一及RNA生物学研究室；描述非编码RNA、剪接与所采用的小鼠、NGS、基因编辑、超分辨显微方法。"
+        }
+      ],
+      "theme_ja": "非コードRNAとRNAスプライシングの生理機能",
+      "theme_en": "Physiological functions of noncoding RNA and RNA splicing",
+      "theme_tw": "非編碼RNA與RNA剪接的生理功能",
+      "summary_ja": "非コードRNAとRNAスプライシングによる生命活動の制御を研究。遺伝子改変マウス、トランスクリプトーム解析、ゲノム編集、超解像イメージングを用い、遺伝子発現や核内構造におけるRNAの役割を調べ、未知の機能と創薬の基盤を探ります。",
+      "summary_en": "Studies regulation by noncoding RNA and RNA splicing. Genetically modified mice, transcriptomics, genome editing and super-resolution imaging reveal RNA functions in gene expression and nuclear organization, exploring uncharacterized mechanisms and foundations for drug research.",
+      "summary_tw": "圍繞非編碼RNA及RNA剪接研究生命活動的調控機制。利用基因改造小鼠、轉錄組定序、基因組編輯和超解析成像，分析RNA在基因表達與細胞核結構中的作用，並探索尚未明確的RNA功能和藥物研究基礎。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "rna-3"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "神戸大学",
+      "department": "大学院科学技術イノベーション研究科／先端バイオ工学研究センター",
+      "lab": "バイオ生産工学研究室（西田グループ）",
+      "pi": "西田 敬二",
+      "theme_zh": "开发基因组编辑与合成进化技术，支持生物制造。",
+      "summary_zh": "围绕可设计的细胞功能，开发基因组编辑和合成进化方法。研究包括不依赖DNA双链切断的定点变异技术，并探索其在微生物与植物改造中的用途，为食物、资源和医疗相关的生物制造提供工具。",
+      "keywords": [
+        "合成生物学",
+        "基因组编辑",
+        "合成进化",
+        "生物制造"
+      ],
+      "url": "https://www.dblr.kobe-u.ac.jp/organization/bio-mfg/bio-mfg-research/",
+      "references": [
+        {
+          "url": "https://www.dblr.kobe-u.ac.jp/organization/bio-mfg/bio-mfg-research/",
+          "evidence": "研究机构页说明西田的非切断变异技术及应用；研究科教员页列西田教授和バイオ生産工学研究室。"
+        },
+        {
+          "url": "https://www.stin.kobe-u.ac.jp/outline/member.html",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "ゲノム編集と合成進化の技術を開発し、バイオものづくりを支える。",
+      "theme_en": "Developing genome editing and synthetic evolution tools for biomanufacturing.",
+      "summary_ja": "設計可能な細胞機能を目指し、ゲノム編集と合成進化の手法を開発。DNA二本鎖切断に依存しない標的変異導入などを研究し、微生物・植物改変を通じて、食料、資源、医療に関連するバイオものづくりへの利用を探る。",
+      "summary_en": "Develops genome-editing and synthetic-evolution methods for designing cellular functions. Research includes targeted mutation techniques that do not rely on DNA double-strand breaks, with applications in modifying microbes and plants for biomanufacturing related to food, resources and medicine.",
+      "theme_tw": "開發基因組編輯與合成進化技術，支持生物製造。",
+      "summary_tw": "圍繞可設計的細胞功能，開發基因組編輯和合成進化方法。研究包括不依賴DNA雙鏈切斷的定點變異技術，並探索其在微生物與植物改造中的用途，為食物、資源和醫療相關的生物製造提供工具。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "synthetic_biotechnology-1"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "東北大学",
+      "department": "大学院工学研究科 ロボティクス専攻",
+      "lab": "分子ロボティクス研究室（野村グループ）",
+      "pi": "野村 慎一郎",
+      "theme_zh": "把生物分子组装为具有可控功能的人工细胞系统。",
+      "summary_zh": "从天然细胞的工作方式获得设计线索，把分子元件组装成人工细胞与微型系统。关注分子程序控制和人工多细胞结构，希望让系统按环境信号执行任务，为材料、环境及生物医学应用提供基础。",
+      "keywords": [
+        "人工细胞",
+        "分子机器人",
+        "分子程序",
+        "生物物理"
+      ],
+      "url": "https://www.eng.tohoku.ac.jp/research/researchers/v-%2C-id%2Cbf2a3200-99ce-45cb-8e4c-fa25cfff55f2.html",
+      "references": [
+        {
+          "url": "https://www.eng.tohoku.ac.jp/research/researchers/v-%2C-id%2Cbf2a3200-99ce-45cb-8e4c-fa25cfff55f2.html",
+          "evidence": "工学研究科介绍人工细胞、分子程序与自动微型系统；2026年机械系页面确认野村准教授及研究室。"
+        },
+        {
+          "url": "https://www.mech.tohoku.ac.jp/news/report/15068/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "生体分子を組み立て、機能を制御できる人工細胞をつくる。",
+      "theme_en": "Assembling biomolecular components into controllable artificial-cell systems.",
+      "summary_ja": "天然細胞に学びながら、分子部品を人工細胞や微小システムへ組み立てる。分子プログラムによる制御と人工多細胞構造に注目し、環境信号に応じて働く仕組みを設計して、材料・環境・生物医学への応用基盤をつくる。",
+      "summary_en": "Takes inspiration from natural cells to assemble molecular components into artificial cells and microsystems. Molecular programming and artificial multicellular structures are explored to create systems that respond to environmental signals, providing foundations for materials, environmental and biomedical applications.",
+      "theme_tw": "把生物分子組裝為具有可控功能的人工細胞系統。",
+      "summary_tw": "從天然細胞的工作方式獲得設計線索，把分子元件組裝成人工細胞與微型系統。關注分子程序控制和人工多細胞結構，希望讓系統按環境信號執行任務，為材料、環境及生物醫學應用提供基礎。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "synthetic_biotechnology-2"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "早稲田大学",
+      "department": "先進理工学部／大学院先進理工学研究科 電気・情報生命工学科・専攻",
+      "lab": "バイオインフォマティクス研究室",
+      "pi": "浜田 道昭",
+      "theme_zh": "利用AI、统计与算法研究RNA及生命科学大数据。",
+      "summary_zh": "结合信息科学、数学和统计学，开发解释生命科学大数据的理论与工具。以RNA研究为重要方向，也涉及基因组、表观组和宏基因组等数据，并探索疾病机制、RNA分子设计与药物研究。",
+      "keywords": [
+        "生物信息",
+        "人工智能",
+        "RNA",
+        "基因组",
+        "算法"
+      ],
+      "url": "https://www.eb.waseda.ac.jp/laboratory/hamada/index.html",
+      "references": [
+        {
+          "url": "https://www.eb.waseda.ac.jp/laboratory/hamada/index.html",
+          "evidence": "学科研究室页列浜田教授，介绍AI及RNA适体设计、基因组等主题；大学研究者库交叉确认。"
+        },
+        {
+          "url": "https://w-rdb.waseda.jp/html/100001261_ja.html",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "AI、統計、アルゴリズムでRNAと生命科学データを解析する。",
+      "theme_en": "Using AI, statistics and algorithms to study RNA and large biological datasets.",
+      "summary_ja": "情報科学、数学、統計学を融合し、生命科学の大規模データを理解する理論とツールを開発。RNA研究を軸にゲノム、エピゲノム、メタゲノムなども扱い、疾患機構、RNA分子設計、創薬への展開を探る。",
+      "summary_en": "Combines computer science, mathematics and statistics to develop theories and tools for large biological datasets. RNA is a major focus, alongside genomic, epigenomic and metagenomic data, with research into disease mechanisms, RNA design and drug discovery.",
+      "theme_tw": "利用AI、統計與算法研究RNA及生命科學大數據。",
+      "summary_tw": "結合信息科學、數學和統計學，開發解釋生命科學大數據的理論與工具。以RNA研究為重要方向，也涉及基因組、表觀組和宏基因組等數據，並探索疾病機制、RNA分子設計與藥物研究。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "bioinformatics_ai-1"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "慶應義塾大学",
+      "department": "大学院政策・メディア研究科／先端生命科学研究所",
+      "lab": "荒川研究室",
+      "pi": "荒川 和晴",
+      "theme_zh": "借助生物信息学解释水熊虫耐受性和生物材料特征。",
+      "summary_zh": "以大量生物信息的计算分析研究生命的定量规律，关注水熊虫干眠时可逆停止生命活动的机制。结合基因组和多组学资料，也研究蜘蛛丝等生物材料，把分子信息与特殊生物功能联系起来。",
+      "keywords": [
+        "生物信息",
+        "比较基因组",
+        "多组学",
+        "水熊虫",
+        "生物材料"
+      ],
+      "url": "https://www.kri.sfc.keio.ac.jp/ja/news/sfc_20251113/",
+      "references": [
+        {
+          "url": "https://www.kri.sfc.keio.ac.jp/ja/news/sfc_20251113/",
+          "evidence": "大学2025年研究者介绍明确生物信息、水熊虫和蜘蛛丝主题；大学研究者库列现政策媒体研究科教授。"
+        },
+        {
+          "url": "https://k-ris.keio.ac.jp/html/100012551_ja.html",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "东北",
+      "university_type": "私立",
+      "theme_ja": "生物情報学でクマムシの耐性と生体材料の特性を探る。",
+      "theme_en": "Using bioinformatics to explore tardigrade resilience and biological materials.",
+      "summary_ja": "大量の生物情報を計算解析し、生命の定量的な理解を目指す。クマムシが乾眠で生命活動を可逆的に停止する仕組みに注目し、ゲノムやマルチオミクスを用いてクモ糸などの生体材料も研究し、分子情報と特殊な機能を結び付ける。",
+      "summary_en": "Analyzes large biological datasets to seek quantitative principles of life, including how tardigrades reversibly suspend activity during anhydrobiosis. Genomic and multi-omics data also support work on materials such as spider silk, connecting molecular information with unusual biological functions.",
+      "theme_tw": "藉助生物信息學解釋水熊蟲耐受性和生物材料特徵。",
+      "summary_tw": "以大量生物信息的計算分析研究生命的定量規律，關注水熊蟲乾眠時可逆停止生命活動的機制。結合基因組和多組學資料，也研究蜘蛛絲等生物材料，把分子信息與特殊生物功能聯繫起來。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "bioinformatics_ai-2"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "北海道大学",
+      "department": "大学院農学研究院 基盤研究部門 生物機能化学分野",
+      "lab": "食品栄養学研究室",
+      "pi": "石塚 敏",
+      "theme_zh": "研究饮食成分如何调节代谢并影响健康与疾病发生。",
+      "summary_zh": "关注饮食结构与体内代谢之间的因果机制，研究食物偏好或不均衡摄入带来的变化。以固醇、矿物质、胆汁酸等为线索，分析食物成分的生理作用，探索生活方式相关疾病发生与预防的基础。",
+      "keywords": [
+        "营养生化学",
+        "饮食",
+        "代谢调节",
+        "胆汁酸",
+        "食品成分"
+      ],
+      "url": "https://www.agr.hokudai.ac.jp/r/lab/nutritional-biochemistry",
+      "references": [
+        {
+          "url": "https://www.agr.hokudai.ac.jp/r/lab/nutritional-biochemistry",
+          "evidence": "农学院现页面列石塚敏教授，说明饮食偏差、固醇、矿物质与代谢；成员主题含胆汁酸。"
+        },
+        {
+          "url": "https://researchers.general.hokudai.ac.jp/search/detail.html?lang=ja&systemId=5901d3f3d7904a9e520e17560c007669",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "食成分が代謝を調節し、健康や疾患発症に影響する仕組みを探る。",
+      "theme_en": "Studying how dietary components regulate metabolism and influence health and disease.",
+      "summary_ja": "食事構成と代謝を結ぶ機構に注目し、偏った摂取で生じる変化を研究。ステロール、ミネラル、胆汁酸などを手がかりに食成分の生理作用を解析し、生活習慣に関連する疾患の発症・予防の基礎を探る。",
+      "summary_en": "Investigates mechanisms connecting dietary composition with metabolism, including changes caused by imbalanced intake. Sterols, minerals and bile acids provide clues to the physiological effects of food components and the development and prevention of lifestyle-related diseases.",
+      "theme_tw": "研究飲食成分如何調節代謝並影響健康與疾病發生。",
+      "summary_tw": "關注飲食結構與體內代謝之間的因果機制，研究食物偏好或不均衡攝入帶來的變化。以固醇、礦物質、膽汁酸等為線索，分析食物成分的生理作用，探索生活方式相關疾病發生與預防的基礎。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "food_nutrition-1"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "九州大学",
+      "department": "大学院農学研究院",
+      "lab": "食糧化学研究室",
+      "pi": "立花 宏文",
+      "theme_zh": "寻找功能性食品因子的靶点并解释其生物调节作用。",
+      "summary_zh": "从食品中的活性成分入手，研究机体如何识别这些分子以及后续信号如何影响生理功能。围绕食品因子的靶点、成分间相互作用和抗过敏等主题，结合细胞研究与化学生物学解释食物功能。",
+      "keywords": [
+        "食品功能",
+        "食品因子",
+        "化学生物学",
+        "分子靶点",
+        "免疫调节"
+      ],
+      "url": "https://ag.kyushu-u.ac.jp/organization/teacher/prof/h_tachibana/",
+      "references": [
+        {
+          "url": "https://ag.kyushu-u.ac.jp/organization/teacher/prof/h_tachibana/",
+          "evidence": "大学教员页列立花教授并说明食品因子靶点和功能；研究室沿革页佐证现研究方向与所属。"
+        },
+        {
+          "url": "https://www.food-chem.net/history.html",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "機能性食品因子の標的分子と生体調節作用を解明する。",
+      "theme_en": "Identifying the targets and biological effects of functional food components.",
+      "summary_ja": "食品中の活性成分を身体がどう認識し、その信号が生理機能にどう作用するかを研究。食品因子の標的、成分間相互作用、抗アレルギーなどを対象に、細胞研究とケミカルバイオロジーで食の機能を説明する。",
+      "summary_en": "Studies how the body recognizes bioactive food components and how their signals influence physiology. Cell-based research and chemical biology examine molecular targets, interactions among components and anti-allergic effects to explain food functionality.",
+      "theme_tw": "尋找功能性食品因子的靶點並解釋其生物調節作用。",
+      "summary_tw": "從食品中的活性成分入手，研究機體如何識別這些分子以及後續信號如何影響生理功能。圍繞食品因子的靶點、成分間相互作用和抗過敏等主題，結合細胞研究與化學生物學解釋食物功能。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "food_nutrition-2"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "東北大学",
+      "department": "大学院薬学研究科 生命解析学講座",
+      "lab": "薬物送達学分野（秋田研究室）",
+      "pi": "秋田 英万",
+      "theme_zh": "控制核酸药物在体内和细胞内的移动与作用位置。",
+      "summary_zh": "为基因和RNA药物设计递送材料，研究药物在体内、细胞内的运输与作用。重点包括多功能制剂材料、体内免疫调控和中枢屏障机制，结合药理与动力学分析，探索改善作用效率的方法。",
+      "keywords": [
+        "药物递送",
+        "RNA药物",
+        "制剂材料",
+        "免疫调控",
+        "中枢屏障"
+      ],
+      "url": "https://www.pharm.tohoku.ac.jp/~soutatsu/drug_design/",
+      "references": [
+        {
+          "url": "https://www.pharm.tohoku.ac.jp/~soutatsu/drug_design/",
+          "evidence": "研究室主页列三大研究方向；药学研究科现目录确认秋田英万教授及药物送达学分野。"
+        },
+        {
+          "url": "https://www.pharm.tohoku.ac.jp/general/kouza/soutatsu/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "核酸医薬の体内・細胞内動態と作用部位を制御する。",
+      "theme_en": "Controlling the movement and action of nucleic-acid medicines in the body and cells.",
+      "summary_ja": "遺伝子・RNA医薬の送達材料を設計し、体内と細胞内での輸送や作用を研究。多機能製剤材料、体内免疫制御、中枢関門の機構を柱に、薬理学と動態解析を組み合わせ、作用効率を改善する方法を探る。",
+      "summary_en": "Designs delivery materials for gene and RNA medicines and studies their transport and action in the body and inside cells. Research on multifunctional formulation materials, immune regulation and central nervous system barriers combines pharmacology with kinetic analysis to improve delivery and action.",
+      "theme_tw": "控制核酸藥物在體內和細胞內的移動與作用位置。",
+      "summary_tw": "為基因和RNA藥物設計遞送材料，研究藥物在體內、細胞內的運輸與作用。重點包括多功能製劑材料、體內免疫調控和中樞屏障機制，結合藥理與動力學分析，探索改善作用效率的方法。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "pharmacology_dds-1"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "東京薬科大学",
+      "department": "薬学部 医療衛生薬学科",
+      "lab": "薬物送達学教室",
+      "pi": "根岸 洋一",
+      "theme_zh": "结合脂质体与超声技术，研究选择性的药物和核酸递送。",
+      "summary_zh": "以脂质体等载体开发药物递送系统，研究如何把核酸药物送到所需组织和细胞。结合超声响应材料，探索局部递送与脑部递送方法，同时分析载体与免疫细胞的相互作用及其功能影响。",
+      "keywords": [
+        "脂质体",
+        "药物递送",
+        "超声",
+        "核酸药物",
+        "脑部递送"
+      ],
+      "url": "https://www.ps.toyaku.ac.jp/yakubutsusotatsu/node/",
+      "references": [
+        {
+          "url": "https://www.ps.toyaku.ac.jp/yakubutsusotatsu/node/",
+          "evidence": "教室页面按2026年4月列根岸洋一教授，说明脂质体、超声响应和脑递送研究；大学DDS目录佐证。"
+        },
+        {
+          "url": "https://www.toyaku.ac.jp/examinee/search/delivery/",
+          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "リポソームと超音波を組み合わせ、薬物・核酸の選択的送達を研究する。",
+      "theme_en": "Combining liposomes and ultrasound for selective drug and nucleic-acid delivery.",
+      "summary_ja": "リポソームなどの担体を用いて、核酸医薬を目的の組織や細胞へ運ぶDDSを開発。超音波応答性材料による局所・脳内送達を探り、担体と免疫細胞の相互作用やその機能への影響も解析する。",
+      "summary_en": "Develops liposomes and other carriers to deliver nucleic-acid medicines to target tissues and cells. Ultrasound-responsive materials are investigated for local and brain delivery, alongside studies of carrier interactions with immune cells and their functional effects.",
+      "theme_tw": "結合脂質體與超聲技術，研究選擇性的藥物和核酸遞送。",
+      "summary_tw": "以脂質體等載體開發藥物遞送系統，研究如何把核酸藥物送到所需組織和細胞。結合超聲響應材料，探索局部遞送與腦部遞送方法，同時分析載體與免疫細胞的相互作用及其功能影響。",
+      "aliases": [
+        "东京药科大学",
+        "東京藥科大學",
+        "Tokyo University of Pharmacy and Life Sciences"
+      ],
+      "id": "pharmacology_dds-2"
+    },
+    {
+      "field": "organic",
+      "university": "東京大学",
+      "department": "大学院薬学系研究科",
+      "lab": "天然物合成化学教室（井上研究室）",
+      "pi": "井上 将行",
+      "theme_zh": "用全合成构建复杂天然产物，并研究其生物功能。",
+      "summary_zh": "围绕具有生物活性的复杂天然产物，开发新的反应、合成路线与分子设计方法。研究不仅关注如何高效构建复杂三维结构，也通过合成分子的功能评价，理解天然产物与蛋白质、离子通道等生物靶点的关系。",
+      "keywords": [
+        "天然产物",
+        "全合成",
+        "自由基反应",
+        "生物活性"
+      ],
+      "url": "https://inoue.f.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.u-tokyo.ac.jp/focus/ja/people/people000651.html",
+          "evidence": "大学教员目录列井上将行为药学系研究科教授，主题为生物活性天然物全合成与功能解析，并列离子通道等关键词。"
+        },
+        {
+          "url": "https://www.f.u-tokyo.ac.jp/research/index.html?id=1377181330",
+          "evidence": "药学部教室目录可核对天然物合成化学教室所属。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "複雑な天然物を全合成し、その生物機能を調べる。",
+      "theme_en": "Total synthesis and biological study of complex natural products.",
+      "theme_tw": "以全合成構築複雜天然產物，並研究其生物功能。",
+      "summary_ja": "生物活性をもつ複雑天然物を対象に、新しい反応、合成経路、分子設計法を開発します。複雑な立体構造を効率的に構築し、合成分子の機能評価を通じて、タンパク質やイオンチャネルなどとの関係も調べます。",
+      "summary_en": "The group develops reactions, synthetic routes and molecular designs for complex bioactive natural products. It combines construction of intricate three-dimensional structures with biological evaluation to investigate interactions with targets such as proteins and ion channels.",
+      "summary_tw": "圍繞具有生物活性的複雜天然產物，開發新的反應、合成路線與分子設計方法。研究不僅關注如何高效構築複雜三維結構，也透過合成分子的功能評價，理解天然產物與蛋白質、離子通道等生物標的的關係。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "organic-1"
+    },
+    {
+      "field": "organic",
+      "university": "東北大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "有機分析化学研究室（林研究室）",
+      "pi": "林 雄二郎",
+      "theme_zh": "以有机催化和一锅合成缩短生物活性分子的制备路线。",
+      "summary_zh": "以小分子有机催化剂发展高选择性不对称反应，并将反应组合应用于天然产物和医药相关分子的合成。研究强调减少反应步骤与分离操作，通过一锅法和反应条件优化，让复杂目标分子的制备更快速、更实用。",
+      "keywords": [
+        "有机催化",
+        "不对称合成",
+        "天然产物",
+        "一锅合成"
+      ],
+      "url": "https://www.chem.tohoku.ac.jp/research/laboratory/natural_product_chemistry.html",
+      "references": [
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/ae956b26cf1f9f6d9b3281d01780dcf2.html",
+          "evidence": "当前大学目录列林雄二郎教授及有机分析化学研究室。"
+        },
+        {
+          "url": "https://www.rpip.tohoku.ac.jp/seeds/profile/407/lang%3Ajp/",
+          "evidence": "大学研究介绍说明有机催化、光学活性化合物、一锅法及天然物实用合成。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "有機触媒とワンポット合成で生物活性分子の合成経路を短縮する。",
+      "theme_en": "Shorter routes to bioactive molecules through organocatalysis and one-pot synthesis.",
+      "theme_tw": "以有機催化和一鍋合成縮短生物活性分子的製備路線。",
+      "summary_ja": "低分子有機触媒を用いた選択性の高い不斉反応を開発し、天然物や医薬関連分子の合成に応用します。反応段階と分離操作の削減を重視し、ワンポット法や条件の最適化によって、複雑分子の迅速で実用的な合成を目指します。",
+      "summary_en": "The group develops selective asymmetric reactions using small organic catalysts and applies them to natural products and pharmaceutical molecules. One-pot strategies and reaction optimization reduce synthetic steps and purification operations, enabling more practical preparation of complex targets.",
+      "summary_tw": "以小分子有機催化劑發展高選擇性不對稱反應，並將反應組合應用於天然產物和醫藥相關分子的合成。研究強調減少反應步驟與分離操作，透過一鍋法和反應條件最佳化，讓複雜目標分子的製備更快速、更實用。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "organic-2"
+    },
+    {
+      "field": "inorganic",
+      "university": "九州大学",
+      "department": "大学院理学府 化学専攻／理学研究院 化学部門",
+      "lab": "錯体化学研究室（酒井研究室）",
+      "pi": "酒井 健",
+      "theme_zh": "利用多金属配位结构设计具有能源转化功能的分子。",
+      "summary_zh": "从金属酶启发出发，研究多个金属离子的排列如何改变分子的反应性与功能。通过合成多核配合物、结构解析和功能评价，探索光驱动产氢、氧气生成及二氧化碳还原，将配位化学与人工光合作用相连接。",
+      "keywords": [
+        "配位化学",
+        "多核配合物",
+        "人工光合作用",
+        "二氧化碳还原"
+      ],
+      "url": "https://www.scc.kyushu-u.ac.jp/_lab/%E9%8C%AF%E4%BD%93%E5%8C%96%E5%AD%A6/",
+      "references": [
+        {
+          "url": "https://www.scc.kyushu-u.ac.jp/staff/",
+          "evidence": "当前化学教员目录列酒井健教授和错体化学研究室。"
+        },
+        {
+          "url": "https://www.scc.kyushu-u.ac.jp/_lab/%E9%8C%AF%E4%BD%93%E5%8C%96%E5%AD%A6/",
+          "evidence": "研究室介绍明确多核金属组织化、产氢、产氧与CO2还原。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "多金属配位構造を利用してエネルギー変換機能をもつ分子を設計する。",
+      "theme_en": "Designing energy-conversion molecules through multimetal coordination structures.",
+      "theme_tw": "利用多金屬配位結構設計具有能源轉化功能的分子。",
+      "summary_ja": "金属酵素に着想を得て、複数の金属イオンの配置が反応性と機能に与える影響を研究します。多核錯体の合成、構造解析、機能評価を通じて、光水素発生、酸素生成、二酸化炭素還元を探究し、錯体化学と人工光合成をつなぎます。",
+      "summary_en": "Inspired by metalloenzymes, the laboratory examines how the arrangement of multiple metal ions affects reactivity and function. Synthesis, structural analysis and functional testing of multinuclear complexes support studies of light-driven hydrogen production, oxygen evolution and carbon dioxide reduction.",
+      "summary_tw": "從金屬酶啟發出發，研究多個金屬離子的排列如何改變分子的反應性與功能。透過合成多核配合物、結構解析和功能評價，探索光驅動產氫、氧氣生成及二氧化碳還原，將配位化學與人工光合作用相連接。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "inorganic-1"
+    },
+    {
+      "field": "inorganic",
+      "university": "筑波大学",
+      "department": "理工情報生命学術院 数理物質科学研究群 化学学位プログラム",
+      "lab": "無機合成化学研究室（二瓶研究室）",
+      "pi": "二瓶 雅之",
+      "theme_zh": "通过配合物结构和电子状态控制磁性、相变及纳米粒子。",
+      "summary_zh": "研究金属多核配合物中的电子转移与自旋变化，探索热或光刺激下的功能切换。同时把有机分子笼用作限域反应空间，合成尺寸可控的无机纳米粒子，并开展分子磁热材料研究，连接分子设计与材料物性。",
+      "keywords": [
+        "无机合成",
+        "自旋转变",
+        "分子笼",
+        "磁热效应"
+      ],
+      "url": "https://www.chem.tsukuba.ac.jp/~nihei_lab/contents.html",
+      "references": [
+        {
+          "url": "https://chemistry.tsukuba.ac.jp/ug/laboratory/",
+          "evidence": "当前大学目录列二瓶雅之及无机合成化学研究室。"
+        },
+        {
+          "url": "https://www.chem.tsukuba.ac.jp/~nihei_lab/contents.html",
+          "evidence": "研究页列有机笼中无机粒子合成、氰桥多核配合物电子转移自旋转变及磁热材料。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "錯体の構造と電子状態を制御し、磁性、相転移、ナノ粒子を研究する。",
+      "theme_en": "Controlling complex structures and electronic states for magnetism, phase changes and nanoparticles.",
+      "theme_tw": "透過配合物結構和電子狀態控制磁性、相變及奈米粒子。",
+      "summary_ja": "多核金属錯体における電子移動とスピン変化を調べ、熱や光による機能の切り替えを探究します。有機ケージを反応場とした無機ナノ粒子合成や分子性磁気熱量効果材料の開発も行い、分子設計と物性を結び付けます。",
+      "summary_en": "The laboratory investigates electron transfer and spin changes in multinuclear metal complexes, including thermal and optical switching. It also uses organic cages as confined reaction spaces for inorganic nanoparticles and develops molecular magnetocaloric materials.",
+      "summary_tw": "研究金屬多核配合物中的電子轉移與自旋變化，探索熱或光刺激下的功能切換。同時把有機分子籠用作限域反應空間，合成尺寸可控的無機奈米粒子，並開展分子磁熱材料研究，連接分子設計與材料物性。",
+      "aliases": [
+        "筑波大学",
+        "筑波大學",
+        "University of Tsukuba"
+      ],
+      "id": "inorganic-2"
+    },
+    {
+      "field": "physical",
+      "university": "九州大学",
+      "department": "大学院理学府 化学専攻／理学研究院 化学部門",
+      "lab": "分光分析化学研究室（恩田研究室）",
+      "pi": "恩田 健",
+      "theme_zh": "用超快激光和时间分辨分光追踪材料吸光后的变化。",
+      "summary_zh": "通过超短脉冲激光、时间分辨红外和表面分光，观察光激发后的电子转移、结构变化与能量流动。研究对象包括有机发光分子、光催化体系和功能材料，结合仪器开发解释材料性能背后的微观过程。",
+      "keywords": [
+        "超快分光",
+        "时间分辨红外",
+        "激发态",
+        "光能转换"
+      ],
+      "url": "https://www.scc.kyushu-u.ac.jp/SpectroChem/onda.html",
+      "references": [
+        {
+          "url": "https://www.scc.kyushu-u.ac.jp/SpectroChem/member/",
+          "evidence": "成员页列恩田健教授及分光分析化学研究室。"
+        },
+        {
+          "url": "https://www.scc.kyushu-u.ac.jp/SpectroChem/onda.html",
+          "evidence": "研究主题列有机发光体、光能转换、超快光诱导相变和表面反应动力学。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "超高速レーザーと時間分解分光で光励起後の変化を追跡する。",
+      "theme_en": "Tracking photoinduced processes with ultrafast lasers and time-resolved spectroscopy.",
+      "theme_tw": "以超快雷射和時間解析分光追蹤材料吸光後的變化。",
+      "summary_ja": "超短パルスレーザー、時間分解赤外、表面分光を用いて、光励起後の電子移動、構造変化、エネルギーの流れを観測します。有機発光分子、光触媒、機能性材料を対象に、装置開発と分光解析から性能の微視的な起源を明らかにします。",
+      "summary_en": "Ultrashort laser pulses, time-resolved infrared spectroscopy and surface-sensitive methods reveal electron transfer, structural changes and energy flow after photoexcitation. Instrument development and analysis address organic emitters, photocatalytic systems and functional materials.",
+      "summary_tw": "透過超短脈衝雷射、時間解析紅外和表面分光，觀察光激發後的電子轉移、結構變化與能量流動。研究對象包括有機發光分子、光催化體系和功能材料，結合儀器開發解釋材料性能背後的微觀過程。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "physical-1"
+    },
+    {
+      "field": "physical",
+      "university": "早稲田大学",
+      "department": "先進理工学部 化学・生命化学科／先進理工学研究科",
+      "lab": "光物理化学研究室（井村研究室）",
+      "pi": "井村 考平",
+      "theme_zh": "在纳米尺度观察并控制光与物质的相互作用。",
+      "summary_zh": "开发纳米显微分光成像方法，研究金属纳米结构中的等离激元、局域增强光场与能量传递。通过调节光场、偏振和材料结构，探索高灵敏检测、手性光场、二维材料光学特性及纳米激光等应用方向。",
+      "keywords": [
+        "纳米分光",
+        "等离激元",
+        "局域光场",
+        "光学成像"
+      ],
+      "url": "https://www.chem.waseda.ac.jp/imura/research.html",
+      "references": [
+        {
+          "url": "https://w-rdb.waseda.jp/html/100001009_ja.html",
+          "evidence": "大学研究者目录列井村考平及光物理化学研究。"
+        },
+        {
+          "url": "https://www.chem.waseda.ac.jp/imura/research.html",
+          "evidence": "实验室研究页列纳米成像、等离激元、传感、二维材料和光场控制。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "ナノスケールで光と物質の相互作用を観測・制御する。",
+      "theme_en": "Observing and controlling light–matter interactions at the nanoscale.",
+      "theme_tw": "在奈米尺度觀察並控制光與物質的相互作用。",
+      "summary_ja": "ナノ顕微分光イメージングを開発し、金属ナノ構造のプラズモン、局所増強光場、エネルギー伝達を研究します。光場、偏光、物質構造の制御を通じて、高感度センシング、キラル光場、二次元物質の光学特性やレーザー機能を探究します。",
+      "summary_en": "The laboratory develops nanoscale spectroscopic imaging to study plasmons, enhanced local optical fields and energy transfer. Control of illumination, polarization and nanostructure supports research on sensitive sensing, chiral optical fields, two-dimensional materials and nanoscale laser functions.",
+      "summary_tw": "開發奈米顯微分光成像方法，研究金屬奈米結構中的電漿子、局域增強光場與能量傳遞。透過調節光場、偏振和材料結構，探索高靈敏檢測、手性光場、二維材料光學特性及奈米雷射等應用方向。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "physical-2"
+    },
+    {
+      "field": "analytical",
+      "university": "大阪公立大学",
+      "department": "大学院工学研究科 物質化学生命系専攻 応用化学分野",
+      "lab": "分析化学研究グループ",
+      "pi": "久本 秀明",
+      "theme_zh": "将分子识别与微纳器件结合，开发简便的化学和生物检测方法。",
+      "summary_zh": "从可识别目标物的分子与材料设计出发，进一步构建化学传感、分离分析及微纳器件。研究涵盖光学检测、毛细管电泳、光子晶体和样品浓缩，重视把新的分析原理转化为操作简便的小型生物分析工具。",
+      "keywords": [
+        "化学传感",
+        "微流控",
+        "分子识别",
+        "毛细管电泳"
+      ],
+      "url": "https://www.omu.ac.jp/eng/apchem_01/research/",
+      "references": [
+        {
+          "url": "https://www.omu.ac.jp/eng/apchem/laboratory/",
+          "evidence": "官网检索索引列分析化学研究组、教授久本秀明及微纳器件等关键词。"
+        },
+        {
+          "url": "https://www.omu.ac.jp/eng/apchem_01/research/",
+          "evidence": "官网检索索引列高功能材料与微器件、传感及分离系统、简便生物分析工具。直接打开时官网因系统故障转至临时公告页。"
+        }
+      ],
+      "verification_note": "官方页面检索索引可读；2026-11-12直接访问转至大学系统故障临时公告，宜恢复后复查。",
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "分子認識とマイクロ・ナノデバイスを組み合わせ、簡便な分析法を開発する。",
+      "theme_en": "Combining molecular recognition and micro/nanodevices for accessible chemical and biological analysis.",
+      "theme_tw": "將分子識別與微奈米元件結合，開發簡便的化學和生物檢測方法。",
+      "summary_ja": "標的を認識する分子・材料の設計から、化学センシング、分離分析、マイクロ・ナノデバイスへ展開します。光学検出、キャピラリー電気泳動、フォトニック結晶、試料濃縮などを組み合わせ、小型で扱いやすいバイオ分析技術を研究します。",
+      "summary_en": "Starting from molecules and materials that recognize targets, the group develops sensing, separation and micro/nanodevices. Optical detection, capillary electrophoresis, photonic crystals and sample enrichment contribute to compact, easy-to-use biological analysis tools.",
+      "summary_tw": "從可識別目標物的分子與材料設計出發，進一步構築化學感測、分離分析及微奈米元件。研究涵蓋光學檢測、毛細管電泳、光子晶體和樣品濃縮，重視把新的分析原理轉化為操作簡便的小型生物分析工具。",
+      "aliases": [
+        "大阪公立大学",
+        "大阪公立大學",
+        "Osaka Metropolitan University"
+      ],
+      "id": "analytical-1",
+      "source_note": {
+        "zh": "核查时大学官网出现系统故障；介绍依据官网已收录的研究页及教员目录整理。",
+        "tw": "核查時大學官網出現系統故障；介紹依據官網已收錄的研究頁及教員目錄整理。",
+        "ja": "確認時に大学サイトのシステム障害があり、検索に収録済みの公式研究ページ・教員一覧を参照しています。",
+        "en": "The university site had a system outage at review time. This summary uses indexed official research and faculty pages."
+      }
+    },
+    {
+      "field": "analytical",
+      "university": "熊本大学",
+      "department": "大学院先端科学研究部／工学部 材料・応用化学科",
+      "lab": "分析化学（井原研究室）",
+      "pi": "井原 敏博",
+      "theme_zh": "用人工核酸和功能分子实现生物成分的选择性检测。",
+      "summary_zh": "把DNA、RNA与功能性化学分子连接，利用目标结合后产生的发光、电化学或分子量变化进行分析。研究融合核酸识别、配位化学和光化学，也探索外部刺激控制的核酸连接与解离，使检测技术兼具分子调控能力。",
+      "keywords": [
+        "核酸分析",
+        "DNA探针",
+        "化学修饰",
+        "生物传感"
+      ],
+      "url": "https://www.chem.kumamoto-u.ac.jp/chemistryandmaterials/news/article-441/",
+      "references": [
+        {
+          "url": "https://www.chem.kumamoto-u.ac.jp/chemistryandmaterials/program/staff/",
+          "evidence": "当前大学教员目录列井原敏博教授及井原研究室。"
+        },
+        {
+          "url": "https://www.chem.kumamoto-u.ac.jp/chemistryandbioscience/research/labo_07/",
+          "evidence": "官方研究页检索内容说明发光、电化学、分子量信号及金属/光刺激控制核酸反应。"
+        },
+        {
+          "url": "https://www.chem.kumamoto-u.ac.jp/chemistryandmaterials/news/article-441/",
+          "evidence": "大学公告说明将功能分子修饰DNA/RNA并结合错体、光、超分子与化学生物方法。"
+        }
+      ],
+      "verification_note": "研究页正文搜索索引可读，直接抓取返回502；另以大学公告及可访问教员目录交叉核对。",
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "人工核酸と機能分子を利用して生体成分を選択的に検出する。",
+      "theme_en": "Selective detection of biological components using artificial nucleic acids and functional molecules.",
+      "theme_tw": "以人工核酸和功能分子實現生物成分的選擇性檢測。",
+      "summary_ja": "DNAやRNAに機能性分子を結合し、標的との相互作用に伴う発光、電気化学信号、分子量変化を分析に利用します。核酸認識、錯体化学、光化学を組み合わせ、外部刺激による核酸の連結・解離など分子制御にも展開します。",
+      "summary_en": "Functional molecules attached to DNA or RNA generate optical, electrochemical or molecular-mass signals upon target interaction. The research combines nucleic-acid recognition with coordination chemistry and photochemistry, extending detection to stimulus-controlled linking and separation of nucleic acids.",
+      "summary_tw": "把DNA、RNA與功能性化學分子連接，利用目標結合後產生的發光、電化學或分子量變化進行分析。研究融合核酸識別、配位化學和光化學，也探索外部刺激控制的核酸連接與解離，使檢測技術兼具分子調控能力。",
+      "aliases": [
+        "熊本大学",
+        "熊本大學",
+        "Kumamoto University"
+      ],
+      "id": "analytical-2"
+    },
+    {
+      "field": "catalyst",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 化学システム工学専攻",
+      "lab": "高鍋研究室",
+      "pi": "高鍋 和広",
+      "theme_zh": "固体催化与能源分子转化",
+      "summary_zh": "围绕能源与环境相关的固体催化，设计催化剂表面的活性位点，研究甲烷转化、水分解及二氧化碳转化等反应。结合热催化、电催化与光催化，以及表征和计算分析，理解反应机理并探索材料设计方法。",
+      "keywords": [
+        "固体触媒",
+        "水素",
+        "CO₂",
+        "表面反応"
+      ],
+      "url": "https://www.catec.t.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.u-tokyo.ac.jp/focus/ja/people/k0001_02025.html",
+          "evidence": "大学教员页列高鍋和広为工学系教授，领域为固体催化、能源转化。"
+        },
+        {
+          "url": "https://www.chemsys.t.u-tokyo.ac.jp/about/interviews/prof_takanabe/",
+          "evidence": "专攻官方访谈说明甲烷转化、水分解、CO2转化及活性位点设计。"
+        }
+      ],
+      "theme_ja": "固体触媒によるエネルギー分子変換",
+      "theme_en": "Heterogeneous catalysis for energy-molecule conversion",
+      "theme_tw": "固體催化與能源分子轉化",
+      "summary_ja": "エネルギー・環境に関わる固体触媒の活性点を設計し、メタン転換、水分解、二酸化炭素変換を研究。熱・電気・光による触媒反応に、構造評価や計算解析を組み合わせ、反応機構の理解と材料設計法の開拓を進めます。",
+      "summary_en": "Designs active sites on solid catalysts for energy and environmental applications, including methane conversion, water splitting and carbon dioxide conversion. By combining thermal, electrochemical and photocatalytic approaches with characterization and computational analysis, the group investigates reaction mechanisms and explores principles for designing catalytic materials.",
+      "summary_tw": "圍繞能源與環境相關的固體催化，設計催化劑表面的活性位點，研究甲烷轉化、水分解及二氧化碳轉化等反應。結合熱催化、電催化與光催化，以及表徵和計算分析，理解反應機制並探索材料設計方法。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "catalyst-1"
+    },
+    {
+      "field": "catalyst",
+      "university": "東北大学",
+      "department": "大学院工学研究科 応用化学専攻",
+      "lab": "冨重研究室",
+      "pi": "冨重 圭一",
+      "theme_zh": "生物质与二氧化碳资源化催化",
+      "summary_zh": "利用负载金属和金属氧化物等固体催化剂，研究生物质及二氧化碳向化学原料的转化。关注催化活性位点与金属、载体之间的作用，通过催化剂制备、反应评价与机理分析，探索高效的资源利用路线。",
+      "keywords": [
+        "バイオマス",
+        "CO₂",
+        "金属触媒",
+        "資源変換"
+      ],
+      "url": "https://www.ramgi.tohoku.ac.jp/research03/",
+      "references": [
+        {
+          "url": "https://www.eng.tohoku.ac.jp/research/researchers/v-%2C-id%2Cbe0642a0-8220-4dc3-86d8-201a7c8d0932.html",
+          "evidence": "工学研究科教员页列冨重圭一为应用化学教授。"
+        },
+        {
+          "url": "https://www.ramgi.tohoku.ac.jp/research03/",
+          "evidence": "官方研究介绍说明金属纳米粒子与氧化物组合、生物质等资源转化。"
+        },
+        {
+          "url": "https://www.jsps.go.jp/file/storage/kaken_3505_g_2836/fy2023kenkyugaiyou.pdf",
+          "evidence": "2023–2029项目介绍CO2与生物质转化、operando分析和固体催化剂设计。"
+        }
+      ],
+      "theme_ja": "バイオマスと二酸化炭素の資源化触媒",
+      "theme_en": "Catalytic conversion of biomass and carbon dioxide into resources",
+      "theme_tw": "生物質與二氧化碳資源化催化",
+      "summary_ja": "担持金属や金属酸化物などの固体触媒を用い、バイオマスと二酸化炭素を化学原料へ変換する研究。活性点と金属・担体間の相互作用に注目し、触媒調製、反応評価、機構解析から効率的な資源利用の経路を探ります。",
+      "summary_en": "Uses solid catalysts, including supported metals and metal oxides, to convert biomass and carbon dioxide into chemical feedstocks. Research examines catalytic active sites and interactions between metals and their supports, combining catalyst preparation, reaction testing and mechanistic analysis to identify more efficient routes for resource utilization.",
+      "summary_tw": "利用負載金屬和金屬氧化物等固體催化劑，研究生物質及二氧化碳向化學原料的轉化。關注催化活性位點與金屬、載體之間的作用，透過催化劑製備、反應評估與機制分析，探索高效的資源利用路線。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "catalyst-2"
+    },
+    {
+      "field": "catalyst",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 応用化学専攻",
+      "lab": "関根研究室",
+      "pi": "関根 泰",
+      "theme_zh": "低温催化与碳资源循环",
+      "summary_zh": "研究利用电场和表面离子运动促进的低温固体催化反应，并探索二氧化碳再利用、甲烷转化及氮氧化物处理。通过催化材料设计和反应机理分析，寻找降低能源消耗、促进资源循环的化学过程。",
+      "keywords": [
+        "低温触媒",
+        "表面イオニクス",
+        "メタン",
+        "CO₂"
+      ],
+      "url": "https://ysekine.w.waseda.jp/sekine.html",
+      "references": [
+        {
+          "url": "https://www.waseda-applchem.jp/ja/professors/sekine-yasushi/",
+          "evidence": "专攻官网列关根泰为教授，说明CO2、甲烷与NOx低温转化研究。"
+        },
+        {
+          "url": "https://ysekine.w.waseda.jp/sekine.html",
+          "evidence": "PI官网列当前先進理工学研究科所属及表面离子学低温固体催化方向。"
+        }
+      ],
+      "theme_ja": "低温触媒反応と炭素資源循環",
+      "theme_en": "Low-temperature catalysis and carbon-resource circulation",
+      "theme_tw": "低溫催化與碳資源循環",
+      "summary_ja": "電場や表面のイオン移動を利用した低温固体触媒反応を研究し、二酸化炭素の再利用、メタン転換、窒素酸化物処理に取り組みます。触媒材料の設計と反応機構の解析を通じて、エネルギー消費を抑えた資源循環プロセスを探ります。",
+      "summary_en": "Investigates low-temperature reactions on solid catalysts promoted by electric fields and surface ion motion. Applications include carbon dioxide reuse, methane conversion and nitrogen oxide treatment. Catalyst design and mechanistic analysis are combined to explore chemical processes that reduce energy demand and support the circulation of resources.",
+      "summary_tw": "研究利用電場和表面離子運動促進的低溫固體催化反應，並探索二氧化碳再利用、甲烷轉化及氮氧化物處理。透過催化材料設計和反應機制分析，尋找降低能源消耗、促進資源循環的化學過程。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "catalyst-3"
+    },
+    {
+      "field": "materials",
+      "university": "京都大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "無機物質化学研究室（堀毛研究室）",
+      "pi": "堀毛 悟史",
+      "theme_zh": "金属有机框架与混合材料",
+      "summary_zh": "研究金属与有机分子构成的网络材料，关注金属有机框架的晶体、玻璃及液体状态。通过结构与相态控制，探索离子传导、气体分离、二氧化碳转化与储存，以及有机无机混合多孔材料的功能。",
+      "keywords": [
+        "MOF",
+        "ガラス",
+        "多孔性材料",
+        "イオン伝導"
+      ],
+      "url": "https://www.kuchem.kyoto-u.ac.jp/lc.html",
+      "references": [
+        {
+          "url": "https://www.kuchem.kyoto-u.ac.jp/lc.html",
+          "evidence": "化学专攻官方分科页列堀毛悟史及MOF玻璃、液体、CO2转化和多孔体方向。"
+        },
+        {
+          "url": "https://www.kyoto-u.ac.jp/ja/research-news/2026-10-22",
+          "evidence": "2026-10官方新闻确认理学研究科教授所属及MOF玻璃膜研究。"
+        }
+      ],
+      "theme_ja": "金属有機構造体とハイブリッド材料",
+      "theme_en": "Metal–organic frameworks and hybrid materials",
+      "theme_tw": "金屬有機框架與混合材料",
+      "summary_ja": "金属と有機分子からなるネットワーク材料を研究し、MOFの結晶・ガラス・液体状態に注目。構造と相状態の制御を通じて、イオン伝導、ガス分離、二酸化炭素の変換・貯蔵、有機無機ハイブリッド多孔体の機能を探ります。",
+      "summary_en": "Studies networks assembled from metals and organic molecules, focusing on crystalline, glassy and liquid states of metal–organic frameworks. Control of structure and phase behavior supports investigations of ion conduction, gas separation, carbon dioxide conversion and storage, and the functions of organic–inorganic hybrid porous materials.",
+      "summary_tw": "研究金屬與有機分子構成的網路材料，關注金屬有機框架的晶體、玻璃及液體狀態。透過結構與相態控制，探索離子傳導、氣體分離、二氧化碳轉化與儲存，以及有機無機混合多孔材料的功能。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "materials-1"
+    },
+    {
+      "field": "materials",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 マテリアル工学専攻",
+      "lab": "長汐研究室",
+      "pi": "長汐 晃輔",
+      "theme_zh": "二维材料与电子器件",
+      "summary_zh": "围绕石墨烯等二维层状材料，研究晶体生长、电子输运及器件特性。结合材料制备与电学评价，分析原子层材料及其界面对器件行为的影响，为新型半导体和电子器件寻找材料与结构设计方法。",
+      "keywords": [
+        "二次元材料",
+        "グラフェン",
+        "電子輸送",
+        "結晶成長"
+      ],
+      "url": "https://webpark1753.sakura.ne.jp/nagashio_lab/",
+      "references": [
+        {
+          "url": "https://www.material.t.u-tokyo.ac.jp/faculty/detail/323/",
+          "evidence": "材料专攻官网列長汐晃輔教授、实验室链接及二维材料/电子输运/晶体生长方向。"
+        },
+        {
+          "url": "https://www.u-tokyo.ac.jp/focus/ja/people/people003066.html",
+          "evidence": "大学人员数据库确认姓名及当前所属，纠正旧卡片姓名。"
+        }
+      ],
+      "theme_ja": "二次元材料と電子デバイス",
+      "theme_en": "Two-dimensional materials and electronic devices",
+      "theme_tw": "二維材料與電子元件",
+      "summary_ja": "グラフェンなどの二次元層状材料を対象に、結晶成長、電子輸送、デバイス特性を研究。材料作製と電気的評価を組み合わせ、原子層材料や界面がデバイス動作に与える影響を調べ、新しい半導体・電子デバイスの材料と構造設計を探ります。",
+      "summary_en": "Investigates crystal growth, electronic transport and device properties in two-dimensional layered materials such as graphene. Materials preparation and electrical measurements reveal how atomically thin materials and their interfaces influence device behavior, providing a basis for exploring material choices and structural designs for new semiconductor and electronic devices.",
+      "summary_tw": "圍繞石墨烯等二維層狀材料，研究晶體生長、電子傳輸及元件特性。結合材料製備與電學評估，分析原子層材料及其界面對元件行為的影響，為新型半導體和電子元件尋找材料與結構設計方法。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "materials-2"
+    },
+    {
+      "field": "materials",
+      "university": "東京科学大学",
+      "department": "総合研究院 フロンティア材料研究所／物質理工学院 材料系",
+      "lab": "平松研究室",
+      "pi": "平松 秀典",
+      "theme_zh": "功能半导体与超导材料探索",
+      "summary_zh": "以固体化学和材料制备为基础，探索具有新功能的半导体与超导体。通过块体合成及薄膜生长，研究材料组成、结构与电学和光学性质的关系，关注宽带隙半导体、载流子控制及薄膜器件。",
+      "keywords": [
+        "固体化学",
+        "半導体",
+        "薄膜成長",
+        "超伝導"
+      ],
+      "url": "https://www.hiramatsu.msl.iir.isct.ac.jp/index.html",
+      "references": [
+        {
+          "url": "https://www.msl.iir.isct.ac.jp/member/hidenori_hiramatsu/",
+          "evidence": "官方教员页列教授与固体化学、物质探索、薄膜生长、半导体和超导关键词。"
+        },
+        {
+          "url": "https://www.hiramatsu.msl.iir.isct.ac.jp/index.html",
+          "evidence": "研究室首页列学院及材料系所属，说明半导体/超导体块体与薄膜探索。"
+        }
+      ],
+      "theme_ja": "機能性半導体と超伝導体の探索",
+      "theme_en": "Exploring functional semiconductors and superconductors",
+      "theme_tw": "功能半導體與超導材料探索",
+      "summary_ja": "固体化学と材料作製を基盤に、新機能を持つ半導体や超伝導体を探索。バルク合成と薄膜成長を用い、組成・構造と電気的・光学的性質の関係を調べます。ワイドギャップ半導体、キャリア制御、薄膜デバイスにも注目しています。",
+      "summary_en": "Explores semiconductors and superconductors with new functions through solid-state chemistry and materials preparation. Bulk synthesis and thin-film growth are used to relate composition and structure to electrical and optical properties, with attention to wide-bandgap semiconductors, carrier control and thin-film devices as interconnected materials research topics.",
+      "summary_tw": "以固體化學和材料製備為基礎，探索具有新功能的半導體與超導體。透過塊體合成及薄膜生長，研究材料組成、結構與電學和光學性質的關係，關注寬能隙半導體、載流子控制及薄膜元件。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "materials-3"
+    },
+    {
+      "field": "polymer",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻",
+      "lab": "高分子生成論研究室（大内研究室）",
+      "pi": "大内 誠",
+      "theme_zh": "高分子精密合成与序列控制",
+      "summary_zh": "通过聚合反应和聚合后的化学修饰，精密控制高分子的组成、链结构与单体排列。研究自由基聚合、序列控制和结构明确的低聚物等体系，探索分子结构与功能之间的关系及可降解材料设计。",
+      "keywords": [
+        "精密重合",
+        "配列制御",
+        "ラジカル重合",
+        "高分子合成"
+      ],
+      "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.155f60a00bfa39d2.html",
+      "references": [
+        {
+          "url": "https://www.s-ic.t.kyoto-u.ac.jp/ja/information/laboratory/x67wft.pdf",
+          "evidence": "2026年度研究室介绍列化学理工学专攻高分子生成论研究室及大内誠教授。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.155f60a00bfa39d2.html",
+          "evidence": "官方当前教员页与研究成果列序列控制、精密低聚物、聚合后修饰和可降解共聚物。"
+        }
+      ],
+      "theme_ja": "高分子の精密合成と配列制御",
+      "theme_en": "Precision polymer synthesis and sequence control",
+      "theme_tw": "高分子精密合成與序列控制",
+      "summary_ja": "重合反応と重合後の化学修飾により、高分子の組成、鎖構造、モノマー配列を精密に制御。ラジカル重合、配列制御、構造明確なオリゴマーなどを研究し、分子構造と機能の関係や分解性材料の設計を探ります。",
+      "summary_en": "Precisely controls polymer composition, chain structure and monomer arrangement through polymerization and subsequent chemical modification. Research examines radical polymerization, sequence control and structurally defined oligomers, investigating how molecular structure determines function and using this understanding to explore the design of degradable polymer materials and related systems.",
+      "summary_tw": "透過聚合反應和聚合後的化學修飾，精密控制高分子的組成、鏈結構與單體排列。研究自由基聚合、序列控制和結構明確的低聚物等系統，探索分子結構與功能之間的關係及可降解材料設計。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "polymer-1"
+    },
+    {
+      "field": "polymer",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 バイオエンジニアリング専攻",
+      "lab": "酒井研究室（精密ゲル科学）",
+      "pi": "酒井 崇匡",
+      "theme_zh": "高分子凝胶结构与医用材料",
+      "summary_zh": "通过分子设计控制水凝胶的网络结构，研究微观结构如何决定宏观物性。以均一凝胶等体系建立凝胶科学的基础认识，并探索医用结构材料和再生医学载体，使材料性质与使用需求相匹配。",
+      "keywords": [
+        "ハイドロゲル",
+        "網目構造",
+        "ソフトマター",
+        "バイオマテリアル"
+      ],
+      "url": "https://gel.tokyo/tetra-gel/",
+      "references": [
+        {
+          "url": "https://bioeng.t.u-tokyo.ac.jp/2026/02/20/sakai-takamasa/",
+          "evidence": "2026官方专攻页确认酒井崇匡教授及凝胶基础学理、医用结构与再生医学载体方向。"
+        },
+        {
+          "url": "https://www.chembio.t.u-tokyo.ac.jp/department/lab/sakai.html",
+          "evidence": "官方实验室介绍说明精密凝胶科学及均一网络结构控制。"
+        }
+      ],
+      "theme_ja": "高分子ゲルの構造と医用材料",
+      "theme_en": "Polymer-gel structure and biomedical materials",
+      "theme_tw": "高分子凝膠結構與醫用材料",
+      "summary_ja": "分子設計によってハイドロゲルの網目構造を制御し、微視的構造が巨視的物性を決める仕組みを研究。均一なゲルなどを用いて基礎的な理解を深め、医用構造材料や再生医療用担体へ展開し、用途に合う材料特性を探ります。",
+      "summary_en": "Controls hydrogel network structures through molecular design to investigate how microscopic organization determines macroscopic properties. Uniform gels and related systems provide a basis for fundamental gel science, while research explores biomedical structural materials and carriers for regenerative medicine, seeking to match material behavior to the needs of intended applications.",
+      "summary_tw": "透過分子設計控制水凝膠的網路結構，研究微觀結構如何決定宏觀物性。以均一凝膠等系統建立凝膠科學的基礎認識，並探索醫用結構材料和再生醫學載體，使材料性質與使用需求相匹配。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "polymer-2"
+    },
+    {
+      "field": "polymer",
+      "university": "九州大学",
+      "department": "大学院工学研究院 応用化学部門",
+      "lab": "機能材料化学研究室（田中研究室）",
+      "pi": "田中 敬二",
+      "theme_zh": "高分子界面与材料物性",
+      "summary_zh": "研究高分子在表面和界面上的结构与运动，理解这些行为如何影响粘接、力学及电学性质。结合光谱、原子力显微镜与散射技术，从分子尺度分析界面，为粘接剂、复合材料等提供设计依据。",
+      "keywords": [
+        "高分子界面",
+        "接着",
+        "AFM",
+        "SFG"
+      ],
+      "url": "https://www.cstf.kyushu-u.ac.jp/~tanaka-lab/",
+      "references": [
+        {
+          "url": "https://www.eng.kyushu-u.ac.jp/research-education/labs/lab-functional-systems-chemistry-course/",
+          "evidence": "工学官网列田中敬二教授与高分子界面结构运动、SFG/AFM/散射及材料设计。"
+        },
+        {
+          "url": "https://www.cstf.kyushu-u.ac.jp/~tanaka-lab/",
+          "evidence": "研究室官网确认当前应用化学部门所属和高分子分子级结构物性研究。"
+        }
+      ],
+      "theme_ja": "高分子界面と材料物性",
+      "theme_en": "Polymer interfaces and material properties",
+      "theme_tw": "高分子界面與材料物性",
+      "summary_ja": "高分子の表面・界面における構造と運動を研究し、接着や力学的・電気的性質への影響を解析。分光法、原子間力顕微鏡、散乱法を組み合わせて界面を分子スケールで捉え、接着剤や複合材料などの設計基盤を探ります。",
+      "summary_en": "Investigates polymer structure and motion at surfaces and interfaces to understand their effects on adhesion, mechanical behavior and electrical properties. Spectroscopy, atomic force microscopy and scattering techniques provide molecular-scale views of interfaces, establishing a basis for the design of adhesives, composites and other polymer-based materials.",
+      "summary_tw": "研究高分子在表面和界面上的結構與運動，理解這些行為如何影響黏接、力學及電學性質。結合光譜、原子力顯微鏡與散射技術，從分子尺度分析界面，為黏接劑、複合材料等提供設計依據。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "polymer-3"
+    },
+    {
+      "field": "supramolecular",
+      "university": "筑波大学",
+      "department": "理工情報生命学術院 数理物質科学研究群 化学学位プログラム",
+      "lab": "超分子化学研究室（中村研究室）",
+      "pi": "中村 貴志",
+      "theme_zh": "设计可精确识别和捕获目标分子的人工受体。",
+      "summary_zh": "借鉴蛋白质口袋的多点识别方式，利用金属配合物集成及分子结构非对称化，构建环状人工受体。研究其对客体分子的选择性结合，并探索分子识别在传感、分离纯化及选择性反应空间中的应用。",
+      "keywords": [
+        "超分子",
+        "主客体化学",
+        "人工受体",
+        "分子识别"
+      ],
+      "url": "https://www.chem.tsukuba.ac.jp/nakamura/research.html",
+      "references": [
+        {
+          "url": "https://chemistry.tsukuba.ac.jp/ug/laboratory/",
+          "evidence": "当前目录列超分子化学担当中村贵志。"
+        },
+        {
+          "url": "https://www.chem.tsukuba.ac.jp/nakamura/research.html",
+          "evidence": "研究页说明金属配位位点集积、非对称受体、多点分子识别及传感分离用途。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "標的分子を精密に認識・捕捉する人工レセプターを設計する。",
+      "theme_en": "Designing artificial receptors for precise molecular recognition and capture.",
+      "theme_tw": "設計可精確識別和捕獲目標分子的人工受體。",
+      "summary_ja": "タンパク質の認識ポケットに着想を得て、金属錯体ユニットの集積と分子の非対称化による環状レセプターを構築します。客体への選択的結合を調べ、センシング、分離精製、選択的反応の場への展開を探究します。",
+      "summary_en": "Inspired by multipoint recognition in protein pockets, the group builds cyclic artificial receptors through metal-complex assembly and molecular desymmetrization. It studies selective guest binding and explores applications in sensing, separation and selective reaction environments.",
+      "summary_tw": "借鑑蛋白質口袋的多點識別方式，利用金屬配合物集成及分子結構非對稱化，構築環狀人工受體。研究其對客體分子的選擇性結合，並探索分子識別在感測、分離純化及選擇性反應空間中的應用。",
+      "aliases": [
+        "筑波大学",
+        "筑波大學",
+        "University of Tsukuba"
+      ],
+      "id": "supramolecular-1"
+    },
+    {
+      "field": "supramolecular",
+      "university": "東京大学",
+      "department": "大学院総合文化研究科 広域科学専攻 相関基礎科学系",
+      "lab": "平岡研究室",
+      "pi": "平岡 秀一",
+      "theme_zh": "理解分子如何自行组装，并控制集合体的结构和形成过程。",
+      "summary_zh": "围绕分子自组装，设计可在溶液中形成确定结构的有机和配位集合体。研究关注形成过程、动态交换及时间因素，也利用客体分子改变组装体系的平衡，为选择性构筑分子笼和复杂分子系统提供依据。",
+      "keywords": [
+        "分子自组装",
+        "动态过程",
+        "分子笼",
+        "主客体识别"
+      ],
+      "url": "https://hiraoka.c.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.c.u-tokyo.ac.jp/info/research/faculty/list/mds/mds-bs/f002605.html",
+          "evidence": "大学目录列平冈秀一教授，专长超分子/配位/有机化学，主题为水溶性确定结构自组装及组装过程。"
+        },
+        {
+          "url": "https://www.c.u-tokyo.ac.jp/info/news/topics/20250522180000.html",
+          "evidence": "大学成果介绍客体诱导箱形集合体异构体选择与放大。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "分子自己集合の仕組みを理解し、構造と形成過程を制御する。",
+      "theme_en": "Understanding molecular self-assembly and controlling structures and assembly pathways.",
+      "theme_tw": "理解分子如何自行組裝，並控制集合體的結構和形成過程。",
+      "summary_ja": "溶液中で明確な構造を形成する有機・錯体自己集合体を設計します。形成過程、動的交換、時間の役割に注目し、客体分子による平衡制御も活用して、分子ケージや複雑な分子システムを選択的に構築する原理を研究します。",
+      "summary_en": "The group designs organic and coordination assemblies with defined structures in solution. Studies of assembly pathways, dynamic exchange and temporal behavior, including guest-induced shifts in equilibria, provide principles for selectively constructing molecular cages and complex molecular systems.",
+      "summary_tw": "圍繞分子自組裝，設計可在溶液中形成確定結構的有機和配位集合體。研究關注形成過程、動態交換及時間因素，也利用客體分子改變組裝體系的平衡，為選擇性構築分子籠和複雜分子系統提供依據。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "supramolecular-2"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 化学システム工学専攻",
+      "lab": "山田淳夫研究室",
+      "pi": "山田 淳夫",
+      "theme_zh": "把电极、电解液和界面作为整体设计新型蓄电池。",
+      "summary_zh": "从新电极和高浓度电解液的合成出发，结合电化学评价、结构分析与第一性原理计算，解释电池中的离子输运和界面反应。研究覆盖锂离子、钠离子及其他下一代蓄电体系，兼顾功能机理与器件验证。",
+      "keywords": [
+        "电池材料",
+        "电解液",
+        "电极界面",
+        "计算与实验"
+      ],
+      "url": "https://yamada-lab.t.u-tokyo.ac.jp/research/",
+      "references": [
+        {
+          "url": "https://www.yamada-lab.t.u-tokyo.ac.jp/",
+          "evidence": "实验室首页列东京大学工学系化学系统工学专攻及山田淳夫教授。"
+        },
+        {
+          "url": "https://yamada-lab.t.u-tokyo.ac.jp/research/",
+          "evidence": "研究页说明电极/电解液开发、第一原理计算、结构与反应解析及锂钠电池。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "電極、電解液、界面を一体として新しい蓄電池を設計する。",
+      "theme_en": "Designing batteries by treating electrodes, electrolytes and interfaces as an integrated system.",
+      "theme_tw": "把電極、電解液和界面作為整體設計新型蓄電池。",
+      "summary_ja": "新しい電極や高濃度電解液の合成を起点に、電気化学評価、構造解析、第一原理計算を組み合わせ、イオン輸送と界面反応を調べます。リチウム・ナトリウムイオン電池などを対象に、機能発現機構の理解からデバイスの実証へ展開します。",
+      "summary_en": "The laboratory combines new electrodes and concentrated electrolytes with electrochemical testing, structural analysis and first-principles calculations. Work on lithium-ion, sodium-ion and other battery systems connects ion transport and interfacial mechanisms to device-level demonstrations.",
+      "summary_tw": "從新電極和高濃度電解液的合成出發，結合電化學評價、結構分析與第一性原理計算，解釋電池中的離子輸運和界面反應。研究涵蓋鋰離子、鈉離子及其他下一代蓄電體系，兼顧功能機理與元件驗證。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "electrochemistry-1"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "東京理科大学",
+      "department": "理学部第一部 応用化学科／大学院総合化学研究科",
+      "lab": "駒場研究室",
+      "pi": "駒場 慎一",
+      "theme_zh": "面向资源与性能需求开发锂、钠、钾离子电池材料。",
+      "summary_zh": "合成新型电极材料并研究充放电机理，比较锂、钠、钾离子蓄电体系的性能与资源条件。研究还涉及电化学电容器、生物燃料电池及传感器，以材料设计和电极反应理解推动能量储存与转换技术。",
+      "keywords": [
+        "钠离子电池",
+        "钾离子电池",
+        "电极材料",
+        "电化学"
+      ],
+      "url": "https://dept.tus.ac.jp/komabalab/home/research/",
+      "references": [
+        {
+          "url": "https://dept.tus.ac.jp/komabalab/%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/",
+          "evidence": "成员页列教授駒場慎一，理学部应用化学及兼任综合化学研究科。"
+        },
+        {
+          "url": "https://dept.tus.ac.jp/komabalab/home/research/",
+          "evidence": "研究页列锂/钠/钾离子电池、电容器、生物燃料电池、电化学传感器。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "資源と性能の両面からリチウム・ナトリウム・カリウムイオン電池を研究する。",
+      "theme_en": "Developing lithium-, sodium- and potassium-ion batteries with resource and performance considerations.",
+      "theme_tw": "面向資源與性能需求開發鋰、鈉、鉀離子電池材料。",
+      "summary_ja": "電極材料の合成と充放電機構の解析を通じて、リチウム・ナトリウム・カリウムイオン電池の性能と資源面の可能性を研究します。電気化学キャパシタ、バイオ燃料電池、センサーも対象とし、材料と電極反応からエネルギー貯蔵・変換を考えます。",
+      "summary_en": "New electrode materials and charge–discharge mechanisms are studied across lithium-, sodium- and potassium-ion systems. The laboratory also investigates electrochemical capacitors, biofuel cells and sensors, connecting material design and electrode reactions to energy storage and conversion.",
+      "summary_tw": "合成新型電極材料並研究充放電機理，比較鋰、鈉、鉀離子蓄電體系的性能與資源條件。研究還涉及電化學電容器、生物燃料電池及感測器，以材料設計和電極反應理解推動能量儲存與轉換技術。",
+      "aliases": [
+        "东京理科大学",
+        "東京理科大學",
+        "Tokyo University of Science"
+      ],
+      "id": "electrochemistry-2"
+    },
+    {
+      "field": "photochemistry",
+      "university": "東京科学大学",
+      "department": "理学院 化学系",
+      "lab": "前田研究室",
+      "pi": "前田 和彦",
+      "theme_zh": "设计将光能转为氢能和化学产物的光催化材料。",
+      "summary_zh": "结合光化学、催化、材料和电化学，开发分解水制氢制氧的半导体光催化剂，以及用于二氧化碳转化的金属配合物与半导体复合体系。通过调控无机材料和光吸收分子，探索更有效利用可见光的反应机制。",
+      "keywords": [
+        "光催化",
+        "人工光合作用",
+        "水分解",
+        "二氧化碳转化"
+      ],
+      "url": "https://www.maeda.chem.sci.isct.ac.jp/",
+      "references": [
+        {
+          "url": "https://strdb.s.isct.ac.jp/html/100001243_ja.html",
+          "evidence": "大学2026-11-06更新目录列前田和彦为理学院化学系教授。"
+        },
+        {
+          "url": "https://www.maeda.chem.sci.isct.ac.jp/",
+          "evidence": "实验室官网检索索引列水分解半导体光催化和CO2固定金属配合物/半导体复合体系。"
+        },
+        {
+          "url": "https://www.isct.ac.jp/ja/news/ze2wo7uagrv1",
+          "evidence": "大学成果页说明色素增敏光催化剂与可见光产氢研究。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "光エネルギーを水素や化学物質に変換する光触媒を設計する。",
+      "theme_en": "Designing photocatalysts that convert light into hydrogen and chemical products.",
+      "theme_tw": "設計將光能轉為氫能和化學產物的光催化材料。",
+      "summary_ja": "光化学、触媒、材料、電気化学を基盤に、水分解用半導体光触媒や二酸化炭素変換用の金属錯体・半導体複合系を開発します。無機材料と光吸収分子を制御し、可視光をより有効に利用するための反応機構を探究します。",
+      "summary_en": "Combining photochemistry, catalysis, materials chemistry and electrochemistry, the group develops semiconductor photocatalysts for water splitting and metal-complex/semiconductor hybrids for carbon dioxide conversion. Tuning inorganic components and light absorbers helps investigate more effective use of visible light.",
+      "summary_tw": "結合光化學、催化、材料和電化學，開發分解水製氫製氧的半導體光催化劑，以及用於二氧化碳轉化的金屬配合物與半導體複合體系。透過調控無機材料和光吸收分子，探索更有效利用可見光的反應機制。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "photochemistry-1"
+    },
+    {
+      "field": "photochemistry",
+      "university": "神戸大学",
+      "department": "ライフ光学イノベーション研究センター／大学院理学研究科 化学専攻",
+      "lab": "立川研究室",
+      "pi": "立川 貴士",
+      "theme_zh": "用单分子和单粒子观测解析光催化与光能转换。",
+      "summary_zh": "通过单分子、单粒子显微分光，研究不同材料形成的异质界面及其中的电荷转移。结合半导体纳米粒子排列和光功能材料开发，寻找结构、反应效率与光催化性能之间的关系，为太阳能利用提供分子层面的理解。",
+      "keywords": [
+        "单分子分光",
+        "光催化",
+        "异质界面",
+        "半导体纳米粒子"
+      ],
+      "url": "https://www.research.kobe-u.ac.jp/mprc/laser/tachikawa.html",
+      "references": [
+        {
+          "url": "https://www.research.kobe-u.ac.jp/mprc/laser/tachikawa.html",
+          "evidence": "中心研究室介绍列立川研究室、单分子/粒子观测、异质界面及半导体介观晶体。"
+        },
+        {
+          "url": "https://www.egbrc.kobe-u.ac.jp/member/index.html",
+          "evidence": "大学中心成员页列立川贵士教授，专长光化学、单一分子分光。"
+        },
+        {
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/doctor202610_4.pdf",
+          "evidence": "2026博士后期专攻资料列理学化学专攻立川贵士教授。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "単一分子・単一粒子の観測で光触媒と光エネルギー変換を理解する。",
+      "theme_en": "Understanding photocatalysis and light-energy conversion through single-molecule and single-particle observations.",
+      "theme_tw": "以單分子和單粒子觀測解析光催化與光能轉換。",
+      "summary_ja": "単一分子・単一粒子顕微分光を用い、異なる材料が形成する界面と電荷移動を調べます。半導体ナノ粒子の配列制御や光機能材料開発と組み合わせ、構造と反応効率、光触媒性能の関係を分子レベルで理解することを目指します。",
+      "summary_en": "Single-molecule and single-particle spectroscopy reveals interfacial processes and charge transfer between different materials. Research on semiconductor nanoparticle arrangements and photofunctional materials connects structural features with reaction efficiency and photocatalytic performance.",
+      "summary_tw": "透過單分子、單粒子顯微分光，研究不同材料形成的異質界面及其中的電荷轉移。結合半導體奈米粒子排列和光功能材料開發，尋找結構、反應效率與光催化性能之間的關係，為太陽能利用提供分子層面的理解。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "photochemistry-2"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "京都大学",
+      "department": "化学研究所 生体機能化学研究系／高等研究院 iCeMS",
+      "lab": "ケミカルバイオロジー分野（上杉研究室）",
+      "pi": "上杉 志成",
+      "theme_zh": "以具有独特生物活性的有机分子探究和调控细胞功能。",
+      "summary_zh": "寻找或设计能够改变细胞行为的有机化合物，将其作为解析生命过程的化学工具。研究连接化合物发现、分子设计与细胞功能分析，也结合材料科学思想，探索生理活性分子的形态、利用方式及细胞内作用。",
+      "keywords": [
+        "化学生物学",
+        "生理活性分子",
+        "细胞调控",
+        "分子设计"
+      ],
+      "url": "https://www.icems.kyoto-u.ac.jp/people/1369/",
+      "references": [
+        {
+          "url": "https://kuias.kyoto-u.ac.jp/j/profile/uesugi/",
+          "evidence": "高等研究院当前简介列上杉志成教授/iCeMS拠点长，研究生物活性有机分子及材料科学结合。"
+        },
+        {
+          "url": "https://www.kuicr.kyoto-u.ac.jp/sites/research_activities/chemist/",
+          "evidence": "化学研究所教员目录列化学生物学教授上杉志成。"
+        },
+        {
+          "url": "https://www.pharm.kyoto-u.ac.jp/research/research-organization/research-profile/bcg/chemicalbiology/",
+          "evidence": "大学研究介绍说明寻找设计有机化合物并以其理解、操作生命现象。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "独自の生物活性分子を使い、細胞機能を理解・制御する。",
+      "theme_en": "Using distinctive bioactive organic molecules to understand and control cell functions.",
+      "theme_tw": "以具有獨特生物活性的有機分子探究和調控細胞功能。",
+      "summary_ja": "細胞の振る舞いを変える有機化合物を探索・設計し、生命現象を解析する化学ツールとして利用します。化合物発見、分子設計、細胞機能解析をつなぎ、材料科学の考え方も取り入れながら、生理活性分子の形態や利用法、細胞内作用を探究します。",
+      "summary_en": "The group discovers or designs organic compounds that alter cellular behavior and uses them as tools to study biological processes. Compound discovery, molecular design and cell analysis are combined with materials-science concepts to explore new forms, uses and intracellular actions of bioactive molecules.",
+      "summary_tw": "尋找或設計能夠改變細胞行為的有機化合物，將其作為解析生命過程的化學工具。研究連接化合物發現、分子設計與細胞功能分析，也結合材料科學思想，探索生理活性分子的形態、利用方式及細胞內作用。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "chemical_biology-1"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "大阪大学",
+      "department": "大学院工学研究科 応用化学専攻 分子創成化学コース",
+      "lab": "ケミカルバイオロジー領域（菊地研究室）",
+      "pi": "菊地 和也",
+      "theme_zh": "设计化学探针，在活细胞和生物体中观察分子活动。",
+      "summary_zh": "基于化学反应与分子识别原理设计探针，使原本难以直接观察的生物分子和反应可以被成像追踪。研究将有机合成、探针性能评价与生物实验结合，重视在生命系统保持活动的条件下解析分子动态和功能。",
+      "keywords": [
+        "化学探针",
+        "生物成像",
+        "分子识别",
+        "活细胞"
+      ],
+      "url": "https://www.eng.osaka-u.ac.jp/department/50/",
+      "references": [
+        {
+          "url": "https://www-molpro-mls.eng.osaka-u.ac.jp/",
+          "evidence": "实验室现行首页列工学应用化学专攻分子创成化学课程及教授菊地和也。"
+        },
+        {
+          "url": "https://www.eng.osaka-u.ac.jp/department/50/",
+          "evidence": "大学研究室总览说明基于化学原理开发活体分子和反应可视化化学探针。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "化学プローブを設計し、生きた細胞や個体の分子活動を可視化する。",
+      "theme_en": "Designing chemical probes to visualize molecular activity in living cells and organisms.",
+      "theme_tw": "設計化學探針，在活細胞和生物體中觀察分子活動。",
+      "summary_ja": "化学反応と分子認識を基盤にプローブを設計し、直接観察しにくい生体分子や反応を可視化します。有機合成、プローブ評価、生物実験を組み合わせ、生きた状態を保った生命システムで分子の動態と機能を解析することを重視します。",
+      "summary_en": "Chemical reactions and molecular recognition guide the design of probes that reveal otherwise difficult-to-observe biomolecules and reactions. Organic synthesis, probe characterization and biological experiments are combined to investigate molecular dynamics and functions in living systems.",
+      "summary_tw": "基於化學反應與分子識別原理設計探針，使原本難以直接觀察的生物分子和反應可以被成像追蹤。研究將有機合成、探針性能評價與生物實驗結合，重視在生命系統保持活動的條件下解析分子動態和功能。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "chemical_biology-2"
+    },
+    {
+      "field": "green",
+      "university": "北海道大学",
+      "department": "触媒科学研究所／大学院総合化学院",
+      "lab": "触媒材料研究室（清水研究室）",
+      "pi": "清水 研一",
+      "theme_zh": "用固体催化剂改善污染治理和碳资源转化效率。",
+      "summary_zh": "以可持续社会所需的固体催化剂为对象，研究汽车尾气净化、二氧化碳制燃料与化学品、低碳烃升级转化。通过分光、计算和数据科学理解活性位点与反应机理，并将这些认识反馈到合金及金属氧化物界面设计。",
+      "keywords": [
+        "绿色化学",
+        "尾气净化",
+        "碳资源利用",
+        "固体催化"
+      ],
+      "url": "https://www.cat.hokudai.ac.jp/shimizu/research.html",
+      "references": [
+        {
+          "url": "https://apchem.eng.hokudai.ac.jp/lab/catalyst-material-research/",
+          "evidence": "大学目录明确PI清水研一教授，研究CO2转化、排放净化与原位分光。"
+        },
+        {
+          "url": "https://www.cat.hokudai.ac.jp/shimizu/research.html",
+          "evidence": "实验室研究页列持续社会固体催化、汽车尾气、CO2、低级烃和催化信息学。"
+        }
+      ],
+      "cross_fields": [
+        "catalyst"
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "固体触媒で環境浄化と炭素資源の有効利用を進める。",
+      "theme_en": "Using solid catalysts for pollution control and efficient carbon-resource conversion.",
+      "theme_tw": "以固體催化劑改善污染治理和碳資源轉化效率。",
+      "summary_ja": "持続可能社会に向け、自動車排ガス浄化、二酸化炭素からの燃料・化学品合成、低級炭化水素の変換を研究します。分光、計算、データ科学で活性点と反応機構を理解し、合金や金属・酸化物界面の触媒設計に反映します。",
+      "summary_en": "The group studies solid catalysts for exhaust purification, conversion of carbon dioxide into fuels and chemicals, and upgrading of light hydrocarbons. Spectroscopy, computation and data science reveal active sites and mechanisms, informing alloy and metal–oxide interface design.",
+      "summary_tw": "以永續社會所需的固體催化劑為對象，研究汽車尾氣淨化、二氧化碳製燃料與化學品、低碳烴升級轉化。透過分光、計算和資料科學理解活性位點與反應機理，並將這些認識回饋到合金及金屬氧化物界面設計。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "green-1"
+    },
+    {
+      "field": "green",
+      "university": "東京都立大学",
+      "department": "大学院都市環境科学研究科 環境応用化学域",
+      "lab": "宍戸研究室",
+      "pi": "宍戸 哲也",
+      "theme_zh": "从表面反应机理出发设计节能、节资源的环境催化体系。",
+      "summary_zh": "针对环境净化和高效分子转化，研究固体酸碱、金属及合金等催化材料。利用原位红外、X射线等方法观察催化剂表面的反应过程，再据此改进材料结构，使资源利用、能源转换和污染减排的研究相互衔接。",
+      "keywords": [
+        "环境催化",
+        "原位分光",
+        "表面反应",
+        "资源循环"
+      ],
+      "url": "https://shishidolab.cpark.tmu.ac.jp/shishidolab/ja/about.html",
+      "references": [
+        {
+          "url": "https://www.tmu.ac.jp/stafflist/data/sa/6141.html",
+          "evidence": "大学教员目录列宍户哲也及环境应用化学所属。"
+        },
+        {
+          "url": "https://www.cpark.tmu.ac.jp/shishidolab/ja/member/shishido-activity.html",
+          "evidence": "研究室成员页列都市环境科学研究科环境应用化学域教授宍户哲也。"
+        },
+        {
+          "url": "https://shishidolab.cpark.tmu.ac.jp/shishidolab/ja/about.html",
+          "evidence": "研究说明明确环境净化、高效转化、固体酸碱和金属合金催化、原位分光。"
+        }
+      ],
+      "cross_fields": [
+        "catalyst"
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "表面反応の理解に基づき、省エネルギー・省資源型の環境触媒を設計する。",
+      "theme_en": "Designing resource- and energy-efficient environmental catalysts from surface-reaction mechanisms.",
+      "theme_tw": "從表面反應機理出發設計節能、節資源的環境催化體系。",
+      "summary_ja": "環境浄化と高効率な分子変換を目指し、固体酸塩基、金属、合金などの触媒を研究します。原位赤外分光やX線を用いて表面反応を観測し、その知見から材料構造を改善することで、資源利用、エネルギー変換、汚染低減につなげます。",
+      "summary_en": "Research on solid acid–base, metal and alloy catalysts targets environmental cleanup and efficient molecular transformations. In situ infrared and X-ray methods reveal surface processes, guiding structural improvements for resource use, energy conversion and pollution reduction.",
+      "summary_tw": "針對環境淨化和高效分子轉化，研究固體酸鹼、金屬及合金等催化材料。利用原位紅外、X射線等方法觀察催化劑表面的反應過程，再據此改進材料結構，使資源利用、能源轉換和污染減排的研究相互銜接。",
+      "aliases": [
+        "东京都立大学",
+        "東京都立大學",
+        "Tokyo Metropolitan University"
+      ],
+      "id": "green-2"
+    },
+    {
+      "field": "process",
+      "university": "北海道大学",
+      "department": "大学院総合化学院 生物化学コース／理学研究院 化学部門",
+      "lab": "有機反応論研究室（永木研究室）",
+      "pi": "永木 愛一郎",
+      "theme_zh": "借助微流动反应器精密控制高速反应与短寿命活性物种。",
+      "summary_zh": "利用微反应器快速混合和高效传热的特点，在短时间内控制传统烧瓶中难以处理的反应。研究涉及不稳定活性物种、流动电解及多步反应集成，并结合数据科学探索反应条件，使功能分子的合成更快速且可控。",
+      "keywords": [
+        "流动化学",
+        "微反应器",
+        "过程强化",
+        "高速合成"
+      ],
+      "url": "https://www.cse.hokudai.ac.jp/lab/1026/",
+      "references": [
+        {
+          "url": "https://www.cse.hokudai.ac.jp/lab/1026/",
+          "evidence": "大学研究室目录列永木爱一郎教授、流动微反应器、不稳定活性种、流动有机电解及数据科学融合。"
+        },
+        {
+          "url": "https://wwwchem.sci.hokudai.ac.jp/~yuhan/index.php/nagaki/",
+          "evidence": "实验室成员页列教授永木爱一郎。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "フローマイクロリアクターで高速反応と短寿命活性種を精密制御する。",
+      "theme_en": "Precisely controlling fast reactions and short-lived intermediates in flow microreactors.",
+      "theme_tw": "藉助微流動反應器精密控制高速反應與短壽命活性物種。",
+      "summary_ja": "マイクロリアクターの高速混合と熱移動を生かし、通常のフラスコでは扱いにくい反応を短時間で制御します。不安定活性種、フロー電解、多段階反応の集積を研究し、データ科学による条件探索も組み合わせて機能分子の迅速合成を目指します。",
+      "summary_en": "Rapid mixing and heat transfer in microreactors enable control of reactions that are difficult in conventional flasks. Research on unstable intermediates, flow electrolysis and integrated reaction sequences is combined with data-driven condition exploration for faster, more controlled synthesis of functional molecules.",
+      "summary_tw": "利用微反應器快速混合和高效傳熱的特點，在短時間內控制傳統燒瓶中難以處理的反應。研究涉及不穩定活性物種、流動電解及多步反應集成，並結合資料科學探索反應條件，使功能分子的合成更快速且可控。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "process-1"
+    },
+    {
+      "field": "process",
+      "university": "神戸大学",
+      "department": "先端膜工学研究センター",
+      "lab": "膜工学グループ・イオン液体型ガス分離膜研究（神尾）",
+      "pi": "神尾 英治",
+      "theme_zh": "用离子液体和凝胶膜构建节能的二氧化碳分离过程。",
+      "summary_zh": "从反应性离子液体的分子设计出发，开发兼具选择性与透过速度的二氧化碳分离膜。研究覆盖吸收机理、凝胶强度、薄膜化和膜组件性能，关注湿度、压力及气体组成对分离的影响，连接材料开发与过程优化。",
+      "keywords": [
+        "膜分离",
+        "化学工程",
+        "离子液体",
+        "二氧化碳捕集"
+      ],
+      "url": "https://www.research.kobe-u.ac.jp/eng-membrane/center/research-divisions/gas/gas-1.html",
+      "references": [
+        {
+          "url": "https://www.research.kobe-u.ac.jp/eng-membrane/center/members.html",
+          "evidence": "当前中心成员页列神尾英治教授及气体分离/气体阻隔膜研究部门。"
+        },
+        {
+          "url": "https://www2.kobe-u.ac.jp/~matuyama/cx14HP/research/research-summary-gas-sep-i.html",
+          "evidence": "研究页列神尾、吉冈、松山研究团队，内容涵盖离子液体设计、吸收机理、凝胶膜与膜组件过程条件。"
+        }
+      ],
+      "checked_at": "2026-11-12",
+      "source_policy": "official university/laboratory pages; original Chinese synthesis",
+      "theme_ja": "イオン液体とゲル膜を使い、省エネルギー型CO2分離プロセスを構築する。",
+      "theme_en": "Developing energy-efficient carbon dioxide separation using ionic liquids and gel membranes.",
+      "theme_tw": "以離子液體和凝膠膜構築節能的二氧化碳分離過程。",
+      "summary_ja": "反応性イオン液体の分子設計から、選択性と透過速度を両立するCO2分離膜を開発します。吸収機構、ゲル強度、薄膜化、膜モジュール性能を研究し、湿度、圧力、ガス組成の影響を考慮して材料開発とプロセス最適化をつなぎます。",
+      "summary_en": "Starting with reactive ionic-liquid design, the group develops carbon dioxide membranes that combine selectivity and permeation rate. Studies span absorption mechanisms, gel strength, thin-film fabrication and module performance, linking materials to process optimization under different humidity, pressure and gas compositions.",
+      "summary_tw": "從反應性離子液體的分子設計出發，開發兼具選擇性與透過速度的二氧化碳分離膜。研究涵蓋吸收機理、凝膠強度、薄膜化和膜組件性能，關注濕度、壓力及氣體組成對分離的影響，連接材料開發與過程最佳化。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "process-2"
+    },
+    {
+      "field": "computational",
+      "university": "北海道大学",
+      "department": "大学院理学研究院 化学部門／大学院総合化学院",
+      "lab": "理論化学研究室（前田グループ）",
+      "pi": "前田 理",
+      "theme_zh": "化学反应路径自动探索",
+      "summary_zh": "开发量子化学计算与反应路径自动探索方法，用计算搜索未知反应及其过渡态。围绕人工力诱导反应法，建立反应网络并进行动力学分析，结合实验研究理解反应机理，为新反应设计提供依据。",
+      "keywords": [
+        "AFIR",
+        "GRRM",
+        "反応経路探索",
+        "量子化学"
+      ],
+      "url": "https://www.cse.hokudai.ac.jp/lab/528/",
+      "references": [
+        {
+          "url": "https://www.cse.hokudai.ac.jp/lab/528/",
+          "evidence": "综合化学院官方实验室页列前田理教授与反应路径网络研究。"
+        },
+        {
+          "url": "https://www.icredd.hokudai.ac.jp/ja/maeda-satoshi",
+          "evidence": "ICReDD官方研究介绍说明AFIR与未知反应路径自动探索。"
+        }
+      ],
+      "theme_ja": "化学反応経路の自動探索",
+      "theme_en": "Automated exploration of chemical reaction pathways",
+      "theme_tw": "化學反應路徑自動探索",
+      "summary_ja": "量子化学計算と反応経路の自動探索法を開発し、未知の反応や遷移状態を計算で探索。人工力誘起反応法を軸に反応ネットワークを構築し、速度論解析や実験との連携から反応機構を理解して、新反応の設計につなげます。",
+      "summary_en": "Develops quantum-chemical calculations and automated methods for finding unknown reactions and transition states. Centered on the artificial force induced reaction method, the work builds reaction networks and analyzes kinetics, linking computation with experiments to explain reaction mechanisms and provide a foundation for designing new chemical reactions.",
+      "summary_tw": "開發量子化學計算與反應路徑自動探索方法，用計算搜尋未知反應及其過渡態。圍繞人工力誘導反應法，建立反應網路並進行動力學分析，結合實驗研究理解反應機制，為新反應設計提供依據。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "computational-1"
+    },
+    {
+      "field": "computational",
+      "university": "慶應義塾大学",
+      "department": "理工学部 化学科／大学院理工学研究科",
+      "lab": "理論化学研究室（畑中研究室）",
+      "pi": "畑中 美穂",
+      "theme_zh": "反应机理与功能材料的理论设计",
+      "summary_zh": "开发并应用理论和计算化学方法，解析化学反应与功能材料的作用机制。将反应路径分析、电子状态计算与信息学结合，研究催化反应和发光材料等体系，并利用计算数据探索新的材料设计。",
+      "keywords": [
+        "理論化学",
+        "反応機構",
+        "発光材料",
+        "インフォマティクス"
+      ],
+      "url": "https://chem.keio.ac.jp/about/staff/miho-hatanaka/",
+      "references": [
+        {
+          "url": "https://chem.keio.ac.jp/about/staff/miho-hatanaka/",
+          "evidence": "化学科官方当前页列畑中美穂教授及理论计算、机理和材料信息学方向。"
+        },
+        {
+          "url": "https://www.keio.ac.jp/ja/st/research/learning/2109/",
+          "evidence": "大学研究介绍说明计算科学和AI结合的材料研究。"
+        }
+      ],
+      "theme_ja": "反応機構と機能性材料の理論設計",
+      "theme_en": "Reaction mechanisms and theoretical materials design",
+      "theme_tw": "反應機制與功能材料的理論設計",
+      "summary_ja": "理論・計算化学の手法を開発・応用し、化学反応や機能性材料の働きを解析。反応経路解析、電子状態計算、情報学を組み合わせて触媒反応や発光材料などを研究し、計算データから新たな材料設計の可能性を探ります。",
+      "summary_en": "Develops and applies theoretical and computational chemistry to understand chemical reactions and functional materials. Reaction-path analysis, electronic-structure calculations and informatics are combined to study catalytic reactions and luminescent materials, using computational data to examine underlying mechanisms and explore new approaches to the design of materials.",
+      "summary_tw": "開發並應用理論和計算化學方法，解析化學反應與功能材料的作用機制。將反應路徑分析、電子狀態計算與資訊學結合，研究催化反應和發光材料等系統，並利用計算數據探索新的材料設計。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "computational-2"
+    },
+    {
+      "field": "computational",
+      "university": "筑波大学",
+      "department": "数理物質系 化学域",
+      "lab": "八木・松井研究室",
+      "pi": "八木 清・松井 亨",
+      "theme_zh": "分子模拟与量子化学方法开发",
+      "summary_zh": "研究量子化学、分子动力学及信息科学的结合，开发描述复杂分子结构、振动和反应的新方法。通过分子振动理论、密度泛函与分子模拟，探索蛋白质和小分子的相互作用及功能材料性质。",
+      "keywords": [
+        "分子動力学",
+        "DFT",
+        "分子振動",
+        "QM/MM"
+      ],
+      "url": "https://www.chem.tsukuba.ac.jp/ymlab/research.html",
+      "references": [
+        {
+          "url": "https://www.chem.tsukuba.ac.jp/ymlab/research.html",
+          "evidence": "研究官网列方法开发、振动理论、DFT、蛋白质作用和功能材料研究。"
+        },
+        {
+          "url": "https://www.chem.tsukuba.ac.jp/ymlab/members.html",
+          "evidence": "2026年度成员页列八木清教授及松井亨准教授。"
+        }
+      ],
+      "theme_ja": "分子シミュレーションと量子化学手法の開発",
+      "theme_en": "Developing molecular simulation and quantum-chemistry methods",
+      "theme_tw": "分子模擬與量子化學方法開發",
+      "summary_ja": "量子化学、分子動力学、情報科学を結び付け、複雑な分子構造・振動・反応を記述する手法を開発。分子振動理論、密度汎関数法、分子シミュレーションを通じて、タンパク質と小分子の相互作用や機能性材料の性質を探ります。",
+      "summary_en": "Combines quantum chemistry, molecular dynamics and information science to develop methods describing complex molecular structures, vibrations and reactions. Molecular vibrational theory, density functional theory and molecular simulations are used to investigate interactions between proteins and small molecules, as well as the properties of functional materials.",
+      "summary_tw": "研究量子化學、分子動力學及資訊科學的結合，開發描述複雜分子結構、振動和反應的新方法。透過分子振動理論、密度泛函與分子模擬，探索蛋白質和小分子的相互作用及功能材料性質。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "筑波大学",
+        "筑波大學",
+        "University of Tsukuba"
+      ],
+      "id": "computational-3"
+    },
+    {
+      "field": "chemai",
+      "university": "明治大学",
+      "department": "理工学部 応用化学科／大学院理工学研究科 応用化学専攻",
+      "lab": "データ化学工学研究室",
+      "pi": "金子 弘昌",
+      "theme_zh": "数据驱动的材料与化学过程设计",
+      "summary_zh": "将统计分析和机器学习用于化学与化学工程数据，建立性质预测及设计模型。研究材料与分子结构设计、实验条件优化，以及化学过程的状态估计和运行方法，通过数据分析支持实验和生产决策。",
+      "keywords": [
+        "機械学習",
+        "材料設計",
+        "実験計画",
+        "化学工学"
+      ],
+      "url": "https://datachemeng.com/",
+      "references": [
+        {
+          "url": "https://www.meiji.ac.jp/sst/grad/teacher/04/6t5h7p00000u2r8l.html",
+          "evidence": "大学当前研究科教员页列金子弘昌教授，研究主题为数据驱动化学工程。"
+        },
+        {
+          "url": "https://www.meiji.ac.jp/sst/riko-lab/staff/kaneko/",
+          "evidence": "大学研究介绍说明数据分析、机器学习与材料/过程设计；该旧访谈职称不采用。"
+        },
+        {
+          "url": "https://datachemeng.com/member/",
+          "evidence": "研究室当前成员页确认教授职称。"
+        }
+      ],
+      "theme_ja": "データ駆動型の材料・化学プロセス設計",
+      "theme_en": "Data-driven materials and chemical-process design",
+      "theme_tw": "數據驅動的材料與化學過程設計",
+      "summary_ja": "化学・化学工学データに統計解析と機械学習を適用し、物性予測や設計のモデルを構築。材料・分子構造の設計、実験条件の最適化、化学プロセスの状態推定と運転方法を研究し、データ解析で実験や生産の判断を支援します。",
+      "summary_en": "Applies statistics and machine learning to chemical and chemical-engineering data to build prediction and design models. Research covers materials and molecular-structure design, optimization of experimental conditions, and state estimation and operation of chemical processes, using data analysis to support decisions in both experiments and production.",
+      "summary_tw": "將統計分析和機器學習用於化學與化學工程數據，建立性質預測及設計模型。研究材料與分子結構設計、實驗條件最佳化，以及化學過程的狀態估計和運行方法，透過數據分析支援實驗和生產決策。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "明治大学",
+        "明治大學",
+        "Meiji University"
+      ],
+      "id": "chemai-1"
+    },
+    {
+      "field": "chemai",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 化学・生命化学専攻",
+      "lab": "ケム・インフォマティクス研究室",
+      "pi": "清野 淳司",
+      "theme_zh": "化学数据与人工智能方法",
+      "summary_zh": "融合实验、理论和计算产生的化学数据与人工智能，研究化学性质和反应的预测方法。课题涉及材料开发、实验条件、光谱及电子状态理论，也探索从模型中理解化学规律和辅助研究工作的系统。",
+      "keywords": [
+        "ケモインフォマティクス",
+        "AI",
+        "電子状態",
+        "スペクトル"
+      ],
+      "url": "https://www.chem.waseda.ac.jp/seino/",
+      "references": [
+        {
+          "url": "https://www.chem.waseda.ac.jp/seino/",
+          "evidence": "当前实验室首页确认清野淳司准教授，介绍AI与化学数据融合及2026活动。"
+        },
+        {
+          "url": "https://www.chem.waseda.ac.jp/ja/pdf/WASEDA_PDF_final.pdf",
+          "evidence": "化学专攻官方册子说明材料、反应、条件、光谱、电子状态等预测研究。"
+        }
+      ],
+      "theme_ja": "化学データと人工知能の手法開発",
+      "theme_en": "Chemical data and artificial-intelligence methods",
+      "theme_tw": "化學數據與人工智慧方法",
+      "summary_ja": "実験・理論・計算から得られる化学データとAIを融合し、物性や反応の予測法を研究。材料開発、実験条件、スペクトル、電子状態理論を扱い、モデルから化学的な規則を読み取り、研究を支援するシステムも探ります。",
+      "summary_en": "Integrates artificial intelligence with chemical data generated by experiments, theory and computation to predict properties and reactions. Topics include materials development, experimental conditions, spectra and electronic-structure theory. The group also explores ways to understand chemical patterns through models and to build systems that assist scientific research.",
+      "summary_tw": "融合實驗、理論和計算產生的化學數據與人工智慧，研究化學性質和反應的預測方法。課題涉及材料開發、實驗條件、光譜及電子狀態理論，也探索從模型中理解化學規律和輔助研究工作的系統。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "chemai-2"
+    },
+    {
+      "field": "chemai",
+      "university": "名古屋大学",
+      "department": "大学院情報学研究科 複雑系科学専攻",
+      "lab": "山西研究室",
+      "pi": "山西 芳裕",
+      "theme_zh": "化学信息学与AI药物设计",
+      "summary_zh": "将化合物、生物分子与多组学数据结合，开发机器学习方法预测药物靶点、分子相互作用及药效和毒性。研究分子结构生成、虚拟筛选和药物再定位，也分析药物组合效应与疾病相关网络。",
+      "keywords": [
+        "AI創薬",
+        "分子生成",
+        "ケモインフォマティクス",
+        "オミクス"
+      ],
+      "url": "https://yamanishi.cs.i.nagoya-u.ac.jp/research_J.html",
+      "references": [
+        {
+          "url": "https://yamanishi.cs.i.nagoya-u.ac.jp/research_J.html",
+          "evidence": "研究室官网列AI创药、结构生成、靶点预测、药物组合、化学信息学研究。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100012903_ja.html",
+          "evidence": "当前大学数据库确认2023年以来信息学研究科教授所属，非旧工程研究院。"
+        }
+      ],
+      "theme_ja": "ケモインフォマティクスとAI創薬",
+      "theme_en": "Chemoinformatics and AI-assisted drug design",
+      "theme_tw": "化學資訊學與AI藥物設計",
+      "summary_ja": "化合物・生体分子・マルチオミクスのデータを統合し、薬物標的、分子間相互作用、薬効・毒性を予測する機械学習法を開発。分子構造生成、バーチャルスクリーニング、薬物再利用に加え、併用効果や疾患関連ネットワークも解析します。",
+      "summary_en": "Combines chemical compounds, biomolecules and multi-omics data to develop machine-learning methods for predicting drug targets, molecular interactions, efficacy and toxicity. Research includes molecular-structure generation, virtual screening and drug repurposing, alongside analysis of combination effects and disease-related networks to support data-driven approaches to drug design.",
+      "summary_tw": "將化合物、生物分子與多體學數據結合，開發機器學習方法預測藥物標靶、分子相互作用及藥效和毒性。研究分子結構生成、虛擬篩選和藥物再定位，也分析藥物組合效應與疾病相關網路。",
+      "checked_at": "2026-11-12",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "chemai-3"
+    }
+  ]
+}
