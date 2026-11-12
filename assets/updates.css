@@ -29,6 +29,13 @@
 .feed-source-panel .feed-grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));max-height:650px;overflow:auto;padding:2px}
 .feed-window{font-size:13px;border-left:3px solid #38bdf8;padding-left:10px;margin:10px 0;line-height:1.8}
 .feed-unavailable{color:#92400e}
+.annual-plan-scroll{overflow-x:auto;background:#fff}
+.annual-plan-image{display:block;min-width:800px;cursor:zoom-in}
+.annual-plan-image img{display:block;width:100%;height:auto}
+.annual-plan-note{margin-top:12px;font-size:14px;line-height:1.8}
+.annual-plan-note a{color:#0369a1;text-decoration:underline;text-underline-offset:3px}
+.annual-plan-image:focus-visible{outline:3px solid #0284c7;outline-offset:-3px}
+body.dark .annual-plan-note a{color:#7dd3fc}
 body.dark .feed-note,body.dark .feed-source-panel{background:#0f172a;border-color:#334155;color:#bae6fd}
 body.dark .feed-card,body.dark .feed-table-wrap,body.dark .feed-controls select,body.dark .feed-controls input,body.dark .feed-button{background:#1e293b;border-color:#334155;color:#e2e8f0}
 body.dark .feed-card h3,body.dark .feed-source-panel>summary,body.dark .feed-card a{color:#7dd3fc}
