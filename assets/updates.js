@@ -25,7 +25,7 @@
     host.querySelectorAll(':scope > :not(.section-hero)').forEach(n => n.remove());
     const content = document.createElement('div');
     content.innerHTML = `<p class="feed-meta">${meta(data)} · ${data.items.length} ${tr('件の合格実績','份合格实绩','份合格實績','admission posters')}</p>
-      <div class="feed-controls">${button(all(),state.year==='all','honor-year','all')}${available.map(y => button(y==='未分年度'?tr('年度未分類','未分年度','未分年度','Unassigned year'):y,state.year===y,'honor-year',y)).join('')}</div>
+      <div class="feed-controls">${button(all(),state.year==='all','honor-year','all')}${available.map(y => button(y==='未分年度'?tr('年度未分類','未分年度','未分年度','Unassigned year'):tr(y+'年度',y+'年度',y+'年度',y),state.year===y,'honor-year',y)).join('')}</div>
       <div class="feed-controls">${['all','bio','chem','other'].map(s => button(s==='all'?all():subject(s),state.subject===s,'honor-subject',s)).join('')}</div>
       <div class="feed-honors">${rows.map(r => `<button class="honor-card" data-poster="${esc(r.image)}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div></button>`).join('')}</div>${rows.length?'':empty()}`;
     host.append(content);
