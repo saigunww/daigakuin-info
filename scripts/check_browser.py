@@ -49,8 +49,10 @@ def main():
             page.evaluate("switchTab('schedule')")
             assert page.locator('#course-results tbody tr').count()>0
             assert page.locator('#schedule-bio, #schedule-chem, #schedule-tabs').count()==0
-            page.select_option('#schedule-year','2024')
-            assert page.locator('#course-results tbody tr').count()>0
+            assert page.locator('#schedule-year').count()==0
+            period=page.locator('#schedule-period')
+            start,end=period.get_attribute('data-start'),period.get_attribute('data-end')
+            assert all(start<=date<end for date in page.locator('#course-results tbody tr td:first-child').evaluate_all('els=>els.map(e=>e.textContent.slice(0,10))'))
             page.locator('[data-course-group="chem"]').click()
             assert page.locator('#course-results tbody tr').count()>0
             page.fill('#course-query','no-match-xyz')
@@ -128,7 +130,7 @@ def main():
             assert no_students.locator('[data-feed-error="students"]').count()==1
             assert no_students.locator('#students .students-total, #students .student-stat-num, #students a').count()==0
             assert no_students.locator('#daily-research-content .feed-card').count()>=3
-            print(json.dumps({'browser_errors':errors,'posters':posters,'enrolled_students':enrollment['total'],'checks':'tabs, languages, enrollment counts and schools, enrollment source failure, subject filtering, historical courses, legacy links, source-only fallback, desktop, mobile'},ensure_ascii=False))
+            print(json.dumps({'browser_errors':errors,'posters':posters,'enrolled_students':enrollment['total'],'checks':'tabs, languages, enrollment counts and schools, enrollment source failure, subject filtering, current half-year courses, legacy links, source-only fallback, desktop, mobile'},ensure_ascii=False))
             browser.close()
             assert not errors,errors
     finally:

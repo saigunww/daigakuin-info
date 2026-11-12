@@ -19,6 +19,10 @@
 .feed-table th,.feed-table td{text-align:left;padding:12px 14px;border-bottom:1px solid #e2e8f0;vertical-align:top;line-height:1.7}
 .feed-table th{background:#f0f9ff;color:#075985;white-space:nowrap}
 .feed-table tr.upcoming{background:#f0fdf4}
+.schedule-period{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:14px 18px;border-radius:10px;background:#e0f2fe;color:#075985;margin:16px 0}
+.schedule-period strong{font-size:20px}
+.schedule-period span{font-size:13px;line-height:1.6}
+body.dark .schedule-period{background:#0c4a6e;color:#e0f2fe}
 .course-subject-group{margin:0 0 28px;min-width:0}
 .course-subject-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px;padding:10px 14px;border-left:4px solid #0ea5e9;background:#e0f2fe;border-radius:8px;color:#075985}
 .course-subject-heading h3{font-size:19px;line-height:1.5;margin:0;overflow-wrap:anywhere}
