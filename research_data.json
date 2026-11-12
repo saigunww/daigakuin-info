@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "doi:10.2141/jpsa.2026026",
+      "doi": "10.2141/jpsa.2026026",
+      "title": "Effect of Sea-Freight Vibrations and Microclimates on Blood Chemistry, Weight Loss, and Meat Quality: A Comparison of Speedboat and Ferry Transit in Broilers.",
+      "summary": "",
+      "source": "The journal of poultry science",
+      "published_at": "2026-11-07",
+      "url": "https://doi.org/10.2141/jpsa.2026026",
+      "added_on": "2026-11-12",
+      "category": "biology"
+    },
+    {
+      "id": "doi:10.1021/acs.joc.6c01915",
+      "doi": "10.1021/acs.joc.6c01915",
+      "title": "Acidic C─H Functionalization to Access Ketoalkyl-Substituted Quinazolinones by Visible-Light Photoredox Catalysis.",
+      "summary": "",
+      "source": "The Journal of organic chemistry",
+      "published_at": "2026-11-09",
+      "url": "https://doi.org/10.1021/acs.joc.6c01915",
+      "added_on": "2026-11-12",
+      "category": "chemistry"
+    },
+    {
+      "id": "doi:10.1016/j.gene.2026.150485",
+      "doi": "10.1016/j.gene.2026.150485",
+      "title": "Integrative network toxicology and clinical validation identify CD4, PTGS2, and KDR as candidate targets of nicotine in infantile hemangioma.",
+      "summary": "",
+      "source": "Gene",
+      "published_at": "2026-11-07",
+      "url": "https://doi.org/10.1016/j.gene.2026.150485",
+      "added_on": "2026-11-12",
+      "category": "ai"
+    }
+  ],
+  "updated_at": "2026-11-12T13:15:47+09:00"
+}

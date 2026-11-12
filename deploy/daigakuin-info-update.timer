@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh Daigakuin Info hourly
+
+[Timer]
+OnCalendar=*-*-* *:17:00 Asia/Tokyo
+Persistent=true
+RandomizedDelaySec=60
+Unit=daigakuin-info-update.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.sync-state/
+.venv/
+test-results/
+.DS_Store
+*.part

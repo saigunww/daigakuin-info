@@ -1,0 +1,15 @@
+[Unit]
+Description=Update Daigakuin Info public feeds and GitHub Pages
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/admin-coach-ai/Documents/大学院生化网页/github
+ExecStart=/home/admin-coach-ai/Documents/大学院生化网页/.sync-venv/bin/python scripts/sync_and_publish.py
+Environment=PYTHONUNBUFFERED=1
+Environment=GIT_TERMINAL_PROMPT=0
+UMask=0077
+TimeoutStartSec=30min
+
+[Install]
+WantedBy=default.target
