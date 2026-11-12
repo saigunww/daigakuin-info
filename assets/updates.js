@@ -1,7 +1,7 @@
 /* Public snapshots only. Source credentials never reach the browser. */
 (function () {
   'use strict';
-  const feeds = {}, state = {year: '', subject: 'all', scheduleYear: '', scheduleGroup: 'bio', research: 'all', officialQuery: '', admissionsGroup: 'all'};
+  const feeds = {}, state = {year: '', subject: 'all', scheduleYear: '', scheduleGroup: 'bio', scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
   const $ = id => document.getElementById(id);
   const tr = (ja, zh, tw, en) => ({ja, zh, tw, en}[window.globalLang || 'ja'] || ja);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -56,17 +56,41 @@
     host.innerHTML = `<div class="feed-note">${tr('指定の初回時間割を自動同期しています。元の表には後日の授業変更が反映されません。','自动同步指定的初次排课表；原表不记录后续调课，请结合老师通知确认。','自動同步指定的初次排課表；原表不記錄後續調課，請結合老師通知確認。','Automatically synced from the initial timetable. Later class changes are not recorded in this source; check instructor announcements.')}</div>
       <p class="feed-meta">${meta(data)} · ${link(data.source_url,tr('元の時間割','查看原课表','查看原課表','Source timetable'))}</p>
       <div class="feed-controls"><label>${tr('年度','年份','年份','Year')} <select id="schedule-year">${available.map(y=>`<option${y===state.scheduleYear?' selected':''}>${y}</option>`).join('')}</select></label>
-      ${['bio','chem'].map(g=>button(subject(g),state.scheduleGroup===g,'course-group',g)).join('')}<input id="course-query" type="search" aria-label="${tr('授業を検索','搜索课程','搜尋課程','Search courses')}" placeholder="${tr('授業名・内容で検索','搜索课程或内容','搜尋課程或內容','Search courses or topics')}"></div><div id="course-results"></div>`;
+      ${['bio','chem'].map(g=>button(subject(g),state.scheduleGroup===g,'course-group',g)).join('')}<input id="course-query" type="search" value="${esc(state.scheduleQuery)}" aria-label="${tr('授業を検索','搜索课程','搜尋課程','Search courses')}" placeholder="${tr('科目名・クラス・内容で検索','搜索科目、班期或内容','搜尋科目、班期或內容','Search subjects, classes or topics')}"></div><div id="course-results" aria-live="polite"></div>`;
     $('schedule-year').onchange = e => {state.scheduleYear=e.target.value;renderScheduleRows();};
-    $('course-query').oninput = renderScheduleRows;
+    $('course-query').oninput = e => {state.scheduleQuery=e.target.value;renderScheduleRows();};
     host.querySelectorAll('[data-course-group]').forEach(b=>b.onclick=()=>{state.scheduleGroup=b.dataset.courseGroup;renderSchedule();});
     renderScheduleRows();
   }
+  function courseSubject(course) {
+    const original = String(course || '').trim().replace(/\s+/g,' ');
+    const withoutTerm = original.replace(/^\d{2,4}年(?:\d{1,2}月期|春期|秋期|冬季)\s*/,'');
+    const named = withoutTerm.match(/^(?:生物学|生物|化学|化)\s*[-－—]\s*(.+)$/);
+    const basic = withoutTerm.match(/^(?:生物学|化学)\s*(必修课程|入门课程)$/);
+    let name = named ? named[1].trim() : basic ? basic[1] : original;
+    if (/^入门班第\d+期$/.test(original)) name = '入门课程';
+    if (withoutTerm === '生化升学指导课程') name = withoutTerm;
+    // Only explicit subject aliases are merged; old A/B/TA class names stay distinct.
+    const aliases = new Map([
+      ['有机化学','有機化学'], ['无机化学','無機化学'], ['过去问','過去問'],
+      ['有机化学过去问','有機化学過去問'], ['无机化学过去问','無機化学過去問'],
+      ['入门','入门课程'], ['入門','入门课程'], ['必修课','必修课程']
+    ]);
+    return aliases.get(name) || name;
+  }
   function renderScheduleRows() {
-    const q = ($('course-query').value || '').toLowerCase();
-    const rows = feeds.schedule.items.filter(r=>r.group===state.scheduleGroup && r.date.startsWith(state.scheduleYear) && (r.course+' '+r.topic).toLowerCase().includes(q));
+    const q = state.scheduleQuery.trim().toLowerCase();
+    const canonicalQuery = courseSubject(q).toLowerCase();
+    const rows = feeds.schedule.items.filter(r=>r.group===state.scheduleGroup && r.date.startsWith(state.scheduleYear) && [q,canonicalQuery].some(query=>(r.course+' '+r.topic+' '+courseSubject(r.course)).toLowerCase().includes(query)));
+    const grouped = new Map();
+    rows.forEach(r => {const name=courseSubject(r.course);if(!grouped.has(name))grouped.set(name,[]);grouped.get(name).push(r);});
+    const compareName = new Intl.Collator(({zh:'zh-CN',tw:'zh-TW',en:'en',ja:'ja'})[window.globalLang] || 'ja',{numeric:true});
+    const groups = [...grouped].sort((a,b)=>compareName.compare(a[0],b[0]));
+    groups.forEach(([,items])=>items.sort((a,b)=>a.date.localeCompare(b.date) || (a.start_time || '99:99').localeCompare(b.start_time || '99:99')));
     const weekdays = tr(['月','火','水','木','金','土','日'],['一','二','三','四','五','六','日'],['一','二','三','四','五','六','日'],['Mon','Tue','Wed','Thu','Fri','Sat','Sun']);
-    $('course-results').innerHTML = `<p class="feed-meta">${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length?`<div class="feed-table-wrap"><table class="feed-table"><thead><tr>${[tr('日付','日期','日期','Date'),tr('時間','时间','時間','Time'),tr('授業','课程','課程','Course'),tr('回','课次','課次','Session'),tr('授業内容','课程内容','課程內容','Topic')].map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr${r.date>=jstToday()?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div>`:empty());
+    const headers = [tr('日付','日期','日期','Date'),tr('時間','时间','時間','Time'),tr('クラス・開講期','原课程／班期','原課程／班期','Original course / term'),tr('回','课次','課次','Session'),tr('授業内容','课程内容','課程內容','Topic')];
+    const today = jstToday();
+    $('course-results').innerHTML = `<p class="feed-meta">${tr('科目別','按科目分组','按科目分組','Grouped by subject')} · ${groups.length} ${tr('科目','门科目','門科目','subjects')} · ${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length ? groups.map(([name,items],index)=>`<section class="course-subject-group" data-course-subject="${esc(name)}" aria-labelledby="course-subject-${index}"><div class="course-subject-heading"><h3 id="course-subject-${index}">${esc(name)}</h3><span>${items.length} ${tr('授業','节课','節課','classes')}</span></div><div class="feed-table-wrap"><table class="feed-table" aria-labelledby="course-subject-${index}"><thead><tr>${headers.map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${items.map(r=>`<tr${r.date>=today?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div></section>`).join('') : empty());
   }
 
   function renderStudents() {
