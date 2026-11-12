@@ -17,6 +17,14 @@
       "image": "assets/honors/25145edb4a96b4366d8da3c4.webp"
     },
     {
+      "id": "e63b64e3ffc2a32be9c1d51f0469aeb7d79ee89896abd5f90c0cb2cbc940a30e",
+      "name": "周同学",
+      "university": "東京大学総合文化研究科",
+      "year": "2027",
+      "subject": "chem",
+      "image": "assets/honors/e63b64e3ffc2a32be9c1d51f.webp"
+    },
+    {
       "id": "330ecadd0b3962813363963fa14cb923ccf4e919d74e847b8ea275221665c7b7",
       "name": "崔同学",
       "university": "筑波大学理工情報生命学術院",
@@ -49,6 +57,14 @@
       "image": "assets/honors/7ce2b37918a21cfc2d55a5c6.webp"
     },
     {
+      "id": "fd9db7be1a6eac8de2ce55274bae7815fb07d7e50966894bee230ea73a9eb2b2",
+      "name": "王同学",
+      "university": "東京大学総合文化研究科",
+      "year": "2027",
+      "subject": "chem",
+      "image": "assets/honors/fd9db7be1a6eac8de2ce5527.webp"
+    },
+    {
       "id": "efaca47682bc59f8117be78fe935c3df84eca22505ba37157fd2d4264b4c2c6f",
       "name": "王同学",
       "university": "東京科学大学物質理工学院",
@@ -63,6 +79,14 @@
       "year": "2027",
       "subject": "chem",
       "image": "assets/honors/eed411109f1dd6aea1cf2790.webp"
+    },
+    {
+      "id": "eaf15c928ee5b9c5d304e738570611f0b8d2bdd868b2770b3e2e1d430330aa11",
+      "name": "佐々木同学",
+      "university": "東京大学新領域創成科学研究科",
+      "year": "2027",
+      "subject": "bio",
+      "image": "assets/honors/eaf15c928ee5b9c5d304e738.webp"
     },
     {
       "id": "f58b321f778ea8933bae050fb8b6734620147395feb0a670399ce4ec4d315a5b",
@@ -633,5 +657,5 @@
       "image": "assets/honors/45aa9ac885746928283d8db2.webp"
     }
   ],
-  "updated_at": "2026-11-12T15:31:13+09:00"
+  "updated_at": "2026-11-12T15:44:46+09:00"
 }
