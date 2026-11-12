@@ -24,6 +24,10 @@
 .feed-honors img{width:100%;height:330px;object-fit:contain;background:#fff;display:block}
 .feed-honors .honor-name,.feed-honors .honor-uni{padding:6px 14px}
 .feed-honors .honor-uni{padding-bottom:14px}
+.honor-category-title{font-size:22px;color:#075985;margin:8px 0 20px}
+.feed-honors .honor-category-label{display:block;margin:0 14px 14px;padding:6px 10px;background:#e0f2fe;color:#075985;border-radius:8px;font-size:13px;font-weight:600}
+body.dark .honor-category-title{color:#7dd3fc}
+body.dark .feed-honors .honor-category-label{background:#0c4a6e;color:#e0f2fe}
 .feed-source-panel{margin:0 0 22px;border:1px solid #bae6fd;border-radius:12px;padding:16px;background:#f8fcff}
 .feed-source-panel>summary{cursor:pointer;color:#075985;font-weight:600;font-size:16px}
 .feed-source-panel .feed-grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));max-height:650px;overflow:auto;padding:2px}

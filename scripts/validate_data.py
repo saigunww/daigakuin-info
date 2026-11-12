@@ -14,6 +14,7 @@ def validate():
     honors=feeds['honors_data.json']['items']
     assert len({r['id'] for r in honors})==len(honors)
     for row in honors:
+        assert row['subject'] in ('bio','chem','ai-research','other')
         assert row['image'].startswith('assets/honors/') and '..' not in row['image']
         assert (ROOT/row['image']).is_file()
     for row in feeds['schedule_data.json']['items']:

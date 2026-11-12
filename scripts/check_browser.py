@@ -31,11 +31,21 @@ def main():
             page.locator('[data-research-category="chemistry"]').click()
             assert page.locator('#daily-research-content .feed-card').count()>=1
             page.evaluate("switchTab('honor');switchHonorYear('all')")
-            posters=len(json.loads((ROOT/'honors_data.json').read_text())['items'])
+            honors=json.loads((ROOT/'honors_data.json').read_text())['items']
+            posters=len(honors)
             assert page.locator('#honor [data-poster]').count()==posters
             page.locator('#honor [data-poster]').first.click()
             assert page.locator('#lightbox.active').count()==1
             page.evaluate('closeLightbox()')
+            ai_images={r['image'] for r in honors if r['subject']=='ai-research'}
+            assert ai_images
+            page.locator('[data-honor-subject="ai-research"]').click()
+            assert set(page.locator('#honor [data-poster]').evaluate_all('els=>els.map(e=>e.dataset.poster)'))==ai_images
+            assert page.locator('#honor .honor-category-label').count()==len(ai_images)
+            page.locator('[data-honor-subject="chem"]').click()
+            assert page.locator('#honor [data-poster]').count()==sum(r['subject']=='chem' for r in honors)
+            assert not ai_images.intersection(page.locator('#honor [data-poster]').evaluate_all('els=>els.map(e=>e.dataset.poster)'))
+            page.evaluate("switchHonorSubject('all')")
             page.evaluate("switchTab('schedule')")
             assert page.locator('#course-results tbody tr').count()>0
             assert page.locator('#schedule-bio, #schedule-chem, #schedule-tabs').count()==0
@@ -73,6 +83,10 @@ def main():
             # All language changes and current data must coexist with the legacy tabs.
             for language in ('ja','zh','tw','en'):
                 page.evaluate('(lang)=>switchToLang(lang)',language)
+                page.evaluate("switchTab('honor');switchHonorSubject('ai-research')")
+                assert page.locator('#honor [data-poster]').count()==len(ai_images)
+                assert page.locator('.honor-category-title').inner_text()
+                page.evaluate("switchHonorSubject('all')")
                 for section in ('schedule','honor','daily-research','application','research','students','home'):
                     page.evaluate('(tab)=>switchTab(tab)',section)
                     assert page.locator('#'+section+'.active').count()==1

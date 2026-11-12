@@ -19,6 +19,7 @@ POSTERS = Path.home() / 'Documents/合格榜'
 DRIVE_FOLDER = '1WAOyJ5OxThh5baukCL_jOePtWV3l5OwB'
 COURSE_SHEET = '1-lwvv7fsI4gu5S0bmaNG28gZmwriSFsKboMcT7MQ848'
 FOLDER = 'application/vnd.google-apps.folder'
+HONOR_SUBJECTS = {'AI科研背景提升': 'ai-research', '大学院生物': 'bio', '大学院化学': 'chem'}
 
 def client(service):
     name = 'token.json' if service == 'sheets' else 'inventory_drive_readonly_token.json'
@@ -100,9 +101,9 @@ def poster_metadata(path):
     p = Path(path)
     if p.suffix.lower() not in ('.png','.jpg','.jpeg','.webp'):
         return None
-    if not (p.name.startswith('合格榜_') or any(x in p.parts for x in ('大学院生物','大学院化学'))):
+    if not (p.name.startswith('合格榜_') or any(x in p.parts for x in HONOR_SUBJECTS)):
         return None
-    group = 'bio' if '大学院生物' in p.parts else 'chem' if '大学院化学' in p.parts else 'other'
+    group = next((group for folder, group in HONOR_SUBJECTS.items() if folder in p.parts), 'other')
     year_match = re.search(r'(20\d{2})年度',path)
     year = year_match.group(1) if year_match else '未分年度'
     mapping = load(ROOT/'config/honor_metadata.json',{})

@@ -11,7 +11,7 @@
   const meta = data => `${tr('データ更新','数据更新','資料更新','Data updated')}: ${esc((data.updated_at || '').replace('T',' ').replace('+09:00',' JST'))}`;
   const all = () => tr('すべて','全部','全部','All');
   const empty = () => `<p class="feed-empty">${tr('該当する項目はありません。','暂无符合条件的内容。','暫無符合條件的內容。','No matching entries.')}</p>`;
-  const subject = s => ({bio:tr('生物学','生物学','生物學','Biology'),chem:tr('化学','化学','化學','Chemistry'),other:tr('その他','其他','其他','Other')}[s]);
+  const subject = s => ({bio:tr('生物学','生物学','生物學','Biology'),chem:tr('化学','化学','化學','Chemistry'),'ai-research':tr('AI研究経験強化','AI科研背景提升','AI科研背景提升','AI Research Experience'),other:tr('その他','其他','其他','Other')}[s]);
   const category = s => ({biology:tr('生物・生化学','生物与生化','生物與生化','Biology & biochemistry'),chemistry:tr('化学','化学','化學','Chemistry'),ai:tr('AI・生命科学','AI 生命科学','AI 生命科學','AI & life sciences')}[s]);
   function years(items, key) {return [...new Set(items.map(r => key(r)))].sort().reverse();}
   function button(label, active, data, value) {return `<button class="feed-button${active?' active':''}" data-${data}="${esc(value)}" aria-pressed="${active}">${esc(label)}</button>`;}
@@ -21,7 +21,7 @@
     const host = $('honor');
     const available = years(data.items, r => r.year);
     if (!available.includes(state.year) && state.year !== 'all') state.year = available.find(y => /^20\d{2}$/.test(y)) || 'all';
-    const availableSubjects = ['bio','chem','other'].filter(s => data.items.some(r => r.subject === s));
+    const availableSubjects = ['bio','chem','ai-research','other'].filter(s => data.items.some(r => r.subject === s));
     if (state.subject !== 'all' && !availableSubjects.includes(state.subject)) state.subject = 'all';
     const rows = data.items.filter(r => (state.year === 'all' || r.year === state.year) && (state.subject === 'all' || r.subject === state.subject));
     host.querySelectorAll(':scope > :not(.section-hero)').forEach(n => n.remove());
@@ -29,7 +29,8 @@
     content.innerHTML = `<p class="feed-meta">${meta(data)} · ${data.items.length} ${tr('件の合格実績','份合格实绩','份合格實績','admission posters')}</p>
       <div class="feed-controls">${button(all(),state.year==='all','honor-year','all')}${available.map(y => button(y==='未分年度'?tr('年度未分類','未分年度','未分年度','Unassigned year'):tr(y+'年度',y+'年度',y+'年度',y),state.year===y,'honor-year',y)).join('')}</div>
       <div class="feed-controls">${['all',...availableSubjects].map(s => button(s==='all'?all():subject(s),state.subject===s,'honor-subject',s)).join('')}</div>
-      <div class="feed-honors">${rows.map(r => `<button class="honor-card" data-poster="${esc(r.image)}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div></button>`).join('')}</div>${rows.length?'':empty()}`;
+      ${state.subject==='ai-research'?`<h3 class="honor-category-title">${subject('ai-research')}</h3>`:''}
+      <div class="feed-honors">${rows.map(r => `<button class="honor-card" data-poster="${esc(r.image)}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div>${r.subject==='ai-research'?`<span class="honor-category-label">${subject(r.subject)}</span>`:''}</button>`).join('')}</div>${rows.length?'':empty()}`;
     host.append(content);
     content.querySelectorAll('[data-honor-year]').forEach(b => b.onclick = () => window.switchHonorYear(b.dataset.honorYear));
     content.querySelectorAll('[data-honor-subject]').forEach(b => b.onclick = () => window.switchHonorSubject(b.dataset.honorSubject));
@@ -42,7 +43,7 @@
     try {localStorage.setItem('honorYear',year);} catch (_) {}
   };
   window.switchHonorSubject = function (group) {
-    state.subject = ['all','bio','chem','other'].includes(group)?group:'all';
+    state.subject = ['all','bio','chem','ai-research','other'].includes(group)?group:'all';
     if (feeds.honors) renderHonors(); else try {oldHonorSubject(group);} catch (_) {}
     try {localStorage.setItem('honorSub',state.subject);} catch (_) {}
   };

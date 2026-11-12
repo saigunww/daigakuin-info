@@ -2,7 +2,7 @@ import sys
 import unittest
 from datetime import date
 from admission_dates import extract_ranges
-from update_google import parse_courses
+from update_google import parse_courses, poster_metadata
 from update_research import candidate, normalize_doi
 from update_admissions import public_program, active_windows
 from common import official_url
@@ -35,6 +35,15 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(result[0]['date'],'2026-11-12')
         self.assertNotIn('private',str(result))
         with self.assertRaises(ValueError):parse_courses([['changed header']], 'bio')
+
+    def test_ai_research_honor_folder_classification(self):
+        for path in ('2027年度/AI科研背景提升/合格榜_甲同学_测试大学.png',
+                     'AI科研背景提升/2027年度/甲同学-测试大学.jpg'):
+            row=poster_metadata(path)
+            self.assertEqual(row['subject'],'ai-research')
+            self.assertEqual(row['year'],'2027')
+        self.assertEqual(poster_metadata('2027年度/大学院化学/合格榜_甲同学_测试大学.png')['subject'],'chem')
+        self.assertIsNone(poster_metadata('AI科研背景提升/2027年度/notes.txt'))
 
     def test_paper_date_type_and_doi(self):
         raw={'source':'MED','id':'123','title':'<i>Gene</i> study','doi':'https://doi.org/10.1234/ABC','firstPublicationDate':'2026-11-11','pubTypeList':{'pubType':['Journal Article']}}

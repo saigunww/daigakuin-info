@@ -5,7 +5,7 @@
       "name": "何同学",
       "university": "同志社大学理工学部",
       "year": "2027",
-      "subject": "chem",
+      "subject": "ai-research",
       "image": "assets/honors/05bf9776b8c1e9d6f74e7fc4.webp"
     },
     {
@@ -13,7 +13,7 @@
       "name": "何同学",
       "university": "立命館大学生命科学部",
       "year": "2027",
-      "subject": "chem",
+      "subject": "ai-research",
       "image": "assets/honors/25145edb4a96b4366d8da3c4.webp"
     },
     {
@@ -441,5 +441,5 @@
       "image": "assets/honors/45aa9ac885746928283d8db2.webp"
     }
   ],
-  "updated_at": "2026-11-12T14:06:32+09:00"
+  "updated_at": "2026-11-12T14:59:14+09:00"
 }
