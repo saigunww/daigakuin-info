@@ -2,6 +2,7 @@
 from datetime import date
 from pathlib import Path
 from common import ROOT, load, official_url
+from update_admissions import PROGRAM_FIELDS
 
 def validate():
     feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json')}
@@ -24,6 +25,8 @@ def validate():
         assert date.fromisoformat(row['published_at'])<=date.fromisoformat(row['added_on'])
     programs=feeds['applications.json']['items']
     assert len({r['id'] for r in programs})==len(programs)==100
+    for row in programs:
+        assert set(row)<=PROGRAM_FIELDS|{'source_checked_on','source_status'}
     for row in feeds['admissions_updates.json']['items']:
         assert official_url(row['url'])
         assert row['status'] in ('ok','unavailable')

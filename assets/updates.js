@@ -1,7 +1,7 @@
 /* Public snapshots only. Source credentials never reach the browser. */
 (function () {
   'use strict';
-  const feeds = {}, state = {year: '', subject: 'all', scheduleYear: '', scheduleGroup: 'bio', research: 'all'};
+  const feeds = {}, state = {year: '', subject: 'all', scheduleYear: '', scheduleGroup: 'bio', research: 'all', officialQuery: '', admissionsGroup: 'all'};
   const $ = id => document.getElementById(id);
   const tr = (ja, zh, tw, en) => ({ja, zh, tw, en}[window.globalLang || 'ja'] || ja);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -79,58 +79,60 @@
 
   function sourceCard(source, compact) {
     const programs = (window.DATA || []).filter(r=>source.program_ids.includes(r.id));
-    const titles = [...new Set(programs.map(p=>p.u))].join(' / ');
+    const value = (p,key) => p[key+({ja:'',zh:'Zh',tw:'Tw',en:'En'}[window.globalLang] || '')] || p[key] || '';
+    const titles = [...new Set(programs.map(p=>value(p,'u')))].join(' / ');
+    const departments = [...new Set(programs.map(p=>value(p,'d')+' / '+value(p,'m')))].join(' · ');
+    const windows = (source.application_windows || []).filter(w=>w.e>=jstToday());
     const unavailable = source.status !== 'ok';
-    return `<article class="feed-card"><h3>${link(source.resolved_url || source.url,titles || source.title || source.url)}</h3>
+    return `<article class="feed-card" data-source-url="${esc(source.url)}"><h3>${link(source.resolved_url || source.url,titles || source.title || source.url)}</h3>
+      ${departments?`<p class="feed-meta">${esc(departments)}</p>`:''}
       <p class="feed-meta${unavailable?' feed-unavailable':''}">${unavailable?tr('現在取得できません。大学公式サイトでご確認ください。','暂时无法读取，请直接核对大学官网。','暫時無法讀取，請直接核對大學官網。','Currently unavailable; check the university website.'):tr('公式ページ確認','官网核查','官網核查','Official page checked')+' '+esc(source.checked_on)}${unavailable&&source.checked_on?' · '+esc(source.checked_on):''}</p>
-      ${source.application_windows.length?`<p class="feed-meta">${tr('公式掲載の日程候補。専攻・入試区分を原文で確認してください。','官网日程候选，请核对专攻和入试批次；未确认项不会覆盖专攻日期。','官網日程候選，請核對專攻和入試批次；未確認項不會覆蓋專攻日期。','Official date candidates. Check the program and admission round in the source; unverified dates do not replace program deadlines.')}</p>`:''}
-      ${source.application_windows.slice(0,compact?3:12).map(w=>`<div class="feed-window"><strong>${esc(w.s)} → ${esc(w.e)}</strong><br>${esc(w.heading)}<br>${link(w.url,w.evidence)}</div>`).join('')}
+      ${windows.length?`<p class="feed-meta">${tr('公式掲載の出願日程。専攻・入試区分を原文で確認してください。','官网出愿日程，具体专攻和入试批次请核对原文。','官網出願日程，具體專攻和入試批次請核對原文。','Official application windows. Check the program and admission round in the source.')}</p>`:''}
+      ${windows.slice(0,compact?3:12).map(w=>`<div class="feed-window" data-deadline="${esc(w.e)}"><strong>${esc(w.s)} → ${esc(w.e)}</strong><br>${esc(w.heading)}<br>${link(w.url,w.evidence)}</div>`).join('')}
       <ul>${source.notices.slice(0,compact?3:8).map(n=>`<li>${link(n.url,n.title)}</li>`).join('')}</ul></article>`;
   }
   function renderAdmissions() {
-    const data = feeds.admissions; if (!data) return;
+    let data = feeds.admissions;
+    const directory = window.DATA || [];
+    if (!data) {
+      if (!directory.length) return;
+      const sources = {};
+      directory.forEach(p=>{(sources[p.url] ||= {url:p.url,program_ids:[],status:'unavailable',notices:[],application_windows:[]}).program_ids.push(p.id);});
+      data = {items:Object.values(sources)};
+    }
     const host = $('official-updates');
     const ok = data.items.filter(r=>r.status==='ok').length;
-    host.innerHTML = `<summary>${tr('大学公式サイトの最新情報','大学官网最新信息','大學官網最新資訊','Latest university notices')}</summary><p class="feed-meta">${meta(data)} · ${ok}/${data.items.length} ${tr('ページ取得済み','个官网页面已读取','個官網頁面已讀取','official pages retrieved')}</p><div class="feed-controls"><input id="official-query" type="search" aria-label="${tr('大学名で検索','搜索大学名称','搜尋大學名稱','Search universities')}" placeholder="${tr('大学名で検索','搜索大学名称','搜尋大學名稱','Search universities')}"></div><div class="feed-grid" id="official-results"></div>`;
+    host.innerHTML = `<summary>${tr('大学公式サイトの募集情報','大学官网募集信息','大學官網募集資訊','University admissions notices')}</summary>
+      <p class="feed-note">${tr('大学公式サイトの通知・募集要項を毎日確認しています。必要書類や試験要件はリンク先の最新要項をご確認ください。','每天核查大学官网的通知与募集要项；材料和考试要求请查看链接中的最新原文。','每天核查大學官網的通知與募集要項；資料和考試要求請查看連結中的最新原文。','University notices and guidelines are checked daily. Follow the source links for current documents and exam requirements.')}</p>
+      ${feeds.admissions?`<p class="feed-meta">${meta(data)} · ${ok}/${data.items.length} ${tr('ページ取得済み','个官网页面已读取','個官網頁面已讀取','official pages retrieved')}</p>`:`<p class="feed-meta" data-feed-error="admissions">${tr('更新データを取得できません。大学公式サイトのリンクをご利用ください。','更新数据暂时无法读取，可通过下方链接访问大学官网。','更新資料暫時無法讀取，可透過下方連結造訪大學官網。','Updates are unavailable. Use the university links below.')}</p>`}
+      <div class="feed-controls">${['all','bio','chem'].map(g=>button(g==='all'?all():subject(g),state.admissionsGroup===g,'admissions-group',g)).join('')}<input id="official-query" type="search" value="${esc(state.officialQuery)}" aria-label="${tr('大学・専攻で検索','搜索大学或专攻','搜尋大學或專攻','Search universities or programs')}" placeholder="${tr('大学・専攻で検索','搜索大学或专攻','搜尋大學或專攻','Search universities or programs')}"></div><div class="feed-grid" id="official-results"></div>`;
     function render() {
       const q=$('official-query').value.toLowerCase();
-      const rows=data.items.filter(s=>!q||s.title?.toLowerCase().includes(q)||(window.DATA||[]).some(p=>s.program_ids.includes(p.id)&&[p.u,p.uZh,p.uTw,p.uEn,p.d].join(' ').toLowerCase().includes(q))).sort((a,b)=>{
+      state.officialQuery=$('official-query').value;
+      const rows=data.items.filter(s=>{
+        const programs=directory.filter(p=>s.program_ids.includes(p.id));
+        if(state.admissionsGroup!=='all'&&!programs.some(p=>p.g===(state.admissionsGroup==='bio'?'生物':'化学')))return false;
+        return !q||s.title?.toLowerCase().includes(q)||programs.some(p=>[p.u,p.uZh,p.uTw,p.uEn,p.d,p.dZh,p.dTw,p.dEn,p.m,p.mZh,p.mTw,p.mEn].join(' ').toLowerCase().includes(q));
+      }).sort((a,b)=>{
         const score=s=>(s.status==='ok'?10:0)+(s.application_windows.some(w=>w.e>=jstToday())?20:0);
         return score(b)-score(a);
       });
       $('official-results').innerHTML=rows.map(s=>sourceCard(s,true)).join('')||empty();
     }
-    $('official-query').oninput=render;render();decorateProgramCards();
+    $('official-query').oninput=render;
+    host.querySelectorAll('[data-admissions-group]').forEach(b=>b.onclick=()=>{state.admissionsGroup=b.dataset.admissionsGroup;renderAdmissions();});
+    render();
   }
-  function decorateProgramCards() {
-    document.querySelectorAll('#appCards .app-card').forEach(card=>{
-      const match=(card.getAttribute('onclick')||'').match(/openAppModal\((\d+)\)/);
-      if (!match) return;
-      const program=(window.DATA||[]).find(p=>p.id===Number(match[1]));
-      if (!program) return;
-      const deadline=card.querySelector('.app-card-deadline');
-      if (deadline&&!program.date_source) deadline.innerHTML=esc(tr('既存資料の出願締切','原有资料截止日期','原有資料截止日期','Deadline in reference record'))+': <strong>'+esc(program.e||tr('未確認','待确认','待確認','Unconfirmed'))+'</strong>';
-      card.querySelector('.feed-program-status')?.remove();
-      const source=feeds.admissions?.items.find(s=>s.program_ids.includes(program.id));
-      if (source) {
-        const status=document.createElement('p');status.className='feed-meta feed-program-status';
-        status.textContent=(source.status==='ok'?tr('公式ページ確認','官网核查','官網核查','Official page checked')+' '+source.checked_on:tr('公式サイトの取得待ち','官网暂时无法读取','官網暫時無法讀取','Official source unavailable'))+' · '+tr('詳細から最新の募集情報へ','点击查看最新募集信息','點擊查看最新募集資訊','Open for current guidelines');
-        card.append(status);
-      }
-    });
-  }
-  const oldFilter=window.filterApp;
-  window.filterApp=function(){oldFilter();decorateProgramCards();};
-  const oldModal = window.openAppModal;
-  window.openAppModal = function (id) {
-    oldModal(id);
-    const source = feeds.admissions?.items.find(s=>s.program_ids.includes(id));
-    if (source) {const panel=document.createElement('div');panel.className='feed-source-panel';panel.innerHTML=sourceCard(source,false)+`<p class="feed-meta">${tr('以下の専攻別の受験科目・出願書類は既存の整理資料です。最新の要件は上記の公式募集要項で確認してください。','下方专攻考试科目、材料要求属于原有整理资料；最新要求请查看上方官方募集要项。','下方專攻考試科目、材料要求屬於原有整理資料；最新要求請查看上方官方募集要項。','Program-specific exam subjects and required documents below are reference records. Check the official guidelines above for current requirements.')}</p>`;$('mBody').prepend(panel);}
+  window.openOfficialProgram = function (id) {
+    const program=(window.DATA || []).find(p=>p.id===id);if(!program)return;
+    state.officialQuery=program.u;state.admissionsGroup='all';renderAdmissions();$('official-updates').open=true;
+    const card=Array.from($('official-updates').querySelectorAll('[data-source-url]')).find(c=>c.dataset.sourceUrl===program.url);
+    card?.scrollIntoView({block:'center'});
   };
   const oldLang = window.switchToLang;
   window.switchToLang = function (lang) {oldLang(lang);renderHonors();renderSchedule();renderResearch();renderAdmissions();};
   const oldTab = window.switchTab;
-  window.switchTab = function (name) {if (!$(name)?.classList.contains('section')) name='home';oldTab(name);};
+  window.switchTab = function (name) {if(['timeline','calendar'].includes(name))name='application';if (!$(name)?.classList.contains('section')) name='home';oldTab(name);};
   if (location.hash === '#ai-advisor') history.replaceState(null,'','#home');
 
   async function fetchFeed(name, file, ready) {
@@ -142,16 +144,18 @@
       feeds[name] = data; ready(data);
     } catch (_) {
       const status = document.createElement('p');status.className='feed-meta';status.dataset.feedError=name;
-      status.textContent=tr('更新データを取得できませんでした。保存済みの内容があれば表示しています。','更新数据暂时无法读取；已有内容仍可查看。','更新資料暫時無法讀取；已有內容仍可查看。','Could not load updates. Saved content remains available where present.');
-      const hosts={honors:'honor',schedule:'schedule',research:'daily-research-content',admissions:'official-updates',applications:'application'};
+      status.textContent=tr('更新データを取得できませんでした。しばらくしてから再度お試しください。','更新数据暂时无法读取，请稍后重试。','更新資料暫時無法讀取，請稍後重試。','Could not load updates. Please try again later.');
+      if(name==='admissions'&&(window.DATA || []).length){renderAdmissions();return;}
+      if(name==='schedule')status.innerHTML=esc(status.textContent)+' '+link('https://docs.google.com/spreadsheets/d/1-lwvv7fsI4gu5S0bmaNG28gZmwriSFsKboMcT7MQ848/edit',tr('元の時間割','查看原课表','查看原課表','Source timetable'));
+      const hosts={honors:'honor',schedule:'schedule-live',research:'daily-research-content',admissions:'official-updates',applications:'application'};
       $(hosts[name]).append(status);
     }
   }
   document.addEventListener('DOMContentLoaded', function () {
     fetchFeed('honors','honors_data.json',()=>{renderHonors();if(window.buildSearchIndex)buildSearchIndex();});
-    fetchFeed('schedule','schedule_data.json',()=>{$('schedule').querySelectorAll(':scope > :not(.section-hero):not(#schedule-live)').forEach(n=>n.hidden=true);renderSchedule();});
+    fetchFeed('schedule','schedule_data.json',renderSchedule);
     fetchFeed('research','research_data.json',renderResearch);
-    fetchFeed('applications','applications.json',data=>{window.DATA=data.items;filterApp();if(window.buildSearchIndex)buildSearchIndex();if($('timeline').classList.contains('active'))renderTimeline();if($('calendar').classList.contains('active'))renderCalendar();renderAdmissions();});
+    fetchFeed('applications','applications.json',data=>{window.DATA=data.items;if(window.buildSearchIndex)buildSearchIndex();renderAdmissions();});
     fetchFeed('admissions','admissions_updates.json',renderAdmissions);
   });
 })();

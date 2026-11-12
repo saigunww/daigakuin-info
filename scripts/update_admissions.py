@@ -14,6 +14,18 @@ from admission_dates import extract_ranges
 from common import ROOT,STATE,clean,dataset,load,official_url,save
 
 KEYWORDS = re.compile(r'募集要項|学生募集|入学試験|入試情報|出願|入試日程|募集日程|admission|application|guideline',re.I)
+PROGRAM_FIELDS = {'id','g','c','t','u','d','m','co','url','uZh','dZh','mZh',
+                  'uTw','dTw','mTw','uEn','dEn','mEn','coEn'}
+
+def public_program(program, source=None):
+    """Keep source-directory identity, never republish legacy dates or requirements."""
+    result = {k: v for k, v in program.items() if k in PROGRAM_FIELDS}
+    if source:
+        result.update(source_checked_on=source.get('checked_on',''), source_status=source['status'])
+    return result
+
+def active_windows(windows, today):
+    return [w for w in windows if date.fromisoformat(w['e'])>=today]
 
 def fetch(url):
     if not official_url(url):
@@ -81,31 +93,6 @@ def check_source(args):
         return {**prior,'url':url,'program_ids':ids,'status':'unavailable','attempted_on':today.isoformat(),
             'error':type(exc).__name__,'notices':prior.get('notices',[]),'application_windows':prior.get('application_windows',[])}
 
-def choose_window(source, program, today):
-    if source['status']!='ok':
-        return None
-    # Legacy records lack an admission year / round / applicant-category identity.
-    # Expose live official windows separately until all identities can be matched.
-    rule=program.get('date_match')
-    if not rule or not all(rule.get(k) for k in ('program','degree','intake','round','category','deadline_type')):
-        return None
-    candidates=[]
-    for row in source.get('application_windows',[]):
-        if row['e']<today.isoformat():
-            continue
-        context=row['heading']+' '+row['evidence']
-        # A timetable must name this major and the appropriate degree itself.
-        if not all(value in context for value in rule.values()):
-            continue
-        master='修士' in program.get('co','') or '博士前期' in program.get('co','')
-        if master and not re.search(r'修士|博士前期',context):
-            continue
-        if not master and '博士' in program.get('co','') and not re.search(r'博士後期|博士課程',context):
-            continue
-        candidates.append(row)
-    unique={(r['s'],r['e']) for r in candidates}
-    return candidates[0] if len(unique)==1 else None
-
 def update_admissions(today,force=False):
     previous=load(ROOT/'admissions_updates.json',{'items':[]})
     old={r['url']:r for r in previous['items']}
@@ -124,25 +111,9 @@ def update_admissions(today,force=False):
     records=[old[url] for url in sources]
     if not any(r['status']=='ok' for r in records):
         raise RuntimeError('All official sources unavailable; preserving existing application data')
-    current=load(ROOT/'applications.json',{'items':baseline})['items']
-    by_id={p['id']:p for p in current}
-    updated=[]
-    for baseline_program in baseline:
-        p=dict(by_id.get(baseline_program['id'],baseline_program))
-        p['url']=baseline_program['url']
-        if p.get('date_source') and not p.get('date_match'):
-            p=dict(baseline_program)
-        src=old.get(p.get('url'))
-        if src:
-            p['source_checked_on']=src.get('checked_on','')
-            p['source_status']=src['status']
-            window=choose_window(src,p,today)
-            if window and (window['s'],window['e'])!=(p.get('s'),p.get('e')):
-                for key,ref in [('s','refS'),('e','refE'),('w','refW'),('iv','refIv'),('r','refR')]:
-                    if p.get(key):
-                        p[ref]=p[key]
-                    p[key]=''
-                p.update(s=window['s'],e=window['e'],upd=today.isoformat(),date_source=window['url'])
-        updated.append(p)
+    updated=[public_program(p,old.get(p.get('url'))) for p in baseline]
+    # Keep deadlines on their final day in Japan; do not show expired application windows.
+    for record in records:
+        record['application_windows']=active_windows(record.get('application_windows',[]),today)
     dataset('applications.json',{'items':updated,'source_type':'university_official'})
     return dataset('admissions_updates.json',{'items':records})

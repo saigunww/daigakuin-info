@@ -4,7 +4,7 @@ from datetime import date
 from admission_dates import extract_ranges
 from update_google import parse_courses
 from update_research import candidate, normalize_doi
-from update_admissions import choose_window
+from update_admissions import public_program, active_windows
 from common import official_url
 
 class SyncTests(unittest.TestCase):
@@ -16,9 +16,17 @@ class SyncTests(unittest.TestCase):
         for text in ('2027年度 出願期間 3月1日〜3月15日','出願期間 2027年12月20日〜1月10日','出願期間 2027年2月29日〜3月1日','出願期間未定 試験日 2027年3月1日〜3月2日'):
             self.assertEqual(extract_ranges('<p>'+text+'</p>'),[],text)
 
-    def test_ambiguous_round_not_assigned_to_legacy_program(self):
-        source={'status':'ok','application_windows':[{'s':'2027-01-01','e':'2027-01-10','heading':'医科学専攻(修士)','evidence':'出願期間'}]}
-        self.assertIsNone(choose_window(source,{'m':'医科学専攻','co':'修士'},date(2026,11,12)))
+    def test_program_directory_excludes_legacy_material(self):
+        source={'status':'ok','checked_on':'2026-11-12'}
+        program={'id':1,'u':'東京大学','m':'医科学専攻','url':'https://www.u-tokyo.ac.jp/',
+                 'refE':'2025-06-30','e':'2025-06-30','exReq':'old requirements','appDoc':'old documents'}
+        self.assertEqual(public_program(program,source),{
+            'id':1,'u':'東京大学','m':'医科学専攻','url':'https://www.u-tokyo.ac.jp/',
+            'source_checked_on':'2026-11-12','source_status':'ok'})
+
+    def test_deadline_today_is_still_displayed(self):
+        rows=[{'e':'2026-11-11'},{'e':'2026-11-12'},{'e':'2026-11-13'}]
+        self.assertEqual(active_windows(rows,date(2026,11,12)),rows[1:])
 
     def test_sheet_header_and_private_columns(self):
         rows=[['title'],['授業名','授業日','授業内容','担当先生','備考'],['生化学','2026/11/12','酵素','private teacher','private note'],['bad','2026/02/30','bad']]

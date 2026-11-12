@@ -18,6 +18,7 @@ def main():
         with sync_playwright() as pw:
             browser=pw.chromium.launch(executable_path='/usr/bin/google-chrome',headless=True,args=['--no-sandbox'])
             context=browser.new_context(viewport={'width':1440,'height':1000})
+            context.add_init_script("localStorage.setItem('scheduleTab','chem');localStorage.setItem('appView','calendar');")
             page=context.new_page()
             page.on('pageerror',lambda error:errors.append(str(error)))
             base=f'http://127.0.0.1:{server.server_port}/'
@@ -37,6 +38,9 @@ def main():
             page.evaluate('closeLightbox()')
             page.evaluate("switchTab('schedule')")
             assert page.locator('#course-results tbody tr').count()>0
+            assert page.locator('#schedule-bio, #schedule-chem, #schedule-tabs').count()==0
+            page.select_option('#schedule-year','2024')
+            assert page.locator('#course-results tbody tr').count()>0
             page.locator('[data-course-group="chem"]').click()
             assert page.locator('#course-results tbody tr').count()>0
             page.fill('#course-query','no-match-xyz')
@@ -45,9 +49,18 @@ def main():
             page.locator('#official-updates').evaluate('(el)=>el.open=true')
             page.fill('#official-query','九州')
             assert page.locator('#official-results .feed-card').count()>0
-            page.evaluate('openAppModal(6)')
-            assert page.locator('#mBody .feed-source-panel').count()==1
-            page.evaluate("document.querySelectorAll('.modal-overlay').forEach(e=>e.classList.remove('active'))")
+            assert page.locator('#appCards, #appModal, #app-sub-tabs, #timeline, #calendar').count()==0
+            page.evaluate("goToSearchResult('application',6)")
+            assert page.locator('#official-results .feed-card').count()>0
+            assert page.locator('#official-query').input_value()
+            for legacy in ('timeline','calendar'):
+                page.evaluate('(name)=>switchTab(name)',legacy)
+                assert page.locator('#application.active').count()==1
+            page.fill('#official-query','')
+            for group in ('bio','chem','all'):
+                page.locator(f'[data-admissions-group="{group}"]').click()
+                assert page.locator('#official-results .feed-card').count()>0
+            assert page.locator('.feed-window').evaluate_all("els=>els.every(e=>e.dataset.deadline>=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format(new Date()))")
             # All language changes and current data must coexist with the legacy tabs.
             for language in ('ja','zh','tw','en'):
                 page.evaluate('(lang)=>switchToLang(lang)',language)
@@ -57,10 +70,11 @@ def main():
             page.evaluate("switchTab('daily-research')")
             report=ROOT.parent/'维护记录/2026-11-12'
             report.mkdir(parents=True,exist_ok=True)
-            page.screenshot(path=str(report/'daily-research-desktop.png'),full_page=True)
+            page.evaluate("switchToLang('zh');switchTab('application')")
+            page.screenshot(path=str(report/'official-admissions-only-desktop.png'),full_page=False)
             page.set_viewport_size({'width':390,'height':844})
             page.evaluate("switchToLang('zh');switchTab('schedule')")
-            page.screenshot(path=str(report/'schedule-mobile.png'),full_page=False)
+            page.screenshot(path=str(report/'synced-schedule-only-mobile.png'),full_page=False)
             # A failing source must not prevent other feeds from loading.
             failed=context.new_page()
             failed.on('pageerror',lambda error:errors.append(str(error)))
@@ -68,8 +82,17 @@ def main():
             failed.goto(base+'#schedule',wait_until='networkidle')
             assert failed.locator('[data-feed-error="schedule"]').count()==1
             assert failed.locator('#daily-research-content .feed-card').count()>=3
-            assert failed.locator('#schedule-bio').count()==1
-            print(json.dumps({'browser_errors':errors,'posters':posters,'checks':'tabs, languages, filtering, modal, fallback, desktop, mobile'},ensure_ascii=False))
+            assert failed.locator('#schedule-bio, #schedule-chem').count()==0
+            assert failed.locator('#schedule-live a[href*="docs.google.com/spreadsheets/"]').count()==1
+            unavailable=context.new_page()
+            unavailable.on('pageerror',lambda error:errors.append(str(error)))
+            unavailable.route('**/admissions_updates.json',lambda route:route.fulfill(status=503,body='Unavailable'))
+            unavailable.goto(base+'#calendar',wait_until='networkidle')
+            assert unavailable.locator('#application.active').count()==1
+            assert unavailable.locator('[data-feed-error="admissions"]').count()==1
+            assert unavailable.locator('#official-results a').count()>0
+            assert unavailable.locator('#appCards, #appModal, #calendar').count()==0
+            print(json.dumps({'browser_errors':errors,'posters':posters,'checks':'tabs, languages, subject filtering, historical courses, legacy links, source-only fallback, desktop, mobile'},ensure_ascii=False))
             browser.close()
             assert not errors,errors
     finally:

@@ -76,16 +76,7 @@
           "url": "https://www.med.kyoto-u.ac.jp/apply/exam/"
         }
       ],
-      "application_windows": [
-        {
-          "s": "2026-09-24",
-          "e": "2026-09-29",
-          "label": "出願期間",
-          "evidence": "出願期間 2026年9月24日(木)から2026年9月29日(火) 17時(必着)",
-          "heading": "学生募集要項 医科学専攻(5年一貫制博士課程)",
-          "url": "https://www.med.kyoto-u.ac.jp/apply/exam/requirements_mmg/medicalscience_mc/"
-        }
-      ]
+      "application_windows": []
     },
     {
       "url": "https://www.med.osaka-u.ac.jp/admission/admission_master-2",
@@ -124,16 +115,7 @@
           "url": "https://www.med.osaka-u.ac.jp/admission/admission_doctor_oct-2-2"
         }
       ],
-      "application_windows": [
-        {
-          "s": "2026-07-06",
-          "e": "2026-07-09",
-          "label": "出願期間",
-          "evidence": "出願期間 2026年7月6日(月)~ 2026年7月9日(木)",
-          "heading": "2027年度大阪大学大学院医学系研究科修士課程募集スケジュール",
-          "url": "https://www.med.osaka-u.ac.jp/admission/admission_master-2"
-        }
-      ]
+      "application_windows": []
     },
     {
       "url": "https://www.med.tohoku.ac.jp/admission/grad/applicant/",
@@ -239,14 +221,6 @@
         }
       ],
       "application_windows": [
-        {
-          "s": "2026-06-29",
-          "e": "2026-07-03",
-          "label": "出願期間",
-          "evidence": "出願期間 第1回 令和8年6月29日(月)~ 7月3日(金)午後5時まで 第2回 令和8年12月7日(月)~ 12月11日(金)午後5時まで",
-          "heading": "医科学専攻(修士)",
-          "url": "https://www.grad.med.kyushu-u.ac.jp/entrance/masters_course/admission/"
-        },
         {
           "s": "2026-12-07",
           "e": "2026-12-11",
@@ -476,14 +450,6 @@
         }
       ],
       "application_windows": [
-        {
-          "s": "2026-07-21",
-          "e": "2026-08-21",
-          "label": "出願期間",
-          "evidence": "出願期間 2026年7月21日(火)~2026年8月21日(金) 2026年11月9日(月)~2026年12月11日(金)",
-          "heading": "2027年4月入学",
-          "url": "https://www.juntendo.ac.jp/admission/exam/graduate/med/master/boshuyoko/"
-        },
         {
           "s": "2026-11-09",
           "e": "2026-12-11",
@@ -807,24 +773,7 @@
           "url": "https://www.pharm.kumamoto-u.ac.jp/assets/R8_yakugaku_hakushikoki_shingaku.pdf"
         }
       ],
-      "application_windows": [
-        {
-          "s": "2026-06-02",
-          "e": "2026-06-08",
-          "label": "出願期間",
-          "evidence": "出願期間 令和8年6月2日(火)~6月8日(月)",
-          "heading": "(募集要項)",
-          "url": "https://www.pharm.kumamoto-u.ac.jp/assets/01_R9.4_M_Suisenbosyu.pdf"
-        },
-        {
-          "s": "2026-06-30",
-          "e": "2026-07-07",
-          "label": "出願期間",
-          "evidence": "出願期間 令和8年6月30日(火)~7月7日(火)",
-          "heading": "(募集要項)",
-          "url": "https://www.pharm.kumamoto-u.ac.jp/assets/13482e144637d30694af9df35e6acba6ded97f1f.pdf"
-        }
-      ]
+      "application_windows": []
     },
     {
       "url": "https://www.pha.keio.ac.jp/outline/admission.html",
@@ -1090,14 +1039,6 @@
       ],
       "application_windows": [
         {
-          "s": "2026-06-29",
-          "e": "2026-07-02",
-          "label": "出願期間",
-          "evidence": "<第1次募集> TAO 出願期間:2026年6月29日(月)~7月2日(木)",
-          "heading": "2027年度博士課程前期2年の課程学生募集要項・出願書類(一般選抜・社会人特別選抜(2027年4月入学者用))(PDF)",
-          "url": "https://www.agri.tohoku.ac.jp/jp/contents/uploads/2026/05/B＿MC-前2（一般・社会人特別選抜）.pdf"
-        },
-        {
           "s": "2026-11-16",
           "e": "2026-11-19",
           "label": "出願期間",
@@ -1287,16 +1228,7 @@
           "url": "https://www.ans.kobe-u.ac.jp/jyukensei/siken01.html"
         }
       ],
-      "application_windows": [
-        {
-          "s": "2026-07-02",
-          "e": "2026-07-08",
-          "label": "出願登録期間",
-          "evidence": "Web出願システム出願登録期間・検定料払込期間 令和8年7月2日(木)~ 令和8年7月8日(水)16:59",
-          "heading": "博士課程前期課程 一般選抜",
-          "url": "https://www.ans.kobe-u.ac.jp/jyukensei/siken02.html"
-        }
-      ]
+      "application_windows": []
     },
     {
       "url": "https://www.gnst.okayama-u.ac.jp/ja/admission/",
@@ -1409,22 +1341,6 @@
         }
       ],
       "application_windows": [
-        {
-          "s": "2026-05-25",
-          "e": "2026-05-28",
-          "label": "出願期間",
-          "evidence": "出願期間 2026/5/25(月)~2026/5/28(木) ※システムメンテナンスのため、 5月25日は入金手続ができません。 ※入金手続は5月1日~5月28日まで 可能です。 2026/7/21(火)~2026/7/24(金) 2026/12/1(火)~2026/12/4(金)",
-          "heading": "2027年度入試日程",
-          "url": "https://www.meiji.ac.jp/agri/daigakuin/exam/index.html"
-        },
-        {
-          "s": "2026-07-21",
-          "e": "2026-07-24",
-          "label": "出願期間",
-          "evidence": "出願期間 2026/5/25(月)~2026/5/28(木) ※システムメンテナンスのため、 5月25日は入金手続ができません。 ※入金手続は5月1日~5月28日まで 可能です。 2026/7/21(火)~2026/7/24(金) 2026/12/1(火)~2026/12/4(金)",
-          "heading": "2027年度入試日程",
-          "url": "https://www.meiji.ac.jp/agri/daigakuin/exam/index.html"
-        },
         {
           "s": "2026-12-01",
           "e": "2026-12-04",
@@ -1754,40 +1670,7 @@
           "url": "https://www.sci.kobe-u.ac.jp/admissions/files/Web_suisen.pdf"
         }
       ],
-      "application_windows": [
-        {
-          "s": "2026-06-29",
-          "e": "2026-07-02",
-          "label": "Web出願登録期間",
-          "evidence": "数学専攻 物理学専攻 化学専攻 生物学専攻 Web出願登録期間:令和8年6月13日(土)0:00~7月2日(木)16:59 出願期間:令和8年6月29日(月)~7月2日(木)17:00",
-          "heading": "Web出願登録期間・出願期間",
-          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html"
-        },
-        {
-          "s": "2026-07-21",
-          "e": "2026-07-24",
-          "label": "Web出願登録期間",
-          "evidence": "惑星学専攻 Web出願登録期間:令和8年7月5日(日)0:00~7月24日(金)16:59 出願期間:令和8年7月21日(火)~7月24日(金)17:00",
-          "heading": "Web出願登録期間・出願期間",
-          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html"
-        },
-        {
-          "s": "2026-05-16",
-          "e": "2026-06-04",
-          "label": "Web出願登録期間",
-          "evidence": "Web出願登録期間:令和8年 5月16日(土)~ 6月4日(木)16:59",
-          "heading": "Web出願登録期間・出願期間",
-          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html"
-        },
-        {
-          "s": "2026-06-01",
-          "e": "2026-06-04",
-          "label": "出願期間",
-          "evidence": "出願期間:令和8年 6月1日(月)~ 6月4日(木)17:00",
-          "heading": "Web出願登録期間・出願期間",
-          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html"
-        }
-      ]
+      "application_windows": []
     },
     {
       "url": "https://www.eis.ynu.ac.jp/academic/admission/",
@@ -2592,14 +2475,6 @@
           "evidence": "出願期間 ・・・・・・・・・・2026年12月15日~12月21日",
           "heading": "学生募集(4月入学・10月入学)",
           "url": "https://www.cse.hokudai.ac.jp/admission/"
-        },
-        {
-          "s": "2026-06-15",
-          "e": "2026-06-19",
-          "label": "出願期間",
-          "evidence": "出願期間 ・・・・・・・・・・2026年6月15日~6月19日",
-          "heading": "学生募集(4月入学・10月入学)",
-          "url": "https://www.cse.hokudai.ac.jp/admission/"
         }
       ]
     },
@@ -2735,5 +2610,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-12T13:32:28+09:00"
+  "updated_at": "2026-11-12T14:28:27+09:00"
 }
