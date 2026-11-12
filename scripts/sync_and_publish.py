@@ -7,7 +7,7 @@ from common import ROOT, STATE, now
 from sync_data import run
 from validate_data import validate
 
-GENERATED={'honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json'}
+GENERATED={'honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json'}
 COMMIT_PREFIX='Update public course, admissions and research feeds '
 
 def git(*args,check=True):

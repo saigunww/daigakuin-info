@@ -29,6 +29,19 @@
 .feed-source-panel .feed-grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));max-height:650px;overflow:auto;padding:2px}
 .feed-window{font-size:13px;border-left:3px solid #38bdf8;padding-left:10px;margin:10px 0;line-height:1.8}
 .feed-unavailable{color:#92400e}
+#students-live{max-width:1000px}
+.student-school-panel{margin-top:28px;padding:26px;background:#fff;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.student-school-panel h3{font-size:22px;color:#0c4a6e;margin-bottom:8px}
+.student-schools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 32px;list-style:none;padding:0;margin:20px 0 0}
+.student-school-label{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:15px;line-height:1.6}
+.student-school-label span{overflow-wrap:anywhere}
+.student-school-label strong{white-space:nowrap;color:#0369a1;font-variant-numeric:tabular-nums}
+.student-school-track{height:7px;border-radius:4px;background:#e0f2fe;margin-top:7px;overflow:hidden}
+.student-school-track span{display:block;height:100%;background:linear-gradient(90deg,#0284c7,#0d9488);border-radius:4px}
+body.dark .student-school-panel,body.dark #students-live .student-stat-card{background:#1e293b}
+body.dark .student-school-panel h3,body.dark .student-school-label strong{color:#7dd3fc}
+body.dark #students-live .student-stat-label{color:#e2e8f0}
+@media(max-width:600px){.student-schools{grid-template-columns:1fr}.student-school-panel{padding:20px}.student-school-label{font-size:14px}#students-live .student-stat-card{padding:24px 12px}}
 .annual-plan-scroll{overflow-x:auto;background:#fff}
 .annual-plan-image{display:block;min-width:800px;cursor:zoom-in}
 .annual-plan-image img{display:block;width:100%;height:auto}

@@ -45,6 +45,15 @@ def main():
             assert page.locator('#course-results tbody tr').count()>0
             page.fill('#course-query','no-match-xyz')
             assert page.locator('#course-results tbody tr').count()==0
+            enrollment=json.loads((ROOT/'students_data.json').read_text())
+            page.evaluate("switchTab('students')")
+            page.wait_for_selector('#students-live .students-total')
+            assert page.locator('#students-live .students-total').inner_text()==str(enrollment['total'])
+            for row in enrollment['items']:
+                assert page.locator(f"#students-live .student-stat-card.{row['group']} .student-stat-num").inner_text()==str(row['count'])
+            assert page.locator('.student-schools li').count()==len(enrollment['schools'])+bool(enrollment['unknown_school_count'])
+            assert page.locator('.student-school-label strong').evaluate_all('els=>els.reduce((n,e)=>n+parseInt(e.textContent),0)')==enrollment['total']
+            assert page.locator('#students a, #students iframe, #students input').count()==0
             page.evaluate("switchTab('application')")
             page.locator('#official-updates').evaluate('(el)=>el.open=true')
             page.fill('#official-query','九州')
@@ -64,15 +73,21 @@ def main():
             # All language changes and current data must coexist with the legacy tabs.
             for language in ('ja','zh','tw','en'):
                 page.evaluate('(lang)=>switchToLang(lang)',language)
-                for section in ('schedule','honor','daily-research','application','research','home'):
+                for section in ('schedule','honor','daily-research','application','research','students','home'):
                     page.evaluate('(tab)=>switchTab(tab)',section)
                     assert page.locator('#'+section+'.active').count()==1
+                assert page.locator('#students-live .students-total').inner_text()==str(enrollment['total'])
             page.evaluate("switchTab('daily-research')")
             report=ROOT.parent/'维护记录/2026-11-12'
             report.mkdir(parents=True,exist_ok=True)
             page.evaluate("switchToLang('zh');switchTab('application')")
             page.screenshot(path=str(report/'official-admissions-only-desktop.png'),full_page=False)
+            page.evaluate("switchTab('students')")
+            page.locator('#students-live').screenshot(path=str(report/'students-summary-desktop.png'))
             page.set_viewport_size({'width':390,'height':844})
+            assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+            assert page.locator('.student-schools').evaluate("el=>getComputedStyle(el).gridTemplateColumns.split(' ').length")==1
+            page.locator('#students-live').screenshot(path=str(report/'students-summary-mobile.png'))
             page.evaluate("switchToLang('zh');switchTab('schedule')")
             page.screenshot(path=str(report/'synced-schedule-only-mobile.png'),full_page=False)
             # A failing source must not prevent other feeds from loading.
@@ -92,7 +107,14 @@ def main():
             assert unavailable.locator('[data-feed-error="admissions"]').count()==1
             assert unavailable.locator('#official-results a').count()>0
             assert unavailable.locator('#appCards, #appModal, #calendar').count()==0
-            print(json.dumps({'browser_errors':errors,'posters':posters,'checks':'tabs, languages, subject filtering, historical courses, legacy links, source-only fallback, desktop, mobile'},ensure_ascii=False))
+            no_students=context.new_page()
+            no_students.on('pageerror',lambda error:errors.append(str(error)))
+            no_students.route('**/students_data.json',lambda route:route.fulfill(status=503,body='Unavailable'))
+            no_students.goto(base+'#students',wait_until='networkidle')
+            assert no_students.locator('[data-feed-error="students"]').count()==1
+            assert no_students.locator('#students .students-total, #students .student-stat-num, #students a').count()==0
+            assert no_students.locator('#daily-research-content .feed-card').count()>=3
+            print(json.dumps({'browser_errors':errors,'posters':posters,'enrolled_students':enrollment['total'],'checks':'tabs, languages, enrollment counts and schools, enrollment source failure, subject filtering, historical courses, legacy links, source-only fallback, desktop, mobile'},ensure_ascii=False))
             browser.close()
             assert not errors,errors
     finally:

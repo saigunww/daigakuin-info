@@ -68,6 +68,25 @@
     $('course-results').innerHTML = `<p class="feed-meta">${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length?`<div class="feed-table-wrap"><table class="feed-table"><thead><tr>${[tr('日付','日期','日期','Date'),tr('時間','时间','時間','Time'),tr('授業','课程','課程','Course'),tr('回','课次','課次','Session'),tr('授業内容','课程内容','課程內容','Topic')].map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr${r.date>=jstToday()?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div>`:empty());
   }
 
+  function renderStudents() {
+    const data=feeds.students;if(!data)return;
+    const host=$('students-live');
+    const unit=tr('名','人','人','students');
+    const schools=data.schools.map(r=>({...r}));
+    if(data.unknown_school_count)schools.push({school:tr('未記入','未填写','未填寫','Not provided'),count:data.unknown_school_count});
+    const maximum=Math.max(1,...schools.map(r=>r.count));
+    const checked=String(data.checked_at || data.updated_at || '').replace('T',' ').replace('+09:00',' JST');
+    const stale=Date.now()-Date.parse(data.checked_at || data.updated_at)>3*60*60*1000;
+    host.innerHTML=`<div class="students-banner"><h3>${tr('在籍学生数','在籍学生人数','在籍學生人數','Enrolled students')}</h3><div class="students-total">${data.total}</div><div class="students-total-label">${unit}</div></div>
+      <p class="feed-meta">${tr('集計確認','统计截至','統計截至','Verified as of')}: ${esc(checked)} · ${tr('毎時自動更新','每小时自动更新','每小時自動更新','Updated hourly')}</p>
+      ${stale?`<p class="feed-meta feed-unavailable">${tr('更新を確認できていないため、前回の集計を表示しています。','尚未获取新的统计，当前显示上次成功更新的数据。','尚未取得新的統計，目前顯示上次成功更新的資料。','Showing the last verified summary while awaiting a new update.')}</p>`:''}
+      <div class="feed-note">${tr('受講中・直接受験の受講中・卒業予定の学生を集計し、休学中は含みません。人数と出身校の集計のみを掲載します。','统计在读、直考在读及待毕业学生，不含休学；仅展示人数与出身校汇总。','統計在讀、直考在讀及待畢業學生，不含休學；僅展示人數與出身校彙總。','Includes enrolled students, direct-exam students and students awaiting graduation; excludes students on leave. Only counts and origin-school totals are shown.')}</div>
+      <div class="students-cards">${data.items.map(r=>`<div class="student-stat-card ${esc(r.group)}"><div class="student-stat-icon" aria-hidden="true">${r.group==='bio'?'🧬':'⚗️'}</div><div class="student-stat-label">${subject(r.group)}</div><div class="student-stat-num">${r.count}</div><div class="student-stat-unit">${unit}</div></div>`).join('')}</div>
+      ${data.items.reduce((n,r)=>n+r.count,0)>data.total?`<p class="feed-meta">${tr('複数科目の受講者は総人数で重複を除いています。','跨科学生在总人数中去重统计。','跨科學生在總人數中去重統計。','Students in both subjects are counted once in the total.')}</p>`:''}
+      <section class="student-school-panel" aria-labelledby="student-schools-title"><h3 id="student-schools-title">${tr('出身校分布','出身校分布','出身校分布','Origin-school distribution')}</h3><p class="feed-meta">${tr('全在籍学生の出身校別人数','全体在籍学生按出身校汇总','全體在籍學生按出身校彙總','Origin schools across all enrolled students')}</p>
+      ${schools.length?`<ul class="student-schools">${schools.map(r=>`<li><div class="student-school-label"><span>${esc(r.school)}</span><strong>${r.count} ${unit}</strong></div><div class="student-school-track" aria-hidden="true"><span style="width:${100*r.count/maximum}%"></span></div></li>`).join('')}</ul>`:empty()}</section>`;
+  }
+
   function renderResearch() {
     const host = $('daily-research-content'), data = feeds.research;
     if (!data) return;
@@ -130,7 +149,7 @@
     card?.scrollIntoView({block:'center'});
   };
   const oldLang = window.switchToLang;
-  window.switchToLang = function (lang) {oldLang(lang);renderHonors();renderSchedule();renderResearch();renderAdmissions();};
+  window.switchToLang = function (lang) {oldLang(lang);renderHonors();renderSchedule();renderResearch();renderAdmissions();renderStudents();};
   const oldTab = window.switchTab;
   window.switchTab = function (name) {if(['timeline','calendar'].includes(name))name='application';if (!$(name)?.classList.contains('section')) name='home';oldTab(name);};
   if (location.hash === '#ai-advisor') history.replaceState(null,'','#home');
@@ -147,13 +166,14 @@
       status.textContent=tr('更新データを取得できませんでした。しばらくしてから再度お試しください。','更新数据暂时无法读取，请稍后重试。','更新資料暫時無法讀取，請稍後重試。','Could not load updates. Please try again later.');
       if(name==='admissions'&&(window.DATA || []).length){renderAdmissions();return;}
       if(name==='schedule')status.innerHTML=esc(status.textContent)+' '+link('https://docs.google.com/spreadsheets/d/1-lwvv7fsI4gu5S0bmaNG28gZmwriSFsKboMcT7MQ848/edit',tr('元の時間割','查看原课表','查看原課表','Source timetable'));
-      const hosts={honors:'honor',schedule:'schedule-live',research:'daily-research-content',admissions:'official-updates',applications:'application'};
+      const hosts={honors:'honor',schedule:'schedule-live',research:'daily-research-content',admissions:'official-updates',applications:'application',students:'students-live'};
       $(hosts[name]).append(status);
     }
   }
   document.addEventListener('DOMContentLoaded', function () {
     fetchFeed('honors','honors_data.json',()=>{renderHonors();if(window.buildSearchIndex)buildSearchIndex();});
     fetchFeed('schedule','schedule_data.json',renderSchedule);
+    fetchFeed('students','students_data.json',renderStudents);
     fetchFeed('research','research_data.json',renderResearch);
     fetchFeed('applications','applications.json',data=>{window.DATA=data.items;if(window.buildSearchIndex)buildSearchIndex();renderAdmissions();});
     fetchFeed('admissions','admissions_updates.json',renderAdmissions);

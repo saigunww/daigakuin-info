@@ -3,12 +3,14 @@ from datetime import date
 from pathlib import Path
 from common import ROOT, load, official_url
 from update_admissions import PROGRAM_FIELDS
+from update_students import validate_student_summary
 
 def validate():
-    feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json')}
+    feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json')}
     for name, data in feeds.items():
         if not isinstance(data, dict) or not data.get('items') or not data.get('updated_at'):
             raise ValueError('Empty or invalid public feed: '+name)
+    validate_student_summary(feeds['students_data.json'])
     honors=feeds['honors_data.json']['items']
     assert len({r['id'] for r in honors})==len(honors)
     for row in honors:

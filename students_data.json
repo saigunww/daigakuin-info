@@ -1,0 +1,163 @@
+{
+  "counting_basis": "active_and_pending_graduation_excludes_leave",
+  "total": 44,
+  "items": [
+    {
+      "group": "bio",
+      "count": 28
+    },
+    {
+      "group": "chem",
+      "count": 16
+    }
+  ],
+  "schools": [
+    {
+      "school": "東京理科大学",
+      "count": 7
+    },
+    {
+      "school": "早稲田大学",
+      "count": 2
+    },
+    {
+      "school": "Emory University",
+      "count": 1
+    },
+    {
+      "school": "上海海洋大学",
+      "count": 1
+    },
+    {
+      "school": "上海第二工业大学",
+      "count": 1
+    },
+    {
+      "school": "中国民航大学",
+      "count": 1
+    },
+    {
+      "school": "临沂大学",
+      "count": 1
+    },
+    {
+      "school": "信州大学",
+      "count": 1
+    },
+    {
+      "school": "北京工商大学",
+      "count": 1
+    },
+    {
+      "school": "南京农业大学",
+      "count": 1
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "count": 1
+    },
+    {
+      "school": "大理大学",
+      "count": 1
+    },
+    {
+      "school": "安徽医科大学",
+      "count": 1
+    },
+    {
+      "school": "山东第二医科大学",
+      "count": 1
+    },
+    {
+      "school": "山形大学",
+      "count": 1
+    },
+    {
+      "school": "岭南师范学院",
+      "count": 1
+    },
+    {
+      "school": "广东工业大学",
+      "count": 1
+    },
+    {
+      "school": "新疆医科大学",
+      "count": 1
+    },
+    {
+      "school": "日本大学",
+      "count": 1
+    },
+    {
+      "school": "昆明医科大学",
+      "count": 1
+    },
+    {
+      "school": "昆明医科大学海源学院",
+      "count": 1
+    },
+    {
+      "school": "東京農業大学",
+      "count": 1
+    },
+    {
+      "school": "東海大学",
+      "count": 1
+    },
+    {
+      "school": "河北中医药大学",
+      "count": 1
+    },
+    {
+      "school": "清华大学",
+      "count": 1
+    },
+    {
+      "school": "湖南中医药大学",
+      "count": 1
+    },
+    {
+      "school": "燕山大学",
+      "count": 1
+    },
+    {
+      "school": "筑波大学",
+      "count": 1
+    },
+    {
+      "school": "苏州科技大学",
+      "count": 1
+    },
+    {
+      "school": "蚌埠医科大学",
+      "count": 1
+    },
+    {
+      "school": "西交利物浦大学",
+      "count": 1
+    },
+    {
+      "school": "西北工业大学",
+      "count": 1
+    },
+    {
+      "school": "郑州轻工业大学",
+      "count": 1
+    },
+    {
+      "school": "関西大学",
+      "count": 1
+    },
+    {
+      "school": "順天堂大学",
+      "count": 1
+    },
+    {
+      "school": "首都医科大学",
+      "count": 1
+    }
+  ],
+  "unknown_school_count": 1,
+  "checked_at": "2026-11-12T14:48:32+09:00",
+  "updated_at": "2026-11-12T14:48:32+09:00"
+}
