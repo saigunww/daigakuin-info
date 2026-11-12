@@ -114,7 +114,7 @@ def main():
             assert failed.locator('[data-feed-error="schedule"]').count()==1
             assert failed.locator('#daily-research-content .feed-card').count()>=3
             assert failed.locator('#schedule-bio, #schedule-chem').count()==0
-            assert failed.locator('#schedule-live a[href*="docs.google.com/spreadsheets/"]').count()==1
+            assert failed.locator('#schedule-live a').count()==0
             unavailable=context.new_page()
             unavailable.on('pageerror',lambda error:errors.append(str(error)))
             unavailable.route('**/admissions_updates.json',lambda route:route.fulfill(status=503,body='Unavailable'))

@@ -19,6 +19,7 @@ def rows(page):
 
 def check_snapshot(page, source, start, end):
     assert page.locator('#schedule-year').count()==0
+    assert page.locator('#schedule-live a').count()==0
     assert page.locator('#schedule-period').get_attribute('data-start')==start
     assert page.locator('#schedule-period').get_attribute('data-end')==end
     counts={}
@@ -40,7 +41,7 @@ def check_snapshot(page, source, start, end):
 def main():
     source=json.loads((ROOT/'schedule_data.json').read_text())['items']
     errors=[]
-    report=ROOT.parent/'维护记录/2026-11-12/半年课表'
+    report=ROOT.parent/'维护记录/2026-11-12/课表移除来源链接'
     report.mkdir(parents=True,exist_ok=True)
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(QuietHandler,directory=str(ROOT)))
     Thread(target=server.serve_forever,daemon=True).start()
@@ -64,6 +65,7 @@ def main():
                 assert page.locator('#course-query').input_value()=='有机化学'
                 assert page.locator('[data-course-subject="有機化学"] tbody tr').count()==organic
                 assert page.locator('#schedule-period').get_attribute('data-start')=='2026-10-01'
+                assert page.locator('#schedule-live a').count()==0
             page.fill('#course-query','no-match-xyz')
             assert not rows(page)
             assert page.locator('#course-results .feed-empty').count()==1
@@ -85,9 +87,9 @@ def main():
             served=[]
             def respond(route):
                 served.append(True)
-                route.fulfill(json={**snapshot,'source_url':f'https://example.com/timetable?refresh={len(served)}'})
+                route.fulfill(json={**snapshot,'updated_at':f'2026-11-12T12:00:{len(served):02d}+09:00'})
             def wait_for_snapshot():
-                boundary.locator(f'#schedule-live a[href="https://example.com/timetable?refresh={len(served)}"]').wait_for(state='attached')
+                boundary.locator('#schedule-live > .feed-meta').filter(has_text=f'2026-11-12 12:00:{len(served):02d} JST').wait_for(state='attached')
             boundary.route('**/schedule_data.json',respond)
             boundary.goto(url,wait_until='networkidle')
             wait_for_snapshot()
@@ -137,6 +139,7 @@ def main():
             assert not rows(boundary)
             boundary.locator('[data-feed-error="schedule"]').wait_for(state='attached')
             assert boundary.locator('[data-feed-error="schedule"]').count()==1
+            assert boundary.locator('#schedule-live a').count()==0
             boundary.evaluate("switchToLang('en')")
             assert boundary.locator('[data-feed-error="schedule"]').count()==1
             boundary.unroute('**/schedule_data.json')

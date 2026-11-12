@@ -66,13 +66,13 @@
     const monthLabel=value=>tr(`${value.slice(0,4)}年${Number(value.slice(5,7))}月`,`${value.slice(0,4)}年${Number(value.slice(5,7))}月`,`${value.slice(0,4)}年${Number(value.slice(5,7))}月`,value.slice(0,7));
     const host = $('schedule-live');
     host.innerHTML = `<div class="feed-note">${tr('指定の初回時間割を自動同期しています。元の表には後日の授業変更が反映されません。','自动同步指定的初次排课表；原表不记录后续调课，请结合老师通知确认。','自動同步指定的初次排課表；原表不記錄後續調課，請結合老師通知確認。','Automatically synced from the initial timetable. Later class changes are not recorded in this source; check instructor announcements.')}</div>
-      <p class="feed-meta">${meta(data)} · ${link(data.source_url,tr('元の時間割','查看原课表','查看原課表','Source timetable'))}</p>
+      <p class="feed-meta">${meta(data)}</p>
       <div class="schedule-period" id="schedule-period" data-start="${period.start}" data-end="${period.end}"><strong>${monthLabel(period.start)} — ${monthLabel(period.lastMonth)}</strong><span>${tr('毎年4月・10月に次の半年へ自動切替','每年4月、10月自动切换至下一期','每年4月、10月自動切換至下一期','Automatically switches to the next half-year every April and October')}</span></div>
       <div class="feed-controls">${['bio','chem'].map(g=>button(subject(g),state.scheduleGroup===g,'course-group',g)).join('')}<input id="course-query" type="search" value="${esc(state.scheduleQuery)}" aria-label="${tr('授業を検索','搜索课程','搜尋課程','Search courses')}" placeholder="${tr('科目名・クラス・内容で検索','搜索科目、班期或内容','搜尋科目、班期或內容','Search subjects, classes or topics')}"></div><div id="course-results" aria-live="polite"></div>`;
     $('course-query').oninput = e => {state.scheduleQuery=e.target.value;renderScheduleRows();};
     host.querySelectorAll('[data-course-group]').forEach(b=>b.onclick=()=>{state.scheduleGroup=b.dataset.courseGroup;renderSchedule();});
     renderScheduleRows();
-    if(state.scheduleError)host.insertAdjacentHTML('beforeend',`<p class="feed-meta" data-feed-error="schedule">${tr('更新できませんでした。自動で再試行します。','课表暂时更新失败，正在自动重试。','課表暫時更新失敗，正在自動重試。','The timetable could not be refreshed. Retrying automatically.')} ${link(data.source_url,tr('元の時間割','查看原课表','查看原課表','Source timetable'))}</p>`);
+    if(state.scheduleError)host.insertAdjacentHTML('beforeend',`<p class="feed-meta" data-feed-error="schedule">${tr('更新できませんでした。自動で再試行します。','课表暂时更新失败，正在自动重试。','課表暫時更新失敗，正在自動重試。','The timetable could not be refreshed. Retrying automatically.')}</p>`);
   }
   function courseSubject(course) {
     const original = String(course || '').trim().replace(/\s+/g,' ');
@@ -220,7 +220,6 @@
       const status = document.createElement('p');status.className='feed-meta';status.dataset.feedError=name;
       status.textContent=tr('更新データを取得できませんでした。しばらくしてから再度お試しください。','更新数据暂时无法读取，请稍后重试。','更新資料暫時無法讀取，請稍後重試。','Could not load updates. Please try again later.');
       if(name==='admissions'&&(window.DATA || []).length){renderAdmissions();return;}
-      if(name==='schedule')status.innerHTML=esc(status.textContent)+' '+link('https://docs.google.com/spreadsheets/d/1-lwvv7fsI4gu5S0bmaNG28gZmwriSFsKboMcT7MQ848/edit',tr('元の時間割','查看原课表','查看原課表','Source timetable'));
       const hosts={honors:'honor',schedule:'schedule-live',research:'daily-research-content',admissions:'official-updates',applications:'application',students:'students-live'};
       $(hosts[name]).append(status);
     } finally {
