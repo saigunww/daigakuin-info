@@ -2394,6 +2394,381 @@
       "id": "metabolism_biochemistry-2"
     },
     {
+      "field": "metabolism_biochemistry",
+      "university": "東北大学",
+      "department": "大学院医学系研究科 医科学専攻",
+      "lab": "医化学分野（本橋研究室）",
+      "pi": "本橋 ほづみ",
+      "pi_title": "教授",
+      "theme_zh": "氧化还原与超硫分子代谢调控炎症和癌症",
+      "summary_zh": "研究氧化还原代谢如何影响基因表达，聚焦新型生物分子超硫分子的功能与生成调控。结合小鼠遗传学和临床样本，揭示NRF2和活性维生素B6（PLP）参与超硫分子合成，并探讨癌症、炎症和肺纤维化的病理。",
+      "keywords": [
+        "氧化还原代谢",
+        "超硫分子",
+        "硫代谢",
+        "NRF2",
+        "炎症与癌症"
+      ],
+      "url": "https://www.med.tohoku.ac.jp/lab/702/",
+      "references": [
+        {
+          "url": "https://www.med.tohoku.ac.jp/lab/702/",
+          "evidence": "东北大学医学系研究科研究室页面列出医化学分野（医科学专攻修士、博士课程）由本橋ほづみ教授主持，研究氧化还原代谢、超硫分子及NRF2和活性维生素B6（PLP）的作用，并列出2023–2025年论文。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/20fe92aa298b5cf99ba54f10d6cd1e3a.html",
+          "evidence": "东北大学研究者数据库列明本橋ほづみ为大学院医学系研究科医科学专攻医化学分野教授（2023年10月起），并兼任加龄医学研究所遗传子表达制御分野教授。"
+        },
+        {
+          "url": "https://www2.idac.tohoku.ac.jp/dep/ger/",
+          "evidence": "加龄医学研究所遗传子表达制御分野页面载有2023年8月关于巨噬细胞硫代谢控制炎症的新闻稿，并说明研究室主页已于2024年迁移。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "レドックス代謝と超硫黄分子による炎症・がんの制御",
+      "theme_en": "Redox and supersulfide metabolism in the control of inflammation, cancer and age-related disease.",
+      "summary_ja": "レドックス代謝が遺伝子発現に及ぼす影響を研究し、超硫黄分子の生体内機能と産生制御を解析する。マウス遺伝学とヒト検体を用いて転写因子NRF2と活性型ビタミンB6（PLP）の役割を示し、がんや炎症、肺線維症の病態解明を目指す。",
+      "summary_en": "Studies how redox metabolism shapes gene expression, focusing on the functions and biosynthetic control of supersulfides. Using mouse genetics and human clinical samples, the lab has shown roles for the transcription factor NRF2 and active vitamin B6 (PLP) in supersulfide production, and studies cancer, inflammatory bowel disease, lung fibrosis and sarcopenia.",
+      "theme_tw": "氧化還原與超硫分子代謝調控發炎和癌症",
+      "summary_tw": "研究氧化還原代謝如何影響基因表現，聚焦新型生物分子超硫分子的功能與生成調控。結合小鼠遺傳學和臨床檢體，揭示NRF2和活性維生素B6（PLP）參與超硫分子合成，並探討癌症、發炎和肺纖維化的病理。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "metabolism_biochemistry-3"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "東京大学",
+      "department": "大学院薬学系研究科 薬科学専攻",
+      "lab": "衛生化学教室（青木研究室）",
+      "pi": "青木 淳賢",
+      "pi_title": "教授",
+      "theme_zh": "溶血磷脂介质与磷脂代谢的生理和病理功能",
+      "summary_zh": "以生物膜磷脂为对象，研究经GPCR作用的溶血磷脂的生理与病理功能，寻找新的GPCR脂质配体，并鉴定参与磷脂合成和稳态维持的分子。研究运用质谱和质谱成像，成果可延伸到药物靶点和疾病标志物。",
+      "keywords": [
+        "溶血磷脂",
+        "磷脂代谢",
+        "脂质介质",
+        "GPCR",
+        "质谱"
+      ],
+      "url": "https://sites.google.com/view/eiseikagaku-jp/",
+      "references": [
+        {
+          "url": "https://www.f.u-tokyo.ac.jp/research/index.html?id=1377181381",
+          "evidence": "东京大学药学系研究科教室介绍（2026年11月1日现在）列出卫生化学教室教授青木淳賢、准教授河野望等，研究课题为经GPCR发挥作用的溶血磷脂、新GPCR脂质配体及磷脂生物合成与稳态，并链接到研究室网站。"
+        },
+        {
+          "url": "https://www.f.u-tokyo.ac.jp/topics.html?key=1765782759",
+          "evidence": "2025年12月15日药学系研究科新闻介绍青木淳賢教授获早石修纪念奖，概述其鉴定溶血磷脂受体和生成酶、利用质谱与质谱成像以及自分泌运动因子（ATX）临床应用等成果。"
+        },
+        {
+          "url": "https://sites.google.com/view/eiseikagaku-jp/",
+          "evidence": "研究室网站说明利用先进质谱技术研究脂质及相关分子在细胞和个体中的生理与病理功能，最新消息更新至2026年10月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "リゾリン脂質メディエーターとリン脂質代謝の生理・病態機能",
+      "theme_en": "Physiological and pathological roles of lysophospholipid mediators and phospholipid metabolism.",
+      "summary_ja": "生体膜リン脂質を対象に、GPCRを介して働くリゾリン脂質の生理・病態機能、新規GPCR脂質リガンド、リン脂質の生合成と恒常性維持に関わる分子を研究する。質量分析計や質量顕微鏡を用い、創薬標的や疾患マーカーへの応用も目指す。",
+      "summary_en": "Studies membrane phospholipids, focusing on the physiological and pathological functions of lysophospholipids that act through GPCRs, the discovery of new lipid ligands for GPCRs, and the molecules that control phospholipid biosynthesis and homeostasis. The lab uses mass spectrometry and imaging mass spectrometry, and its findings inform drug targets and disease biomarkers.",
+      "theme_tw": "溶血磷脂介質與磷脂代謝的生理和病理功能",
+      "summary_tw": "以生物膜磷脂為對象，研究經GPCR作用的溶血磷脂的生理與病理功能，尋找新的GPCR脂質配體，並鑑定參與磷脂合成和恆定維持的分子。研究運用質譜和質譜成像，成果可延伸到藥物標靶和疾病標記。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "metabolism_biochemistry-4"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "京都大学",
+      "department": "大学院生命科学研究科 高次生命科学専攻",
+      "lab": "生体システム学分野（木村研究室）",
+      "pi": "木村 郁夫",
+      "pi_title": "教授",
+      "theme_zh": "肠道菌代谢物与脂肪酸受体调控能量代谢",
+      "summary_zh": "研究膳食和肠道菌来源的短链、中链及多不饱和脂肪酸如何经GPR41、GPR43、GPR84、GPR120等受体调控能量代谢，也研究性类固醇膜受体，方法有基因改造小鼠、细胞实验和质谱代谢物分析。",
+      "keywords": [
+        "能量代谢",
+        "肠道菌群",
+        "短链脂肪酸",
+        "GPCR",
+        "肥胖与糖尿病"
+      ],
+      "url": "https://www.biosystem.lif.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.biosystem.lif.kyoto-u.ac.jp/research.html",
+          "evidence": "研究内容页说明研究短链脂肪酸受体GPR41/GPR43、脂肪酸受体GPR84/GPR40/GPR120及酮体如何调节宿主能量代谢，方法包括基因改造小鼠、细胞实验和质谱代谢物分析。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.f9ea538eaafc0d09.html",
+          "evidence": "京都大学教育研究活动数据库（2026年10月更新）列明木村郁夫为生命科学研究科高次生命科学专攻教授，研究关键词为能量代谢、肠道细菌、脂肪酸和GPCR。"
+        },
+        {
+          "url": "https://www.biosystem.lif.kyoto-u.ac.jp/members.html",
+          "evidence": "成员页列出教授木村郁夫、助教西田朱里以及生命科学研究科和药学研究科的博士、硕士生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "腸内細菌代謝物と脂肪酸受容体によるエネルギー代謝制御",
+      "theme_en": "Regulation of host energy metabolism by gut microbial metabolites and fatty acid-sensing GPCRs.",
+      "summary_ja": "食事や腸内細菌に由来する短鎖・中鎖・多価不飽和脂肪酸が、GPR41、GPR43、GPR84、GPR120などの受容体を介してエネルギー代謝を調節する仕組みを研究する。遺伝子改変マウス、細胞実験、質量分析による代謝物解析を用いる。",
+      "summary_en": "Investigates how short-chain, medium-chain and polyunsaturated fatty acids from the diet and gut bacteria regulate host energy metabolism through cell-surface receptors such as GPR41, GPR43, GPR84 and GPR120, and also studies membrane receptors for sex steroids. Methods include genetically modified mice, cell-based assays and mass-spectrometry metabolite analysis.",
+      "theme_tw": "腸道菌代謝物與脂肪酸受體調控能量代謝",
+      "summary_tw": "研究膳食和腸道菌來源的短鏈、中鏈及多元不飽和脂肪酸如何經GPR41、GPR43、GPR84、GPR120等受體調控能量代謝，也研究性類固醇膜受體，方法有基因改造小鼠、細胞實驗和質譜代謝物分析。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "metabolism_biochemistry-5"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "名古屋大学",
+      "department": "環境医学研究所／大学院医学系研究科",
+      "lab": "分子代謝医学分野（菅波研究室）",
+      "pi": "菅波 孝祥",
+      "pi_title": "教授",
+      "theme_zh": "免疫代谢与生活习惯病的慢性炎症机制",
+      "summary_zh": "以营养代谢与炎症免疫交汇的“免疫代谢”为核心，研究过营养引起的脂肪组织慢性炎症如何扩展到肝、肾和脑，以细胞死亡和细胞内代谢为切入点解析生活习惯病与自身免疫病，并以医工合作开发诊疗技术。",
+      "keywords": [
+        "免疫代谢",
+        "慢性炎症",
+        "肥胖",
+        "代谢综合征",
+        "脂肪组织"
+      ],
+      "url": "https://www.riem.nagoya-u.ac.jp/4/mmm/index.html",
+      "references": [
+        {
+          "url": "https://www.riem.nagoya-u.ac.jp/4/mmm/member.html",
+          "evidence": "成员页列出教授菅波孝祥、讲师伊藤パディジャ綾香及多名博士、硕士研究生。"
+        },
+        {
+          "url": "https://www.riem.nagoya-u.ac.jp/4/mmm/greet.html",
+          "evidence": "2025年10月的教授致辞说明研究室聚焦营养代谢与炎症免疫交汇的免疫代谢，以细胞死亡和细胞内代谢为切入点研究生活习惯病和自身免疫病，并推进医工合作。"
+        },
+        {
+          "url": "https://www.riem.nagoya-u.ac.jp/4/mmm/access.html",
+          "evidence": "招生页说明本分野为名古屋大学大学院医学系研究科的协力讲座（免疫代谢学），招收博士和硕士研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "免疫代謝の視点から生活習慣病の慢性炎症を解明する",
+      "theme_en": "Immunometabolism and the chronic inflammation underlying obesity, metabolic syndrome and other lifestyle diseases.",
+      "summary_ja": "栄養・代謝と炎症・免疫の接点である免疫代謝に注目し、過栄養による脂肪組織の慢性炎症が肝臓や腎臓、中枢神経系へ波及する機序を研究する。細胞死と細胞内代謝を切り口に生活習慣病や自己免疫疾患を解析し、医工連携で治療・診断法を開発する。",
+      "summary_en": "Focuses on immunometabolism, where nutrition and metabolism meet inflammation and immunity. The lab studies how chronic adipose-tissue inflammation caused by overnutrition spreads to the liver, kidney and central nervous system, using cell death and intracellular metabolism as entry points, and develops therapies and diagnostics through medicine–engineering collaboration.",
+      "theme_tw": "免疫代謝與生活習慣病的慢性發炎機制",
+      "summary_tw": "以營養代謝與發炎免疫交會的「免疫代謝」為核心，研究過度營養引起的脂肪組織慢性發炎如何擴展到肝、腎和腦，以細胞死亡和細胞內代謝為切入點解析生活習慣病與自體免疫疾病，並以醫工合作開發診療技術。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "metabolism_biochemistry-6"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "九州大学",
+      "department": "生体防御医学研究所／大学院システム生命科学府",
+      "lab": "統合オミクス分野（久保田研究室）",
+      "pi": "久保田 浩行",
+      "pi_title": "教授",
+      "theme_zh": "跨组学解析胰岛素作用与肥胖代谢网络",
+      "summary_zh": "整合表观基因组、转录组、蛋白质组和代谢组数据，重建大规模分子网络（跨组学解析）。以胰岛素和肥胖为对象，结合实验与数学模型，研究血中胰岛素模式的意义、血糖控制及肝、肌肉和脂肪组织间的器官联系。",
+      "keywords": [
+        "跨组学",
+        "胰岛素",
+        "肥胖",
+        "代谢组学",
+        "系统生物学"
+      ],
+      "url": "https://www.bioreg.kyushu-u.ac.jp/labo/omics/index.html",
+      "references": [
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/omics/project.html",
+          "evidence": "研究主题页说明整合表观基因组、转录组、蛋白质组和代谢组数据进行跨组学解析，研究胰岛素血中模式、肥胖和器官联系，页尾署名教授久保田浩行。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/search/details/K005502/index.html",
+          "evidence": "九州大学研究者信息（2026年7月更新）列明久保田浩行为生体防御医学研究所附属高深度组学科学中心教授（2014年起），并兼任系统生命科学府。"
+        },
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/omics/member2.html",
+          "evidence": "研究生招募页说明研究室隶属九州大学系统生命科学府，结合生物实验和计算机解析研究生命现象。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "トランスオミクスで読み解くインスリン作用と肥満の代謝制御",
+      "theme_en": "Trans-omic analysis of insulin action, obesity and inter-organ metabolic networks.",
+      "summary_ja": "エピゲノム、トランスクリプトーム、プロテオーム、メタボロームを統合して分子ネットワークを再構築するトランスオミクス解析を行う。インスリンと肥満を対象に、血中インスリンパターンの意義や血糖制御、臓器連関を実験と数理モデルで探る。",
+      "summary_en": "Integrates epigenomic, transcriptomic, proteomic and metabolomic data to reconstruct large-scale molecular networks, an approach called trans-omic analysis. Focusing on insulin and obesity, the lab combines experiments with mathematical models to study the meaning of blood insulin patterns, glucose control and interactions among the liver, muscle and adipose tissue.",
+      "theme_tw": "跨組學解析胰島素作用與肥胖代謝網路",
+      "summary_tw": "整合表觀基因體、轉錄體、蛋白質體和代謝體數據，重建大規模分子網路（跨體學解析）。以胰島素和肥胖為對象，結合實驗與數學模型，研究血中胰島素模式的意義、血糖控制及肝、肌肉和脂肪組織間的器官聯繫。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "metabolism_biochemistry-7"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "北海道大学",
+      "department": "大学院薬学研究院／大学院生命科学院",
+      "lab": "生化学研究室（木原研究室）",
+      "pi": "木原 章雄",
+      "pi_title": "教授",
+      "theme_zh": "鞘脂与神经酰胺代谢及皮肤和泪液屏障",
+      "summary_zh": "以鞘脂为中心，鉴定参与脂质合成与分解的新基因和代谢途径，研究长链碱代谢、脂肪酸α氧化和极长链脂肪酸生成。重点解析表皮神经酰胺和睑板腺脂质的屏障形成机制，以及特应性皮炎、鱼鳞病和干眼症。",
+      "keywords": [
+        "鞘脂",
+        "神经酰胺",
+        "脂质代谢",
+        "皮肤屏障",
+        "极长链脂肪酸"
+      ],
+      "url": "https://www.pharm.hokudai.ac.jp/seika/index.php",
+      "references": [
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/lab_01.html",
+          "evidence": "北海道大学药学研究院研究室介绍列出生化学研究室教授木原章雄、讲师永沼達郎、助教城島啓佑，研究课题包括鞘脂相关基因、皮肤屏障、睑板腺脂质与干眼、鞘氨醇-1-磷酸代谢和极长链脂肪酸。"
+        },
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/seika/members/akio_kihara.php",
+          "evidence": "教授个人页记载木原章雄自2008年起任药学研究院生化学研究室教授，并列出基盘研究(S)“多样神经酰胺形成生物屏障”（2022–2026年度）等课题。"
+        },
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/seika/research/",
+          "evidence": "研究内容页说明研究室以鞘脂为重点，解析长链碱代谢与脂肪酸α氧化、极长链脂肪酸生成，以及神经酰胺和睑板腺脂质的屏障功能。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "スフィンゴ脂質・セラミド代謝と皮膚・涙液バリア",
+      "theme_en": "Sphingolipid and ceramide metabolism and the lipid barriers of the skin and tear film.",
+      "summary_ja": "スフィンゴ脂質を中心に、脂質合成・分解の新規遺伝子と代謝経路を同定し、長鎖塩基代謝や脂肪酸α酸化、極長鎖脂肪酸の産生を研究する。表皮セラミドやマイバム脂質によるバリア形成と、アトピー性皮膚炎、魚鱗癬、ドライアイの機構を探る。",
+      "summary_en": "Centers on sphingolipids, identifying new genes and metabolic pathways for lipid synthesis and degradation, including long-chain base metabolism, fatty acid alpha-oxidation and very-long-chain fatty acid production. A major focus is how epidermal ceramides and meibum lipids form permeability barriers, and the molecular mechanisms of atopic dermatitis, ichthyosis and dry eye.",
+      "theme_tw": "鞘脂與神經醯胺代謝及皮膚和淚液屏障",
+      "summary_tw": "以鞘脂為中心，鑑定參與脂質合成與分解的新基因和代謝途徑，研究長鏈鹼代謝、脂肪酸α氧化和極長鏈脂肪酸生成。重點解析表皮神經醯胺和瞼板腺脂質的屏障形成機制，以及異位性皮膚炎、魚鱗癬和乾眼症。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "metabolism_biochemistry-8"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "大阪大学",
+      "department": "大学院情報科学研究科 バイオ情報工学専攻",
+      "lab": "バイオ情報計測学講座（松田研究室）",
+      "pi": "松田 史生",
+      "pi_title": "教授",
+      "theme_zh": "中心代谢的定量测量、通量解析与数学模拟",
+      "summary_zh": "开发测量中心代谢的技术，包括代谢物浓度测定、代谢酶定量蛋白质组和13C代谢通量解析，并结合数据解析与代谢模拟寻找运作原理。应用于与癌细胞耐药相关的代谢重编程、酵母菌株比较和物质生产酵母的构建。",
+      "keywords": [
+        "代谢通量",
+        "中心代谢",
+        "13C标记",
+        "癌症代谢",
+        "酵母代谢工程"
+      ],
+      "url": "http://www-symbio.ist.osaka-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/majors/bi.php",
+          "evidence": "大阪大学信息科学研究科生物信息工学专攻页面列出“バイオ情報計測学講座［松田史生研究室］”，说明其开发代谢测量与数据解析技术、阐明代谢运作原理，并链接到研究室网站。"
+        },
+        {
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/news/newsDetailNews.php?id=647",
+          "evidence": "2026年10月2日研究科新闻：松田史生教授（生物信息工学专攻・バイオ情報計測学講座）以“多阶层代谢测量与数理解析技术及其在代谢工程中的应用”获日本生物工学会生物工学功绩奖。"
+        },
+        {
+          "url": "http://www-symbio.ist.osaka-u.ac.jp/matsuda.html",
+          "evidence": "教授个人页列出研究主题：中心代谢的代谢组与靶向蛋白质组解析、代谢通量解析、代谢模拟、酵母代谢工程和癌症代谢机制。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "中枢代謝の計測・代謝フラックス解析とシミュレーション",
+      "theme_en": "Measuring, decoding and simulating central metabolism with flux analysis and quantitative omics.",
+      "summary_ja": "代謝物濃度、代謝酵素の定量プロテオミクス、13C代謝フラックス解析など中枢代謝の計測技術を開発し、データ解析と代謝シミュレーションで動作原理を探る。抗がん剤耐性に関わるがん代謝、出芽酵母株の比較、物質生産酵母の構築に応用する。",
+      "summary_en": "Develops ways to measure central metabolism, including metabolite levels, targeted proteomics of metabolic enzymes and 13C metabolic flux analysis, and combines them with data analysis and metabolic simulation to find operating principles. Applications include cancer metabolism linked to drug resistance, comparison of yeast strains and yeast engineering for chemical production.",
+      "theme_tw": "中心代謝的定量量測、通量解析與數學模擬",
+      "summary_tw": "開發量測中心代謝的技術，包括代謝物濃度測定、代謝酶定量蛋白質體和13C代謝通量解析，並結合數據解析與代謝模擬尋找運作原理。應用於與癌細胞抗藥性相關的代謝重編程、酵母菌株比較和物質生產酵母的構建。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "metabolism_biochemistry-9"
+    },
+    {
+      "field": "metabolism_biochemistry",
+      "university": "慶應義塾大学",
+      "department": "薬学部／大学院薬学研究科",
+      "lab": "代謝生理化学講座（有田研究室）",
+      "pi": "有田 誠",
+      "pi_title": "教授",
+      "theme_zh": "脂肪酸代谢平衡、ω3脂肪酸代谢物与脂质组学",
+      "summary_zh": "建立全面定量测定脂肪酸和磷脂代谢的质谱代谢组系统，揭示脂肪酸代谢平衡在炎症和代谢性疾病中的作用，发现EPA、DHA等ω3脂肪酸可转化为抗炎活性代谢物，并开发脂质组学新技术与脂质图谱。",
+      "keywords": [
+        "脂肪酸代谢",
+        "脂质组学",
+        "ω3脂肪酸",
+        "抗炎代谢物",
+        "质谱"
+      ],
+      "url": "https://www.keio.ac.jp/ja/pha/research/lab/pcm/",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/pha/research/lab/pcm/",
+          "evidence": "庆应义塾大学药学部／药学研究科研究室介绍列出代谢生理化学讲座教授有田誠等教员，说明其建立脂肪酸和磷脂代谢的代谢组分析系统，研究ω3脂肪酸活性代谢物和脂质组学新技术。"
+        },
+        {
+          "url": "https://www.keio.ac.jp/ja/pha/research/t-interview/makoto_arita/",
+          "evidence": "药学部教员访谈介绍有田誠教授主导“脂质组图谱项目”，用质谱定量和可视化各器官、细胞的脂质，并用于发育、炎症、衰老、癌症和肠道细菌研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "脂肪酸代謝バランスとリピドミクスによる炎症・代謝疾患研究",
+      "theme_en": "Fatty acid metabolic balance, omega-3-derived metabolites and lipidomics in inflammation and metabolic disease.",
+      "summary_ja": "脂肪酸やリン脂質の代謝を網羅的・定量的に捉えるメタボローム解析系を構築し、炎症・代謝性疾患における脂肪酸代謝バランスの重要性を示した。ω3脂肪酸の活性代謝物の生成と作用を解析し、リピドミクス新技術と脂質アトラスの構築を進める。",
+      "summary_en": "Has built mass-spectrometry systems for comprehensive, quantitative analysis of fatty acid and phospholipid metabolism, showing that fatty acid metabolic balance matters in inflammatory and metabolic diseases. The lab studies how omega-3 fatty acids such as EPA and DHA become anti-inflammatory metabolites, and develops lipidomics methods to map lipids across organs and cells.",
+      "theme_tw": "脂肪酸代謝平衡、ω3脂肪酸代謝物與脂質體學",
+      "summary_tw": "建立全面定量測定脂肪酸和磷脂代謝的質譜代謝體系統，揭示脂肪酸代謝平衡在發炎和代謝性疾病中的作用，發現EPA、DHA等ω3脂肪酸可轉化為抗發炎活性代謝物，並開發脂質體學新技術與脂質圖譜。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "metabolism_biochemistry-10"
+    },
+    {
       "field": "immunology",
       "university": "大阪大学",
       "department": "大学院医学系研究科／生命機能研究科／免疫学フロンティア研究センター",
@@ -4097,6 +4472,329 @@
         "Hokkaido University"
       ],
       "id": "rna-3"
+    },
+    {
+      "field": "rna",
+      "university": "筑波大学",
+      "department": "大学院人間総合科学学術院 フロンティア医科学学位プログラム",
+      "lab": "RNA生化学研究室（七野研究室）",
+      "pi": "七野 悠一",
+      "pi_title": "教授",
+      "theme_zh": "解析mRNA翻译在细胞内的时空调控",
+      "summary_zh": "聚焦mRNA翻译在何时、何地、如何进行。以核糖体图谱分析（Ribo-Seq）为主轴，结合生化实验与荧光显微观察，网罗解析mRNA在细胞内特定位置的局部翻译及无膜结构与翻译的关系。",
+      "keywords": [
+        "翻译调控",
+        "核糖体图谱分析",
+        "局部翻译",
+        "无膜结构",
+        "二代测序"
+      ],
+      "url": "https://www.md.tsukuba.ac.jp/basic-med/rna_biochem/",
+      "references": [
+        {
+          "url": "https://trios.tsukuba.ac.jp/researcher/0000005144",
+          "evidence": "筑波大学研究者总览列出七野悠一为医学医疗系教授（2025年9月起），所属RNA生化学研究室，研究关键词为RNA、翻译和核糖体图谱分析。"
+        },
+        {
+          "url": "https://www.md.tsukuba.ac.jp/basic-med/rna_biochem/join.html",
+          "evidence": "研究室招生页说明研究生可经フロンティア医科学（硕士）、医学（博士）和ヒューマニクス学位项目进入该研究室。"
+        },
+        {
+          "url": "https://www.md.tsukuba.ac.jp/basic-med/rna_biochem/research.html",
+          "evidence": "研究概要页说明以核糖体图谱分析（Ribo-Seq）为主轴，结合生化、分子生物学实验和荧光显微观察，网罗解析mRNA的局部翻译。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "mRNA翻訳の時空間制御を網羅的に理解する",
+      "theme_en": "Mapping when and where mRNAs are translated inside cells",
+      "summary_ja": "mRNAの翻訳が「いつ・どこで・どのように」起こるかを研究。リボソームプロファイリング（Ribo-Seq）を主軸に生化学や顕微鏡観察を組み合わせ、細胞内の特定の場所での局所翻訳や膜のない構造体と翻訳の関係を解析する。",
+      "summary_en": "Focusing on RNA, the lab asks when, where and how mRNAs are translated. With ribosome profiling (Ribo-Seq) as its core method, combined with biochemistry, molecular biology and fluorescence microscopy, it comprehensively analyzes local translation at specific subcellular sites and the links between membraneless structures and translation.",
+      "theme_tw": "解析mRNA轉譯在細胞內的時空調控",
+      "summary_tw": "聚焦mRNA轉譯在何時、何地、如何進行。以核糖體圖譜分析（Ribo-Seq）為主軸，結合生化實驗與螢光顯微觀察，全面解析mRNA在細胞內特定位置的局部轉譯及無膜結構與轉譯的關係。",
+      "aliases": [
+        "筑波大学",
+        "筑波大學",
+        "University of Tsukuba"
+      ],
+      "id": "rna-4"
+    },
+    {
+      "field": "rna",
+      "university": "東北大学",
+      "department": "加齢医学研究所／大学院医学系研究科 医科学専攻",
+      "lab": "モドミクス医学分野（魏研究室）",
+      "pi": "魏 范研",
+      "pi_title": "教授",
+      "theme_zh": "研究RNA修饰与代谢、衰老及疾病的关系",
+      "summary_zh": "以“修饰组学”为题，重点研究RNA修饰。利用先进质谱和RNA解析方法，以细胞、模式动物和人为对象，探索RNA修饰与代谢、免疫、衰老等生理功能及疾病的关联，并研究线粒体核酸的分子基础。",
+      "keywords": [
+        "RNA修饰",
+        "修饰组学",
+        "质谱",
+        "线粒体",
+        "衰老"
+      ],
+      "url": "https://www.idac.tohoku.ac.jp/site_ja/admission-courses/mechanisms-of-aging/dept-modomics",
+      "references": [
+        {
+          "url": "https://www.idac.tohoku.ac.jp/site_ja/admission-courses/mechanisms-of-aging/dept-modomics",
+          "evidence": "加龄医学研究所官方页列出モドミクス医学分野教授魏范研，介绍利用质谱和RNA解析研究RNA修饰与代谢、免疫、衰老及疾病的关系，代表论文含2025年Cell论文。"
+        },
+        {
+          "url": "https://www.med.tohoku.ac.jp/lab/351/",
+          "evidence": "医学系研究科研究室检索页将モドミクス医学（加龄医学研究所）列于医科学专攻硕士和博士课程，列明魏范研教授，关键词含RNA修饰、代谢、质谱。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "RNA修飾と代謝・老化・疾患との関わりを解明する",
+      "theme_en": "Linking RNA modifications to metabolism, aging and human disease",
+      "summary_ja": "生体分子の修飾を網羅的に解析する「モドミクス」の中でも特にRNA修飾に注目。質量分析とRNA解析手法を用い、細胞・モデル動物・ヒトを対象に、RNA修飾と代謝・免疫・老化や疾患との関わり、ミトコンドリア核酸の分子基盤を研究する。",
+      "summary_en": "Under the banner of \"modomics\", the comprehensive analysis of chemical modifications on biomolecules, the lab focuses on RNA modifications. Using advanced mass spectrometry and RNA analysis in cells, model animals and humans, it studies how RNA modifications relate to metabolism, immunity, aging and disease, and the molecular basis of mitochondrial nucleic acids.",
+      "theme_tw": "研究RNA修飾與代謝、老化及疾病的關係",
+      "summary_tw": "以「修飾體學」為題，重點研究RNA修飾。利用先進質譜和RNA解析方法，以細胞、模式動物和人為對象，探索RNA修飾與代謝、免疫、老化等生理功能及疾病的關聯，並研究粒線體核酸的分子基礎。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "rna-5"
+    },
+    {
+      "field": "rna",
+      "university": "東京大学",
+      "department": "定量生命科学研究所／大学院工学系研究科 バイオエンジニアリング専攻",
+      "lab": "RNP生命工学研究分野（齊藤研究室）",
+      "pi": "齊藤 博英",
+      "pi_title": "教授",
+      "theme_zh": "以合成生物学理解并设计RNA与RNP系统",
+      "summary_zh": "研究蛋白质识别RNA序列与结构而形成的RNP复合体。融合合成生物学、进化分子工程和信息科学，开发理解与控制生命系统的新技术，解析并调控细胞编程与命运决定，面向医药和生物工程应用。",
+      "keywords": [
+        "RNA-蛋白质复合体",
+        "合成生物学",
+        "进化分子工程",
+        "细胞命运调控",
+        "RNA技术"
+      ],
+      "url": "https://www.iqb.u-tokyo.ac.jp/lab/saito-2/",
+      "references": [
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/lab/saito-2/",
+          "evidence": "定量生命科学研究所研究室页列出RNP生命工学研究分野齐藤博英教授，兼任工学系研究科生物工程专攻等，介绍利用合成生物学和实验进化研究RNA及RNA-蛋白质复合体。"
+        },
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/hirohidesaito-tokyo/member/",
+          "evidence": "研究室成员页列出齐藤博英教授为工学系研究科生物工程专攻、药学系和医学系研究科的连携教授，并列有在读硕士和博士研究生。"
+        },
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/hirohidesaito-tokyo/",
+          "evidence": "研究室主页说明以合成生物学思路开发理解和控制生命系统的新技术，2025年仍有论文和获奖动态，并招收对RNA、合成生物学、分子进化、AI感兴趣的研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "合成生物学でRNA・RNP複合体の理解と創成に挑む",
+      "theme_en": "Understanding and engineering RNA and RNA–protein systems through synthetic biology",
+      "summary_ja": "タンパク質がRNAの配列と構造を認識して形成するRNP複合体を研究。合成生物学、進化分子工学、情報科学を融合して生命システムを制御する技術を開発し、細胞のプログラミングと運命決定の解明・制御や医薬・生物工学への応用を目指す。",
+      "summary_en": "Studies RNA–protein (RNP) complexes formed when proteins recognize RNA sequences and structures. Combining synthetic biology, evolutionary molecular engineering and bioinformatics, the lab develops technologies to understand and control living systems, aiming to clarify and steer cell programming and fate decisions, with applications in medicine and bioengineering.",
+      "theme_tw": "以合成生物學理解並設計RNA與RNP系統",
+      "summary_tw": "研究蛋白質辨識RNA序列與結構而形成的RNP複合體。融合合成生物學、演化分子工程和資訊科學，開發理解與控制生命系統的新技術，解析並調控細胞編程與命運決定，面向醫藥和生物工程應用。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "rna-6"
+    },
+    {
+      "field": "rna",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻 物質・生命化学領域",
+      "lab": "生物有機化学研究室（阿部グループ）",
+      "pi": "阿部 洋",
+      "pi_title": "教授",
+      "theme_zh": "用化学方法设计与合成mRNA及环状RNA",
+      "summary_zh": "以化学为基础研究mRNA的分子设计与制造。开发不用酶的mRNA完全化学合成法和高纯度加帽法，通过精确导入化学修饰提高mRNA稳定性与翻译活性，并研究环状RNA和核酸药物的递送。",
+      "keywords": [
+        "mRNA化学合成",
+        "化学修饰",
+        "环状RNA",
+        "核酸药物",
+        "加帽结构"
+      ],
+      "url": "https://biochemistry.chem.nagoya-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://biochemistry.chem.nagoya-u.ac.jp/members/",
+          "evidence": "研究室成员页标题为理学研究科理学专攻物质・生命化学领域生物有机化学研究室阿部组，列出阿部洋教授及多名在读研究生。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100008183_ja.html",
+          "evidence": "名古屋大学研究者数据库列出阿部洋为教授，主属糖链生命核心研究所并兼任理学研究科教授，研究领域为生物有机化学，论文涉及mRNA化学与加帽。"
+        },
+        {
+          "url": "https://www.nagoya-u.ac.jp/researchinfo/result/2025/11/mrna100mrna-mrna.html",
+          "evidence": "名古屋大学2025年11月研究成果页介绍阿部洋教授团队开发出翻译活性比传统mRNA高100倍以上的完全化学合成mRNA，成果发表于Nature Communications。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "化学を基盤にmRNAや環状RNAを分子設計・合成する",
+      "theme_en": "Chemistry-based design and synthesis of mRNA and circular RNA",
+      "summary_ja": "化学を基盤にmRNAの分子設計と製造法を研究。酵素を用いないmRNAの完全化学合成法や高純度なキャップ付加法を開発し、精密な化学修飾でmRNAの安定性と翻訳活性を高めるほか、環状RNAや核酸医薬の送達にも取り組む。",
+      "summary_en": "Pursuing chemistry-based analysis and control of biological phenomena, the lab designs and manufactures mRNA. It has developed enzyme-free total chemical synthesis of mRNA and high-purity capping methods, and uses precisely placed chemical modifications to raise mRNA stability and translation. It also works on circular RNA and the delivery of nucleic-acid medicines.",
+      "theme_tw": "以化學方法設計與合成mRNA及環狀RNA",
+      "summary_tw": "以化學為基礎研究mRNA的分子設計與製造。開發不用酵素的mRNA完全化學合成法和高純度加帽法，透過精確導入化學修飾提高mRNA穩定性與轉譯活性，並研究環狀RNA和核酸藥物的遞送。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "rna-7"
+    },
+    {
+      "field": "rna",
+      "university": "東京理科大学",
+      "department": "生命医科学研究所／大学院生命科学研究科 生命科学専攻",
+      "lab": "ゲノム＆RNA編集病態学（櫻井研究室）",
+      "pi": "櫻井 雅之",
+      "pi_title": "教授",
+      "theme_zh": "研究RNA编辑等碱基修饰及其致病机制",
+      "summary_zh": "研究DNA和RNA碱基的修饰与编辑。解析ADAR介导的A-to-I RNA编辑对RNA结构与功能的影响，探讨编辑酶与RNA:DNA杂交链、干扰素炎症及DNA损伤的关系，并开发高精度检测法。",
+      "keywords": [
+        "RNA编辑",
+        "ADAR",
+        "肌苷",
+        "RNA:DNA杂交链",
+        "炎症与疾病"
+      ],
+      "url": "https://www.ribs.tus.ac.jp/scientists/250/",
+      "references": [
+        {
+          "url": "https://www.ribs.tus.ac.jp/scientists/250/",
+          "evidence": "生命科学研究科网站研究人员页列出生体运命制御部门ゲノム＆RNA编辑病态学的櫻井雅之教授（2026年度起任教授），介绍ADAR介导的A-to-I RNA编辑及RNA:DNA杂交链研究。"
+        },
+        {
+          "url": "https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?act=&kin=ken&diu=7023",
+          "evidence": "东京理科大学研究者数据库列出櫻井雅之为生命医科学研究所教授，职历显示2026年4月起任生体运命制御部门櫻井研究室教授。"
+        },
+        {
+          "url": "https://www.tus.ac.jp/academics/graduate_school/biologicalsciences/biologicalsciences/",
+          "evidence": "生命科学专攻页说明该专攻以生命医科学研究所主要研究部门为基础，并将櫻井雅之（ゲノムRNA编辑病态学）列为指导教员（该页职称仍记为讲师，现职以研究者数据库为准）。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "DNA・RNA塩基の修飾編集機構と疾患の分子病態を探る",
+      "theme_en": "Base modification and editing of RNA and DNA and their roles in disease",
+      "summary_ja": "DNA・RNA塩基の修飾・編集機構を研究。ADARによるA-to-I RNA編集がRNAの構造と機能に与える影響を解析し、RNA:DNAハイブリッド鎖の解消や炎症、DNA損傷での編集酵素の役割を探り、高精度な検出法も開発する。",
+      "summary_en": "Investigates how DNA and RNA bases are chemically modified and edited. The lab analyzes how ADAR-mediated adenosine-to-inosine RNA editing alters RNA structure and function, examines roles of editing enzymes in resolving RNA:DNA hybrids, interferon-driven inflammation and DNA damage, and develops precise detection methods for modifications and structures.",
+      "theme_tw": "研究RNA編輯等鹼基修飾及其致病機制",
+      "summary_tw": "研究DNA和RNA鹼基的修飾與編輯。解析ADAR介導的A-to-I RNA編輯對RNA結構與功能的影響，探討編輯酶與RNA:DNA雜交鏈、干擾素發炎及DNA損傷的關係，並開發高精度檢測法。",
+      "aliases": [
+        "东京理科大学",
+        "東京理科大學",
+        "Tokyo University of Science"
+      ],
+      "id": "rna-8"
+    },
+    {
+      "field": "rna",
+      "university": "大阪大学",
+      "department": "微生物病研究所／大学院医学系研究科 生体防御医学講座",
+      "lab": "RNA情報学グループ（山﨑研究室）",
+      "pi": "山﨑 将太朗",
+      "pi_title": "准教授",
+      "theme_zh": "结合测序与机器学习解析mRNA表达调控",
+      "summary_zh": "通过mRNA信息解析理解基因表达调控。结合CAGE-seq、长读长测序和机器学习，研究转录起始点、剪接和多聚腺苷化位点的决定机制及影响mRNA稳定性与翻译效率的序列，并开发序列优化系统。",
+      "keywords": [
+        "mRNA稳定性",
+        "选择性剪接",
+        "长读长测序",
+        "机器学习",
+        "翻译效率"
+      ],
+      "url": "https://www.biken.osaka-u.ac.jp/laboratories/detail/71",
+      "references": [
+        {
+          "url": "https://www.biken.osaka-u.ac.jp/laboratories/detail/71",
+          "evidence": "微生物病研究所官方页列出生物情报解析分野RNA情报学组（山﨑研究室），成员为准教授山﨑将太朗等，介绍利用测序与机器学习解析mRNA转录、降解和翻译调控。"
+        },
+        {
+          "url": "https://www.med.osaka-u.ac.jp/wp-content/uploads/2026/04/20-33_RNAjohogaku2026.pdf",
+          "evidence": "医学系研究科2026年度研究室介绍列出生体防御医学（RNA情报学）由山﨑将太朗指导，介绍用CAGE-seq、纳米孔长读长测序和机器学习研究转录起始点、剪接、多聚腺苷化及mRNA稳定性。"
+        },
+        {
+          "url": "https://www.med.osaka-u.ac.jp/wp-content/uploads/2026/09/2026September_courselist_jp.pdf",
+          "evidence": "医学系研究科2027年度博士课程专门科目一览（2026年9月现在）将RNA情报学列于生体防御医学讲座，担当教员为山﨑将太朗准教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "シークエンスと機械学習でmRNAの発現制御を読み解く",
+      "theme_en": "Decoding mRNA-level gene regulation with sequencing and machine learning",
+      "summary_ja": "mRNAの情報解析から遺伝子発現制御を理解・応用する。CAGE-seqや長鎖リード解析と機械学習で、転写開始点・スプライシング・ポリA付加部位の決定機構やmRNAの安定性と翻訳効率を決める配列を解析し、配列最適化系を開発する。",
+      "summary_en": "Aims to understand and apply gene-expression regulation through mRNA information analysis. Combining CAGE-seq, nanopore long-read sequencing and machine learning, the lab studies how transcription start, splicing and polyadenylation sites are chosen and which sequences govern mRNA stability and translation, and builds sequence-optimization systems for mRNA medicines.",
+      "theme_tw": "結合定序與機器學習解析mRNA表達調控",
+      "summary_tw": "透過mRNA資訊解析理解基因表達調控。結合CAGE-seq、長讀長定序和機器學習，研究轉錄起始點、剪接和多聚腺苷酸化位點的決定機制及影響mRNA穩定性與轉譯效率的序列，並開發序列最佳化系統。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "rna-9"
+    },
+    {
+      "field": "rna",
+      "university": "九州大学",
+      "department": "大学院総合理工学府 総合理工学専攻",
+      "lab": "生体分子機能化学研究室（村田研究室）",
+      "pi": "村田 亜沙子",
+      "pi_title": "准教授",
+      "theme_zh": "开发靶向RNA的小分子以调控RNA结构与功能",
+      "summary_zh": "将RNA视为新一代药物靶点，开发能结合RNA并调控其结构与功能的小分子。研究寻找小分子结合RNA基序的方法，解析RNA与小分子的相互作用模式，并利用机器学习开展RNA靶向化学信息学。",
+      "keywords": [
+        "RNA靶向小分子",
+        "RNA结构",
+        "药物发现",
+        "化学信息学",
+        "microRNA"
+      ],
+      "url": "https://www.eng.kyushu-u.ac.jp/lab_interdisciplinary39.html",
+      "references": [
+        {
+          "url": "https://www.eng.kyushu-u.ac.jp/lab_interdisciplinary39.html",
+          "evidence": "工学部研究室介绍页列出生体分子机能化学研究室，所属教员为村田亚沙子准教授，对应大学院综合理工学府综合理工学专攻，研究以RNA为靶标的小分子药物发现。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/search/details/K008137/index.html",
+          "evidence": "九州大学研究者信息列出村田亚沙子为综合理工学研究院物质科学部门准教授并兼任综合理工学府，研究主题包括用小分子调控pre-miRNA的Dicer加工和-1核糖体移码。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "RNAを標的とする低分子でRNAの構造と機能を制御する",
+      "theme_en": "Small molecules that target RNA to control its structure and function",
+      "summary_ja": "RNAを次世代の創薬標的と捉え、RNAに結合して構造や機能を制御する低分子を開発。低分子が結合するRNAモチーフの探索法やRNA－低分子複合体の相互作用を研究し、機械学習を用いたRNA標的ケモインフォマティクスにも取り組む。",
+      "summary_en": "Treating RNA as a next-generation drug target, the lab discovers and develops small molecules that bind RNA and modulate its structure and function. It develops methods to identify RNA motifs recognized by small molecules, analyzes how RNA–small molecule complexes interact, and applies informatics and machine learning to RNA-targeted cheminformatics.",
+      "theme_tw": "開發標靶RNA的小分子以調控RNA結構與功能",
+      "summary_tw": "將RNA視為新一代藥物標靶，開發能結合RNA並調控其結構與功能的小分子。研究尋找小分子結合RNA模體的方法，解析RNA與小分子的交互作用模式，並利用機器學習開展RNA標靶化學資訊學。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "rna-10"
     },
     {
       "field": "synthetic_biotechnology",
@@ -7772,6 +8470,379 @@
       "id": "electrochemistry-2"
     },
     {
+      "field": "electrochemistry",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻",
+      "lab": "工業電気化学分野（安部研究室）",
+      "pi": "安部 武志",
+      "pi_title": "教授",
+      "theme_zh": "聚焦电极界面，研究蓄电池与燃料电池的基础反应。",
+      "summary_zh": "以燃料电池和蓄电池为对象，着眼于反应发生的电极界面，研究锂离子电池电解液的溶剂化结构与界面离子移动，以及镁、钙等多价阳离子电池、阴离子交换膜燃料电池和锌负极二次电池。",
+      "keywords": [
+        "锂离子电池",
+        "电极界面",
+        "电解液",
+        "多价离子电池",
+        "燃料电池"
+      ],
+      "url": "https://www.eh.t.kyoto-u.ac.jp/ja/research/introduction/eh21",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.7111adb62dbf7feb.html",
+          "evidence": "京都大学教育研究活动数据库（2026年11月更新）列安部武志为工学研究科化学理工学专攻能源转换化学讲座教授，研究关键词为固体离子学、碳材料化学和电化学，并链接到研究室网站。"
+        },
+        {
+          "url": "https://www.eh.t.kyoto-u.ac.jp/ja/information/laboratory",
+          "evidence": "工学研究科物质能源化学专攻的研究室・教员页列出工业电化学分野：教授安部武志、准教授宫原雄人、助教坂本辽。"
+        },
+        {
+          "url": "http://elech.kuic.kyoto-u.ac.jp/research/",
+          "evidence": "研究室网站研究内容页介绍锂离子电池电解液、电极/电解液界面的离子移动、多价阳离子电池、离子液体与石墨层间化合物、阴离子交换膜燃料电池及锌负极二次电池。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "電極界面に着目し、蓄電池と燃料電池の基礎反応を研究する。",
+      "theme_en": "Interface-focused fundamental research on rechargeable batteries and fuel cells.",
+      "summary_ja": "燃料電池と蓄電池を対象に、反応の場である電極界面に着目します。リチウムイオン電池用電解液の溶媒和構造と界面イオン移動、多価カチオン電池、アニオン交換膜形燃料電池、亜鉛負極二次電池などを研究しています。",
+      "summary_en": "Focusing on the electrode interfaces where energy-conversion reactions occur, the laboratory studies batteries and fuel cells. Topics include lithium-ion solvation and interfacial ion transfer in electrolytes, multivalent magnesium and calcium batteries, ionic liquids with graphite intercalation compounds, anion-exchange membrane fuel cells and zinc metal anodes.",
+      "theme_tw": "聚焦電極界面，研究蓄電池與燃料電池的基礎反應。",
+      "summary_tw": "以燃料電池和蓄電池為對象，著眼於反應發生的電極界面，研究鋰離子電池電解液的溶劑化結構與界面離子移動，以及鎂、鈣等多價陽離子電池、陰離子交換膜燃料電池和鋅負極二次電池。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "electrochemistry-3"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 材料デザイン工学専攻",
+      "lab": "ナノイオニクス設計工学（入山・矢島研究室）",
+      "pi": "入山 恭寿",
+      "pi_title": "教授",
+      "theme_zh": "控制电极与固体电解质的纳米界面，构建全固态电池。",
+      "summary_zh": "面向革新型蓄电池，控制电极与电解质的纳米界面并开发电池反应原位观测法；还利用纳米离子学现象创制高离子导电固体电解质，研究固体电解质上的金属电析，探索实用全固态电池的构建方法。",
+      "keywords": [
+        "全固态电池",
+        "固体电解质",
+        "界面离子学",
+        "原位观测"
+      ],
+      "url": "https://www.material.nagoya-u.ac.jp/course_nano.html",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100006067_ja.html",
+          "evidence": "名古屋大学研究者总览（2026年5月更新）列入山恭寿为工学研究科材料设计工学专攻纳米结构设计教授，2012年起任现职，当前研究课题为面向蓄电固体器件的界面离子动力学。"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/course_nano.html",
+          "evidence": "材料设计工学专攻纳米结构设计讲座页列出纳米离子学设计工学（入山・矢岛研究室）的入山恭寿教授，研究电极/电解质纳米界面控制、蓄电池反应原位观测、高离子导电固体电解质、固体电解质上的金属电析及实用全固态电池构建。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "電極／固体電解質のナノ界面を制御し、全固体蓄電池を構築する。",
+      "theme_en": "Controlling electrode/solid-electrolyte nano-interfaces to build all-solid-state batteries.",
+      "summary_ja": "革新型蓄電池に向け、電極／電解質のナノ界面制御と電池反応の「その場」観察手法を開発します。ナノイオニクス現象を活かした高イオン伝導性固体電解質の創製、固体電解質上の金属電析、実用的な全固体電池の構築も研究しています。",
+      "summary_en": "Aiming at high-performance next-generation batteries, the group controls nanoscale electrode/electrolyte interfaces and develops in situ methods for observing battery reactions. It also creates highly ion-conductive solid electrolytes based on nano-ionic phenomena, studies metal deposition on solid electrolytes and builds all-solid-state batteries that work at practical levels.",
+      "theme_tw": "控制電極與固體電解質的奈米界面，構建全固態電池。",
+      "summary_tw": "面向革新型蓄電池，控制電極與電解質的奈米界面並開發電池反應原位觀測法；還利用奈米離子學現象創製高離子導電固體電解質，研究固體電解質上的金屬電析，探索實用全固態電池的構建方法。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "electrochemistry-4"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "北海道大学",
+      "department": "大学院総合化学院／理学研究院 化学部門",
+      "lab": "物理化学研究室（村越研究室）",
+      "pi": "村越 敬",
+      "pi_title": "教授",
+      "theme_zh": "从表面与界面电化学出发，开拓高效能量转换电极反应。",
+      "summary_zh": "开拓与可再生能源生产直接相关的电极反应：控制电极表面结构，设计用于绿色制氢的水电解催化电极，并以反应速率分析和振动光谱提升性能；还利用金属纳米结构调控激发态，探索降低离子导体电阻损耗的方法。",
+      "keywords": [
+        "水电解",
+        "电极界面",
+        "振动光谱",
+        "电极反应动力学",
+        "等离激元"
+      ],
+      "url": "https://wwwchem.sci.hokudai.ac.jp/~pc/research/",
+      "references": [
+        {
+          "url": "https://www2.sci.hokudai.ac.jp/dept/chem/lab/physical-chemistry",
+          "evidence": "理学部化学科研究室介绍页以“表面・界面电化学”为主题介绍物理化学研究室，涉及电化学调控光与物质相互作用和等离激元光电转换制氢，成员列村越敬教授及讲师、助教。"
+        },
+        {
+          "url": "https://wwwchem.sci.hokudai.ac.jp/~pc/members/",
+          "evidence": "研究室成员页列出教授村越敬及讲师、助教、博士后和研究生，并注明属于总合化学院总合化学专攻分子化学课程反应解析学讲座物理化学研究室。"
+        },
+        {
+          "url": "https://wwwchem.sci.hokudai.ac.jp/~pc/",
+          "evidence": "研究室首页说明致力于开拓与可再生能源生产直接相关的电极反应体系，并列出2026年11月发布的NiFe电极析氧反应等最新成果。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "表面・界面電気化学に立脚し、高効率なエネルギー変換電極反応を開拓する。",
+      "theme_en": "Surface and interfacial electrochemistry for efficient energy-conversion electrode reactions.",
+      "summary_ja": "再生可能エネルギー生産に直結する電極反応系を開拓します。電極表面の構造制御でグリーン水素製造用の水電解触媒電極を設計し、反応速度論解析や振動分光で機能を高めます。金属ナノ構造による励起状態制御やイオン伝導制御も研究しています。",
+      "summary_en": "The laboratory develops electrode reactions linked to renewable energy production. It designs water-electrolysis catalyst electrodes with controlled surface structures for green hydrogen and improves them through kinetic analysis and vibrational spectroscopy. It also controls excited states with metal nanostructures and seeks to cut resistive losses in ionic conductors.",
+      "theme_tw": "從表面與界面電化學出發，開拓高效能量轉換電極反應。",
+      "summary_tw": "開拓與再生能源生產直接相關的電極反應：控制電極表面結構，設計用於綠色製氫的水電解催化電極，並以反應速率分析和振動光譜提升性能；還利用金屬奈米結構調控激發態，探索降低離子導體電阻損耗的方法。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "electrochemistry-5"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "東京科学大学",
+      "department": "物質理工学院 応用化学系",
+      "lab": "稲木研究室",
+      "pi": "稲木 信介",
+      "pi_title": "教授",
+      "theme_zh": "以电极电子转移为核心，开展有机电解合成与高分子功能化。",
+      "summary_zh": "以有机电解合成为基础研究有机物和高分子的氧化还原化学：以电极上掺杂的共轭高分子为中间体发展高分子电解反应，用双极电极实现导电高分子梯度掺杂与图案化，并开发碳硼烷介体和含氟高分子。",
+      "keywords": [
+        "有机电解合成",
+        "双极电化学",
+        "导电高分子",
+        "氧化还原介体"
+      ],
+      "url": "https://inagi.cap.mac.titech.ac.jp/wp/research-2",
+      "references": [
+        {
+          "url": "https://inagi.cap.mac.titech.ac.jp/wp/member-2",
+          "evidence": "研究室成员页列出东京科学大学物质理工学院应用化学系稻木研究室的教授稻木信介，以及日本学术振兴会特别研究员、技术支援员等成员。"
+        },
+        {
+          "url": "https://educ.titech.ac.jp/cap/faculty/research_lab/",
+          "evidence": "应用化学系研究室与研究主题页介绍稻木研究室以利用电能的氧化还原反应为基础开发功能分子与高分子材料，关键词为有机电解合成、功能高分子和氧化还原化学。"
+        },
+        {
+          "url": "https://inagi.cap.mac.titech.ac.jp/wp/",
+          "evidence": "研究室首页说明稻木研究室属于物质理工学院应用化学系，开拓有机化学、高分子化学与电化学的融合领域，新闻更新至2026年10月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "電極での電子移動を鍵に、有機電解合成と高分子の機能化を研究する。",
+      "theme_en": "Organic electrosynthesis and polymer functionalization driven by electron transfer at electrodes.",
+      "summary_ja": "有機電解合成を基盤に、有機分子・高分子のレドックス化学を研究します。ドープした共役系高分子を中間体とする高分子電解反応、バイポーラ電極による導電性高分子の傾斜ドーピング、カルボラン系メディエーターや含フッ素高分子を開発します。",
+      "summary_en": "Based on organic electrosynthesis, the laboratory studies the redox chemistry of organic compounds and polymers. Projects include polymer reactions using electrochemically doped conjugated polymers as intermediates, wireless bipolar electrochemistry for gradient doping and patterning of conductive polymers, carborane redox mediators and fluorinated polymers.",
+      "theme_tw": "以電極電子轉移為核心，開展有機電解合成與高分子功能化。",
+      "summary_tw": "以有機電解合成為基礎研究有機物和高分子的氧化還原化學：以電極上摻雜的共軛高分子為中間體發展高分子電解反應，用雙極電極實現導電高分子梯度摻雜與圖案化，並開發碳硼烷介體和含氟高分子。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "electrochemistry-6"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 化学・生命情報科学専攻",
+      "lab": "無機物性化学研究室（栄長研究室）",
+      "pi": "栄長 泰明",
+      "pi_title": "教授",
+      "theme_zh": "开发硼掺杂金刚石电极，用于传感、合成与CO2还原。",
+      "summary_zh": "以微波等离子体CVD制备硼掺杂导电金刚石薄膜，利用其电位窗宽、背景电流小的特点开发高灵敏电化学传感器和生物测量电极，并拓展到环境净化、有机电解合成和CO2电还原制甲酸等应用。",
+      "keywords": [
+        "金刚石电极",
+        "电化学传感器",
+        "CO2电还原",
+        "电解合成"
+      ],
+      "url": "https://chem.keio.ac.jp/einaga-lab/researchj.html",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/?keyword=%E6%A0%84%E9%95%B7",
+          "evidence": "庆应义塾教员一览列栄长泰明为理工学部化学科教授兼理工学研究科化学・生命信息科学专攻教授，专长为光功能材料、纳米粒子・薄膜和金刚石电极。"
+        },
+        {
+          "url": "https://chem.keio.ac.jp/research/",
+          "evidence": "理工学部化学科研究室一览列出无机物性化学研究室，教员为栄长泰明教授和山本崇史准教授，并链接到研究室网站。"
+        },
+        {
+          "url": "https://chem.keio.ac.jp/einaga-lab/memberj.html",
+          "evidence": "研究室成员页（2026年10月1日现在）列出教授栄长泰明、准教授山本崇史及博士、硕士研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "ホウ素ドープダイヤモンド電極を創製し、センサーやCO2還元に応用する。",
+      "theme_en": "Boron-doped diamond electrodes for sensing, electrosynthesis and CO2 reduction.",
+      "summary_ja": "マイクロ波プラズマCVD法でホウ素ドープダイヤモンド薄膜を作製し、広い電位窓と小さなバックグラウンド電流を生かして高感度電気化学センサーや生体計測用電極を開発します。環境浄化、有機合成、CO2還元によるギ酸合成にも応用します。",
+      "summary_en": "Using microwave plasma CVD, the laboratory prepares heavily boron-doped conductive diamond films. Their wide potential window and low background current are used for sensitive electrochemical sensors and biological measurement electrodes, with further applications in environmental purification, organic electrosynthesis and electrochemical CO2 reduction to formic acid.",
+      "theme_tw": "開發硼摻雜鑽石電極，用於感測、合成與CO2還原。",
+      "summary_tw": "以微波電漿CVD製備硼摻雜導電鑽石薄膜，利用其電位窗寬、背景電流小的特點開發高靈敏電化學感測器和生物量測電極，並拓展到環境淨化、有機電解合成和CO2電還原製甲酸等應用。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "electrochemistry-7"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 応用化学専攻",
+      "lab": "本間・福永研究室",
+      "pi": "本間 敬之",
+      "pi_title": "教授",
+      "theme_zh": "研究电析等固液界面反应，开发纳米器件与能源电极。",
+      "summary_zh": "聚焦固液（电极）界面反应：将微纳加工与电镀、化学镀结合，制作微型热电元件和磁性纳米点阵列；用表面增强拉曼原位解析电极反应，研究锌二次电池负极和析氢反应，并以量子化学计算解析反应机理。",
+      "keywords": [
+        "电析",
+        "固液界面",
+        "表面增强拉曼",
+        "锌二次电池",
+        "微纳加工"
+      ],
+      "url": "http://www.sc.appchem.waseda.ac.jp/research/",
+      "references": [
+        {
+          "url": "http://www.sc.appchem.waseda.ac.jp/prof/",
+          "evidence": "教员介绍页列出本间敬之教授的履历（1992年早稻田大学博士课程修了，2005年起任应用化学科教授），研究关键词为电化学、微纳加工和固液界面测量，并介绍电析器件、表面增强拉曼界面测量和锌二次电池负极研究。"
+        },
+        {
+          "url": "http://www.sc.appchem.waseda.ac.jp/",
+          "evidence": "早稻田大学应用化学科本间・福永研究室首页说明以电化学、表面化学和计算化学为基础研究固液界面反应与微纳加工，新闻更新至2026年11月。"
+        },
+        {
+          "url": "https://dpt-pep.w.waseda.jp/en/universities/professor/180/?university-category=waseda-en",
+          "evidence": "早稻田大学电力能源专业人才项目的教员页介绍本间敬之为先进理工学研究科应用化学专攻教授，研究以纳米电化学开发新型能源器件。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "電析など固液界面反応を解析・制御し、ナノデバイスやエネルギー電極を創る。",
+      "theme_en": "Analyzing and controlling solid–liquid interfacial reactions such as electrodeposition for nanodevices and energy electrodes.",
+      "summary_ja": "固液（電極）界面反応の解析と反応場の設計に取り組みます。微細加工と電気めっき・無電解めっきを組み合わせて熱電変換素子や磁性ナノドットを作製し、表面増強ラマンによる電極反応のその場解析、亜鉛二次電池負極や水素発生反応も研究します。",
+      "summary_en": "The laboratory analyzes and designs reactions at solid–liquid electrode interfaces. It combines lithography with electroplating and electroless plating to make micro thermoelectric devices and magnetic nanodot arrays, follows electrode reactions in situ by surface-enhanced Raman sensing, and studies zinc battery anodes, hydrogen evolution and interfacial mechanisms.",
+      "theme_tw": "研究電析等固液界面反應，開發奈米元件與能源電極。",
+      "summary_tw": "聚焦固液（電極）界面反應：將微奈米加工與電鍍、化學鍍結合，製作微型熱電元件和磁性奈米點陣列；用表面增強拉曼原位解析電極反應，研究鋅二次電池負極和析氫反應，並以量子化學計算解析反應機理。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "electrochemistry-8"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "九州大学",
+      "department": "大学院工学府 化学工学専攻／工学研究院 化学工学部門",
+      "lab": "電池・電気化学システム研究グループ（井上研究室）",
+      "pi": "井上 元",
+      "pi_title": "教授",
+      "theme_zh": "解析电极多孔结构内的反应与传输，设计燃料电池和电池。",
+      "summary_zh": "以固体高分子燃料电池催化层为中心，用FIB-SEM和X射线CT观测电极微结构，开发反应与物质输送耦合的多尺度模拟，并以喷墨法等实现理想结构；研究还涉及锂离子电池、全固态电池和水电解。",
+      "keywords": [
+        "燃料电池",
+        "催化层",
+        "多孔电极",
+        "反应输送模拟",
+        "水电解"
+      ],
+      "url": "https://altair.chem-eng.kyushu-u.ac.jp/research/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100020079_ja.html",
+          "evidence": "九州大学研究者信息（2026年11月更新）列井上元为工学研究院化学工学部门教授，兼工学府化学工学专攻；研究燃料电池、二次电池、全固态电池、锂硫电池等电化学过程的高性能化及多孔结构内的反应输送现象。"
+        },
+        {
+          "url": "https://altair.chem-eng.kyushu-u.ac.jp/",
+          "evidence": "研究组首页标明九州大学工学研究院化学工学部门第7讲座“电池・电化学系统研究小组”，教授为井上元，新闻更新至2026年11月。"
+        },
+        {
+          "url": "https://altair.chem-eng.kyushu-u.ac.jp/member/",
+          "evidence": "成员页列出井上元教授及博士、硕士研究生，近年硕士论文题目涉及固体高分子水电解槽、全固态电池、锂硫电池和燃料电池催化层。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "電極多孔構造内の反応と物質輸送を解析し、燃料電池や蓄電池を設計する。",
+      "theme_en": "Analyzing reaction and transport in porous electrodes to design fuel cells, electrolyzers and batteries.",
+      "summary_ja": "固体高分子形燃料電池の触媒層を中心に、FIB-SEMやX線CTで電極構造を観察し、反応と物質輸送を連成したシミュレーションを開発します。インクジェット法などで理想構造を作製し、リチウムイオン電池、全固体電池、水電解も研究します。",
+      "summary_en": "Centered on catalyst layers of polymer electrolyte fuel cells, the group images electrode microstructures with FIB-SEM and X-ray CT and develops multiscale simulations coupling electrochemical reactions with mass transport. Designed structures are made by inkjet and other processes, and the approach extends to lithium-ion and all-solid-state batteries and water electrolysis.",
+      "theme_tw": "解析電極多孔結構內的反應與傳輸，設計燃料電池和電池。",
+      "summary_tw": "以固體高分子燃料電池觸媒層為中心，用FIB-SEM和X射線CT觀測電極微結構，開發反應與物質輸送耦合的多尺度模擬，並以噴墨法等實現理想結構；研究還涉及鋰離子電池、全固態電池和水電解。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "electrochemistry-9"
+    },
+    {
+      "field": "electrochemistry",
+      "university": "京都大学",
+      "department": "エネルギー理工学研究所／大学院エネルギー科学研究科",
+      "lab": "複合化学過程研究分野（野平研究室）",
+      "pi": "野平 俊之",
+      "pi_title": "教授",
+      "theme_zh": "利用熔盐电解开发能源材料制备、电析与资源回收新工艺。",
+      "summary_zh": "以熔盐和离子液体为电解质开展电化学研究：用熔盐电解从二氧化硅制备太阳能级硅、电析晶体硅膜，开发钛钨熔盐电镀和稀土回收方法，研究由CO2电解合成金刚石，并开发离子液体钠、钾二次电池。",
+      "keywords": [
+        "熔盐电解",
+        "电析",
+        "离子液体",
+        "太阳能级硅",
+        "稀土回收"
+      ],
+      "url": "https://chemical.iae.kyoto-u.ac.jp/achiv.html",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.8f0b957bead656f0.html",
+          "evidence": "京都大学教育研究活动数据库（2026年10月更新）列野平俊之为能源理工学研究所教授，协力讲座为能源科学研究科能源基础科学专攻，研究熔盐电解制备太阳能电池用硅、稀土回收、钛钨电析及离子液体钠钾二次电池。"
+        },
+        {
+          "url": "https://chemical.iae.kyoto-u.ac.jp/staff.html",
+          "evidence": "研究室成员页列出教授野平俊之及特定准教授、讲师、助教和在读硕博士生。"
+        },
+        {
+          "url": "https://chemical.iae.kyoto-u.ac.jp/index.html",
+          "evidence": "研究室首页说明野平研（复合化学过程研究分野）以电化学为基础研究能源问题，并兼任能源科学研究科能源基础科学专攻界面能源过程分野，新闻更新至2026年10月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "溶融塩電解でエネルギー材料の製造、電析、リサイクルの新手法を開発する。",
+      "theme_en": "Molten-salt electrochemistry for producing energy materials, plating metals and recycling resources.",
+      "summary_ja": "溶融塩やイオン液体を電解質とする電気化学を研究します。シリカからの太陽電池級シリコン製造やシリコン膜の電析、チタン・タングステンの溶融塩めっき、希土類のリサイクル、CO2からのダイヤモンド合成、イオン液体二次電池に取り組みます。",
+      "summary_en": "The laboratory studies electrochemistry in molten salts and ionic liquids. Topics include producing solar-grade silicon from silica, electrodepositing crystalline silicon films, molten-salt plating of titanium and tungsten, recycling rare-earth elements, synthesizing diamond from CO2 and developing sodium and potassium secondary batteries with ionic-liquid electrolytes.",
+      "theme_tw": "利用熔鹽電解開發能源材料製備、電析與資源回收新製程。",
+      "summary_tw": "以熔鹽和離子液體為電解質開展電化學研究：用熔鹽電解從二氧化矽製備太陽能級矽、電析晶體矽膜，開發鈦鎢熔鹽電鍍和稀土回收方法，研究由CO2電解合成鑽石，並開發離子液體鈉、鉀二次電池。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "electrochemistry-10"
+    },
+    {
       "field": "photochemistry",
       "university": "東京科学大学",
       "department": "理学院 化学系",
@@ -7861,6 +8932,376 @@
         "Kobe University"
       ],
       "id": "photochemistry-2"
+    },
+    {
+      "field": "photochemistry",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 化学専攻",
+      "lab": "機能無機化学研究室（楊井研究室）",
+      "pi": "楊井 伸浩",
+      "pi_title": "教授",
+      "theme_zh": "利用分子三重态激子实现光子上转换与量子功能。",
+      "summary_zh": "以“分子”和“光”为关键词，利用分子三重态激子把长波长低能光转换为短波长高能光，研究近红外到可见、可见到紫外的光子上转换；并借助单线态裂分和光激发三重态开展动态核极化与分子量子传感。",
+      "keywords": [
+        "光子上转换",
+        "三重态激子",
+        "单线态裂分",
+        "动态核极化",
+        "量子传感"
+      ],
+      "url": "https://yanailab.chem.s.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.s.u-tokyo.ac.jp/ja/people/yanai_nobuhiro/",
+          "evidence": "理学系研究科教员页列杨井伸浩为化学专攻教授，研究领域为机能化学、配位化学、光化学、自旋化学，主题为光子上转换、超核极化和量子传感。"
+        },
+        {
+          "url": "https://www.chem.s.u-tokyo.ac.jp/chem_research/",
+          "evidence": "化学专攻教职员一览将杨井伸浩列为教授，所属机能无机化学研究室，并链接到研究室网站。"
+        },
+        {
+          "url": "https://yanailab.chem.s.u-tokyo.ac.jp/research",
+          "evidence": "研究概要说明利用分子三重态激子进行光子上转换，并研究单线态裂分、三重态动态核极化（triplet-DNP）和分子量子传感。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "三重項励起子を活用し、フォトン・アップコンバージョンと量子機能を拓く。",
+      "theme_en": "Harnessing molecular triplet excitons for photon upconversion, hyperpolarization and quantum functions.",
+      "summary_ja": "「分子」と「光」をキーワードに、分子の三重項励起子を利用して長波長光を短波長光に変換するフォトン・アップコンバージョンを研究します。シングレット・フィッションや光励起三重項による動的核偏極、分子量子センシングにも取り組みます。",
+      "summary_en": "Using molecules and light as its keywords, the lab converts long-wavelength, low-energy light into shorter-wavelength light through photon upconversion mediated by molecular triplet excitons. It also uses singlet fission and photoexcited triplets for dynamic nuclear polarization and molecular quantum sensing.",
+      "theme_tw": "利用分子三重態激子實現光子上轉換與量子功能。",
+      "summary_tw": "以「分子」和「光」為關鍵詞，利用分子三重態激子把長波長低能光轉換為短波長高能光，研究近紅外到可見、可見到紫外的光子上轉換；並藉助單線態分裂和光激發三重態開展動態核極化與分子量子感測。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "photochemistry-3"
+    },
+    {
+      "field": "photochemistry",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 化学・生命情報科学専攻",
+      "lab": "機能材料化学研究室（羽曾部研究室）",
+      "pi": "羽曾部 卓",
+      "pi_title": "教授",
+      "theme_zh": "构建功能性分子集合体，探索单线态裂分等光功能。",
+      "summary_zh": "以合成化学和超分子化学方法构建功能性分子集合体，结合时间分辨分光、电化学和电子显微镜评价其物性与结构，研究单线态裂分等光物理过程，面向太阳能转换、近红外发光材料和光驱动治疗等应用。",
+      "keywords": [
+        "分子集合体",
+        "单线态裂分",
+        "光能转换",
+        "时间分辨分光"
+      ],
+      "url": "https://hasobe.chem.keio.ac.jp/",
+      "references": [
+        {
+          "url": "https://chem.keio.ac.jp/about/staff/taku-hasobe/",
+          "evidence": "化学科教员页列羽曾部卓为机能材料化学研究室教授，关键词为分子集合体、光能转换、超分子电子学，研究生院所属化学・生命信息科学专攻。"
+        },
+        {
+          "url": "https://chem.keio.ac.jp/research/",
+          "evidence": "化学科研究页把机能材料化学研究室（羽曾部卓教授）的主题写为探索分子集合体的创新光功能。"
+        },
+        {
+          "url": "https://hasobe.chem.keio.ac.jp/",
+          "evidence": "研究室主页说明以有机功能材料的设计合成为基础，用时间分辨分光、电化学和电子显微镜评价物性与结构，并发布2026年单线态裂分相关论文消息。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "機能性分子集合体を創製し、一重項分裂などの新しい光機能を探る。",
+      "theme_en": "Building functional molecular assemblies to explore new photofunctions such as singlet fission.",
+      "summary_ja": "合成化学と超分子化学の手法で機能性分子集合体を創製し、時間分解分光、電気化学、電子顕微鏡で物性と構造を評価します。一重項分裂などの光物理過程を調べ、太陽エネルギー変換や近赤外発光材料、光駆動治療への展開を目指します。",
+      "summary_en": "Using synthetic and supramolecular chemistry, the group builds functional molecular assemblies and evaluates their properties and structures by time-resolved spectroscopy, electrochemistry and electron microscopy. Photophysical processes such as singlet fission are studied for solar energy conversion, near-infrared emitters and light-driven therapies.",
+      "theme_tw": "構建功能性分子集合體，探索單線態分裂等光功能。",
+      "summary_tw": "以合成化學和超分子化學方法構建功能性分子集合體，結合時間分辨分光、電化學和電子顯微鏡評價其物性與結構，研究單線態分裂等光物理過程，面向太陽能轉換、近紅外發光材料和光驅動治療等應用。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "photochemistry-4"
+    },
+    {
+      "field": "photochemistry",
+      "university": "神戸大学",
+      "department": "ライフ光学イノベーション研究センター／大学院理学研究科 化学専攻",
+      "lab": "小堀研究室",
+      "pi": "小堀 康博",
+      "pi_title": "教授",
+      "theme_zh": "用时间分辨电子自旋共振解析光致电荷分离。",
+      "summary_zh": "针对光合成蛋白、有机太阳能电池和光催化剂，用时间分辨电子自旋共振和自研的电子自旋极化成像法，测定光照后瞬间生成的电荷分离中间体的分子位置、轨道取向与相互作用，阐明光能转换的基本机制。",
+      "keywords": [
+        "时间分辨电子自旋共振",
+        "光致电荷分离",
+        "光合作用",
+        "有机太阳能电池"
+      ],
+      "url": "https://www.research.kobe-u.ac.jp/mprc/laser/kobori.html",
+      "references": [
+        {
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/doctor202610_4.pdf",
+          "evidence": "2026年度博士后期课程资料在化学专攻反应物理化学下列小堀康博教授，说明以时间分辨磁共振追踪光合成蛋白和有机太阳能电池初期过程中的短寿命活性种。"
+        },
+        {
+          "url": "https://www.research.kobe-u.ac.jp/mprc/laser/kobori.html",
+          "evidence": "研究中心页介绍小堀研究室用时间分辨电子自旋共振和自主开发的电子自旋极化成像法，解析蛋白质、太阳能电池和光催化剂中的初期电荷分离状态。"
+        },
+        {
+          "url": "https://www.kobe-u.ac.jp/ja/news/article/20250612-66725/",
+          "evidence": "2025年大学新闻介绍小堀康博教授等发现硼桥连三蒽分子中三重态激子引起的上转换发光与分子内电子自旋跳跃相关。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "時間分解電子スピン共鳴で光誘起電荷分離の構造と機構を解明する。",
+      "theme_en": "Resolving photoinduced charge separation with time-resolved electron spin resonance.",
+      "summary_ja": "光合成タンパク質、有機太陽電池、光触媒を対象に、時間分解電子スピン共鳴と独自の電子スピン分極イメージング法で、光照射直後の電荷分離中間体の分子配置や軌道の向き、相互作用を求め、光エネルギー変換の根源的な仕組みを解明します。",
+      "summary_en": "Studying photosynthetic proteins, organic solar cells and photocatalysts, the lab uses time-resolved electron spin resonance and its own electron-spin-polarization imaging method to determine the geometry, orbital orientation and interactions of short-lived charge-separated intermediates, revealing how molecules convert light energy.",
+      "theme_tw": "用時間分辨電子自旋共振解析光致電荷分離。",
+      "summary_tw": "針對光合成蛋白、有機太陽能電池和光催化劑，用時間分辨電子自旋共振和自研的電子自旋極化成像法，測定光照後瞬間生成的電荷分離中間體的分子位置、軌道取向與相互作用，闡明光能轉換的基本機制。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "photochemistry-5"
+    },
+    {
+      "field": "photochemistry",
+      "university": "立命館大学",
+      "department": "大学院生命科学研究科 生命科学専攻",
+      "lab": "光機能物理化学研究室（小林研究室）",
+      "pi": "小林 洋一",
+      "pi_title": "教授",
+      "theme_zh": "开发光致变色等光响应材料，探索新的光化学现象。",
+      "summary_zh": "以光照下颜色可逆变化的光致变色为中心，开发从有机光致变色化合物到无机纳米粒子的多种光响应功能材料；研究双光子等光反应和光物性，寻找并阐明新的光化学现象，面向更有效地利用光能。",
+      "keywords": [
+        "光致变色",
+        "双光子反应",
+        "纳米粒子",
+        "光响应材料"
+      ],
+      "url": "https://www.ritsumei.ac.jp/lifescience/achem/kbys/index.html",
+      "references": [
+        {
+          "url": "https://www.ritsumei.ac.jp/ls/staff/detail/?id=21",
+          "evidence": "生命科学部教员页列小林洋一为应用化学科教授，研究室为光机能物理化学研究室，专业为光化学和物理化学，研究以光致变色为中心。"
+        },
+        {
+          "url": "https://research-db.ritsumei.ac.jp/rithp/k03/resid/S001491",
+          "evidence": "研究者数据库（2026-10更新）显示其2023年起任生命科学部应用化学科教授，兼属生命科学研究科，关键词含光致变色、纳米粒子、双光子和光化学。"
+        },
+        {
+          "url": "https://www.ritsumei.ac.jp/gsls/education/faculty/",
+          "evidence": "生命科学研究科教员介绍在生命科学专攻应用化学课程下列小林洋一教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "私立",
+      "theme_ja": "フォトクロミック化合物などの光応答材料を開発し、新しい光化学現象を探る。",
+      "theme_en": "Developing photochromic and other photoresponsive materials to uncover new photochemical phenomena.",
+      "summary_ja": "光で色が可逆的に変わるフォトクロミズムを中心に、有機フォトクロミック化合物から無機ナノ粒子まで多様な光応答材料を開発します。二光子過程などの光反応や光物性を調べ、未知の光化学現象の発見と解明、光エネルギーの有効利用を目指します。",
+      "summary_en": "Centered on photochromism, the reversible color change of a substance under light, the lab develops photoresponsive materials ranging from organic photochromic compounds to inorganic nanoparticles. By studying photoreactions such as two-photon processes and photophysical properties, it seeks new photochemical phenomena and better ways to use light energy.",
+      "theme_tw": "開發光致變色等光響應材料，探索新的光化學現象。",
+      "summary_tw": "以光照下顏色可逆變化的光致變色為中心，開發從有機光致變色化合物到無機奈米粒子的多種光響應功能材料；研究雙光子等光反應和光物性，尋找並闡明新的光化學現象，面向更有效地利用光能。",
+      "aliases": [
+        "立命馆大学",
+        "立命館大學",
+        "Ritsumeikan University"
+      ],
+      "id": "photochemistry-6"
+    },
+    {
+      "field": "photochemistry",
+      "university": "東京都立大学",
+      "department": "大学院都市環境科学研究科 環境応用化学域",
+      "lab": "高木研究室",
+      "pi": "髙木 慎介",
+      "pi_title": "教授",
+      "theme_zh": "在粘土纳米片上排列色素，构建人工光合作用体系。",
+      "summary_zh": "以纳米结构化学为基础，把卟啉等色素分子规则排列在粘土纳米片、金纳米粒子等固体表面，控制分子间的能量转移与电子流动，构建人工光捕集体系和可见光驱动的物质转换反应，目标是实现人工光合作用。",
+      "keywords": [
+        "人工光合作用",
+        "光捕集",
+        "粘土纳米片",
+        "卟啉",
+        "能量转移"
+      ],
+      "url": "https://takagi.fpark.tmu.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.tmu.ac.jp/stafflist/data/ta/577.html",
+          "evidence": "大学教员介绍列髙木慎介为都市环境科学研究科环境应用化学域教授，专业为光化学、纳米结构化学、卟啉化学和粘土科学，关键词含人工光合作用和人工光捕集系，并链接研究室网站。"
+        },
+        {
+          "url": "https://takagi.fpark.tmu.ac.jp/",
+          "evidence": "研究室主页以基于纳米结构化学开发新型光化学・催化反应为主题，介绍在粘土纳米片、金纳米粒子等固体表面排列分子以控制电子和能量流动，并有2026年动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "公立",
+      "theme_ja": "粘土ナノシート上に色素を配列し、人工光合成系を構築する。",
+      "theme_en": "Arranging dyes on clay nanosheets to build artificial photosynthetic systems.",
+      "summary_ja": "ナノ構造化学を基盤に、ポルフィリンなどの色素分子を粘土ナノシートや金ナノ粒子の表面に規則的に配列し、分子間のエネルギー移動や電子の流れを制御します。人工光捕集系と可視光駆動の物質変換を組み合わせ、人工光合成の実現を目指します。",
+      "summary_en": "Based on nanostructure chemistry, the lab arranges dye molecules such as porphyrins on solid surfaces including clay nanosheets and gold nanoparticles to control energy transfer and electron flow. Combining artificial light-harvesting systems with visible-light-driven conversion reactions, it works toward artificial photosynthesis.",
+      "theme_tw": "在黏土奈米片上排列色素，構建人工光合作用體系。",
+      "summary_tw": "以奈米結構化學為基礎，把卟啉等色素分子規則排列在黏土奈米片、金奈米粒子等固體表面，控制分子間的能量轉移與電子流動，構建人工光捕集體系和可見光驅動的物質轉換反應，目標是實現人工光合作用。",
+      "aliases": [
+        "东京都立大学",
+        "東京都立大學",
+        "Tokyo Metropolitan University"
+      ],
+      "id": "photochemistry-7"
+    },
+    {
+      "field": "photochemistry",
+      "university": "北海道大学",
+      "department": "大学院総合化学院 分子化学コース",
+      "lab": "分析化学研究室（上野研究室）",
+      "pi": "上野 貢生",
+      "pi_title": "教授",
+      "theme_zh": "用等离激元纳米结构的光场控制分子激发态与反应。",
+      "summary_zh": "以单纳米精度加工等离激元金属、石墨烯和过渡金属二硫化物等纳米结构，用分光和飞秒时间分辨测量解析其与分子间的相互作用，并尝试利用光场（Purcell效应）调控激发态和振动弛豫，以控制化学反应。",
+      "keywords": [
+        "等离激元",
+        "飞秒分光",
+        "激发态动力学",
+        "纳米加工",
+        "光场反应控制"
+      ],
+      "url": "https://wwwchem.sci.hokudai.ac.jp/~bunseki/",
+      "references": [
+        {
+          "url": "https://www2.sci.hokudai.ac.jp/faculty/researcher/kosei-ueno",
+          "evidence": "理学研究院教员页列上野贡生为化学部门无机・分析化学分野教授，主题为金属・半导体纳米结构中的光与物质相互作用及利用电子・振动动力学控制化学反应，关键词含光化学、等离激元学和飞秒泵浦探测。"
+        },
+        {
+          "url": "https://www.cse.hokudai.ac.jp/lab/551/",
+          "evidence": "总合化学院研究室页列分析化学研究室上野贡生教授，研究主题含等离激元化学・纳米光物性、振动分光技术和光化学过程的飞秒分光。"
+        },
+        {
+          "url": "https://wwwchem.sci.hokudai.ac.jp/~bunseki/",
+          "evidence": "研究室主页说明精密加工等离激元金属和半导体纳米结构，用飞秒时间分辨测量研究激发态与振动弛豫动力学，并尝试以光场（Purcell效应）控制化学反应；有2026年11月动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "プラズモンナノ構造の光場で分子の励起状態と化学反応を制御する。",
+      "theme_en": "Controlling molecular excited states and reactions with optical fields of plasmonic nanostructures.",
+      "summary_ja": "プラズモン共鳴を示す金属やグラフェン、遷移金属ダイカルコゲナイドのナノ構造を単一ナノメートル精度で作製し、分光とフェムト秒時間分解計測で分子との相互作用を解明します。光場で励起状態や振動の緩和を制御し、反応制御を目指します。",
+      "summary_en": "The lab fabricates plasmonic metal, graphene and transition-metal dichalcogenide nanostructures with single-nanometer precision and uses spectroscopy and femtosecond time-resolved measurements to reveal their interactions with molecules. It aims to control excited-state and vibrational relaxation, and thus chemical reactions, with optical fields such as Purcell effects.",
+      "theme_tw": "用電漿子奈米結構的光場控制分子激發態與反應。",
+      "summary_tw": "以單奈米精度加工電漿子金屬、石墨烯和過渡金屬二硫族化物等奈米結構，用分光和飛秒時間分辨測量解析其與分子間的相互作用，並嘗試利用光場（Purcell效應）調控激發態和振動弛豫，以控制化學反應。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "photochemistry-8"
+    },
+    {
+      "field": "photochemistry",
+      "university": "九州大学",
+      "department": "高等研究院／大学院工学府 応用化学専攻",
+      "lab": "安田研究室",
+      "pi": "安田 琢麿",
+      "pi_title": "教授",
+      "theme_zh": "设计热活化延迟荧光分子，调控激发态动力学。",
+      "summary_zh": "以光活性和电活性π共轭分子为对象研究有机激子学，通过分子设计控制激发态动力学与自组织；开发多重共振型热活化延迟荧光等窄带发光材料，加快单重态与三重态间的自旋转换，用于有机EL和有机太阳能电池。",
+      "keywords": [
+        "热活化延迟荧光",
+        "有机激子学",
+        "激发态动力学",
+        "有机EL",
+        "窄带发光"
+      ],
+      "url": "https://yasuda-group.com/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/search/details/K003639",
+          "evidence": "九州大学研究者信息（2026-10-30更新）列安田琢麿为高等研究院教授，并任工学府应用化学专攻，研究涉及光活性π共轭分子材料、有机激子学和激发态动力学控制，并链接安田研究室主页。"
+        },
+        {
+          "url": "https://ias.kyushu-u.ac.jp/staff/view.php?cId=744&divi=4",
+          "evidence": "高等研究院教员介绍列安田琢麿教授，专业为机能有机材料化学、物理有机化学、光化学和有机电子学。"
+        },
+        {
+          "url": "https://yasuda-group.com/",
+          "evidence": "研究室主页（九州大学高等研究院安田研究室）发布2026年多重共振型TADF、硫族元素加速自旋转换等窄带发光材料研究动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "熱活性化遅延蛍光分子を設計し、励起状態ダイナミクスを制御する。",
+      "theme_en": "Designing thermally activated delayed fluorescence emitters by controlling excited-state dynamics.",
+      "summary_ja": "光・電気活性なπ共役分子を対象に有機エキシトニクスを研究し、分子設計により励起状態ダイナミクスと自己組織化を制御します。多重共鳴型熱活性化遅延蛍光などの狭帯域発光材料や高速スピン変換を探り、有機ELや有機太陽電池へ展開します。",
+      "summary_en": "Focusing on photoactive and electroactive π-conjugated molecules, the group studies organic excitonics and controls excited-state dynamics and molecular self-organization through molecular design. It develops narrowband emitters such as multiple-resonance thermally activated delayed fluorescence materials with fast spin conversion for organic LEDs and solar cells.",
+      "theme_tw": "設計熱活化延遲螢光分子，調控激發態動力學。",
+      "summary_tw": "以光活性和電活性π共軛分子為對象研究有機激子學，透過分子設計控制激發態動力學與自組織；開發多重共振型熱活化延遲螢光等窄帶發光材料，加快單重態與三重態間的自旋轉換，用於有機EL和有機太陽能電池。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "photochemistry-9"
+    },
+    {
+      "field": "photochemistry",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻 化学講座",
+      "lab": "機能有機化学研究室（山口研究室）",
+      "pi": "山口 茂弘",
+      "pi_title": "教授",
+      "theme_zh": "利用典型元素设计具有独特光物性的π电子分子。",
+      "summary_zh": "以决定分子颜色和发光的π电子为核心，利用硼等典型元素的特点设计合成功能性π电子分子，研究其独特的光物性与电子物性；开发近红外荧光探针和温度响应型发光分子，并用于活细胞荧光成像。",
+      "keywords": [
+        "π电子体系",
+        "典型元素",
+        "荧光探针",
+        "近红外发光"
+      ],
+      "url": "https://orgreact.chem.nagoya-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.chem.nagoya-u.ac.jp/staff/",
+          "evidence": "化学科（理学研究科理学专攻化学讲座）教员名录在有机化学系列山口茂弘为教授，所属机能有机化学研究室（山口研究室）。"
+        },
+        {
+          "url": "https://orgreact.chem.nagoya-u.ac.jp/members/yamaguchi-shigehiro/index.html",
+          "evidence": "研究室成员页列山口茂弘为教授，所属ITbM和物质科学国际研究中心并兼任理学研究科，专业为典型元素化学、结构有机化学、物理有机化学和有机材料化学。"
+        },
+        {
+          "url": "https://www.chem.nagoya-u.ac.jp/en/lab/",
+          "evidence": "化学科研究室介绍说明山口研究组以决定分子颜色和发光等性质的π电子为中心，挑战创造新型功能分子。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "典型元素を活かし、特異な光物性をもつπ電子系分子を創出する。",
+      "theme_en": "Creating π-electron molecules with distinctive photophysical properties by exploiting main-group elements.",
+      "summary_ja": "分子の色や発光を決めるπ電子に着目し、ホウ素などの典型元素の特徴を生かした機能性π電子系分子を設計し、特異な光物性と電子物性を探ります。近赤外蛍光プローブや温度応答性発光分子を開発し、生細胞の蛍光イメージングにも展開します。",
+      "summary_en": "Focusing on the π electrons that determine molecular color and luminescence, the group designs functional π-electron molecules that exploit main-group elements such as boron and studies their unusual photophysical and electronic properties. It develops near-infrared fluorescent probes and temperature-responsive emitters, including tools for live-cell imaging.",
+      "theme_tw": "利用典型元素設計具有獨特光物性的π電子分子。",
+      "summary_tw": "以決定分子顏色和發光的π電子為核心，利用硼等典型元素的特點設計合成功能性π電子分子，研究其獨特的光物性與電子物性；開發近紅外螢光探針和溫度響應型發光分子，並用於活細胞螢光成像。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "photochemistry-10"
     },
     {
       "field": "chemical_biology",
