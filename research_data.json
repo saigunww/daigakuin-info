@@ -1,6 +1,39 @@
 {
   "items": [
     {
+      "id": "doi:10.1093/nar/gkag1076",
+      "doi": "10.1093/nar/gkag1076",
+      "title": "Evo2VED: a database of DNA large language model-derived scores for variant interpretation.",
+      "summary": "",
+      "source": "Nucleic acids research",
+      "published_at": "2026-11-13",
+      "url": "https://doi.org/10.1093/nar/gkag1076",
+      "added_on": "2026-11-14",
+      "category": "biology"
+    },
+    {
+      "id": "doi:10.1186/s11671-026-05138-9",
+      "doi": "10.1186/s11671-026-05138-9",
+      "title": "Green synthesis of stable gold and silver nanoparticles using aqueous extract of Sargassum spp. and their application in catalysis.",
+      "summary": "",
+      "source": "Discover nano",
+      "published_at": "2026-11-12",
+      "url": "https://doi.org/10.1186/s11671-026-05138-9",
+      "added_on": "2026-11-14",
+      "category": "chemistry"
+    },
+    {
+      "id": "doi:10.1039/d6ay01549b",
+      "doi": "10.1039/d6ay01549b",
+      "title": "Machine learning-driven SERS fingerprinting for high-accuracy serum screening of hepatic inflammation in mice.",
+      "summary": "",
+      "source": "Analytical methods : advancing methods and applications",
+      "published_at": "2026-11-12",
+      "url": "https://doi.org/10.1039/d6ay01549b",
+      "added_on": "2026-11-14",
+      "category": "ai"
+    },
+    {
       "id": "doi:10.1017/thg.2026.10113",
       "doi": "10.1017/thg.2026.10113",
       "title": "Detection of Silent Carriers of Spinal Muscular Atrophy: A Survey of Clinical Practice and Recommendations for Screening.",
@@ -67,5 +100,5 @@
       "category": "ai"
     }
   ],
-  "updated_at": "2026-11-13T00:18:15+09:00"
+  "updated_at": "2026-11-14T00:18:44+09:00"
 }
