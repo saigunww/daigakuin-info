@@ -1,4 +1,4 @@
-"""Browser checks for Tokyo half-year windows, subject grouping and rollover."""
+"""Check overlapping January–September and October–March course periods."""
 from collections import Counter
 from datetime import datetime
 from functools import partial
@@ -38,10 +38,17 @@ def check_snapshot(page, source, start, end):
     return counts
 
 
+def check_period_label(page, terms, language='zh'):
+    def label(value):
+        return value if language=='en' else f'{value[:4]}年{int(value[5:7])}月'
+    expected=' ＋ '.join(label(start)+' — '+label(end) for start,end in terms)
+    assert page.locator('#schedule-period strong').inner_text()==expected
+
+
 def main():
     source=json.loads((ROOT/'schedule_data.json').read_text())['items']
     errors=[]
-    report=ROOT.parent/'维护记录/2026-11-12/课表移除来源链接'
+    report=ROOT.parent/'维护记录/2026-11-13/课表分期更正'
     report.mkdir(parents=True,exist_ok=True)
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(QuietHandler,directory=str(ROOT)))
     Thread(target=server.serve_forever,daemon=True).start()
@@ -65,21 +72,55 @@ def main():
                 assert page.locator('#course-query').input_value()=='有机化学'
                 assert page.locator('[data-course-subject="有機化学"] tbody tr').count()==organic
                 assert page.locator('#schedule-period').get_attribute('data-start')=='2026-10-01'
+                check_period_label(page,[('2026-10','2027-03')],lang)
                 assert page.locator('#schedule-live a').count()==0
             page.fill('#course-query','no-match-xyz')
             assert not rows(page)
             assert page.locator('#course-results .feed-empty').count()==1
             page.fill('#course-query','')
             page.evaluate("switchToLang('zh')")
-            page.screenshot(path=str(report/'chemistry-half-year-desktop.png'))
+            page.screenshot(path=str(report/'chemistry-period-desktop.png'))
             page.locator('[data-course-group="bio"]').click()
             page.set_viewport_size({'width':390,'height':844})
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-            page.screenshot(path=str(report/'biology-half-year-mobile.png'))
+            page.screenshot(path=str(report/'biology-period-mobile.png'))
+
+            # The live source includes January classes from the new January
+            # cohort alongside the preceding autumn cohort. Keep both, and
+            # retain January–March classes in the January–September period.
+            page.clock.set_fixed_time(datetime.fromisoformat('2026-01-15T12:00:00+09:00'))
+            page.evaluate("window.dispatchEvent(new Event('pageshow'))")
+            page.wait_for_load_state('networkidle')
+            overlapping=check_snapshot(page,source,'2025-10-01','2026-10-01')
+            check_period_label(page,[('2025-10','2026-03'),('2026-01','2026-09')])
+            for group in ('bio','chem'):
+                page.locator(f'[data-course-group="{group}"]').click()
+                names=[r[2] for r in rows(page) if r[0].startswith('2026-01')]
+                assert any(name.startswith('26年1月期') for name in names)
+                assert any(name.startswith('25年秋期') for name in names)
+            page.clock.set_fixed_time(datetime.fromisoformat('2026-04-01T00:00:00+09:00'))
+            page.evaluate("window.dispatchEvent(new Event('pageshow'))")
+            page.wait_for_load_state('networkidle')
+            january_counts=check_snapshot(page,source,'2026-01-01','2026-10-01')
+            assert january_counts=={'bio':74,'chem':73}
+            check_period_label(page,[('2026-01','2026-09')])
+            page.screenshot(path=str(report/'january-september-mobile.png'))
+            # The independent course introduction still follows its April
+            # entry-year rollover, while the timetable stays in calendar 2026.
+            page.evaluate("switchTab('intro');switchCourseTab('bio')")
+            page.locator('[data-course-flow="bio"][data-entry-year="2027"]').wait_for(state='attached')
+            page.evaluate("switchTab('schedule')")
 
             # Edge-date fixtures distinguish inclusive start, exclusive end, leap day and year changes.
-            dates=['2024-02-29','2026-03-31','2026-04-01','2026-09-30','2026-10-01','2026-12-31','2027-01-01','2027-03-31','2027-04-01','2027-09-30','2027-10-01']
+            dates=['2023-09-30','2023-10-01','2024-01-01','2024-02-29','2024-03-31','2024-04-01','2024-09-30','2024-10-01','2025-09-30','2025-10-01','2025-12-31','2026-01-01','2026-03-31','2026-04-01','2026-09-30','2026-10-01','2026-12-31','2027-01-01','2027-03-31','2027-04-01','2027-09-30','2027-10-01','2028-03-31','2028-04-01']
             fixtures=[{'course':'边界测试课程','date':date,'start_time':'09:00','end_time':'10:00','session':str(i+1),'topic':date,'group':group,'weekday':datetime.fromisoformat(date).weekday()} for i,date in enumerate(dates) for group in ('bio','chem')]
+            # Same day, subject and time can belong to different cohorts.
+            # They must survive even though both periods include that day.
+            for group in ('bio','chem'):
+                for term in ('26年10月期','27年1月期'):
+                    fixtures.append({'course':term+('生物学' if group=='bio' else '化学')+'必修课程',
+                                     'date':'2027-01-01','start_time':'09:00','end_time':'10:00',
+                                     'session':'1','topic':'重叠班期','group':group,'weekday':4})
             snapshot={'items':fixtures,'updated_at':CURRENT,'source_url':'https://example.com/timetable'}
             boundary=context.new_page()
             boundary.on('pageerror',lambda error:errors.append(str(error)))
@@ -95,24 +136,36 @@ def main():
             wait_for_snapshot()
             boundary.evaluate("switchToLang('zh');switchTab('schedule')")
             cases=[
-                ('2024-02-29T12:00:00+09:00','2023-10-01','2024-04-01'),
-                ('2026-03-31T14:59:59+00:00','2025-10-01','2026-04-01'),
-                ('2026-03-31T15:00:00+00:00','2026-04-01','2026-10-01'),
-                ('2026-09-30T14:59:59+00:00','2026-04-01','2026-10-01'),
+                ('2024-02-29T12:00:00+09:00','2023-10-01','2024-10-01'),
+                ('2025-12-31T14:59:59+00:00','2025-10-01','2026-04-01'),
+                ('2025-12-31T15:00:00+00:00','2025-10-01','2026-10-01'),
+                ('2026-03-31T14:59:59+00:00','2025-10-01','2026-10-01'),
+                ('2026-03-31T15:00:00+00:00','2026-01-01','2026-10-01'),
+                ('2026-09-30T14:59:59+00:00','2026-01-01','2026-10-01'),
                 ('2026-09-30T15:00:00+00:00','2026-10-01','2027-04-01'),
-                ('2027-01-01T00:00:00+09:00','2026-10-01','2027-04-01'),
-                ('2027-03-31T14:59:59+00:00','2026-10-01','2027-04-01'),
-                ('2027-03-31T15:00:00+00:00','2027-04-01','2027-10-01'),
+                ('2026-12-31T14:59:59+00:00','2026-10-01','2027-04-01'),
+                ('2026-12-31T15:00:00+00:00','2026-10-01','2027-10-01'),
+                ('2027-03-31T14:59:59+00:00','2026-10-01','2027-10-01'),
+                ('2027-03-31T15:00:00+00:00','2027-01-01','2027-10-01'),
             ]
             for instant,start,end in cases:
                 before=len(served)
-                old=boundary.locator('#schedule-period').get_attribute('data-start')
+                old=(boundary.locator('#schedule-period').get_attribute('data-start'),boundary.locator('#schedule-period').get_attribute('data-end'))
                 boundary.clock.set_fixed_time(datetime.fromisoformat(instant))
                 boundary.evaluate("window.dispatchEvent(new Event('pageshow'))")
                 boundary.wait_for_load_state('networkidle')
                 wait_for_snapshot()
                 check_snapshot(boundary,fixtures,start,end)
-                assert len(served)==before+(old!=start),'Rollover must refetch the source'
+                assert len(served)==before+(old!=(start,end)),'Changed start or end must refetch the source'
+                if len(start)==10 and start[5:7]=='10' and end[5:7]=='10':
+                    for lang in ('ja','zh','tw','en'):
+                        boundary.evaluate('(lang)=>switchToLang(lang)',lang)
+                        check_period_label(boundary,[(start[:7],end[:4]+'-03'),(end[:4]+'-01',end[:4]+'-09')],lang)
+                        assert boundary.locator('#schedule-live a').count()==0
+                    boundary.evaluate("switchToLang('zh')")
+                    boundary.set_viewport_size({'width':390,'height':844})
+                    assert boundary.evaluate('document.documentElement.scrollWidth<=innerWidth')
+                    boundary.screenshot(path=str(report/'overlapping-periods-mobile.png'))
             # Crossing October while the tab remains open must also switch on the minute timer.
             before=len(served)
             boundary.clock.set_fixed_time(datetime.fromisoformat('2027-10-01T00:00:00+09:00'))
@@ -125,17 +178,25 @@ def main():
             boundary.evaluate("document.dispatchEvent(new Event('visibilitychange'))")
             boundary.wait_for_load_state('networkidle')
             wait_for_snapshot()
-            assert boundary.locator('#schedule-period').get_attribute('data-start')=='2028-04-01'
+            assert boundary.locator('#schedule-period').get_attribute('data-start')=='2028-01-01'
+            # This April source includes the edge-date fixture, so use a
+            # later year to verify an entirely empty next period.
+            check_snapshot(boundary,fixtures,'2028-01-01','2028-10-01')
+            boundary.clock.set_fixed_time(datetime.fromisoformat('2029-04-01T00:00:00+09:00'))
+            boundary.evaluate("document.dispatchEvent(new Event('visibilitychange'))")
+            boundary.wait_for_load_state('networkidle')
+            wait_for_snapshot()
+            assert boundary.locator('#schedule-period').get_attribute('data-start')=='2029-01-01'
             assert not rows(boundary)
             assert '本期暂无课程' in boundary.locator('#course-results').inner_text()
-            # The next rollover cannot silently fall back to a previous half-year on failure.
+            # A failed refresh cannot fall back to a previous period.
             boundary.unroute('**/schedule_data.json',respond)
             boundary.route('**/schedule_data.json',lambda route:route.fulfill(status=503,body='Unavailable'))
-            boundary.clock.set_fixed_time(datetime.fromisoformat('2028-10-01T00:00:00+09:00'))
+            boundary.clock.set_fixed_time(datetime.fromisoformat('2029-10-01T00:00:00+09:00'))
             with boundary.expect_response(lambda response:'schedule_data.json' in response.url and response.status==503):
                 boundary.evaluate("window.dispatchEvent(new Event('pageshow'))")
             boundary.wait_for_load_state('networkidle')
-            assert boundary.locator('#schedule-period').get_attribute('data-start')=='2028-10-01'
+            assert boundary.locator('#schedule-period').get_attribute('data-start')=='2029-10-01'
             assert not rows(boundary)
             boundary.locator('[data-feed-error="schedule"]').wait_for(state='attached')
             assert boundary.locator('[data-feed-error="schedule"]').count()==1
@@ -150,7 +211,7 @@ def main():
             assert boundary.locator('[data-feed-error="schedule"]').count()==0
             assert not rows(boundary)
             assert not errors,errors
-            result={'source_classes':len(source),'visible_classes':sum(counts.values()),'counts':counts,'period_start':'2026-10-01','period_end_exclusive':'2027-04-01','period_boundaries_verified':True,'tokyo_timezone_verified':True,'automatic_rollover_and_refetch_verified':True,'empty_period_and_failed_refresh_verified':True,'automatic_retry_verified':True,'languages_search_and_mobile_verified':True,'browser_errors':errors}
+            result={'source_classes':len(source),'visible_classes':sum(counts.values()),'counts':counts,'january_september_counts':january_counts,'overlapping_period_counts':overlapping,'period_start':'2026-10-01','period_end_exclusive':'2027-04-01','period_boundaries_verified':True,'overlap_without_duplicate_source_rows':True,'different_cohorts_preserved':True,'tokyo_timezone_verified':True,'automatic_rollover_and_refetch_verified':True,'empty_period_and_failed_refresh_verified':True,'automatic_retry_verified':True,'languages_search_and_mobile_verified':True,'browser_errors':errors}
             (report/'browser-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
             print(json.dumps(result,ensure_ascii=False))
             browser.close()
