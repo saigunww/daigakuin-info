@@ -586,6 +586,384 @@
       "id": "genetics_epigenetics-2"
     },
     {
+      "field": "genetics_epigenetics",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 生物科学専攻",
+      "lab": "染色体構造機能学研究室",
+      "pi": "小布施 力史",
+      "pi_title": "教授",
+      "theme_zh": "解析表观基因组标记如何转化为染色质高级结构。",
+      "summary_zh": "以人类细胞为对象，研究DNA如何与蛋白质、RNA协同收纳于细胞核并传给子代细胞。重点解析DNA甲基化、组蛋白修饰等标记如何转化为失活X染色体凝缩等染色质高级结构，并结合成像、测序和质谱。",
+      "keywords": [
+        "表观基因组",
+        "染色质高级结构",
+        "X染色体失活",
+        "组蛋白修饰",
+        "质谱"
+      ],
+      "url": "https://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/obuse/",
+      "references": [
+        {
+          "url": "https://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/obuse/",
+          "evidence": "研究室主页为理学研究科生物科学专攻染色体构造机能学研究室（小布施研究室），说明研究遗传信息如何收纳于细胞核、传给下一代并调控表达；2026年4月仍有论文发表动态。"
+        },
+        {
+          "url": "https://orca01.bio.sci.osaka-u.ac.jp/pdf/r08_lab_annai.pdf",
+          "evidence": "2026年度理学研究科生物科学专攻研究室指南列出染色体构造机能学研究室、小布施力史教授，介绍表观基因组标记如何转换为染色质高级结构及失活X染色体凝缩研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "エピゲノムの目印がクロマチン高次構造へ変換される仕組みを探る。",
+      "theme_en": "Exploring how epigenomic marks are converted into higher-order chromatin structure.",
+      "summary_ja": "ヒト細胞を用い、DNAがタンパク質やRNAと協働して核に収納され受け継がれる仕組みを研究。DNAメチル化やヒストン修飾などの目印が、不活性X染色体の凝縮などクロマチン高次構造へ変換される機構を、イメージングや質量分析で解析する。",
+      "summary_en": "Mainly using human cells, the lab studies how DNA works with proteins and RNA to be packaged in the nucleus and inherited by daughter cells. It asks how marks such as DNA methylation and histone modifications become higher-order chromatin, such as the condensed inactive X chromosome, using genome editing, imaging, sequencing and mass spectrometry.",
+      "theme_tw": "解析表觀基因體標記如何轉化為染色質高級結構。",
+      "summary_tw": "以人類細胞為對象，研究DNA如何與蛋白質、RNA協同收納於細胞核並傳給子代細胞。重點解析DNA甲基化、組蛋白修飾等標記如何轉化為失活X染色體凝縮等染色質高級結構，並結合影像、定序和質譜。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "genetics_epigenetics-3"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "東京科学大学",
+      "department": "総合研究院 細胞制御工学研究センター／生命理工学院 生命理工学系",
+      "lab": "木村研究室",
+      "pi": "木村 宏",
+      "pi_title": "教授",
+      "theme_zh": "在活细胞和活体中追踪组蛋白修饰与转录动态。",
+      "summary_zh": "研究细胞如何根据功能和外界信号按需表达遗传信息。利用特异性抗体等工具在活细胞中观察组蛋白修饰和RNA聚合酶II的动态，并开发可在活体组织中定位转录位点的小鼠，从染色质动态理解表观遗传调控。",
+      "keywords": [
+        "表观遗传",
+        "组蛋白修饰",
+        "活细胞成像",
+        "转录",
+        "染色质动态"
+      ],
+      "url": "https://educ.titech.ac.jp/bio/news/2017_06/052734.html",
+      "references": [
+        {
+          "url": "https://educ.titech.ac.jp/bio/news/2017_06/052734.html",
+          "evidence": "生命理工学院研究室介绍页：木村研究室（木村宏教授，生命理工学系、主要担当生命理工学课程），主题为活细胞与活体内的表观遗传动态调控，观察组蛋白修饰和RNA聚合酶II的动态。"
+        },
+        {
+          "url": "https://strdb.s.isct.ac.jp/html/100002188_ja.html",
+          "evidence": "东京科学大学研究者数据库（2026年11月更新）列出木村宏教授，所属综合研究院细胞制御工学研究中心，关键词包括染色质、组蛋白、表观遗传、活细胞观察。"
+        },
+        {
+          "url": "https://www.isct.ac.jp/ja/news/fadursnq0u44",
+          "evidence": "2025年9月大学新闻：木村宏教授等制作出可在活体组织中观察基因转录位置的小鼠（识别磷酸化RNA聚合酶II的荧光细胞内抗体）。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "生細胞・生体内でヒストン修飾と転写のダイナミクスを可視化する。",
+      "theme_en": "Visualizing histone modification and transcription dynamics in living cells and organisms.",
+      "summary_ja": "細胞が機能や外部シグナルに応じて遺伝情報を発現させる仕組みを研究。特異抗体を用いて生細胞内のヒストン修飾やRNAポリメラーゼIIの動態を観察し、生体組織で転写の場を可視化できるマウスも開発して、エピジェネティクス制御を理解する。",
+      "summary_en": "Studies how cells express the genetic information they need in response to their functions and external signals. Using tools such as specific antibodies, the lab tracks histone modifications and RNA polymerase II in living cells, and has developed mice that reveal where genes are transcribed in living tissues.",
+      "theme_tw": "在活細胞和活體中追蹤組蛋白修飾與轉錄動態。",
+      "summary_tw": "研究細胞如何根據功能和外界訊號按需表達遺傳資訊。利用特異性抗體等工具在活細胞中觀察組蛋白修飾和RNA聚合酶II的動態，並開發可在活體組織中定位轉錄位點的小鼠，從染色質動態理解表觀遺傳調控。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "genetics_epigenetics-4"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "名古屋大学",
+      "department": "大学院生命農学研究科 動物科学専攻",
+      "lab": "ゲノム・エピゲノムダイナミクス研究室",
+      "pi": "一柳 健司",
+      "pi_title": "教授",
+      "theme_zh": "研究生殖细胞表观基因组如何抑制转座子。",
+      "summary_zh": "关注生殖细胞的表观基因组，研究生殖细胞如何防止基因组突变。利用基因改造小鼠，解析piRNA、DNA甲基化和组蛋白甲基化如何抑制转座子转移，以及抑制失效导致减数分裂停滞和不育的机制。",
+      "keywords": [
+        "DNA甲基化",
+        "piRNA",
+        "转座子",
+        "生殖细胞",
+        "表观基因组"
+      ],
+      "url": "https://shigen.agr.nagoya-u.ac.jp/2022/09/08/1228/",
+      "references": [
+        {
+          "url": "https://shigen.agr.nagoya-u.ac.jp/2022/09/08/1228/",
+          "evidence": "农学部资源生物科学科研究室介绍页（2024年3月更新）：ゲノム・エピゲノムダイナミクス研究室、一柳健司教授，研究piRNA、DNA甲基化和组蛋白甲基化如何抑制生殖细胞中的转座子。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100009306_ja.html",
+          "evidence": "名古屋大学研究者总览（2026年7月更新）：一柳健司为大学院生命农学研究科动物科学专攻教授（2016年7月至今），关键词含DNA甲基化、piRNA、逆转座子、世代间表观遗传。"
+        },
+        {
+          "url": "https://www.nagoya-u.ac.jp/researchinfo/result/2025/11/dna-2.html",
+          "evidence": "2025年11月研究成果：一柳健司教授（ゲノム・エピゲノムダイナミクス研究室）团队发现精子形成过程中DNA甲基化维持逆转座子上的组蛋白修饰。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "生殖細胞のエピゲノムによるトランスポゾン抑制の仕組みを探る。",
+      "theme_en": "Investigating how the germline epigenome keeps transposons in check.",
+      "summary_ja": "生殖細胞のエピゲノムに着目し、ゲノムの突然変異を防ぐ仕組みを研究。遺伝子改変マウスを用いて、piRNA、DNAメチル化、ヒストンメチル化がトランスポゾンの転移を抑える機構と、その破綻による減数分裂停止・不妊を解析する。",
+      "summary_en": "Focuses on the germline epigenome, the chemical modifications of DNA and histones, to learn how germ cells prevent mutations in their genomes. Using genetically modified mice, the lab analyzes how piRNAs, DNA methylation and histone methylation suppress transposon mobilization, and how failure of this control halts meiosis and causes infertility.",
+      "theme_tw": "研究生殖細胞表觀基因體如何抑制轉位子。",
+      "summary_tw": "關注生殖細胞的表觀基因體，研究生殖細胞如何防止基因體突變。利用基因改造小鼠，解析piRNA、DNA甲基化和組蛋白甲基化如何抑制轉位子轉移，以及抑制失效導致減數分裂停滯和不孕的機制。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "genetics_epigenetics-5"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "東京大学",
+      "department": "定量生命科学研究所／大学院医学系研究科 分子細胞生物学専攻",
+      "lab": "ゲノム情報解析研究分野（白髭研究室）",
+      "pi": "白髭 克彦",
+      "pi_title": "教授",
+      "theme_zh": "以黏连蛋白为线索解析染色体调控遗传信息的机制。",
+      "summary_zh": "结合基因组解析、生化学和遗传学，研究染色体如何调控遗传信息并准确传给子代细胞。重点解析黏连蛋白与转录因子、染色质重塑因子协同调控转录的机制，利用体外转录重构和罕见遗传病患者细胞开展研究。",
+      "keywords": [
+        "黏连蛋白",
+        "染色体",
+        "转录调控",
+        "罕见遗传病",
+        "基因组解析"
+      ],
+      "url": "https://www.iqb.u-tokyo.ac.jp/lab/shirahige/",
+      "references": [
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/lab/shirahige/",
+          "evidence": "定量生命科学研究所研究室页：ゲノム情報解析研究分野白髭克彦教授（医学系研究科分子细胞生物学专攻等），结合基因组解析、生化学和遗传学研究黏连蛋白、转录调控及罕见遗传病。"
+        },
+        {
+          "url": "https://www.m.u-tokyo.ac.jp/departments/graduateschool.html",
+          "evidence": "医学系研究科组织页面在分子细胞生物学专攻生化学·分子生物学讲座遗传情报学下列出白髭克彦教授（定量生命科学研究所·基因组情报解析）。"
+        },
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/pressrelease/20250221/",
+          "evidence": "2025年2月新闻稿：白髭克彦教授团队分析Cornelia de Lange综合征等患者细胞，发现增强子处黏连蛋白、BRD4和H3K27ac减少、增强子环结构减弱。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "コヒーシンを軸に染色体による遺伝情報制御の仕組みを解明する。",
+      "theme_en": "Deciphering how chromosomes regulate genetic information, with cohesin as the key.",
+      "summary_ja": "ゲノム解析、生化学、遺伝学を組み合わせ、染色体による遺伝情報の制御と継承を研究。コヒーシンが転写活性化因子やクロマチンリモデリング因子と協調して転写を制御する仕組みを、試験管内転写再構成系や希少疾患の患者由来細胞で解明する。",
+      "summary_en": "Combines genomics, biochemistry and genetics to study how chromosomes regulate genetic information and pass it accurately to daughter cells. The lab examines how cohesin works with transcriptional activators and chromatin remodelers to control transcription, using in vitro transcription reconstitution and cells from patients with rare genetic disorders.",
+      "theme_tw": "以黏連蛋白為線索解析染色體調控遺傳資訊的機制。",
+      "summary_tw": "結合基因體解析、生化學和遺傳學，研究染色體如何調控遺傳資訊並準確傳給子代細胞。重點解析黏連蛋白與轉錄因子、染色質重塑因子協同調控轉錄的機制，利用體外轉錄重構和罕見遺傳疾病患者細胞進行研究。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "genetics_epigenetics-6"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "東北大学",
+      "department": "大学院農学研究科 農芸化学専攻 生物化学講座",
+      "lab": "分子生物化学分野（原田研究室）",
+      "pi": "原田 昌彦",
+      "pi_title": "教授",
+      "theme_zh": "从组蛋白变体与细胞核结构解析表观遗传调控。",
+      "summary_zh": "研究由DNA和组蛋白构成的染色质及其与细胞核的相互作用如何调控基因组功能。以组蛋白变体H2A.Z和核内肌动蛋白相关蛋白为对象解析表观遗传机制，涉及DNA损伤修复与衰老，并探索人为调控方法。",
+      "keywords": [
+        "组蛋白变体",
+        "染色质",
+        "细胞核",
+        "表观遗传",
+        "DNA损伤修复"
+      ],
+      "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/bunsi/",
+      "references": [
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/bunsi/",
+          "evidence": "农学研究科分子生物化学分野页面：原田昌彦教授，研究染色质结构及染色质与细胞核的相互作用如何调控基因组功能（表观遗传），并探索人为调控方法；页面链接研究室网站。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/9c274cc9b1fe81abef8ff3a163a74068.html",
+          "evidence": "东北大学研究者介绍：原田昌彦，大学院农学研究科农芸化学专攻生物化学讲座（分子生物化学分野）教授，2020年1月起任教授，关键词含细胞核、染色质、肌动蛋白相关蛋白，列有2026年论文。"
+        },
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/highlights/241031-2/",
+          "evidence": "农学研究科研究亮点：原田教授参与的国际团队于2024年10月在Nature Communications发表组蛋白变体H2A.Z的C末端结构影响表观遗传调控的成果。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "ヒストンバリアントと細胞核構造からエピジェネティクス制御を探る。",
+      "theme_en": "Exploring epigenetic regulation through histone variants and nuclear architecture.",
+      "summary_ja": "DNAとヒストンからなるクロマチンと細胞核の相互作用によるゲノム機能制御を研究。ヒストンバリアントH2A.Zや核内アクチン関連タンパク質に着目してエピジェネティクス機構を解明し、DNA修復や老化との関わり、人為的制御法も探る。",
+      "summary_en": "Studies how chromatin, built from DNA and histones, and its interactions with the cell nucleus regulate genome function. Focusing on factors such as the histone variant H2A.Z and nuclear actin-related proteins, the lab clarifies epigenetic mechanisms, their links to DNA repair and aging, and ways to control them artificially.",
+      "theme_tw": "從組蛋白變體與細胞核結構解析表觀遺傳調控。",
+      "summary_tw": "研究由DNA和組蛋白構成的染色質及其與細胞核的相互作用如何調控基因體功能。以組蛋白變體H2A.Z和核內肌動蛋白相關蛋白為對象解析表觀遺傳機制，涉及DNA損傷修復與老化，並探索人為調控方法。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "genetics_epigenetics-7"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "九州大学",
+      "department": "生体防御医学研究所／大学院システム生命科学府",
+      "lab": "遺伝子発現動態学分野（落合研究室）",
+      "pi": "落合 博",
+      "pi_title": "教授",
+      "theme_zh": "解析转录爆发的调控及基因表达的细胞间差异。",
+      "summary_zh": "转录在RNA持续合成的活化状态与几乎不合成的失活状态间切换。以小鼠早期胚胎、活体组织和ES细胞为模型，结合基因组编辑、活细胞成像和组学，解析转录爆发的调控及表达差异与细胞命运、衰老的关系。",
+      "keywords": [
+        "转录爆发",
+        "基因表达",
+        "活细胞成像",
+        "基因组编辑",
+        "胚胎干细胞"
+      ],
+      "url": "https://www.bioreg.kyushu-u.ac.jp/labo/ged/",
+      "references": [
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/ged/",
+          "evidence": "研究室主页：生体防御医学研究所附属高深度组学科学中心遗传子发现动态学分野，落合博教授，用活细胞成像和组学研究转录爆发调控、基因表达多样性与细胞命运和衰老；2026年11月仍有动态。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022499_ja.html",
+          "evidence": "九州大学研究者信息：落合博教授，所属生体防御医学研究所高深度组学科学中心，兼任系统生命科学府系统生命科学专攻，研究转录活化与失活状态切换的调控。"
+        },
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/mib/labo_list_j.html",
+          "evidence": "生体防御医学研究所研究室一览列出遗传子发现动态学分野，负责人落合博教授（2023年3月设置）。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "転写バーストの制御機構と遺伝子発現のばらつきを解明する。",
+      "theme_en": "Uncovering how transcriptional bursting is controlled and how it creates variability in gene expression.",
+      "summary_ja": "転写はRNA合成が続く活性化状態とほぼ止まる不活性化状態を切り替える。マウス初期胚、生体、ES細胞をモデルに、ゲノム編集、ライブイメージング、オミクスで転写バーストの制御と、発現のばらつきと細胞運命・老化の関係を調べる。",
+      "summary_en": "Transcription switches between active states with continuous RNA synthesis and inactive states with little synthesis. Using mouse early embryos, living tissues and embryonic stem cells, the lab applies genome editing, live imaging and omics to learn how transcriptional bursting is controlled and how expression variability relates to cell fate and aging.",
+      "theme_tw": "解析轉錄爆發的調控及基因表達的細胞間差異。",
+      "summary_tw": "轉錄在RNA持續合成的活化狀態與幾乎不合成的失活狀態間切換。以小鼠早期胚胎、活體組織和ES細胞為模型，結合基因體編輯、活細胞影像和體學，解析轉錄爆發的調控及表達差異與細胞命運、老化的關係。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "genetics_epigenetics-8"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "慶應義塾大学",
+      "department": "大学院医学研究科／医学部 病理学教室",
+      "lab": "病理学教室 病因病理学分野（金井研究室）",
+      "pi": "金井 弥栄",
+      "pi_title": "教授",
+      "theme_zh": "通过DNA甲基化等表观基因组解析阐明癌症本质。",
+      "summary_zh": "以病理诊断实践为基础，利用表观基因组等组学数据开展数据驱动研究。曾用人体样本证明慢性肝炎等癌前阶段已出现DNA甲基化异常，现结合全基因组甲基化分析开发NASH肝癌风险和上部尿路癌等诊断方法。",
+      "keywords": [
+        "DNA甲基化",
+        "癌症表观基因组",
+        "分子病理学",
+        "多组学",
+        "风险诊断"
+      ],
+      "url": "https://pathology.med.keio.ac.jp/",
+      "references": [
+        {
+          "url": "https://pathology.med.keio.ac.jp/",
+          "evidence": "研究室主页：慶應義塾大学医学部病理学教室（病因病理学分野）·金井研究室，以病理诊断实践为基础，通过表观基因组等组学解析开展数据驱动研究，阐明癌症等疾病本质。"
+        },
+        {
+          "url": "https://k-ris.keio.ac.jp/html/100002171_ja.html",
+          "evidence": "庆应义塾研究者数据库（2026年10月更新）：金井弥栄教授，医学部病理学教室病因病理学分野·金井研究室，关键词含分子病理学、DNA甲基化、多层组学整合解析。"
+        },
+        {
+          "url": "https://www.keio.ac.jp/ja/med/feature/index-59/",
+          "evidence": "医学部专题报道（2022年12月）介绍金井教授在人体样本中证明癌前阶段已出现DNA甲基化异常，并开发NASH肝癌风险与上部尿路癌的诊断方法。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "DNAメチル化などのエピゲノム解析からがんの本態に迫る。",
+      "theme_en": "Probing the nature of cancer through DNA methylation and other epigenome analyses.",
+      "summary_ja": "病理診断を基盤に、エピゲノム等のオミックス解析でデータ駆動型研究を進める。前がん段階でDNAメチル化異常が先行することをヒト検体で示し、網羅的メチル化解析を活かしてNASHの発がんリスクや上部尿路がんの診断法を開発する。",
+      "summary_en": "Building on diagnostic pathology, the lab carries out data-driven research using omics analyses such as epigenomics. It showed in human tissue that DNA methylation abnormalities arise already in precancerous conditions such as chronic hepatitis, and uses genome-wide methylation profiling to develop tests for liver cancer risk in NASH and for upper urinary tract cancer.",
+      "theme_tw": "透過DNA甲基化等表觀基因體解析闡明癌症本質。",
+      "summary_tw": "以病理診斷實務為基礎，利用表觀基因體等體學數據進行數據驅動研究。曾以人體樣本證明慢性肝炎等癌前階段已出現DNA甲基化異常，現結合全基因體甲基化分析開發NASH肝癌風險和上泌尿道癌等診斷方法。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "genetics_epigenetics-9"
+    },
+    {
+      "field": "genetics_epigenetics",
+      "university": "北海道大学",
+      "department": "大学院理学研究院 生物科学部門／大学院生命科学院",
+      "lab": "生殖発生生物学分野（黒岩研究室）",
+      "pi": "黒岩 麻里",
+      "pi_title": "教授",
+      "theme_zh": "研究哺乳类和鸟类的性别决定机制与性染色体进化。",
+      "summary_zh": "研究没有Y染色体和Sry基因的刺鼠如何决定雄性，发现其获得了雄性特异提高Sox9转录的机制。同时解析刺鼠性染色体基因组，并以鸡、鸸鹋等鸟类探讨性别决定的分子机制，理解性染色体的进化。",
+      "keywords": [
+        "性别决定",
+        "性染色体",
+        "Y染色体",
+        "Sox9",
+        "基因调控"
+      ],
+      "url": "https://www2.sci.hokudai.ac.jp/dept/bio/teacher/kuroiwa-asato",
+      "references": [
+        {
+          "url": "https://www2.sci.hokudai.ac.jp/dept/bio/teacher/kuroiwa-asato",
+          "evidence": "理学部生物科学科教员页：黒岩麻里教授，理学研究院生物科学部门生殖发生生物学分野，担任生命科学院生命系统科学课程；研究哺乳类和鸟类的性别决定机制与性染色体进化，并链接研究室网站。"
+        },
+        {
+          "url": "https://researchers.general.hokudai.ac.jp/profile/ja.0ac86af41acafc05520e17560c007669.html",
+          "evidence": "北海道大学研究者总览：黒岩麻里教授，担任生命科学院课程，关键词含Y染色体、性别决定、性染色体，列有2023–2025年刺鼠性染色体和Sox9增强子等论文。"
+        },
+        {
+          "url": "https://www2.sci.hokudai.ac.jp/?p=14510",
+          "evidence": "2022年11月理学研究院新闻：黒岩教授团队阐明没有Y染色体和Sry基因的奄美刺鼠通过雄性特异地提高Sox9转录来决定雄性。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "哺乳類・鳥類の性決定機構と性染色体の進化を解明する。",
+      "theme_en": "Unraveling sex-determination mechanisms and sex chromosome evolution in mammals and birds.",
+      "summary_ja": "Y染色体とSry遺伝子をもたないトゲネズミでオスが決まる仕組みを研究し、オス特異的にSox9の転写を高める機構の獲得を示した。トゲネズミ性染色体のゲノム解析や、ニワトリ、エミューなど鳥類の性決定研究を通じて性染色体の進化を探る。",
+      "summary_en": "Studies how males are determined in spiny rats that lack both the Y chromosome and the Sry gene, showing that they acquired a mechanism that raises Sox9 transcription specifically in males. Through genome analysis of spiny-rat sex chromosomes and studies of sex determination in birds such as chickens and emus, the lab explores how sex chromosomes evolve.",
+      "theme_tw": "研究哺乳類和鳥類的性別決定機制與性染色體演化。",
+      "summary_tw": "研究沒有Y染色體和Sry基因的刺鼠如何決定雄性，發現其獲得了雄性特異提高Sox9轉錄的機制。同時解析刺鼠性染色體基因體，並以雞、鴯鶓等鳥類探討性別決定的分子機制，理解性染色體的演化。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "genetics_epigenetics-10"
+    },
+    {
       "field": "cell_biology",
       "university": "東北大学",
       "department": "大学院生命科学研究科",
@@ -1121,6 +1499,380 @@
         "The University of Osaka"
       ],
       "id": "development_regeneration-2"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "熊本大学",
+      "department": "発生医学研究所／大学院医学教育部",
+      "lab": "腎臓発生分野（西中村研究室）",
+      "pi": "西中村 隆一",
+      "pi_title": "教授",
+      "theme_zh": "解析肾脏发生机制，并用多能干细胞构建肾脏类器官。",
+      "summary_zh": "利用基因改造小鼠研究肾脏如何形成，分析Sall1等必需基因及胎儿期肾前体细胞的分子机制。并由小鼠ES细胞和人iPS细胞在体外诱导肾脏组织，目标是构建更成熟、可用于移植的肾脏类器官。",
+      "keywords": [
+        "肾脏发生",
+        "类器官",
+        "iPS细胞",
+        "前体细胞",
+        "再生医学"
+      ],
+      "url": "https://www.imeg.kumamoto-u.ac.jp/bunya_top/kidney_development",
+      "references": [
+        {
+          "url": "https://www.imeg.kumamoto-u.ac.jp/bunya_top/kidney_development",
+          "evidence": "发生医学研究所肾脏发生分野页面列出教授西中村隆一，介绍用基因改造小鼠研究肾脏发生、Sall1等必需基因和胎儿肾前体细胞，并由小鼠ES细胞和人iPS细胞在体外构建肾脏组织；页面链接大学院医学教育部，最新消息为2026年10月。"
+        },
+        {
+          "url": "https://www.kumamoto-u.ac.jp/daigakujouhou/kouhou/pressrelease/2025_file/release250410-2.pdf",
+          "evidence": "熊本大学2025年4月新闻稿说明发生医学研究所西中村隆一教授团队2014年率先由小鼠ES细胞和人iPS细胞制成肾脏类器官，并启动以可移植的成熟肾脏类器官为目标的国际先导研究。"
+        },
+        {
+          "url": "https://www.imeg.kumamoto-u.ac.jp/",
+          "evidence": "发生医学研究所主页在器官构筑部门下列出肾脏发生分野。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "腎臓の発生機構を解明し、多能性幹細胞から腎臓オルガノイドを作る。",
+      "theme_en": "Uncovering how the kidney develops and building kidney organoids from pluripotent stem cells.",
+      "summary_ja": "遺伝子改変マウスで腎臓の発生機構を研究し、Sall1など腎臓形成に必須の遺伝子や胎児腎の前駆細胞の分子機構を解析する。マウスES細胞・ヒトiPS細胞から腎臓組織を試験管内で誘導し、より成熟した移植可能な腎臓オルガノイドを目指す。",
+      "summary_en": "Studies how the kidney forms using genetically modified mice, analysing genes essential for kidney development such as Sall1 and the molecular mechanisms of fetal kidney progenitor cells. The lab induces kidney tissue from mouse ES cells and human iPS cells and aims to build more mature, transplantable kidney organoids with higher-order structure.",
+      "theme_tw": "解析腎臟發生機制，並用多能幹細胞構建腎臟類器官。",
+      "summary_tw": "利用基因改造小鼠研究腎臟如何形成，分析Sall1等必需基因及胎兒期腎前驅細胞的分子機制。並由小鼠ES細胞和人類iPS細胞在體外誘導腎臟組織，目標是構建更成熟、可用於移植的腎臟類器官。",
+      "aliases": [
+        "熊本大学",
+        "熊本大學",
+        "Kumamoto University"
+      ],
+      "id": "development_regeneration-3"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "京都大学",
+      "department": "医生物学研究所／大学院工学研究科 高分子化学専攻 医用高分子講座（協力講座）",
+      "lab": "発生システム制御分野（永樂研究室）",
+      "pi": "永樂 元次",
+      "pi_title": "教授",
+      "theme_zh": "用多能干细胞在体外再现器官形成，并解析其原理。",
+      "summary_zh": "以ES和iPS细胞为材料，开发在体外再现器官形成的干细胞调控技术，并解析多细胞协同构建器官的原理。代表成果包括由ES细胞诱导视杯和分层视网膜，也研究物种特有发育时空尺度的分子机制。",
+      "keywords": [
+        "器官形成",
+        "多能干细胞",
+        "类器官",
+        "自组织",
+        "视网膜"
+      ],
+      "url": "https://www.infront.kyoto-u.ac.jp/laboratory/labo26/",
+      "references": [
+        {
+          "url": "https://www.infront.kyoto-u.ac.jp/laboratory/labo26/",
+          "evidence": "医生物学研究所研究室介绍页列出发生系统制御分野教授永乐元次，说明用ES/iPS细胞在体外再现器官形成、解析多细胞协同的原理及物种特异的发育时空尺度，代表成果为由ES细胞形成视杯和分层视网膜。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.763a09e1611393d1.html",
+          "evidence": "京都大学教育研究活动数据库显示永乐元次为医生物学研究所生命系统研究部门教授，并为工学研究科高分子化学专攻医用高分子讲座协力讲座教授。"
+        },
+        {
+          "url": "http://www2.infront.kyoto-u.ac.jp/bs01/",
+          "evidence": "研究室网站（医生物学研究所域名）有2026年10月的消息，并发布面向工学研究科高分子化学专攻医用高分子讲座的研究室访问及本科生配属通知。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "多能性幹細胞を用いて試験管内で器官形成を再現し、その原理を探る。",
+      "theme_en": "Recreating organ formation in vitro from pluripotent stem cells to understand its principles.",
+      "summary_ja": "ES細胞・iPS細胞から試験管内で器官形成を再現する技術を開発し、多細胞が協調して器官をつくる原理を探る。ES細胞からの眼杯・層構造を持つ網膜組織の形成などの成果があり、種特異的な発生の時間・空間スケールの制御機構も調べる。",
+      "summary_en": "Develops stem-cell control techniques that recreate organogenesis in vitro from ES and iPS cells, and analyses the formation process to learn how many cells cooperate to build functional organs. Work includes forming optic cups and layered retinal tissue from ES cells and studying the mechanisms that set species-specific developmental timing and scale.",
+      "theme_tw": "用多能幹細胞在體外重現器官形成，並解析其原理。",
+      "summary_tw": "以ES和iPS細胞為材料，開發在體外重現器官形成的幹細胞調控技術，並解析多細胞協同構建器官的原理。代表成果包括由ES細胞誘導視杯和分層視網膜，也研究物種特有發育時空尺度的分子機制。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "development_regeneration-4"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科 生態発生適応科学専攻",
+      "lab": "動物発生分野（田村研究室）",
+      "pi": "田村 宏治",
+      "pi_title": "教授",
+      "theme_zh": "比较脊椎动物胚胎，研究四肢等器官的形态形成与再生。",
+      "summary_zh": "以四肢、鳍和生殖器官为模型，研究脊椎动物胚胎中决定器官形态的发育程序。比较斑马鱼、爪蟾、壁虎、小鼠和鸡等胚胎，探讨发育程序的变化如何造成指的数目等形态差异，同时研究四肢再生与创伤愈合的关系。",
+      "keywords": [
+        "形态形成",
+        "四肢发育",
+        "进化发育",
+        "再生",
+        "比较胚胎学"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=2589",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=2589",
+          "evidence": "生命科学研究科分野页面列出动物发生分野教授田村宏治，说明以运动器官和生殖器官为模型研究脊椎动物形态形成的发育机制，比较鱼类到哺乳类的胚胎，并研究四肢再生与创伤愈合的关系。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/field2/",
+          "evidence": "生态发生适应科学专攻页面在个体动力学讲座下列出动物发生分野，教授为田村宏治。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/en/research/fields/laboratory.html?id=2589",
+          "evidence": "英文分野页面说明使用斑马鱼、爪蟾、蝾螈、壁虎、小鼠、鸡、鹌鹑等多种脊椎动物胚胎，并研究四肢再生的分子机制。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "脊椎動物の胚を比較し、四肢などの形づくりと再生の仕組みを探る。",
+      "theme_en": "Comparing vertebrate embryos to study how limbs and other organs take shape and regenerate.",
+      "summary_ja": "四肢・ひれや生殖器官をモデルに、脊椎動物の器官の形を決める発生プログラムを研究する。ゼブラフィッシュ、ツメガエル、ヤモリ、ニワトリなどの胚を比較して指の数などの形態多様性が生じる仕組みを探り、四肢再生と創傷治癒の関係も調べる。",
+      "summary_en": "Uses limbs, fins and reproductive organs as models to study the developmental programs that shape vertebrate organs. Comparing embryos of zebrafish, Xenopus, geckos, mice, chickens and other species, the lab examines how changes in these programs create morphological diversity such as digit number, and studies links between limb regeneration and wound healing.",
+      "theme_tw": "比較脊椎動物胚胎，研究四肢等器官的形態形成與再生。",
+      "summary_tw": "以四肢、鰭和生殖器官為模型，研究脊椎動物胚胎中決定器官形態的發育程式。比較斑馬魚、爪蟾、壁虎、小鼠和雞等胚胎，探討發育程式的變化如何造成指的數目等形態差異，同時研究四肢再生與創傷癒合的關係。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "development_regeneration-5"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "九州大学",
+      "department": "生体防御医学研究所／大学院医学系学府",
+      "lab": "細胞機能制御学部門（鈴木研究室）",
+      "pi": "鈴木 淳史",
+      "pi_title": "教授",
+      "theme_zh": "研究肝脏、肠等消化器官的发生、再生与干细胞系统。",
+      "summary_zh": "研究哺乳动物肝脏、肠和食道等消化器官的发生及损伤后的再生机制。比较依赖干细胞的肠和食道与干细胞存在尚不明确的肝脏，探讨干细胞系统的多样性，以及再生不全与肝纤维化、肝癌等疾病的关系。",
+      "keywords": [
+        "器官发生",
+        "肝再生",
+        "干细胞",
+        "消化器官",
+        "直接重编程"
+      ],
+      "url": "https://www.bioreg.kyushu-u.ac.jp/labo/orgreg/research.html",
+      "references": [
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/orgreg/member.html",
+          "evidence": "研究室成员页列出生体防御医学研究所细胞机能制御学部门（Division of Organogenesis and Regeneration）教授铃木淳史及准教授、助教，并有2026年4月入学的新成员。"
+        },
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/orgreg/research.html",
+          "evidence": "研究介绍说明研究哺乳动物肝脏、肠、食道等消化器官的发生机制和损伤后的再生机制，比较各器官干细胞系统的多样性及其与疾病的关系。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022344_ja.html",
+          "evidence": "九州大学教员数据库（2026年11月更新）显示铃木淳史为生体防御医学研究所细胞机能制御学部门教授，兼任医学系学府，研究关键词包括干细胞、肝脏、分化和直接重编程。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "肝臓や腸など消化器官の発生・再生と幹細胞システムを解明する。",
+      "theme_en": "Studying how the liver, intestine and other digestive organs develop and regenerate, and the stem-cell systems behind them.",
+      "summary_ja": "肝臓、腸、食道など消化器系器官の発生機構と損傷後の再生機構を研究する。幹細胞システムが不可欠な腸・食道と、幹細胞の存在が曖昧な肝臓を比較して幹細胞システムの多様性を探り、再生不全による線維化や肝がんの発生機序も調べる。",
+      "summary_en": "Studies the development of mammalian digestive organs such as the liver, intestine and oesophagus and how they regenerate after injury, from genes to whole animals. By comparing stem-cell-dependent organs with the liver, where the role of stem cells remains unclear, the lab explores diverse stem-cell systems and how failed regeneration leads to fibrosis or liver cancer.",
+      "theme_tw": "研究肝臟、腸等消化器官的發生、再生與幹細胞系統。",
+      "summary_tw": "研究哺乳動物肝臟、腸和食道等消化器官的發生及損傷後的再生機制。比較依賴幹細胞的腸和食道與幹細胞存在尚不明確的肝臟，探討幹細胞系統的多樣性，以及再生不全與肝纖維化、肝癌等疾病的關係。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "development_regeneration-6"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "大阪大学",
+      "department": "大学院生命機能研究科 個体機能学講座",
+      "lab": "初期胚発生研究室（佐々木研究室）",
+      "pi": "佐々木 洋",
+      "pi_title": "教授",
+      "theme_zh": "以小鼠早期胚胎研究细胞间通讯如何保证发育精确。",
+      "summary_zh": "以小鼠早期胚胎和培养细胞为对象，研究细胞如何感知相邻细胞状态并调节行为，从而准确构建身体。重点分析Hippo信号和细胞竞争，发现上胚层形成时细胞竞争会清除多能性因子表达低的细胞，起质控作用。",
+      "keywords": [
+        "早期胚胎",
+        "小鼠发育",
+        "Hippo信号",
+        "细胞竞争",
+        "细胞命运"
+      ],
+      "url": "https://www.fbs.osaka-u.ac.jp/labs/sasaki/",
+      "references": [
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/15",
+          "evidence": "生命机能研究科研究室介绍页列出个体机能学讲座初期胚发生研究室教授佐佐木洋，介绍以小鼠和培养细胞研究Hippo信号与细胞竞争，并发现细胞竞争在上胚层形成中起质量控制作用。"
+        },
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/labs/sasaki/member.html",
+          "evidence": "研究室成员页列出教授佐佐木洋及其经历（2015年起任现职）、助教和研究生。"
+        },
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/labs/sasaki/",
+          "evidence": "研究室主页说明以小鼠早期胚和培养细胞研究保证发育精确性的细胞间通讯机制，最新消息为2026年。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "マウス初期胚を用い、細胞間コミュニケーションによる発生の正確性を探る。",
+      "theme_en": "Using early mouse embryos to study how cell-cell communication makes development precise.",
+      "summary_ja": "マウス初期胚と培養細胞を用い、細胞が隣接細胞の状態を認識して振る舞いを調節し、体を正確につくる仕組みを研究する。Hippoシグナルと細胞競合に注目し、エピブラスト形成時に細胞競合が品質管理として働くことを見出した。",
+      "summary_en": "Studies how cells sense the state of their neighbours and adjust their behaviour so that the body forms precisely, using early mouse embryos and cultured cells. Focusing on Hippo signalling and cell competition, the lab found that cell competition acts as quality control during epiblast formation, removing cells with low pluripotency-factor expression.",
+      "theme_tw": "以小鼠早期胚胎研究細胞間通訊如何確保發育精確。",
+      "summary_tw": "以小鼠早期胚胎和培養細胞為對象，研究細胞如何感知相鄰細胞狀態並調節行為，從而準確構建身體。重點分析Hippo訊號和細胞競爭，發現上胚層形成時細胞競爭會清除多能性因子表現低的細胞，發揮品管作用。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "development_regeneration-7"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "東京大学",
+      "department": "大学院総合文化研究科 広域科学専攻 生命環境科学系",
+      "lab": "道上研究室",
+      "pi": "道上 達男",
+      "pi_title": "教授",
+      "theme_zh": "以爪蟾胚和人iPS细胞研究身体模式形成与细胞分化。",
+      "summary_zh": "以爪蟾早期胚胎研究外胚层如何被准确划分为神经板、神经嵴、预定基板区和表皮，并结合张力探针和细胞形状分析，检验物理力在区域决定中的作用。同时利用人iPS细胞开发低成本诱导胰岛内分泌细胞的方法。",
+      "keywords": [
+        "爪蟾胚",
+        "胚胎模式形成",
+        "细胞分化",
+        "力学信号",
+        "iPS细胞"
+      ],
+      "url": "https://park.itc.u-tokyo.ac.jp/michiuelab/",
+      "references": [
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/michiuelab/member.html",
+          "evidence": "研究室成员页列出2026年度教授道上达男、助教和硕士生，研究室隶属总合文化研究科广域科学专攻生命环境科学系。"
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/michiuelab/research.html",
+          "evidence": "研究概要说明以爪蟾胚研究外胚层区域化（预定基板区、神经板、神经嵴）及细胞张力和形状的作用，并用人iPS细胞研究胰岛内分泌细胞的诱导。"
+        },
+        {
+          "url": "https://www.bs.s.u-tokyo.ac.jp/labs/michiue/",
+          "evidence": "理学系研究科生物科学专攻页面将道上研究室列为协力讲座，教授道上达男以总合文化研究科为主要所属。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "ツメガエル胚とヒトiPS細胞で、からだの形づくりと細胞分化を探る。",
+      "theme_en": "Using Xenopus embryos and human iPS cells to study body patterning and cell differentiation.",
+      "summary_ja": "ツメガエル初期胚を用い、外胚葉が神経板、神経堤、予定プラコード、表皮に正確に部域化される分子機構を研究し、張力測定や細胞形状解析で物理的な力の関与も調べる。ヒトiPS細胞から膵島内分泌細胞を低コストで誘導する方法も開発する。",
+      "summary_en": "Studies how the early Xenopus ectoderm is precisely divided into neural plate, neural crest, preplacodal region and epidermis, combining molecular analysis with tension probes and cell-shape measurements to test the role of physical forces. The lab also develops low-cost methods to derive pancreatic endocrine cells from human iPS cells.",
+      "theme_tw": "以爪蟾胚和人類iPS細胞研究身體模式形成與細胞分化。",
+      "summary_tw": "以爪蟾早期胚胎研究外胚層如何被準確劃分為神經板、神經嵴、預定基板區和表皮，並結合張力探針和細胞形狀分析，檢驗物理力在區域決定中的作用。同時利用人類iPS細胞開發低成本誘導胰島內分泌細胞的方法。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "development_regeneration-8"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "広島大学",
+      "department": "両生類研究センター／大学院統合生命科学研究科",
+      "lab": "器官再生メカニズム研究グループ",
+      "pi": "林 利憲",
+      "pi_title": "教授",
+      "theme_zh": "以蝾螈为模型，探究器官再生机制及哺乳类再生受限的原因。",
+      "summary_zh": "蝾螈能再生四肢、尾、颚、角膜、视网膜、脊髓、脑和心脏，而人和小鼠的再生能力非常有限。研究组以繁殖力强的伊比利亚肋突螈为模型，解析再生得以实现的机制及哺乳类难以再生的原因，并推进该物种的资源化。",
+      "keywords": [
+        "器官再生",
+        "蝾螈",
+        "两栖类",
+        "心脏再生",
+        "模式生物"
+      ],
+      "url": "https://amphibian.hiroshima-u.ac.jp/organ-regeneration",
+      "references": [
+        {
+          "url": "https://amphibian.hiroshima-u.ac.jp/organ-regeneration",
+          "evidence": "研究组页面列出林利宪教授，说明蝾螈能再生四肢、尾、颚、角膜、视网膜、脊髓、脑和心脏，并以伊比利亚肋突螈为模型探究再生机制及哺乳类再生受限的原因。"
+        },
+        {
+          "url": "https://amphibian.hiroshima-u.ac.jp/about-arc/members",
+          "evidence": "两栖类研究中心组织与成员页列出器官再生机制研究组教授林利宪（兼副中心长）。"
+        },
+        {
+          "url": "https://seeds.office.hiroshima-u.ac.jp/profile/ja.af010ab4b9ed63b2520e17560c007669.html",
+          "evidence": "广岛大学研究者信息页显示林利宪为两栖类研究中心教授，并在统合生命科学研究科统合生命科学专攻的基础生物学和生命医科学项目指导研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "イモリを用いて器官再生の仕組みと哺乳類で再生が限られる理由を探る。",
+      "theme_en": "Using newts to uncover how organs regenerate and why regeneration is limited in mammals.",
+      "summary_ja": "イモリは四肢や尾、角膜、網膜、脊髄、脳、心臓まで再生できるが、ヒトやマウスの再生能力は限られる。繁殖力の高いイベリアトゲイモリをモデルに、再生を可能にする仕組みと哺乳類で再生が起きない原因を探り、本種のリソース化も進める。",
+      "summary_en": "Newts can regenerate limbs, tail and jaw as well as the cornea, retina, spinal cord, brain and heart, whereas regeneration in humans and mice is very limited. Using the prolific Iberian ribbed newt as a model, the group studies what makes regeneration possible and why it fails in mammals, and develops the species as a research resource.",
+      "theme_tw": "以蠑螈為模型，探究器官再生機制及哺乳類再生受限的原因。",
+      "summary_tw": "蠑螈能再生四肢、尾、顎、角膜、視網膜、脊髓、腦和心臟，而人和小鼠的再生能力非常有限。研究組以繁殖力強的伊比利亞肋突螈為模型，解析再生得以實現的機制及哺乳類難以再生的原因，並推動該物種的資源化。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "development_regeneration-9"
+    },
+    {
+      "field": "development_regeneration",
+      "university": "東京都立大学",
+      "department": "大学院理学研究科 生命科学専攻",
+      "lab": "発生生物学（福田研究室）",
+      "pi": "福田 公子",
+      "pi_title": "准教授",
+      "theme_zh": "以鸡等脊椎动物胚胎研究消化管等器官形成的机制。",
+      "summary_zh": "以脊椎动物胚胎为材料，研究器官形成所必需的分子与细胞机制。具体课题包括消化管形态形成如何启动、消化管伸长中的细胞动态、鸡胚胚体外细胞维持张力和形成羊膜的机制，以及大脑皮质的发育与进化。",
+      "keywords": [
+        "器官形成",
+        "消化管",
+        "鸡胚",
+        "胚体外组织",
+        "内胚层"
+      ],
+      "url": "https://www.tmu.ac.jp/stafflist/data/ha/734.html",
+      "references": [
+        {
+          "url": "https://www.se.tmu.ac.jp/youkou/2027M/21.pdf",
+          "evidence": "理学研究科2027年度研究分野介绍在生命科学专攻“发生生物学”下列出准教授福田公子（另有连携客员教员），说明用脊椎动物胚研究消化管形态形成、消化管伸长中的细胞动态、鸡胚胚体外细胞维持张力和羊膜形成，以及大脑皮质发育。"
+        },
+        {
+          "url": "https://www.tmu.ac.jp/stafflist/data/ha/734.html",
+          "evidence": "东京都立大学教员页面显示福田公子为理学研究科生命科学专攻准教授，研究主题包括消化管区域化、内胚层分化和胚体外组织的分化。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "公立",
+      "theme_ja": "脊椎動物胚を用いて、消化管などの器官形成に必須の分子・細胞機構を探る。",
+      "theme_en": "Using vertebrate embryos such as the chick to study how the gut and other organs form.",
+      "summary_ja": "脊椎動物胚を用い、器官形成に必須な分子・細胞機構の理解を目指す。消化管の形態形成開始機構や伸長時の細胞動態、ニワトリ胚が張力を保つ仕組みや羊膜形成など胚発生に必須な胚体外細胞の働き、大脳皮質の発生・進化の機構を研究する。",
+      "summary_en": "Aims to understand the molecular and cellular mechanisms essential for organ formation in vertebrate embryos. Topics include how gut morphogenesis begins, cell dynamics during gut elongation, how extra-embryonic cells keep the chick embryo under tension and form the amnion, and the development and evolution of the cerebral cortex.",
+      "theme_tw": "以雞等脊椎動物胚胎研究消化管等器官形成的機制。",
+      "summary_tw": "以脊椎動物胚胎為材料，研究器官形成所必需的分子與細胞機制。具體課題包括消化管形態形成如何啟動、消化管伸長中的細胞動態、雞胚胚體外細胞維持張力和形成羊膜的機制，以及大腦皮質的發育與演化。",
+      "aliases": [
+        "东京都立大学",
+        "東京都立大學",
+        "Tokyo Metropolitan University"
+      ],
+      "id": "development_regeneration-10"
     },
     {
       "field": "protein",
@@ -2881,6 +3633,371 @@
       "id": "inorganic-2"
     },
     {
+      "field": "inorganic",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 化学専攻",
+      "lab": "物性化学研究室（大越研究室）",
+      "pi": "大越 慎一",
+      "pi_title": "教授",
+      "theme_zh": "创制响应光与电磁波的磁性配合物和金属氧化物。",
+      "summary_zh": "以普鲁士蓝类金属配合物、金属氧化物和合金为对象，从光、电磁波与磁性相关联的角度研究光磁性和非线性磁光效应。研究室还开展ε-Fe2O3和λ-Ti3O5的纳米尺寸合成，并提出“蓄热陶瓷”新概念。",
+      "keywords": [
+        "分子磁性",
+        "光磁性",
+        "金属氧化物",
+        "普鲁士蓝类似物",
+        "蓄热陶瓷"
+      ],
+      "url": "https://www.chem.s.u-tokyo.ac.jp/users/ssphys/index.html",
+      "references": [
+        {
+          "url": "https://www.chem.s.u-tokyo.ac.jp/chem_research/",
+          "evidence": "化学专攻教员与研究室一览列出物性化学研究室，负责人为大越慎一教授，并链接到该研究室主页。"
+        },
+        {
+          "url": "https://www.chem.s.u-tokyo.ac.jp/users/ssphys/index.html",
+          "evidence": "研究室主页说明以普鲁士蓝等金属配合物到金属氧化物、合金为对象，研究光磁性与非线性磁光效应、ε-Fe2O3和λ-Ti3O5纳米合成及蓄热陶瓷；新闻更新至2026年3月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "光や電磁波に応答する磁性錯体と金属酸化物を創製する。",
+      "theme_en": "Creating magnetic metal complexes and metal oxides that respond to light and electromagnetic waves.",
+      "summary_ja": "プルシアンブルーなどの金属錯体から金属酸化物、合金までを対象に、光・電磁波と磁気の相関から光磁性や非線形磁気光学を研究します。ε-Fe2O3やλ-Ti3O5のナノサイズ合成を進め、蓄熱セラミックスという新概念も提案しています。",
+      "summary_en": "The laboratory studies materials ranging from Prussian blue-type metal complexes to metal oxides and alloys, focusing on photomagnetism and nonlinear magneto-optics that arise from correlations between light, electromagnetic waves and magnetism. It also synthesizes nanosized ε-Fe2O3 and λ-Ti3O5 and has proposed heat-storage ceramics.",
+      "theme_tw": "創製響應光與電磁波的磁性配合物和金屬氧化物。",
+      "summary_tw": "以普魯士藍類金屬配合物、金屬氧化物和合金為對象，從光、電磁波與磁性相關聯的角度研究光磁性和非線性磁光效應。研究室還開展ε-Fe2O3和λ-Ti3O5的奈米尺寸合成，並提出「蓄熱陶瓷」新概念。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "inorganic-3"
+    },
+    {
+      "field": "inorganic",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻",
+      "lab": "陰山研究室",
+      "pi": "陰山 洋",
+      "pi_title": "教授",
+      "theme_zh": "以复合阴离子化合物开拓新一代无机固体材料。",
+      "summary_zh": "由固体化学、凝聚态物理和晶体学研究者组成，合成并理解催化剂、电池材料、超导体和量子材料等新型固体功能材料。研究重点是含两种以上阴离子的复合阴离子化合物，以及同时利用质子和氢负离子的含氢陶瓷。",
+      "keywords": [
+        "固体化学",
+        "复合阴离子",
+        "氢负离子",
+        "无机材料合成"
+      ],
+      "url": "https://www.ehcc.kyoto-u.ac.jp/eh10/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.652d6d8c6e9c5f24.html",
+          "evidence": "京都大学教育研究活动数据库（2026年11月更新）列陰山洋为工学研究科化学理工学专攻能源转换化学讲座教授，研究关键词为量子自旋、氢负离子、复合阴离子和固体化学，并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.ehcc.kyoto-u.ac.jp/eh10/research/",
+          "evidence": "研究页介绍复合阴离子化合物的合成与功能、同时含质子和氢负离子的含氢陶瓷，以及催化剂和电池材料开发。"
+        },
+        {
+          "url": "https://www.ehcc.kyoto-u.ac.jp/eh10/members/",
+          "evidence": "成员页列出陰山洋教授及准教授、助教和在读研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "複合アニオン化合物を軸に次世代の無機固体材料を開拓する。",
+      "theme_en": "Developing next-generation inorganic solid materials based on mixed-anion compounds.",
+      "summary_ja": "固体化学、物性物理、結晶学の研究者が集まり、触媒、電池材料、超伝導体、量子物質などの新しい固体機能材料を合成し理解します。2種以上のアニオンを含む複合アニオン化合物や、プロトンとヒドリドを含むセラミックスを重点的に研究します。",
+      "summary_en": "Bringing together solid-state chemistry, condensed-matter physics and crystallography, the group synthesizes and studies new solid functional materials such as catalysts, battery materials, superconductors and quantum materials. Its focus is on mixed-anion compounds and ceramics containing protons and hydride ions.",
+      "theme_tw": "以複合陰離子化合物開拓新一代無機固體材料。",
+      "summary_tw": "由固體化學、凝聚態物理和晶體學研究者組成，合成並理解觸媒、電池材料、超導體和量子材料等新型固體功能材料。研究重點是含兩種以上陰離子的複合陰離子化合物，以及同時利用質子和氫負離子的含氫陶瓷。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "inorganic-4"
+    },
+    {
+      "field": "inorganic",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "錯体化学研究室（吉成研究室）",
+      "pi": "吉成 信人",
+      "pi_title": "教授",
+      "theme_zh": "以配合物配体法构筑多核金属配合物及新型离子固体。",
+      "summary_zh": "用逐步组装金属离子的“配合物配体法”合成纳米尺度多核金属配合物，再借助超分子作用构建具有间隙空间的晶体材料。近期研究包括非库仑力支配型离子固体、水合钾离子超离子导体及配合物配体保护的硫化银簇。",
+      "keywords": [
+        "配位化学",
+        "多核配合物",
+        "异种金属",
+        "离子固体",
+        "金属簇"
+      ],
+      "url": "https://www.chem.sci.osaka-u.ac.jp/lab/yoshinari/",
+      "references": [
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/lab/015.html",
+          "evidence": "化学专攻研究室页面列出无机化学讲座错体化学研究室，成员为吉成信人教授、吉田将己准教授等，并概述异种金属多核结构、配合物集积体的间隙空间与手性识别研究。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/yoshinari/research.html",
+          "evidence": "研究介绍页说明以“错体配位子法”开发非库仑力支配型离子固体、水合钾超离子导体和由配合物配体保护的硫化银簇。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "錯体配位子法で多核金属錯体と新しいイオン性固体を構築する。",
+      "theme_en": "Building multinuclear metal complexes and new ionic solids with a metalloligand approach.",
+      "summary_ja": "金属イオンを段階的に集める錯体配位子法でナノサイズ多核錯体を合成し、超分子相互作用で間隙空間をもつ結晶材料を構築します。非クーロン力支配型イオン性固体、水和カリウム超イオン伝導体、錯体配位子保護の硫化銀クラスターも研究します。",
+      "summary_en": "Using a metalloligand approach that assembles metal ions step by step, the laboratory synthesizes nanosized multinuclear complexes and organizes them into crystalline materials with interstitial spaces. Recent work includes non-Coulombic ionic solids, a hydrated potassium-ion superionic conductor and silver sulfide clusters protected by metalloligands.",
+      "theme_tw": "以配合物配體法構築多核金屬配合物及新型離子固體。",
+      "summary_tw": "用逐步組裝金屬離子的「配合物配體法」合成奈米尺度多核金屬配合物，再藉助超分子作用構建具有間隙空間的晶體材料。近期研究包括非庫侖力支配型離子固體、水合鉀離子超離子導體及配合物配體保護的硫化銀簇。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "inorganic-5"
+    },
+    {
+      "field": "inorganic",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 応用物質化学専攻",
+      "lab": "松田研究室",
+      "pi": "松田 亮太郎",
+      "pi_title": "教授",
+      "theme_zh": "用金属配合物构筑纳米空间，开发气体吸附与分离功能。",
+      "summary_zh": "以“纳米空间化学”为主题，用金属配合物设计并构筑纳米尺度的空间。研究涵盖乙炔、一氧化碳和氧气等气体分子的捕获与分离，利用MOF孔道实现特殊反应，开发导电性MOF，以及利用吸附热进行能量转换。",
+      "keywords": [
+        "金属有机框架",
+        "多孔配位聚合物",
+        "气体吸附分离",
+        "纳米空间"
+      ],
+      "url": "https://www.chembio.nagoya-u.ac.jp/labhp/solid1/",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100008730_ja.html",
+          "evidence": "名古屋大学教员信息页（2026年4月更新）列松田亮太郎为工学研究科应用物质化学专攻固体化学讲座教授，研究领域含无机・错体化学，关键词包括配位聚合物和MOF。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/solid1/research.html",
+          "evidence": "研究介绍页列出气体分子捕获与分离、纳米空间反应场、导电性MOF、吸附同步测量和利用吸附热的能量转换等课题。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/solid1/matsuda.html",
+          "evidence": "教授页列出松田亮太郎的经历，2017年起任应用物质化学专攻教授，专业为错体化学、固体化学和多孔材料。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "金属錯体でナノ空間を設計し、ガス吸着・分離などの機能を開拓する。",
+      "theme_en": "Designing nanospaces in metal–organic frameworks for gas adsorption, separation and new functions.",
+      "summary_ja": "「ナノ空間の化学」を掲げ、金属錯体でナノ空間を設計・構築し、新反応・新現象を探ります。アセチレン、一酸化炭素、酸素などのガス分子の捕捉・分離、MOF細孔での特異な反応、導電性MOF、吸着熱によるエネルギー変換に取り組みます。",
+      "summary_en": "The laboratory studies the chemistry of nanospaces, designing and building nanometer-scale pores from metal complexes. Topics include capturing and separating gases such as acetylene, carbon monoxide and oxygen, unusual reactions inside MOF pores, conductive MOFs and energy conversion using adsorption heat.",
+      "theme_tw": "用金屬配合物構築奈米空間，開發氣體吸附與分離功能。",
+      "summary_tw": "以「奈米空間化學」為主題，用金屬配合物設計並構築奈米尺度的空間。研究涵蓋乙炔、一氧化碳和氧氣等氣體分子的捕獲與分離，利用MOF孔道實現特殊反應，開發導電性MOF，以及利用吸附熱進行能量轉換。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "inorganic-6"
+    },
+    {
+      "field": "inorganic",
+      "university": "北海道大学",
+      "department": "大学院総合化学院／工学研究院 応用化学部門",
+      "lab": "先端材料化学研究室（長谷川研究室）",
+      "pi": "長谷川 靖哉",
+      "pi_title": "教授",
+      "theme_zh": "设计具有高色纯度发光的稀土配合物和光功能材料。",
+      "summary_zh": "以光化学和配合物化学为基础研究先进材料。着眼于基于4f轨道发出高色纯度光的稀土离子，通过有机合成调控配位结构，开发光功能稀土配合物，并研究由稀土配合物得到的半导体纳米晶及传感、显示用发光材料。",
+      "keywords": [
+        "稀土配合物",
+        "发光材料",
+        "4f电子",
+        "半导体纳米晶"
+      ],
+      "url": "https://www.eng.hokudai.ac.jp/labo/amc/",
+      "references": [
+        {
+          "url": "https://www.eng.hokudai.ac.jp/labo/amc/7.STAFF/HASE/HASE-index2-2.html",
+          "evidence": "工学研究院教员页显示长谷川靖哉为教授，2015年起属应用化学部门，主持先端材料化学研究室，研究发光金属配合物与半导体纳米粒子。"
+        },
+        {
+          "url": "https://www.eng.hokudai.ac.jp/labo/amc/activity-1.html",
+          "evidence": "研究内容页说明利用有机合成开发光功能稀土配合物，并研究由稀土配合物反应得到的半导体纳米晶。"
+        },
+        {
+          "url": "https://www.eng.hokudai.ac.jp/labo/amc/member.html",
+          "evidence": "成员页列出长谷川靖哉等教员，并说明研究生来自工学研究院和总合化学院。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "色純度の高い発光を示す希土類錯体と光機能材料を設計する。",
+      "theme_en": "Designing rare-earth complexes and photofunctional materials with color-pure luminescence.",
+      "summary_ja": "光化学と錯体化学を基盤に先端材料化学を研究します。4f軌道に由来する色純度の高い発光を示す希土類イオンに着目し、有機合成で配位構造を制御した光機能性希土類錯体を開発します。希土類錯体由来の半導体ナノ結晶や発光材料も研究します。",
+      "summary_en": "Grounded in photochemistry and coordination chemistry, the laboratory develops photofunctional rare-earth complexes whose coordination structures are tuned by organic synthesis to exploit the color-pure 4f emission of lanthanide ions. It also studies semiconductor nanocrystals derived from these complexes and luminescent molecular materials for sensing and displays.",
+      "theme_tw": "設計具有高色純度發光的稀土配合物和光功能材料。",
+      "summary_tw": "以光化學和配合物化學為基礎研究先進材料。著眼於基於4f軌域發出高色純度光的稀土離子，透過有機合成調控配位結構，開發光功能稀土配合物，並研究由稀土配合物得到的半導體奈米晶及感測、顯示用發光材料。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "inorganic-7"
+    },
+    {
+      "field": "inorganic",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻（協力講座）",
+      "lab": "錯体触媒変換化学研究領域（大木研究室）",
+      "pi": "大木 靖弘",
+      "pi_title": "教授",
+      "theme_zh": "以原子级精度合成金属簇，用于氮气和二氧化碳还原。",
+      "summary_zh": "研究多个金属原子协同作用的金属簇，开发以原子级精度控制结构的合成方法。研究室化学合成模拟固氮酶活性中心的铁硫簇，以探讨酶的作用机制，并将这类簇用于氮气还原及二氧化碳、一氧化碳到烃类的直接转化。",
+      "keywords": [
+        "金属簇",
+        "铁硫簇",
+        "固氮酶模型",
+        "小分子活化"
+      ],
+      "url": "https://www.om.kuicr.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.om.kuicr.kyoto-u.ac.jp/the-team",
+          "evidence": "成员页列出研究室主宰大木靖弘，为京都大学化学研究所附属元素科学国际研究中心教授。"
+        },
+        {
+          "url": "https://www.om.kuicr.kyoto-u.ac.jp/",
+          "evidence": "研究室主页注明属化学研究所错体触媒变换化学研究领域，并为工学研究科化学理工学专攻过渡金属错体化学讲座（协力讲座）；新闻更新至2026年10月。"
+        },
+        {
+          "url": "https://www.om.kuicr.kyoto-u.ac.jp/research",
+          "evidence": "研究页介绍以原子级精度合成金属簇，化学合成固氮酶模型铁硫簇，并用于N2还原及把CO2、CO直接转化为烃类。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "金属クラスターを原子レベルで合成し、N2やCO2の還元に応用する。",
+      "theme_en": "Synthesizing atomically precise metal clusters for nitrogen and carbon dioxide reduction.",
+      "summary_ja": "複数の金属原子が協同して働くクラスターを原子レベルで構造制御して合成する手法を開発します。ニトロゲナーゼを模した鉄–硫黄クラスターを合成して酵素の機構解明に取り組み、N2の還元やCO2・COから炭化水素への直接変換に応用します。",
+      "summary_en": "The laboratory develops methods to synthesize metal clusters with atomic precision, in which several metal atoms act cooperatively. It prepares iron–sulfur clusters modeled on the nitrogenase active site to clarify how such enzymes work, and applies cluster compounds to N2 reduction and the direct conversion of CO2 and CO into hydrocarbons.",
+      "theme_tw": "以原子級精度合成金屬簇，用於氮氣和二氧化碳還原。",
+      "summary_tw": "研究多個金屬原子協同作用的金屬簇，開發以原子級精度控制結構的合成方法。研究室化學合成模擬固氮酶活性中心的鐵硫簇，以探討酶的作用機制，並將這類簇用於氮氣還原及二氧化碳、一氧化碳到烴類的直接轉化。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "inorganic-8"
+    },
+    {
+      "field": "inorganic",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 化学・生命化学専攻",
+      "lab": "錯体化学研究室（山口正研究室）",
+      "pi": "山口 正",
+      "pi_title": "教授",
+      "theme_zh": "合成多核金属配合物与配位聚合物，探索混合价态功能。",
+      "summary_zh": "以分子内含多个金属离子的纳米级集积型金属配合物为对象，研究新骨架构建等合成方法及混合价态、电子转移和发光等功能。还用氧化还原活性桥联配体合成配位聚合物，并探索金属—金属直接成键的多核配合物。",
+      "keywords": [
+        "多核配合物",
+        "混合价态",
+        "配位聚合物",
+        "电子转移"
+      ],
+      "url": "https://www.chem.waseda.ac.jp/yamaguchi/",
+      "references": [
+        {
+          "url": "https://www.chem.waseda.ac.jp/yamaguchi/faculty/",
+          "evidence": "研究室教员页列出山口正教授，研究领域为多核金属配合物、簇配合物和混合价态，近年也开展MOF课题。"
+        },
+        {
+          "url": "https://www.chem.waseda.ac.jp/ja/faculty.html",
+          "evidence": "化学・生命化学科教员介绍在无机・分析化学部门列出山口正教授，说明其用氧化还原活性桥联配体合成呈现混合价态的配位聚合物，并研究金属—金属直接成键的多核配合物。"
+        },
+        {
+          "url": "https://www.chem.waseda.ac.jp/yamaguchi/",
+          "evidence": "研究室主页介绍以纳米尺寸集积型金属配合物为对象，研究新骨架合成及混合价态、电子转移和发光行为；新闻更新至2026年9月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "多核金属錯体と配位高分子を合成し、混合原子価状態の機能を探る。",
+      "theme_en": "Synthesizing multinuclear complexes and coordination polymers to explore mixed-valence functions.",
+      "summary_ja": "複数の金属イオンをもつナノサイズの集積型金属錯体について、新骨格の形成を含む合成と、混合原子価状態、電子移動、発光などの機能を研究します。酸化還元活性な架橋配位子による配位高分子や、金属間結合をもつ多核錯体も構築します。",
+      "summary_en": "The laboratory synthesizes nanometer-sized assembled metal complexes containing many metal ions, including new framework structures, and studies their mixed-valence states, electron transfer and luminescence. It also builds coordination polymers from redox-active bridging ligands and develops multinuclear complexes with direct metal–metal bonds.",
+      "theme_tw": "合成多核金屬配合物與配位聚合物，探索混合價態功能。",
+      "summary_tw": "以分子內含多個金屬離子的奈米級集積型金屬配合物為對象，研究新骨架構建等合成方法及混合價態、電子轉移和發光等功能。還用氧化還原活性橋聯配體合成配位聚合物，並探索金屬—金屬直接成鍵的多核配合物。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "inorganic-9"
+    },
+    {
+      "field": "inorganic",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "生物無機化学研究室（舩橋研究室）",
+      "pi": "舩橋 靖博",
+      "pi_title": "教授",
+      "theme_zh": "从配合物化学角度解析金属酶活性中心的结构与反应。",
+      "summary_zh": "以“用化学理解生物中的无机元素”为方向，研究锰、铁、铜、锌等金属在生物反应活性中心的作用。结合活性中心模型配合物的合成与蛋白质X射线结构解析、光谱测定，探讨金属离子的捕获、氧化还原与催化功能。",
+      "keywords": [
+        "生物无机化学",
+        "金属酶",
+        "模型配合物",
+        "蛋白质结构解析"
+      ],
+      "url": "https://www.chem.sci.osaka-u.ac.jp/lab/funahashi/",
+      "references": [
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/lab/004.html",
+          "evidence": "化学专攻研究室页面列出无机化学讲座生物无机化学研究室，成员为舩橋靖博教授、野尻正树讲师等，并概述金属离子的捕获运输、氧化还原与催化研究。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/funahashi/Research.html",
+          "evidence": "研究内容页说明通过模型配合物合成以及蛋白质X射线结构解析和光谱测定两条途径，研究金属酶活性中心的结构与反应。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/funahashi/Member.html",
+          "evidence": "成员页列出舩橋靖博教授、野尻正树讲师及在读博士、硕士研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "金属酵素の活性中心の構造と反応を錯体化学の視点から解明する。",
+      "theme_en": "Elucidating the structures and reactions of metalloenzyme active sites from a coordination chemistry perspective.",
+      "summary_ja": "「生物の無機を化学する」を合い言葉に、マンガン、鉄、銅、亜鉛などの金属が生体反応の活性中心で果たす役割を研究します。モデル錯体の合成と、蛋白質のX線構造解析や分光測定を組み合わせ、金属イオンの捕捉、酸化還元、触媒作用を調べます。",
+      "summary_en": "Guided by the motto of studying the inorganic chemistry of life, the laboratory investigates how metals such as manganese, iron, copper and zinc act at the active sites of biological reactions. It combines the synthesis of active-site model complexes with protein X-ray crystallography and spectroscopy to study metal-ion capture, redox reactions and catalysis.",
+      "theme_tw": "從配合物化學角度解析金屬酶活性中心的結構與反應。",
+      "summary_tw": "以「用化學理解生物中的無機元素」為方向，研究錳、鐵、銅、鋅等金屬在生物反應活性中心的作用。結合活性中心模型配合物的合成與蛋白質X射線結構解析、光譜測定，探討金屬離子的捕獲、氧化還原與催化功能。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "inorganic-10"
+    },
+    {
       "field": "physical",
       "university": "九州大学",
       "department": "大学院理学府 化学専攻／理学研究院 化学部門",
@@ -2959,6 +4076,380 @@
         "Waseda University"
       ],
       "id": "physical-2"
+    },
+    {
+      "field": "physical",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻 化学講座",
+      "lab": "光物理化学研究室（菱川研究室）",
+      "pi": "菱川 明栄",
+      "pi_title": "教授",
+      "theme_zh": "用强激光场观测并控制阿秒至飞秒尺度的分子动力学。",
+      "summary_zh": "用强度可与分子内电场相当的激光，借助少周期强脉冲和高次谐波观测阿秒至飞秒尺度的分子动力学；以波形受控的强激光场探索并控制化学反应，并研究极紫外与软X射线区域的非线性光学过程。",
+      "keywords": [
+        "强激光场",
+        "阿秒科学",
+        "超快分子动力学",
+        "高次谐波",
+        "反应控制"
+      ],
+      "url": "https://photon.chem.nagoya-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.chem.nagoya-u.ac.jp/staff/",
+          "evidence": "化学科教员名录列菱川明荣为教授，所属大学院理学研究科理学专攻化学讲座光物理化学研究室。"
+        },
+        {
+          "url": "https://photon.chem.nagoya-u.ac.jp/people/staff-members/",
+          "evidence": "研究室教员页列菱川明荣教授（兼任理学研究科教授）、伏谷瑞穗准教授和松田晃孝讲师。"
+        },
+        {
+          "url": "https://photon.chem.nagoya-u.ac.jp/%e7%a0%94%e7%a9%b6%e6%a6%82%e8%a6%81/",
+          "evidence": "研究概要说明用少周期高强度激光脉冲和高次谐波观测阿秒至飞秒分子动力学，以波形控制的强激光场探索和控制化学反应，并研究极紫外与软X射线的非线性光学过程。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "強レーザー場でアト秒〜フェムト秒の分子ダイナミクスを観測・制御する。",
+      "theme_en": "Imaging and controlling attosecond-to-femtosecond molecular dynamics with intense laser fields.",
+      "summary_ja": "原子・分子内の電場に匹敵する高強度レーザーを使い、数サイクルパルスと高次高調波でアト秒〜フェムト秒の分子ダイナミクスを可視化します。波形制御した強レーザー場による反応の探索・制御や、極端紫外・軟X線の非線形光学も研究します。",
+      "summary_en": "Using laser fields as strong as the electric fields inside molecules, the group visualizes attosecond-to-femtosecond molecular dynamics with few-cycle intense pulses and high-order harmonics. It also explores and controls chemical reactions in waveform-controlled intense laser fields and studies nonlinear optics in the extreme-ultraviolet and soft X-ray regions.",
+      "theme_tw": "用強雷射場觀測並控制阿秒至飛秒尺度的分子動力學。",
+      "summary_tw": "用強度可與分子內電場相當的雷射，藉助少週期強脈衝和高次諧波觀測阿秒至飛秒尺度的分子動力學；以波形受控的強雷射場探索並控制化學反應，並研究極紫外與軟X射線區域的非線性光學過程。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "physical-3"
+    },
+    {
+      "field": "physical",
+      "university": "東北大学",
+      "department": "大学院理学研究科 化学専攻 物理化学講座",
+      "lab": "量子化学研究室（藤井研究室）",
+      "pi": "藤井 朱鳥",
+      "pi_title": "教授",
+      "theme_zh": "用激光分光观察分子团簇，探索分子集体性质的起源。",
+      "summary_zh": "以2至数百个分子组成的“分子团簇”为对象，用激光分光探究分子的微观行为如何发展为物质的性质与功能。主题包括大尺寸团簇红外分光、负离子态分光、电离动力学、反应中间体结构和新型分子间相互作用。",
+      "keywords": [
+        "分子团簇",
+        "激光分光",
+        "红外分光",
+        "分子间相互作用",
+        "电离动力学"
+      ],
+      "url": "https://web.tohoku.ac.jp/qclab/",
+      "references": [
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/b11a80bb24f971b0a0a916a9bbbe1882.html",
+          "evidence": "东北大学研究者名录列藤井朱鸟为大学院理学研究科化学专攻物理化学讲座（量子化学研究室）教授，研究关键词为团簇与激光分子分光。"
+        },
+        {
+          "url": "https://web.tohoku.ac.jp/qclab/member.html",
+          "evidence": "研究室成员页列藤井朱鸟教授及前山俊彦、松田欣之两位助教和在读学生。"
+        },
+        {
+          "url": "https://web.tohoku.ac.jp/qclab/research.html",
+          "evidence": "研究页列大尺寸团簇红外分光、负离子态分光、新激光分光法、电离动力学、反应中间体结构观测和新型分子间相互作用等主题。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "レーザー分光で分子クラスターを観察し、分子機能の起源を探る。",
+      "theme_en": "Probing the molecular origins of material properties through laser spectroscopy of molecular clusters.",
+      "summary_ja": "2〜数百個の分子からなる分子クラスターをレーザー分光で観察し、分子のミクロな振る舞いが物質の性質・機能を生む仕組みを探ります。大サイズクラスターの赤外分光、負イオン状態、イオン化ダイナミクス、分子間相互作用などが主題です。",
+      "summary_en": "The laboratory uses laser spectroscopy to observe molecular clusters of two to several hundred molecules, asking how microscopic molecular behavior gives rise to bulk properties and functions. Topics include infrared spectroscopy of large clusters, anion-state spectroscopy, ionization dynamics, structures of reaction intermediates and unusual intermolecular interactions.",
+      "theme_tw": "用雷射分光觀察分子團簇，探索分子集體性質的起源。",
+      "summary_tw": "以2至數百個分子組成的「分子團簇」為對象，用雷射分光探究分子的微觀行為如何發展為物質的性質與功能。主題包括大尺寸團簇紅外分光、負離子態分光、電離動力學、反應中間體結構和新型分子間相互作用。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "physical-4"
+    },
+    {
+      "field": "physical",
+      "university": "京都大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "分子分光学研究室（渡邊研究室）",
+      "pi": "渡邊 一也",
+      "pi_title": "教授",
+      "theme_zh": "用超快分光与表面分析解析界面反应的基元过程。",
+      "summary_zh": "以固体表面和界面为对象，结合超短脉冲激光时间分辨分光、超高真空表面分析和原位分光，研究吸附分子的化学反应与能量传递，探讨催化和电极反应的决速步骤及驱动反应的分子振动与溶剂涨落。",
+      "keywords": [
+        "界面反应",
+        "超快分光",
+        "振动分光",
+        "原位分光",
+        "表面科学"
+      ],
+      "url": "https://molspec.kuchem.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.kuchem.kyoto-u.ac.jp/mss.html",
+          "evidence": "化学专攻分子分光学分科页面列渡边一也教授、小板谷贵典准教授和长塚直树助教，说明用超短脉冲激光时间分辨分光、超高真空表面分析和原位分光研究表面吸附分子的反应与能量传递。"
+        },
+        {
+          "url": "https://molspec.kuchem.kyoto-u.ac.jp/member/",
+          "evidence": "研究室成员页（2026年4月）列渡边一也教授为负责人，另有准教授和助教各一名。"
+        },
+        {
+          "url": "https://molspec.kuchem.kyoto-u.ac.jp/kenkyuu/",
+          "evidence": "研究页说明以光电子分光、振动分光和界面选择性非线性分光研究电极界面氧化还原和有机固体电荷转移，探讨决速步骤与过渡态附近的动力学。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "超高速分光と表面分析で界面反応の素過程と律速段階を解明する。",
+      "theme_en": "Elementary steps of interfacial reactions studied by ultrafast and surface-sensitive spectroscopy.",
+      "summary_ja": "固体表面・界面を舞台に、極短パルスレーザーの時間分解分光、超高真空表面分析、オペランド分光を組み合わせ、吸着分子の反応とエネルギー輸送を調べます。触媒・電極反応の律速段階や、反応を駆動する分子振動・溶媒揺動の解明を目指します。",
+      "summary_en": "Working on solid surfaces and interfaces, the group combines time-resolved electronic and vibrational spectroscopy using ultrashort laser pulses with ultra-high-vacuum surface analysis and operando spectroscopy. It studies reactions and energy transfer of adsorbed molecules to identify rate-determining steps in catalytic and electrode reactions and the motions that drive them.",
+      "theme_tw": "用超快分光與表面分析解析界面反應的基元過程。",
+      "summary_tw": "以固體表面和界面為對象，結合超短脈衝雷射時間解析分光、超高真空表面分析和原位分光，研究吸附分子的化學反應與能量傳遞，探討催化和電極反應的決速步驟及驅動反應的分子振動與溶劑漲落。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "physical-5"
+    },
+    {
+      "field": "physical",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "物性物理化学研究室（中澤研究室）",
+      "pi": "中澤 康浩",
+      "pi_title": "教授",
+      "theme_zh": "用精密量热从热力学角度解析分子固体的相变。",
+      "summary_zh": "以统计热力学为视角，研究分子集合体中的协同现象，如分子性超导体、强关联有机化合物和分子磁性体的相变。研究室自制可测10微克至1毫克单晶的量热装置，在极低温、强磁场等受控环境下测量热容与热输运。",
+      "keywords": [
+        "热力学",
+        "量热法",
+        "相变",
+        "分子性超导体",
+        "分子磁性体"
+      ],
+      "url": "https://www.chem.sci.osaka-u.ac.jp/lab/nakazawa/",
+      "references": [
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/staffs/index.html",
+          "evidence": "化学专攻教员名录列中泽康浩教授（中泽研，物性物理化学研究室）和圷广树准教授。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/lab/005.html",
+          "evidence": "研究室介绍说明该室属物理化学讲座，重视统计热力学观点，以自制装置在微量样品、绝对值评价和外部环境控制下进行量热测量，研究分子性超导体和分子磁性体的相变。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/nakazawa/",
+          "evidence": "研究室主页列中泽康浩教授及成员，研究主题含分子性导体的相变、分子磁性体的热力学性质和量热技术开发。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "精密カロリメトリーで分子性固体の相転移を熱力学的に解明する。",
+      "theme_en": "Thermodynamic study of phase transitions in molecular solids by precision calorimetry.",
+      "summary_ja": "統計熱力学の視点から、分子性超伝導体、強相関有機化合物、分子性磁性体の相転移や協力現象を研究します。10μg〜1mgの微小単結晶を測れる自作カロリメトリー装置を開発し、極低温・強磁場などの環境制御下で熱容量や熱輸送を測定します。",
+      "summary_en": "From a statistical-thermodynamics viewpoint, the group studies cooperative phenomena and phase transitions in molecular superconductors, strongly correlated organic compounds and molecular magnets. Its home-built calorimeters measure single crystals of 10 μg to 1 mg, recording heat capacity and heat transport at very low temperature and in high magnetic fields.",
+      "theme_tw": "用精密量熱從熱力學角度解析分子固體的相變。",
+      "summary_tw": "以統計熱力學為視角，研究分子集合體中的協同現象，如分子性超導體、強關聯有機化合物和分子磁性體的相變。研究室自製可測10微克至1毫克單晶的量熱裝置，在極低溫、強磁場等受控環境下測量熱容與熱輸運。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "physical-6"
+    },
+    {
+      "field": "physical",
+      "university": "広島大学",
+      "department": "大学院先進理工系科学研究科 化学プログラム",
+      "lab": "反応物理化学研究室（高口研究室）",
+      "pi": "高口 博志",
+      "pi_title": "教授",
+      "theme_zh": "用激光分光和散射实验追踪化学反应的动力学。",
+      "summary_zh": "为理解化学反应为何及如何发生，用激光分光测定产物的振动、转动和自旋状态，用散射法测定产物飞出的方向和速度，从分子运动解释反应热的去向。室内另有用放射光研究水合结构和研究星际冰表面反应的小组。",
+      "keywords": [
+        "反应动力学",
+        "激光分光",
+        "散射实验",
+        "水合结构",
+        "星际化学"
+      ],
+      "url": "https://hanbutsu.hiroshima-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://chemistry.hiroshima-u.ac.jp/staff/",
+          "evidence": "化学科教员与研究室一览列反应物理化学研究室：高口博志教授，冈田和正、柘植雅士准教授。"
+        },
+        {
+          "url": "https://hanbutsu.hiroshima-u.ac.jp/members.html",
+          "evidence": "研究室成员页列高口博志教授（Hiroshi Kohguchi）及冈田和正、柘植雅士两位准教授。"
+        },
+        {
+          "url": "https://hanbutsu.hiroshima-u.ac.jp/research.html",
+          "evidence": "研究页说明以激光分光和散射法测定反应产物的振动、转动、自旋状态及飞出方向与速度，并有利用放射光研究水合结构和研究星际冰表面低温反应的小组。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "レーザー分光と散乱法で化学反応のダイナミクスを追跡する。",
+      "theme_en": "Following chemical reaction dynamics with laser spectroscopy and scattering experiments.",
+      "summary_ja": "化学反応がなぜ・どのように起こるのかを理解するため、レーザー分光で生成物の振動・回転・スピン状態を、散乱法で飛び出す方向と速さを決め、反応熱と分子運動の関係を調べます。放射光による水和構造や星間氷表面の低温反応の研究も行います。",
+      "summary_en": "To understand why and how chemical reactions occur, the laboratory uses laser spectroscopy to determine the vibrational, rotational and spin states of reaction products and scattering methods to measure the direction and speed of their ejection. Other groups study hydration in aqueous solution with synchrotron light and low-temperature reactions on interstellar ice surfaces.",
+      "theme_tw": "用雷射分光和散射實驗追蹤化學反應的動力學。",
+      "summary_tw": "為理解化學反應為何及如何發生，用雷射分光測定產物的振動、轉動和自旋狀態，用散射法測定產物飛出的方向和速度，從分子運動解釋反應熱的去向。室內另有用放射光研究水合結構和研究星際冰表面反應的小組。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "physical-7"
+    },
+    {
+      "field": "physical",
+      "university": "千葉大学",
+      "department": "大学院融合理工学府 先進理化学専攻 化学コース",
+      "lab": "分子分光学（城田研究室）",
+      "pi": "城田 秀明",
+      "pi_title": "教授",
+      "theme_zh": "用飞秒激光分光研究液体与离子液体的超快动力学。",
+      "summary_zh": "飞秒至皮秒尺度的分子内、分子间振动和取向运动，是理解反应基元过程和凝聚相弛豫的关键。研究室用自制飞秒激光分光装置，解析离子液体、协同氢键体系和溶液的超快动力学，并合成开发功能性液体。",
+      "keywords": [
+        "超快分光",
+        "离子液体",
+        "液体动力学",
+        "分子间振动",
+        "氢键"
+      ],
+      "url": "https://sites.google.com/view/shirota-lab/",
+      "references": [
+        {
+          "url": "http://www.chem.s.chiba-u.ac.jp/kagaku.html",
+          "evidence": "化学科研究室介绍页在物理化学下列“分子分光学 城田秀明 教授”，说明用自制飞秒激光分光装置研究离子液体、协同氢键分子体系和溶液等凝聚相的超快动力学，并链接到该研究室网站。"
+        },
+        {
+          "url": "https://researchmap.jp/read0076896",
+          "evidence": "researchmap（补充出处）列城田秀明为千叶大学大学院理学研究院化学研究部门教授（2023年10月起），研究领域为物理化学、溶液化学和分子分光。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "フェムト秒レーザー分光で液体・イオン液体の超高速ダイナミクスを探る。",
+      "theme_en": "Ultrafast dynamics of liquids and ionic liquids studied by femtosecond laser spectroscopy.",
+      "summary_ja": "フェムト秒〜ピコ秒の分子内・分子間振動や配向運動は、反応素過程や凝縮相の緩和を理解する鍵です。自作のフェムト秒レーザー分光装置で、イオン液体、協奏的水素結合系、溶液の超高速ダイナミクスを解明し、機能性液体の開発も行います。",
+      "summary_en": "Intra- and intermolecular vibrations and reorientation on femtosecond-to-picosecond timescales underlie elementary reaction steps and relaxation in condensed phases. Using home-built femtosecond laser spectrometers, the laboratory examines ultrafast dynamics of ionic liquids, cooperatively hydrogen-bonded systems and solutions, and also synthesizes functional liquids.",
+      "theme_tw": "用飛秒雷射分光研究液體與離子液體的超快動力學。",
+      "summary_tw": "飛秒至皮秒尺度的分子內、分子間振動和取向運動，是理解反應基元過程和凝聚相弛豫的關鍵。研究室用自製飛秒雷射分光裝置，解析離子液體、協同氫鍵體系和溶液的超快動力學，並合成開發功能性液體。",
+      "aliases": [
+        "千叶大学",
+        "千葉大學",
+        "Chiba University"
+      ],
+      "id": "physical-8"
+    },
+    {
+      "field": "physical",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "生物物理化学研究室（水谷研究室）",
+      "pi": "水谷 泰久",
+      "pi_title": "教授",
+      "theme_zh": "用时间分辨共振拉曼分光追踪蛋白质的结构动态。",
+      "summary_zh": "蛋白质兼具刚性与柔性，其结构变化是功能的基础。研究室以时间分辨共振拉曼等振动分光，在皮秒至毫秒范围内观测血红蛋白、视紫红质等蛋白质发挥功能时的结构变化和能量流动，并开发新的时间分辨分光方法。",
+      "keywords": [
+        "时间分辨分光",
+        "共振拉曼",
+        "蛋白质动力学",
+        "振动能量传递",
+        "别构效应"
+      ],
+      "url": "https://www.chem.sci.osaka-u.ac.jp/lab/mizutani/index-jp.html",
+      "references": [
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/lab/009.html",
+          "evidence": "研究室介绍列水谷泰久教授、石川春人讲师和润井泰斗助教，说明以时间分辨分光（尤其共振拉曼分光）研究蛋白质的结构动力学。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/staffs/index.html",
+          "evidence": "化学专攻教员名录列水谷泰久教授（水谷研，生物物理化学研究室）。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/mizutani/index-jp.html",
+          "evidence": "研究室主页（2026年11月有更新）列时间分辨共振拉曼、蛋白质内振动能量传递、视紫红质类与血红蛋白的结构动力学等研究主题。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "時間分解共鳴ラマン分光でタンパク質の構造ダイナミクスを追跡する。",
+      "theme_en": "Tracking protein structural dynamics with time-resolved resonance Raman spectroscopy.",
+      "summary_ja": "タンパク質は剛直さと柔軟さをあわせ持ち、その構造変化が機能を生みます。時間分解共鳴ラマン分光などで、ヘモグロビンやロドプシンが働く際の構造変化とエネルギーの流れをピコ秒〜ミリ秒の範囲で観測し、新しい時間分解分光法も開拓します。",
+      "summary_en": "Proteins combine rigidity with flexibility, and their structural changes underlie function. Using time-resolved resonance Raman and other vibrational spectroscopies, the laboratory follows structural changes and energy flow in proteins such as hemoglobin and rhodopsins from picoseconds to milliseconds, and develops new time-resolved methods.",
+      "theme_tw": "用時間解析共振拉曼分光追蹤蛋白質的結構動態。",
+      "summary_tw": "蛋白質兼具剛性與柔性，其結構變化是功能的基礎。研究室以時間解析共振拉曼等振動分光，在皮秒至毫秒範圍內觀測血紅蛋白、視紫紅質等蛋白質發揮功能時的結構變化和能量流動，並開發新的時間解析分光方法。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "physical-9"
+    },
+    {
+      "field": "physical",
+      "university": "東京理科大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "由井研究室",
+      "pi": "由井 宏治",
+      "pi_title": "教授",
+      "theme_zh": "用光散射分光显微镜研究软物质与界面中的水。",
+      "summary_zh": "研究室自主开发瑞利、布里渊和拉曼散射分光显微镜，在水溶液中原样测量样品，研究泡膜、胶束、水凝胶的微观结构与宏观黏弹性的关联，以及黏土矿物、氧化钛等氧化物表面和宇宙化学物质上的水溶液反应。",
+      "keywords": [
+        "光散射分光",
+        "拉曼分光",
+        "胶体与界面",
+        "软物质",
+        "水溶液化学"
+      ],
+      "url": "https://www.rs.kagu.tus.ac.jp/yuilab/",
+      "references": [
+        {
+          "url": "https://www.tus.ac.jp/academics/graduate_school/science/chemistry/",
+          "evidence": "理学研究科化学专攻页面列由井研究室，指导教员为由井宏治教授，领域为物理化学、分析化学，关键词为分光计测、溶液化学、胶体与界面科学。"
+        },
+        {
+          "url": "https://www.rs.kagu.tus.ac.jp/yuilab/boss.html",
+          "evidence": "教员介绍页列由井宏治为理学部第一部化学科教授（2013年起），专业为激光分光、界面胶体化学和溶液化学。"
+        },
+        {
+          "url": "https://www.rs.kagu.tus.ac.jp/yuilab/",
+          "evidence": "研究室主页（2026年8月更新）说明用自制瑞利、布里渊、拉曼散射分光显微镜研究泡膜、胶束、水凝胶及氧化物表面的水溶液反应。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "光散乱分光顕微鏡で、ソフトマターや界面の水を調べる。",
+      "theme_en": "Studying water in soft matter and at interfaces with light-scattering spectroscopic microscopy.",
+      "summary_ja": "レイリー・ブリルアン・ラマン散乱を用いた独自の分光顕微鏡で、水溶液中の試料をそのまま計測します。泡膜・ミセル・ハイドロゲルのミクロ構造と粘弾性の相関や、粘土鉱物・酸化チタンなどの酸化物表面や宇宙化学物質での水溶液反応を調べます。",
+      "summary_en": "The group develops its own spectroscopic microscopes based on Rayleigh, Brillouin and Raman scattering to measure samples in their native aqueous state. It relates the microstructure of foam films, micelles and hydrogels to their viscoelasticity, and studies aqueous reactions on oxide surfaces such as clay minerals and titania and on cosmochemical materials.",
+      "theme_tw": "用光散射分光顯微鏡研究軟物質與界面中的水。",
+      "summary_tw": "研究室自主開發瑞利、布里淵和拉曼散射分光顯微鏡，在水溶液中原樣測量樣品，研究泡膜、微胞、水凝膠的微觀結構與宏觀黏彈性的關聯，以及黏土礦物、氧化鈦等氧化物表面和宇宙化學物質上的水溶液反應。",
+      "aliases": [
+        "东京理科大学",
+        "東京理科大學",
+        "Tokyo University of Science"
+      ],
+      "id": "physical-10"
     },
     {
       "field": "analytical",
