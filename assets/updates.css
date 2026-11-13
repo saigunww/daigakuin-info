@@ -40,7 +40,7 @@ body.dark .honor-category-title{color:#7dd3fc}
 body.dark .feed-honors .honor-category-label{background:#0c4a6e;color:#e0f2fe}
 .feed-source-panel{margin:0 0 22px;border:1px solid #bae6fd;border-radius:12px;padding:16px;background:#f8fcff}
 .feed-source-panel>summary{cursor:pointer;color:#075985;font-weight:600;font-size:16px}
-.feed-source-panel .feed-grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));max-height:650px;overflow:auto;padding:2px}
+.feed-source-panel .feed-grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));padding:2px}
 .feed-window{font-size:13px;border-left:3px solid #38bdf8;padding-left:10px;margin:10px 0;line-height:1.8}
 .feed-unavailable{color:#92400e}
 #students-live{max-width:1000px}
