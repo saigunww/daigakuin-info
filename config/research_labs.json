@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-12",
+  "checked_at": "2026-11-13",
   "scope": "Representative university laboratories; curated from official sources. Independent of the daily literature feed.",
   "fields": [
     {
@@ -669,6 +669,373 @@
         "The University of Osaka"
       ],
       "id": "cell_biology-2"
+    },
+    {
+      "field": "cell_biology",
+      "university": "東京大学",
+      "department": "大学院医学系研究科 分子細胞生物学専攻",
+      "lab": "分子生物学分野（水島研究室）",
+      "pi": "水島 昇",
+      "pi_title": "教授",
+      "theme_zh": "解析自噬等细胞内分解系统的机制与生理作用。",
+      "summary_zh": "以自噬为核心研究细胞内分解系统：隔离膜如何延伸、包裹细胞质形成自噬体，再与溶酶体融合完成降解。同时开发自噬活性评价方法，并利用小鼠和斑马鱼分析其生理意义及与疾病的关联。",
+      "keywords": [
+        "自噬",
+        "自噬体",
+        "溶酶体",
+        "细胞内分解",
+        "细胞器动态"
+      ],
+      "url": "https://molbiolut.jp/",
+      "references": [
+        {
+          "url": "https://www.m.u-tokyo.ac.jp/departments/graduateschool.html",
+          "evidence": "医学系研究科专攻・分野页面在分子细胞生物学专攻生化学・分子生物学讲座下列出分子生物学分野，教授为水岛昇，并链接到研究室网站 molbiolut.jp。"
+        },
+        {
+          "url": "https://molbiolut.jp/research/",
+          "evidence": "研究介绍页说明以自噬为中心的细胞内分解系统研究，包括自噬体形成、与溶酶体融合、活性评价方法及小鼠和斑马鱼模型。"
+        },
+        {
+          "url": "https://molbiolut.jp/",
+          "evidence": "研究室主页标明东京大学医学系研究科分子细胞生物学专攻水岛研究室，最新消息为2026年10月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "オートファジーなど細胞内分解系の仕組みと生理的意義を解明する。",
+      "theme_en": "Uncovering how autophagy and other intracellular degradation systems work and what they do in the body.",
+      "summary_ja": "オートファジーを中心に細胞内分解系を研究。隔離膜が細胞質を包んでオートファゴソームとなり、リソソームと融合して分解される過程の分子機構を調べる。活性評価法を開発し、マウスやゼブラフィッシュで生理的意義と疾患との関わりも解析する。",
+      "summary_en": "Studies intracellular degradation centred on autophagy, in which an isolation membrane expands around cytoplasm to form an autophagosome that then fuses with lysosomes. The lab develops methods to measure autophagic activity and uses mice and zebrafish to examine its physiological roles and links to disease.",
+      "theme_tw": "解析自噬等細胞內分解系統的機制與生理作用。",
+      "summary_tw": "以自噬為核心研究細胞內分解系統：隔離膜如何延伸、包裹細胞質形成自噬體，再與溶酶體融合完成降解。同時開發自噬活性評估方法，並利用小鼠和斑馬魚分析其生理意義及與疾病的關聯。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "cell_biology-3"
+    },
+    {
+      "field": "cell_biology",
+      "university": "東京大学",
+      "department": "大学院薬学系研究科",
+      "lab": "生理化学教室（北川研究室）",
+      "pi": "北川 大樹",
+      "pi_title": "教授",
+      "theme_zh": "阐明中心体复制与细胞分裂的分子原理。",
+      "summary_zh": "研究细胞分裂的基本原理，重点包括中心体复制的分子机制、分裂期的分子基础、非编码RNA对分裂的调控以及纤毛动态。结合分子生物学、生化学、结构生物学与计算机模拟，并尝试发展新一代细胞分裂抑制剂。",
+      "keywords": [
+        "中心体",
+        "细胞分裂",
+        "纺锤体",
+        "纤毛",
+        "非编码RNA"
+      ],
+      "url": "https://seirikagaku.f.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.f.u-tokyo.ac.jp/research/index.html?id=1377181381",
+          "evidence": "薬学系研究科教室介绍页在生物薬科学类列出生理化学教室、教授北川大树，研究中心体复制、细胞分裂的分子基础与非编码RNA调控。"
+        },
+        {
+          "url": "https://seirikagaku.f.u-tokyo.ac.jp/member.html",
+          "evidence": "研究室成员页列出教授北川大树及讲师、特任准教授、助教和在读研究生。"
+        },
+        {
+          "url": "https://seirikagaku.f.u-tokyo.ac.jp/",
+          "evidence": "研究室主页说明以细胞分裂为主题，涵盖中心体复制、纤毛动态与细胞间通讯，并有2026年的新闻。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "中心体複製と細胞分裂の基本原理を分子レベルで解明する。",
+      "theme_en": "Elucidating the molecular principles of centrosome duplication and cell division.",
+      "summary_ja": "細胞分裂の基本原理の解明を目指し、中心体複製の分子機構、分裂期の分子基盤、非コードRNAによる分裂制御、繊毛の動態などを研究。分子生物学、生化学、構造生物学、計算機シミュレーションを組み合わせ、新しい分裂阻害剤の開発も目指す。",
+      "summary_en": "Investigates the basic principles of cell division, including the molecular mechanism of centrosome duplication, the molecular basis of mitosis, regulation of division by non-coding RNAs and cilia dynamics. Molecular biology, biochemistry, structural biology and computer simulation are combined, with an eye to next-generation cell division inhibitors.",
+      "theme_tw": "闡明中心體複製與細胞分裂的分子原理。",
+      "summary_tw": "研究細胞分裂的基本原理，重點包括中心體複製的分子機制、分裂期的分子基礎、非編碼RNA對分裂的調控以及纖毛動態。結合分子生物學、生化學、結構生物學與電腦模擬，並嘗試發展新一代細胞分裂抑制劑。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "cell_biology-4"
+    },
+    {
+      "field": "cell_biology",
+      "university": "京都大学",
+      "department": "大学院生命科学研究科 高次生命科学専攻",
+      "lab": "分子動態生理学分野",
+      "pi": "渡邊 直樹",
+      "pi_title": "教授",
+      "theme_zh": "以单分子成像观察细胞骨架与力传导的动态。",
+      "summary_zh": "在活细胞内以单分子水平直接观察分子如何工作，研究细胞前缘肌动蛋白丝的快速切断与再生、formin家族的作用及力学感知机制。并开发多重染色超分辨显微镜IRIS，用分子可视化分析靶向药物的作用。",
+      "keywords": [
+        "单分子成像",
+        "肌动蛋白",
+        "细胞骨架",
+        "超分辨显微镜",
+        "力学传导"
+      ],
+      "url": "https://www.lif.kyoto-u.ac.jp/j/research/lab/5097",
+      "references": [
+        {
+          "url": "https://www.lif.kyoto-u.ac.jp/j/research/lab/5097",
+          "evidence": "生命科学研究科分野页面列出渡边直树教授等教员，介绍单分子荧光成像、自主开发的多重染色超分辨显微镜IRIS及肌动蛋白研究。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.8d23cf4a45c8f0bb.html",
+          "evidence": "京都大学教育研究活动数据库（2026年10月更新）显示渡边直树为生命科学研究科高次生命科学专攻教授，并兼任医学研究科神经・细胞药理学分野教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "単分子イメージングで細胞骨格と力の伝達の動態を捉える。",
+      "theme_en": "Visualizing cytoskeletal dynamics and mechanotransduction with single-molecule imaging.",
+      "summary_ja": "細胞内の分子を単分子レベルで可視化し、細胞先導端でのアクチン線維の速い切断と再生、フォルミンファミリーの働き、力覚センサーの仕組みを調べる。独自の多重染色超解像顕微鏡IRISを開発し、分子標的薬の作用の可視化にも取り組む。",
+      "summary_en": "Directly visualizes molecules inside living cells at single-molecule resolution, studying rapid severing and regeneration of actin filaments at the leading edge, formin family proteins and force sensing. The lab also developed IRIS, a multiplexed super-resolution microscopy method, and visualizes how targeted drugs act on their molecular targets.",
+      "theme_tw": "以單分子成像觀察細胞骨架與力傳導的動態。",
+      "summary_tw": "在活細胞內以單分子層次直接觀察分子如何運作，研究細胞前緣肌動蛋白絲的快速切斷與再生、formin家族的作用及力學感知機制。並開發多重染色超解析顯微鏡IRIS，以分子可視化分析標靶藥物的作用。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "cell_biology-5"
+    },
+    {
+      "field": "cell_biology",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 生物科学専攻",
+      "lab": "細胞生命科学研究室",
+      "pi": "石原 直忠",
+      "pi_title": "教授",
+      "theme_zh": "研究线粒体分裂、融合与mtDNA动态的机制。",
+      "summary_zh": "研究哺乳动物细胞中线粒体的形态与运动，重点是分裂、融合及线粒体DNA的动态。结合活细胞成像、纯化蛋白的生化与生物物理分析和分裂因子缺失小鼠，探讨线粒体质量控制及其在发育、神经和卵子中的作用。",
+      "keywords": [
+        "线粒体",
+        "膜融合",
+        "线粒体分裂",
+        "mtDNA",
+        "活细胞成像"
+      ],
+      "url": "https://mitochondria.jp/",
+      "references": [
+        {
+          "url": "https://orca01.bio.sci.osaka-u.ac.jp/pdf/r08_lab_annai.pdf",
+          "evidence": "理学研究科生物科学专攻2026年度研究室介绍列出细胞生命科学研究室、教授石原直忠，介绍线粒体分裂融合与mtDNA动态研究，并附研究室网址 mitochondria.jp。"
+        },
+        {
+          "url": "https://mitochondria.jp/",
+          "evidence": "研究室主页标明大阪大学理学研究科生物科学专攻石原研究室，主题为线粒体融合与分裂，最新消息为2026年7月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "ミトコンドリアの分裂・融合とmtDNA動態の仕組みを探る。",
+      "theme_en": "Exploring the mechanisms of mitochondrial fission, fusion and mtDNA dynamics.",
+      "summary_ja": "哺乳動物細胞のミトコンドリアの形と動き、特に分裂・融合とmtDNAの動態を研究。生細胞観察、精製タンパク質を用いた生化学・生物物理学的解析、分裂因子欠損マウスを用い、品質管理機構や初期発生、神経、卵子での役割を調べる。",
+      "summary_en": "Studies the shape and movement of mitochondria in mammalian cells, focusing on fission, fusion and the dynamics of mitochondrial DNA. Live-cell imaging with fluorescent proteins, biochemical and biophysical analysis of purified proteins and mice lacking fission factors are used to examine quality control and roles in early development, neurons and oocytes.",
+      "theme_tw": "研究粒線體分裂、融合與mtDNA動態的機制。",
+      "summary_tw": "研究哺乳動物細胞中粒線體的形態與運動，重點是分裂、融合及粒線體DNA的動態。結合活細胞成像、純化蛋白的生化與生物物理分析和分裂因子缺失小鼠，探討粒線體品質管制及其在發育、神經和卵子中的作用。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "cell_biology-6"
+    },
+    {
+      "field": "cell_biology",
+      "university": "九州大学",
+      "department": "大学院医学研究院 基礎医学部門",
+      "lab": "生化学分野（池ノ内研究室）",
+      "pi": "池ノ内 順一",
+      "pi_title": "教授",
+      "theme_zh": "从膜脂质角度解析上皮细胞的接着、极性与微绒毛。",
+      "summary_zh": "以细胞膜脂质为切入点研究上皮细胞，包括紧密连接等接着结构的分子基础、顶端膜与基底侧膜的区分和微绒毛的形成原理。运用细胞膜分离与脂质质谱分析、膜蛋白定位筛选等方法，并关注其与癌症、纤维化的关系。",
+      "keywords": [
+        "上皮细胞",
+        "紧密连接",
+        "细胞极性",
+        "膜脂质",
+        "微绒毛"
+      ],
+      "url": "https://www.lab.med.kyushu-u.ac.jp/biochemistry/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100018433_ja.html",
+          "evidence": "九州大学研究者信息（2026年6月更新）显示池ノ内顺一为医学研究院基础医学部门教授，并兼任医学系学府和系统生命科学府，研究上皮细胞的接着与极性。"
+        },
+        {
+          "url": "https://www.lab.med.kyushu-u.ac.jp/biochemistry/",
+          "evidence": "研究室主页标明九州大学大学院医学研究院生化学分野、池ノ内顺一教授，以细胞膜脂质为切入点研究上皮细胞，最新消息为2026年5月。"
+        },
+        {
+          "url": "https://www.lab.med.kyushu-u.ac.jp/biochemistry/research/",
+          "evidence": "研究介绍页说明紧密连接与三细胞接着蛋白tricellulin、微绒毛形成原理，以及细胞膜分离与脂质质谱分析方法。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "膜脂質に着目し上皮細胞の接着・極性・微絨毛形成を解明する。",
+      "theme_en": "Understanding epithelial adhesion, polarity and microvilli through membrane lipids.",
+      "summary_ja": "細胞膜の脂質に着目し、タイトジャンクションなどの接着構造、アピカル膜とバソラテラル膜の区画化、微絨毛の形成原理を研究。細胞膜の単離と質量分析による脂質解析、膜タンパク質の局在探索などを用い、がんや線維症との関連も調べる。",
+      "summary_en": "Studies epithelial cells from the perspective of plasma membrane lipids, including the molecular basis of tight junctions, the separation of apical and basolateral membranes and how microvilli are built. Methods include plasma membrane isolation with lipid mass spectrometry and localization screening of membrane proteins; links to cancer and fibrosis are also examined.",
+      "theme_tw": "從膜脂質角度解析上皮細胞的黏著、極性與微絨毛。",
+      "summary_tw": "以細胞膜脂質為切入點研究上皮細胞，包括緊密連接等黏著結構的分子基礎、頂端膜與基底側膜的區分和微絨毛的形成原理。運用細胞膜分離與脂質質譜分析、膜蛋白定位篩選等方法，並關注其與癌症、纖維化的關係。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "cell_biology-7"
+    },
+    {
+      "field": "cell_biology",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科 脳生命統御科学専攻",
+      "lab": "細胞小器官疾患学分野（田口研究室）",
+      "pi": "田口 友彦",
+      "pi_title": "教授",
+      "theme_zh": "从细胞器协作与膜脂质角度理解自然免疫信号。",
+      "summary_zh": "研究被膜包围的细胞器如何通过膜泡运输和分子交换相互协作，以及协作失调如何导致癌症和自身炎症性疾病。重点关注膜磷脂，揭示再循环内体的磷脂酰丝氨酸和高尔基体鞘磷脂在信号传递与自然免疫中的作用。",
+      "keywords": [
+        "细胞器",
+        "膜运输",
+        "高尔基体",
+        "膜磷脂",
+        "自然免疫"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory---id-45407.html",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory---id-45407.html",
+          "evidence": "生命科学研究科分野页面列出细胞小器官疾患学分野田口友彦教授等教员，介绍细胞器协作、膜磷脂与自然免疫信号的研究。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/fb0439ad6e47563e35acdbe12ff0d9cd.html",
+          "evidence": "东北大学研究者信息显示田口友彦自2018年4月任生命科学研究科脑生命统御科学专攻教授，关键词含内体、膜运输、自然免疫，并列有2026年2月的讲演。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "オルガネラの連携と膜脂質から自然免疫シグナルを理解する。",
+      "theme_en": "Understanding innate immune signaling through organelle cooperation and membrane lipids.",
+      "summary_ja": "オルガネラが小胞輸送などで連携する仕組みと、その破綻ががんや自己炎症性疾患を招く過程を研究。膜リン脂質に注目し、リサイクリングエンドソームのホスファチジルセリンやゴルジ体のスフィンゴミエリンがシグナル伝達で担う役割を示した。",
+      "summary_en": "Studies how membrane-bound organelles cooperate through vesicular transport and molecular exchange, and how failures in this cooperation lead to cancer and autoinflammatory disease. Focusing on membrane phospholipids, the lab has shown roles for phosphatidylserine in recycling endosomes and sphingomyelin in the Golgi in signaling and innate immunity.",
+      "theme_tw": "從胞器協作與膜脂質角度理解先天免疫訊號。",
+      "summary_tw": "研究由膜包圍的胞器如何透過膜泡運輸和分子交換相互協作，以及協作失調如何導致癌症和自體發炎性疾病。重點關注膜磷脂，揭示再循環內體的磷脂醯絲胺酸和高基氏體鞘磷脂在訊號傳遞與先天免疫中的作用。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "cell_biology-8"
+    },
+    {
+      "field": "cell_biology",
+      "university": "順天堂大学",
+      "department": "大学院医学研究科 器官・細胞生理学",
+      "lab": "生理学第二講座（小松研究室）",
+      "pi": "小松 雅明",
+      "pi_title": "教授",
+      "theme_zh": "解析选择性自噬与UFM1修饰系统的机制和病理意义。",
+      "summary_zh": "研究自噬如何选择性识别并降解特定底物，包括p62凝聚体的形成、磷酸化调控和蛋白聚集体的处理。并解析泛素样修饰UFM1系统在内质网的作用，利用基因改造小鼠和患者细胞探讨其与神经发育障碍的关系。",
+      "keywords": [
+        "选择性自噬",
+        "p62",
+        "UFM1",
+        "内质网",
+        "蛋白质质量控制"
+      ],
+      "url": "https://www.juntendo.ac.jp/graduate/laboratory/labo/kikan_saibou/",
+      "references": [
+        {
+          "url": "https://www.juntendo.ac.jp/graduate/laboratory/labo/kikan_saibou/",
+          "evidence": "顺天堂大学大学院网站上的研究室主页标明医学部生理学第二讲座小松研究室、小松雅明主任教授，新闻涉及自噬、UFM1系统和p62，最新为2026年9月。"
+        },
+        {
+          "url": "https://www.hokudai.ac.jp/news/pdf/260710_pr.pdf",
+          "evidence": "北海道大学2026年7月新闻稿写明“顺天堂大学大学院医学研究科器官・细胞生理学小松雅明教授”参与解析内质网上的蛋白质质量控制系统。"
+        },
+        {
+          "url": "https://www.juntendo.ac.jp/graduate/laboratory/labo/kikan_saibou/jpn/achievement/2026.html",
+          "evidence": "研究室2026年业绩页列出关于p62凝聚体、UFM1修饰和Met1连接泛素化的论文。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "選択的オートファジーとUFM1システムの仕組みと病態を解明する。",
+      "theme_en": "Dissecting selective autophagy and the UFM1 modification system in health and disease.",
+      "summary_ja": "オートファジーが基質を選んで分解する仕組みを、p62の液滴形成やリン酸化制御、凝集体の処理を中心に研究。ユビキチン様修飾UFM1システムの小胞体での役割も解析し、遺伝子改変マウスや患者由来細胞で神経発達異常との関連を調べる。",
+      "summary_en": "Studies how autophagy selects and degrades specific substrates, focusing on p62 condensate formation, phosphorylation-based regulation and the handling of protein aggregates. The lab also analyses the ubiquitin-like UFM1 modification system at the endoplasmic reticulum, using genetically modified mice and patient-derived cells to link it to neurodevelopmental disorders.",
+      "theme_tw": "解析選擇性自噬與UFM1修飾系統的機制和病理意義。",
+      "summary_tw": "研究自噬如何選擇性辨識並降解特定受質，包括p62凝聚體的形成、磷酸化調控和蛋白聚集體的處理。並解析類泛素修飾UFM1系統在內質網的作用，利用基因改造小鼠和病患細胞探討其與神經發育障礙的關係。",
+      "aliases": [
+        "顺天堂大学",
+        "順天堂大學",
+        "Juntendo University"
+      ],
+      "id": "cell_biology-9"
+    },
+    {
+      "field": "cell_biology",
+      "university": "神戸大学",
+      "department": "大学院医学系研究科 先進生命医科学専攻",
+      "lab": "膜生物学分野（生体膜機能研究分野）",
+      "pi": "伊藤 俊樹",
+      "pi_title": "教授",
+      "theme_zh": "研究细胞膜张力如何调控细胞行为与疾病。",
+      "summary_zh": "以物理因素“膜张力”为切入点开展力学生物学研究，涉及癌细胞浸润转移、破骨细胞融合与骨代谢、干细胞维持与衰老。运用膜张力标记成像、光镊纳米尺度力测量和人工基因操控，并借助机器学习寻找候选分子。",
+      "keywords": [
+        "膜张力",
+        "力学生物学",
+        "细胞融合",
+        "癌细胞浸润",
+        "光镊"
+      ],
+      "url": "https://www.research.kobe-u.ac.jp/brce-itoh/",
+      "references": [
+        {
+          "url": "https://www.med.kobe-u.ac.jp/GRADN/BMS/setsumeikai/2026jizensiryou/2026membranebiology_itoh.pdf",
+          "evidence": "医学系研究科2026年度入试说明会资料介绍膜生物学分野的膜张力与力学生物学研究，注明指导教员为伊藤俊树教授并附研究室网址。"
+        },
+        {
+          "url": "https://www.biosig.kobe-u.ac.jp/",
+          "evidence": "神户大学生物信号综合研究中心主页的新闻列出生体膜机能研究分野教授伊藤俊树、准教授辻田和也等。"
+        },
+        {
+          "url": "https://www.research.kobe-u.ac.jp/brce-itoh/",
+          "evidence": "研究室主页介绍膜张力在癌症、衰老和骨代谢疾病中的作用，最新消息为2026年5月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "細胞膜の張力が細胞の振る舞いと病態を制御する仕組みを探る。",
+      "theme_en": "Investigating how plasma membrane tension controls cell behavior and disease.",
+      "summary_ja": "物理因子「膜張力」に着目したメカノバイオロジー研究。がん細胞の浸潤・転移、破骨細胞の融合と骨代謝、幹細胞の維持や老化を対象に、膜張力マーカーによるイメージング、光ピンセットによる力計測、人工遺伝子による膜張力操作を組み合わせる。",
+      "summary_en": "Pursues mechanobiology centred on plasma membrane tension, studying cancer cell invasion and metastasis, osteoclast fusion in bone metabolism, and stem-cell maintenance and ageing. Membrane tension is visualized with dedicated markers, measured with optical tweezers and manipulated with engineered genes, while machine learning helps identify candidate molecules.",
+      "theme_tw": "研究細胞膜張力如何調控細胞行為與疾病。",
+      "summary_tw": "以物理因素「膜張力」為切入點進行力學生物學研究，涉及癌細胞侵襲轉移、蝕骨細胞融合與骨代謝、幹細胞維持與老化。運用膜張力標記成像、光鑷奈米尺度力量測量和人工基因操控，並藉助機器學習尋找候選分子。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "cell_biology-10"
     },
     {
       "field": "development_regeneration",
@@ -2054,6 +2421,384 @@
         "Tohoku University"
       ],
       "id": "organic-2"
+    },
+    {
+      "field": "organic",
+      "university": "京都大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "有機化学研究室（依光研究室）",
+      "pi": "依光 英樹",
+      "pi_title": "教授",
+      "theme_zh": "利用杂原子与金属催化开发新反应，重组芳香环。",
+      "summary_zh": "以过渡金属催化和硫、硅等杂原子的特性为基础探索新反应。研究包括有机硫化合物的合成与催化转化、把芳香环拆开再重建的“芳香环变形”、硅试剂设计，以及碱金属电子注入的还原型合成。",
+      "keywords": [
+        "过渡金属催化",
+        "有机硫化学",
+        "芳香环变形",
+        "杂原子化学",
+        "还原合成"
+      ],
+      "url": "https://www.kuchem.kyoto-u.ac.jp/orgchem/yorimitsu_lab/index.html",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.2d4443aa812c275b.html",
+          "evidence": "京都大学教育研究活动数据库（2026年11月更新）列依光英树为理学研究科化学专攻有机化学讲座教授，关键词含典型元素化学、过渡金属催化、有机金属化学，并链接到该研究室主页。"
+        },
+        {
+          "url": "https://www.kuchem.kyoto-u.ac.jp/orgchem/yorimitsu_lab/members.html",
+          "evidence": "研究室成员页列出依光英树教授、下川淳准教授和黑木尧特定准教授。"
+        },
+        {
+          "url": "https://www.kuchem.kyoto-u.ac.jp/orgchem/yorimitsu_lab/research.html",
+          "evidence": "研究介绍说明以过渡金属催化和杂原子特性开发新反应，涉及有机硫化学、芳香环“变形”（メタモルフォシス）、硅试剂设计和碱金属电子注入型合成。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "ヘテロ原子と遷移金属触媒を活かした新反応と芳香環の組み替え。",
+      "theme_en": "New reactions from heteroatom chemistry and transition-metal catalysis, including aromatic ring metamorphosis.",
+      "summary_ja": "遷移金属触媒やヘテロ原子の性質を利用した新しい有機反応を開発します。有機硫黄化合物の合成と触媒変換、芳香環を切断して組み直す「芳香環メタモルフォシス」、ケイ素反応剤の設計、アルカリ金属による電子注入型合成に取り組みます。",
+      "summary_en": "The group develops new organic reactions based on transition-metal catalysis and the properties of heteroatoms such as sulfur and silicon. Topics include organosulfur synthesis and catalysis, \"aromatic ring metamorphosis\" that dismantles and rebuilds aromatic rings, silicon reagent design and reductive synthesis by electron injection from alkali metals.",
+      "theme_tw": "利用雜原子與金屬催化開發新反應，重組芳香環。",
+      "summary_tw": "以過渡金屬催化和硫、矽等雜原子的特性為基礎探索新反應。研究包括有機硫化合物的合成與催化轉化、把芳香環拆開再重建的「芳香環變形」、矽試劑設計，以及鹼金屬電子注入的還原型合成。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "organic-3"
+    },
+    {
+      "field": "organic",
+      "university": "大阪大学",
+      "department": "大学院工学研究科 応用化学専攻 分子創成化学コース",
+      "lab": "機能有機化学領域（鳶巣研究室）",
+      "pi": "鳶巣 守",
+      "pi_title": "教授",
+      "theme_zh": "切断惰性化学键、编辑分子骨架的新型催化反应。",
+      "summary_zh": "以过渡金属配合物催化为主，探索前所未有的新反应。研究直接转化芳环甲氧基等惰性官能团并用于高分子化学回收，通过碳–碳键切断与插入缩短或延长分子骨架，并开发磷等主族元素的氧化还原催化。",
+      "keywords": [
+        "惰性键活化",
+        "骨架编辑",
+        "过渡金属催化",
+        "主族元素催化",
+        "活性中间体"
+      ],
+      "url": "https://www-chem.eng.osaka-u.ac.jp/~tobisu-lab/",
+      "references": [
+        {
+          "url": "https://www-chem.eng.osaka-u.ac.jp/~tobisu-lab/member.html",
+          "evidence": "研究室成员页列出鸢巢守教授及兒玉拓也、藤本隼斗等教员，注明研究室属于大阪大学工学研究科应用化学专攻的机能有机化学领域。"
+        },
+        {
+          "url": "https://www.eng.osaka-u.ac.jp/prospective/introduction-research/3014/",
+          "evidence": "大阪大学工学部研究介绍（2025年采访）介绍鸢巢守教授的研究室，说明镍催化C–O键断裂偶联、可解聚回收的高分子和单碳原子插入反应等成果。"
+        },
+        {
+          "url": "https://www-chem.eng.osaka-u.ac.jp/~tobisu-lab/Research.html",
+          "evidence": "研究页说明以过渡金属催化切断惰性强键、编辑分子骨架，并发掘磷等主族元素和反应活性中间体的新反应性。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "不活性結合の切断と分子骨格の編集を可能にする触媒反応の開発。",
+      "theme_en": "Catalytic reactions that cleave inert bonds and edit molecular skeletons.",
+      "summary_ja": "遷移金属錯体触媒を中心に、前例のない反応の発見を目指します。芳香環上のメトキシ基など不活性な官能基の直接変換とその高分子リサイクルへの応用、炭素–炭素結合の切断・挿入による骨格編集、リンなど典型元素のレドックス触媒を開発します。",
+      "summary_en": "Centered on transition-metal catalysis, the group pursues unprecedented reactions. It directly converts normally unreactive groups such as aryl methoxy groups, an approach that also enables chemical recycling of polymers, edits molecular skeletons through carbon–carbon bond cleavage and insertion, and explores redox catalysis by main-group elements such as phosphorus.",
+      "theme_tw": "切斷惰性化學鍵、編輯分子骨架的新型催化反應。",
+      "summary_tw": "以過渡金屬錯合物催化為主，探索前所未有的新反應。研究直接轉化芳環甲氧基等惰性官能基並用於高分子化學回收，透過碳–碳鍵切斷與插入縮短或延長分子骨架，並開發磷等主族元素的氧化還原催化。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "organic-4"
+    },
+    {
+      "field": "organic",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 有機・高分子化学専攻／WPI-ITbM",
+      "lab": "有機反応化学研究室（大井研究室）",
+      "pi": "大井 貴史",
+      "pi_title": "教授",
+      "theme_zh": "设计有机离子对催化剂，控制离子与自由基反应。",
+      "summary_zh": "聚焦鏻盐、三唑鎓盐、铵甜菜碱等有机离子对，通过分子设计和精密结构调控开发不含金属的有机分子催化剂。研究以选择性分子转化和机理解析为基础，并拓展到光催化与有机自由基反应的控制。",
+      "keywords": [
+        "有机离子对",
+        "有机分子催化",
+        "自由基反应",
+        "光催化",
+        "反应机理"
+      ],
+      "url": "https://www.chembio.nagoya-u.ac.jp/labhp/organic3/",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100000117_ja.html",
+          "evidence": "名古屋大学教员数据库（2026年7月更新）列大井贵史为トランスフォーマティブ生命分子研究所教授、担任大学院工学研究科，研究课题为基于有机离子对分子设计的催化功能创造。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/images/20250430_1615261c5aevzbwq6thj7mg9li_1c5aevzbwq6thj7mg9li.pdf",
+          "evidence": "工学研究科化学生命工学系2025年版手册在有机・高分子化学专攻有机化学讲座下列出“有機反応化学 教授：大井 貴史”，说明其设计分子以控制离子反应和自由基反应。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/organic3/research/index.html",
+          "evidence": "研究室研究页说明以有机离子对“鎓盐”为对象，通过分子设计与精密结构控制创造不含金属的有机分子催化功能，项目含氨基鏻盐、三唑鎓盐、铵甜菜碱等。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "有機イオン対の分子設計でイオン反応とラジカル反応を制御する。",
+      "theme_en": "Designing organic ion-pair catalysts to control ionic and radical reactions.",
+      "summary_ja": "ホスホニウム塩、トリアゾリウム塩、アンモニウムベタインなどの有機イオン対に着目し、分子設計と精密な構造制御で金属を含まない有機分子触媒を開発します。選択的分子変換と反応機構解析を基盤に、光触媒や有機ラジカルの制御も進めます。",
+      "summary_en": "The group designs organic ion pairs, including phosphonium salts, 1,2,3-triazolium salts and ammonium betaines, as metal-free organic catalysts. Combining precise structural control with mechanistic analysis, it develops selective molecular transformations and extends this approach to photocatalysis and the control of organic radical reactions.",
+      "theme_tw": "設計有機離子對催化劑，控制離子與自由基反應。",
+      "summary_tw": "聚焦鏻鹽、三唑鎓鹽、銨甜菜鹼等有機離子對，透過分子設計和精密結構調控開發不含金屬的有機分子催化劑。研究以選擇性分子轉化和機制解析為基礎，並拓展到光催化與有機自由基反應的控制。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "organic-5"
+    },
+    {
+      "field": "organic",
+      "university": "北海道大学",
+      "department": "大学院総合化学院／工学研究院 応用化学部門",
+      "lab": "有機元素化学研究室（伊藤研究室）",
+      "pi": "伊藤 肇",
+      "pi_title": "教授",
+      "theme_zh": "结合硼、硅等元素，开发新反应与机械化学合成。",
+      "summary_zh": "把有机化合物与硅、硼、磷及过渡金属等元素结合，开发合成反应、催化剂和功能材料。研究包括有机硼与有机硅化合物的选择性合成、借助计算设计手性铜催化剂、球磨无溶剂机械化学反应及固体发光材料。",
+      "keywords": [
+        "有机硼化学",
+        "有机硅化学",
+        "铜催化",
+        "机械化学",
+        "量子化学计算"
+      ],
+      "url": "https://itogrouphp.eng.hokudai.ac.jp/",
+      "references": [
+        {
+          "url": "https://apchem.eng.hokudai.ac.jp/lab/organoelement-chemistry/",
+          "evidence": "工学部应用化学课程研究室页列出有机元素化学研究室，伊藤肇为教授，另有久保田浩司教授、百合野大雅准教授等；说明研究利用各种元素特性创造新有机合成反应、催化反应和功能物质。"
+        },
+        {
+          "url": "https://www.cse.hokudai.ac.jp/lab/585/",
+          "evidence": "大学院综合化学院研究室页列出该研究室属于分子化学课程反应控制学讲座，担当教员为工学研究院伊藤肇教授等。"
+        },
+        {
+          "url": "https://itogrouphp.eng.hokudai.ac.jp/research/",
+          "evidence": "研究室研究介绍说明有机硼、有机硅化合物选择性合成，量子化学计算辅助设计手性铜(I)催化剂，球磨机械化学合成，以及基于分子晶体工程的固体发光材料。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "ホウ素・ケイ素などの元素を活かした新反応とメカノケミカル合成。",
+      "theme_en": "Element-based organic synthesis, from boron and silicon chemistry to mechanochemistry.",
+      "summary_ja": "有機化合物とケイ素・ホウ素・リン・遷移金属などを組み合わせ、合成反応、触媒、機能材料を開発します。有機ホウ素・ケイ素化合物の選択的合成、計算によるキラル銅触媒の設計、ボールミルでのメカノケミカル反応、固体発光材料に取り組みます。",
+      "summary_en": "Combining organic molecules with elements such as silicon, boron, phosphorus and transition metals, the group develops synthetic reactions, catalysts and functional materials. Work includes selective synthesis of organoboron and organosilicon compounds, computation-guided chiral copper catalysts, solvent-free ball-mill mechanochemistry and solid-state luminescent materials.",
+      "theme_tw": "結合硼、矽等元素，開發新反應與機械化學合成。",
+      "summary_tw": "把有機化合物與矽、硼、磷及過渡金屬等元素結合，開發合成反應、催化劑和功能材料。研究包括有機硼與有機矽化合物的選擇性合成、藉助計算設計掌性銅催化劑、球磨無溶劑機械化學反應及固態發光材料。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "organic-6"
+    },
+    {
+      "field": "organic",
+      "university": "九州大学",
+      "department": "大学院薬学府 創薬科学専攻／薬学研究院",
+      "lab": "環境調和創薬化学分野（大嶋研究室）",
+      "pi": "大嶋 孝志",
+      "pi_title": "教授",
+      "theme_zh": "开发环境友好的催化反应，高效合成医药相关分子。",
+      "summary_zh": "以绿色化学为基础，开发选择性活化惰性官能团的催化反应，省去活化剂和保护、脱保护步骤。主题包括N-无保护酮亚胺化学、无保护羧酸的催化α-官能化和位阻型非天然氨基酸合成，并结合流动合成。",
+      "keywords": [
+        "绿色化学",
+        "化学选择性催化",
+        "非天然氨基酸",
+        "流动合成",
+        "医药合成"
+      ],
+      "url": "https://green.phar.kyushu-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/search/details/K003640/",
+          "evidence": "九州大学研究者信息（2026年10月更新）列大岛孝志为药学研究院创药科学部门教授、兼任药学府创药科学专攻，研究室主页为环境调和创药化学分野，关键词含绿色化学、催化反应和数字有机合成。"
+        },
+        {
+          "url": "https://green.phar.kyushu-u.ac.jp/research/research.html",
+          "evidence": "研究页说明开发环境调和型催化反应，三大主题为N-无保护酮亚胺化学、羧酸等价体及无保护羧酸的催化α-官能化、位阻型非天然α-氨基酸合成，并结合流动合成。"
+        },
+        {
+          "url": "https://green.phar.kyushu-u.ac.jp/member/member.html",
+          "evidence": "成员页列出大岛孝志教授、矢崎亮准教授、森本浩之讲师等现任教员。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "環境調和型の触媒反応で医薬関連分子を効率よく合成する。",
+      "theme_en": "Environmentally benign catalytic reactions for efficient synthesis of drug-related molecules.",
+      "summary_ja": "グリーンケミストリーを基盤に、不活性官能基を選択的に活性化する触媒反応を開発し、活性化剤や保護工程を省きます。窒素上無保護ケチミン、無保護カルボン酸の触媒的α-官能基化、立体障害型非天然アミノ酸合成を柱にフロー合成も進めます。",
+      "summary_en": "Grounded in green chemistry, the group develops catalytic reactions that selectively activate unreactive functional groups, avoiding stoichiometric activators and protection–deprotection steps. Core themes are N-unprotected ketimines, catalytic α-functionalization of unprotected carboxylic acids and synthesis of hindered unnatural α-amino acids, alongside flow synthesis.",
+      "theme_tw": "開發環境友善的催化反應，高效合成醫藥相關分子。",
+      "summary_tw": "以綠色化學為基礎，開發選擇性活化惰性官能基的催化反應，省去活化劑和保護、去保護步驟。主題包括N-無保護酮亞胺化學、無保護羧酸的催化α-官能基化和立體障礙型非天然胺基酸合成，並結合流動合成。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "organic-7"
+    },
+    {
+      "field": "organic",
+      "university": "広島大学",
+      "department": "大学院先進理工系科学研究科 化学プログラム",
+      "lab": "反応有機化学研究室（安倍研究室）",
+      "pi": "安倍 学",
+      "pi_title": "教授",
+      "theme_zh": "研究双自由基等活性中间体，开发光响应有机分子。",
+      "summary_zh": "直接观测化学反应中介入的不稳定活性种，阐明均裂断键与成键机理，尤其关注寿命极短的单线态双自由基。同时开发经双光子激发释放谷氨酸等活性物质的笼状化合物，并研究利用光能的新反应。",
+      "keywords": [
+        "活性中间体",
+        "双自由基",
+        "有机光化学",
+        "笼状化合物",
+        "反应机理"
+      ],
+      "url": "https://www.abe-lab.com/",
+      "references": [
+        {
+          "url": "https://chemistry.hiroshima-u.ac.jp/staff/",
+          "evidence": "理学部化学科／先进理工系科学研究科化学项目的教员研究室一览列出反应有机化学研究室：安倍学教授、茅原荣一准教授等，并链接研究室主页 abe-lab.com。"
+        },
+        {
+          "url": "https://seeds.office.hiroshima-u.ac.jp/profile/ja.db962c097787a1fd520e17560c007669.html",
+          "evidence": "广岛大学研究者信息（2026年11月更新）列安倍学为先进理工系科学研究科教授（化学项目），研究主题为利用光能的化学反应、光照释放抗癌药等活性物质的药剂开发，以及不稳定化学种的直接观测与机理解析。"
+        },
+        {
+          "url": "https://www.abe-lab.com/research/",
+          "evidence": "研究室研究页说明笼状化合物（光解保护基、双光子吸收）、单线态双自由基等活性中间体化学以及光化学研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "ビラジカルなど反応活性種の解明と光応答性有機分子の開発。",
+      "theme_en": "Reactive intermediates such as diradicals, and light-responsive organic molecules.",
+      "summary_ja": "化学反応に介在する不安定化学種を直接観測し、結合のホモリシス開裂と生成の機構を解明します。短寿命の一重項ビラジカルに注目するほか、二光子励起でグルタミン酸などを放出するケージド化合物や、光エネルギーを用いる反応を開発します。",
+      "summary_en": "The group directly observes unstable species that mediate chemical reactions to clarify how bonds break and form homolytically, with a focus on short-lived singlet diradicals. It also designs caged compounds that release bioactive molecules such as glutamate upon two-photon excitation, and develops reactions powered by light energy.",
+      "theme_tw": "研究雙自由基等活性中間體，開發光響應有機分子。",
+      "summary_tw": "直接觀測化學反應中介入的不穩定活性物種，闡明均裂斷鍵與成鍵機制，尤其關注壽命極短的單重態雙自由基。同時開發經雙光子激發釋放麩胺酸等活性物質的籠狀化合物，並研究利用光能的新反應。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "organic-8"
+    },
+    {
+      "field": "organic",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 化学・生命情報科学専攻",
+      "lab": "分子有機化学研究室（佐藤研究室）",
+      "pi": "佐藤 隆章",
+      "pi_title": "教授",
+      "theme_zh": "以酰胺转化等新方法高效全合成生物活性天然物。",
+      "summary_zh": "围绕结构复杂的生物活性天然物和药物候选分子，开发新反应与方法并实现高效全合成。代表性方法包括在合成后期选择性转化稳定的酰胺、联烯的立体选择性硼氢化，以及借助动态结晶控制选择性。",
+      "keywords": [
+        "天然物全合成",
+        "酰胺转化",
+        "生物碱",
+        "合成方法学",
+        "动态结晶"
+      ],
+      "url": "https://www.applc.keio.ac.jp/~takaakis/",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/st/faculty/?page=12",
+          "evidence": "庆应义塾大学理工学部教员一览列佐藤隆章为理工学部应用化学科教授兼理工学研究科化学・生命情报科学专攻教授，专业为天然物化学、有机合成化学和新合成法开发。"
+        },
+        {
+          "url": "https://www.k-ris.keio.ac.jp/html/100011379_ja.html",
+          "evidence": "庆应研究者信息（2026年10月更新）列佐藤隆章教授所属分子有机化学研究室，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.applc.keio.ac.jp/~takaakis/research.html",
+          "evidence": "研究页说明以酰胺选择性转化、联烯硼氢化和动态结晶控制选择性等方法，实现生物活性生物碱等天然物的全合成。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "アミド変換などの新手法で生物活性天然物を効率よく全合成する。",
+      "theme_en": "New methods such as amide transformations for efficient total synthesis of bioactive natural products.",
+      "summary_ja": "生物活性天然物や医薬候補などの複雑分子を対象に、新しい反応・方法論の開発と効率的な全合成を進めます。安定なアミドを合成終盤で選択的に変換する手法、アレンの立体選択的ヒドロホウ素化、動的結晶化による選択性制御などを用います。",
+      "summary_en": "The group develops reactions and strategies aimed at complex molecules and applies them to efficient total synthesis of bioactive natural products. Key approaches include late-stage selective transformation of stable amides, stereoselective hydroboration of allenes and selectivity control through dynamic crystallization, used to synthesize diverse alkaloids.",
+      "theme_tw": "以醯胺轉化等新方法高效全合成生物活性天然物。",
+      "summary_tw": "圍繞結構複雜的生物活性天然物和藥物候選分子，開發新反應與方法並實現高效全合成。代表性方法包括在合成後期選擇性轉化穩定的醯胺、丙二烯的立體選擇性硼氫化，以及藉助動態結晶控制選擇性。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "organic-9"
+    },
+    {
+      "field": "organic",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 応用化学専攻",
+      "lab": "山口潤一郎研究室",
+      "pi": "山口 潤一郎",
+      "pi_title": "教授",
+      "theme_zh": "以连接、拆解、创造分子为主线开发新合成反应。",
+      "summary_zh": "以有机合成为核心，围绕连接分子、拆解分子、创造革新分子三条主线，横跨有机金属化学、全合成和光化学等领域。代表成果包括钯催化原位生成邻醌二甲烷、一步构建多环骨架，并开展键交换反应研究。",
+      "keywords": [
+        "有机金属催化",
+        "钯催化",
+        "多环化合物",
+        "键交换反应",
+        "合成方法学"
+      ],
+      "url": "https://jyamaguchi-lab.com/newweb/",
+      "references": [
+        {
+          "url": "https://www.waseda.jp/inst/research/news/80961",
+          "evidence": "早稻田大学研究新闻（2025年6月）介绍理工学术院山口润一郎教授团队用钯催化原位生成邻醌二甲烷，一步由三种简单原料构建多环结构，并列出其“键交换反应开发与机器学习优化”课题。"
+        },
+        {
+          "url": "https://www.waseda.jp/top/en/news/84936",
+          "evidence": "早稻田大学英文新闻（2025年6月）称山口润一郎为理工学术院有机化学家、应用化学系（Department of Applied Chemistry）教授，研究高效构建多环与芳香族复杂分子。"
+        },
+        {
+          "url": "https://www.waseda.jp/inst/wias/other/2024/04/01/15305/",
+          "evidence": "早稻田大学高等研究所成员简介页的主页链接指向 jyamaguchi-lab.com，并列出与 Yamaguchi, J. 合著论文，可确认该网站为早稻田山口研究室网站。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "分子を「つなぐ・壊す・つくる」を軸に新しい合成反応を開発する。",
+      "theme_en": "New synthetic methods built on connecting, breaking apart and creating molecules.",
+      "summary_ja": "有機合成を軸に「分子をつなぐ」「分子を壊す」「革新的な分子をつくる」を掲げ、有機金属化学、全合成、光化学などを横断します。パラジウム触媒でo-キノジメタンをその場発生させ多環骨格を構築する手法や、結合交換反応を研究しています。",
+      "summary_en": "Centered on organic synthesis, the group pursues three goals: connecting molecules, breaking them apart and creating game-changing molecules, drawing on organometallic chemistry, total synthesis and photochemistry. Recent work includes palladium-catalyzed in situ generation of o-quinodimethanes for one-step polycycle construction and the development of bond-exchange reactions.",
+      "theme_tw": "以連接、拆解、創造分子為主線開發新合成反應。",
+      "summary_tw": "以有機合成為核心，圍繞連接分子、拆解分子、創造革新分子三條主線，橫跨有機金屬化學、全合成和光化學等領域。代表成果包括鈀催化原位生成鄰醌二甲烷、一步構築多環骨架，並開展鍵交換反應研究。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "organic-10"
     },
     {
       "field": "inorganic",
