@@ -30,7 +30,7 @@ def active_windows(windows, today):
 def fetch(url):
     if not official_url(url):
         raise ValueError('Not a university or research institution URL')
-    response=requests.get(url,timeout=(8,20),allow_redirects=False,headers={'User-Agent':'DaigakuinInfo/1.0 (+https://saigunww.github.io/daigakuin-info/)'})
+    response=requests.get(url,timeout=(8,20),allow_redirects=False,headers={'User-Agent':'DaigakuinInfo/1.0 (+https://daigakuin.coach-ai-assist.com/)'})
     for _ in range(5):
         if response.is_redirect:
             url=urljoin(url,response.headers['Location'])

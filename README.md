@@ -1,6 +1,6 @@
 # 行知学园 · 大学院生物／化学
 
-网站：https://saigunww.github.io/daigakuin-info/
+网站：https://daigakuin.coach-ai-assist.com/
 
 保留原网站的课程介绍、师资、学生、升学经验、研究室查询和四种语言，移除 AI 择校栏目，新增「每日研究」与自动更新的数据源。
 
