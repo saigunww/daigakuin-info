@@ -46,7 +46,8 @@ def load_catalog():
     for row in labs:
         assert row['field'] in field_ids
         assert all(row.get(k) for k in ('id', 'university', 'department', 'lab', 'pi', 'url', 'references', 'keywords'))
-        assert row['checked_at'] == data['checked_at']
+        # Each lab keeps the date its official sources were checked; the catalog date is the latest.
+        assert re.fullmatch(r'\d{4}-\d{2}-\d{2}', row['checked_at']) and row['checked_at'] <= data['checked_at']
         identity = (row['university'], re.sub(r'\s+', '', row['pi']))
         assert identity not in seen, ('Duplicate lab', identity)
         seen.add(identity)
@@ -127,7 +128,7 @@ def render(data):
             out.append('<p class="research-card-desc">' + lang({code: row['summary_' + code] for code in LANGUAGES}) + '</p>')
             out.append('<div class="research-card-tags">' + ''.join('<span class="research-card-tag">' + escape(word) + '</span>' for word in row['keywords']) + '</div>')
             out.append('<a class="research-card-link" href="' + valid_url(row['url']) + '" target="_blank" rel="noopener noreferrer">' + localized('研究室／大学官网 ↗', '研究室／大學官網 ↗', '研究室・大学公式サイト ↗', 'Official lab / university page ↗') + '</a>')
-            out.append('<details class="research-card-sources"><summary>' + localized('官方依据与核查日期', '官方依據與核查日期', '公式情報と確認日', 'Official sources and review date') + '</summary><p>' + escape(checked) + '</p><ul>')
+            out.append('<details class="research-card-sources"><summary>' + localized('官方依据与核查日期', '官方依據與核查日期', '公式情報と確認日', 'Official sources and review date') + '</summary><p>' + escape(row['checked_at']) + '</p><ul>')
             for i, ref in enumerate(row['references'], 1):
                 out.append('<li><a href="' + valid_url(ref['url']) + '" target="_blank" rel="noopener noreferrer">' + localized(f'官方来源 {i}', f'官方來源 {i}', f'公式出典 {i}', f'Official source {i}') + ' · ' + escape(urlsplit(ref['url']).hostname) + '</a></li>')
             out.append('</ul>')
