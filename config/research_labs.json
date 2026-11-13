@@ -3393,6 +3393,371 @@
       "id": "plant_science-2"
     },
     {
+      "field": "plant_science",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 生物科学専攻",
+      "lab": "発生細胞生物学研究室（東山研究室）",
+      "pi": "東山 哲也",
+      "pi_title": "教授",
+      "theme_zh": "以活细胞成像解析植物受精与花粉管导向",
+      "summary_zh": "利用自主开发的活细胞成像与显微操作技术，研究花朵内部的植物生殖、受精与发育。已发现引导花粉管走向卵细胞的吸引肽LURE及使花粉管能应答吸引的糖链AMOR，并研究原始真核生物的细胞器分裂。",
+      "keywords": [
+        "植物生殖",
+        "受精",
+        "花粉管导向",
+        "活细胞成像",
+        "细胞器分裂"
+      ],
+      "url": "https://www.bs.s.u-tokyo.ac.jp/labs/higashiyama/",
+      "references": [
+        {
+          "url": "https://www.bs.s.u-tokyo.ac.jp/labs/higashiyama/",
+          "evidence": "生物科学专攻研究室页列出东山哲也教授（基干讲座・光计测生命学讲座，发生细胞生物学），研究课题包括有性生殖中的细胞间信息传递与发育、细胞器分裂装置和活细胞操作解析技术开发。"
+        },
+        {
+          "url": "https://www.s.u-tokyo.ac.jp/ja/info/11105/",
+          "evidence": "理学系研究科2026年4月新闻称生物科学专攻东山哲也教授获选第20届「みどりの学術賞」，表彰其阐明植物受精中花粉管导向的分子机制。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "ライブイメージングで植物の受精と花粉管誘導を解明する",
+      "theme_en": "Using live-cell imaging to uncover how pollen tubes are guided to the egg and how flowering plants achieve fertilization.",
+      "summary_ja": "独自のライブセル解析技術と顕微操作で、花の内部で起こる植物の生殖・受精・発生を研究。花粉管を卵へ導く誘引ペプチドLUREや、花粉管を誘引に応答可能にする糖鎖AMORを発見した。原始的な真核生物のオルガネラ分裂も研究する。",
+      "summary_en": "Develops original live-cell imaging and micromanipulation techniques to study plant reproduction, fertilization and development inside the flower. The lab discovered the LURE peptides that attract pollen tubes to the egg and the sugar chain AMOR that makes pollen tubes competent to respond, and it also studies organelle division in primitive eukaryotes.",
+      "theme_tw": "以活細胞成像解析植物受精與花粉管導向",
+      "summary_tw": "利用自主開發的活細胞成像與顯微操作技術，研究花朵內部的植物生殖、受精與發育。已發現引導花粉管走向卵細胞的吸引肽LURE及使花粉管能回應吸引的醣鏈AMOR，並研究原始真核生物的胞器分裂。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "plant_science-3"
+    },
+    {
+      "field": "plant_science",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻 生命理学",
+      "lab": "細胞間シグナル研究グループ（松林研究室）",
+      "pi": "松林 嘉克",
+      "pi_title": "教授",
+      "theme_zh": "发现植物肽激素与受体，解析细胞间信号",
+      "summary_zh": "从特定分子出发追溯其调控机制，结合基因组信息、生化分析和基于质谱的独有微量分析技术，发现与植物生长和环境应答相关的新肽激素及受体，揭示根感知缺氮后与叶片往返传递激素、调节氮吸收的全身信号机制。",
+      "keywords": [
+        "肽激素",
+        "受体激酶",
+        "细胞间信号",
+        "氮素应答",
+        "翻译后修饰"
+      ],
+      "url": "https://www.bio.nagoya-u.ac.jp/~b2/",
+      "references": [
+        {
+          "url": "https://www.bio.nagoya-u.ac.jp/~b2/",
+          "evidence": "研究组主页（理学部生命理学科 细胞间信号研究组）介绍从特定分子出发、结合基因组信息、生化分析与质谱微量分析发现植物肽激素及受体，并列出2026年在Nature Plants发表的氮需求信号共受体论文。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100002422_ja.html",
+          "evidence": "名古屋大学研究者总览（2026年6月更新）列出松林嘉克为大学院理学研究科理学专攻生命理学教授、负责理学研究科研究生教育，研究关键词包括肽激素、受体激酶和细胞间信息传递。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "ペプチドホルモンと受容体から植物の細胞間シグナルを解く",
+      "theme_en": "Discovering plant peptide hormones and their receptors to decode cell-to-cell and organ-to-organ signaling.",
+      "summary_ja": "特定の分子からしくみへ遡る方針で、ゲノム情報、生化学、質量分析による微量分析を組み合わせ、成長や環境応答に関わるペプチドホルモンと受容体を発見。窒素欠乏を感知した根と葉がホルモンで窒素吸収を調節する全身性シグナルを解明した。",
+      "summary_en": "Starting from specific molecules and working back to the mechanisms they control, the lab combines genome information, biochemistry and in-house mass-spectrometry microanalysis to discover new plant peptide hormones and receptors involved in growth and environmental responses, including the systemic nitrogen-demand signaling relay between roots and leaves.",
+      "theme_tw": "發現植物肽激素與受體，解析細胞間訊號",
+      "summary_tw": "從特定分子出發追溯其調控機制，結合基因體資訊、生化分析和基於質譜的獨有微量分析技術，發現與植物生長和環境回應相關的新肽激素及受體，揭示根感知缺氮後與葉片往返傳遞激素、調節氮吸收的全身訊號機制。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "plant_science-4"
+    },
+    {
+      "field": "plant_science",
+      "university": "京都大学",
+      "department": "大学院理学研究科 生物科学専攻",
+      "lab": "植物生理学研究室（野田口研究室）",
+      "pi": "野田口 理孝",
+      "pi_title": "教授",
+      "theme_zh": "研究植物全身信号传递与嫁接成立机制",
+      "summary_zh": "研究植物如何局部感知环境信息，并经维管束运输激素、小RNA、肽和mRNA进行全身信号传递。以嫁接为工具，发现烟草属等可实现异科嫁接，结合分子遗传学与显微、X射线成像解析嫁接成立和细胞间运输。",
+      "keywords": [
+        "全身信号",
+        "嫁接",
+        "移动mRNA",
+        "维管束",
+        "胞间运输"
+      ],
+      "url": "https://www.biol.sci.kyoto-u.ac.jp/laboratory/291/",
+      "references": [
+        {
+          "url": "https://www.biol.sci.kyoto-u.ac.jp/laboratory/291/",
+          "evidence": "理学研究科生物科学专攻研究室页列出基干讲座「植物生理学」教授野田口理孝，研究内容为植物全身性信号传递（含mRNA的长距离运输）、嫁接成立机制（异科嫁接）和共质体运输。"
+        },
+        {
+          "url": "https://physiol2.bot.kyoto-u.ac.jp/HP3/",
+          "evidence": "研究室主页（野田口研究室）以“解明植物的信息传递”为主题，并说明报考硕士、博士课程需联系野田口教授及所需材料。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "植物の全身性シグナル伝達と接木の成立機構を研究する",
+      "theme_en": "Studying how plants relay signals through the whole body and how grafts between plants are established.",
+      "summary_ja": "局所的な環境受容と、維管束を介したホルモン、small RNA、ペプチド、mRNAによる全身性シグナル伝達を研究。タバコ属などで異科接木が成立することを見いだし、分子遺伝学とイメージングで接木成立と細胞間輸送の仕組みを解析する。",
+      "summary_en": "Studies how plants perceive environmental cues locally and relay them through the vasculature as hormones, small RNAs, peptides and mobile mRNAs. Using grafting as a tool, the lab found that some plants such as Nicotiana can form grafts across plant families, and it analyzes graft formation and cell-to-cell transport with genetics, microscopy and X-ray imaging.",
+      "theme_tw": "研究植物全身訊號傳遞與嫁接成立機制",
+      "summary_tw": "研究植物如何局部感知環境資訊，並經維管束運輸激素、小RNA、肽和mRNA進行全身訊號傳遞。以嫁接為工具，發現菸草屬等可實現異科嫁接，結合分子遺傳學與顯微、X光成像解析嫁接成立和細胞間運輸。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "plant_science-5"
+    },
+    {
+      "field": "plant_science",
+      "university": "神戸大学",
+      "department": "大学院理学研究科 生物学専攻",
+      "lab": "細胞機能分野（深城研究室）",
+      "pi": "深城 英弘",
+      "pi_title": "教授",
+      "theme_zh": "解析侧根形成与生长素应答的分子机制",
+      "summary_zh": "以拟南芥为材料，用分子遗传学方法研究植物如何形成并增加根。已揭示侧根起始需要生长素介导的基因表达调控，目前聚焦根端分生组织的形成与维持及生长素运输和信号转导，解析根系构建的分子机制。",
+      "keywords": [
+        "侧根形成",
+        "生长素",
+        "根系构建",
+        "根端分生组织",
+        "拟南芥"
+      ],
+      "url": "https://www.edu.kobe-u.ac.jp/fsci-biol/faculty/fukaki.html",
+      "references": [
+        {
+          "url": "https://www.edu.kobe-u.ac.jp/fsci-biol/faculty/fukaki.html",
+          "evidence": "生物学专攻教员页列出深城英弘教授，承担研究生课程（生理学特论I、论文讲究等），研究兴趣为根系构建和生长素应答的分子机制，并列出2023年等近期论文。"
+        },
+        {
+          "url": "https://www.edu.kobe-u.ac.jp/fsci-biol/faculty/field.html",
+          "evidence": "生物学专攻按教育研究领域划分的教员一览将深城英弘列于生体分子机构大讲座「細胞機能」领域的教授栏。"
+        },
+        {
+          "url": "https://www.kyushu-u.ac.jp/ja/researches/view/1356",
+          "evidence": "九州大学2025年11月研究成果新闻介绍在高氮条件下抑制侧根生长的肽LOHN1，合作者包括神户大学大学院理学研究科深城英弘教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "側根形成とオーキシン応答の分子機構を解明する",
+      "theme_en": "Uncovering how plants build their root systems through lateral root formation and auxin responses.",
+      "summary_ja": "シロイヌナズナの分子遺伝学で、植物が根をつくり増やす仕組みを研究。側根形成の開始にオーキシンを介した遺伝子発現制御が必要なことを示した。現在は根端メリステムの形成・維持とオーキシン輸送・シグナリングから根系構築の分子機構に迫る。",
+      "summary_en": "Uses molecular genetics in Arabidopsis to study how plants form and multiply their roots. Having shown that lateral root initiation requires auxin-mediated gene regulation, the lab now analyzes the formation and maintenance of the root apical meristem as well as auxin transport and signaling to explain root system architecture and auxin responses.",
+      "theme_tw": "解析側根形成與生長素回應的分子機制",
+      "summary_tw": "以阿拉伯芥為材料，用分子遺傳學方法研究植物如何形成並增加根。已揭示側根起始需要生長素介導的基因表現調控，目前聚焦根尖分生組織的形成與維持及生長素運輸和訊號傳遞，解析根系構建的分子機制。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "plant_science-6"
+    },
+    {
+      "field": "plant_science",
+      "university": "熊本大学",
+      "department": "大学院自然科学教育部 理学専攻",
+      "lab": "植物発生・生物間コミュニケーション研究室",
+      "pi": "澤 進一郎",
+      "pi_title": "教授",
+      "theme_zh": "解析植物形态建成与寄生线虫感染机制",
+      "summary_zh": "研究植物如何决定自身形态及植物与动物间如何传递信息。在拟南芥中解析CLE等肽激素调控茎端和根端分生组织细胞分裂的信号机制，研究根结线虫操纵植物激素诱导根瘤的感染机制，并开展兰科植物研究。",
+      "keywords": [
+        "形态建成",
+        "CLE肽",
+        "植物寄生线虫",
+        "分生组织",
+        "植物-动物相互作用"
+      ],
+      "url": "https://www.sci.kumamoto-u.ac.jp/~sawa/",
+      "references": [
+        {
+          "url": "https://www.fast.kumamoto-u.ac.jp/IRCAEB/sawa.html",
+          "evidence": "熊本大学生物环境农学国际研究中心教员页列出澤進一郎教授（植物分子生物学，分子农学部门），自2010年10月起任大学院先端科学研究部教授，研究植物形态建成、植物感染性线虫的感染机制等。"
+        },
+        {
+          "url": "https://www.sci.kumamoto-u.ac.jp/~sawa/member.html",
+          "evidence": "研究室成员页列出澤進一郎教授、准教授和助教，以及硕士（M1、M2）和博士（D1–D4）研究生。"
+        },
+        {
+          "url": "https://www.sci.kumamoto-u.ac.jp/~sawa/arabidopsis.html",
+          "evidence": "研究介绍页说明以拟南芥研究CLE等肽激素对茎端和根端分生组织细胞分裂的调控，以及根结线虫形成根瘤时生长素相关因子的作用。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "植物の形づくりと寄生線虫の感染の仕組みを解明する",
+      "theme_en": "Investigating plant morphogenesis and how parasitic nematodes manipulate plant development to infect roots.",
+      "summary_ja": "植物が形を決める仕組みと、植物と動物の情報のやり取りを研究。シロイヌナズナでCLEペプチドなどが分裂組織の細胞分裂を制御する仕組みを解析し、ネコブセンチュウが植物ホルモンを操作して根こぶを作る感染機構やラン科植物も研究する。",
+      "summary_en": "Studies how plants determine their own shape and how plants and animals exchange information. In Arabidopsis, the lab analyzes how CLE peptide hormones and related signaling control cell division in shoot and root meristems, and it investigates how root-knot nematodes manipulate plant hormones to form galls; orchids are another research subject.",
+      "theme_tw": "解析植物形態建成與寄生線蟲感染機制",
+      "summary_tw": "研究植物如何決定自身形態及植物與動物間如何傳遞資訊。在阿拉伯芥中解析CLE等肽激素調控莖頂和根尖分生組織細胞分裂的訊號機制，研究根瘤線蟲操控植物激素誘導根瘤的感染機制，並開展蘭科植物研究。",
+      "aliases": [
+        "熊本大学",
+        "熊本大學",
+        "Kumamoto University"
+      ],
+      "id": "plant_science-7"
+    },
+    {
+      "field": "plant_science",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科 生態発生適応科学専攻",
+      "lab": "植物細胞動態分野（植田研究室）",
+      "pi": "植田 美那子",
+      "pi_title": "教授",
+      "theme_zh": "用活体成像解析受精卵分裂与胚胎形态建成",
+      "summary_zh": "以拟南芥受精卵为中心，利用高精细活体成像追踪细胞内动态，并通过基因分析鉴定调控机制。已发现受精后细胞极性先被打乱，再由微管和肌动蛋白定向排列导致不对称分裂，以及液泡移动对胚胎模式形成的作用。",
+      "keywords": [
+        "受精卵",
+        "不对称分裂",
+        "细胞极性",
+        "活体成像",
+        "胚胎发育"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=45415",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=45415",
+          "evidence": "生命科学研究科研究领域页介绍生态发生适应科学专攻「植物細胞動態分野」，教授为植田美那子，以受精卵为中心用高精细活体成像和基因分析研究植物形态建成。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/teacher/detail.html?id=45565",
+          "evidence": "研究科教员介绍页列出植田美那子教授（个体动力学讲座），履历含奈良先端大助教、名古屋大学ITbM特任讲师，研究拟南芥胚发生与细胞内动态。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/PlantCellDyn/",
+          "evidence": "研究室主页（植田研究室）列出早期胚发育活体成像、调控胚发育的分子机制及胚模式形成进化三项课题。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "受精卵の細胞内動態から植物の体づくりを解明する",
+      "theme_en": "Live imaging of the plant zygote to reveal how the body axis and the early embryo pattern are established.",
+      "summary_ja": "シロイヌナズナの受精卵を中心に、高精細ライブイメージングと遺伝子解析で細胞内動態とその制御を研究。受精後に極性がいったん失われ、細胞骨格の配向を経て非対称分裂に至ることや、液胞の移動が胚のパターン形成に重要なことを示した。",
+      "summary_en": "Focusing on the Arabidopsis zygote, the lab tracks intracellular dynamics with high-resolution live imaging and identifies regulatory genes. It found that zygote polarity is transiently lost after fertilization and then rebuilt by oriented microtubules and actin, leading to asymmetric division, and that vacuole movement matters for embryo patterning.",
+      "theme_tw": "用活體成像解析受精卵分裂與胚胎形態建成",
+      "summary_tw": "以阿拉伯芥受精卵為中心，利用高精細活體成像追蹤細胞內動態，並透過基因分析鑑定調控機制。已發現受精後細胞極性先被打亂，再由微管和肌動蛋白定向排列導致不對稱分裂，以及液泡移動對胚胎模式形成的作用。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "plant_science-8"
+    },
+    {
+      "field": "plant_science",
+      "university": "東京理科大学",
+      "department": "大学院創域理工学研究科 生命生物科学専攻",
+      "lab": "植物成長発生学（西浜研究室）",
+      "pi": "西浜 竜一",
+      "pi_title": "教授",
+      "theme_zh": "以地钱为模型探索陆生植物的生长发育原理",
+      "summary_zh": "以新兴模式植物地钱为材料，运用基因改造技术与组学分析，研究陆生植物生长发育的基本原理。课题包括光合作用与生长的协调机制、植物激素生长素在顶端干细胞维持中的作用，以及与光合信号相关的激酶功能。",
+      "keywords": [
+        "地钱",
+        "顶端干细胞",
+        "生长素",
+        "光合作用与生长",
+        "陆生植物"
+      ],
+      "url": "https://www.rs.tus.ac.jp/nishihama/",
+      "references": [
+        {
+          "url": "https://www.bs.noda.tus.ac.jp/course.html",
+          "evidence": "生命生物科学科/专攻页的教员一览列出教授西浜竜一，研究室一览写明「植物成長発生学（西浜研究室）」以苔藓植物理解陆生植物生长发育原理，并说明研究生经创域理工学研究科生命生物科学专攻入学。"
+        },
+        {
+          "url": "https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?diu=7426&kin=nav",
+          "evidence": "东京理科大学教员信息页列出西浜竜一为创域理工学部生命生物科学科教授，以地钱为材料研究光合作用与生长的协调、生长素在干细胞维持中的作用等。"
+        },
+        {
+          "url": "https://www.rs.tus.ac.jp/nishihama/",
+          "evidence": "研究室主页列出2025–2026年在Current Biology等期刊的成果和硕士生（M1、M2）的学会发表。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "ゼニゴケを用いて陸上植物の成長発生原理を探る",
+      "theme_en": "Using the liverwort Marchantia to uncover the basic principles of growth and development in land plants.",
+      "summary_ja": "モデル植物ゼニゴケを材料に、遺伝子改変技術やオミクス解析を用いて陸上植物の根底にある成長発生の原理を研究。光合成と成長の協調、頂端幹細胞の維持におけるオーキシンの役割、光合成シグナルに関わるキナーゼの機能などを解析する。",
+      "summary_en": "Using the emerging model liverwort Marchantia polymorpha together with genetic engineering and omics analysis, the lab studies the basic principles of growth and development in land plants, including how growth is coordinated with photosynthesis, how the hormone auxin maintains apical stem cells, and how photosynthesis-related signaling kinases function.",
+      "theme_tw": "以地錢為模型探索陸生植物的生長發育原理",
+      "summary_tw": "以新興模式植物地錢為材料，運用基因改造技術與體學分析，研究陸生植物生長發育的基本原理。課題包括光合作用與生長的協調機制、植物激素生長素在頂端幹細胞維持中的作用，以及與光合訊號相關的激酶功能。",
+      "aliases": [
+        "东京理科大学",
+        "東京理科大學",
+        "Tokyo University of Science"
+      ],
+      "id": "plant_science-9"
+    },
+    {
+      "field": "plant_science",
+      "university": "北海道大学",
+      "department": "大学院生命科学院 生命科学専攻 生命システム科学コース",
+      "lab": "植物進化発生制御研究室（藤田研究室）",
+      "pi": "藤田 知道",
+      "pi_title": "教授",
+      "theme_zh": "以小立碗藓解析植物发育与环境适应机制",
+      "summary_zh": "以“发育、环境应答、进化”为关键词，利用小立碗藓和拟南芥研究植物干细胞的极性、不对称分裂、细胞周期及细胞间通讯，探讨植物全能性和增殖分化的基础，以及生长与环境胁迫应答之间的交互作用。",
+      "keywords": [
+        "苔藓植物",
+        "干细胞",
+        "不对称分裂",
+        "胁迫耐受",
+        "进化发育"
+      ],
+      "url": "https://keitai1.sci.hokudai.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.lfsci.hokudai.ac.jp/lab/list_r08_JPN.pdf",
+          "evidence": "生命科学院研究指导担当一览（令和8年4月1日现在）在生命科学专攻生命系统科学课程下列出教授藤田知道，研究以小立碗藓和拟南芥探讨植物干细胞极性、不对称分裂及生长与环境胁迫应答的交互。"
+        },
+        {
+          "url": "https://keitai1.sci.hokudai.ac.jp/member.html/",
+          "evidence": "研究室成员页列出理学研究院生物科学部门藤田知道教授（2016年起任教授）及其指导的硕士、博士研究生。"
+        },
+        {
+          "url": "https://keitai1.sci.hokudai.ac.jp/research/",
+          "evidence": "研究内容页说明藤田研究室研究植物再生能力与全能性、细胞增殖分化控制，以及环境应答与发育程序的交互。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "コケ植物から植物の発生と環境適応の仕組みを探る",
+      "theme_en": "Studying stem-cell control, development and stress tolerance in plants, mainly using the moss Physcomitrium.",
+      "summary_ja": "「発生・環境応答・進化」をキーワードに、ヒメツリガネゴケやシロイヌナズナで幹細胞の極性、不等分裂、細胞周期、細胞間コミュニケーションを研究。全能性や増殖・分化の基盤と、成長と環境ストレス応答のクロストークの解明を目指す。",
+      "summary_en": "With development, environmental response and evolution as keywords, the lab uses the moss Physcomitrium and Arabidopsis to study stem-cell polarity, asymmetric division, the cell cycle and cell-to-cell communication, aiming to explain plant totipotency and the crosstalk between growth and stress responses, including plants able to grow in extreme environments.",
+      "theme_tw": "以小立碗蘚解析植物發育與環境適應機制",
+      "summary_tw": "以「發育、環境回應、演化」為關鍵詞，利用小立碗蘚和阿拉伯芥研究植物幹細胞的極性、不對稱分裂、細胞週期及細胞間通訊，探討植物全能性和增殖分化的基礎，以及生長與環境逆境回應之間的交互作用。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "plant_science-10"
+    },
+    {
       "field": "ecology_evolution",
       "university": "東北大学",
       "department": "大学院生命科学研究科",
@@ -8389,6 +8754,382 @@
       "id": "supramolecular-2"
     },
     {
+      "field": "supramolecular",
+      "university": "千葉大学",
+      "department": "大学院融合理工学府 先進理化学専攻 共生応用化学コース",
+      "lab": "分子集合体化学研究室（矢貝研究室）",
+      "pi": "矢貝 史樹",
+      "pi_title": "教授",
+      "theme_zh": "设计弯曲的超分子聚合物，构建环、螺旋与纳米管等组装体。",
+      "summary_zh": "合成专门设计的有机分子并使其分级自组装。研究室发现能让一维超分子聚合物产生曲率的分子设计，借此构建环、螺旋线圈、聚索烃和纳米管等结构，并研究组装体的手性、光响应性和超分子凝胶。",
+      "keywords": [
+        "超分子聚合物",
+        "分级自组装",
+        "纳米环",
+        "光响应组装体",
+        "超分子凝胶"
+      ],
+      "url": "https://chem.tf.chiba-u.jp/yagai/",
+      "references": [
+        {
+          "url": "https://chem.tf.chiba-u.jp/~yagai/members/",
+          "evidence": "成员页列出矢贝史树为千叶大学国际高等研究基干教授，兼任工学研究院共生应用化学课程教授，另列助教花山博纪。"
+        },
+        {
+          "url": "https://chem.tf.chiba-u.jp/introduction.html",
+          "evidence": "融合理工学府先进理化学专攻共生应用化学课程的研究室介绍列出“分子集合体化学研究室”，由矢贝史树教授主持，主题为自组织分子集合体的设计与超分子化学。"
+        },
+        {
+          "url": "https://chem.tf.chiba-u.jp/~yagai/en/research/",
+          "evidence": "研究介绍说明通过赋予一维超分子聚合物曲率的分子设计，构建环、螺旋线圈、聚索烃和纳米管，并研究光响应组装体与凝胶。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "曲がった超分子ポリマーを設計し、リングやらせん、ナノチューブを創る。",
+      "theme_en": "Designing curved supramolecular polymers that form rings, helical coils, nanotubes and other distinctive assemblies.",
+      "summary_ja": "独自に設計した有機分子を階層的に自己集合させています。一次元の超分子ポリマーに曲率を与える分子設計により、リング、らせんコイル、ポリカテナン、ナノチューブを構築し、キラリティー、光応答性、超分子ゲルも研究します。",
+      "summary_en": "The group synthesizes specially designed organic molecules and assembles them hierarchically. A molecular design that introduces curvature into normally one-dimensional supramolecular polymers yields rings, helical coils, polycatenanes and nanotubes, and the lab also studies chirality, photoresponsive assemblies and supramolecular gels.",
+      "theme_tw": "設計彎曲的超分子聚合物，構築環、螺旋與奈米管等組裝體。",
+      "summary_tw": "合成專門設計的有機分子並使其分級自組裝。研究室發現能讓一維超分子聚合物產生曲率的分子設計，藉此構築環、螺旋線圈、聚索烴和奈米管等結構，並研究組裝體的手性、光響應性和超分子凝膠。",
+      "aliases": [
+        "千叶大学",
+        "千葉大學",
+        "Chiba University"
+      ],
+      "id": "supramolecular-3"
+    },
+    {
+      "field": "supramolecular",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻 合成化学講座",
+      "lab": "機能化学分野（生越研究室）",
+      "pi": "生越 友樹",
+      "pi_title": "教授",
+      "theme_zh": "以柱[n]芳烃大环为核心，开拓分子空间与超分子功能。",
+      "summary_zh": "设计功能分子并使其自发集积，开发具有新功能的超分子。核心是环状主体分子柱[n]芳烃的合成、功能化与面手性，并将其一至三维排列以构建分子空间材料，也研究π稠环螺桨烷和长寿命磷光高分子。",
+      "keywords": [
+        "柱芳烃",
+        "大环主体",
+        "面手性",
+        "分子空间",
+        "主客体化学"
+      ],
+      "url": "https://www.sbchem.kyoto-u.ac.jp/ogoshi-lab/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.2f47bb22cb6da65b.html",
+          "evidence": "京都大学教育研究活动数据库列生越友树为工学研究科化学理工学专攻合成化学讲座教授，研究关键词含柱芳烃、超分子化学（2026年10月更新）。"
+        },
+        {
+          "url": "https://www.sc.t.kyoto-u.ac.jp/ja/information/laboratory",
+          "evidence": "专攻研究室・教员一览中，合成化学讲座“机能化学”分野的教授为生越友树，另有准教授加藤研一、助教大谷俊介。"
+        },
+        {
+          "url": "https://www.sbchem.kyoto-u.ac.jp/ogoshi-lab/research0_en.html",
+          "evidence": "研究概要说明以柱[n]芳烃的合成、功能化与面手性为核心，将其一至三维排列构建分子空间材料，并研究π稠环螺桨烷和长寿命磷光高分子。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "ピラー[n]アレーンを軸に、分子空間化学と超分子機能を開拓する。",
+      "theme_en": "Developing pillar[n]arene macrocycles for molecular-space chemistry and new supramolecular functions.",
+      "summary_ja": "機能分子を設計・集積させ、新機能を示す超分子を開発しています。環状ホスト分子ピラー[n]アレーンの合成・機能化・面性キラリティーを中心に、一〜三次元配列による分子空間材料、π縮環プロペラン、長寿命リン光高分子も研究します。",
+      "summary_en": "The group designs simple, well-defined functional molecules and lets them assemble spontaneously into supramolecules with new functions. Its core topic is the cyclic host pillar[n]arene, covering synthesis, functionalization and planar chirality, along with 1D–3D arrays that create molecular spaces, fully π-fused propellanes and long-lived phosphorescent polymers.",
+      "theme_tw": "以柱[n]芳烴大環為核心，開拓分子空間與超分子功能。",
+      "summary_tw": "設計功能分子並使其自發集積，開發具有新功能的超分子。核心是環狀主體分子柱[n]芳烴的合成、功能化與面手性，並將其一至三維排列以構築分子空間材料，也研究π稠環螺槳烷和長壽命磷光高分子。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "supramolecular-4"
+    },
+    {
+      "field": "supramolecular",
+      "university": "東京科学大学",
+      "department": "総合研究院 化学生命科学研究所／物質理工学院 応用化学系",
+      "lab": "吉沢・澤田研究室",
+      "pi": "吉沢 道人",
+      "pi_title": "教授",
+      "theme_zh": "在水中构筑芳香环纳米空间，开发分子胶囊等“纳米工具”。",
+      "summary_zh": "以超分子化学为基础，设计弯曲型芳香环构件并自组装成水溶性分子胶囊和分子管。利用芳香环纳米空间在水中选择性识别蔗糖、睾酮等分子，调控内包分子的物性与反应，近年还用肽与金属离子构筑扭结拓扑结构。",
+      "keywords": [
+        "分子胶囊",
+        "芳香环纳米空间",
+        "水中分子识别",
+        "主客体化学",
+        "拓扑结构"
+      ],
+      "url": "https://www.nanotools.cls.iir.isct.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.nanotools.cls.iir.isct.ac.jp/A_member_MY.html",
+          "evidence": "成员页（2026年4月起）列出吉沢道人为教授、泽田知久为准教授，研究室所属东京科学大学综合研究院化学生命科学研究所、物质理工学院应用化学系（应用化学课程）。"
+        },
+        {
+          "url": "https://www.nanotools.cls.iir.isct.ac.jp/A_research_MY.html",
+          "evidence": "研究页说明以弯曲芳香环构件自组装成水溶性分子胶囊和管，在水中选择性识别蔗糖、睾酮，并研究肽与金属构筑的扭结拓扑结构。"
+        },
+        {
+          "url": "https://www.cls.iir.isct.ac.jp/2026/CLS_brochure2026_06_lab.pdf",
+          "evidence": "化学生命科学研究所2026年研究室介绍列出吉沢・泽田研究室，教授吉沢道人，关键词为超分子化学、水、分子胶囊/管、芳香环、肽。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "水中で芳香環ナノ空間を組み上げ、分子カプセルなど「ナノ道具」を開発する。",
+      "theme_en": "Building aromatic nanospaces in water to create molecular capsules, tubes and other useful nano-tools.",
+      "summary_ja": "湾曲した芳香環パーツの自己組織化で水溶性の分子カプセルやチューブを構築し、その空間で水中のスクロースやテストステロンを選択的に識別しています。内包分子の物性・反応制御や、ペプチドと金属による結び目構造の構築にも取り組みます。",
+      "summary_en": "Building on supramolecular chemistry, the group designs bent aromatic panels that self-assemble into water-soluble molecular capsules and tubes. These aromatic nanospaces selectively recognize molecules such as sucrose and testosterone in water and tune the properties and reactions of encapsulated guests; peptide–metal assemblies with knotted topologies are also studied.",
+      "theme_tw": "在水中構築芳香環奈米空間，開發分子膠囊等「奈米工具」。",
+      "summary_tw": "以超分子化學為基礎，設計彎曲型芳香環構件並自組裝成水溶性分子膠囊和分子管。利用芳香環奈米空間在水中選擇性識別蔗糖、睪酮等分子，調控內包分子的物性與反應，近年還用胜肽與金屬離子構築扭結拓撲結構。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "supramolecular-5"
+    },
+    {
+      "field": "supramolecular",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 応用物質化学専攻",
+      "lab": "超分子設計学研究室（酒田研究室）",
+      "pi": "酒田 陽子",
+      "pi_title": "教授",
+      "theme_zh": "利用动态金属配位键自组装，构建环、笼与互锁超分子。",
+      "summary_zh": "着眼于金属离子与有机配体间的动态配位键，利用分子自发集合的力量，简便构建一般合成难以获得的环状、笼状和互锁结构。同时研究自组装过程的动力学控制和分子识别空间，开发选择性捕获与转化物质的材料。",
+      "keywords": [
+        "配位驱动自组装",
+        "分子笼",
+        "互锁结构",
+        "分子识别",
+        "动力学控制"
+      ],
+      "url": "https://www.chembio.nagoya-u.ac.jp/labhp/physchem1/",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100013638_ja.html",
+          "evidence": "名古屋大学教员数据库列酒田阳子为工学研究科应用物质化学专攻应用物理化学教授（2024年4月起），研究关键词为超分子化学、错体化学。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/physchem1/research.html",
+          "evidence": "研究页说明利用金属离子与有机配体间的动态配位键自组装，构建环状、笼状和互锁结构，并开发选择性捕获和转化物质的材料。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/images/20260501_104135b13xj6h9uniftyvwzalm_b13xj6h9uniftyvwzalm.pdf",
+          "evidence": "应用物质化学专攻2026年5月介绍资料列出“酒田研究室（超分子设计学研究室）”，称其为2024年4月成立的应用物理化学讲座超分子设计学小组。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "動的な金属配位結合で、環・かご・インターロック構造の超分子を創る。",
+      "theme_en": "Using dynamic metal–ligand bonds to self-assemble rings, cages and interlocked supramolecular structures.",
+      "summary_ja": "金属イオンと有機配位子の動的な配位結合に着目し、自己集合を利用して、通常の合成では得にくい環状、かご型、インターロック構造を構築しています。自己集合の速度論的制御や分子認識場の構築を進め、選択的捕捉・変換材料を目指します。",
+      "summary_en": "Focusing on dynamic coordination bonds between metal ions and organic ligands, the lab harnesses spontaneous self-assembly to build cyclic, cage-like and interlocked structures that are hard to make by conventional synthesis. It studies kinetic control of assembly, builds molecular-recognition spaces and develops materials for selective capture and conversion.",
+      "theme_tw": "利用動態金屬配位鍵自組裝，構築環、籠與互鎖超分子。",
+      "summary_tw": "著眼於金屬離子與有機配體間的動態配位鍵，利用分子自發集合的力量，簡便構築一般合成難以獲得的環狀、籠狀和互鎖結構。同時研究自組裝過程的動力學控制和分子識別空間，開發選擇性捕獲與轉化物質的材料。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "supramolecular-6"
+    },
+    {
+      "field": "supramolecular",
+      "university": "立命館大学",
+      "department": "大学院生命科学研究科 生命科学専攻",
+      "lab": "超分子創製化学研究室（前田研究室）",
+      "pi": "前田 大光",
+      "pi_title": "教授",
+      "theme_zh": "合成荷电π电子体系，探索离子对组装体的结构与功能。",
+      "summary_zh": "借鉴生物分子构造，以有机合成创造新型π电子系色素分子，通过设计骨架和相互作用位点构建超分子集合体与纳米组织结构，并研究荷电π电子系的离子对组装、对阴离子和金属离子的亲和性及集合体的光电性质。",
+      "keywords": [
+        "离子对组装",
+        "荷电π电子体系",
+        "阴离子识别",
+        "超分子集合体",
+        "光电性质"
+      ],
+      "url": "https://www.ritsumei.ac.jp/lifescience/achem/maeda/",
+      "references": [
+        {
+          "url": "https://www.ritsumei.ac.jp/lifescience/achem/maeda/member/maeda.html",
+          "evidence": "个人页列前田大光为立命馆大学生命科学部应用化学科教授（2016年4月起），近期招待讲演主题为荷电π电子系的离子对组装。"
+        },
+        {
+          "url": "https://www.ritsumei.ac.jp/ls/pdf/AnnualReport_2025.pdf",
+          "evidence": "生命科学部・生命科学研究科2025年度年报列出“超分子创制化学研究室［前田研究室］”，教员为前田大光教授、堀田拓希助教，研究概要为超分子集合体构建、阴离子亲和性控制及电子与光物性评价。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "私立",
+      "theme_ja": "荷電π電子系を合成し、イオンペア集合体の構造と機能を探る。",
+      "theme_en": "Synthesizing charged π-electronic systems and exploring the structures and functions of their ion-pairing assemblies.",
+      "summary_ja": "生体分子に学び、有機合成で新しいπ電子系色素分子を創り、骨格設計と相互作用部位の導入で超分子集合体やナノ組織構造を構築しています。荷電π電子系のイオンペア集合化、アニオンや金属イオンへの親和性、電子・光物性の制御に取り組みます。",
+      "summary_en": "Taking cues from biomolecular structures, the lab synthesizes new π-electronic dye molecules and programs their skeletons and interaction sites to build supramolecular and nanoscale organized structures. Topics include ion-pairing assemblies of charged π-systems, control of affinity for anions and metal ions, and the electronic and optical properties of the assemblies.",
+      "theme_tw": "合成荷電π電子系，探索離子對組裝體的結構與功能。",
+      "summary_tw": "借鑑生物分子構造，以有機合成創造新型π電子系色素分子，透過設計骨架和相互作用位點構築超分子集合體與奈米組織結構，並研究荷電π電子系的離子對組裝、對陰離子和金屬離子的親和性及集合體的光電性質。",
+      "aliases": [
+        "立命馆大学",
+        "立命館大學",
+        "Ritsumeikan University"
+      ],
+      "id": "supramolecular-7"
+    },
+    {
+      "field": "supramolecular",
+      "university": "広島大学",
+      "department": "大学院先進理工系科学研究科 化学プログラム",
+      "lab": "構造有機化学研究室（灰野研究室）",
+      "pi": "灰野 岳晴",
+      "pi_title": "教授",
+      "theme_zh": "以分子识别为核心，开发超分子聚合物、胶囊与发光材料。",
+      "summary_zh": "以有机化学和超分子化学为基础，尤其关注分子识别，开发由分子间相互作用形成的超分子集合体，包括可自修复的超分子聚合物、超分子胶囊和发光材料，并利用富勒烯、石墨烯量子点和卟啉构建功能材料。",
+      "keywords": [
+        "分子识别",
+        "超分子聚合物",
+        "超分子胶囊",
+        "富勒烯",
+        "石墨烯量子点"
+      ],
+      "url": "https://orgchem.hiroshima-u.ac.jp/Japanese/index.html",
+      "references": [
+        {
+          "url": "https://orgchem.hiroshima-u.ac.jp/Japanese/profile.html",
+          "evidence": "研究室成员页（令和8年度）列出灰野岳晴教授、平尾岳大准教授，所属广岛大学大学院先进理工系科学研究科化学项目构造有机化学研究室。"
+        },
+        {
+          "url": "https://www.hiroshima-u.ac.jp/node/71679",
+          "evidence": "广岛大学DP访谈介绍灰野岳晴为先进理工系科学研究科构造有机化学研究室的Distinguished Professor，研究超分子聚合物、可自修复材料和超分子富勒烯聚合物。"
+        },
+        {
+          "url": "https://orgchem.hiroshima-u.ac.jp/English/",
+          "evidence": "英文主页说明研究领域为超分子化学，尤其是分子识别，已构建超分子聚合物、超分子发光材料和超分子胶囊，并结合石墨烯量子点。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "分子認識を軸に、超分子ポリマー・カプセル・発光材料を開発する。",
+      "theme_en": "Developing supramolecular polymers, capsules and luminescent materials based on molecular recognition.",
+      "summary_ja": "有機化学と超分子化学を基盤に、特に分子認識に注目して超分子集合体を開発しています。自己修復性を含む超分子ポリマー、超分子カプセル、発光材料のほか、フラーレン、グラフェン量子ドット、ポルフィリンを用いた機能材料も研究します。",
+      "summary_en": "Grounded in organic and supramolecular chemistry, with a focus on molecular recognition, the group develops assemblies held together by intermolecular interactions. Work spans supramolecular polymers, including self-healing materials, supramolecular capsules and photoluminescent materials, plus functional structures built from fullerenes, graphene quantum dots and porphyrins.",
+      "theme_tw": "以分子識別為核心，開發超分子聚合物、膠囊與發光材料。",
+      "summary_tw": "以有機化學和超分子化學為基礎，尤其關注分子識別，開發由分子間相互作用形成的超分子集合體，包括可自修復的超分子聚合物、超分子膠囊和發光材料，並利用富勒烯、石墨烯量子點和紫質構築功能材料。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "supramolecular-8"
+    },
+    {
+      "field": "supramolecular",
+      "university": "九州大学",
+      "department": "大学院工学府 応用化学専攻／工学研究院 応用化学部門",
+      "lab": "窪田研究室",
+      "pi": "窪田 亮",
+      "pi_title": "教授",
+      "theme_zh": "受生命启发，设计刺激响应超分子水凝胶与凝聚体。",
+      "summary_zh": "以“受生命启发的超分子化学”为主题，借鉴细胞设计多组分、非平衡的超分子体系，使分子集合体表现出动态功能。目前研究刺激响应超分子水凝胶及自组装肽形成的功能凝聚体，面向光功能与主动软材料。",
+      "keywords": [
+        "超分子水凝胶",
+        "凝聚体",
+        "液液相分离",
+        "非平衡体系",
+        "自组装肽"
+      ],
+      "url": "https://www.chem.kyushu-u.ac.jp/~cstm/en/laboratory/laboratory_361.php",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100026022_ja.html",
+          "evidence": "九州大学研究者信息列窪田亮为工学研究院应用化学部门教授（2025年4月起），兼任工学府应用化学专攻；研究主题为细胞启发的刺激响应超分子水凝胶和自组装肽功能凝聚体。"
+        },
+        {
+          "url": "https://www.chem.kyushu-u.ac.jp/~cstm/en/laboratory/laboratory_361.php",
+          "evidence": "应用化学部门化学生物化学课程的研究室页面介绍Kubota Laboratory及Professor Ryo Kubota，目标是构建具有类生命性质的多组分、非平衡超分子体系，并链接研究室网站。"
+        },
+        {
+          "url": "https://sites.google.com/view/the-kubota-laboratory/home",
+          "evidence": "大学页面链接的研究室网站以“Life-inspired Supramolecular Chemistry”为主题，说明窪田研于2025年4月成立，2026年8月有新助教到任。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "生命に学び、刺激応答性超分子ヒドロゲルとコアセルベートを設計する。",
+      "theme_en": "Designing life-inspired stimuli-responsive supramolecular hydrogels and peptide coacervates.",
+      "summary_ja": "生命に着想を得た超分子化学を掲げ、細胞に学んだ多成分・非平衡の超分子システムを設計しています。刺激応答性超分子ヒドロゲルや自己集合性ペプチドによるコアセルベートを研究し、光機能材料やアクティブなソフトマテリアルを目指します。",
+      "summary_en": "Under the theme of life-inspired supramolecular chemistry, the lab designs multicomponent, nonequilibrium supramolecular systems modeled on living cells so that molecular assemblies show dynamic functions. Projects include stimuli-responsive supramolecular hydrogels and functional coacervates of self-assembling peptides, aimed at photofunctional and active soft materials.",
+      "theme_tw": "受生命啟發，設計刺激響應超分子水凝膠與凝聚體。",
+      "summary_tw": "以「受生命啟發的超分子化學」為主題，借鑑細胞設計多組分、非平衡的超分子體系，使分子集合體表現出動態功能。目前研究刺激響應超分子水凝膠及自組裝胜肽形成的功能凝聚體，面向光功能與主動軟材料。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "supramolecular-9"
+    },
+    {
+      "field": "supramolecular",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 高分子科学専攻",
+      "lab": "高分子材料設計学（高島研究室）",
+      "pi": "高島 義徳",
+      "pi_title": "教授",
+      "theme_zh": "利用环糊精主客体作用，开发自修复与强韧超分子材料。",
+      "summary_zh": "以环糊精为主体、金刚烷等为客体，把可逆的包接作用和可移动交联引入高分子，开发能快速自修复、强韧且可回收的超分子材料，并研究易拆解粘接体系、光响应超分子驱动器及纤维素复合材料。",
+      "keywords": [
+        "环糊精",
+        "主客体作用",
+        "自修复材料",
+        "可移动交联",
+        "超分子驱动器"
+      ],
+      "url": "https://www.chem.sci.osaka-u.ac.jp/lab/takashima/",
+      "references": [
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/takashima/professor/",
+          "evidence": "教授介绍页列高岛义德为大阪大学大学院理学研究科高分子科学专攻教授（兼先导的学际研究机构教授），专业为高分子化学、超分子科学。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/takashima/research/theme01/",
+          "evidence": "自修复材料主题页说明以环糊精为主体、金刚烷等为客体的主客体高分子，所得超分子材料兼具强韧性、快速自修复和可回收性。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/takashima/research/theme04/",
+          "evidence": "超分子驱动器主题页说明利用偶氮苯与环糊精的包接形成可移动交联，制备光响应聚氨酯、拓扑凝胶和氧化还原响应凝胶。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "シクロデキストリンの包接を活かし、自己修復・強靭な超分子材料を創る。",
+      "theme_en": "Using cyclodextrin host–guest chemistry to create self-healing, tough and responsive supramolecular materials.",
+      "summary_ja": "シクロデキストリンとアダマンタンなどの可逆的な包接錯体や可動性架橋を高分子に導入し、自己修復性、強靭性、リサイクル性を備えた超分子材料を開発しています。易解体性接着、光応答性超分子アクチュエータ、セルロース複合材料も研究します。",
+      "summary_en": "The lab introduces reversible host–guest inclusion complexes, typically cyclodextrin hosts with guests such as adamantane, and movable crosslinks into polymers to create supramolecular materials that self-heal rapidly, resist fracture and can be recycled. It also studies dismantlable adhesives, photoresponsive supramolecular actuators and cellulose-based composites.",
+      "theme_tw": "利用環糊精主客體作用，開發自修復與強韌超分子材料。",
+      "summary_tw": "以環糊精為主體、金剛烷等為客體，把可逆的包接作用和可移動交聯引入高分子，開發能快速自修復、強韌且可回收的超分子材料，並研究易拆解黏接體系、光響應超分子致動器及纖維素複合材料。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "supramolecular-10"
+    },
+    {
       "field": "electrochemistry",
       "university": "東京大学",
       "department": "大学院工学系研究科 化学システム工学専攻",
@@ -9387,6 +10128,379 @@
         "The University of Osaka"
       ],
       "id": "chemical_biology-2"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "九州大学",
+      "department": "大学院薬学府 創薬科学専攻",
+      "lab": "創薬ケミカルバイオロジー分野（王子田研究室）",
+      "pi": "王子田 彰夫",
+      "pi_title": "教授",
+      "theme_zh": "设计与蛋白质共价结合的药物分子和化学工具。",
+      "summary_zh": "自行设计并合成功能性分子，用于解析和调控生物分子，研究融合化学生物学与创药化学。重点开发与靶蛋白形成共价键、从而抑制其功能的共价药物，同时开发可视化细胞内代谢的新型荧光探针。",
+      "keywords": [
+        "共价药物",
+        "化学生物学",
+        "创药化学",
+        "荧光探针",
+        "蛋白质功能调控"
+      ],
+      "url": "https://bunseki.phar.kyushu-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.phar.kyushu-u.ac.jp/lab/gaiyou_8.php",
+          "evidence": "药学研究院教育研究组织页列出创药化学生物学分野（Medicinal Chemistry & Chemical Biology），教授为王子田彰夫，助教为内之宫祥平。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100019985_ja.html",
+          "evidence": "九州大学研究者信息列王子田彰夫为药学研究院创药科学部门教授，兼任药学府创药科学专攻，研究课题包括共价药物的创制。"
+        },
+        {
+          "url": "https://bunseki.phar.kyushu-u.ac.jp/research.html",
+          "evidence": "研究室网站研究页说明用自行设计合成的功能分子解析和调控生物分子，融合化学生物学与创药化学，重点开发与蛋白质形成共价键而抑制其功能的共价药物，并开发可视化细胞代谢的荧光探针。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "タンパク質と共有結合する医薬分子や化学ツールを設計・創製する。",
+      "theme_en": "Designing drug molecules and chemical tools that form covalent bonds with proteins.",
+      "summary_ja": "自ら設計・合成した機能性分子を生体分子の解析と制御に応用し、ケミカルバイオロジーと創薬化学を融合した研究を行います。タンパク質と共有結合して機能を阻害するコバレントドラッグと、細胞内代謝を可視化する蛍光プローブを開発します。",
+      "summary_en": "The lab designs and synthesizes functional molecules and applies them to analyze and control biomolecules, merging chemical biology with medicinal chemistry. A major focus is covalent drugs that inhibit target proteins by forming covalent bonds with them, alongside new fluorescent probes that visualize metabolism inside cells.",
+      "theme_tw": "設計與蛋白質共價結合的藥物分子和化學工具。",
+      "summary_tw": "自行設計並合成功能性分子，用於解析和調控生物分子，研究融合化學生物學與創藥化學。重點開發與標靶蛋白形成共價鍵、從而抑制其功能的共價藥物，同時開發可視化細胞內代謝的新型螢光探針。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "chemical_biology-3"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科 分子化学生物学専攻",
+      "lab": "活性分子動態分野（石川研究室）",
+      "pi": "石川 稔",
+      "pi_title": "教授",
+      "theme_zh": "用小分子缩短致病蛋白寿命，开拓低分子创药新方法。",
+      "summary_zh": "许多致病蛋白缺少可结合的“钥匙”分子，难以用传统锁钥模式创药。以有机化学和分子细胞生物学为两轮，开发用小分子缩短致病蛋白寿命的方法并用于神经退行性疾病，也研究兼顾水溶性与脂溶性的分子设计。",
+      "keywords": [
+        "创药化学",
+        "蛋白质降解",
+        "神经退行性疾病",
+        "分子设计",
+        "化学生物学"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=45409",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=45409",
+          "evidence": "生命科学研究科研究室页列出分子化学生物学专攻化学生物学讲座活性分子动态分野，教授石川稔（创药化学、化学生物学）、准教授友重秀介，说明以有机化学和分子细胞生物学开发低分子创药新方法，包括缩短致病蛋白寿命的小分子和改善体内动态的分子设计。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/teacher/detail.html?id=45536",
+          "evidence": "同研究科教员页（友重秀介准教授）注明所属研究室为活性分子动态，研究关键词为蛋白质分解、蛋白质凝集、神经退行性疾病和耐药菌，并链接石川研究室主页。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "疾患原因タンパク質の寿命を縮める低分子など、創薬の新手法を開発する。",
+      "theme_en": "Developing new small-molecule drug discovery strategies, such as compounds that shorten the lifetime of disease-causing proteins.",
+      "summary_ja": "結合する「鍵」が未発見の疾患関連タンパク質を対象に、有機化学と分子細胞生物学を両輪に低分子創薬の新手法を開発します。疾患原因タンパク質の寿命を縮める低分子を神経変性疾患に応用し、水溶性と脂溶性を両立する分子設計も研究します。",
+      "summary_en": "Many disease-related proteins lack drug-like 'keys' that fit the classic lock-and-key model. Combining organic chemistry with molecular and cell biology, the lab develops small molecules that shorten the lifetime of disease-causing proteins, including those involved in neurodegenerative diseases, and molecular designs that improve both aqueous solubility and lipophilicity.",
+      "theme_tw": "用小分子縮短致病蛋白壽命，開拓低分子創藥新方法。",
+      "summary_tw": "許多致病蛋白缺少可結合的「鑰匙」分子，難以用傳統鎖鑰模式創藥。以有機化學和分子細胞生物學為兩輪，開發用小分子縮短致病蛋白壽命的方法並用於神經退化性疾病，也研究兼顧水溶性與脂溶性的分子設計。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "chemical_biology-4"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 化学生命工学専攻",
+      "lab": "山東研究室",
+      "pi": "山東 信介",
+      "pi_title": "教授",
+      "theme_zh": "开发观察和调控疾病的分子工具，推进肽与脂质创药。",
+      "summary_zh": "以有机化学为基础开发观察、诊断和调控生命系统的分子工具。用肽库、DNA编码技术和大规模代谢分析寻找疾病生物标志物并开发代谢成像探针；也设计中分子肽、拟肽和脂质，探索药物先导及膜透过原理。",
+      "keywords": [
+        "疾病化学生物学",
+        "中分子肽",
+        "分子探针",
+        "生物标志物",
+        "脂质"
+      ],
+      "url": "https://park.itc.u-tokyo.ac.jp/sandolab/",
+      "references": [
+        {
+          "url": "https://www.chembio.t.u-tokyo.ac.jp/department/lab/sando.html",
+          "evidence": "化学生命工学专攻研究室页列出山东信介教授、森本淳平准教授等教员，说明开发观察、诊断和调控生命系统的分子工具，包括体内代谢分子传感器、调控细胞功能的肽与脂质分子以及蛋白质功能设计。"
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/sandolab/research.html",
+          "evidence": "研究室研究页介绍两大方向：疾病化学生物学（用肽库和DNA编码技术探索疾病生物标志物、开发疾病代谢成像探针）与中分子模态创药（中分子肽、脂质化学生物学与创药）。"
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/sandolab/member.html",
+          "evidence": "研究室成员页列出2026年度教员：山东信介教授、森本淳平准教授及谷田部浩行、冈田悠雅助教。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "疾患を観る・制御する分子ツールを開発し、ペプチドや脂質の創薬に挑む。",
+      "theme_en": "Developing molecular tools to observe and control disease, and advancing peptide- and lipid-based drug discovery.",
+      "summary_ja": "有機化学を基盤に、生体を観察・診断・制御する分子ツールを開発します。ペプチドライブラリーやDNAコード化技術で疾患バイオマーカーを探索し代謝イメージングプローブを創るほか、中分子ペプチドや脂質を設計して創薬リードを探ります。",
+      "summary_en": "Building on organic chemistry, the lab develops original molecular tools to observe, diagnose and control living systems. Peptide libraries and DNA-encoding technology are used to discover disease biomarkers and to design metabolic imaging probes, while mid-sized peptides, peptidomimetics and lipids are designed as drug leads and to study membrane permeability.",
+      "theme_tw": "開發觀察和調控疾病的分子工具，推進胜肽與脂質創藥。",
+      "summary_tw": "以有機化學為基礎開發觀察、診斷和調控生命系統的分子工具。用胜肽庫、DNA編碼技術和大規模代謝分析尋找疾病生物標記並開發代謝造影探針；也設計中分子胜肽、擬胜肽和脂質，探索藥物先導及膜穿透原理。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "chemical_biology-5"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "東京科学大学",
+      "department": "総合研究院 生体材料工学研究所 創薬科学研究部門",
+      "lab": "生命有機化学分野（細谷研究室）",
+      "pi": "細谷 孝充",
+      "pi_title": "教授",
+      "theme_zh": "利用高反应性化学物种，开发解析与调控生命的分子工具。",
+      "summary_zh": "关注苯炔、叠氮等高反应性化学物种，以有机合成开发解析和调控生命现象的分子工具。课题包括基于叠氮化学的研究方法、生物发光与荧光底物、用新骨架构建法创制药物候选化合物，以及体内成像用PET示踪剂。",
+      "keywords": [
+        "叠氮化学",
+        "苯炔",
+        "生物发光底物",
+        "PET示踪剂",
+        "分子工具"
+      ],
+      "url": "https://chembiolab.jp/",
+      "references": [
+        {
+          "url": "https://www.lbb.iir.isct.ac.jp/research/member-list.html",
+          "evidence": "生体材料工学研究所教员名单在创药科学研究部门生命有机化学分野下列出教授细谷孝充、准教授隅田有人、助教田口纯平。"
+        },
+        {
+          "url": "https://www.lbb.iir.isct.ac.jp/pdf/Chemical_Bioscience.pdf",
+          "evidence": "研究所的分野介绍PDF列出苯炔新生成法、基于叠氮化学的生命科学研究新方法、生物发光与荧光底物、基于新骨架构建法的药物候选化合物创制和PET示踪剂设计等课题，并给出研究室主页chembiolab.jp。"
+        },
+        {
+          "url": "https://chembiolab.jp/",
+          "evidence": "研究室主页（由上述大学PDF链接）以生命有机化学分野（细谷研究室）为名，说明以有机合成开发解析和调控生命现象的分子工具，新闻更新至2026年10月，并记载大学院学位授予和修士生获奖等动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "高反応性化学種を活かし、生命現象を解析・制御する分子ツールを開発する。",
+      "theme_en": "Harnessing highly reactive chemical species to create molecular tools for studying and controlling life processes.",
+      "summary_ja": "ベンザインやアジドなどの高反応性化学種に着目し、有機合成で生命現象を解析・制御する分子ツールを開発します。アジド化学に基づく研究手法、生物発光・蛍光基質、新規骨格構築法による薬剤候補の創製、PETトレーサーの設計を進めます。",
+      "summary_en": "Focusing on highly reactive species such as benzynes and azides, the lab uses organic synthesis to create molecular tools for analyzing and controlling biological phenomena. Projects include azide-based methods for chemical biology, new bioluminescent and fluorescent substrates, drug seeds from new scaffold-building methods, and PET tracers for in vivo imaging.",
+      "theme_tw": "利用高反應性化學物種，開發解析與調控生命的分子工具。",
+      "summary_tw": "關注苯炔、疊氮等高反應性化學物種，以有機合成開發解析和調控生命現象的分子工具。課題包括基於疊氮化學的研究方法、生物發光與螢光受質、用新骨架建構法創製藥物候選化合物，以及體內造影用PET示蹤劑。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "chemical_biology-6"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "北海道大学",
+      "department": "大学院生命科学院／薬学研究院 創薬科学研究教育センター",
+      "lab": "有機合成医薬学部門（市川研究室）",
+      "pi": "市川 聡",
+      "pi_title": "教授",
+      "theme_zh": "以天然物为起点，用有机合成创制新的药物先导。",
+      "summary_zh": "以具有药用潜力且结构复杂的天然物及核酸、肽等生物大分子为对象，开发实用高效的化学合成方法，通过多维优化把先导化合物推进为临床候选，并用探针分子解析作用机制，也构建创药用化合物库。",
+      "keywords": [
+        "天然物创药",
+        "全合成",
+        "创药化学",
+        "核酸",
+        "化合物库"
+      ],
+      "url": "https://www.pharm.hokudai.ac.jp/gouseiiyaku/",
+      "references": [
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/gouseiiyaku/member.php",
+          "evidence": "研究室成员页列出有机合成医药学部门（Laboratory of Medicinal Chemistry）教授市川聪、讲师胜山彬、助教山本一贵，所属药学研究院创药科学研究教育中心。"
+        },
+        {
+          "url": "https://researchers.general.hokudai.ac.jp/profile/ja.daa45a2140f00996520e17560c007669.html",
+          "evidence": "北海道大学研究者总览列市川聪为药学研究院创药科学研究教育中心教授，修士和博士课程由生命科学院担当，研究关键词为天然物化学、创药化学和有机合成化学。"
+        },
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/gouseiiyaku/",
+          "evidence": "研究室主页说明以有机合成为基础高效合成天然物及核酸、肽等生物大分子，通过多维优化把先导化合物推向临床候选，并用探针分子解析作用机制；2026年10月仍发布新论文消息。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "天然物を基盤に、有機合成で新たな創薬リードを生み出す。",
+      "theme_en": "Creating new drug leads from natural products through organic synthesis.",
+      "summary_ja": "有望な活性と複雑な構造をもつ天然物や、核酸・ペプチドなどの生体高分子を対象に、有機合成による実用的で高効率な合成法を開発します。リード化合物を臨床候補へ最適化し、プローブによる作用機序解明や独自ライブラリーの構築も進めます。",
+      "summary_en": "Targeting natural products with promising activity and complex structures, as well as biopolymers such as nucleic acids and peptides, the lab develops practical, efficient syntheses grounded in organic chemistry. Lead compounds are optimized toward clinical candidates, mechanisms are probed with molecular probes, and original compound libraries are built for drug discovery.",
+      "theme_tw": "以天然物為起點，用有機合成創製新的藥物先導。",
+      "summary_tw": "以具有藥用潛力且結構複雜的天然物及核酸、胜肽等生物大分子為對象，開發實用高效的化學合成方法，透過多維最佳化把先導化合物推進為臨床候選，並用探針分子解析作用機制，也建構創藥用化合物庫。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "chemical_biology-7"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "名古屋大学",
+      "department": "大学院生命農学研究科 応用生命科学専攻",
+      "lab": "天然物ケミカルバイオロジー研究室",
+      "pi": "北 将樹",
+      "pi_title": "教授",
+      "theme_zh": "从天然生物活性物质出发，用化学解析生物现象与靶分子。",
+      "summary_zh": "结合天然物化学与化学生物学，用化学解析奇妙的生物现象。研究对象包括食虫动物产生的麻醉作用物质、共生藻来源的生物活性多元醇和海洋来源的抗肿瘤、抗炎物质，并开发用荧光探针分析新靶分子的方法。",
+      "keywords": [
+        "天然物化学",
+        "化学生物学",
+        "海洋天然物",
+        "靶分子鉴定",
+        "荧光探针"
+      ],
+      "url": "https://mkita64.wixsite.com/mysite",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100000985_ja.html",
+          "evidence": "名古屋大学教员信息列北将树为生命农学研究科应用生命科学专攻教授，研究课题包括食虫动物来源的麻醉作用物质、共生藻来源的生物活性多元醇、用荧光探针分析新靶分子以及海洋来源抗肿瘤抗炎物质，并以研究室网站为主页链接。"
+        },
+        {
+          "url": "https://mkita64.wixsite.com/mysite",
+          "evidence": "研究室网站（由上述大学页面链接）以天然物化学生物学研究室为名，列出北将树教授和井上贵斗助教，说明结合天然物化学与化学生物学解析生物现象，2026年10月仍有更新。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "天然の生物活性物質を手がかりに、生物現象と標的分子を化学で解き明かす。",
+      "theme_en": "Using natural bioactive compounds to chemically unravel biological phenomena and their target molecules.",
+      "summary_ja": "天然物化学とケミカルバイオロジーを組み合わせ、不思議な生物現象を化学で解明します。食虫動物由来の麻酔作用物質、共生藻由来の生物活性ポリオール、海洋由来の抗腫瘍・抗炎症物質を研究し、蛍光プローブによる標的分子解析法も開発します。",
+      "summary_en": "Combining natural product chemistry with chemical biology, the lab explains intriguing biological phenomena in chemical terms. It studies anesthetic substances from insectivorous mammals, bioactive polyols from symbiotic algae and marine antitumor and anti-inflammatory compounds, and develops fluorescent-probe methods to identify new target molecules.",
+      "theme_tw": "從天然生物活性物質出發，用化學解析生物現象與標靶分子。",
+      "summary_tw": "結合天然物化學與化學生物學，用化學解析奇妙的生物現象。研究對象包括食蟲動物產生的麻醉作用物質、共生藻來源的生物活性多元醇和海洋來源的抗腫瘤、抗發炎物質，並開發用螢光探針分析新標靶分子的方法。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "chemical_biology-8"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "大阪大学",
+      "department": "大学院薬学研究科（化学薬学領域）",
+      "lab": "生物有機化学分野（小比賀研究室）",
+      "pi": "小比賀 聡",
+      "pi_title": "教授",
+      "theme_zh": "设计合成人工核酸，开发更稳定安全的核酸药物。",
+      "summary_zh": "化学修饰核酸的糖、碱基和磷酸部位，设计合成提高体内稳定性、靶RNA结合力和安全性的人工核酸。也开展反义核酸药物的序列设计及细胞、动物水平评价，以及借助化学修饰把核酸药物送到目标器官的技术。",
+      "keywords": [
+        "人工核酸",
+        "核酸药物",
+        "反义寡核苷酸",
+        "化学修饰",
+        "药物设计"
+      ],
+      "url": "https://www.phs.osaka-u.ac.jp/homepage/b007/",
+      "references": [
+        {
+          "url": "https://www.phs.osaka-u.ac.jp/research/researcherDetail.php?id=10",
+          "evidence": "药学研究科研究者页列小比贺聪为生物有机化学分野（化学药学领域）教授，介绍功能性人工核酸的设计合成、核酸药物的序列设计与细胞和动物评价，以及靠化学修饰调控核酸药物体内动态的技术。"
+        },
+        {
+          "url": "https://www.phs.osaka-u.ac.jp/homepage/b007/member/index.html",
+          "evidence": "研究室成员页列出教授小比贺聪、准教授山口卓男及讲师樋野展正、大泽昂志等教员。"
+        },
+        {
+          "url": "https://www.phs.osaka-u.ac.jp/homepage/b007/research/index.html",
+          "evidence": "研究内容页说明化学组通过糖、碱基和磷酸部位修饰开发人工核酸，发现糖部桥连型人工核酸对互补链亲和力高；生物组以反义技术调控致病RNA功能，两组协作开发核酸药物。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "人工核酸を分子設計・合成し、核酸医薬の創製につなげる。",
+      "theme_en": "Designing and synthesizing artificial nucleic acids to create nucleic acid medicines.",
+      "summary_ja": "核酸の糖部・塩基部・リン酸部を化学修飾し、生体内安定性や標的RNAへの結合力、安全性を高める人工核酸を設計・合成します。アンチセンス核酸医薬の配列設計と細胞・動物での評価、狙った臓器へ届ける動態制御技術の開発も進めます。",
+      "summary_en": "The lab chemically modifies the sugar, base and phosphate parts of nucleic acids to design artificial nucleic acids with greater in vivo stability, stronger binding to target RNA and improved safety. It also designs antisense drug sequences, evaluates them in cells and animals, and develops chemical modifications that deliver nucleic acid drugs to chosen organs.",
+      "theme_tw": "設計合成人工核酸，開發更穩定安全的核酸藥物。",
+      "summary_tw": "化學修飾核酸的醣、鹼基和磷酸部位，設計合成提高體內穩定性、標靶RNA結合力和安全性的人工核酸。也開展反義核酸藥物的序列設計及細胞、動物層級評估，以及藉助化學修飾把核酸藥物送到目標器官的技術。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "chemical_biology-9"
+    },
+    {
+      "field": "chemical_biology",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 化学・生命化学専攻",
+      "lab": "中尾研究室（ケミカルバイオロジー研究室）",
+      "pi": "中尾 洋一",
+      "pi_title": "教授",
+      "theme_zh": "从海洋生物天然化合物中寻找调控生命现象的分子。",
+      "summary_zh": "利用海洋生物产生的天然化合物研究生命现象。从海洋无脊椎动物中寻找抗原虫、抗多药耐药菌的化合物，以及诱导ES、iPS细胞向心肌和血管分化或调控表观遗传的化合物，并希望与药物开发相连接。",
+      "keywords": [
+        "海洋天然物",
+        "化学生物学",
+        "抗耐药菌",
+        "细胞分化",
+        "表观遗传调控"
+      ],
+      "url": "http://www.chem.waseda.ac.jp/nakao/",
+      "references": [
+        {
+          "url": "http://www.chem.waseda.ac.jp/nakao/member/member.html",
+          "evidence": "研究室成员页列出教授中尾洋一及助教神平梨绘等教员，并列有M1、M2研究生和本科四年级学生。"
+        },
+        {
+          "url": "http://www.chem.waseda.ac.jp/nakao/thema/thema.html",
+          "evidence": "研究概要页说明以海洋无脊椎动物为来源，探索抗原虫、抗多药耐药菌化合物以及调控细胞分化和表观遗传的化合物。"
+        },
+        {
+          "url": "https://www.waseda.jp/top/research_1/tlo/seeds/master-chem",
+          "evidence": "早稻田大学先进理工学研究科化学・生命化学专攻的修士论文一览（2010、2012年度）列中尾洋一为指导教员（主查），题目涉及海绵来源SIRT3抑制剂、组蛋白修饰调控剂和抗利什曼原虫活性物质的探索。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "海洋生物が生み出す天然化合物から、生命現象を制御する分子を探る。",
+      "theme_en": "Searching marine natural products for molecules that modulate biological processes.",
+      "summary_ja": "海洋生物が作り出す天然化合物を用いて生命現象を研究します。海洋無脊椎動物から抗原虫・抗多剤耐性菌化合物や、ES・iPS細胞から心筋・血管への分化を誘導する化合物、エピジェネティクス制御化合物を探索し、創薬への展開を目指します。",
+      "summary_en": "The lab studies biological phenomena with natural compounds produced by marine organisms. From marine invertebrates it seeks compounds active against protozoan parasites and multidrug-resistant bacteria, as well as molecules that guide stem cells toward heart muscle or blood vessels or regulate epigenetics, aiming to link these findings to drug development.",
+      "theme_tw": "從海洋生物天然化合物中尋找調控生命現象的分子。",
+      "summary_tw": "利用海洋生物產生的天然化合物研究生命現象。從海洋無脊椎動物中尋找抗原蟲、抗多重抗藥性細菌的化合物，以及誘導ES、iPS細胞向心肌和血管分化或調控表觀遺傳的化合物，並希望與藥物開發相連接。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "chemical_biology-10"
     },
     {
       "field": "green",
