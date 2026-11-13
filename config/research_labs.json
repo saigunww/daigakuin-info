@@ -2164,6 +2164,377 @@
       "id": "immunology-2"
     },
     {
+      "field": "immunology",
+      "university": "東京大学",
+      "department": "大学院医学系研究科 病因・病理学専攻",
+      "lab": "免疫学教室（高柳研究室）",
+      "pi": "高柳 広",
+      "pi_title": "教授",
+      "theme_zh": "以骨免疫学为核心，解析免疫细胞分化与自身免疫机制。",
+      "summary_zh": "推进研究骨骼与免疫系统相互作用及共同调控机制的骨免疫学，重点关注骨髓和胸腺。结合单细胞分析与基因改造小鼠，解析细胞因子信号和转录调控，目标是开发类风湿关节炎等自身免疫病及骨关节疾病的新疗法。",
+      "keywords": [
+        "骨免疫学",
+        "T细胞分化",
+        "胸腺",
+        "自身免疫病",
+        "细胞因子信号"
+      ],
+      "url": "https://osteoimmunology.com/",
+      "references": [
+        {
+          "url": "https://www.m.u-tokyo.ac.jp/departments/graduateschool.html",
+          "evidence": "东京大学医学系研究科组织页在病因・病理学专攻免疫学讲座下列出免疫学教授高柳广，并链接到免疫学教室网站。"
+        },
+        {
+          "url": "http://www.immunol.m.u-tokyo.ac.jp/",
+          "evidence": "医学系研究科域名下的免疫学讲座入口页标明“高柳研究室 Department of Immunology”，并链接到研究室网站osteoimmunology.com。"
+        },
+        {
+          "url": "https://osteoimmunology.com/research.html",
+          "evidence": "研究室研究内容页说明在分子水平解析免疫细胞分化及先天/适应免疫的调控，推进骨免疫学并重点研究骨髓和胸腺，以类风湿关节炎等自身免疫病和骨关节疾病的治疗为目标；主页最新消息为2026年8月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "骨免疫学を軸に、免疫細胞の分化と自己免疫の仕組みを解明する。",
+      "theme_en": "Uncovering immune-cell differentiation and autoimmunity through osteoimmunology.",
+      "summary_ja": "骨と免疫系の相互作用や共通制御機構を扱う骨免疫学を推進し、骨髄や胸腺に注目する。シングルセル解析や遺伝子改変マウスを用い、サイトカインシグナルと転写制御を軸に、関節リウマチなどの自己免疫疾患や骨関節疾患の治療法開発を目指す。",
+      "summary_en": "Pioneers osteoimmunology, the study of interactions and shared regulatory mechanisms between bone and the immune system, focusing on bone marrow and the thymus. Using single-cell analysis and genetically modified mice, the lab studies cytokine signalling and transcriptional control to develop therapies for autoimmune diseases such as rheumatoid arthritis and for bone disorders.",
+      "theme_tw": "以骨免疫學為核心，解析免疫細胞分化與自體免疫機制。",
+      "summary_tw": "推進研究骨骼與免疫系統交互作用及共同調控機制的骨免疫學，重點關注骨髓和胸腺。結合單細胞分析與基因改造小鼠，解析細胞激素訊號和轉錄調控，目標是開發類風濕性關節炎等自體免疫疾病及骨關節疾病的新療法。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "immunology-3"
+    },
+    {
+      "field": "immunology",
+      "university": "京都大学",
+      "department": "大学院医学研究科 医学専攻",
+      "lab": "医化学分野（竹内研究室）",
+      "pi": "竹内 理",
+      "pi_title": "教授",
+      "theme_zh": "从先天免疫角度解析炎症的发生与调控机制。",
+      "summary_zh": "从先天免疫角度研究炎症的引发与调节，重点解析Regnase-1等RNA分解酶降解细胞因子mRNA以抑制免疫的机制，并开发出增强Regnase-1的反义核酸，改善肺纤维化和多发性硬化模型的病情。",
+      "keywords": [
+        "先天免疫",
+        "炎症",
+        "Regnase-1",
+        "mRNA降解",
+        "核酸药物"
+      ],
+      "url": "https://mc.mfour.med.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.e24dd280ef90d024.html",
+          "evidence": "京都大学教育研究活动数据库（2026年11月更新）显示竹内理为医学研究科医学专攻分子生体统御学讲座医化学教授，兼任感染防御生物学协力讲座教授，研究主题为阐明先天免疫调控炎症的机制。"
+        },
+        {
+          "url": "https://mc.mfour.med.kyoto-u.ac.jp/",
+          "evidence": "研究室主页（医学研究科域名）说明竹内研究室从先天免疫角度研究炎症发生与调节的分子机制，招收博士和修士研究生；2026年11月有Science Signaling论文等消息。"
+        },
+        {
+          "url": "https://www.kyoto-u.ac.jp/sites/default/files/2022-05/220513_takeuchi-59074008fed1eeb66a178eef769445bf.pdf",
+          "evidence": "京都大学2022年新闻稿介绍竹内理教授团队增强RNA分解酶Regnase-1的功能，用反义核酸改善急性呼吸窘迫综合征、肺纤维化和多发性硬化模型小鼠的病情。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "自然免疫の観点から炎症の惹起と制御の分子機構を解明する。",
+      "theme_en": "Dissecting how inflammation is triggered and controlled by innate immunity.",
+      "summary_ja": "自然免疫の観点から炎症の惹起と調節の分子機構を研究する。サイトカインmRNAを分解して免疫のブレーキとなるRegnase-1などに注目し、その働きを強めるアンチセンス核酸で肺線維症や多発性硬化症モデルの病態を改善した。",
+      "summary_en": "Studies the molecular mechanisms that trigger and regulate inflammation from the perspective of innate immunity, focusing on RNA-degrading enzymes such as Regnase-1 that act as brakes by destroying cytokine mRNAs. The group developed antisense oligonucleotides that boost Regnase-1 and improved disease in mouse models of lung fibrosis and multiple sclerosis.",
+      "theme_tw": "從先天免疫角度解析發炎的發生與調控機制。",
+      "summary_tw": "從先天免疫角度研究發炎的引發與調節，重點解析Regnase-1等RNA分解酶降解細胞激素mRNA以抑制免疫的機制，並開發出增強Regnase-1的反義核酸，改善肺纖維化和多發性硬化症模型的病情。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "immunology-4"
+    },
+    {
+      "field": "immunology",
+      "university": "北海道大学",
+      "department": "遺伝子病制御研究所／大学院医学院",
+      "lab": "分子神経免疫学分野（村上研究室）",
+      "pi": "村上 正晃",
+      "pi_title": "教授",
+      "theme_zh": "研究神经系统与免疫系统的互作如何引发慢性炎症。",
+      "summary_zh": "以神经与免疫的相互作用为主线研究慢性炎症性疾病。在多发性硬化模型中发现局部神经活动可在特定血管形成病原性T细胞穿越血脑屏障的“门户”，并解析引发局部炎症的IL-6放大回路，寻找治疗靶点。",
+      "keywords": [
+        "神经免疫",
+        "慢性炎症",
+        "门户反射",
+        "IL-6",
+        "自身免疫病"
+      ],
+      "url": "https://www.igm.hokudai.ac.jp/neuroimmune/",
+      "references": [
+        {
+          "url": "https://www.igm.hokudai.ac.jp/neuroimmune/members/neuroimmune.html",
+          "evidence": "研究室成员页列出北海道大学分子神经免疫学分野教授村上正晃及准教授、特任讲师和博士研究生；主页最新消息为2026年11月。"
+        },
+        {
+          "url": "https://www.igm.hokudai.ac.jp/neuroimmune/members/professor.html",
+          "evidence": "教授简历页写明村上正晃自2014年5月起任北海道大学遗传子病制御研究所・大学院医学院教授，2026年4月起兼任北海道大学总长助理（研究）。"
+        },
+        {
+          "url": "https://www.igm.hokudai.ac.jp/neuroimmune/research/index.html",
+          "evidence": "研究介绍页说明在多发性硬化模型中发现局部神经活动在第5腰椎背侧血管形成病原性T细胞穿越血脑屏障的“门户”，并解析引发局部慢性炎症的IL-6放大回路（炎症アンプ）。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "神経系と免疫系の相互作用から慢性炎症の発症機構を解明する。",
+      "theme_en": "Revealing how crosstalk between the nervous and immune systems drives chronic inflammation.",
+      "summary_ja": "神経系と免疫系の相互作用から慢性炎症性疾患を研究する。多発性硬化症モデルで、局所の神経活動が特定の血管に病原性T細胞の血液脳関門通過ゲートを作る「ゲートウェイ反射」を発見し、局所炎症を誘導する炎症アンプから治療標的を探る。",
+      "summary_en": "Investigates chronic inflammatory diseases through interactions between the nervous and immune systems. In a multiple sclerosis model the lab found that regional neural activity creates a gateway for pathogenic T cells to cross the blood-brain barrier, and it studies the IL-6 inflammation amplifier to identify therapeutic targets for diseases such as rheumatoid arthritis.",
+      "theme_tw": "研究神經系統與免疫系統的交互作用如何引發慢性發炎。",
+      "summary_tw": "以神經與免疫的交互作用為主線研究慢性發炎疾病。在多發性硬化症模型中發現局部神經活動可在特定血管形成致病性T細胞穿越血腦屏障的「門戶」，並解析引發局部發炎的IL-6放大迴路，尋找治療標靶。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "immunology-5"
+    },
+    {
+      "field": "immunology",
+      "university": "慶應義塾大学",
+      "department": "医学部／大学院医学研究科",
+      "lab": "微生物学・免疫学教室（本田研究室）",
+      "pi": "本田 賢也",
+      "pi_title": "教授",
+      "theme_zh": "研究肠道细菌如何影响免疫细胞的分化与功能。",
+      "summary_zh": "关注肠道细菌与免疫细胞的关系，以果蝇、小鼠和人为对象，鉴定影响免疫细胞分化与功能的菌种，寻找其作用机制和关键物质。长期目标是通过调控肠道菌群，控制炎症性肠病、自身免疫病和过敏等疾病。",
+      "keywords": [
+        "肠道菌群",
+        "免疫细胞分化",
+        "微生物组",
+        "炎症性肠病",
+        "过敏"
+      ],
+      "url": "https://www.keio.ac.jp/ja/faculty/k_100002321/",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/k_100002321/",
+          "evidence": "庆应义塾教员介绍页列出医学部微生物学・免疫学教室教授本田贤也，专业为免疫学、微生物学和肠道细菌学，说明以果蝇、小鼠和人为对象研究肠道细菌与免疫细胞的关系，并负责医学研究科硕士和博士论文指导。"
+        },
+        {
+          "url": "https://www.keio.ac.jp/ja/researcher/100002321/",
+          "evidence": "庆应义塾研究者数据库列出本田贤也为医学部微生物学・免疫学教室教授，具备医学研究科硕士/博士论文指导资格，页面论文信息于2026年11月更新。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "腸内細菌が免疫細胞の分化と機能に与える影響を解明する。",
+      "theme_en": "Studying how gut bacteria shape the differentiation and function of immune cells.",
+      "summary_ja": "腸内細菌と免疫細胞の関わりに着目し、ショウジョウバエ、マウス、ヒトを対象に、免疫細胞の分化や機能に影響する腸内細菌種を同定して仕組みや鍵物質を探る。腸内細菌の人為的操作による炎症性腸疾患、自己免疫疾患、アレルギーの制御を目指す。",
+      "summary_en": "Studies how gut bacteria interact with immune cells, working with fruit flies, mice and humans. The lab identifies bacterial species that influence immune-cell differentiation and function and searches for the underlying mechanisms and key molecules, aiming in the long term to control inflammatory bowel disease, autoimmunity and allergy by manipulating the gut microbiota.",
+      "theme_tw": "研究腸道細菌如何影響免疫細胞的分化與功能。",
+      "summary_tw": "關注腸道細菌與免疫細胞的關係，以果蠅、小鼠和人類為對象，鑑定影響免疫細胞分化與功能的菌種，尋找其作用機制和關鍵物質。長期目標是透過調控腸道菌群，控制發炎性腸道疾病、自體免疫疾病和過敏等疾病。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "immunology-6"
+    },
+    {
+      "field": "immunology",
+      "university": "千葉大学",
+      "department": "大学院医学研究院",
+      "lab": "免疫発生学（平原研究室）",
+      "pi": "平原 潔",
+      "pi_title": "教授",
+      "theme_zh": "研究记忆T细胞如何驱动慢性炎症与组织纤维化。",
+      "summary_zh": "以免疫记忆为核心，研究组织常驻记忆CD4+T细胞如何长期停留在肺、肠等组织并维持炎症，以解析哮喘、过敏和肺纤维化等难治性炎症疾病。也分析脂质代谢诱导致病性T细胞等免疫与其他系统的关联。",
+      "keywords": [
+        "免疫记忆",
+        "组织常驻记忆T细胞",
+        "慢性炎症",
+        "过敏",
+        "肺纤维化"
+      ],
+      "url": "https://www.m.chiba-u.ac.jp/dept/meneki/",
+      "references": [
+        {
+          "url": "https://www.m.chiba-u.ac.jp/dept/meneki/member/2188",
+          "evidence": "研究室成员页（千叶大学医学研究院域名）列出教授平原洁、特任准教授和助教等教员及硕博研究生；主页最新消息为2026年11月。"
+        },
+        {
+          "url": "https://www.m.chiba-u.ac.jp/dept/meneki/about-1/greeting",
+          "evidence": "免疫发生学教授平原洁的致辞说明研究室围绕难治性炎症疾病的病态解析、免疫系统的多样性与复杂性、免疫系统与其他生物系统的关联开展研究。"
+        },
+        {
+          "url": "https://www.kyoto-u.ac.jp/ja/research-news/2025-12-15-0",
+          "evidence": "2025年12月联合新闻稿说明千叶大学平原洁教授等发现转录因子HLF控制组织常驻记忆CD4+T细胞在肺、肠等组织的滞留和炎症性细胞因子的持续产生，成果发表于Science。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "記憶T細胞が慢性炎症や組織線維化を引き起こす仕組みを探る。",
+      "theme_en": "Exploring how memory T cells drive chronic inflammation and tissue fibrosis.",
+      "summary_ja": "免疫記憶を軸に、組織常在性記憶CD4+T細胞が肺や腸にとどまり炎症を持続させる仕組みを調べ、喘息、アレルギー、肺線維症など難治性炎症疾患の病態解明を目指す。脂質代謝による病原性T細胞の誘導など他の生体システムとの連関も解析する。",
+      "summary_en": "Centred on immunological memory, the lab studies how tissue-resident memory CD4+ T cells persist in organs such as the lung and gut and sustain inflammation, aiming to explain intractable inflammatory diseases including asthma, allergy and lung fibrosis. It also examines links between immunity and other body systems, such as lipid metabolism that drives pathogenic T cells.",
+      "theme_tw": "研究記憶T細胞如何驅動慢性發炎與組織纖維化。",
+      "summary_tw": "以免疫記憶為核心，研究組織常駐記憶CD4+T細胞如何長期停留在肺、腸等組織並維持發炎，以解析氣喘、過敏和肺纖維化等難治性發炎疾病。也分析脂質代謝誘導致病性T細胞等免疫與其他系統的關聯。",
+      "aliases": [
+        "千叶大学",
+        "千葉大學",
+        "Chiba University"
+      ],
+      "id": "immunology-7"
+    },
+    {
+      "field": "immunology",
+      "university": "東北大学",
+      "department": "加齢医学研究所／大学院医学系研究科 医科学専攻",
+      "lab": "生体防御学分野（小笠原研究室）",
+      "pi": "小笠原 康悦",
+      "pi_title": "教授",
+      "theme_zh": "研究NK细胞与T细胞识别靶细胞的分子机制。",
+      "summary_zh": "聚焦具有细胞毒性的NK细胞和T细胞，研究其活化与抑制性受体识别靶细胞的机制。重点分析NKG2D及其配体在肿瘤免疫、移植排斥和1型糖尿病模型中的作用，并开展T细胞受体组库分析，探索新疗法。",
+      "keywords": [
+        "NK细胞",
+        "NKG2D",
+        "T细胞受体",
+        "肿瘤免疫",
+        "自身免疫"
+      ],
+      "url": "https://www2.idac.tohoku.ac.jp/dep/imbio/",
+      "references": [
+        {
+          "url": "https://www.med.tohoku.ac.jp/lab/710/",
+          "evidence": "东北大学医学系研究科研究室检索页将加龄医学研究所生体防御学列入医科学专攻修士与博士课程，列出教授小笠原康悦，说明研究NK细胞和T细胞的活化/抑制性受体及其在病毒感染、肿瘤免疫和自身免疫中识别靶细胞的机制。"
+        },
+        {
+          "url": "https://www2.idac.tohoku.ac.jp/dep/imbio/content.html",
+          "evidence": "研究室研究内容页介绍NKG2D及其配体在移植排斥、肿瘤免疫和1型糖尿病模型中的作用、NK细胞从树突状细胞获得MHC II的现象，以及T细胞受体组库分析；主页最新消息为2026年4月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "NK細胞とT細胞が標的細胞を認識する分子機構を研究する。",
+      "theme_en": "Studying how NK cells and T cells recognise their target cells.",
+      "summary_ja": "細胞傷害性をもつNK細胞やT細胞に着目し、活性化・抑制性受容体による標的細胞認識の仕組みを研究する。NKG2Dとそのリガンドの腫瘍免疫、移植拒絶、1型糖尿病モデルでの役割、T細胞受容体レパートリーを解析し、新たな治療法を目指す。",
+      "summary_en": "Focuses on cytotoxic NK cells and T cells and how their activating and inhibitory receptors recognise target cells. Work on the NKG2D receptor and its stress-induced ligands covers tumour immunity, transplant rejection and type 1 diabetes models, while T-cell receptor repertoire analysis supports efforts to develop new diagnostics and treatments.",
+      "theme_tw": "研究NK細胞與T細胞辨識標靶細胞的分子機制。",
+      "summary_tw": "聚焦具有細胞毒性的NK細胞和T細胞，研究其活化與抑制性受體辨識標靶細胞的機制。重點分析NKG2D及其配體在腫瘤免疫、移植排斥和第1型糖尿病模型中的作用，並進行T細胞受體庫分析，探索新療法。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "immunology-8"
+    },
+    {
+      "field": "immunology",
+      "university": "熊本大学",
+      "department": "大学院生命科学研究部／大学院医学教育部",
+      "lab": "免疫学講座（押海研究室）",
+      "pi": "押海 裕之",
+      "pi_title": "教授",
+      "theme_zh": "解析抗病毒先天免疫机制及疫苗副反应的成因。",
+      "summary_zh": "以先天免疫为中心，研究病毒感染初期I型干扰素产生的机制，曾发现TLR3衔接分子TICAM-1和调控RIG-I的Riplet。也研究疫苗副反应成因、老年人疫苗、衰老与肿瘤免疫及细胞外囊泡。",
+      "keywords": [
+        "先天免疫",
+        "病毒感染",
+        "I型干扰素",
+        "疫苗",
+        "免疫衰老"
+      ],
+      "url": "https://www.immunology-kumamoto.com/",
+      "references": [
+        {
+          "url": "https://www.medphas.kumamoto-u.ac.jp/divisions/div2/div2_02/",
+          "evidence": "熊本大学生命科学研究部（医学系）讲座页在先端生命医疗科学部门感染・免疫学分野下列出免疫学讲座教授押海裕之，介绍疫苗副反应机制、衰老与肿瘤免疫、病毒感染免疫应答及细胞外囊泡研究，并链接到讲座网站。"
+        },
+        {
+          "url": "https://www.immunology-kumamoto.com/%E7%A0%94%E7%A9%B6/",
+          "evidence": "讲座网站研究页说明聚焦先天免疫，研究病毒感染初期I型干扰素产生机制（曾发现TLR3衔接分子TICAM-1和调控RIG-I的Riplet）、疫苗副反应及老年人疫苗。"
+        },
+        {
+          "url": "https://www.immunology-kumamoto.com/%E6%A5%AD%E7%B8%BE/",
+          "evidence": "讲座网站业绩页列出2026年发表的多篇论文（如老年小鼠疫苗佐剂、IgA类别转换调控），作者包括押海裕之。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "ウイルスに対する自然免疫とワクチン副反応の仕組みを解明する。",
+      "theme_en": "Unravelling antiviral innate immunity and the causes of vaccine side effects.",
+      "summary_ja": "自然免疫に着目し、ウイルス感染初期のI型インターフェロン産生の仕組みを研究し、TICAM-1やRipletを発見してきた。ワクチン副反応の仕組みや高齢者向けワクチン、老化とがん免疫、細胞外小胞の免疫応答への関与も調べる。",
+      "summary_en": "Studies innate immunity, especially how type I interferon is produced early in viral infection; the group discovered the TLR3 adaptor TICAM-1 and Riplet, a ubiquitin ligase that activates RIG-I. It also investigates why vaccines cause adverse reactions, how to improve vaccines for older people, ageing and cancer immunity, and immune roles of extracellular vesicles.",
+      "theme_tw": "解析抗病毒先天免疫機制及疫苗副作用的成因。",
+      "summary_tw": "以先天免疫為中心，研究病毒感染初期第I型干擾素產生的機制，曾發現TLR3銜接分子TICAM-1和調控RIG-I的Riplet。也研究疫苗副作用成因、長者疫苗、老化與腫瘤免疫及細胞外囊泡。",
+      "aliases": [
+        "熊本大学",
+        "熊本大學",
+        "Kumamoto University"
+      ],
+      "id": "immunology-9"
+    },
+    {
+      "field": "immunology",
+      "university": "東京大学",
+      "department": "定量生命科学研究所／大学院医学系研究科",
+      "lab": "分子免疫学研究分野（岡崎研究室）",
+      "pi": "岡崎 拓",
+      "pi_title": "教授",
+      "theme_zh": "研究PD-1等免疫检查点分子调控T细胞的机制。",
+      "summary_zh": "以PD-1、LAG-3等免疫辅助受体为中心研究T细胞活化的调控。团队揭示PD-1选择性抑制低亲和力T细胞及LAG-3的抑制机制，并探索通过解除PD-1功能限制治疗自身免疫病、改进癌症免疫疗法。",
+      "keywords": [
+        "免疫检查点",
+        "PD-1",
+        "LAG-3",
+        "T细胞活化",
+        "自身免疫"
+      ],
+      "url": "https://www.iqb.u-tokyo.ac.jp/lab/okazaki/",
+      "references": [
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/lab/okazaki/",
+          "evidence": "定量生命科学研究所研究室页列出分子免疫学研究分野教授岡崎拓（医学系研究科病因・病理学专攻），说明以免疫辅助受体为中心阐明免疫调控机制，成果包括解除PD-1功能限制治疗自身免疫病模型和LAG-3抑制机制。"
+        },
+        {
+          "url": "https://www.m.u-tokyo.ac.jp/departments/graduateschool.html",
+          "evidence": "东京大学医学系研究科组织页在病因・病理学专攻免疫学讲座下列出教授岡崎拓（定量生命科学研究所・分子免疫学）。"
+        },
+        {
+          "url": "https://www.iqb.u-tokyo.ac.jp/okazakilab/",
+          "evidence": "研究室网站（定量研域名）说明以获得性免疫调控机制为基础开发自身免疫病和癌症的新疗法，消息记录了2024—2025年医学系研究科研究生加入等动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "PD-1などの免疫チェックポイント分子によるT細胞制御を解明する。",
+      "theme_en": "Clarifying how PD-1 and other immune checkpoint receptors control T cells.",
+      "summary_ja": "PD-1やLAG-3などの免疫補助受容体によるT細胞活性化の制御機構を研究する。PD-1が抗原親和性の低いT細胞を選択的に抑制することやLAG-3の抑制機構を明らかにし、自己免疫疾患の新規治療やがん免疫療法の改良を目指す。",
+      "summary_en": "Studies how co-inhibitory receptors such as PD-1 and LAG-3 fine-tune T-cell activation, aiming to understand the full logic of immune regulation. The lab has shown that PD-1 preferentially suppresses low-affinity T cells and clarified how LAG-3 inhibits responses, and it explores releasing PD-1 restraint to treat autoimmune disease and improve cancer immunotherapy.",
+      "theme_tw": "研究PD-1等免疫檢查點分子調控T細胞的機制。",
+      "summary_tw": "以PD-1、LAG-3等免疫輔助受體為中心研究T細胞活化的調控。團隊揭示PD-1選擇性抑制低親和力T細胞及LAG-3的抑制機制，並探索透過解除PD-1功能限制治療自體免疫疾病、改進癌症免疫療法。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "immunology-10"
+    },
+    {
       "field": "microbiology_infection",
       "university": "北海道大学",
       "department": "人獣共通感染症国際共同研究所",
@@ -2647,6 +3018,335 @@
         "University of Tsukuba"
       ],
       "id": "neuro-3"
+    },
+    {
+      "field": "neuro",
+      "university": "九州大学",
+      "department": "大学院医学研究院 生体情報科学講座",
+      "lab": "疾患情報研究分野（今井研究室）",
+      "pi": "今井 猛",
+      "pi_title": "教授",
+      "theme_zh": "嗅觉神经回路的信息处理、结构与形成原理",
+      "summary_zh": "以小鼠嗅球和大脑皮层为模型，从回路的运作原理、结构与形成规律研究脑功能。用双光子钙成像解析气味编码，开发SeeDB透明化技术做光学连接组分析，并研究树突修剪及青春期突触变化与精神疾病的关系。",
+      "keywords": [
+        "嗅觉",
+        "神经回路",
+        "钙成像",
+        "组织透明化",
+        "连接组学"
+      ],
+      "url": "https://www.lab.med.kyushu-u.ac.jp/dn/",
+      "references": [
+        {
+          "url": "https://www.med.kyushu-u.ac.jp/research/research_groups/",
+          "evidence": "医学研究院研究室一览在基础医学部门生体情报科学讲座下列出疾患情报研究分野，教授为今井猛，并链接到研究室网站。"
+        },
+        {
+          "url": "https://www.lab.med.kyushu-u.ac.jp/dn/research/",
+          "evidence": "研究介绍说明以小鼠嗅觉系统和大脑皮层为模型，结合双光子在体钙成像、组织透明化光学连接组学和数理建模，研究神经回路的信息处理、结构与形成。"
+        },
+        {
+          "url": "https://www.lab.med.kyushu-u.ac.jp/dn/member/",
+          "evidence": "成员页列出主干教授今井猛及讲师、助教和博士生；研究室主页新闻更新至2026年11月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "嗅覚神経回路の情報処理・構造・形成原理の解明",
+      "theme_en": "How olfactory neural circuits process information, how they are wired and how they form during development.",
+      "summary_ja": "マウス嗅球と大脳皮質をモデルに、回路の動作原理・構造・形成原理を研究する。2光子イメージングで匂いの表現を調べ、透明化法SeeDBによる光学コネクトミクス、樹状突起の刈り込み、思春期のシナプス変化と精神疾患の関係を探る。",
+      "summary_en": "Studies how circuits compute, how they are wired and how they form, using the mouse olfactory bulb and cerebral cortex. The lab records odor coding with in vivo two-photon calcium imaging, develops SeeDB tissue clearing for optical connectomics, and examines dendrite pruning and adolescent synapse changes linked to psychiatric disorders.",
+      "theme_tw": "嗅覺神經迴路的資訊處理、結構與形成原理",
+      "summary_tw": "以小鼠嗅球和大腦皮層為模型，從迴路的運作原理、結構與形成規律研究腦功能。用雙光子鈣成像解析氣味編碼，開發SeeDB透明化技術做光學連接體分析，並研究樹突修剪及青春期突觸變化與精神疾病的關係。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "neuro-4"
+    },
+    {
+      "field": "neuro",
+      "university": "東京科学大学",
+      "department": "大学院医歯学総合研究科",
+      "lab": "細胞生理学分野（礒村研究室）",
+      "pi": "礒村 宜和",
+      "pi_title": "教授",
+      "theme_zh": "大鼠大脑皮层与基底神经节回路如何产生行为",
+      "summary_zh": "以执行前肢任务的大鼠为对象，研究皮层内回路及皮层—基底神经节环路如何处理信息并产生行为。以近细胞记录、多神经元记录和光遗传学为核心，开发投射目标鉴定法，并结合双光子成像与理论建模分析回路。",
+      "keywords": [
+        "运动皮层",
+        "基底神经节",
+        "多神经元记录",
+        "光遗传学",
+        "大鼠行为"
+      ],
+      "url": "https://www.tmd.ac.jp/med/phy2/",
+      "references": [
+        {
+          "url": "https://www.med.tmd.ac.jp/medicine/departments/cell_physiology.html",
+          "evidence": "医学部医学科分野介绍页列出细胞生理学分野教授礒村宜和，说明以执行行为任务的大鼠的大脑皮层、海马、基底神经节和丘脑回路为对象，采用多点电极记录、光遗传学和理论分析，并链接研究室网站。"
+        },
+        {
+          "url": "https://www.tmd.ac.jp/med/phy2/page/research",
+          "evidence": "研究内容页介绍皮层内回路与皮层—基底神经节环路研究，方法包括近细胞记录、硅探针多神经元记录、结合光遗传学的投射目标鉴定法、双光子成像和理论建模。"
+        },
+        {
+          "url": "https://www.tmd.ac.jp/med/phy2/",
+          "evidence": "研究室主页标明东京科学大学大学院医齿学综合研究科细胞生理学分野礒村宜和研究室，最新消息为2026年6月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "大脳皮質・大脳基底核の神経回路による行動発現の仕組み",
+      "theme_en": "How cortical and basal-ganglia circuits in rats process information to generate behavior.",
+      "summary_ja": "前肢運動課題を行うラットで、大脳皮質内回路と皮質－基底核ループが情報を処理し行動を生む仕組みを研究する。傍細胞記録、マルチニューロン記録、光遺伝学を軸に投射先同定法を開発し、2光子イメージングや理論モデルも用いる。",
+      "summary_en": "Investigates how intracortical circuits and cortico-basal ganglia loops process information to generate behavior in rats performing forelimb tasks. Core methods are juxtacellular and multineuron recording and optogenetics, with a new method for identifying axonal targets, two-photon imaging and theoretical modeling of circuit dynamics.",
+      "theme_tw": "大鼠大腦皮層與基底核迴路如何產生行為",
+      "summary_tw": "以執行前肢任務的大鼠為對象，研究皮層內迴路及皮層—基底核環路如何處理資訊並產生行為。以近細胞記錄、多神經元記錄和光遺傳學為核心，開發投射目標鑑定法，並結合雙光子成像與理論建模分析迴路。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "neuro-5"
+    },
+    {
+      "field": "neuro",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科 脳生命統御科学専攻",
+      "lab": "神経行動分野（谷本研究室）",
+      "pi": "谷本 拓",
+      "pi_title": "教授",
+      "theme_zh": "果蝇学习记忆与行为的神经回路机制",
+      "summary_zh": "以果蝇为主要模型，研究学习与记忆的神经回路机制。用遗传学手段操控特定脑细胞并观察行为，开发行为分析方法和单细胞形态解析；还研究感觉处理、求偶与攻击、运动规划和决策，并用水母从进化角度探讨行为。",
+      "keywords": [
+        "果蝇",
+        "学习记忆",
+        "神经回路",
+        "行为分析",
+        "遗传学操控"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=18215",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=18215",
+          "evidence": "生命科学研究科分野介绍页列出神经行动分野教授谷本拓及小金泽雅之准教授等，说明以果蝇为模型，用遗传学方法操控特定脑细胞并分析行为，研究记忆与学习的神经回路机制。"
+        },
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/field1/",
+          "evidence": "脑生命统御科学专攻页面在神经网络讲座下列出神经行动分野，教授为谷本拓。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "ショウジョウバエの記憶・学習と行動を担う神経回路",
+      "theme_en": "Neural-circuit mechanisms of learning, memory and behavior in the fruit fly.",
+      "summary_ja": "ショウジョウバエを用いて、記憶・学習を支える神経回路を研究する。遺伝学的手法で特定の脳細胞を操作して行動への影響を調べ、行動解析法や単一細胞の形態解析を開発する。感覚処理、求愛・攻撃、意思決定、クラゲを用いた進化的研究も行う。",
+      "summary_en": "Uses the fruit fly Drosophila to study the neural circuits behind learning and memory. The lab manipulates specific brain cells genetically, develops new behavioral assays and single-cell morphological analyses, and also studies sensory processing, courtship and aggression, motor planning and decision-making, plus a jellyfish system for evolutionary questions.",
+      "theme_tw": "果蠅學習記憶與行為的神經迴路機制",
+      "summary_tw": "以果蠅為主要模型，研究學習與記憶的神經迴路機制。用遺傳學手段操控特定腦細胞並觀察行為，開發行為分析方法和單細胞形態解析；也研究感覺處理、求偶與攻擊、運動規劃和決策，並以水母從演化角度探討行為。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "neuro-6"
+    },
+    {
+      "field": "neuro",
+      "university": "名古屋大学",
+      "department": "大学院医学系研究科 細胞科学講座",
+      "lab": "統合生理学分野（中村研究室）",
+      "pi": "中村 和弘",
+      "pi_title": "教授",
+      "theme_zh": "体温调节与应激反应的中枢神经回路",
+      "summary_zh": "研究维持生命的脑功能，核心是体温调节的中枢神经回路，涉及感染发热、心理应激引起的体温上升、饥饿时的能量消耗、寻找适宜温度的行为和中年肥胖，结合光遗传学、药理遗传学与生理学和解剖学方法解析。",
+      "keywords": [
+        "体温调节",
+        "发热",
+        "心理应激",
+        "自主神经",
+        "光遗传学"
+      ],
+      "url": "https://www.med.nagoya-u.ac.jp/physiol2/",
+      "references": [
+        {
+          "url": "https://www.med.nagoya-u.ac.jp/medical_J/laboratory/basic-med/cell-science/physiol2/",
+          "evidence": "医学系研究科研究室介绍页列出统合生理学（生理学第二）教授中村和弘，研究体温调节、发热、应激性体温上升、能量消耗和摄食的中枢神经回路，采用光遗传学和药理遗传学，并链接研究室网站。"
+        },
+        {
+          "url": "https://www.med.nagoya-u.ac.jp/physiol2/ResearchPurpose-J.html",
+          "evidence": "研究室网站研究目的页说明以体温调节为中心，研究感染发热、心理应激引起的生理反应及中年肥胖相关的脑神经回路。"
+        },
+        {
+          "url": "https://www.med.nagoya-u.ac.jp/physiol2/Top-J.html",
+          "evidence": "研究室主页新闻介绍中村和弘研究组的研究成果与成员获奖，最新消息为2026年10月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "体温調節とストレス反応を担う中枢神経回路の解明",
+      "theme_en": "Central neural circuits that regulate body temperature, fever and stress responses.",
+      "summary_ja": "生命を維持する脳機能、特に体温調節の中枢神経回路を研究する。感染による発熱、心理ストレスによる体温上昇、飢餓時のエネルギー消費、温度環境を選ぶ行動、中年太りを対象に、光遺伝学・薬理遺伝学と生理学・解剖学的手法で解析する。",
+      "summary_en": "Studies brain mechanisms that sustain life, centred on the central circuits that regulate body temperature. Topics include infection-induced fever, stress-induced hyperthermia, energy expenditure during hunger, temperature-seeking behavior and age-related obesity, analyzed with optogenetics and pharmacogenetics alongside physiological and anatomical methods.",
+      "theme_tw": "體溫調節與壓力反應的中樞神經迴路",
+      "summary_tw": "研究維持生命的腦功能，核心是體溫調節的中樞神經迴路，涉及感染發燒、心理壓力引起的體溫上升、飢餓時的能量消耗、尋找適宜溫度的行為和中年肥胖，結合光遺傳學、藥理遺傳學與生理學和解剖學方法解析。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "neuro-7"
+    },
+    {
+      "field": "neuro",
+      "university": "同志社大学",
+      "department": "大学院脳科学研究科 分子細胞脳科学分野",
+      "lab": "シナプス分子機能部門（坂場研究室）",
+      "pi": "坂場 武史",
+      "pi_title": "教授",
+      "theme_zh": "突触传递与可塑性的机制及其回路功能",
+      "summary_zh": "研究突触传递的机制及其在局部神经回路中的作用。以Held萼状突触、海马苔藓纤维突触和新皮层神经元连接为模型，用脑片膜片钳并结合成像分析突触多样性与可塑性，并用数学模型解释突触特性对回路的影响。",
+      "keywords": [
+        "突触传递",
+        "突触可塑性",
+        "膜片钳",
+        "海马",
+        "局部回路"
+      ],
+      "url": "https://brainscience.doshisha.ac.jp/br/introduction/mol/msf.html",
+      "references": [
+        {
+          "url": "https://brainscience.doshisha.ac.jp/br/introduction/mol/msf.html",
+          "evidence": "部门页列出坂场武史教授（部门长）、桥本谷祐辉准教授和大西泰地助教，研究主题为突触传递机制及其在局部神经回路中的作用，结合电生理、成像和数学模型，并链接到研究室网站。"
+        },
+        {
+          "url": "https://brainscience.doshisha.ac.jp/br/introduction/introduction.html",
+          "evidence": "脑科学研究科部门一览在分子细胞脑科学分野下列出突触分子机能部门，部门长为坂场武史。"
+        },
+        {
+          "url": "https://sakaba-lab.wixsite.com/sakaba-lab/research",
+          "evidence": "研究室网站研究页说明以Held萼状突触、海马苔藓纤维突触和新皮层神经元间连接为模型，主要用脑片膜片钳研究突触传递、可塑性与回路信息处理。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "私立",
+      "theme_ja": "シナプス伝達・可塑性の機構と局所回路での役割",
+      "theme_en": "Mechanisms of synaptic transmission and plasticity and their roles in local neural circuits.",
+      "summary_ja": "シナプス伝達の機構と局所回路での役割を研究する。Heldのカリックス、海馬苔状線維シナプス、新皮質ニューロン間結合をモデルに、スライスパッチクランプとイメージングで多様性と可塑性を解析し、数理モデルで回路への影響を説明する。",
+      "summary_en": "Studies how synaptic transmission works and what it does in local circuits. Using the calyx of Held, hippocampal mossy-fiber synapses and neocortical connections as models, the lab combines slice patch-clamp electrophysiology with imaging to analyze synaptic diversity and plasticity, and uses mathematical models to explain their effects on circuit operation.",
+      "theme_tw": "突觸傳遞與可塑性的機制及其迴路功能",
+      "summary_tw": "研究突觸傳遞的機制及其在局部神經迴路中的作用。以Held萼狀突觸、海馬苔蘚纖維突觸和新皮層神經元連接為模型，用腦片膜片鉗並結合成像分析突觸多樣性與可塑性，並以數學模型解釋突觸特性對迴路的影響。",
+      "aliases": [
+        "同志社大学",
+        "同志社大學",
+        "Doshisha University"
+      ],
+      "id": "neuro-8"
+    },
+    {
+      "field": "neuro",
+      "university": "北海道大学",
+      "department": "大学院医学研究院 生理系部門 生理学分野",
+      "lab": "神経生理学教室（田中研究室）",
+      "pi": "田中 真樹",
+      "pi_title": "教授",
+      "theme_zh": "灵长类时间知觉与行为选择的神经机制",
+      "summary_zh": "让猴子执行心理学任务，在单个神经元水平记录脑内信息处理，并用局部电刺激、光刺激和药物注入检验回路作用。重点研究时间与节律知觉、行为的灵活选择及短期记忆更新中额叶皮层、小脑和基底神经节的功能。",
+      "keywords": [
+        "时间知觉",
+        "小脑",
+        "基底神经节",
+        "灵长类电生理",
+        "短期记忆"
+      ],
+      "url": "http://niseiri.med.hokudai.ac.jp/",
+      "references": [
+        {
+          "url": "https://researchers.general.hokudai.ac.jp/profile/ja.c943fdc641a3b54e520e17560c007669.html",
+          "evidence": "北海道大学研究者总览列出田中真树为医学研究院生理系部门生理学分野教授，研究关键词包括时间知觉、节律、小脑、基底神经节、额叶联合皮层和非人灵长类，并链接到教室网站。"
+        },
+        {
+          "url": "http://niseiri.med.hokudai.ac.jp/about/",
+          "evidence": "教室概要说明让猴子执行心理实验任务并在神经元水平记录信息处理，结合局部电/光刺激和药物注入，研究行为适应、时间与节律知觉和短期记忆中额叶、小脑和基底神经节的作用；沿革载明2010年田中真树就任第五代教授。"
+        },
+        {
+          "url": "https://www.med.hokudai.ac.jp/general/departments.html",
+          "evidence": "医学研究院教员・教室一览中神经生理学教室（生理学分野）列出田中真树等教员，并链接到教室网站。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "霊長類における時間知覚・行動選択の神経機構",
+      "theme_en": "Neural mechanisms of time perception, adaptive behavior and short-term memory in primates.",
+      "summary_ja": "サルに心理課題を行わせ、脳内の情報処理を単一ニューロンのレベルで記録し、局所への電気・光刺激や薬物投与で回路の役割を検証する。時間やリズムの知覚、状況に応じた行動選択、短期記憶の更新における前頭葉・小脳・基底核の働きを調べる。",
+      "summary_en": "Records single-neuron activity in monkeys performing psychological tasks and tests the roles of circuits with local electrical or optical stimulation and drug injection. Research focuses on how the frontal cortex, cerebellum and basal ganglia support the perception of time and rhythm, flexible choice of behavior and the updating of short-term memory.",
+      "theme_tw": "靈長類時間知覺與行為選擇的神經機制",
+      "summary_tw": "讓猴子執行心理學任務，在單一神經元層級記錄腦內資訊處理，並以局部電刺激、光刺激和藥物注入檢驗迴路作用。重點研究時間與節律知覺、行為的靈活選擇及短期記憶更新中額葉皮層、小腦和基底核的功能。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "neuro-9"
+    },
+    {
+      "field": "neuro",
+      "university": "大阪大学",
+      "department": "大学院生命機能研究科 脳神経工学講座",
+      "lab": "知覚・認知神経科学研究室",
+      "pi": "西本 伸志",
+      "pi_title": "教授",
+      "theme_zh": "用脑活动预测模型定量解析人类知觉与认知",
+      "summary_zh": "用fMRI和电生理等方法记录人类自然知觉与认知时的脑活动，借助深度学习和自然语言处理等机器学习构建神经活动预测模型，定量揭示大脑如何表征语义、视觉、音乐与情绪等信息，并用于脑信息解码。",
+      "keywords": [
+        "计算神经科学",
+        "fMRI",
+        "脑信息解码",
+        "机器学习",
+        "知觉认知"
+      ],
+      "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/25",
+      "references": [
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/25",
+          "evidence": "生命机能研究科研究室页列出脑神经工学讲座知觉・认知神经科学研究室，教授为西本伸志，说明利用fMRI和电生理等记录自然知觉与认知时的脑活动，并以深度学习和自然语言处理等机器学习方法构建预测模型；论文列表更新至2026年。"
+        },
+        {
+          "url": "https://www.fbs.osaka-u.ac.jp/ja/research_group/",
+          "evidence": "研究科研究室一览在基干讲座中列出西本伸志的知觉・认知神经科学研究室。"
+        },
+        {
+          "url": "https://nishimotolab.org",
+          "evidence": "研究室网站（由研究科页面链接）说明研究人类复杂知觉与认知的神经基础，通过脑活动预测模型定量理解信息处理与表征，并应用于脑信息解码；最新消息为2026年6月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "脳活動の予測モデルによる知覚・認知の定量的理解",
+      "theme_en": "Quantitative understanding of human perception and cognition through predictive models of brain activity.",
+      "summary_ja": "ヒトが自然に知覚・認知する際の脳活動をfMRIや電気生理で計測し、深層学習や自然言語処理などの機械学習で予測モデルを構築する。意味・視覚・音楽・情動などの情報の脳内表現を定量的に解明し、脳情報デコーディングにも応用する。",
+      "summary_en": "Records human brain activity with fMRI and electrophysiology during natural perception and cognition, and builds predictive models of neural activity with machine learning, including deep learning and natural-language processing. The lab quantifies how semantic, visual, musical and emotional information is represented in the brain and applies the models to brain decoding.",
+      "theme_tw": "以腦活動預測模型定量解析人類知覺與認知",
+      "summary_tw": "用fMRI和電生理等方法記錄人類自然知覺與認知時的腦活動，藉助深度學習和自然語言處理等機器學習建構神經活動預測模型，定量揭示大腦如何表徵語意、視覺、音樂與情緒等資訊，並用於腦資訊解碼。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "neuro-10"
     },
     {
       "field": "rna",
@@ -4544,6 +5244,384 @@
       "id": "analytical-2"
     },
     {
+      "field": "analytical",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 化学専攻",
+      "lab": "分析化学研究室（小澤研究室）",
+      "pi": "小澤 岳昌",
+      "pi_title": "教授",
+      "theme_zh": "用荧光与发光蛋白探针观测、筛选并操控活细胞内分子。",
+      "summary_zh": "改造GFP等荧光蛋白和萤光素酶，构建能识别目标并转换为光信号的分子探针，在活细胞和动物体内观测RNA、蛋白质相互作用和GPCR；同时开发化合物筛选方法，以及用光操控细胞内信号的光遗传学技术。",
+      "keywords": [
+        "生物发光",
+        "荧光蛋白探针",
+        "活细胞成像",
+        "光遗传学",
+        "化合物筛选"
+      ],
+      "url": "https://analyt.chem.s.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://analyt.chem.s.u-tokyo.ac.jp/member",
+          "evidence": "研究室成员页列出小泽岳昌教授，以及竹内雅宜、吉村英哲两位助教等教员。"
+        },
+        {
+          "url": "https://www.chem.s.u-tokyo.ac.jp/chem_research/analytical.html",
+          "evidence": "东京大学理学系研究科化学专攻的“分析化学”页面把小泽研究室列为基干讲座的分析化学研究室，并链接到研究室主页。"
+        },
+        {
+          "url": "https://analyt.chem.s.u-tokyo.ac.jp/research",
+          "evidence": "研究概要说明改造荧光蛋白和萤光素酶构建分子探针，开展活细胞成像、化合物筛选和光遗传学操控三方面研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "蛍光・発光タンパク質プローブで生細胞内の分子を観る・探す・操作する。",
+      "theme_en": "Engineered fluorescent and luminescent protein probes to image, screen and control molecules in living cells.",
+      "summary_ja": "GFPなどの蛍光タンパク質やルシフェラーゼを改変し、標的を光信号に変える分子プローブを作ります。生細胞や動物個体でRNA、タンパク質間相互作用、GPCRを可視化し、化合物スクリーニングや光による細胞内シグナル操作も研究します。",
+      "summary_en": "By engineering GFP-type fluorescent proteins and luciferases, the lab creates molecular probes that recognize targets and convert them into light signals. These probes visualize RNA, protein–protein interactions and GPCRs in living cells and animals, and support compound screening and optogenetic control of intracellular signaling.",
+      "theme_tw": "用螢光與發光蛋白探針觀測、篩選並操控活細胞內分子。",
+      "summary_tw": "改造GFP等螢光蛋白和螢光素酶，構築能識別目標並轉換為光訊號的分子探針，在活細胞和動物體內觀測RNA、蛋白質交互作用和GPCR；同時開發化合物篩選方法，以及用光操控細胞內訊號的光遺傳學技術。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "analytical-3"
+    },
+    {
+      "field": "analytical",
+      "university": "北海道大学",
+      "department": "大学院総合化学院／工学研究院 応用化学部門",
+      "lab": "マイクロシステム化学研究室（渡慶次研究室）",
+      "pi": "渡慶次 学",
+      "pi_title": "教授",
+      "theme_zh": "以微流控器件开发微量、快速、简便的生物分析与诊断技术。",
+      "summary_zh": "利用微纳流体器件把烧杯和烧瓶中的化学实验微型化，结合光学计测、生物发光和电化学检测，开发微量、快速、高灵敏的生物分析与医疗诊断技术；也研究纸基器件与手机分析、脂质纳米粒制备和蛋白质结晶器件。",
+      "keywords": [
+        "微流控芯片",
+        "生物分析",
+        "医疗诊断",
+        "纸基分析器件",
+        "脂质纳米粒"
+      ],
+      "url": "https://apchem.eng.hokudai.ac.jp/lab/microsystem-chemistry",
+      "references": [
+        {
+          "url": "https://www.cse.hokudai.ac.jp/lab/1024",
+          "evidence": "总合化学院研究室页列出渡庆次学教授（工学研究院）、真荣城正寿教授和石田晃彦助教，说明研究室用微纳流体器件、光计测、生物发光和电化学检测开发生物分析与医疗诊断技术。"
+        },
+        {
+          "url": "https://apchem.eng.hokudai.ac.jp/lab/microsystem-chemistry",
+          "evidence": "工学部应用化学课程的研究室页列出渡庆次学教授等教员，介绍微流控器件用于医疗诊断、环境与食品分析、纸基器件结合智能手机分析、脂质纳米粒制备和蛋白质结晶，并链接研究室自有网站。"
+        },
+        {
+          "url": "https://microfluidic.chips.jp/jp/",
+          "evidence": "研究室自有网站（由上述大学页面链接）以“TOKESHI LAB”为名，2026年11月仍在更新动态，说明以新计测技术开发生物分析与医疗诊断技术。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "マイクロ流体デバイスで微量・迅速・簡便なバイオ分析・診断法を開発する。",
+      "theme_en": "Microfluidic devices for small-volume, rapid and simple bioanalysis and medical diagnostics.",
+      "summary_ja": "マイクロ・ナノ流体デバイスで化学実験を小型化し、光計測、生物発光、電気化学検出により微量・迅速・高感度なバイオ分析・診断技術を開発します。紙デバイスとスマホによる分析、脂質ナノ粒子作製やタンパク質結晶化のデバイスも研究します。",
+      "summary_en": "Using micro- and nanofluidic devices that shrink beaker-and-flask chemistry, the lab combines optical measurement, bioluminescence and electrochemical detection to develop small-volume, rapid and sensitive bioanalysis and diagnostics. It also builds paper devices read with smartphones and devices for lipid nanoparticle production and protein crystallization.",
+      "theme_tw": "以微流體元件開發微量、快速、簡便的生物分析與診斷技術。",
+      "summary_tw": "利用微奈米流體元件把燒杯和燒瓶中的化學實驗微型化，結合光學計測、生物發光和電化學檢測，開發微量、快速、高靈敏的生物分析與醫療診斷技術；也研究紙基元件與手機分析、脂質奈米粒製備和蛋白質結晶元件。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "analytical-4"
+    },
+    {
+      "field": "analytical",
+      "university": "東北大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "分析化学研究室（西澤研究室）",
+      "pi": "西澤 精一",
+      "pi_title": "教授",
+      "theme_zh": "设计化学探针，用荧光检测RNA与细胞外囊泡。",
+      "summary_zh": "以非编码RNA、病毒RNA及承载RNA的细胞外囊泡为对象，合成肽核酸、肽、小分子配体和核酸适配体探针，开发细胞内RNA成像、RNA结合荧光指示剂与药物筛选方法，并拓展到透明质酸检测。",
+      "keywords": [
+        "荧光探针",
+        "RNA检测",
+        "细胞外囊泡",
+        "肽核酸",
+        "生物分析化学"
+      ],
+      "url": "http://anal197.chem.tohoku.ac.jp/index.html",
+      "references": [
+        {
+          "url": "http://anal197.chem.tohoku.ac.jp/member.html",
+          "evidence": "研究室成员页列出西泽精一教授、佐藤雄介准教授等教员，页眉注明东北大学理学研究科化学专攻分析化学研究室。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/42dbbe7f6d7d299d162769916a2fc935.html",
+          "evidence": "东北大学研究者名录显示西泽精一自2013年4月起任大学院理学研究科化学专攻无机·分析化学讲座（分析化学研究室）教授，并列出2023–2026年的论文。"
+        },
+        {
+          "url": "http://anal197.chem.tohoku.ac.jp/research.html",
+          "evidence": "研究页说明以肽核酸探针、肽探针、小分子配体和核酸适配体为基础，开发非编码RNA与病毒RNA检测探针、细胞内RNA成像、RNA结合荧光指示剂及细胞外囊泡检测探针。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "ケミカルプローブを設計し、RNAや細胞外小胞を蛍光で検出する。",
+      "theme_en": "Designing chemical probes for fluorescence detection of RNA and extracellular vesicles.",
+      "summary_ja": "ノンコーディングRNAやウイルスRNA、RNAを内包する細胞外小胞を対象に、ペプチド核酸、ペプチド、小分子リガンド、アプタマーのプローブを合成し、細胞内RNAイメージングや蛍光インジケーターによる薬剤スクリーニングに展開します。",
+      "summary_en": "Focusing on non-coding RNA, viral RNA and RNA-carrying extracellular vesicles, the group synthesizes peptide nucleic acid probes, peptide probes, small-molecule ligands and aptamers. These support intracellular RNA imaging, RNA-binding fluorescent indicators for drug screening, and probes for hyaluronan and DNA damage.",
+      "theme_tw": "設計化學探針，以螢光檢測RNA與細胞外囊泡。",
+      "summary_tw": "以非編碼RNA、病毒RNA及承載RNA的細胞外囊泡為對象，合成肽核酸、肽、小分子配體和核酸適體探針，開發細胞內RNA成像、RNA結合螢光指示劑與藥物篩選方法，並拓展到玻尿酸檢測。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "analytical-5"
+    },
+    {
+      "field": "analytical",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 生命分子工学専攻",
+      "lab": "創発計測化学研究グループ（安井研究室）",
+      "pi": "安井 隆雄",
+      "pi_title": "教授",
+      "theme_zh": "用纳米线器件捕获细胞外囊泡，发展液体活检技术。",
+      "summary_zh": "从化学出发创造新的计测原理，设计和控制纳米线等功能纳米材料与纳米器件，在分子和微粒层面捕获并分析细胞外囊泡，揭示其异质性与时间变化，并与医学和产业合作，面向疾病早期检测发展液体活检技术。",
+      "keywords": [
+        "纳米线",
+        "细胞外囊泡",
+        "液体活检",
+        "纳米生物器件",
+        "微小RNA"
+      ],
+      "url": "https://yasuilab.chembio.nagoya-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://cd.engg.nagoya-u.ac.jp/link2lab/chembio.html",
+          "evidence": "名古屋大学化学生命工学科研究室列表在生命系统工学讲座下列出“创发计测化学”研究组，教员为安井隆雄教授、清水一宪准教授等，并链接研究室网站。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100006066_ja.html",
+          "evidence": "名古屋大学研究者名录显示安井隆雄自2026年3月起任大学院工学研究科生命分子工学专攻教授，研究课题包括细胞外囊泡全面捕获、纳米空间控制与液体活检。"
+        },
+        {
+          "url": "https://yasuilab.chembio.nagoya-u.ac.jp/members/",
+          "evidence": "研究室成员页列出安井隆雄教授、清水一宪准教授和阿尻大雅助教；研究页说明以纳米线等纳米材料与器件捕获分析细胞外囊泡并应用于液体活检。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "ナノワイヤデバイスで細胞外小胞を捉え、リキッドバイオプシーに展開する。",
+      "theme_en": "Nanowire devices that capture extracellular vesicles for molecular analysis and liquid biopsy.",
+      "summary_ja": "ナノワイヤなどの機能性ナノ材料・デバイスを設計し、化学から新しい計測原理を生み出します。細胞外小胞を分子・微粒子レベルで捕捉・解析して不均一性や時間変化を調べ、医療・産業と連携してリキッドバイオプシーによる早期診断へ展開します。",
+      "summary_en": "Aiming to create new measurement principles from chemistry, the lab designs nanowires and other functional nanomaterials and nanodevices. It captures and analyzes extracellular vesicles at the molecular and particle levels to reveal their heterogeneity and changes over time, and works with medicine and industry on liquid biopsy for early disease detection.",
+      "theme_tw": "用奈米線元件捕獲細胞外囊泡，發展液態活檢技術。",
+      "summary_tw": "從化學出發創造新的計測原理，設計和控制奈米線等功能奈米材料與奈米元件，在分子和微粒層面捕獲並分析細胞外囊泡，揭示其異質性與時間變化，並與醫學和產業合作，面向疾病早期檢測發展液態活檢技術。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "analytical-6"
+    },
+    {
+      "field": "analytical",
+      "university": "京都大学",
+      "department": "大学院理学研究科 化学専攻（化学研究所 協力講座）",
+      "lab": "分子環境解析化学研究領域（長谷川研究室）",
+      "pi": "長谷川 健",
+      "pi_title": "教授",
+      "theme_zh": "以红外MAIRS光谱法解析薄膜与界面中的分子排列。",
+      "summary_zh": "开发研究室原创的多角入射分辨光谱法（MAIRS），结合红外光谱与多变量分析，以官能团为单位解析薄膜和界面中分子的取向、排列与非晶结构，并用于有机半导体及全氟化合物（PFAS）的机理研究。",
+      "keywords": [
+        "红外光谱",
+        "薄膜结构解析",
+        "分子取向",
+        "界面分析",
+        "有机氟化合物"
+      ],
+      "url": "https://www.scl.kyoto-u.ac.jp/~yoeki/",
+      "references": [
+        {
+          "url": "https://www.scl.kyoto-u.ac.jp/~yoeki/members.html",
+          "evidence": "研究室成员页列出长谷川健教授和安宅宪一准教授，页面标题注明理学研究科“机能性界面解析”分科。"
+        },
+        {
+          "url": "https://www.kuicr.kyoto-u.ac.jp/sites/about/organization/",
+          "evidence": "京都大学化学研究所组织页在环境物质化学研究系下列出“分子环境解析化学（长谷川研究室）”。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.b663b4497eac5565.html",
+          "evidence": "京都大学教育研究活动数据库显示长谷川健为化学研究所教授，兼任理学研究科化学专攻教授，研究领域包括分析化学与振动光谱学。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "赤外MAIRS法で薄膜・界面の分子配向と集合構造を解析する。",
+      "theme_en": "Infrared MAIRS spectroscopy for analyzing molecular orientation and packing in thin films and at interfaces.",
+      "summary_ja": "研究室で開発した多角入射分解分光法（MAIRS）を赤外分光と組み合わせ、薄膜・界面での分子の配向や配列、非晶構造を官能基単位で解析します。有機半導体やパーフルオロアルキル化合物（PFAS）の物性発現機構の解明に展開しています。",
+      "summary_en": "The lab developed multiple-angle incidence resolution spectrometry (MAIRS), which combines infrared spectroscopy with multivariate analysis to determine molecular orientation, packing and amorphous structure in thin films and at interfaces at the functional-group level. It applies this to organic semiconductors and perfluoroalkyl substances (PFAS).",
+      "theme_tw": "以紅外MAIRS光譜法解析薄膜與界面中的分子排列。",
+      "summary_tw": "開發研究室原創的多角入射分辨光譜法（MAIRS），結合紅外光譜與多變量分析，以官能基為單位解析薄膜和界面中分子的取向、排列與非晶結構，並用於有機半導體及全氟化合物（PFAS）的機理研究。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "analytical-7"
+    },
+    {
+      "field": "analytical",
+      "university": "広島大学",
+      "department": "大学院先進理工系科学研究科 化学プログラム",
+      "lab": "分析化学研究室（石坂研究室）",
+      "pi": "石坂 昌司",
+      "pi_title": "教授",
+      "theme_zh": "用光镊悬浮单个微水滴，测量云滴中的物理化学过程。",
+      "summary_zh": "利用激光捕获（光镊）把微米级水滴非接触地悬浮在气相中，作为云滴模型；结合显微拉曼等光谱，在单个水滴层面测量过冷水滴凝固、光照诱发的水滴生成和水滴凝结生长，建立“用光镊抓住云”的分析方法。",
+      "keywords": [
+        "光镊",
+        "单液滴分析",
+        "气溶胶",
+        "显微拉曼光谱",
+        "大气化学"
+      ],
+      "url": "https://anachem.hiroshima-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://anachem.hiroshima-u.ac.jp/member.html",
+          "evidence": "研究室成员页列出石坂昌司教授、松原弘树准教授和宫川晃尚助教，页眉注明广岛大学大学院先进理工系科学研究科化学项目分析化学。"
+        },
+        {
+          "url": "https://chemistry.hiroshima-u.ac.jp/staff/",
+          "evidence": "广岛大学化学项目教员名录列石坂昌司为教授，所属分析化学研究室，并链接到研究室网站。"
+        },
+        {
+          "url": "https://anachem.hiroshima-u.ac.jp/research.html",
+          "evidence": "研究页说明用激光捕获（光镊）使微米级水滴在气相中非接触悬浮，结合显微拉曼等光谱研究过冷水滴凝固、光诱导水滴生成和凝结生长。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "光ピンセットで微小水滴を浮かせ、雲粒の物理化学現象を単一水滴で計測する。",
+      "theme_en": "Optical trapping of single microdroplets to measure the physicochemical processes of cloud droplets.",
+      "summary_ja": "レーザー捕捉法（光ピンセット）でマイクロメートルサイズの水滴を気相中に非接触で浮遊させ、雲粒のモデルとします。顕微ラマン分光などを組み合わせ、過冷却水滴の凝固、光照射による水滴生成、水滴の凝結成長を単一水滴レベルで計測します。",
+      "summary_en": "Using laser trapping (optical tweezers), the lab levitates micrometer-sized water droplets in air without contact as models of cloud droplets. Combined with micro-Raman and other spectroscopy, it measures freezing of supercooled droplets, light-induced droplet formation and condensational growth at the single-droplet level.",
+      "theme_tw": "用光鑷懸浮單一微水滴，量測雲滴中的物理化學過程。",
+      "summary_tw": "利用雷射捕捉（光鑷）把微米級水滴非接觸地懸浮在氣相中，作為雲滴模型；結合顯微拉曼等光譜，在單一水滴層面量測過冷水滴凝固、光照誘發的水滴生成和水滴凝結成長，建立「用光鑷抓住雲」的分析方法。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "analytical-8"
+    },
+    {
+      "field": "analytical",
+      "university": "東京理科大学",
+      "department": "大学院薬学研究科 薬科学専攻",
+      "lab": "東研究室",
+      "pi": "東 達也",
+      "pi_title": "教授",
+      "theme_zh": "以液质联用和衍生化技术测定唾液等微量样品中的激素。",
+      "summary_zh": "以液相色谱/串联质谱为核心，开发能大幅提高质谱响应并区分异构体的衍生化试剂与方法，从唾液、干血斑和指甲等对受检者负担小的样品中定量皮克级激素与生物标志物，并从分析科学角度研究神经活性类固醇。",
+      "keywords": [
+        "液相色谱-质谱",
+        "衍生化试剂",
+        "类固醇激素",
+        "生物标志物",
+        "临床分析"
+      ],
+      "url": "https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?act=&kin=lab&diu=64dd",
+      "references": [
+        {
+          "url": "https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?diu=64dd&kin=ken",
+          "evidence": "东京理科大学研究者数据库显示东达也自2011年起任药学部教授，研究课题为LC/ESI-MS/MS用衍生化试剂、唾液·干血斑·指甲激素检测和神经活性类固醇分析。"
+        },
+        {
+          "url": "https://www.tus.ac.jp/academics/teacher/lightbox/64dd.html",
+          "evidence": "大学教员介绍页列东达也为药学部药学科教授，相关获奖新闻显示他担任药学研究科药科学专攻硕士生的指导教员。"
+        },
+        {
+          "url": "https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?act=&kin=lab&diu=64dd",
+          "evidence": "研究室介绍页写明研究室名为东研究室、专攻分析科学，以高效液相色谱/质谱为基础，从唾液等低负担样品中获取皮克级生物分子信息。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "LC/MS/MSと誘導体化で唾液などの微量試料中のホルモンを測る。",
+      "theme_en": "LC/MS/MS and derivatization methods for measuring hormones in saliva and other minimal samples.",
+      "summary_ja": "LC/ESI-MS/MSを基盤に、質量分析の応答を高め異性体も識別できる誘導体化試薬・手法を開発します。唾液、乾燥ろ紙血、爪など負担の少ない試料から微量のホルモンやバイオマーカーを定量し、神経活性ステロイドも研究します。",
+      "summary_en": "Building on LC/ESI-MS/MS, the lab develops derivatization reagents and methods that greatly boost mass-spectrometric response and distinguish isomers. It quantifies picogram-level hormones and biomarkers in low-burden samples such as saliva, dried blood spots and nails, and studies neuroactive steroids from an analytical perspective.",
+      "theme_tw": "以液相層析質譜和衍生化技術測定唾液等微量檢體中的激素。",
+      "summary_tw": "以液相層析／串聯質譜為核心，開發能大幅提高質譜響應並區分異構物的衍生化試劑與方法，從唾液、乾血點和指甲等對受檢者負擔小的檢體中定量皮克級激素與生物標記，並從分析科學角度研究神經活性類固醇。",
+      "aliases": [
+        "东京理科大学",
+        "東京理科大學",
+        "Tokyo University of Science"
+      ],
+      "id": "analytical-9"
+    },
+    {
+      "field": "analytical",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 化学・生命情報科学専攻",
+      "lab": "分析化学研究室（チッテリオ・蛭田研究室）",
+      "pi": "チッテリオ ダニエル",
+      "pi_title": "教授",
+      "theme_zh": "开发低成本纸基分析器件和功能色素化学传感器。",
+      "summary_zh": "面向医疗、环境和食品的现场检测，从分子探针到分析器件开展研究：设计功能色素与化学和生物传感材料，利用印刷和3D技术制作重现性高的纸基分析器件，并结合智能手机等简便读出方式实现低成本检测。",
+      "keywords": [
+        "纸基分析器件",
+        "化学传感器",
+        "生物传感器",
+        "功能色素",
+        "现场检测"
+      ],
+      "url": "https://analchem.applc.keio.ac.jp/",
+      "references": [
+        {
+          "url": "https://k-ris.keio.ac.jp/html/100011394_ja.html",
+          "evidence": "庆应义塾研究者数据库列Citterio Daniel（チッテリオ ダニエル）为理工学部应用化学科教授，研究领域为分析化学，关键词包括生物传感器、化学传感器和功能色素，并列出2026年论文。"
+        },
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/?keyword=%E3%83%81%E3%83%83%E3%83%86%E3%83%AA%E3%82%AA",
+          "evidence": "庆应义塾教员一览列其为理工学部应用化学科教授兼理工学研究科化学·生命信息科学专攻教授，专长化学传感器与化学传感器件，研究开发面向医疗、环境和食品的低成本分析器件。"
+        },
+        {
+          "url": "https://analchem.applc.keio.ac.jp/?page_id=226",
+          "evidence": "研究室研究内容页说明以医疗和环境应用为目标，从分子探针到分析器件开发化学与生物传感器、低成本分析器件和传感材料。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "低コストの紙基板分析デバイスと機能性色素による化学センサーを開発する。",
+      "theme_en": "Low-cost paper-based analytical devices and functional-dye chemical sensors for on-site testing.",
+      "summary_ja": "医療・環境・食品の現場分析を目指し、分子プローブから分析デバイスまで研究します。機能性色素やセンシング材料を設計し、印刷・3D技術で再現性の高い紙基板分析デバイスを作り、スマートフォンなどによる低コストな検出につなげます。",
+      "summary_en": "Aiming at on-site analysis for medicine, the environment and food, the lab works from molecular probes to analytical devices. It designs functional dyes and chemical and biosensing materials, uses printing and 3D technologies to fabricate reproducible paper-based analytical devices, and pairs them with simple readouts such as smartphones.",
+      "theme_tw": "開發低成本紙基分析元件和功能色素化學感測器。",
+      "summary_tw": "面向醫療、環境和食品的現場檢測，從分子探針到分析元件開展研究：設計功能色素與化學和生物感測材料，利用印刷和3D技術製作再現性高的紙基分析元件，並結合智慧型手機等簡便讀取方式實現低成本檢測。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "analytical-10"
+    },
+    {
       "field": "catalyst",
       "university": "東京大学",
       "department": "大学院工学系研究科 化学システム工学専攻",
@@ -4664,6 +5742,335 @@
         "Waseda University"
       ],
       "id": "catalyst-3"
+    },
+    {
+      "field": "catalyst",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 有機・高分子化学専攻",
+      "lab": "触媒有機合成学研究グループ（石原研究室）",
+      "pi": "石原 一彰",
+      "pi_title": "教授",
+      "theme_zh": "以酸碱复合化学设计高功能有机合成催化剂",
+      "summary_zh": "以酸碱协同为核心，把酸碱复合催化剂按类型分类并以此为指针设计高功能催化剂，目标是在低环境负荷、节能条件下选择性地合成目标分子。研究还涉及超价碘和卤素催化剂，并把思路延伸到氧化还原催化。",
+      "keywords": [
+        "酸碱复合催化剂",
+        "超价碘催化剂",
+        "催化剂设计",
+        "有机合成",
+        "绿色化学"
+      ],
+      "url": "https://www.ishihara-lab.net/",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100001834_ja.html",
+          "evidence": "名古屋大学研究者总览（2026年4月更新）列石原一彰为工学研究科有机・高分子化学专攻有机化学教授，研究课题包括复合酸催化剂、酸碱复合催化剂、超价碘催化剂和卤素催化剂的开发，并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.ishihara-lab.net/",
+          "evidence": "研究室主页注明隶属工学研究科有机・高分子化学专攻有机化学讲座“触媒有機合成学研究グループ”，列出石原一彰教授，并说明按类型分类酸碱复合催化剂、据此设计高功能催化剂，以低环境负荷、节能的方式选择性合成目标物质；新闻更新至2026年10月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "酸塩基複合化学に基づく高機能触媒の設計と有機合成",
+      "theme_en": "Design of high-performance catalysts for organic synthesis based on acid–base combination chemistry.",
+      "summary_ja": "酸塩基複合触媒をタイプごとに分類し、それを指針に高機能触媒を開発する。低環境負荷・省エネルギーの条件で目的物を選択的に合成することを目指し、超原子価ヨウ素触媒やハロゲン触媒の開発、酸化還元触媒への展開にも取り組む。",
+      "summary_en": "The group classifies acid–base combined catalysts by type and uses this framework to design high-performance catalysts for organic reactions. The aim is efficient, selective synthesis under low-impact, energy-saving conditions. Work also covers hypervalent iodine and halogen catalysts and extends the concept to redox catalysis.",
+      "theme_tw": "以酸鹼複合化學設計高功能有機合成催化劑",
+      "summary_tw": "以酸鹼協同為核心，把酸鹼複合催化劑按類型分類並以此為指針設計高功能催化劑，目標是在低環境負荷、節能條件下選擇性地合成目標分子。研究還涉及超價碘和鹵素催化劑，並把思路延伸到氧化還原催化。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "catalyst-4"
+    },
+    {
+      "field": "catalyst",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 応用化学専攻",
+      "lab": "西林研究室",
+      "pi": "西林 仁昭",
+      "pi_title": "教授",
+      "theme_zh": "设计分子催化剂，在温和条件下实现催化固氮",
+      "summary_zh": "以有机金属化学为基础创制新的分子催化剂。核心课题是设计作为分子催化剂的氮配合物，在常温常压下由氮气催化合成氨，使氨成为新的能源资源；同时研究氨分解反应以及包括不对称合成在内的新型催化反应。",
+      "keywords": [
+        "分子催化剂",
+        "催化固氮",
+        "氨合成",
+        "有机金属化学",
+        "不对称合成"
+      ],
+      "url": "https://www.appchem.t.u-tokyo.ac.jp/lab/nishibayashi/",
+      "references": [
+        {
+          "url": "https://www.appchem.t.u-tokyo.ac.jp/lab/nishibayashi/",
+          "evidence": "应用化学专攻官网研究室页列西林仁昭为教授（2020年起任应用化学专攻教授），说明以有机金属化学为基础创制新分子催化剂，中心课题是固氮、氨分解及包括不对称合成在内的新反应开发。"
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/nishiba/research.html",
+          "evidence": "研究室研究介绍说明设计作为分子催化剂的氮配合物，开发在常温常压温和条件下进行的催化氨合成反应，以支撑以氨为能源资源的社会。"
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/nishiba/member.html",
+          "evidence": "研究室成员页列出西林仁昭教授及讲师、助教，在读博士生和硕士生均属工学系研究科应用化学专攻。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "分子触媒の設計による温和な条件での触媒的窒素固定",
+      "theme_en": "Molecular catalyst design for catalytic nitrogen fixation under mild conditions.",
+      "summary_ja": "有機金属化学を基盤に新しい分子触媒と触媒反応を開発する。中心課題は、分子触媒である窒素錯体を設計し、常温常圧の温和な条件で進む触媒的アンモニア合成を実現すること。アンモニア分解反応や不斉合成を含む新反応の開発にも取り組む。",
+      "summary_en": "Building on organometallic chemistry, the group creates new molecular catalysts and catalytic reactions. Its central goal is catalytic ammonia synthesis from nitrogen at ambient temperature and pressure using designed dinitrogen complexes, so that ammonia can serve as an energy resource. Ammonia decomposition and asymmetric synthesis are also studied.",
+      "theme_tw": "設計分子催化劑，在溫和條件下實現催化固氮",
+      "summary_tw": "以有機金屬化學為基礎創製新的分子催化劑。核心課題是設計作為分子催化劑的氮錯合物，在常溫常壓下由氮氣催化合成氨，使氨成為新的能源資源；同時研究氨分解反應以及包括不對稱合成在內的新型催化反應。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "catalyst-5"
+    },
+    {
+      "field": "catalyst",
+      "university": "京都大学",
+      "department": "化学研究所／大学院工学研究科 化学理工学専攻（協力講座）",
+      "lab": "有機分子変換化学研究領域（中村研究室）",
+      "pi": "中村 正治",
+      "pi_title": "教授",
+      "theme_zh": "利用铁等丰产金属催化剂开发精密有机合成反应",
+      "summary_zh": "以“未利用化学资源的高效利用”为关键词，开发以铁等丰产金属为催化剂的合成反应，如用带大位阻膦配体的铁催化剂实现精密交叉偶联；同时研究金属化肽和金属纳米粒子等超分子催化剂及森林生物质转化。",
+      "keywords": [
+        "铁催化",
+        "交叉偶联",
+        "超分子催化剂",
+        "金属纳米粒子",
+        "生物质转化"
+      ],
+      "url": "https://www.scl.kyoto-u.ac.jp/~elements/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.7e71501d5601d61a.html",
+          "evidence": "京都大学教育研究活动数据库（2026年10月更新）列中村正治为化学研究所附属元素科学国际研究中心教授，协力讲座为工学研究科化学理工学专攻元素科学讲座，研究主题为有机分子变换科学和超分子催化剂的创制，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.kuicr.kyoto-u.ac.jp/sites/wp-content/uploads/2026PJ.pdf",
+          "evidence": "化学研究所2026年概要的研究领域一览中，“有機分子変換化学”领域列教授中村正治、准教授磯﨑勝弘等，并标注为工学研究科协力讲座。"
+        },
+        {
+          "url": "https://www.scl.kyoto-u.ac.jp/~elements/research.html",
+          "evidence": "研究室研究介绍说明以铁等丰产金属为催化剂开发精密交叉偶联等合成反应，并开展金属化肽、金属纳米粒子等超分子催化剂和森林生物质转化研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "鉄など普遍金属の触媒を活かした精密有機合成反応の開発",
+      "theme_en": "Precise organic synthesis using catalysts based on iron and other abundant metals.",
+      "summary_ja": "「未活用化学資源の高度利用」を掲げ、鉄など普遍金属を触媒とする合成反応を開発する。嵩高いホスフィン配位子をもつ鉄触媒による精密クロスカップリングに加え、メタル化ペプチドや金属ナノ粒子の超分子触媒、森林バイオマス変換にも取り組む。",
+      "summary_en": "Aiming to make better use of underused chemical resources, the group develops reactions catalyzed by abundant metals such as iron, including precise cross-coupling with iron catalysts bearing bulky phosphine ligands. It also designs supramolecular catalysts based on metalated peptides and metal nanoparticles and converts forest biomass into useful molecules.",
+      "theme_tw": "利用鐵等豐產金屬催化劑開發精密有機合成反應",
+      "summary_tw": "以「未利用化學資源的高效利用」為關鍵詞，開發以鐵等豐產金屬為催化劑的合成反應，如用帶大位阻膦配體的鐵催化劑實現精密交叉耦合；同時研究金屬化胜肽和金屬奈米粒子等超分子催化劑及森林生物質轉化。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "catalyst-6"
+    },
+    {
+      "field": "catalyst",
+      "university": "九州大学",
+      "department": "先導物質化学研究所／大学院総合理工学府 総合理工学専攻",
+      "lab": "機能分子化学分野（國信研究室）",
+      "pi": "國信 洋一郎",
+      "pi_title": "教授",
+      "theme_zh": "利用非共价相互作用设计过渡金属催化剂，开发C–H键转化",
+      "summary_zh": "以氢键、路易斯酸碱相互作用等非共价相互作用为关键词，创制兼具高活性和高选择性的过渡金属催化剂，开发C–H键转化等高效、实用的有机合成新反应，并利用这些反应合成π共轭分子和聚合物等有机功能材料。",
+      "keywords": [
+        "过渡金属催化",
+        "C–H键转化",
+        "非共价相互作用",
+        "选择性控制",
+        "有机功能材料"
+      ],
+      "url": "https://www.cm.kyushu-u.ac.jp/laboratory/chemistry-of-functional-molecules/",
+      "references": [
+        {
+          "url": "https://www.cm.kyushu-u.ac.jp/laboratory/chemistry-of-functional-molecules/",
+          "evidence": "先导物质化学研究所研究室页列國信洋一郎为机能分子化学分野教授，说明以氢键、路易斯酸碱等非共价相互作用为关键词创制高活性、高选择性的过渡金属催化剂，开发C–H键转化等新反应，并用于π共轭分子和聚合物材料。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022705_ja.html",
+          "evidence": "九州大学研究者信息（2026年8月更新）列國信洋一郎为先导物质化学研究所物质基盘化学部门教授，兼任总合理工学府总合理工学专攻，并链接研究室主页。"
+        },
+        {
+          "url": "https://kuninobu-lab.weebly.com/",
+          "evidence": "大学页面链接的研究室主页刊登至2026年11月的论文动态，说明以创制高性能催化剂、开发实用有机合成反应和有机功能材料为研究方向。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "非共有結合性相互作用を活かした遷移金属触媒とC–H結合変換",
+      "theme_en": "Transition-metal catalysts that exploit noncovalent interactions for selective C–H bond transformations.",
+      "summary_ja": "水素結合やLewis酸–塩基相互作用などの非共有結合性相互作用を鍵に、高活性・高選択性の遷移金属触媒を創製し、C–H結合変換などの実用的な有機合成反応を開発する。得られた反応でπ共役系分子やポリマーなどの機能性材料も創製する。",
+      "summary_en": "Using noncovalent interactions such as hydrogen bonding and Lewis acid–base interactions as a design key, the group creates transition-metal catalysts with high activity and selectivity and develops practical organic reactions, notably C–H bond transformations. These reactions are then applied to build functional organic materials such as π-conjugated molecules and polymers.",
+      "theme_tw": "利用非共價相互作用設計過渡金屬催化劑，開發C–H鍵轉化",
+      "summary_tw": "以氫鍵、路易斯酸鹼相互作用等非共價相互作用為關鍵詞，創製兼具高活性和高選擇性的過渡金屬催化劑，開發C–H鍵轉化等高效、實用的有機合成新反應，並利用這些反應合成π共軛分子和聚合物等有機功能材料。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "catalyst-7"
+    },
+    {
+      "field": "catalyst",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻 化学講座",
+      "lab": "無機化学研究室（唯研究室）",
+      "pi": "唯 美津木",
+      "pi_title": "教授",
+      "theme_zh": "在固体表面精密构筑催化剂，并观察其结构与作用",
+      "summary_zh": "以“创造催化剂，观察其形态与作用”为方针，在载体表面精密合成金属纳米簇和固定化配合物，构筑具选择性的分子印迹催化剂，并用同步辐射X射线纳米束和XAFS解析单个催化剂颗粒和燃料电池电极催化剂。",
+      "keywords": [
+        "表面固定化催化剂",
+        "金属纳米簇",
+        "分子印迹",
+        "XAFS",
+        "燃料电池电极催化剂"
+      ],
+      "url": "https://cat.chem.nagoya-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.chem.nagoya-u.ac.jp/staff/",
+          "evidence": "名古屋大学理学部化学科・理学研究科理学专攻化学讲座官网教员一览列出无机化学研究室（唯研究室）教授唯美津木、准教授邨次智等。"
+        },
+        {
+          "url": "https://cat.chem.nagoya-u.ac.jp/research.html",
+          "evidence": "研究室研究介绍说明在载体表面精密合成金属纳米簇、构筑表面分子印迹配合物催化剂，并利用同步辐射X射线纳米束和XAFS解析单个催化剂颗粒及运行中的燃料电池电极催化剂。"
+        },
+        {
+          "url": "https://cat.chem.nagoya-u.ac.jp/member.html",
+          "evidence": "研究室成员页列唯美津木教授、Gabor Samjeske教授、邨次智准教授、福健太郎助教及在读博士、硕士生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "固体表面での触媒の精密構築と放射光による構造・作用の解明",
+      "theme_en": "Precise construction of surface-supported catalysts and synchrotron-based analysis of their structures and functions.",
+      "summary_ja": "「触媒を創り、触媒の姿・働きを観る」を掲げ、担体表面で金属ナノクラスターや固定化錯体を精密合成し、選択性をもつ分子インプリンティング触媒を構築する。放射光X線ナノビームやXAFSで触媒粒子1粒や燃料電池電極触媒を解析する。",
+      "summary_en": "Guided by the motto of creating catalysts and observing how they look and work, the group synthesizes metal nanoclusters and immobilized complexes on oxide supports and builds molecularly imprinted catalysts with shape selectivity and regioselectivity. Synchrotron X-ray nanobeams and XAFS are used to analyze single catalyst particles and fuel-cell electrocatalysts.",
+      "theme_tw": "在固體表面精密構築催化劑，並觀察其結構與作用",
+      "summary_tw": "以「創造催化劑，觀察其形態與作用」為方針，在載體表面精密合成金屬奈米簇和固定化錯合物，構築具選擇性的分子印跡催化劑，並用同步輻射X射線奈米束和XAFS解析單個催化劑顆粒和燃料電池電極催化劑。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "catalyst-8"
+    },
+    {
+      "field": "catalyst",
+      "university": "東京科学大学",
+      "department": "総合研究院 フロンティア材料研究所／物質理工学院 材料系",
+      "lab": "鎌田研究室",
+      "pi": "鎌田 慶吾",
+      "pi_title": "教授",
+      "theme_zh": "创制金属氧化物纳米催化剂，开发选择氧化等反应",
+      "summary_zh": "以均相催化研究中积累的无机合成技术开发以结晶性金属氧化物为核心的固体催化剂：用天冬氨酸合成复合氧化物纳米粒子，开发以分子氧为氧化剂的选择氧化，并设计酸碱与氧化还原位点协同的复合催化剂。",
+      "keywords": [
+        "金属氧化物",
+        "固体催化剂",
+        "选择氧化",
+        "纳米粒子合成",
+        "生物质转化"
+      ],
+      "url": "https://www.kamata.msl.iir.isct.ac.jp/",
+      "references": [
+        {
+          "url": "https://strdb.s.isct.ac.jp/html/100002108_ja.html",
+          "evidence": "东京科学大学研究者信息（2026年10月更新）列鎌田慶吾为综合研究院フロンティア材料研究所教授，关键词包括金属氧化物、选择氧化、担载催化剂和多金属氧酸盐，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.kamata.msl.iir.isct.ac.jp/research.html",
+          "evidence": "研究室研究介绍说明以天冬氨酸为金属分散剂合成结晶性复合氧化物纳米粒子，开发以分子氧为氧化剂的选择氧化催化剂，以及相邻酸碱和氧化还原位点协同作用的复合催化剂。"
+        },
+        {
+          "url": "https://educ.titech.ac.jp/mat/publications/file/pub-34551-pd3.pdf",
+          "evidence": "物质理工学院材料系（无机材料分野）2024年度介绍册收录鎌田研究室，列鎌田慶吾教授，说明研究室2023年4月成立，以开发新的固体催化剂技术为目标。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "金属酸化物ナノ触媒の創製と選択酸化などの触媒反応開発",
+      "theme_en": "Creating metal-oxide nanocatalysts for selective oxidation and other sustainable catalytic reactions.",
+      "summary_ja": "均一系触媒研究で培った無機合成技術を生かし、結晶性金属酸化物を基軸に固体触媒を開発する。アスパラギン酸を用いた複合酸化物ナノ粒子の合成、分子状酸素による選択酸化、隣接する酸・塩基・酸化還元点が協奏する複合触媒の設計に取り組む。",
+      "summary_en": "Drawing on inorganic synthesis techniques from homogeneous catalysis, the group designs solid catalysts based on crystalline metal oxides. Projects include complex-oxide nanoparticles synthesized with aspartic acid as a metal dispersant, selective oxidation with molecular oxygen, and composite catalysts whose adjacent acid, base and redox sites act cooperatively.",
+      "theme_tw": "創製金屬氧化物奈米催化劑，開發選擇氧化等反應",
+      "summary_tw": "以均相催化研究中累積的無機合成技術開發以結晶性金屬氧化物為核心的固體催化劑：用天冬胺酸合成複合氧化物奈米粒子，開發以分子氧為氧化劑的選擇氧化，並設計酸鹼與氧化還原位點協同的複合催化劑。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "catalyst-9"
+    },
+    {
+      "field": "catalyst",
+      "university": "東京都立大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "有機化学研究室（野村研究室）",
+      "pi": "野村 琴広",
+      "pi_title": "教授",
+      "theme_zh": "设计高性能分子催化剂，用于精密合成与高分子材料",
+      "summary_zh": "以有机金属化学和分子催化化学为基础，设计高性能分子（配合物）催化剂，减少副产物、高效合成烯烃类高分子和精细化学品；并分离含金属–碳键的中间体解析机理，开发生物基高分子与聚合物化学回收方法。",
+      "keywords": [
+        "分子催化剂",
+        "有机金属化学",
+        "烯烃聚合",
+        "精密合成",
+        "化学回收"
+      ],
+      "url": "https://www.tmu.ac.jp/stafflist/data/na/699.html",
+      "references": [
+        {
+          "url": "https://www.tmu.ac.jp/stafflist/data/na/699.html",
+          "evidence": "东京都立大学教员介绍页列野村琴广为理学研究科化学专攻教授，专业为有机金属化学、合成化学和分子催化化学，研究主题为高性能分子催化剂的设计与环境调和型精密合成，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.chem.se.tmu.ac.jp/research-faculty/",
+          "evidence": "化学专攻研究室一览在有机・生物化学系中列出“有機化学”研究室，教员为野村琴广教授，并附研究室主页链接。"
+        },
+        {
+          "url": "https://www.se.tmu.ac.jp/youkou/2027M/19.pdf",
+          "evidence": "理学研究科2027年度研究领域介绍（化学专攻）说明有机化学研究室（野村琴广教授）以有机金属化学和分子催化化学为基础，设计合成高性能分子（配合物）催化剂，用于烯烃系高分子和精细化学品的精密合成及聚合物化学回收。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "公立",
+      "theme_ja": "高性能分子触媒の設計と環境調和型精密合成・高分子材料への展開",
+      "theme_en": "Design of high-performance molecular catalysts for environmentally benign precision synthesis and polymer materials.",
+      "summary_ja": "有機金属化学と分子触媒化学を基盤に高性能錯体触媒を設計し、オレフィン系高分子や精密化学品を副生物を抑えて合成する。金属–炭素結合をもつ中間体の単離による機構解析、バイオベース高分子やポリマーのケミカルリサイクルも研究する。",
+      "summary_en": "Grounded in organometallic chemistry and molecular catalysis, the group designs high-performance complex catalysts to make olefin-based polymers and fine chemicals efficiently with few byproducts. It also isolates reactive species with metal–carbon bonds to clarify mechanisms, and develops bio-based degradable polymers and catalytic chemical recycling of polymers.",
+      "theme_tw": "設計高性能分子催化劑，用於精密合成與高分子材料",
+      "summary_tw": "以有機金屬化學和分子催化化學為基礎，設計高性能分子（錯合物）催化劑，減少副產物、高效合成烯烴類高分子和精細化學品；並分離含金屬–碳鍵的中間體解析機制，開發生物基高分子與聚合物化學回收方法。",
+      "aliases": [
+        "东京都立大学",
+        "東京都立大學",
+        "Tokyo Metropolitan University"
+      ],
+      "id": "catalyst-10"
     },
     {
       "field": "materials",
