@@ -3268,45 +3268,409 @@
     },
     {
       "field": "microbiology_infection",
-      "university": "長崎大学",
-      "department": "熱帯医学研究所 病原体解析部門",
-      "lab": "細菌学分野",
+      "university": "大阪大学",
+      "department": "微生物病研究所 感染機構研究部門",
+      "lab": "分子細菌学分野（児玉研究室）",
       "pi": "児玉 年央",
-      "theme_zh": "解释肠道病原细菌如何感染宿主并形成流行。",
-      "summary_zh": "研究弧菌、沙门菌等肠道病原细菌，连接环境与患者样本的流行病学调查和分子机制分析。关注细菌毒力因子、宿主免疫及肠道微生物的相互作用，为感染控制和新型干预手段提供基础知识。",
+      "pi_title": "教授",
+      "theme_zh": "研究肠道细菌与宿主、环境之间的相互作用。",
+      "summary_zh": "以弧菌属细菌和大肠杆菌等肠道细菌为研究对象，从分子微生物学、感染模型和基因组分析等角度，研究这些细菌与宿主细胞及周围环境之间的相互作用，并通过国际合作的基因组流行病学描述菌株的多样性和分布。",
       "keywords": [
+        "肠道细菌",
+        "宿主互作",
+        "基因组流行病学",
         "细菌学",
-        "肠道感染",
-        "弧菌",
-        "沙门菌",
-        "宿主互作"
+        "感染模型"
       ],
-      "url": "https://www.tm.nagasaki-u.ac.jp/nekken/departments/bacteriology.html",
+      "url": "https://www.biken.osaka-u.ac.jp/laboratories/detail/75",
       "references": [
         {
-          "url": "https://www.tm.nagasaki-u.ac.jp/nekken/departments/bacteriology.html",
-          "evidence": "热研官网列児玉年央教授并介绍弧菌和沙门菌研究；研究科教员目录交叉确认。"
+          "url": "https://www.med.osaka-u.ac.jp/introduction/research/collaborating/defense",
+          "evidence": "大阪大学医学系研究科生体防御医学的分野一览列出“分子細菌学 児玉 年央 教授”，并链接其面向研究生的研究概要。"
         },
         {
-          "url": "https://www.tmgh.nagasaki-u.ac.jp/professors_cat/nagasaki-university",
-          "evidence": "大学／研究室官网用于确认研究室、负责人或所属。"
+          "url": "https://www.biken.osaka-u.ac.jp/researchers/detail/94",
+          "evidence": "微生物病研究所研究者页列出児玉年央，经历写明2020年起任长崎大学热带医学研究所教授、2026年起任现职。"
+        },
+        {
+          "url": "https://www.biken.osaka-u.ac.jp/laboratories/detail/75",
+          "evidence": "研究所研究室页为感染機構研究部門分子細菌学分野児玉研究室，列出教授児玉年央与准教授鈴木将貴及研究内容。"
         }
       ],
-      "checked_at": "2026-11-12",
-      "region": "九州",
+      "checked_at": "2026-11-13",
+      "region": "关西",
       "university_type": "国立",
-      "theme_ja": "腸管病原細菌の感染機構と流行の成り立ちを調べる。",
-      "theme_en": "Investigating how intestinal bacterial pathogens infect hosts and spread.",
-      "summary_ja": "ビブリオ属菌やサルモネラなどを対象に、環境・患者由来試料の疫学調査と分子機構解析をつなぐ。病原因子、宿主免疫、腸内微生物との相互作用に注目し、感染制御や新しい介入法の基礎知識を得る。",
-      "summary_en": "Studies intestinal pathogens including Vibrio and Salmonella, linking epidemiological surveys of environmental and patient samples with molecular analysis. Work on virulence factors, host immunity and gut-microbe interactions provides basic knowledge for infection control and potential new interventions.",
-      "theme_tw": "解釋腸道病原細菌如何感染宿主並形成流行。",
-      "summary_tw": "研究弧菌、沙門菌等腸道病原細菌，連接環境與患者樣本的流行病學調查和分子機制分析。關注細菌毒力因子、宿主免疫及腸道微生物的相互作用，為感染控制和新型干預手段提供基礎知識。",
+      "theme_ja": "腸管の細菌と宿主・環境との関わりを分子レベルで探る。",
+      "theme_en": "Molecular studies of intestinal bacteria and their hosts and environments.",
+      "summary_ja": "ビブリオ属細菌や大腸菌など腸管の細菌を対象に、分子微生物学、感染モデル、ゲノム解析を組み合わせ、細菌と宿主細胞や周囲の環境との関わりを研究する。国際共同のゲノム疫学により、菌株の多様性や分布の違いも明らかにしている。",
+      "summary_en": "Studies intestinal bacteria such as Vibrio species and Escherichia coli, combining molecular microbiology, infection models and genome analysis to examine how these bacteria interact with host cells and with their surrounding environment. International genomic epidemiology is used to describe the diversity and distribution of strains.",
+      "theme_tw": "研究腸道細菌與宿主、環境之間的相互作用。",
+      "summary_tw": "以弧菌屬細菌和大腸桿菌等腸道細菌為研究對象，從分子微生物學、感染模型和基因體分析等角度，研究這些細菌與宿主細胞及周圍環境之間的相互作用，並透過國際合作的基因體流行病學描述菌株的多樣性和分布。",
       "aliases": [
-        "长崎大学",
-        "長崎大學",
-        "Nagasaki University"
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
       ],
       "id": "microbiology_infection-2"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "筑波大学",
+      "department": "生命環境系（生命地球科学研究群）",
+      "lab": "野村暢彦研究室",
+      "pi": "野村 暢彦",
+      "pi_title": "教授",
+      "theme_zh": "研究细菌形成群体与生物膜的机制。",
+      "summary_zh": "以细菌等微生物的群体行为为对象，研究生物膜如何形成，以及细胞之间如何通过信号分子和膜囊泡相互作用。结合显微观察、分子生物学和组学分析理解微生物群体的性质，并探讨在环境和产业中利用微生物的途径。",
+      "keywords": [
+        "生物膜",
+        "微生物群体",
+        "细胞间信号",
+        "应用微生物学",
+        "环境微生物"
+      ],
+      "url": "https://www.u.tsukuba.ac.jp/~nomura.nobuhiko.ge/",
+      "references": [
+        {
+          "url": "https://trios.tsukuba.ac.jp/researcher/0000001409",
+          "evidence": "筑波大学研究者总览页列出野村暢彦为生命环境系教授，专业为应用微生物学，关键词包括生物膜、微生物相互作用。"
+        },
+        {
+          "url": "https://www.u.tsukuba.ac.jp/~nomura.nobuhiko.ge/",
+          "evidence": "研究室官网标题为“筑波大学 野村暢彦研究室”，介绍以微生物为对象理解生命、推进微生物的控制与利用；最新动态为2026年9月。"
+        },
+        {
+          "url": "https://www.life.tsukuba.ac.jp/tag/%E9%87%8E%E6%9D%91%E6%9A%A2%E5%BD%A6/",
+          "evidence": "生命环境系网站的报道称野村暢彦教授，并写明其担任微生物可持续性研究中心负责人。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "細菌の集団形成とバイオフィルムの仕組みを調べる。",
+      "theme_en": "Studying how bacteria form communities and biofilms.",
+      "summary_ja": "細菌など微生物の集団としての振る舞いを対象に、バイオフィルムがどのように形成されるか、細胞間がシグナル分子や膜小胞を介してどう関わり合うかを研究する。顕微鏡観察、分子生物学、オミクス解析を組み合わせ、環境や産業での微生物利用も視野に入れる。",
+      "summary_en": "Studies the collective behaviour of bacteria and other microbes: how biofilms form and how cells interact through signalling molecules and membrane vesicles. Microscopy, molecular biology and omics analyses are combined to describe the properties of microbial communities, with an eye to using microbes in environmental and industrial settings.",
+      "theme_tw": "研究細菌形成群體與生物膜的機制。",
+      "summary_tw": "以細菌等微生物的群體行為為對象，研究生物膜如何形成，以及細胞之間如何透過訊號分子和膜囊泡相互作用。結合顯微觀察、分子生物學和體學分析理解微生物群體的性質，並探討在環境和產業中利用微生物的途徑。",
+      "aliases": [
+        "筑波大学",
+        "筑波大學",
+        "University of Tsukuba"
+      ],
+      "id": "microbiology_infection-3"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "東京大学",
+      "department": "大学院農学生命科学研究科 応用生命工学専攻",
+      "lab": "醗酵学研究室",
+      "pi": "大西 康夫",
+      "pi_title": "教授",
+      "theme_zh": "研究放线菌的分化与次级代谢产物合成。",
+      "summary_zh": "以放线菌为主要对象，研究它们形成孢子、从休眠状态重新生长的分化过程，以及抗生素等次级代谢产物的生物合成和调控。综合运用遗传学、生物化学、基因组学与结构生物学方法，并探索把微生物能力用于物质生产的途径。",
+      "keywords": [
+        "放线菌",
+        "次级代谢",
+        "抗生素生物合成",
+        "微生物分化",
+        "发酵学"
+      ],
+      "url": "https://www.hakko.bt.a.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.a.u-tokyo.ac.jp/profile/prof-ohnishi_yasuo",
+          "evidence": "农学生命科学研究科教员目录页列出应用生命工学专攻醗酵学研究室的大西康夫教授，并介绍以放线菌为中心的研究。"
+        },
+        {
+          "url": "https://www.hakko.bt.a.u-tokyo.ac.jp/member/",
+          "evidence": "研究室成员页列出教授大西康夫、准教授勝山陽平、助教納庄一樹。"
+        },
+        {
+          "url": "https://www.hakko.bt.a.u-tokyo.ac.jp/",
+          "evidence": "研究室主页写明研究方向为放线菌的形态分化与次级代谢的分子机制，以及微生物次级代谢产物的生物合成与应用；最新动态为2026年9月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "放線菌の分化と二次代謝産物の生合成を研究する。",
+      "theme_en": "Studying differentiation and secondary metabolism in actinomycetes.",
+      "summary_ja": "放線菌を主な対象に、胞子形成や休眠からの復帰といった分化の過程と、抗生物質など二次代謝産物の生合成と制御を研究する。遺伝学、生化学、ゲノム科学、構造生物学の手法を組み合わせ、微生物の能力を物質生産に生かす応用研究も進めている。",
+      "summary_en": "Works mainly on actinomycetes, studying their developmental processes such as spore formation and emergence from dormancy, together with the biosynthesis and regulation of secondary metabolites including antibiotics. Genetics, biochemistry, genomics and structural biology are combined, and the findings are also applied to microbial production of useful compounds.",
+      "theme_tw": "研究放線菌的分化與次級代謝產物合成。",
+      "summary_tw": "以放線菌為主要對象，研究它們形成孢子、從休眠狀態重新生長的分化過程，以及抗生素等次級代謝產物的生物合成和調控。綜合運用遺傳學、生物化學、基因體學與結構生物學方法，並探索把微生物能力用於物質生產的途徑。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "microbiology_infection-4"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "千葉大学",
+      "department": "真菌医学研究センター 感染免疫分野",
+      "lab": "微生物・免疫制御プロジェクト",
+      "pi": "後藤 義幸",
+      "pi_title": "准教授",
+      "theme_zh": "研究肠道菌群如何左右宿主对感染的抵抗力。",
+      "summary_zh": "关注肠道中的细菌与真菌，研究它们同宿主黏膜免疫、饮食和细菌代谢产物之间的关系，并探讨个体之间感染易感程度为何不同。以小鼠模型和菌群组成分析为主，寻找通过调整肠道菌群提高抵抗力的思路。",
+      "keywords": [
+        "肠道菌群",
+        "黏膜免疫",
+        "宿主防御",
+        "肠道真菌",
+        "代谢产物"
+      ],
+      "url": "https://www.cn.chiba-u.jp/researcher/goto_yoshiyuki/",
+      "references": [
+        {
+          "url": "https://www.cn.chiba-u.jp/researcher/goto_yoshiyuki/",
+          "evidence": "千叶大学研究者介绍页列出真菌医学研究中心感染免疫分野微生物・免疫制御项目的后藤义幸准教授，说明研究肠道细菌与感染抵抗力的关系。"
+        },
+        {
+          "url": "https://imo.chiba-u.jp/academic/young/emergence/2022/gotou-yoshiyuki.html",
+          "evidence": "大学学术研究・创新推进机构的页面写明后藤义幸为真菌医学研究中心准教授，研究课题是理解肠道细菌与个体感染易感性差异的关系。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "腸内細菌が感染への抵抗力をどう左右するかを探る。",
+      "theme_en": "Asking how gut microbes shape host resistance to infection.",
+      "summary_ja": "腸内の細菌や真菌に注目し、宿主の粘膜免疫、食事、細菌が作る代謝産物との関わりを研究する。感染へのかかりやすさに個人差が生じる理由を、マウスモデルと菌叢組成の解析を中心に調べ、腸内細菌を整えて感染抵抗性を高める道筋を探っている。",
+      "summary_en": "Focuses on bacteria and fungi in the gut and how they relate to host mucosal immunity, diet and bacterial metabolites. Using mouse models and analyses of microbial community composition, the lab asks why individuals differ in susceptibility to infection and explores ways of raising resistance by shaping the gut microbiota.",
+      "theme_tw": "研究腸道菌群如何左右宿主對感染的抵抗力。",
+      "summary_tw": "關注腸道中的細菌與真菌，研究它們與宿主黏膜免疫、飲食以及細菌代謝產物之間的關係，並探討為什麼不同個體對感染的易感程度存在差異。以小鼠模型和菌群組成分析為主要方法，尋找透過調整腸道菌群提高感染抵抗力的思路。",
+      "aliases": [
+        "千叶大学",
+        "千葉大學",
+        "Chiba University"
+      ],
+      "id": "microbiology_infection-5"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "京都大学",
+      "department": "化学研究所（農学研究科 応用生命科学専攻 協力講座）",
+      "lab": "分子微生物科学研究領域（栗原研究室）",
+      "pi": "栗原 達夫",
+      "pi_title": "教授",
+      "theme_zh": "用生化方法解析微生物的环境适应与酶功能。",
+      "summary_zh": "以生活在低温等特殊环境中的微生物为对象，研究它们适应环境的分子基础，解析催化特殊反应的酶、膜脂质的合成与作用，以及微生物分泌的膜囊泡如何形成和起作用，并在此基础上探索微生物在物质生产中的应用。",
+      "keywords": [
+        "环境适应",
+        "微生物酶",
+        "膜脂质",
+        "膜囊泡",
+        "应用微生物学"
+      ],
+      "url": "https://molmicro.kuicr.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.d06683fa5c902f5e.html",
+          "evidence": "京都大学教育研究活动数据库写明栗原达夫自2012年3月起任化学研究所环境物质化学研究系教授，并以协力讲座身份在农学研究科应用生命科学专攻指导研究生。"
+        },
+        {
+          "url": "https://molmicro.kuicr.kyoto-u.ac.jp/",
+          "evidence": "研究室主页标明名称为分子微生物科学研究領域（栗原研究室），介绍以生物化学方法研究微生物的环境适应、酶、膜脂质和膜囊泡；最新动态为2026年4月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "微生物の環境適応と酵素機能を生化学的に解析する。",
+      "theme_en": "Biochemical studies of microbial adaptation and enzyme function.",
+      "summary_ja": "低温など特殊な環境にすむ微生物を対象に、環境適応の分子基盤を研究する。珍しい反応を触媒する酵素、膜脂質の生合成と役割、微生物が分泌する膜小胞の形成と機能を生化学的に解析し、その知見をもとに物質生産などへの応用も進めている。",
+      "summary_en": "Studies microbes living in special environments such as low temperatures, asking what molecular features underlie their adaptation. The lab analyses enzymes that catalyse unusual reactions, the biosynthesis and roles of membrane lipids, and how microbes form and use secreted membrane vesicles, and builds applications such as microbial production on these findings.",
+      "theme_tw": "用生化方法解析微生物的環境適應與酵素功能。",
+      "summary_tw": "以生活在低溫等特殊環境中的微生物為對象，研究它們適應環境的分子基礎，解析催化特殊反應的酵素、膜脂質的合成與作用，以及微生物分泌的膜囊泡如何形成和發揮功能。在這些基礎研究之上，探索微生物在物質生產等方面的應用。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "microbiology_infection-6"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "九州大学",
+      "department": "大学院歯学研究院 口腔保健推進学講座",
+      "lab": "口腔予防医学分野",
+      "pi": "竹下 徹",
+      "pi_title": "教授",
+      "theme_zh": "研究口腔常在菌群与口腔及全身健康的关系。",
+      "summary_zh": "以口腔中常驻的细菌群落为对象，用16S rRNA基因测序等方法描述菌群的组成和个体差异，并与地区居民队列的流行病学调查结合，分析菌群状态同口腔状况及全身健康指标之间的关联，为口腔保健措施提供依据。",
+      "keywords": [
+        "口腔菌群",
+        "16S rRNA",
+        "分子流行病学",
+        "口腔保健",
+        "微生物组"
+      ],
+      "url": "https://www.dent.kyushu-u.ac.jp/about/field/field2/field2_01/",
+      "references": [
+        {
+          "url": "https://www.dent.kyushu-u.ac.jp/about/field/field2/field2_01/",
+          "evidence": "齿学研究院分野介绍页写明口腔保健推進学講座口腔予防医学分野由竹下彻教授负责，研究口腔常在微生物群对口腔和全身的影响。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100019645_ja.html",
+          "evidence": "九州大学研究者信息页列出竹下彻教授，所属齿学研究院齿学部门并兼任齿学府齿学专攻、口腔科学专攻，关键词为口腔常在微生物叢与16S rRNA基因。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "口腔常在菌叢と口腔・全身の健康との関係を調べる。",
+      "theme_en": "Linking the oral microbiota to oral and general health.",
+      "summary_ja": "口の中にすむ細菌の集団を対象に、16S rRNA遺伝子解析などで菌叢の構成や個人差を明らかにする。地域住民コホートの疫学調査と組み合わせ、菌叢の状態と口腔の状況や全身の健康指標との関連を分析し、口腔保健につながる根拠を示す。",
+      "summary_en": "Describes the composition of the resident oral bacterial community and how it varies between individuals, mainly through 16S rRNA gene analysis. By combining this with epidemiological surveys of community cohorts, the lab examines how the state of the oral microbiota relates to oral conditions and general health indicators, providing evidence for oral health care.",
+      "theme_tw": "研究口腔常在菌群與口腔及全身健康的關係。",
+      "summary_tw": "以口腔中常駐的細菌群落為對象，用16S rRNA基因定序等方法描述菌群的組成和個體差異，並與地區居民世代的流行病學調查結合，分析菌群狀態同口腔狀況及全身健康指標之間的關聯，為口腔保健措施提供依據。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "microbiology_infection-7"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "東北大学",
+      "department": "大学院農学研究科 農芸化学専攻 生物化学講座",
+      "lab": "真核微生物機能学分野",
+      "pi": "新谷 尚弘",
+      "pi_title": "教授",
+      "theme_zh": "研究麹菌与酵母的蛋白质生产和营养适应。",
+      "summary_zh": "以发酵产业中使用的麹菌和出芽酵母为材料，依托基因组信息研究有用酶的表达调控、蛋白质的分选运输与质量控制，以及细胞在营养条件变化时通过蛋白质降解进行适应的机制，并发掘尚未利用的基因功能。",
+      "keywords": [
+        "麹菌",
+        "酵母",
+        "蛋白质分泌",
+        "基因表达调控",
+        "应用微生物学"
+      ],
+      "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/big/",
+      "references": [
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/big/",
+          "evidence": "农学研究科研究室介绍页列出真核微生物機能学分野的教授新谷尚弘，说明以麹菌和酵母为材料研究基因表达调控与蛋白质功能。"
+        },
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/researcher/shintani-takahiro/",
+          "evidence": "研究科教员页写明新谷尚弘为教授，专业是真核微生物（酵母、麹菌）的蛋白质代谢与有用物质生产。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "麹菌と酵母のタンパク質生産と栄養適応を研究する。",
+      "theme_en": "Protein production and nutrient adaptation in koji mould and yeast.",
+      "summary_ja": "発酵産業で用いられる麹菌と出芽酵母を材料に、ゲノム情報をもとに有用酵素の発現制御、タンパク質の選別輸送と品質管理、栄養環境の変化にタンパク質分解を通じて適応する仕組みを研究する。未利用の遺伝子機能の探索にも取り組んでいる。",
+      "summary_en": "Uses the koji mould and budding yeast of fermentation industries as model eukaryotic microbes. Guided by genome information, the lab studies how genes for useful enzymes are regulated, how proteins are sorted and quality-controlled, and how cells adapt to changing nutrient conditions through protein degradation, while searching for gene functions not yet exploited.",
+      "theme_tw": "研究麴菌與酵母的蛋白質生產和營養適應。",
+      "summary_tw": "以發酵產業中使用的麴菌和出芽酵母為材料，依託基因體資訊研究有用酵素的表現調控、蛋白質的分選運輸與品質管制，以及細胞在營養條件變化時透過蛋白質降解進行適應的機制，並發掘尚未利用的基因功能。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "microbiology_infection-8"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "北里大学",
+      "department": "大村智記念研究所 創薬科学大講座",
+      "lab": "微生物応用化学研究室",
+      "pi": "浅見 行弘",
+      "pi_title": "教授",
+      "theme_zh": "从微生物中寻找有生物活性的天然产物。",
+      "summary_zh": "从微生物的培养物中寻找具有生物活性的天然产物，解析它们的化学结构，并鉴定在细胞内发挥作用的靶分子。以抗感染、抗肿瘤等活性为线索筛选候选物质，同时把这些物质用作研究细胞功能的工具，为新药研究提供种子。",
+      "keywords": [
+        "天然产物",
+        "抗生素",
+        "微生物资源",
+        "结构解析",
+        "作用靶点"
+      ],
+      "url": "https://www.kitasato-u.ac.jp/lisci/life/chart/LSI-lab23.html",
+      "references": [
+        {
+          "url": "https://www.kitasato-u.ac.jp/lisci/life/chart/LSI-lab23.html",
+          "evidence": "研究室页列出教授浅见行弘及成员，说明以微生物产生的生物活性物质为中心开展探索、结构解析和作用靶点研究。"
+        },
+        {
+          "url": "https://www.kitasato-u.ac.jp/lisci/life/chart/index02.html",
+          "evidence": "大村智纪念研究所研究室一览把微生物応用化学研究室列在创药科学大讲座下，负责人为浅见行弘教授。"
+        },
+        {
+          "url": "https://www.kitasato-u.ac.jp/lisci/graduate/",
+          "evidence": "研究所页面说明研究部为大村智记念研究所、教育部为大学院感染制御科学府，并列出创药科学履修课程。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "微生物が作る生物活性物質を探索し構造と標的を調べる。",
+      "theme_en": "Searching microbial resources for bioactive natural products.",
+      "summary_ja": "微生物の培養物から生物活性物質を探索し、化学構造を解析するとともに、細胞内で作用する標的分子を同定する。抗感染症活性や抗がん活性を手がかりに候補を選び出し、得られた物質を細胞機能の解析ツールとしても用い、創薬の種につなげる。",
+      "summary_en": "Searches cultures of microorganisms for bioactive natural products, determines their chemical structures and identifies the molecules they act on inside cells. Candidates are selected using anti-infective or antitumour activity as a guide, and the compounds obtained are also used as tools for studying cellular functions and as seeds for drug discovery.",
+      "theme_tw": "從微生物中尋找有生物活性的天然產物。",
+      "summary_tw": "從微生物的培養物中尋找具有生物活性的天然產物，解析它們的化學結構，並鑑定在細胞內發揮作用的標的分子。以抗感染、抗腫瘤等活性為線索篩選候選物質，同時把這些物質用作研究細胞功能的工具，為新藥研究提供種子。",
+      "aliases": [
+        "北里大学",
+        "北里大學",
+        "Kitasato University"
+      ],
+      "id": "microbiology_infection-9"
+    },
+    {
+      "field": "microbiology_infection",
+      "university": "大阪大学",
+      "department": "微生物病研究所 感染機構研究部門",
+      "lab": "感染病態分野（山本研究室）",
+      "pi": "山本 雅裕",
+      "pi_title": "教授",
+      "theme_zh": "研究宿主免疫如何识别并抵御寄生性原虫。",
+      "summary_zh": "以弓形虫等寄生性原虫为模型，研究宿主细胞在干扰素等免疫信号作用下启动的防御反应，以及识别微生物并诱导特异性免疫应答的分子。通过小鼠模型和细胞实验解析免疫相关分子的功能，加深对生体防御机制的理解。",
+      "keywords": [
+        "感染免疫",
+        "宿主防御",
+        "原虫",
+        "干扰素",
+        "免疫应答"
+      ],
+      "url": "https://www.biken.osaka-u.ac.jp/laboratories/detail/5",
+      "references": [
+        {
+          "url": "https://www.biken.osaka-u.ac.jp/laboratories/detail/5",
+          "evidence": "微生物病研究所研究室页为感染機構研究部門感染病態分野山本研究室，列出教授山本雅裕及成员，说明以弓形虫为模型研究宿主与微生物的相互作用。"
+        },
+        {
+          "url": "https://www.med.osaka-u.ac.jp/introduction/research/collaborating/defense",
+          "evidence": "大阪大学医学系研究科生体防御医学的分野一览列出“免疫寄生虫学 山本 雅裕 教授”，说明其参与研究生院的指导。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "宿主の免疫が原虫をどう認識し排除するかを調べる。",
+      "theme_en": "How host immunity recognises and resists parasitic protozoa.",
+      "summary_ja": "トキソプラズマなどの原虫をモデルに、インターフェロンなどの免疫シグナルで宿主細胞に生じる防御応答や、微生物を認識して特異的な免疫応答を導く分子を研究する。マウスモデルと細胞実験で免疫関連分子の働きを解析し、生体防御の理解を深める。",
+      "summary_en": "Uses parasitic protozoa such as Toxoplasma as models to study the defence responses that immune signals like interferon trigger in host cells, and the molecules that sense microbes and direct antigen-specific immune responses. Mouse models and cell experiments are used to analyse the functions of immune-related molecules and deepen understanding of host defence.",
+      "theme_tw": "研究宿主免疫如何辨識並抵禦寄生性原蟲。",
+      "summary_tw": "以弓形蟲等寄生性原蟲為模型，研究宿主細胞在干擾素等免疫訊號作用下啟動的防禦反應，以及辨識微生物並誘導特異性免疫應答的分子。透過小鼠模型和細胞實驗解析免疫相關分子的功能，加深對生體防禦機制的理解。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "microbiology_infection-10"
     },
     {
       "field": "plant_science",
@@ -3839,6 +4203,371 @@
         "Tokyo Metropolitan University"
       ],
       "id": "ecology_evolution-2"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "京都大学",
+      "department": "大学院農学研究科 応用生物科学専攻",
+      "lab": "昆虫生態学分野（松浦研究室）",
+      "pi": "松浦 健二",
+      "pi_title": "教授",
+      "theme_zh": "以白蚁为对象研究社会性昆虫的繁殖策略与社会进化",
+      "summary_zh": "以白蚁等社会性昆虫为主要对象，研究昆虫多样的繁殖策略与社会行为如何进化。课题包括品级分化与跨代表观遗传、孤雌生殖与王后更替、信息素通讯、巢内卫生与长寿，以及模拟白蚁卵的菌类等种间关系。",
+      "keywords": [
+        "社会性昆虫",
+        "白蚁",
+        "繁殖策略",
+        "行为生态学",
+        "孤雌生殖"
+      ],
+      "url": "https://sites.google.com/view/insecteco",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.163d9b5e70331321.html",
+          "evidence": "京都大学教育研究活动数据库（2026年10月更新）列出松浦健二为农学研究科应用生物科学专攻植物保护科学讲座教授，研究主题为昆虫多样繁殖策略与社会行为的进化；外部链接为大学域名 insecteco.kais.kyoto-u.ac.jp，该页现已指向研究室 Google 站点。"
+        },
+        {
+          "url": "https://sites.google.com/view/insecteco",
+          "evidence": "研究室主页（京都大学昆虫生态学研究室）列出松浦健二教授，新闻至2026年9月，涉及白蚁品级分化与跨代表观遗传、孤雌生殖的王后更替、社会寄生者与模拟白蚁卵的菌类、信息素通讯等研究。"
+        },
+        {
+          "url": "https://sites.google.com/view/insecteco/top/how-to-join-our-lab",
+          "evidence": "入室说明页写明研究生课程正式名称为农学研究科应用生物科学专攻植物保护科学讲座昆虫生态学分野，校外学生须通过研究生入学考试进入该专攻，指导教员为松浦教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "シロアリなど社会性昆虫の繁殖戦略と社会行動の進化を探る",
+      "theme_en": "Studying the evolution of reproductive strategies and social behavior in termites and other social insects.",
+      "summary_ja": "シロアリを中心とする社会性昆虫を対象に、多様な繁殖戦略と社会行動の進化を研究する。カースト分化と世代を超えたエピジェネティックな継承、単為生殖による女王継承、フェロモン通信、巣の衛生と長寿、卵に擬態する菌類との関係などを扱う。",
+      "summary_en": "Studies how diverse reproductive strategies and social behaviors evolved in insects, focusing on termites and other social insects. Topics include caste determination and transgenerational epigenetic inheritance, queen succession through parthenogenesis, pheromone communication, nest hygiene and longevity, and egg-mimicking fungi that exploit termite colonies.",
+      "theme_tw": "以白蟻為對象研究社會性昆蟲的繁殖策略與社會演化",
+      "summary_tw": "以白蟻等社會性昆蟲為主要對象，研究昆蟲多樣的繁殖策略與社會行為如何演化。課題包括階級分化與跨代表觀遺傳、孤雌生殖與蟻后更替、費洛蒙通訊、巢內衛生與長壽，以及模擬白蟻卵的菌類等種間關係。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "ecology_evolution-3"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "東北大学",
+      "department": "大学院生命科学研究科 生態発生適応科学専攻",
+      "lab": "統合生態研究室",
+      "pi": "近藤 倫生",
+      "pi_title": "教授",
+      "theme_zh": "结合环境DNA与数理模型解析生态系统的结构与动态",
+      "summary_zh": "把生态系统视为众多生物相互作用的复杂系统，结合数理统计模型、潜水观察与环境DNA等监测数据，以及用细菌和昆虫的人工生态系统实验，探索生态现象背后的共同原理，并以生态系统的预测与调控为目标。",
+      "keywords": [
+        "群落生态学",
+        "环境DNA",
+        "理论生态学",
+        "生态系统动态",
+        "数据驱动生态学"
+      ],
+      "url": "https://www.lifesci.tohoku.ac.jp/research/teacher/detail.html?id=45517",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/teacher/detail.html?id=45517",
+          "evidence": "生命科学研究科教员页列出近藤伦生教授（生态发生适应科学专攻、生态动力学讲座、所属研究室：统合生态），研究介绍写明结合数理统计模型、潜水目视、环境DNA与声学监测数据及细菌和昆虫的人工生态系统实验探索生态现象的共同原理，并链接研究室主页。"
+        },
+        {
+          "url": "https://kondohlaboratory.wixsite.com/website",
+          "evidence": "研究室主页（统合生态研究室）列出近藤伦生教授，研究方向包括复杂生态系统的结构与动态、基于环境DNA与性状数据库的数据驱动生态学、植物繁殖策略的适应进化及生态系统预测与调控技术。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "環境DNAと数理モデルで生態系の構造と動態を解き明かす",
+      "theme_en": "Combining environmental DNA monitoring, mathematical models and experiments to understand how complex ecosystems are structured and change.",
+      "summary_ja": "生態系を多様な生物が関わり合う巨大な複雑系ととらえ、数理・統計モデル、潜水目視や環境DNAなどのモニタリングデータ、細菌や昆虫を用いた人工生態系実験を組み合わせて共通原理を探る。生態系の予測・制御・設計も目指す。",
+      "summary_en": "Treats ecosystems as huge complex systems driven by interactions among many species. The lab combines mathematical and statistical models, monitoring data from diving surveys, environmental DNA and acoustics, and artificial ecosystem experiments with bacteria and insects to find general principles, aiming to predict, manage and design ecosystems.",
+      "theme_tw": "結合環境DNA與數理模型解析生態系統的結構與動態",
+      "summary_tw": "把生態系統視為眾多生物相互作用的複雜系統，結合數理統計模型、潛水觀察與環境DNA等監測數據，以及用細菌和昆蟲的人工生態系統實驗，探索生態現象背後的共同原理，並以生態系統的預測與調控為目標。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "ecology_evolution-4"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "北海道大学",
+      "department": "大学院環境科学院 生物圏科学専攻",
+      "lab": "内海研究室",
+      "pi": "内海 俊介",
+      "pi_title": "教授",
+      "theme_zh": "融合群落生态与进化，研究植物与昆虫等的种间关系",
+      "summary_zh": "开展融合群落生态学与进化生物学的进化群落生态学研究，以植物与昆虫的相互作用为核心，也涉及固氮细菌、菌根真菌和鹿。以野外研究为主轴并引入基因组学，探讨从基因、性状到物种组成的多层次生物多样性。",
+      "keywords": [
+        "进化群落生态学",
+        "种间相互作用",
+        "植物-昆虫关系",
+        "生物多样性",
+        "野外调查"
+      ],
+      "url": "https://evo-comm-ecology.com/",
+      "references": [
+        {
+          "url": "https://noah.ees.hokudai.ac.jp/bio/?staff=%E5%86%85%E6%B5%B7%E4%BF%8A%E4%BB%8B",
+          "evidence": "环境科学院生物圈科学专攻教员页列出内海俊介教授，研究概要为生物间相互作用（尤其植物—动物相互作用）的生态与进化，对象包括固氮细菌、入侵植物、树木、植食性昆虫和鹿，并链接研究室主页 evo-comm-ecology.com。"
+        },
+        {
+          "url": "https://noah.ees.hokudai.ac.jp/bio/?p=2152",
+          "evidence": "生物圈科学专攻生态遗传学课程页说明课程结合野外调查、饲养操作实验与遗传分析研究进化与多样性维持，列出内海俊介教授研究植物与其他生物的相互作用及进化和遗传多样性对生态系统的影响。"
+        },
+        {
+          "url": "https://evo-comm-ecology.com/",
+          "evidence": "研究室主页（内海研究室，北海道大学地球环境科学研究院／环境科学院）介绍以进化群落生态学为核心，以植物与昆虫为主要材料，新闻更新至2026年11月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "群集生態学と進化生物学を統合し、植物と昆虫などの生物間相互作用を探る",
+      "theme_en": "Integrating community ecology and evolutionary biology to study interactions between plants, insects and other organisms.",
+      "summary_ja": "群集生態学と進化生物学を統合した進化群集生態学を掲げ、植物と昆虫を中心に生物間相互作用を研究する。窒素固定細菌、菌根菌、シカなども扱い、フィールド研究を軸にゲノミクスを取り入れ、遺伝子・形質から種組成までの多様性の仕組みに迫る。",
+      "summary_en": "Pursues evolutionary community ecology, integrating community ecology and evolutionary biology. Plant–animal interactions, mainly between plants and insects, are the core, extended to nitrogen-fixing bacteria, mycorrhizal fungi and deer. Field science combined with genomics links variation in genes and traits to species composition across levels of biodiversity.",
+      "theme_tw": "融合群落生態與演化，研究植物與昆蟲等的種間關係",
+      "summary_tw": "開展融合群落生態學與演化生物學的演化群落生態學研究，以植物與昆蟲的交互作用為核心，也涉及固氮細菌、菌根真菌和鹿。以野外研究為主軸並引入基因體學，探討從基因、性狀到物種組成的多層次生物多樣性。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "ecology_evolution-5"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 生物科学専攻",
+      "lab": "川北研究室",
+      "pi": "川北 篤",
+      "pi_title": "教授",
+      "theme_zh": "依托植物园资源解析传粉等种间关系与植物多样性",
+      "summary_zh": "依托小石川和日光两处植物园约6000种栽培植物与约80万份标本，多角度研究植物多样性。课题包括被子植物传粉方式的多样性、植物与植食者和种子传播者的关系、沿海拔梯度的环境适应及维管植物分类。",
+      "keywords": [
+        "传粉生态",
+        "种间相互作用",
+        "植物多样性",
+        "植物分类",
+        "环境适应"
+      ],
+      "url": "https://www.bs.s.u-tokyo.ac.jp/labs/kawakita/",
+      "references": [
+        {
+          "url": "https://www.bs.s.u-tokyo.ac.jp/labs/kawakita/",
+          "evidence": "生物科学专攻研究室页列出川北笃教授（协力讲座，附属植物园），研究课题包括被子植物传粉方式多样性、植物与植食者及种子传播者的关系、沿海拔梯度的环境适应、维管植物分类和利用标本的博物馆组学，并链接研究室网站。"
+        },
+        {
+          "url": "https://sites.google.com/g.ecc.u-tokyo.ac.jp/kawakita-lab",
+          "evidence": "研究室网站（川北笃研究室，东京大学理学系研究科附属植物园）说明研究被子植物花和叶的性状如何通过与传粉者、植食者的相互作用而适应进化。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "植物園の資源を活用し、送粉などの生物間相互作用と植物多様性を探る",
+      "theme_en": "Using botanical garden collections to study pollination and other interactions that have shaped plant diversity.",
+      "summary_ja": "小石川・日光の植物園で栽培する約6000種と約80万点の標本を活用し、植物多様性を多面的に研究する。被子植物の送粉様式の多様性、植食者や種子散布者との関係、標高傾度への環境適応、維管束植物の分類、ミュゼオミクスを扱う。",
+      "summary_en": "Uses the University of Tokyo botanical gardens in Koishikawa and Nikko, with about 6,000 cultivated species and some 800,000 specimens, to study plant diversity from several angles: the diversity of pollination systems, interactions with herbivores and seed dispersers, adaptation along elevation gradients, vascular plant taxonomy and museomics.",
+      "theme_tw": "依託植物園資源解析傳粉等種間關係與植物多樣性",
+      "summary_tw": "依託小石川和日光兩處植物園約6000種栽培植物與約80萬份標本，多角度研究植物多樣性。課題包括被子植物傳粉方式的多樣性、植物與植食者和種子傳播者的關係、沿海拔梯度的環境適應及維管植物分類。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "ecology_evolution-6"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "九州大学",
+      "department": "大学院システム生命科学府 システム生命科学専攻",
+      "lab": "数理生物学研究室",
+      "pi": "佐竹 暁子",
+      "pi_title": "教授",
+      "theme_zh": "用数理模型与分子数据研究植物物候和气候变化",
+      "summary_zh": "结合数理模型、数据分析与野外和分子实验，研究生物的季节节律（物候）及其对气候变化的响应。课题包括热带雨林同步开花、森林优势树种的分子物候、生物钟与节律同步，以及长寿树木的体细胞突变与进化。",
+      "keywords": [
+        "物候学",
+        "数理生物学",
+        "气候变化",
+        "森林生态",
+        "体细胞突变"
+      ],
+      "url": "https://bio-math10.biology.kyushu-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100018423_ja.html",
+          "evidence": "九州大学研究者信息（2026年6月更新）列出佐竹晓子为理学研究院生物科学部门教授，兼任系统生命科学府系统生命科学专攻，研究植物季节响应的分子机制、热带雨林同步开花等，主页链接指向数理生物学研究室。"
+        },
+        {
+          "url": "https://bio-math10.biology.kyushu-u.ac.jp/member/index.html",
+          "evidence": "数理生物学研究室成员页列出佐竹晓子教授及佐佐木江理子准教授等成员；研究室主页新闻更新至2026年10月，涵盖热带树木生物钟、壳斗科异戊二烯释放的分子进化等成果。"
+        },
+        {
+          "url": "https://bio-math10.biology.kyushu-u.ac.jp/~satake/",
+          "evidence": "佐竹晓子个人页介绍四项研究：物候与气候变化、生物钟与节律同步、生态系统组学与分子物候、作为进化驱动力的体细胞突变（长寿树木）。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "数理モデルと分子データで植物のフェノロジーと気候変動応答を探る",
+      "theme_en": "Combining mathematical models and molecular data to study plant phenology, biological rhythms and evolution under climate change.",
+      "summary_ja": "数理モデルとデータ解析に野外・分子実験を組み合わせ、生物の季節性（フェノロジー）と気候変動への応答を研究する。熱帯雨林の一斉開花、森林を優占する樹木の分子フェノロジー、体内時計と同調現象、長寿命樹木の体細胞変異と進化などを扱う。",
+      "summary_en": "Combines mathematical modeling and data analysis with field and molecular experiments to study phenology, the seasonal timing of life, and its response to climate change. Topics include general flowering in tropical rainforests, molecular phenology of dominant forest trees, circadian clocks and synchrony, and somatic mutations driving evolution in long-lived trees.",
+      "theme_tw": "用數理模型與分子數據研究植物物候和氣候變遷",
+      "summary_tw": "結合數理模型、數據分析與野外和分子實驗，研究生物的季節節律（物候）及其對氣候變遷的回應。課題包括熱帶雨林同步開花、森林優勢樹種的分子物候、生物時鐘與節律同步，以及長壽樹木的體細胞突變與演化。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "ecology_evolution-7"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "神戸大学",
+      "department": "大学院理学研究科 生物学専攻",
+      "lab": "末次研究室",
+      "pi": "末次 健司",
+      "pi_title": "教授",
+      "theme_zh": "研究菌异养植物与真菌、昆虫间共生与寄生的进化",
+      "summary_zh": "以寄生与共生、生物多样性、自然史为关键词，从进化生态学、分子生态学和系统分类学角度研究植物、真菌与昆虫。重点对象是放弃光合作用、靠掠夺养分生存的菌异养植物，探讨互利共生如何演变为单方面寄生。",
+      "keywords": [
+        "菌异养植物",
+        "共生与寄生",
+        "兰科植物",
+        "进化生态学",
+        "自然史"
+      ],
+      "url": "https://www.edu.kobe-u.ac.jp/fsci-biol/faculty/suetsugu.html",
+      "references": [
+        {
+          "url": "https://www.edu.kobe-u.ac.jp/fsci-biol/faculty/suetsugu.html",
+          "evidence": "理学研究科生物学专攻教员页列出末次健司教授及其研究生课程（生物多样性特论、生态学特论等），研究兴趣为以寄生与共生、生物多样性、自然史为关键词研究植物、真菌和昆虫，重点为菌异养植物，并链接研究室主页。"
+        },
+        {
+          "url": "https://sites.google.com/site/suetsugujp/home",
+          "evidence": "研究室主页（末次健司研究室）介绍兰科植物、真菌和昆虫的生态、进化与系统研究，当前课题包括菌异养性的进化和通过菌根网络在植物间的碳转移。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "菌従属栄養植物を軸に、共生から寄生への進化と生物間相互作用を探る",
+      "theme_en": "Studying how mycoheterotrophic plants evolved from partners into parasites of fungi, and their interactions with other organisms.",
+      "summary_ja": "「寄生と共生」「生物多様性」「ナチュラルヒストリー」をキーワードに、進化生態学・分子生態学・系統分類学の視点から植物、菌類、昆虫を研究する。光合成をやめた従属栄養植物を主な対象に、相利共生が一方的な寄生へ変わる過程を探る。",
+      "summary_en": "Studies plants, fungi and insects from the perspectives of evolutionary ecology, molecular ecology and systematics, under the keywords parasitism and symbiosis, biodiversity and natural history. The main focus is mycoheterotrophic plants that gave up photosynthesis, asking how mutualisms turned into one-sided parasitism; orchid symbionts and plant conservation are also studied.",
+      "theme_tw": "研究菌異營植物與真菌、昆蟲間共生與寄生的演化",
+      "summary_tw": "以寄生與共生、生物多樣性、自然史為關鍵詞，從演化生態學、分子生態學和系統分類學角度研究植物、真菌與昆蟲。重點對象是放棄光合作用、靠掠奪養分生存的菌異營植物，探討互利共生如何演變為單方面寄生。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "ecology_evolution-8"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "岡山大学",
+      "department": "大学院環境生命自然科学研究科 地球環境生命科学学位プログラム",
+      "lab": "植物進化生態学研究室",
+      "pi": "三村 真紀子",
+      "pi_title": "教授",
+      "theme_zh": "以野生植物研究局部适应、物种形成与基因流",
+      "summary_zh": "关注生物如何应对气候变化和土地利用等环境变化，以野生植物为对象从生态遗传学、进化与保护生态学角度开展研究。结合野外调查、栽培实验、基因组分析和生态位模型，探讨遗传多样性来源、种间杂交和栽培化。",
+      "keywords": [
+        "局部适应",
+        "物种形成",
+        "种间杂交",
+        "生态遗传学",
+        "保护生态学"
+      ],
+      "url": "https://sites.google.com/site/mimuralab/home",
+      "references": [
+        {
+          "url": "https://www.elst.okayama-u.ac.jp/education/mc/chikyu/areas02_biosci/",
+          "evidence": "环境生命自然科学研究科博士前期课程地球环境生命科学学位项目的植物进化生态学页面列出教授三村真纪子（专业：进化生态学、生态遗传学、适应进化、物种形成等），说明以野外调查、栽培比较实验、基因组分析和生态位模型研究生物对环境变化的响应，并链接研究室主页。"
+        },
+        {
+          "url": "https://soran.cc.okayama-u.ac.jp/html/bb8367847b67144e74506e4da22f6611_ja.html",
+          "evidence": "冈山大学研究者总览（2026年11月更新）列出三村真纪子为环境生命自然科学学域教授，研究关键词为分子生态学、进化生态学。"
+        },
+        {
+          "url": "https://sites.google.com/site/mimuralab/home",
+          "evidence": "研究室主页（冈山大学理学部生物学科植物进化生态学研究室）介绍以野生植物研究基因流与局部适应、适应与物种形成及栽培化，新闻更新至2026年9月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "野生植物を対象に、局所適応・種分化・遺伝子流動を探る",
+      "theme_en": "Using wild plants to study local adaptation, speciation and gene flow in response to environmental change.",
+      "summary_ja": "気候変動や土地利用などの環境変化への生物の応答に注目し、野生植物を対象に生態遺伝学・進化生物学・保全生態学の観点から研究する。野外調査、栽培比較実験、ゲノム解析、ニッチモデリングで、遺伝的多様性の供給源、種間交雑、栽培化を探る。",
+      "summary_en": "Studies how wild plants respond to environmental change such as climate change and land use, from the viewpoints of ecological genetics, evolutionary biology and conservation ecology. Field surveys, common-garden experiments, genomic analysis and ecological niche modeling address sources of genetic diversity, hybridization, local adaptation, speciation and domestication.",
+      "theme_tw": "以野生植物研究局部適應、物種形成與基因流",
+      "summary_tw": "關注生物如何因應氣候變遷和土地利用等環境變化，以野生植物為對象從生態遺傳學、演化與保育生態學角度開展研究。結合野外調查、栽培實驗、基因體分析和生態區位模型，探討遺傳多樣性來源、種間雜交和栽培化。",
+      "aliases": [
+        "冈山大学",
+        "岡山大學",
+        "Okayama University"
+      ],
+      "id": "ecology_evolution-9"
+    },
+    {
+      "field": "ecology_evolution",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻（生命理学）",
+      "lab": "統合進化生態グループ",
+      "pi": "岡田 泰和",
+      "pi_title": "教授",
+      "theme_zh": "研究甲虫武器与蚂蚁社会行为等性状的进化机制",
+      "summary_zh": "整合生态学与遗传学、基因组学和发育生物学，研究表型进化机制。以昆虫为主要对象，探讨甲虫大颚等性选择武器的可塑性及胰岛素样肽的作用、蚂蚁的品级分化与社会行为，结合基因敲低、行为观察与野外调查。",
+      "keywords": [
+        "性选择",
+        "表型可塑性",
+        "社会性昆虫",
+        "生态发育学",
+        "表型进化"
+      ],
+      "url": "https://purpleandorange.jimdofree.com/",
+      "references": [
+        {
+          "url": "https://www.bio.nagoya-u.ac.jp/research/",
+          "evidence": "理学部生命理学科／理学研究科的教员与研究页列出统合进化生态小组，教授为冈田泰和，介绍整合生态学与遗传学、基因组学、发育学研究表型进化机制，课题包括甲虫武器的进化与可塑性及昆虫社会行为和品级的进化，并链接小组主页。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100013532_ja.html",
+          "evidence": "名古屋大学研究者数据库（2026年3月更新）列出冈田泰和为大学院理学研究科理学专攻生命理学教授，关键词为性选择、社会生物学、表型可塑性、生态遗传学、生态发育学。"
+        },
+        {
+          "url": "https://purpleandorange.jimdofree.com/",
+          "evidence": "小组主页说明统合进化生态小组于2024年4月在名古屋大学理学部成立，研究甲虫武器大小的可塑性、蚂蚁的品级分化与社会生理等，新闻更新至2026年8月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "甲虫の武器やアリの社会行動を題材に表現型進化の仕組みを探る",
+      "theme_en": "Studying how sexually selected weapons in beetles and social behavior in ants evolve, linking ecology with genes and development.",
+      "summary_ja": "生態学と遺伝学・ゲノム科学・発生学を統合し、表現型進化の仕組みを探る。甲虫の大顎など性選択による武器の可塑性とインスリン様ペプチドの役割、アリのカースト分化と社会行動を、遺伝子ノックダウン、行動観察、野外調査などで研究する。",
+      "summary_en": "Integrates ecology with genetics, genomics and developmental biology to understand how phenotypes evolve. The group studies the plasticity of sexually selected weapons such as beetle mandibles and their control by insulin-like peptides, as well as caste differentiation and social behavior in ants, using gene knockdown, behavioral observation and fieldwork.",
+      "theme_tw": "研究甲蟲武器與螞蟻社會行為等性狀的演化機制",
+      "summary_tw": "整合生態學與遺傳學、基因體學和發育生物學，研究表型演化機制。以昆蟲為主要對象，探討甲蟲大顎等性擇武器的可塑性及胰島素樣胜肽的作用、螞蟻的階級分化與社會行為，結合基因減弱、行為觀察與野外調查。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "ecology_evolution-10"
     },
     {
       "field": "cancer",
@@ -10671,6 +11400,379 @@
         "Kobe University"
       ],
       "id": "process-2"
+    },
+    {
+      "field": "process",
+      "university": "東京大学",
+      "department": "大学院工学系研究科 化学システム工学専攻",
+      "lab": "杉山・Badr研究室",
+      "pi": "杉山 弘和",
+      "pi_title": "教授",
+      "theme_zh": "用建模与优化支持医药品制造过程的设计与决策。",
+      "summary_zh": "以过程系统工学方法开拓“制药过程系统工学”：对低分子药物固体制剂的连续与批次生产、抗体药物和再生医疗产品的制造过程进行建模、模拟与多目标评价，并结合统计分析和机器学习改进生产运行。",
+      "keywords": [
+        "过程系统工学",
+        "医药品制造",
+        "连续生产",
+        "建模与模拟"
+      ],
+      "url": "https://www.pse.t.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.pse.t.u-tokyo.ac.jp/member_sugiyama.html",
+          "evidence": "教员页列杉山弘和为东京大学大学院工学系研究科化学系统工学专攻教授（2021年起现职），2013年起任准教授，此前曾在罗氏公司参与生物药注射剂工厂的启动与运行。"
+        },
+        {
+          "url": "https://www.chemsys.t.u-tokyo.ac.jp/lab/laboratory/?lang=ja",
+          "evidence": "化学系统工学专攻研究室一览列出杉山・Badr研究室，主题为过程系统工学，关键词为建模与模拟、医药品制造、能源与可持续性。"
+        },
+        {
+          "url": "https://www.pse.t.u-tokyo.ac.jp/research_pharmapse.html",
+          "evidence": "研究页介绍“制药过程系统工学（Pharma PSE）”，涵盖固体制剂连续生产、抗体药物与iPS细胞制造过程的建模、模拟、多目标评价及数据科学应用。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "モデリングと最適化で医薬品製造プロセスの設計と意思決定を支援する。",
+      "theme_en": "Modeling, simulation and optimization to support design and decision-making in pharmaceutical manufacturing.",
+      "summary_ja": "プロセスシステム工学の手法で製薬プロセスシステム工学を開拓しています。固形製剤の連続・バッチ生産や抗体医薬、再生医療製品の製造プロセスをモデル化し、経済性・品質を含む多目的評価と統計・機械学習による運転改善に取り組みます。",
+      "summary_en": "Using process systems engineering, the lab develops pharmaceutical process systems engineering: modeling and simulating continuous and batch production of solid dosage forms, antibody drugs and regenerative-medicine products, evaluating options on economics, quality and environmental impact, and applying statistics and machine learning to improve operations.",
+      "theme_tw": "用建模與最佳化支援醫藥品製造過程的設計與決策。",
+      "summary_tw": "以過程系統工學方法開拓「製藥過程系統工學」：對低分子藥物固體製劑的連續與批次生產、抗體藥物和再生醫療產品的製造過程進行建模、模擬與多目標評估，並結合統計分析和機器學習改善生產運作。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "process-3"
+    },
+    {
+      "field": "process",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻",
+      "lab": "プロセスシステム工学研究室（外輪研究室）",
+      "pi": "外輪 健一郎",
+      "pi_title": "教授",
+      "theme_zh": "从微反应器到节能蒸馏，系统设计与优化化工过程。",
+      "summary_zh": "以过程系统工学为基础，研究生产系统的合理设计与运行。课题包括基于模拟的微反应器结构设计、堵塞检测与状态估计控制、利用分散生物质资源的化学过程优化，以及节能蒸馏装置等过程强化设备的开发。",
+      "keywords": [
+        "过程系统工学",
+        "微反应器",
+        "过程强化",
+        "蒸馏",
+        "过程优化"
+      ],
+      "url": "https://www-pse.cheme.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.ch.t.kyoto-u.ac.jp/ja/information/laboratory/7koza",
+          "evidence": "化学工学专攻研究室介绍页列外轮健一郎教授与殿村修讲师，研究包括微化学过程的设计、运行与控制，环境协调型化学系统的优化，以及面向过程强化的新型化工设备（如节能蒸馏装置）设计，并链接到研究室主页。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.246db36b24fe4a51.html",
+          "evidence": "京都大学教育研究活动数据库列外轮健一郎为工学研究科化学理工学专攻プロセス工学讲座教授（2026年4月起；2019年至2026年3月为化学工学专攻教授）。"
+        },
+        {
+          "url": "https://www-pse.cheme.kyoto-u.ac.jp/",
+          "evidence": "研究室主页标明“京都大学大学院工学研究科化学理工学专攻 プロセスシステム工学研究室”，以系统的合成与优化为主题，研究对象从微化学系统到地球环境，2026年仍持续更新动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "マイクロ化学システムから省エネ蒸留まで、化学プロセスを合成・最適化する。",
+      "theme_en": "Synthesizing and optimizing chemical processes, from microchemical systems to energy-saving distillation.",
+      "summary_ja": "プロセスシステム工学を基盤に、生産システムの合理的な設計と運転を研究します。マイクロリアクターのシミュレーション設計、閉塞検知や状態推定による制御、分散型バイオマス利用の最適化、省エネ型蒸留装置などのプロセス強化が課題です。",
+      "summary_en": "Based on process systems engineering, the lab studies the rational design and operation of production systems, including simulation-based microreactor design, monitoring and control using clogging detection and state estimation, optimization of distributed chemical processes that use regional biomass, and process-intensified equipment such as energy-saving distillation devices.",
+      "theme_tw": "從微反應器到節能蒸餾，系統設計與最佳化化工過程。",
+      "summary_tw": "以過程系統工學為基礎，研究生產系統的合理設計與運作。課題包括基於模擬的微反應器結構設計、堵塞偵測與狀態估計控制、利用分散生質資源的化學過程最佳化，以及節能蒸餾裝置等過程強化設備的開發。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "process-4"
+    },
+    {
+      "field": "process",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 物質プロセス工学専攻",
+      "lab": "プロセス情報工学（川尻研究室）",
+      "pi": "川尻 喜章",
+      "pi_title": "教授",
+      "theme_zh": "用过程系统工学与AI设计吸附和色谱分离过程。",
+      "summary_zh": "将过程系统工学与信息科学引入化学过程，利用统计、贝叶斯推断和人工智能开展建模、设计与优化。研究对象包括二氧化碳吸附回收、医药品的色谱连续纯化、反应分离和催化反应过程，目标是开发新的化学过程。",
+      "keywords": [
+        "过程系统工学",
+        "吸附分离",
+        "色谱分离",
+        "二氧化碳回收",
+        "人工智能"
+      ],
+      "url": "https://www.material.nagoya-u.ac.jp/process_info_eng/",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100009864_ja.html",
+          "evidence": "名古屋大学教员数据库（2026年7月更新）列川尻喜章为大学院工学研究科物质过程工学专攻先进过程工学教授，当前课题为色谱法医药品连续纯化和二氧化碳吸附回收。"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/professor_Process.html",
+          "evidence": "材料工学科物质过程工学专攻教员一览列川尻喜章教授，关键词为过程系统工学、建模、数据解析、吸附分离和优化，并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/process_info_eng/",
+          "evidence": "研究室主页说明将过程系统工学和信息科学应用于化学过程，用统计与人工智能进行建模、设计和优化，对象包括CO2吸附回收、色谱分离、反应分离及催化反应过程。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "プロセスシステム工学とAIで吸着・クロマト分離プロセスを設計する。",
+      "theme_en": "Applying process systems engineering and AI to adsorption and chromatographic separation processes.",
+      "summary_ja": "プロセスシステム工学と情報科学を化学プロセスに応用し、統計やベイズ推定、人工知能を用いたモデリング・設計・最適化を研究しています。CO2の吸着回収、クロマトグラフィーによる医薬品の連続精製、反応分離や触媒反応プロセスが対象です。",
+      "summary_en": "The lab applies process systems engineering and information science to chemical processes, bringing statistics, Bayesian inference and artificial intelligence into modeling, design and optimization. Targets include carbon dioxide adsorption and capture, continuous chromatographic purification of pharmaceuticals, reactive separation and catalytic reaction processes.",
+      "theme_tw": "用過程系統工學與AI設計吸附和層析分離過程。",
+      "summary_tw": "將過程系統工學與資訊科學引入化學過程，利用統計、貝氏推論和人工智慧進行建模、設計與最佳化。研究對象包括二氧化碳吸附回收、醫藥品的層析連續純化、反應分離和催化反應過程，目標是開發新的化學過程。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "process-5"
+    },
+    {
+      "field": "process",
+      "university": "東北大学",
+      "department": "大学院工学研究科 化学工学専攻",
+      "lab": "反応プロセス工学分野（北川研究室）",
+      "pi": "北川 尚美",
+      "pi_title": "教授",
+      "theme_zh": "以动力学解析开发未利用资源的反应分离过程。",
+      "summary_zh": "利用化学反应和生物反应，把废食用油和油脂工业副产物等未利用资源高效转化为医药品、功能食品、化学品和燃料。以反应速度论解析为核心，同时推进反应设计与放大，并开展装置开发及与企业合作的实用化。",
+      "keywords": [
+        "反应分离过程",
+        "反应速度论",
+        "过程放大",
+        "生物质利用"
+      ],
+      "url": "https://www.rpel.che.tohoku.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.rpel.che.tohoku.ac.jp/about.html",
+          "evidence": "研究室介绍页列北川尚美教授、高桥厚准教授等成员，说明以反应工学和分离工学结合信息科学、以速度论解析为核心，开发由生物质废弃物制造功能材料和生物燃料的过程，并涵盖装置开发、放大与控制系统。"
+        },
+        {
+          "url": "https://www.che.tohoku.ac.jp/grad/chem/kitakawa/",
+          "evidence": "东北大学化学工学专攻页面介绍反应过程工学分野（北川研究室）的三项主题：由可再生资源制造功能化学品、由未利用资源制造功能食品、利用新型反应场与速度论解析的反应控制（同时进行反应设计与放大）。"
+        },
+        {
+          "url": "https://www.rpel.che.tohoku.ac.jp/",
+          "evidence": "研究室主页注明属东北大学大学院工学研究科化学工学专攻反应过程工学分野，开发把未利用资源高效转化为医药品、食品和化学品的“反应分离过程”，2026年仍持续更新动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "速度論解析を軸に、未利用資源を製品に変える反応分離プロセスを開発する。",
+      "theme_en": "Kinetics-based reaction–separation processes that turn unused resources into valuable products.",
+      "summary_ja": "化学反応や生物反応を利用し、廃食用油や油脂産業の未利用資源を医薬品、機能性食品、化学品、燃料へ効率よく変換する反応分離プロセスを開発しています。反応速度論解析を核に反応設計とスケールアップを一体で進め、実用化にも取り組みます。",
+      "summary_en": "Using chemical and biological reactions, the lab develops reaction–separation processes that convert unused resources, such as waste cooking oil and oil-industry by-products, into pharmaceuticals, functional foods, chemicals and fuels. Kinetic analysis underpins both reaction design and scale-up, alongside equipment development and industrial implementation.",
+      "theme_tw": "以動力學解析開發未利用資源的反應分離過程。",
+      "summary_tw": "利用化學反應和生物反應，把廢食用油和油脂工業副產物等未利用資源高效轉化為醫藥品、機能性食品、化學品和燃料。以反應速率論解析為核心，同時推進反應設計與放大，並進行裝置開發及與企業合作的實用化。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "process-6"
+    },
+    {
+      "field": "process",
+      "university": "九州大学",
+      "department": "大学院工学府 化学工学専攻",
+      "lab": "熱プロセス工学（中川研究室）",
+      "pi": "中川 究也",
+      "pi_title": "教授",
+      "theme_zh": "解析热与物质传递，开发医药与食品的冻结干燥过程。",
+      "summary_zh": "以化学工学为基础，针对医药品和食品的冻结、干燥与贮藏，解析产品内部的热与物质传递机制，控制结构和品质变化。研究包括冻结干燥装置与过程开发、利用热过程的结构化、基于模型的品质保证及食品系统优化。",
+      "keywords": [
+        "冻结干燥",
+        "传热传质",
+        "医药与食品加工",
+        "品质保证"
+      ],
+      "url": "https://chem-eng.kyushu-u.ac.jp/lab4/",
+      "references": [
+        {
+          "url": "https://chem-eng.kyushu-u.ac.jp/?page_id=29",
+          "evidence": "九州大学化学工学部门“研究室―教员”页列热过程工学的中川究也教授与浅野周作准教授，研究内容包括医药与食品的高度贮藏、新型冻结干燥过程、品质设计与保证以及食品系统的全体优化。"
+        },
+        {
+          "url": "https://chem-eng.kyushu-u.ac.jp/lab4/member.html",
+          "evidence": "研究室成员页列教授中川究也、准教授浅野周作及硕博士生，注明属化学工学部门第四讲座。"
+        },
+        {
+          "url": "https://chem-eng.kyushu-u.ac.jp/lab4/",
+          "evidence": "研究室主页说明以化学工学为基础，针对医药和食品的冻结、干燥、贮藏课题，理解产品中的热与物质传递机制并控制结构与品质变化；动态记载中川教授2024年6月到任九州大学。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "熱と物質の移動を解析し、医薬・食品の凍結乾燥プロセスを開発する。",
+      "theme_en": "Analyzing heat and mass transfer to develop freeze-drying processes for pharmaceuticals and foods.",
+      "summary_ja": "化学工学を基盤に、医薬品や食品の凍結・乾燥・貯蔵の課題に取り組みます。製品内の熱と物質の移動を理解して構造や品質の変化を制御することを目指し、凍結乾燥装置・プロセス開発、熱プロセスによる構造化、モデルベース品質保証を研究します。",
+      "summary_en": "Grounded in chemical engineering, the lab tackles the freezing, drying and storage of pharmaceutical and food products. It studies heat and mass transfer inside products to control their structure and quality changes, developing freeze-drying equipment and processes, thermal structuring techniques, model-based quality assurance and whole-system optimization of food production.",
+      "theme_tw": "解析熱與質量傳遞，開發醫藥與食品的冷凍乾燥過程。",
+      "summary_tw": "以化學工程為基礎，針對醫藥品和食品的冷凍、乾燥與貯藏，解析產品內部的熱與質量傳遞機制，控制結構和品質變化。研究包括冷凍乾燥裝置與過程開發、利用熱過程的結構化、基於模型的品質保證及食品系統最佳化。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "process-7"
+    },
+    {
+      "field": "process",
+      "university": "広島大学",
+      "department": "大学院先進理工系科学研究科 化学工学プログラム",
+      "lab": "計算混相流工学研究室（石神研究室）",
+      "pi": "石神 徹",
+      "pi_title": "教授",
+      "theme_zh": "融合数值模拟与机器学习解析化工中的多相流动。",
+      "summary_zh": "以传递现象论和计算流体力学为基础，耦合CFD、离散元法和相场模型，模拟乳液、气泡和颗粒悬浮液等分散系的复杂流动；并用深度学习代理模型和遗传算法快速预测流场，优化膜组件、混合器等设备。",
+      "keywords": [
+        "混相流",
+        "计算流体力学",
+        "机器学习",
+        "数字孪生",
+        "过滤"
+      ],
+      "url": "https://multiphase.hiroshima-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.hiroshima-u.ac.jp/adse/staff/chemical-engineering",
+          "evidence": "广岛大学先进理工系科学研究科化学工学项目研究室介绍页列“计算混相流工学”教授石神彻，关键词为流体过程、混相流、分散系流动、数值模拟、机器学习与数字孪生，并链接到研究室主页。"
+        },
+        {
+          "url": "https://multiphase.hiroshima-u.ac.jp/members/",
+          "evidence": "研究室成员页列教授石神彻及研究员、博士生、硕士生和本科生。"
+        },
+        {
+          "url": "https://multiphase.hiroshima-u.ac.jp/research/",
+          "evidence": "研究页介绍以传递现象论和CFD为基础，耦合CFD、DEM与相场模型解析多相分散系流动，并用UNet代理模型和遗传算法优化膜分离组件、转子-定子混合器和空气过滤器结构。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "数値シミュレーションと機械学習を融合し、化学プロセスの混相流を解析する。",
+      "theme_en": "Combining numerical simulation and machine learning to analyze multiphase flows in chemical processes.",
+      "summary_ja": "移動現象論と数値流体力学を基盤に、CFD・離散要素法・フェーズフィールド法を連成させ、エマルションや気泡、粒子懸濁液など分散系の流れを解析します。深層学習で流れ場を高速予測し、膜モジュールやミキサーの設計最適化にも取り組みます。",
+      "summary_en": "Building on transport phenomena and computational fluid dynamics, the lab couples CFD, discrete element and phase-field methods to simulate dispersed flows such as emulsions, bubbles and particle suspensions. Deep-learning surrogate models and genetic algorithms enable fast flow prediction and design optimization of membrane modules, mixers and filters.",
+      "theme_tw": "融合數值模擬與機器學習解析化工中的多相流動。",
+      "summary_tw": "以傳遞現象論和計算流體力學為基礎，耦合CFD、離散元素法和相場模型，模擬乳液、氣泡和顆粒懸浮液等分散系的複雜流動；並用深度學習代理模型和遺傳演算法快速預測流場，最佳化膜組件、混合器等設備。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "process-8"
+    },
+    {
+      "field": "process",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 化学システム工学専攻",
+      "lab": "則永・町田・柳瀨研究室",
+      "pi": "則永 行庸",
+      "pi_title": "教授",
+      "theme_zh": "以反应器模拟设计碳资源转化与CO2回收过程。",
+      "summary_zh": "以反应速度论和反应器模拟为核心，对煤和生物质气化等多组分复杂反应建模，开发生物质热化学转化过程，预测化学气相渗透法的反应器性能；并开发利用LNG冷能的大气CO2直接回收等节能CO2回收技术。",
+      "keywords": [
+        "反应工学",
+        "反应器模拟",
+        "气化",
+        "二氧化碳回收"
+      ],
+      "url": "https://www.material.nagoya-u.ac.jp/nori_lab/",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100009775_ja.html",
+          "evidence": "名古屋大学教员数据库（2026年8月更新）列則永行庸为大学院工学研究科化学系统工学专攻先进化学工学系统教授，关键词包括均相・非均相反应速度论、反应器模拟、过程设计及CO2回收与利用。"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/professor_Systems.html",
+          "evidence": "化学系统工学专攻教员一览列則永行庸教授（碳资源利用、反应工学、反应模拟、反应器设计）及町田洋准教授（节能CO2回收、过程计算、相平衡），并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/nori_lab/",
+          "evidence": "研究室主页介绍利用LNG冷能的大气CO2直接回收（Cryo-DAC）、碳资源多组分复杂反应的建模与模拟、生物质与煤的热化学转化、相分离型CO2吸收剂及化学气相渗透法反应器性能预测。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "反応速度論と反応器シミュレーションで炭素資源転換とCO2回収を設計する。",
+      "theme_en": "Reaction kinetics and reactor simulation for carbon-resource conversion and CO2 capture processes.",
+      "summary_ja": "反応速度論と反応器シミュレーションを軸に、石炭やバイオマスのガス化など多成分複雑反応のモデル化と化学気相浸透法の反応器性能予測に取り組みます。LNG冷熱を使う大気中CO2直接回収など省エネ型CO2回収も開発しています。",
+      "summary_en": "Centered on reaction kinetics and reactor simulation, the lab models complex multicomponent reactions in coal and biomass gasification, develops thermochemical conversion processes and predicts reactor performance in chemical vapor infiltration. It also develops energy-saving CO2 capture, including direct air capture using LNG cold energy and phase-separating absorbents.",
+      "theme_tw": "以反應器模擬設計碳資源轉化與CO2回收過程。",
+      "summary_tw": "以反應速率論和反應器模擬為核心，對煤和生質氣化等多成分複雜反應建模，開發生質熱化學轉化過程，預測化學氣相滲透法的反應器性能；並開發利用LNG冷能的大氣CO2直接捕集等節能CO2回收技術。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "process-9"
+    },
+    {
+      "field": "process",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 開放環境科学専攻",
+      "lab": "化学工学研究室（寺坂・藤岡研究室）",
+      "pi": "藤岡 沙都子",
+      "pi_title": "准教授",
+      "theme_zh": "利用液液弹状流和微细气泡推进化工过程强化。",
+      "summary_zh": "以混相流和传递现象为基础研究化工过程强化，使装置和过程更小型、更快速、更节能且安全。课题包括液液弹状流反应器的流动预测模型、振荡流挡板反应器的非定常涡流解析，以及微细气泡和液滴的生成与利用。",
+      "keywords": [
+        "过程强化",
+        "弹状流",
+        "微细气泡",
+        "混相流"
+      ],
+      "url": "https://www.applc.keio.ac.jp/~terasaka/",
+      "references": [
+        {
+          "url": "https://k-ris.keio.ac.jp/html/100011407_ja.html",
+          "evidence": "庆应义塾研究者数据库（2026年10月更新）列藤冈沙都子为理工学部应用化学科准教授，研究领域含流体工学、移动现象・单元操作和反应工学・过程系统工学，关键词为弹状流、微细气泡、混相流与过程强化。"
+        },
+        {
+          "url": "https://www.applc.keio.ac.jp/~terasaka/member/fujioka.html",
+          "evidence": "化学工学研究室成员页列藤冈沙都子准教授，所属大学院理工学研究科开放环境科学专攻环境能源专修及化学・生命信息科学专攻，2022年起任准教授。"
+        },
+        {
+          "url": "https://www.applc.keio.ac.jp/~terasaka/laboratory/road.html",
+          "evidence": "研究室招生页“藤冈研への道”说明2026年度重点为过程强化，目标是使装置与化学过程更小型、更快速、更节能和更安全。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "液液スラグ流やファインバブルを利用し、化学プロセスの強化を目指す。",
+      "theme_en": "Process intensification using liquid–liquid slug flow, oscillatory flow reactors and fine bubbles.",
+      "summary_ja": "混相流と移動現象を基盤に、装置やプロセスを小型・高速・省エネかつ安全にするプロセス強化を研究します。液液スラグフローリアクターの流動予測、振動流バッフル反応器の非定常渦流動解析、ファインバブルや液滴の生成と利用が主な課題です。",
+      "summary_en": "Grounded in multiphase flow and transport phenomena, the lab pursues process intensification, making chemical equipment smaller, faster, more energy-efficient and safer. Topics include flow-prediction models for liquid–liquid slug-flow reactors, unsteady vortex flows in oscillatory baffled reactors, and the generation and use of fine bubbles and droplets.",
+      "theme_tw": "利用液液彈狀流和微細氣泡推進化工過程強化。",
+      "summary_tw": "以多相流和傳遞現象為基礎研究化工過程強化，使裝置和過程更小型、更快速、更節能且安全。課題包括液液彈狀流反應器的流動預測模型、振盪流擋板反應器的非定常渦流解析，以及微細氣泡和液滴的生成與利用。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "process-10"
     },
     {
       "field": "computational",
