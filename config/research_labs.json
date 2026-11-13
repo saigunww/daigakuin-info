@@ -5973,6 +5973,386 @@
       "id": "synthetic_biotechnology-2"
     },
     {
+      "field": "synthetic_biotechnology",
+      "university": "東京大学",
+      "department": "大学院総合文化研究科 広域科学専攻",
+      "lab": "市橋研究室",
+      "pi": "市橋 伯一",
+      "pi_title": "教授",
+      "theme_zh": "进化型人工细胞与自主复制系统",
+      "summary_zh": "通过组合核酸、蛋白质等分子构建可自我复制并进化的人工细胞模型，研究复杂性和多样性产生的条件。结合无细胞表达与长期进化分析，探索自主增殖系统及人工细胞技术的应用基础。",
+      "keywords": [
+        "人工细胞",
+        "自我复制",
+        "实验进化",
+        "无细胞表达",
+        "分子系统"
+      ],
+      "url": "https://webpark2056.sakura.ne.jp/index.html",
+      "references": [
+        {
+          "url": "https://www.c.u-tokyo.ac.jp/info/research/faculty/list/mds/mds-ls/f021972.html",
+          "evidence": "总合文化研究科教员页列出生命环境科学系市桥伯一教授，注明合成生物学、进化生物学及生命初期进化过程重构。"
+        },
+        {
+          "url": "https://bio.c.u-tokyo.ac.jp/komaba/laboratories/",
+          "evidence": "广域科学专攻研究室目录直接链接该实验室自有域名，介绍人工细胞、核酸自我复制及自主增殖系统等当前主题。"
+        },
+        {
+          "url": "https://webpark2056.sakura.ne.jp/members.html",
+          "evidence": "成员页列出市桥伯一为教授和多名硕博研究生，研究题目涵盖无细胞表达、翻译因子再生产及自我复制系统。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "進化する人工細胞と自己複製システム",
+      "theme_en": "Evolving artificial cells and self-replicating molecular systems.",
+      "summary_ja": "核酸やタンパク質を組み合わせ、自己複製して進化する人工細胞モデルを構築する。無細胞発現系や長期進化実験を通じ、複雑性と多様性が生まれる条件を調べ、自律的に増殖する分子システムの実現を目指す。",
+      "summary_en": "Builds artificial-cell models from nucleic acids and proteins to study self-replication and evolution. Cell-free expression and long-term evolution experiments probe how complexity and diversity emerge and support the development of autonomously growing molecular systems.",
+      "theme_tw": "演化型人工細胞與自主複製系統",
+      "summary_tw": "透過組合核酸、蛋白質等分子建構可自我複製並演化的人工細胞模型，研究複雜性和多樣性產生的條件。結合無細胞表現與長期演化分析，探索自主增殖系統及人工細胞技術的應用基礎。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "synthetic_biotechnology-3"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "東京科学大学",
+      "department": "生命理工学院 生命理工学系",
+      "lab": "松浦研究室",
+      "pi": "松浦 友亮",
+      "pi_title": "教授",
+      "theme_zh": "无细胞合成与环境响应型人工细胞",
+      "summary_zh": "将蛋白质、脂质和核酸等组分组合成具有特定功能的人工细胞，研究分子协同与环境响应。结合无细胞蛋白质合成和定向进化，设计可感知外部信号的系统，探索生物传感与物质生产。",
+      "keywords": [
+        "人工细胞",
+        "无细胞合成",
+        "定向进化",
+        "环境响应",
+        "生物传感"
+      ],
+      "url": "https://members.elsi.jp/~matsuura_tomoaki/",
+      "references": [
+        {
+          "url": "https://strdb.s.isct.ac.jp/html/100002563_ja.html",
+          "evidence": "2026年10月更新的大学研究者数据库列出松浦友亮为未来社会创成研究院地球生命研究所教授。"
+        },
+        {
+          "url": "https://educ.titech.ac.jp/bio/news/2020_12/059925.html",
+          "evidence": "生命理工学院官方介绍使用松浦研究室名称，列出大学院地球生命及生命理工学课程担当，并直接链接研究室自有域名。"
+        },
+        {
+          "url": "https://www.elsi.jp/media/blogs/elsi_voices_matsuura_lab/",
+          "evidence": "2025年研究所专访确认松浦教授领导独立研究组和大学院生，说明无细胞合成、人工细胞及环境信号响应等当前研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "無細胞合成と環境応答型人工細胞の設計",
+      "theme_en": "Cell-free synthesis and environmentally responsive artificial cells.",
+      "summary_ja": "タンパク質、脂質、核酸などの部品から人工細胞を構築し、分子間の協調や環境応答を調べる。無細胞タンパク質合成と進化分子工学を組み合わせ、外部信号に応答するシステムや物質生産への応用を目指す。",
+      "summary_en": "Combines proteins, lipids and nucleic acids to build functional artificial cells and examine molecular coordination. Cell-free protein synthesis and directed evolution underpin systems that respond to external signals, with potential uses in biosensing and molecular production.",
+      "theme_tw": "無細胞合成與環境反應型人工細胞",
+      "summary_tw": "將蛋白質、脂質和核酸等組件組合成具有特定功能的人工細胞，研究分子協同與環境反應。結合無細胞蛋白質合成和定向演化，設計可感知外部訊號的系統，探索生物感測與物質生產。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "synthetic_biotechnology-4"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "立教大学",
+      "department": "大学院理学研究科 生命理学専攻",
+      "lab": "末次研究室",
+      "pi": "末次 正幸",
+      "pi_title": "教授",
+      "theme_zh": "人工基因组与无细胞自我复制系统",
+      "summary_zh": "围绕生命的自我复制与进化，研究人工基因组的设计、合成及其功能重构。将DNA复制和无细胞基因表达等分子系统结合，探索由自身遗传信息驱动复制的人工细胞基础与生物技术应用。",
+      "keywords": [
+        "人工基因组",
+        "无细胞表达",
+        "自我复制",
+        "系统重构",
+        "人工细胞"
+      ],
+      "url": "https://www2.rikkyo.ac.jp/web/sue-lab/",
+      "references": [
+        {
+          "url": "https://univdb.rikkyo.ac.jp/view?l=ja&u=100000778",
+          "evidence": "2026年10月更新的大学教员数据库确认末次正幸教授所属理学研究科生命理学专攻，担任硕博课程及修士论文指导。"
+        },
+        {
+          "url": "https://www2.rikkyo.ac.jp/web/sue-lab/",
+          "evidence": "末次研究室官网持续更新至2026年10月，介绍人工基因组、无细胞表达与DNA复制研究，并列出硕博生近期活动。"
+        },
+        {
+          "url": "https://www.rikkyo.ac.jp/news/2026/07/mknpps000004xpbt.html",
+          "evidence": "大学2026年7月发布末次教授团队的人工基因组自我复制成果，说明将基因表达与复制功能结合以构建人工细胞的方向。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "人工ゲノムと無細胞自己複製システム",
+      "theme_en": "Artificial genomes and cell-free self-replicating systems.",
+      "summary_ja": "生命の自己複製と進化に着目し、人工ゲノムの設計・合成と機能の再構成を研究する。DNA複製と無細胞遺伝子発現を組み合わせ、自らの遺伝情報で複製する人工細胞の基盤を築き、バイオ技術への展開を目指す。",
+      "summary_en": "Studies self-replication and evolution through artificial-genome design, synthesis and functional reconstruction. By linking DNA replication with cell-free gene expression, the laboratory develops foundations for artificial cells that copy their own genetic information and for biotechnology applications.",
+      "theme_tw": "人工基因體與無細胞自我複製系統",
+      "summary_tw": "圍繞生命的自我複製與演化，研究人工基因體的設計、合成及其功能重建。將DNA複製和無細胞基因表現等分子系統結合，探索由自身遺傳資訊驅動複製的人工細胞基礎與生物技術應用。",
+      "aliases": [
+        "立教大学",
+        "立教大學",
+        "Rikkyo University"
+      ],
+      "id": "synthetic_biotechnology-5"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 応用化学専攻",
+      "lab": "梅野研究室",
+      "pi": "梅野 太輔",
+      "pi_title": "教授",
+      "theme_zh": "以分子进化设计生物合成路径与传感器",
+      "summary_zh": "以进化分子工程改造酶与分子传感器，并把多个元件组合成协同工作的生物系统。研究人工生物合成路径和控制基因表达的分子开关，探索非天然化合物的生物生产及细胞信息处理功能。",
+      "keywords": [
+        "分子进化",
+        "人工生物合成",
+        "生物传感器",
+        "分子开关",
+        "酶工程"
+      ],
+      "url": "https://umelab.w.waseda.jp/",
+      "references": [
+        {
+          "url": "https://w-rdb.waseda.jp/html/100002916_ja.html",
+          "evidence": "早稻田大学研究者数据库列梅野太辅为先進理工学部教授，兼任大学院先進理工学研究科，并列出2026年修士论文指导与合成生物学演习。"
+        },
+        {
+          "url": "https://umelab.w.waseda.jp/research/top.html",
+          "evidence": "研究室介绍人工酶协同构建生物合成路径、生物传感器、蛋白质信息处理和分子进化工程等当前主题。"
+        },
+        {
+          "url": "https://www.waseda.jp/fsci/wise/prj/2025/04/01/10587/",
+          "evidence": "大学理工学术院总合研究所的2025–2028年项目页明确列梅野太辅教授为负责人，隶属先進理工学部应用化学科，介绍通过分子进化理解并设计生命分子的功能与协同。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "分子進化で生合成経路とセンサーを設計する",
+      "theme_en": "Designing biosynthetic pathways and sensors through molecular evolution.",
+      "summary_ja": "分子進化工学で酵素や分子センサーを改変し、複数の部品が協働する生物システムを設計する。人工生合成経路や遺伝子発現を制御する分子スイッチを研究し、非天然化合物の生産と細胞の情報処理機能を探る。",
+      "summary_en": "Uses directed evolution to engineer enzymes and molecular sensors, then combines them into cooperative biological systems. Research covers artificial biosynthetic pathways and molecular switches for gene expression, exploring production of non-natural compounds and cellular information processing.",
+      "theme_tw": "以分子演化設計生物合成途徑與感測器",
+      "summary_tw": "以演化分子工程改造酵素與分子感測器，並把多個元件組合成協同運作的生物系統。研究人工生物合成途徑和控制基因表現的分子開關，探索非天然化合物的生物生產及細胞資訊處理功能。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "synthetic_biotechnology-6"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "九州大学",
+      "department": "大学院生物資源環境科学府 生命機能科学専攻",
+      "lab": "合成生物学研究室",
+      "pi": "花井 泰三",
+      "pi_title": "教授",
+      "theme_zh": "设计遗传回路与代谢路径，开发微生物制造",
+      "summary_zh": "围绕微生物的可设计功能，构建调控基因表达的人工遗传回路，以及生产生物醇等有用物质的合成代谢路径。结合代谢工程、培养与计算分析优化系统，并研究复合微生物群用于生物炼制的基础技术。",
+      "keywords": [
+        "人工遗传回路",
+        "代谢工程",
+        "生物醇",
+        "复合微生物系统",
+        "生物炼制"
+      ],
+      "url": "https://www.brs.kyushu-u.ac.jp/lab/bioinfo/index.html",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022156_ja.html",
+          "evidence": "大学研究者数据库列花井泰三为農学研究院教授，兼任生物資源環境科学府生命機能科学専攻，研究主题包括人工遗传回路与代谢工程。"
+        },
+        {
+          "url": "https://ag.kyushu-u.ac.jp/organization/teacher/lab/post_63/index.html",
+          "evidence": "农学部及大学院官方研究室页列花井泰三教授，介绍合成代谢路径、人工遗传回路、人工复合微生物系统及生物炼制研究。"
+        },
+        {
+          "url": "https://www.brs.kyushu-u.ac.jp/lab/bioinfo/index.html",
+          "evidence": "研究室主页说明用生物分子构建遗传回路及生产生物醇的合成代谢路径，并记录2026年学生配属、修士研究与学会发表动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "遺伝子回路と代謝経路を設計し、微生物生産を開拓する",
+      "theme_en": "Designing genetic circuits and metabolic pathways for microbial production.",
+      "summary_ja": "微生物の機能設計に向け、遺伝子発現を制御する人工遺伝子回路と、バイオアルコールなどの有用物質を生産する合成代謝経路を構築する。代謝工学、培養、計算解析で系を最適化し、複合微生物系の利用も探る。",
+      "summary_en": "Designs artificial genetic circuits that regulate gene expression and synthetic metabolic pathways that produce bioalcohols and other useful compounds. Metabolic engineering, cultivation and computational analysis guide optimization, alongside microbial communities for biorefinery applications.",
+      "theme_tw": "設計基因迴路與代謝途徑，開發微生物製造",
+      "summary_tw": "圍繞微生物的可設計功能，建構調控基因表現的人工基因迴路，以及生產生質醇等有用物質的合成代謝途徑。結合代謝工程、培養與計算分析最佳化系統，並研究複合微生物群用於生物精煉的基礎技術。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "synthetic_biotechnology-7"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "北海道大学",
+      "department": "大学院総合化学院 総合化学専攻",
+      "lab": "生物合成化学研究室",
+      "pi": "松本 謙一郎",
+      "pi_title": "教授",
+      "theme_zh": "改造微生物与酶，生物合成可降解塑料",
+      "summary_zh": "通过改造微生物的聚酯生物合成系统，研究天然体系难以生成的高分子材料。结合酶的人工进化与代谢工程，探索以可再生生物质生产可降解塑料的方法，并解析合成机制与材料性质之间的联系。",
+      "keywords": [
+        "生物制造",
+        "代谢工程",
+        "酶工程",
+        "生物塑料",
+        "可降解材料"
+      ],
+      "url": "https://biosynchem.eng.hokudai.ac.jp/",
+      "references": [
+        {
+          "url": "https://apchem.eng.hokudai.ac.jp/lab/biosynthetic-chemistry/",
+          "evidence": "工学部官方研究室介绍明确列松本谦一郎教授为PI，说明通过酶的人工进化改造微生物合成系统，研究非天然聚酯和可降解塑料。"
+        },
+        {
+          "url": "https://biosynchem.eng.hokudai.ac.jp/",
+          "evidence": "研究室首页确认生物合成化学研究室名称，并列出2026年研究发表、修士论文和大学院入试动态。"
+        },
+        {
+          "url": "https://www.cse.hokudai.ac.jp/wp-content/uploads/2026/04/cse_mc_202704.pdf",
+          "evidence": "2027年度修士募集要项的指导教员表列生物合成化学研究室松本谦一郎教授，确认总合化学专攻指导归属。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "微生物と酵素を改変し、生分解性プラスチックを生合成する",
+      "theme_en": "Engineering microbes and enzymes to biosynthesize biodegradable plastics.",
+      "summary_ja": "微生物のポリエステル生合成系を改変し、天然にはない高分子材料の創出を研究する。酵素の人工進化と代謝工学を組み合わせ、再生可能なバイオマスから生分解性プラスチックを合成し、その反応機構と物性の関係を調べる。",
+      "summary_en": "Engineers microbial polyester biosynthesis to create polymers beyond those found in nature. Enzyme evolution and metabolic engineering support production of biodegradable plastics from renewable biomass, alongside studies of synthesis mechanisms and material properties.",
+      "theme_tw": "改造微生物與酵素，生物合成可分解塑膠",
+      "summary_tw": "透過改造微生物的聚酯生物合成系統，研究天然系統難以生成的高分子材料。結合酵素的人工演化與代謝工程，探索以可再生生質資源生產可分解塑膠的方法，並解析合成機制與材料性質之間的關聯。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "synthetic_biotechnology-8"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "神戸大学",
+      "department": "大学院工学研究科 応用化学専攻",
+      "lab": "バイオ生産工学研究室（荻野グループ）",
+      "pi": "荻野 千秋",
+      "pi_title": "教授",
+      "theme_zh": "以微生物转化农业残余物，开发生物制造",
+      "summary_zh": "利用微生物把农业残余物、废油等未利用资源转化为生物燃料、油脂和化学品。结合代谢工程、原料预处理与发酵过程设计，研究从生物质到产品的统合生物炼制系统，探索资源循环与生物制造的衔接。",
+      "keywords": [
+        "代谢工程",
+        "生物炼制",
+        "生物燃料",
+        "微生物油脂",
+        "生物质利用"
+      ],
+      "url": "https://www2.kobe-u.ac.jp/~akondo/",
+      "references": [
+        {
+          "url": "https://kuid-rm-web.ofc.kobe-u.ac.jp/search/detail.html?lang=ja&systemId=cb7c84b4e252c367520e17560c007669",
+          "evidence": "神户大学研究者目录确认荻野千秋为大学院工学研究科应用化学专攻教授，并列出生物过程工学方向及2026年研究论文。"
+        },
+        {
+          "url": "https://www.sdgs.kobe-u.ac.jp/project03/renewable-energy/cn_10_ogino.html",
+          "evidence": "大学专题明确称荻野研究室，介绍农业残余物经微生物转化为燃料和化学品的研究，并列荻野为SATREPS项目代表。"
+        },
+        {
+          "url": "https://www2.kobe-u.ac.jp/~akondo/",
+          "evidence": "研究室首页2026年9月动态明确列出荻野千秋教授独立研究组的微生物油脂生产主题，同时记录近藤昭彦已退官。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "微生物で農業残さを変換し、バイオものづくりを進める",
+      "theme_en": "Converting agricultural residues with microbes for biomanufacturing.",
+      "summary_ja": "農業残さや廃油などの未利用資源を微生物で変換し、バイオ燃料、油脂、化学品を生産する。代謝工学、原料の前処理、発酵プロセス設計を組み合わせ、資源循環につながる統合バイオリファイナリーシステムを研究する。",
+      "summary_en": "Uses microbes to convert agricultural residues, waste oils and other underused resources into biofuels, lipids and chemicals. Metabolic engineering, feedstock pretreatment and fermentation process design are combined to develop integrated biorefineries that connect resource circulation with biomanufacturing.",
+      "theme_tw": "以微生物轉化農業剩餘資材，開發生物製造",
+      "summary_tw": "利用微生物把農業剩餘資材、廢油等未利用資源轉化為生質燃料、油脂和化學品。結合代謝工程、原料前處理與發酵製程設計，研究從生物質到產品的整合生物精煉系統，探索資源循環與生物製造的銜接。",
+      "aliases": [
+        "神户大学",
+        "神戶大學",
+        "Kobe University"
+      ],
+      "id": "synthetic_biotechnology-9"
+    },
+    {
+      "field": "synthetic_biotechnology",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 生命分子工学専攻",
+      "lab": "分子生命環境プロセス（堀研究室）",
+      "pi": "堀 克敏",
+      "pi_title": "教授",
+      "theme_zh": "固定化细菌与气体原料生物制造",
+      "summary_zh": "研究细菌表面结构、黏附与界面相互作用，并把细胞固定化用于生物制造。围绕气体原料利用和微生物催化，探索从工业废气等资源生产化学品的过程，同时研究低水分条件下的细胞功能与稳定性。",
+      "keywords": [
+        "气体生物制造",
+        "细胞固定化",
+        "界面微生物工程",
+        "微生物催化",
+        "资源循环"
+      ],
+      "url": "https://www.chembio.nagoya-u.ac.jp/labhp/life3/index.html",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100005751_ja.html",
+          "evidence": "2026年6月29日更新的大学教员目录列出堀克敏为大学院工学研究科生命分子工学专攻教授及大学院担当，研究领域包括生物过程工程，研究关键词包括合成生物学。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/life3/index.html",
+          "evidence": "大学域名下的研究室主页列出正式名称分子生命环境过程堀研究室，介绍细菌表面和界面微生物工程，最新动态更新至2026年10月30日并包括博士生获奖。"
+        },
+        {
+          "url": "https://www.nagoya-u.ac.jp/researchinfo/result/2026/03/post-969.html",
+          "evidence": "大学2026年3月25日成果报道确认堀克敏教授带领研究，介绍细胞固定化与气体原料生物制造，以及低水分条件下细胞功能和催化稳定性研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "固定化細菌による気体原料からのバイオものづくり",
+      "theme_en": "Immobilized bacteria for biomanufacturing from gaseous resources.",
+      "summary_ja": "細菌の表層構造や付着、界面での相互作用を調べ、細胞の固定化をものづくりに応用する。気体原料を利用する微生物触媒とバイオプロセスを研究し、低水分環境での細胞機能や安定性も検討する。",
+      "summary_en": "Studies bacterial surfaces, adhesion and interfacial interactions to develop immobilized-cell bioprocesses. Research explores microbial conversion of gaseous resources into useful chemicals and examines cell function and stability under low-moisture conditions.",
+      "theme_tw": "固定化細菌與氣體原料生物製造",
+      "summary_tw": "研究細菌表面結構、黏附與界面交互作用，並把細胞固定化用於生物製造。圍繞氣體原料利用和微生物催化，探索從工業廢氣等資源生產化學品的過程，同時研究低含水條件下的細胞功能與穩定性。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "synthetic_biotechnology-10"
+    },
+    {
       "field": "bioinformatics_ai",
       "university": "早稲田大学",
       "department": "先進理工学部／大学院先進理工学研究科 電気・情報生命工学科・専攻",
@@ -6056,6 +6436,382 @@
         "Keio University"
       ],
       "id": "bioinformatics_ai-2"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "東京科学大学",
+      "department": "大学院医歯学総合研究科 生命理工医療科学専攻",
+      "lab": "ゲノム機能情報分野",
+      "pi": "二階堂 愛",
+      "pi_title": "教授",
+      "theme_zh": "以单细胞组学和生成式AI解析基因组功能",
+      "summary_zh": "结合基因组测量与数据科学，开发从大规模基因表达数据中提取知识的算法。研究单细胞、空间转录组和多组学分析，利用机器学习与生成式AI识别细胞状态，探索难治性疾病的机制。",
+      "keywords": [
+        "单细胞组学",
+        "空间转录组",
+        "多组学",
+        "生成式AI",
+        "基因组功能"
+      ],
+      "url": "https://www.nikaidolab.org/",
+      "references": [
+        {
+          "url": "https://reins.tmd.ac.jp/html/100034617_ja.html",
+          "evidence": "大学研究者目录于2026年7月更新，列二階堂愛为现任教授，确认难治疾患研究所及大学院所属，并链接研究室自有域名。"
+        },
+        {
+          "url": "https://www.nikaidolab.org/",
+          "evidence": "研究室主页列二階堂愛教授及现行成员，说明大学院修士与博士教育归属，以及基因组信息分析和组学基础模型研究。"
+        },
+        {
+          "url": "https://www.nikaidolab.org/project",
+          "evidence": "研究项目页介绍大规模基因表达数据的机器学习、生成式AI、单细胞及空间转录组与多组学分析技术。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "単一細胞オミクスと生成AIでゲノム機能を解明する",
+      "theme_en": "Exploring genome function through single-cell omics and generative AI.",
+      "summary_ja": "ゲノム計測とデータ科学を組み合わせ、大規模な遺伝子発現データから知識を得る手法を開発する。単一細胞・空間オミクスを解析し、機械学習や生成AIで細胞の状態を捉え、難治性疾患の機構解明につなげる。",
+      "summary_en": "Combines genome measurement with data science to extract knowledge from large gene-expression datasets. Develops single-cell, spatial and multi-omics methods, using machine learning and generative AI to study cell states and mechanisms of intractable diseases.",
+      "theme_tw": "以單細胞體學和生成式AI解析基因體功能",
+      "summary_tw": "結合基因體量測與資料科學，開發從大規模基因表現資料中擷取知識的演算法。研究單細胞、空間轉錄體和多體學分析，利用機器學習與生成式AI辨識細胞狀態，探索難治性疾病的機制。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "bioinformatics_ai-3"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "九州大学",
+      "department": "大学院システム生命科学府 システム生命科学専攻",
+      "lab": "バイオメディカル情報解析分野",
+      "pi": "長﨑 正朗",
+      "pi_title": "教授",
+      "theme_zh": "大规模基因组与组学的信息解析",
+      "summary_zh": "以大规模人类基因组、组学和临床数据为对象，开发信息解析方法及软件。结合高性能计算、云计算与机器学习，开展转录因子结合预测，并将方法用于队列及临床样本的数据分析。",
+      "keywords": [
+        "基因组解析",
+        "多组学",
+        "机器学习",
+        "转录因子",
+        "云计算"
+      ],
+      "url": "https://nagasakilab.csml.org/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022500_ja.html",
+          "evidence": "2026年更新的大学教员页确认長﨑正朗为教授，主宰生物医学信息解析分野，并兼任系统生命科学府。"
+        },
+        {
+          "url": "https://www.sls.kyushu-u.ac.jp/study/course/medical_molecular_cell_biology/biomedical_information_analysis/",
+          "evidence": "大学院分野页列明長﨑正朗教授及大规模基因组、组学和临床数据解析研究，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.kyushu-u.ac.jp/ja/researches/view/1373/",
+          "evidence": "大学研究成果页介绍研究室开发量子机器学习模型，用于预测转录因子的DNA结合模式。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "大規模ゲノム・オミクスの情報解析",
+      "theme_en": "Computational analysis of large-scale genomes and omics",
+      "summary_ja": "ヒトの大規模ゲノム・オミクス・臨床情報を対象に、情報解析手法とソフトウェアを開発します。高性能計算やクラウド、機械学習を活用し、転写因子結合の予測やコホート・臨床検体のデータ解析を進めます。",
+      "summary_en": "Develops computational methods and software for large-scale human genome, omics and clinical data. Using high-performance computing, cloud resources and machine learning, the group predicts transcription-factor binding and analyzes cohort and clinical samples.",
+      "theme_tw": "大規模基因體與體學的資訊分析",
+      "summary_tw": "以大規模人類基因體、體學和臨床資料為對象，開發資訊分析方法及軟體。結合高效能運算、雲端運算與機器學習，進行轉錄因子結合預測，並將方法用於世代研究及臨床檢體的資料分析。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "bioinformatics_ai-4"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "東北大学",
+      "department": "大学院情報科学研究科 応用情報科学専攻",
+      "lab": "生命情報システム科学分野（木下・西研究室）",
+      "pi": "木下 賢吾",
+      "pi_title": "教授",
+      "theme_zh": "从基因组与多组学解析生命系统",
+      "summary_zh": "围绕基因组变异、基因表达与代谢物等数据，开发统计解析、机器学习和数理模型方法。结合共表达网络、单细胞分析与多组学参照数据库，研究基因功能及个体差异，并联系个体化医疗中的数据解释。",
+      "keywords": [
+        "基因组",
+        "多组学",
+        "共表达网络",
+        "单细胞分析",
+        "机器学习"
+      ],
+      "url": "https://www.sb.ecei.tohoku.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.is.tohoku.ac.jp/jp/laboratory/list_dept/d04.html",
+          "evidence": "信息科学研究科官网列出生命信息系统科学分野的木下贤吾教授及应用信息科学专攻，介绍基因组、基因表达等大数据解析。"
+        },
+        {
+          "url": "https://www.sb.ecei.tohoku.ac.jp/members",
+          "evidence": "研究室成员页列木下贤吾为信息科学研究科教授，并列在读硕士及2026年毕业成员，履历记载现职与2025年新任兼职。"
+        },
+        {
+          "url": "https://www.sb.ecei.tohoku.ac.jp/research",
+          "evidence": "研究内容页介绍共表达网络、单细胞解析、基因组与多组学解析，以及统计方法、机器学习和数理模型的应用。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "ゲノムとマルチオミックスで生命システムを探る",
+      "theme_en": "Understanding biological systems through genomes and multi-omics.",
+      "summary_ja": "ゲノム変異、遺伝子発現、代謝物などを統計解析・機械学習・数理モデルで調べます。共発現ネットワークやシングルセル解析、マルチオミックス参照情報を通じて、遺伝子機能と個人差の理解、個別化医療に取り組みます。",
+      "summary_en": "The laboratory develops statistical, machine-learning and mathematical approaches to genome variants, gene expression and metabolites. Coexpression networks, single-cell analysis and multi-omics reference resources support studies of gene function, individual variation and personalized medicine.",
+      "theme_tw": "從基因體與多體學解析生命系統",
+      "summary_tw": "圍繞基因體變異、基因表現與代謝物等資料，開發統計分析、機器學習和數理模型方法。結合共表現網路、單細胞分析與多體學參照資料庫，研究基因功能及個體差異，並連結個人化醫療中的資料解讀。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "bioinformatics_ai-5"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "京都大学",
+      "department": "大学院生命科学研究科 高次生命科学専攻",
+      "lab": "生命データサイエンス分野",
+      "pi": "バンデンボン アレクシス",
+      "pi_title": "准教授",
+      "theme_zh": "单细胞与空间组学算法及数据库",
+      "summary_zh": "开发单细胞与空间转录组的分析方法，从高维数据中识别具有结构的基因表达模式。整合不同组织和条件的组学数据，建设可交互探索的空间转录组数据库，研究细胞的空间组织、相互作用及疾病相关变化。",
+      "keywords": [
+        "单细胞组学",
+        "空间转录组",
+        "基因表达",
+        "数据整合",
+        "数据库"
+      ],
+      "url": "https://genomics.virus.kyoto-u.ac.jp/lab/index_ja.html",
+      "references": [
+        {
+          "url": "https://www.infront.kyoto-u.ac.jp/laboratory/labo32/",
+          "evidence": "医生物学研究所分野页列Alexis Vandenbon准教授，介绍单细胞、空间转录组及组学整合方法和数据库。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.93f7f31f7bec2ec4.html",
+          "evidence": "2026年更新的大学教员数据库确认日文姓名、准教授现职及生命科学研究科高次生命科学专攻协力讲座所属。"
+        },
+        {
+          "url": "https://genomics.virus.kyoto-u.ac.jp/lab/ja/members.html",
+          "evidence": "2026年7月成员页列负责人Vandenbon准教授及博士生、硕士生，确认该研究组持续开展大学院指导。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "シングルセル・空間オミクスの手法とデータベース",
+      "theme_en": "Methods and databases for single-cell and spatial omics",
+      "summary_ja": "シングルセル・空間トランスクリプトームの解析手法を開発し、高次元データから遺伝子発現のパターンを抽出します。組織や条件をまたぐデータの統合とデータベース構築により、細胞の空間配置や相互作用、疾患時の変化を探ります。",
+      "summary_en": "Develops methods to identify gene-expression patterns in single-cell and spatial transcriptomics. By integrating datasets across tissues and conditions and building interactive databases, the group studies cellular organization, interactions and changes associated with disease.",
+      "theme_tw": "單細胞與空間體學演算法及資料庫",
+      "summary_tw": "開發單細胞與空間轉錄體的分析方法，從高維度資料中辨識具有結構的基因表現模式。整合不同組織和條件的體學資料，建置可互動探索的空間轉錄體資料庫，研究細胞的空間組織、交互作用及疾病相關變化。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "bioinformatics_ai-6"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "東京大学",
+      "department": "大学院情報理工学系研究科 コンピュータ科学専攻",
+      "lab": "医療データ情報学分野（渋谷研究室）",
+      "pi": "渋谷 哲朗",
+      "pi_title": "教授",
+      "theme_zh": "开发大规模基因组搜索与隐私保护算法",
+      "summary_zh": "面向大规模基因组和医学数据，开发高速搜索、索引及机器学习算法。结合差分隐私与安全计算，研究在保护个人信息的同时开展数据分析的方法，并将相关技术用于临床测序和个体化基因组医疗。",
+      "keywords": [
+        "基因组算法",
+        "高速搜索",
+        "差分隐私",
+        "安全计算",
+        "机器学习"
+      ],
+      "url": "https://shibuyalab.hgc.jp/index-j.html",
+      "references": [
+        {
+          "url": "https://www.i.u-tokyo.ac.jp/edu/course/cs/2026labintro_ja_2025-09-12.pdf",
+          "evidence": "2026年度专攻研究室介绍列渋谷哲朗教授及渋谷研究室，说明基因组搜索、隐私保护和机器学习研究，并链接研究室域名。"
+        },
+        {
+          "url": "https://shibuyalab.hgc.jp/index-j.html",
+          "evidence": "研究室主页列渋谷哲朗教授、医科学研究所及大学院协力讲座所属，列现行硕博士成员与2026年动态，并介绍基因组算法研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "大規模ゲノム検索とプライバシー保護のアルゴリズムを開発する",
+      "theme_en": "Developing algorithms for large-scale genome search and privacy protection.",
+      "summary_ja": "大規模なゲノム・医科学データを扱う高速検索、索引、機械学習の手法を開発する。差分プライバシーや秘匿計算を組み合わせて個人情報を守る解析を研究し、臨床シークエンスや個人ゲノム医療への応用を目指す。",
+      "summary_en": "Develops fast search, indexing and machine-learning algorithms for large genomic and biomedical datasets. Studies differential privacy and secure computation to protect personal information, with applications to clinical sequencing and personalized genomic medicine.",
+      "theme_tw": "開發大規模基因體搜尋與隱私保護演算法",
+      "summary_tw": "面向大規模基因體和醫學資料，開發高速搜尋、索引及機器學習演算法。結合差分隱私與安全計算，研究在保護個人資訊的同時進行資料分析的方法，並將相關技術用於臨床定序和個人化基因體醫療。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "bioinformatics_ai-7"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "広島大学",
+      "department": "大学院統合生命科学研究科 統合生命科学専攻",
+      "lab": "ゲノム情報科学研究室",
+      "pi": "坊農 秀雅",
+      "pi_title": "教授",
+      "theme_zh": "公共组学数据整合与基因功能解析",
+      "summary_zh": "围绕基因功能解析，整合公共数据库中的转录组与基因组信息，开展荟萃分析和比较基因组研究。开发数据解析流程、功能注释和数据库利用技术，为理解非模式生物及数据驱动育种提供计算基础。",
+      "keywords": [
+        "公共数据库",
+        "转录组",
+        "荟萃分析",
+        "比较基因组",
+        "功能注释"
+      ],
+      "url": "https://bonohu.hiroshima-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://seeds.office.hiroshima-u.ac.jp/profile/ja.9a89391e544690f2520e17560c007669.html",
+          "evidence": "2026年11月更新的大学教员页确认坊农秀雅为统合生命科学研究科教授，负责硕博教育，研究基因功能解析和公共数据库利用。"
+        },
+        {
+          "url": "https://bonohu.hiroshima-u.ac.jp/",
+          "evidence": "研究室首页介绍公共数据库荟萃分析、比较基因组、组学解析流程和数据库开发，并列出2026年11月动态。"
+        },
+        {
+          "url": "https://www.bonohu.hiroshima-u.ac.jp/member.html",
+          "evidence": "2026年10月成员页明确官方研究室名为基因组信息科学研究室，列坊农秀雅为教授及独立负责人，并列硕博在籍生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "公共オミクスデータの統合と遺伝子機能解析",
+      "theme_en": "Public omics data integration and analysis of gene function",
+      "summary_ja": "公共データベースのトランスクリプトームやゲノム情報を活用し、メタ解析と比較ゲノム解析で遺伝子機能を調べます。解析ワークフロー、機能注釈、データベース利用技術を開発し、非モデル生物の理解とデジタル育種を支えます。",
+      "summary_en": "Uses public transcriptome and genome data for meta-analysis and comparative genomics of gene function. The group develops analysis workflows, functional annotation and database tools to support studies of non-model organisms and data-driven breeding.",
+      "theme_tw": "公共體學資料整合與基因功能分析",
+      "summary_tw": "圍繞基因功能分析，整合公共資料庫中的轉錄體與基因體資訊，進行統合分析和比較基因體研究。開發資料分析流程、功能註解和資料庫利用技術，為理解非模式生物及資料驅動育種提供運算基礎。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "bioinformatics_ai-8"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "北里大学",
+      "department": "大学院未来工学研究科 生命データサイエンス専攻",
+      "lab": "人工知能研究室",
+      "pi": "榊原 康文",
+      "pi_title": "教授",
+      "theme_zh": "用语言模型解析生物序列与菌群信息",
+      "summary_zh": "结合深度学习、生成模型与统计分析，从DNA和蛋白质序列中识别功能相关模式。研究生物序列语言模型及肠道菌群基因表达数据，连接遗传变异、分子功能与疾病相关信息。",
+      "keywords": [
+        "生物信息学",
+        "语言模型",
+        "深度学习",
+        "肠道菌群",
+        "基因表达"
+      ],
+      "url": "https://www.kitasato-u.ac.jp/fr-eng/laboratory/ai/",
+      "references": [
+        {
+          "url": "https://www.kitasato-u.ac.jp/fr-eng/laboratory/ai/",
+          "evidence": "研究室官网列榊原康文为教授，介绍生物序列语言模型及利用AI和统计方法分析肠道菌群基因表达的研究。"
+        },
+        {
+          "url": "https://www.kitasato-u.ac.jp/fr-eng/grad/",
+          "evidence": "大学院官网明确所属为未来工学研究科生命数据科学专攻，并列榊原康文为人工智能及其创新应用研究领域教员。"
+        },
+        {
+          "url": "https://tmp.kitasato-u.ac.jp/cypochi/cms/preview/album/0002/abm00044597.pdf/sitekey=2:houjin/sitekey=2:houjin",
+          "evidence": "学校法人2025年2月人事报告第4页列榊原康文为未来工学研究科专任教授，任期为2025年4月1日至2030年3月31日。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "言語モデルで生体配列と腸内細菌叢を解析する",
+      "theme_en": "Language models for biological sequences and microbiome data.",
+      "summary_ja": "深層学習や生成AI、統計解析を用い、DNA・タンパク質配列の機能に関わるパターンを調べる。生体配列の言語モデルや腸内細菌叢の遺伝子発現解析を通じ、遺伝子変異と分子機能、疾患との関係を探る。",
+      "summary_en": "Develops language models and statistical methods to analyze DNA and protein sequences. The lab also studies gene-expression profiles of gut microbial communities, linking biological sequence patterns with molecular functions, genetic variation and disease-related information.",
+      "theme_tw": "以語言模型解析生物序列與菌相資訊",
+      "summary_tw": "結合深度學習、生成模型與統計分析，從DNA和蛋白質序列中辨識功能相關模式。研究生物序列語言模型及腸道菌相基因表現資料，連結遺傳變異、分子功能與疾病相關資訊。",
+      "aliases": [
+        "北里大学",
+        "北里大學",
+        "Kitasato University"
+      ],
+      "id": "bioinformatics_ai-9"
+    },
+    {
+      "field": "bioinformatics_ai",
+      "university": "東北大学",
+      "department": "大学院医学系研究科 医科学専攻",
+      "lab": "AIフロンティア新医療創生分野",
+      "pi": "田宮 元",
+      "pi_title": "教授",
+      "theme_zh": "用人工智能与遗传统计解析疾病风险",
+      "summary_zh": "面向基因组队列与生物样本库的大规模数据，结合人工智能、机器学习和遗传统计学，寻找与疾病及性状有关的基因、生活方式及其相互作用。研究疾病风险估计、基因组筛查与临床测序数据解释。",
+      "keywords": [
+        "人工智能",
+        "遗传统计学",
+        "基因组队列",
+        "疾病风险",
+        "临床测序"
+      ],
+      "url": "https://www.med.tohoku.ac.jp/lab/343/",
+      "references": [
+        {
+          "url": "https://www.med.tohoku.ac.jp/lab/343/",
+          "evidence": "医学系研究科研究室页列出医科学专攻修士与博士课程、田宫元教授，以及基因组队列、机器学习、遗传统计学和疾病风险估计等研究。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/2aa62cbf2a209ad5ce72276ac9e83ed5.html",
+          "evidence": "大学研究者目录列出田宫元现任医学系研究科AI前沿新医疗创生分野教授，关键词含人工智能、机器学习与基因组医学。"
+        },
+        {
+          "url": "https://www.shp.hosp.tohoku.ac.jp/Clinical_AI/members/",
+          "evidence": "大学医院医疗AI人才培养页面确认田宫元的教授职位和分野所属，介绍利用大规模基因组队列与生物样本库估计疾病发病风险。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "人工知能と遺伝統計学による疾患リスク解析",
+      "theme_en": "Analyzing disease risk with AI and statistical genetics.",
+      "summary_ja": "大規模ゲノムコホート・バイオバンクのデータを、人工知能や機械学習、遺伝統計学で解析します。疾患や形質に関わる遺伝子と生活習慣、その相互作用を調べ、発症リスク推定や臨床シークエンス解析に取り組みます。",
+      "summary_en": "The laboratory applies AI, machine learning and statistical genetics to large genome cohorts and biobanks. It studies genes, lifestyles and their interactions associated with diseases and traits, working on disease-risk estimation, genomic screening and interpretation of clinical sequencing data.",
+      "theme_tw": "以人工智慧與遺傳統計解析疾病風險",
+      "summary_tw": "面向基因體世代研究與生物資料庫的大規模資料，結合人工智慧、機器學習和遺傳統計學，尋找與疾病及性狀有關的基因、生活方式及其交互作用。研究疾病風險估計、基因體篩檢與臨床定序資料解讀。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "bioinformatics_ai-10"
     },
     {
       "field": "food_nutrition",
@@ -6142,6 +6898,383 @@
       "id": "food_nutrition-2"
     },
     {
+      "field": "food_nutrition",
+      "university": "東京大学",
+      "department": "大学院農学生命科学研究科 応用生命化学専攻",
+      "lab": "食品生化学研究室",
+      "pi": "山内 祥生",
+      "pi_title": "教授",
+      "theme_zh": "脂质代谢调控与预防生活习惯病的食品功能",
+      "summary_zh": "从脂质代谢调控角度开展分子细胞生物学研究，解析调控胆固醇和脂肪酸合成的转录因子SREBP、骨骼肌代谢调控及脂肪细胞脂滴形成，并从中寻找可模拟运动效果或抗肥胖的食品成分，用于预防生活习惯病。",
+      "keywords": [
+        "脂质代谢",
+        "转录因子",
+        "骨骼肌",
+        "肥胖",
+        "食品功能"
+      ],
+      "url": "https://park.itc.u-tokyo.ac.jp/food-biochem/",
+      "references": [
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/food-biochem/memberlist.html",
+          "evidence": "研究室成员页（2026年4月现在）列出教授山内祥生、助教高橋裕。"
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/food-biochem/research.html",
+          "evidence": "研究内容页说明三大主题：SREBP等调控脂质代谢的转录因子、骨骼肌代谢调控与“运动功能性食品成分”、脂肪细胞脂滴形成与抗肥胖。"
+        },
+        {
+          "url": "https://www.bt.a.u-tokyo.ac.jp/profile/applied-life-chemistry/core-courses/food-science/605-profile/",
+          "evidence": "应用生命化学专攻研究室介绍页列山内祥生为食品生化学研究室主任教员・教授，课题含生活习惯病预防的脂质代谢调控、骨骼肌稳态和用人iPS细胞评价食品成分功能。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "脂質代謝制御の分子機構と生活習慣病を予防する食品機能を探る",
+      "theme_en": "Molecular control of lipid metabolism and food components that help prevent lifestyle-related diseases.",
+      "summary_ja": "脂質代謝制御の観点から生活習慣病を分子細胞生物学的に研究。コレステロールや脂肪酸の合成を司る転写因子SREBP、骨格筋の代謝制御、脂肪細胞の脂肪滴形成を解析し、運動効果を模倣する食品成分や抗肥満につながる食品成分を探索する。",
+      "summary_en": "Studies lifestyle-related diseases from the standpoint of lipid metabolism control. The lab analyzes SREBP transcription factors that govern cholesterol and fatty acid synthesis, metabolic regulation in skeletal muscle and lipid droplet formation in adipocytes, and searches for food components that mimic exercise or counter obesity.",
+      "theme_tw": "脂質代謝調控與預防生活習慣病的食品功能",
+      "summary_tw": "從脂質代謝調控角度開展分子細胞生物學研究，解析調控膽固醇和脂肪酸合成的轉錄因子SREBP、骨骼肌代謝調控及脂肪細胞脂滴形成，並從中尋找可模擬運動效果或抗肥胖的食品成分，用於預防生活習慣病。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "food_nutrition-3"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "京都大学",
+      "department": "大学院農学研究科 食品生物科学専攻",
+      "lab": "栄養化学分野（佐々木研究室）",
+      "pi": "佐々木 努",
+      "pi_title": "教授",
+      "theme_zh": "营养素特异性食欲与饮食行为的调控机制",
+      "summary_zh": "结合神经科学、内分泌代谢学、分子生物学和遗传学，研究机体如何依据营养需求调节对糖、脂质和蛋白质的食欲，解析以肝脏为中心的器官间联系、饮酒欲望调控和食物嗜好的神经回路，并探索相关功能成分。",
+      "keywords": [
+        "食欲调控",
+        "营养素嗜好",
+        "器官间联系",
+        "饮酒调控",
+        "神经回路"
+      ],
+      "url": "https://www.nutrchem.kais.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.nutrchem.kais.kyoto-u.ac.jp/research.html",
+          "evidence": "研究内容页说明基于营养素需求的食欲调控（单糖、中链脂肪酸、脂质与蛋白质）、以肝脏为中心的器官联系、饮酒欲望调控、食物嗜好神经回路及CD36感知食品香气等课题。"
+        },
+        {
+          "url": "https://www.nutrchem.kais.kyoto-u.ac.jp/member.html",
+          "evidence": "成员页列出教授佐々木努，助教都築巧、松居翔。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.1124dd8a82f393e0.html",
+          "evidence": "京都大学教育研究活动数据库列佐々木努为农学研究科食品生物科学专攻食品健康科学讲座教授（2019年起），研究饮食行为调控，含FGF21、催产素等代谢信号。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "栄養素に基づく食欲と飲食行動を制御するしくみを解明する",
+      "theme_en": "Uncovering how nutrient-specific appetite and eating and drinking behavior are controlled.",
+      "summary_ja": "神経科学・内分泌代謝学・分子生物学・遺伝学を取り入れ、栄養素ニーズに応じて糖・脂質・タンパク質への食欲が調節される仕組みを研究。肝臓を中心とした臓器連関、飲酒の調節、食嗜好の神経回路を解析し、関連する機能性成分も探索する。",
+      "summary_en": "Combines neuroscience, endocrinology and metabolism, molecular biology and genetics to study how appetite for sugars, fats and proteins is adjusted to the body's nutrient needs. Topics include liver-centered inter-organ signaling such as FGF21, control of alcohol drinking, neural circuits of food preference and functional compounds acting on these pathways.",
+      "theme_tw": "營養素特異性食慾與飲食行為的調控機制",
+      "summary_tw": "結合神經科學、內分泌代謝學、分子生物學和遺傳學，研究機體如何依據營養需求調節對糖、脂質和蛋白質的食慾，解析以肝臟為中心的器官間聯繫、飲酒慾望調控和食物嗜好的神經迴路，並探索相關功能成分。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "food_nutrition-4"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "東北大学",
+      "department": "大学院農学研究科 農芸化学専攻",
+      "lab": "食品機能分析学分野（仲川研究室）",
+      "pi": "仲川 清隆",
+      "pi_title": "教授",
+      "theme_zh": "精确解析脂质过氧化并调控食品与生物体氧化",
+      "summary_zh": "以食品和生物体中的脂质氧化为核心，合成高纯度过氧化脂质标准品，开发可在异构体水平定量的质谱方法，解析食品氧化劣化以及认知障碍症、动脉硬化和癌症中的脂质过氧化机制，并利用食品成分防御脂质过氧化。",
+      "keywords": [
+        "脂质过氧化",
+        "质谱分析",
+        "食品氧化",
+        "抗氧化",
+        "食品化学"
+      ],
+      "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/shokuhinkinou/",
+      "references": [
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/shokuhinkinou/",
+          "evidence": "农学研究科研究室页列教授仲川清隆，研究包括过氧化脂质高纯度标准品合成、异构体水平的质谱定量、食品氧化劣化及认知障碍症・动脉硬化・癌中的脂质过氧化机制。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/126ebef39cff8574052634d807f05586.html",
+          "evidence": "东北大学研究者信息列仲川清隆为农学研究科农芸化学专攻食品天然物化学讲座（食品机能分析学分野）教授（2016年起），研究食品与生体成分的氧化及其控制。"
+        },
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/highlights/20261112_02/",
+          "evidence": "2026年11月研究亮点：仲川清隆教授（食品机能分析学分野）团队发现过量α-生育酚促进食用油氧化时会显著增加特征性氧化物。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "過酸化脂質を精密に分析し、食品と生体の脂質酸化を解明・制御する",
+      "theme_en": "Precise analysis of lipid peroxidation to understand and control oxidation in foods and in the body.",
+      "summary_ja": "食品と生体の脂質酸化を中心テーマに、高純度の過酸化脂質標品を合成し、異性体レベルで定量できる質量分析法を開発。食品の酸化劣化や、認知症・動脈硬化・がんにおける脂質過酸化の機構を解明し、食品成分による脂質過酸化の防御へ応用する。",
+      "summary_en": "Focuses on lipid oxidation in foods and in the body. The lab synthesizes high-purity lipid hydroperoxide standards, develops mass spectrometry that quantifies them at the isomer level, clarifies oxidative deterioration of foods and lipid peroxidation in dementia, atherosclerosis and cancer, and applies food components to protect against it.",
+      "theme_tw": "精確解析脂質過氧化並調控食品與生物體氧化",
+      "summary_tw": "以食品和生物體中的脂質氧化為核心，合成高純度過氧化脂質標準品，開發可在異構體層級定量的質譜方法，解析食品氧化劣化以及失智症、動脈硬化和癌症中的脂質過氧化機制，並利用食品成分防禦脂質過氧化。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "food_nutrition-5"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "名古屋大学",
+      "department": "大学院生命農学研究科 応用生命科学専攻",
+      "lab": "食理神経科学研究室",
+      "pi": "中島 健一朗",
+      "pi_title": "教授",
+      "theme_zh": "大脑感知味道与营养并形成食物嗜好的神经机制",
+      "summary_zh": "以小鼠为模型，利用光遗传学、DREADD和钙成像操控并记录神经活动，研究大脑如何感知营养成分、味物质和气味，肠道感知的食品信息如何影响食物偏好，以及饥饿、肥胖和社会压力如何改变味觉与嗜好。",
+      "keywords": [
+        "味觉",
+        "食物嗜好",
+        "肠脑轴",
+        "摄食行为",
+        "神经回路"
+      ],
+      "url": "https://profs.provost.nagoya-u.ac.jp/html/100012581_ja.html",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100012581_ja.html",
+          "evidence": "名古屋大学研究者信息列中島健一朗为生命农学研究科应用生命科学专攻教授（2022年起），研究饥饿与压力引起的味觉变化及产生营养素嗜好的肠脑轴神经网络。"
+        },
+        {
+          "url": "https://alimentary-neuroscience.labby.jp/about",
+          "evidence": "研究室主页（食理神经科学研究室，名古屋大学大学院生命农学研究科应用生命科学专攻）说明研究脑如何感知营养成分、味物质和气味物质并产生食欲与食物偏好，采用光遗传学、DREADD和钙成像。"
+        },
+        {
+          "url": "https://www.nagoya-u.ac.jp/researchinfo/result/2025/10/y.html",
+          "evidence": "名古屋大学2025年10月研究成果发布：生命农学研究科中島健一朗教授等发现糖缺乏时分别驱动高脂饮食与高碳水饮食摄取的NPY神经。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "脳が味や栄養を感知し、食欲や食の好みを生み出す神経機構を探る",
+      "theme_en": "Neural mechanisms by which the brain senses taste and nutrients to generate appetite and food preferences.",
+      "summary_ja": "マウスを用い、光遺伝学、DREADD、カルシウムイメージングで神経活動を操作・計測し、脳が栄養成分・味・匂いを感知する仕組み、腸で感知された食品情報が嗜好に及ぼす影響、空腹・肥満・社会的ストレスによる味覚と嗜好の変化を解明する。",
+      "summary_en": "Uses mice, viral vectors, optogenetics, DREADDs and calcium imaging to manipulate and record neural activity. The lab asks how the brain senses nutrients, tastants and odorants, how food signals detected in the gut shape preference, and how hunger, obesity and social stress alter taste and food choice.",
+      "theme_tw": "大腦感知味道與營養並形成食物嗜好的神經機制",
+      "summary_tw": "以小鼠為模型，利用光遺傳學、DREADD和鈣成像操控並記錄神經活動，研究大腦如何感知營養成分、味物質和氣味，腸道感知的食品資訊如何影響食物偏好，以及飢餓、肥胖和社會壓力如何改變味覺與嗜好。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "food_nutrition-6"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "東京農業大学",
+      "department": "大学院応用生物科学研究科 食品安全健康学専攻",
+      "lab": "生理機能学研究室",
+      "pi": "高橋 信之",
+      "pi_title": "教授",
+      "theme_zh": "食品因子调节脂质与骨代谢并改善代谢异常",
+      "summary_zh": "利用代谢疾病模型、基因改造动物和培养细胞，从骨与脂质代谢调控、器官间代谢网络、氧化应激与氧化还原稳态等角度解析食品因子的生物调节功能，并研究改善餐后高脂血症、肥胖和肠上皮脂质代谢的食品成分。",
+      "keywords": [
+        "食品因子",
+        "脂质代谢",
+        "餐后高脂血症",
+        "骨代谢",
+        "肥胖"
+      ],
+      "url": "https://www.nodai.ac.jp/academics/app/safety/lab/905/",
+      "references": [
+        {
+          "url": "https://www.nodai.ac.jp/academics/app/safety/lab/905/",
+          "evidence": "食品安全健康学科研究室页列高橋信之教授（食品成分改善代谢异常），研究室利用代谢疾病模型、基因改造动物和培养细胞，从骨・脂质代谢、器官间代谢网络、氧化应激等方面解析食品因子功能。"
+        },
+        {
+          "url": "https://dbs.nodai.ac.jp/html/100000859_ja.html",
+          "evidence": "东京农业大学研究者数据库列高橋信之为教授（2018年起），关键词含餐后高脂血症、肥胖、肠上皮细胞、褐色脂肪细胞，曾任食品安全健康学专攻主任。"
+        },
+        {
+          "url": "https://www.nodai.ac.jp/nodaigs/major/app/foodsafety/",
+          "evidence": "大学院应用生物科学研究科食品安全健康学专攻页将“生理機能学”列为教育研究轴之一。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "食品因子による脂質・骨代謝の調節と代謝異常改善の機構を解明する",
+      "theme_en": "How food factors regulate lipid and bone metabolism and help correct metabolic disorders.",
+      "summary_ja": "代謝疾患モデル、遺伝子改変動物、培養細胞を用い、骨・脂質代謝の制御、臓器間代謝ネットワーク、酸化ストレスとレドックス恒常性の面から食品因子の生体調節機能を解明。食後高脂血症や肥満、腸管上皮の脂質代謝を改善する食品成分を探る。",
+      "summary_en": "Uses metabolic disease models, genetically modified animals and cultured cells to clarify how food factors regulate the body through bone and lipid metabolism, inter-organ metabolic networks, oxidative stress and redox homeostasis. The PI studies food components that improve postprandial hyperlipidemia, obesity and lipid metabolism in intestinal epithelial cells.",
+      "theme_tw": "食品因子調節脂質與骨代謝並改善代謝異常",
+      "summary_tw": "利用代謝疾病模型、基因改造動物和培養細胞，從骨與脂質代謝調控、器官間代謝網絡、氧化壓力與氧化還原恆定等角度解析食品因子的生物調節功能，並研究改善餐後高脂血症、肥胖和腸上皮脂質代謝的食品成分。",
+      "aliases": [
+        "东京农业大学",
+        "東京農業大學",
+        "Tokyo University of Agriculture"
+      ],
+      "id": "food_nutrition-7"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "広島大学",
+      "department": "大学院統合生命科学研究科 食品生命科学プログラム",
+      "lab": "動物資源化学研究室",
+      "pi": "鈴木 卓弥",
+      "pi_title": "教授",
+      "theme_zh": "调节肠道屏障与消化道功能的食品成分及机制",
+      "summary_zh": "以消化道功能为主轴，结合食品功能学、免疫学和生理学，在个体与分子层面研究多酚、益生元和益生菌等食品成分对肠道屏障的保护和抗炎作用，并探讨肠道与皮肤、肾脏的联系，以期预防炎症性肠病等疾病。",
+      "keywords": [
+        "肠道屏障",
+        "消化道功能",
+        "多酚",
+        "益生菌",
+        "功能性食品"
+      ],
+      "url": "https://animalfoodscience00.wixsite.com/foodchemistry",
+      "references": [
+        {
+          "url": "https://www.hiroshima-u.ac.jp/seisei/stafffoods",
+          "evidence": "广岛大学食品科学项目教员一览列鈴木卓弥教授，研究食品与营养素对消化道功能的调节作用及其分子机制，并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.hiroshima-u.ac.jp/node/76936",
+          "evidence": "统合生命科学研究科食品生命科学项目页列鈴木卓弥教授，研究调节肠道功能的食品成分及作用机制、肠道屏障与炎症。"
+        },
+        {
+          "url": "https://animalfoodscience00.wixsite.com/foodchemistry/%E8%A4%87%E8%A3%BD-research",
+          "evidence": "研究室主页（動物資源化学研究室）研究介绍：以消化道功能为主轴，研究多酚、益生元和益生菌的消化道保护作用，以及肠-皮肤、肠-肾联系。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "消化管機能を調節する食品成分とその作用機序を探る",
+      "theme_en": "Food components that regulate gut barrier and digestive tract function, and how they work.",
+      "summary_ja": "消化管機能を軸とし、食品機能学・免疫学・生理学を基盤に、ポリフェノール、プレバイオティクス、プロバイオティクスによる腸管バリア保護や抗炎症作用を個体・分子レベルで研究。腸と皮膚・腎臓の連関も調べ、炎症性腸疾患などの予防を目指す。",
+      "summary_en": "Centers on digestive tract function, combining food function science, immunology and physiology. Using animal experiments and molecular analyses, the lab studies how polyphenols, prebiotics and probiotics protect the intestinal barrier and suppress inflammation, and examines gut–skin and gut–kidney links to help prevent conditions such as inflammatory bowel disease.",
+      "theme_tw": "調節腸道屏障與消化道功能的食品成分及機制",
+      "summary_tw": "以消化道功能為主軸，結合食品功能學、免疫學和生理學，在個體與分子層面研究多酚、益生元和益生菌等食品成分對腸道屏障的保護和抗發炎作用，並探討腸道與皮膚、腎臟的聯繫，以期預防發炎性腸道疾病等疾病。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "food_nutrition-8"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "岡山大学",
+      "department": "大学院環境生命自然科学研究科 地球環境生命科学学位プログラム",
+      "lab": "食品生物化学（中村研究室）",
+      "pi": "中村 宜督",
+      "pi_title": "教授",
+      "theme_zh": "多酚与含硫化合物的健康功能和体内代谢",
+      "summary_zh": "聚焦食品的疾病预防功能，以儿茶素、黄酮类等多酚和含硫化合物为对象，解析其化学稳定性、反应性及抗氧化、抗过敏、抗癌等生理活性，研究吸收与代谢、鉴定代谢产物，并评估摄入量和成分间相互作用的影响。",
+      "keywords": [
+        "食品化学生物学",
+        "多酚",
+        "含硫化合物",
+        "生物利用度",
+        "疾病预防"
+      ],
+      "url": "https://www.elst.okayama-u.ac.jp/education/mc/chikyu/areas05_biochem/",
+      "references": [
+        {
+          "url": "https://www.elst.okayama-u.ac.jp/education/mc/chikyu/areas05_biochem/",
+          "evidence": "研究科研究室页（地球环境生命科学学位项目・食品生物化学）列教授中村宜督（专门：食品化学生物学，食品成分功能机制与生物利用度），研究多酚和含硫化合物的化学与生物学特性及吸收代谢。"
+        },
+        {
+          "url": "https://school.agr.okayama-u.ac.jp/?page_id=319",
+          "evidence": "农学部农芸化学课程研究单元一览列“食品生物化学”（教授中村宜督、准教授中村俊之），从事高功能性食品创制的生物化学研究。"
+        },
+        {
+          "url": "https://soran.cc.okayama-u.ac.jp/html/c7b6789f1b04abdd74506e4da22f6611_ja.html",
+          "evidence": "冈山大学研究者总览列中村宜督为环境生命自然科学学域教授，研究关键词为食品化学、生化学。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "ポリフェノールや含硫化合物の健康機能と体内動態を解明する",
+      "theme_en": "Health functions, absorption and metabolism of food polyphenols and sulfur-containing compounds.",
+      "summary_ja": "食品の疾病予防機能に注目し、カテキンやフラボノイドなどのポリフェノール類や含硫化合物を対象に、安定性・反応性と抗酸化・抗アレルギー・抗がん作用を解明。吸収・代謝や代謝産物の活性、摂取量や成分間相互作用による変化も評価する。",
+      "summary_en": "Focuses on the disease-preventing health functions of food. Targeting polyphenols such as catechins and flavonoids and sulfur-containing compounds, the lab studies their chemical stability and reactivity, antioxidant, anti-allergic and anticancer activities, absorption and metabolism, the activity of their metabolites, and how dose and interactions change their effects.",
+      "theme_tw": "多酚與含硫化合物的健康功能和體內代謝",
+      "summary_tw": "聚焦食品的疾病預防功能，以兒茶素、類黃酮等多酚和含硫化合物為對象，解析其化學穩定性、反應性及抗氧化、抗過敏、抗癌等生理活性，研究吸收與代謝、鑑定代謝產物，並評估攝取量和成分間交互作用的影響。",
+      "aliases": [
+        "冈山大学",
+        "岡山大學",
+        "Okayama University"
+      ],
+      "id": "food_nutrition-9"
+    },
+    {
+      "field": "food_nutrition",
+      "university": "東北大学",
+      "department": "大学院農学研究科 農芸化学専攻",
+      "lab": "食品化学分野（戸田研究室）",
+      "pi": "戸田 雅子",
+      "pi_title": "教授",
+      "theme_zh": "食品成分的免疫调节与食物过敏发病机制",
+      "summary_zh": "专长食品免疫和分子过敏学，研究食品成分对免疫系统的作用，鉴定食物过敏原并解析其免疫化学性质与过敏发病机制；也研究脂质与脂溶性维生素的消化吸收，以及预防动脉硬化、肥胖和脂质代谢异常的天然成分。",
+      "keywords": [
+        "食品免疫",
+        "食物过敏",
+        "过敏原",
+        "脂溶性维生素",
+        "天然成分"
+      ],
+      "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/syokuhin/",
+      "references": [
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/laboratory/syokuhin/",
+          "evidence": "农学研究科研究室页列教授戸田雅子、助教服部浩之，课题包括食品成分对免疫系统的作用、食物过敏原鉴定与过敏发病机制、脂质与脂溶性维生素的消化吸收等。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/5962b49ae3db3ced7f6cf715fd3220b7.html",
+          "evidence": "东北大学研究者信息列戸田雅子为农学研究科农芸化学专攻食品天然物化学讲座（食品化学分野）教授（2018年起），此前任德国保罗・埃尔利希研究所分子过敏学副单元长。"
+        },
+        {
+          "url": "https://www.agri.tohoku.ac.jp/jp/researcher/toda-masako/",
+          "evidence": "农学研究科教员介绍页列戸田雅子教授，专门领域为食品免疫、分子过敏学。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "食品成分の免疫機能と食物アレルギーの発症機構を解明する",
+      "theme_en": "Immune functions of food components and the mechanisms behind food allergy.",
+      "summary_ja": "食品免疫・分子アレルギー学を専門とし、食品成分が免疫系に及ぼす機能、食物アレルゲンの同定と免疫化学的性質、アレルギー発症機構を解明。脂質・脂溶性ビタミンの消化吸収や、動脈硬化・肥満・脂質代謝異常を予防する天然成分も研究する。",
+      "summary_en": "Specializes in food immunology and molecular allergology. The lab analyzes how food components act on the immune system, identifies food allergens and their immunochemical properties, and clarifies how food allergy develops. It also studies how lipids and fat-soluble vitamins are absorbed and natural compounds that may prevent atherosclerosis, obesity and dyslipidemia.",
+      "theme_tw": "食品成分的免疫調節與食物過敏發病機制",
+      "summary_tw": "專長食品免疫和分子過敏學，研究食品成分對免疫系統的作用，鑑定食物過敏原並解析其免疫化學性質與過敏發病機制；也研究脂質與脂溶性維生素的消化吸收，以及預防動脈硬化、肥胖和脂質代謝異常的天然成分。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "food_nutrition-10"
+    },
+    {
       "field": "pharmacology_dds",
       "university": "東北大学",
       "department": "大学院薬学研究科 生命解析学講座",
@@ -6224,6 +7357,382 @@
         "Tokyo University of Pharmacy and Life Sciences"
       ],
       "id": "pharmacology_dds-2"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "東京科学大学",
+      "department": "生命理工学院 生命理工学系",
+      "lab": "西山・三浦研究室",
+      "pi": "西山 伸宏",
+      "pi_title": "教授",
+      "theme_zh": "用高分子纳米载体控制生物药物的递送与作用。",
+      "summary_zh": "以高分子设计和纳米载体为基础，研究核酸、蛋白质及抗体药物如何到达病灶并发挥作用。结合材料表征与生物学评价，探索癌症等难治疾病的药物递送、诊断和治疗策略，关注载体结构与功能的关系。",
+      "keywords": [
+        "药物递送",
+        "高分子载体",
+        "核酸药物",
+        "纳米医学",
+        "癌症治疗"
+      ],
+      "url": "https://www.bmw.cls.iir.isct.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.stm.i.isct.ac.jp/teacher/",
+          "evidence": "大学院人间医疗科学技术课程列西山伸宏为主担当教授，说明面向核酸及抗体药物的纳米递送研究。"
+        },
+        {
+          "url": "https://www.bmw.res.titech.ac.jp/research.html",
+          "evidence": "研究内容页介绍高分子设计、核酸与蛋白质纳米载体以及诊断治疗应用。"
+        },
+        {
+          "url": "https://www.bmw.cls.iir.isct.ac.jp/",
+          "evidence": "研究室现主页列2026年研究动态，并显示西山与三浦研究室的官方名称。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "高分子ナノキャリアでバイオ医薬の送達と作用を制御する。",
+      "theme_en": "Polymer nanocarriers for targeted delivery and action of biological medicines.",
+      "summary_ja": "高分子設計とナノキャリアを基盤に、核酸・タンパク質・抗体医薬を病変部へ届ける仕組みを研究する。材料の構造解析と生物学的評価を組み合わせ、がんなどの難治性疾患に対する送達・診断・治療技術を探る。",
+      "summary_en": "Studies polymer design and nanocarriers that deliver nucleic acids, proteins and antibody medicines to diseased tissues. Materials characterization and biological evaluation connect carrier structure with function in drug delivery, diagnosis and treatment of cancer and other difficult diseases.",
+      "theme_tw": "用高分子奈米載體控制生物藥物的遞送與作用。",
+      "summary_tw": "以高分子設計和奈米載體為基礎，研究核酸、蛋白質及抗體藥物如何到達病灶並發揮作用。結合材料鑑定與生物學評估，探索癌症等難治疾病的藥物遞送、診斷和治療策略，關注載體結構與功能的關係。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "pharmacology_dds-3"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "東京大学",
+      "department": "大学院薬学系研究科 薬学専攻",
+      "lab": "分子薬物動態学教室",
+      "pi": "楠原 洋之",
+      "pi_title": "教授",
+      "theme_zh": "解析药物跨膜运输及体内动力学的定量机制。",
+      "summary_zh": "研究药物在肠道、肝脏、肾脏和脑屏障中的运输机制，解释吸收、清除及药物间相互作用。结合细胞与个体层面的评价和定量模型，预测药物浓度、药效与毒性，为药物设计及合理用药提供依据。",
+      "keywords": [
+        "药物动力学",
+        "转运蛋白",
+        "血脑屏障",
+        "药物相互作用",
+        "定量预测"
+      ],
+      "url": "https://dotai.f.u-tokyo.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.f.u-tokyo.ac.jp/research/index.html?id=1377181341",
+          "evidence": "研究科2026年11月教室目录列楠原洋之教授，介绍药物输送、吸收、清除及相互作用的定量研究。"
+        },
+        {
+          "url": "https://dotai.f.u-tokyo.ac.jp/member.html",
+          "evidence": "成员页确认楠原洋之教授及在籍硕博士生，列出血脑与血脑脊液屏障的药物排出转运研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "薬物の膜輸送と体内動態を定量的に解明する。",
+      "theme_en": "Quantitative analysis of drug transport and pharmacokinetics.",
+      "summary_ja": "消化管、肝臓、腎臓や脳関門での薬物輸送を調べ、吸収・排泄と薬物相互作用の仕組みを解明する。細胞から個体までの評価と定量モデルを組み合わせ、薬物濃度や薬効・毒性の予測を通して適正使用に貢献する。",
+      "summary_en": "Examines drug transport in the intestine, liver, kidney and brain barriers to explain absorption, elimination and drug interactions. Cellular and whole-body evaluation is combined with quantitative models to predict drug concentrations, effects and toxicity for drug design and appropriate use.",
+      "theme_tw": "解析藥物跨膜運輸及體內藥動學的定量機制。",
+      "summary_tw": "研究藥物在腸道、肝臟、腎臟和腦部屏障中的運輸機制，解釋吸收、清除及藥物間交互作用。結合細胞與個體層面的評估和定量模型，預測藥物濃度、藥效與毒性，為藥物設計及合理用藥提供依據。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "pharmacology_dds-4"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "熊本大学",
+      "department": "大学院薬学教育部 創薬・生命薬科学専攻",
+      "lab": "製剤設計学分野",
+      "pi": "本山 敬一",
+      "pi_title": "教授",
+      "theme_zh": "利用环糊精材料设计药物递送与新型制剂。",
+      "summary_zh": "以环糊精的分子识别和超分子特性为基础，研究适用于不同药物的新型制剂材料。对象涵盖小分子、蛋白质、核酸及细胞药物，通过材料设计与药学评价，探索癌症和遗传性疾病的递送及治疗策略。",
+      "keywords": [
+        "环糊精",
+        "制剂设计",
+        "药物递送",
+        "超分子材料",
+        "核酸药物"
+      ],
+      "url": "https://www.pharm.kumamoto-u.ac.jp/Labs/seizai/",
+      "references": [
+        {
+          "url": "https://www.pharm.kumamoto-u.ac.jp/research/lab/p18.php",
+          "evidence": "官方分野页列本山敬一教授，介绍环糊精材料与新一代制剂技术研究。"
+        },
+        {
+          "url": "https://www.pharm.kumamoto-u.ac.jp/Labs/seizai/admission/index.html",
+          "evidence": "大学院入学介绍说明以环糊精为基础，为小分子、蛋白质、核酸及细胞药物研究递送与制剂设计。"
+        },
+        {
+          "url": "https://www.pharm.kumamoto-u.ac.jp/research/lab_staff.php",
+          "evidence": "大学院教育部研究室目录确认製剤設計学分野及本山敬一教授的现任所属。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "シクロデキストリン材料で薬物送達と製剤を設計する。",
+      "theme_en": "Cyclodextrin-based materials for drug delivery and formulation design.",
+      "summary_ja": "シクロデキストリンの分子認識や超分子特性を活用し、多様な医薬品に適した製剤材料を研究する。低分子、タンパク質、核酸や細胞を対象に、材料設計と薬学的評価を通して、がんや遺伝性疾患の治療への展開を探る。",
+      "summary_en": "Uses the molecular recognition and supramolecular properties of cyclodextrins to study formulation materials for small molecules, proteins, nucleic acids and cells. Materials design and pharmaceutical evaluation support drug delivery and treatment strategies for cancer and inherited diseases.",
+      "theme_tw": "利用環糊精材料設計藥物遞送與新型製劑。",
+      "summary_tw": "以環糊精的分子辨識和超分子特性為基礎，研究適用於不同藥物的新型製劑材料。對象涵蓋小分子、蛋白質、核酸及細胞藥物，透過材料設計與藥學評估，探索癌症和遺傳性疾病的遞送及治療策略。",
+      "aliases": [
+        "熊本大学",
+        "熊本大學",
+        "Kumamoto University"
+      ],
+      "id": "pharmacology_dds-5"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "北海道大学",
+      "department": "大学院生命科学院 生命科学専攻",
+      "lab": "薬剤分子設計学研究室",
+      "pi": "山田 勇磨",
+      "pi_title": "教授",
+      "theme_zh": "把药物送到线粒体等细胞器并调控细胞功能。",
+      "summary_zh": "研究将药物送达线粒体等细胞器的纳米载体，解析递送过程与细胞功能之间的联系。结合脂质材料设计、细胞器功能评价及药物动力学，探索核酸治疗、癌症治疗和细胞药物的递送基础与应用。",
+      "keywords": [
+        "细胞器递送",
+        "线粒体",
+        "纳米载体",
+        "脂质材料",
+        "核酸治疗"
+      ],
+      "url": "https://www.pharm.hokudai.ac.jp/yakusetu/",
+      "references": [
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/lab_13.html",
+          "evidence": "大学官方研究室页列山田勇磨教授，说明线粒体和细胞器靶向递送、核酸送达与细胞功能调控研究。"
+        },
+        {
+          "url": "https://www.pharm.hokudai.ac.jp/yakusetu/research",
+          "evidence": "研究内容页列MITO-Porter、细胞器制剂及功能脂质递送等当前方向。"
+        },
+        {
+          "url": "https://www.lfsci.hokudai.ac.jp/info/wp-content/uploads/2025/06/seimei_MC_R08youkou_summer-2.pdf",
+          "evidence": "2026年度生命科学院硕士募集要项在生命科学专攻指导目录列山田勇磨教授和药剂分子设计学。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "ミトコンドリアなどの細胞内小器官へ薬を届ける。",
+      "theme_en": "Delivering medicines to mitochondria and other cellular organelles.",
+      "summary_ja": "ミトコンドリアなどの細胞内小器官を標的とするナノキャリアを研究し、送達と細胞機能の関係を調べる。脂質材料の設計、オルガネラ機能の評価、動態解析を組み合わせ、核酸治療やがん・細胞治療への応用を探る。",
+      "summary_en": "Studies nanocarriers that deliver medicines to mitochondria and other organelles, linking intracellular transport with cell function. Lipid design, organelle evaluation and kinetic analysis support research on nucleic-acid medicines, cancer treatment and delivery technologies for cell therapy.",
+      "theme_tw": "把藥物送到粒線體等胞器並調控細胞功能。",
+      "summary_tw": "研究將藥物送達粒線體等胞器的奈米載體，解析遞送過程與細胞功能之間的聯繫。結合脂質材料設計、胞器功能評估及藥物動力學，探索核酸治療、癌症治療和細胞藥物的遞送基礎與應用。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "pharmacology_dds-6"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "金沢大学",
+      "department": "大学院医薬保健学総合研究科 創薬科学専攻",
+      "lab": "分子薬物治療学研究室",
+      "pi": "加藤 将夫",
+      "pi_title": "教授",
+      "theme_zh": "结合分子靶点与动力学模型优化药物治疗。",
+      "summary_zh": "围绕转运蛋白、受体和酶，研究药物到达病灶并发挥作用的机制。结合定量分析、细胞研究和生理药物动力学模型，探索抗癌药疗效预测、药物治疗评价指标，以及食品成分的神经新生与认知功能作用。",
+      "keywords": [
+        "药物动力学",
+        "药理学",
+        "转运蛋白",
+        "疗效预测",
+        "生物标志物"
+      ],
+      "url": "https://bunyaku.w3.kanazawa-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://bunyaku.w3.kanazawa-u.ac.jp/",
+          "evidence": "研究室主页列加藤将夫教授，并以药物动力学和药理学为基础介绍抗癌药、转运蛋白及数理模型研究。"
+        },
+        {
+          "url": "https://bunyaku.w3.kanazawa-u.ac.jp/student/",
+          "evidence": "大学院教育介绍说明药物和蛋白质定量分析、质谱及生理药物动力学模型等方法类别。"
+        },
+        {
+          "url": "https://yakugaku.w3.kanazawa-u.ac.jp/_wp/wp-content/uploads/2026/04/r9_soyaku_zenki.pdf",
+          "evidence": "2027年度创药科学专攻硕士募集要项列加藤将夫教授为分子药物治疗学指导教员，并介绍动力学模型与神经新生研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "分子標的と動態モデルから薬物治療の最適化を目指す。",
+      "theme_en": "Optimizing drug treatment through molecular targets and pharmacokinetic models.",
+      "summary_ja": "トランスポーター、受容体や酵素に着目し、薬が病巣に届き作用する仕組みを研究する。定量分析、細胞研究と生理学的薬物動態モデルを組み合わせ、抗がん薬の効果予測や治療評価、食品成分の認知機能への作用を探る。",
+      "summary_en": "Studies transporters, receptors and enzymes that determine drug distribution and action. Quantitative analysis, cellular studies and physiological pharmacokinetic models address anticancer drug effects, treatment biomarkers, and the actions of food-derived compounds on neuronal and cognitive function.",
+      "theme_tw": "結合分子標的與藥動學模型最佳化藥物治療。",
+      "summary_tw": "圍繞轉運蛋白、受體和酵素，研究藥物到達病灶並發揮作用的機制。結合定量分析、細胞研究和生理藥物動力學模型，探索抗癌藥療效預測、藥物治療評估指標，以及食品成分的神經新生與認知功能作用。",
+      "aliases": [
+        "金泽大学",
+        "金澤大學",
+        "Kanazawa University"
+      ],
+      "id": "pharmacology_dds-7"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "九州大学",
+      "department": "大学院薬学府 創薬科学専攻",
+      "lab": "薬剤学分野（小柳研究室）",
+      "pi": "小柳 悟",
+      "pi_title": "教授",
+      "theme_zh": "解析生物钟怎样影响药效、副作用和给药时机。",
+      "summary_zh": "研究时钟基因与昼夜节律如何调节药物运输、药物敏感性和疾病症状。结合分子机制解析与药理学评价，关注肿瘤免疫、慢性疼痛及药物动力学的时间变化，探索更有效的给药时机和新的治疗靶点。",
+      "keywords": [
+        "时间药理学",
+        "生物钟",
+        "药物动力学",
+        "给药设计",
+        "慢性疼痛"
+      ],
+      "url": "https://yakuzai.phar.kyushu-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.phar.kyushu-u.ac.jp/lab/list.php",
+          "evidence": "大学院药学府现任教员目录列小柳悟为药剂学分野教授，并链接研究室。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100019874_ja.html",
+          "evidence": "大学研究者目录确认教授及创药科学、临床药学专攻兼任，说明时间药物治疗与大学院教育。"
+        },
+        {
+          "url": "https://yakuzai.phar.kyushu-u.ac.jp/research.html",
+          "evidence": "研究内容页说明依据时钟基因解析药效、副作用和疾病症状的昼夜变化，探索最佳给药时机。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "体内時計と薬効・副作用の関係から投薬時刻を考える。",
+      "theme_en": "Circadian mechanisms that shape drug effects, toxicity and dosing time.",
+      "summary_ja": "時計遺伝子と概日リズムが薬物輸送、薬物感受性や疾患症状を調節する仕組みを研究する。分子機構の解析と薬理学的評価により、腫瘍免疫、慢性疼痛や体内動態の時間変化を調べ、適切な投薬時刻と治療標的を探る。",
+      "summary_en": "Investigates how clock genes and circadian rhythms regulate drug transport, sensitivity and disease symptoms. Molecular analysis and pharmacological evaluation examine temporal changes in tumor immunity, chronic pain and pharmacokinetics to identify dosing schedules and therapeutic targets.",
+      "theme_tw": "解析生理時鐘如何影響藥效、副作用和給藥時機。",
+      "summary_tw": "研究時鐘基因與晝夜節律如何調節藥物運輸、藥物敏感性和疾病症狀。結合分子機制解析與藥理學評估，關注腫瘤免疫、慢性疼痛及藥物動力學的時間變化，探索更有效的給藥時機和新的治療標的。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "pharmacology_dds-8"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "東京理科大学",
+      "department": "大学院薬学研究科 薬科学専攻",
+      "lab": "西川研究室",
+      "pi": "西川 元也",
+      "pi_title": "教授",
+      "theme_zh": "以核酸纳米结构和生物载体优化药物递送。",
+      "summary_zh": "以生物药剂学和药物动力学为基础，研究核酸纳米结构、植物来源纳米颗粒及细胞外囊泡的递送功能。结合载体设计与体内分布评价，探索药物在所需位置发挥作用的条件，以及细胞治疗系统的优化。",
+      "keywords": [
+        "药物递送",
+        "核酸纳米结构",
+        "细胞外囊泡",
+        "植物纳米颗粒",
+        "生物药剂学"
+      ],
+      "url": "https://www.rs.tus.ac.jp/nishikawa_lab/",
+      "references": [
+        {
+          "url": "https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?act=&diu=6e61&kin=lab",
+          "evidence": "大学研究者目录列西川元也教授和西川研究室，介绍核酸纳米结构、细胞治疗及细胞外囊泡动力学研究。"
+        },
+        {
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan.pdf",
+          "evidence": "2027年度大学院硕士募集要项列西川元也教授为药学研究科药科学专攻生物药剂学指导教员。"
+        },
+        {
+          "url": "https://www.rs.tus.ac.jp/nishikawa_lab/",
+          "evidence": "大学域名研究室主页列2026年在籍硕士生和研究活动，并介绍植物来源纳米颗粒、DNA水凝胶等递送主题。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "核酸ナノ構造と生体由来キャリアで薬物送達を研究する。",
+      "theme_en": "Nucleic-acid nanostructures and biological carriers for drug delivery.",
+      "summary_ja": "生物薬剤学と薬物動態学を基盤に、核酸ナノ構造、植物由来ナノ粒子や細胞外小胞の送達機能を研究する。キャリア設計と体内分布の評価を組み合わせ、薬を必要な場所で作用させる条件や細胞治療の最適化を探る。",
+      "summary_en": "Uses biopharmaceutics and pharmacokinetics to study delivery by nucleic-acid nanostructures, plant-derived nanoparticles and extracellular vesicles. Carrier design and distribution analysis address how medicines act at intended sites and how cell-based treatment systems can be optimized.",
+      "theme_tw": "以核酸奈米結構和生物載體最佳化藥物遞送。",
+      "summary_tw": "以生物藥劑學和藥物動力學為基礎，研究核酸奈米結構、植物來源奈米顆粒及細胞外囊泡的遞送功能。結合載體設計與體內分布評估，探索藥物在所需位置發揮作用的條件，以及細胞治療系統的最佳化。",
+      "aliases": [
+        "东京理科大学",
+        "東京理科大學",
+        "Tokyo University of Science"
+      ],
+      "id": "pharmacology_dds-9"
+    },
+    {
+      "field": "pharmacology_dds",
+      "university": "立命館大学",
+      "department": "大学院薬学研究科 薬科学専攻",
+      "lab": "医療薬剤学研究室",
+      "pi": "桂 敏也",
+      "pi_title": "教授",
+      "theme_zh": "研究代谢酶和转运蛋白造成的药物反应差异。",
+      "summary_zh": "研究药物代谢酶和转运蛋白的功能、表达及其变化，解释药物体内动力学的个体差异。结合分子、细胞与个体层面的分析，关注药物相互作用、组织蓄积和副作用之间的联系，为个体化给药提供依据。",
+      "keywords": [
+        "药物代谢",
+        "转运蛋白",
+        "个体差异",
+        "药物相互作用",
+        "个体化给药"
+      ],
+      "url": "https://www.ritsumei.ac.jp/ph/about/faculty/detail.html/?id=6",
+      "references": [
+        {
+          "url": "https://www.ritsumei.ac.jp/ph/about/faculty/detail.html/?id=6",
+          "evidence": "大学官方研究室介绍列桂敏也教授，说明药物代谢酶和转运蛋白功能及表达变化与个体差异研究。"
+        },
+        {
+          "url": "https://www.ritsumei.ac.jp/gsph/research/educators.html/?Department=%E8%96%AC%E5%AD%A6%E7%A7%91",
+          "evidence": "药学研究科教员目录确认桂敏也教授和医疗药剂学研究室。"
+        },
+        {
+          "url": "https://research-db.ritsumei.ac.jp/rithp/k03/resid/S001069",
+          "evidence": "大学研究者目录2026年更新，确认药学研究科所属，并列药物组织分布、副作用和个体化给药研究。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "私立",
+      "theme_ja": "代謝酵素と輸送体から薬物動態の個人差を調べる。",
+      "theme_en": "Metabolic enzymes and transporters underlying individual variation in drug response.",
+      "summary_ja": "薬物代謝酵素とトランスポーターの機能・発現変動を調べ、薬物動態の個人差を研究する。分子、細胞から個体までの解析を通して、薬物相互作用、組織への集積と副作用の関係を解明し、個別化投与設計につなげる。",
+      "summary_en": "Studies how the function and expression of drug-metabolizing enzymes and transporters produce individual differences in pharmacokinetics. Analyses from molecules and cells to whole organisms connect drug interactions, tissue accumulation and adverse effects with personalized dosing.",
+      "theme_tw": "研究代謝酵素和轉運蛋白造成的藥物反應差異。",
+      "summary_tw": "研究藥物代謝酵素和轉運蛋白的功能、表現及其變化，解釋藥物體內藥動學的個體差異。結合分子、細胞與個體層面的分析，關注藥物交互作用、組織蓄積和副作用之間的聯繫，為個人化給藥提供依據。",
+      "aliases": [
+        "立命馆大学",
+        "立命館大學",
+        "Ritsumeikan University"
+      ],
+      "id": "pharmacology_dds-10"
     },
     {
       "field": "organic",
@@ -11322,6 +12831,382 @@
       "id": "green-2"
     },
     {
+      "field": "green",
+      "university": "東北大学",
+      "department": "大学院環境科学研究科 先端環境創成学専攻",
+      "lab": "資源再生プロセス学分野（吉岡研究室）",
+      "pi": "吉岡 敏明",
+      "pi_title": "教授",
+      "theme_zh": "以热分解与化学分离推进废塑料的化学循环利用。",
+      "summary_zh": "以建设资源与物质循环型社会为目标，通过热分解把塑料和生物质转化为化学原料，研究聚氯乙烯与阻燃塑料的脱氯、脱溴及卤素回收，用化学方法分离电缆、太阳能板等复合材料，并开发层状双氢氧化物吸附材料。",
+      "keywords": [
+        "化学回收",
+        "塑料热分解",
+        "脱卤处理",
+        "资源循环",
+        "吸附材料"
+      ],
+      "url": "https://www.che.tohoku.ac.jp/~env/",
+      "references": [
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/4c2977b35e787c768ac9aae5e31b5c6b.html",
+          "evidence": "东北大学研究者名录列吉冈敏明为大学院环境科学研究科先端环境创成学专攻资源再生过程学分野教授（2005年起），研究领域含绿色可持续化学、环境化学及资源循环。"
+        },
+        {
+          "url": "https://www.che.tohoku.ac.jp/~env/staff.html",
+          "evidence": "研究室教员页列出吉冈敏明教授、熊谷将吾准教授等教员，注明隶属环境科学研究科自然共生系统学讲座资源再生过程学分野。"
+        },
+        {
+          "url": "https://www.che.tohoku.ac.jp/~env/about.html",
+          "evidence": "研究概要页说明以热分解将塑料和生物质转化为化学原料，研究含卤塑料脱氯脱溴与卤素循环、电缆等复合材料的化学分离及层状双氢氧化物吸附材料。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "熱分解と化学分離により、廃プラスチックのケミカルリサイクルを進める。",
+      "theme_en": "Advancing chemical recycling of waste plastics through pyrolysis and chemical separation.",
+      "summary_ja": "資源・物質循環型社会を目指し、熱分解によるプラスチックやバイオマスの化学原料化、塩ビや難燃プラスチックの脱塩素・脱臭素とハロゲン循環、電線や太陽電池パネルなど複合材の化学的分離、層状複水酸化物を用いた吸着材の開発に取り組む。",
+      "summary_en": "Aiming at a resource-circulating society, the lab converts plastics and biomass into chemical feedstocks by pyrolysis, dechlorinates and debrominates PVC and flame-retarded plastics to recover halogens, chemically separates composites such as electric cables and solar panels, and develops layered double hydroxide adsorbents.",
+      "theme_tw": "以熱分解與化學分離推進廢塑膠的化學循環利用。",
+      "summary_tw": "以建設資源與物質循環型社會為目標，透過熱分解把塑膠和生質轉化為化學原料，研究聚氯乙烯與阻燃塑膠的脫氯、脫溴及鹵素回收，用化學方法分離電纜、太陽能板等複合材料，並開發層狀雙氫氧化物吸附材料。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "green-3"
+    },
+    {
+      "field": "green",
+      "university": "京都大学",
+      "department": "大学院地球環境学舎 環境マネジメント専攻",
+      "lab": "環境調和型産業論分野（越後研究室）",
+      "pi": "越後 信哉",
+      "pi_title": "教授",
+      "theme_zh": "以净水处理化学为核心，控制消毒副产物与微量污染物。",
+      "summary_zh": "以水质分析和水处理技术为基础，研究氯处理与臭氧处理中消毒副产物的生成，结合高分辨质谱、计算化学和数据科学预测其生成能力，并调查土壤和水体中有机氟化合物的行为与去除及劣化塑料的微细化。",
+      "keywords": [
+        "水处理化学",
+        "消毒副产物",
+        "有机氟化合物",
+        "微量污染物",
+        "水质分析"
+      ],
+      "url": "https://enfitwww.env.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.a6ba16009a6691b8.html",
+          "evidence": "京都大学教育研究活动数据库（2026年10月更新）列越后信哉为地球环境学堂教授（2021年起，兼任工学研究科），研究主题为净水处理化学，关键词含消毒副产物、臭氧处理和氯处理。"
+        },
+        {
+          "url": "https://enfitwww.env.kyoto-u.ac.jp/research/",
+          "evidence": "分野研究页介绍消毒副产物的化学信息学、以现行水质基准项目评估新型有害物质，以及土壤和水体中有机氟化合物的行为预测与高效去除技术。"
+        },
+        {
+          "url": "https://enfitwww.env.kyoto-u.ac.jp/nyuugaku_kibou/",
+          "evidence": "入学希望者页说明本分野接收地球环境学舍环境管理专攻及工学研究科都市环境工学专攻（协力讲座）的研究生。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "浄水処理の化学を軸に、消毒副生成物や微量汚染物質の制御を研究する。",
+      "theme_en": "Water-treatment chemistry for controlling disinfection by-products and trace contaminants.",
+      "summary_ja": "水質分析と水処理技術を基盤に、塩素・オゾン処理で生じる消毒副生成物を研究し、高分解能質量分析、計算化学、データ科学で生成能を予測する。土壌・水系での有機フッ素化合物類の挙動と除去、環境中で劣化したプラスチックの微小化も調べる。",
+      "summary_en": "Using water-quality analysis and treatment technology, the group studies disinfection by-products from chlorination and ozonation, predicting their formation with high-resolution mass spectrometry, computational chemistry and data science. It also examines the behavior and removal of organofluorine compounds in soil and water and the fragmentation of degraded plastics.",
+      "theme_tw": "以淨水處理化學為核心，控制消毒副產物與微量汙染物。",
+      "summary_tw": "以水質分析和水處理技術為基礎，研究氯處理與臭氧處理中消毒副產物的生成，結合高解析質譜、計算化學和資料科學預測其生成能力，並調查土壤和水體中有機氟化合物的行為與去除及劣化塑膠的微細化。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "green-4"
+    },
+    {
+      "field": "green",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 化学・生命情報科学専攻",
+      "lab": "環境化学研究室（奥田研究室）",
+      "pi": "奥田 知明",
+      "pi_title": "教授",
+      "theme_zh": "解析大气颗粒物的理化性质，连接大气环境与人体健康。",
+      "summary_zh": "研究以大气为主的环境介质与人体健康的联系，基于大气化学、生物化学和微粒子工学开发新方法，涉及颗粒物有害性评价、颗粒带电状态及地铁等封闭空间的环境问题，并以化学分析和细胞暴露实验推进社会应用。",
+      "keywords": [
+        "大气化学",
+        "PM2.5",
+        "气溶胶",
+        "暴露评价",
+        "环境与健康"
+      ],
+      "url": "https://www.applc.keio.ac.jp/~okuda/",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/k_100011368/",
+          "evidence": "庆应义塾教员页列奥田知明为理工学部应用化学科教授、理工学研究科化学・生命信息科学专攻教授，专长为环境化学、大气科学、气溶胶工学，研究连接大气与人体健康的现象。"
+        },
+        {
+          "url": "https://www.applc.keio.ac.jp/~okuda/intro/member.html",
+          "evidence": "研究室成员页（2026年度）列出应用化学科环境化学研究室奥田知明教授、森树大助教等教员。"
+        },
+        {
+          "url": "https://www.applc.keio.ac.jp/~okuda/",
+          "evidence": "研究室主页列出颗粒物有害性评价、颗粒带电状态、地铁等封闭空间的环境问题和社会应用项目，新闻更新至2026年9月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "大気粒子の物理化学的性質を解析し、大気環境と人の健康を結びつける。",
+      "theme_en": "Linking air quality and human health through the physicochemical properties of airborne particles.",
+      "summary_ja": "大気など環境媒体と人の健康を結ぶ事象を、大気化学、生物化学、微粒子工学の知見と独自の新手法で研究する。粒子状物質の有害性評価、粒子の帯電状態、地下鉄など閉鎖空間の環境問題を扱い、化学分析や細胞曝露実験を通じて社会実装も進める。",
+      "summary_en": "The lab studies how environmental media, mainly the atmosphere, connect with human health, developing its own methods from atmospheric chemistry, biochemistry and particle engineering. Topics include toxicity of particulate matter, particle charge states and air quality in enclosed spaces such as subways, supported by chemical analysis and cell-exposure experiments.",
+      "theme_tw": "解析大氣顆粒物的理化性質，連結大氣環境與人體健康。",
+      "summary_tw": "研究以大氣為主的環境介質與人體健康的聯繫，基於大氣化學、生物化學和微粒子工學開發新方法，涉及顆粒物有害性評價、顆粒帶電狀態及地鐵等封閉空間的環境問題，並以化學分析和細胞暴露實驗推動社會應用。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "green-5"
+    },
+    {
+      "field": "green",
+      "university": "金沢大学",
+      "department": "大学院自然科学研究科 物質化学専攻",
+      "lab": "分析・環境化学研究室",
+      "pi": "長谷川 浩",
+      "pi_title": "教授",
+      "theme_zh": "解析微量元素的环境动态，开发有害金属去除与回收技术。",
+      "summary_zh": "以先端测量化学为基础，开发微量元素的高灵敏度与形态分析法，追踪铜、锌等金属在河湖和海洋中的分布及对水生植物的影响，并用水溶性、生物降解性螯合剂从废弃物和污染土壤中去除有害金属、回收稀有金属。",
+      "keywords": [
+        "微量元素",
+        "形态分析",
+        "螯合剂洗涤",
+        "稀有金属回收",
+        "水圈环境"
+      ],
+      "url": "https://ana-env-chem.w3.kanazawa-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://ridb.kanazawa-u.ac.jp/public/detail.php?id=3120",
+          "evidence": "金泽大学研究者数据库列长谷川浩为理工研究域物质化学系教授，担任自然科学研究科物质化学专攻博士前期・后期课程，研究室为“分析・环境化学”，关键词为水圈、环境修复、自然循环。"
+        },
+        {
+          "url": "https://ana-env-chem.w3.kanazawa-u.ac.jp/members/",
+          "evidence": "研究室成员页列出长谷川浩教授、眞盐麻彩实准教授和黄国宏助教，以及博士、硕士研究生。"
+        },
+        {
+          "url": "https://ana-env-chem.w3.kanazawa-u.ac.jp/research/",
+          "evidence": "研究页说明开发微量元素高灵敏度及化学形态别分析法，用水溶性和生物降解性螯合剂从废弃物、污染土壤中去除有害金属并回收稀有金属，并研究微量元素对水生植物和水圈的影响。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "微量元素の環境動態を解析し、有害金属の除去とレアメタル回収法を開発する。",
+      "theme_en": "Tracing trace elements in the environment and developing technologies to remove toxic metals and recover rare metals.",
+      "summary_ja": "先端計測化学に基づき、微量元素の高感度・化学形態別分析法を開発する。河川・湖沼・海洋での銅や亜鉛などの分布と水生植物への影響を調べ、水溶性・生分解性キレート剤で廃棄物や汚染土壌から有害金属を除去し、レアメタルを回収する。",
+      "summary_en": "Grounded in advanced measurement chemistry, the lab develops sensitive speciation methods for trace elements, follows metals such as copper and zinc in rivers, lakes and seas and their effects on algae and other aquatic plants, and uses water-soluble, biodegradable chelating agents to remove toxic metals and recover rare metals from waste and contaminated soil.",
+      "theme_tw": "解析微量元素的環境動態，開發有害金屬去除與回收技術。",
+      "summary_tw": "以先端測量化學為基礎，開發微量元素的高靈敏度與形態分析法，追蹤銅、鋅等金屬在河湖和海洋中的分布及對水生植物的影響，並用水溶性、生物降解性螯合劑從廢棄物和汙染土壤中去除有害金屬、回收稀有金屬。",
+      "aliases": [
+        "金泽大学",
+        "金澤大學",
+        "Kanazawa University"
+      ],
+      "id": "green-6"
+    },
+    {
+      "field": "green",
+      "university": "九州大学",
+      "department": "大学院総合理工学府 総合理工学専攻",
+      "lab": "機能無機材料工学（永長・北條研究室）",
+      "pi": "永長 久寛",
+      "pi_title": "教授",
+      "theme_zh": "设计环境净化催化剂，高效分解VOC等排气污染物。",
+      "summary_zh": "针对工厂和汽车排出的VOC、NOx、CO等污染物，设计负载金属纳米颗粒及钙钛矿等复合氧化物催化剂，以臭氧为氧化剂在近室温分解低浓度VOC，并借助微波加热和低温等离子体等特殊反应场实现节能处理。",
+      "keywords": [
+        "环境催化",
+        "VOC分解",
+        "臭氧氧化",
+        "复合金属氧化物",
+        "排气净化"
+      ],
+      "url": "https://einaga-lab.weebly.com/",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/search/details/K003055/",
+          "evidence": "九州大学研究者信息（2026年6月更新）列永长久宽为总合理工学研究院物质科学部门教授，兼任总合理工学府总合理工学专攻，研究课题含以臭氧为氧化剂的催化氧化和光催化环境净化，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/C_2027_%E5%BF%97%E6%9C%9B%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%AD%89%E8%AA%BF%E6%9F%BB%E7%A5%A8%E8%A8%98%E5%85%A5%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99(Web%E6%8E%B2%E8%BC%89%E7%94%A8).pdf",
+          "evidence": "总合理工学府2027年度硕士入学志愿研究室参考资料列出“机能无机材料工学”（永长久宽教授、北条元准教授），说明以催化化学开发能源转换与环境相关技术，关键词含环境净化用催化剂，并附研究室网址。"
+        },
+        {
+          "url": "https://einaga-lab.weebly.com/30740313502086923481.html",
+          "evidence": "研究室研究页说明设计负载金属与复合金属氧化物催化剂，用臭氧在近室温分解低浓度VOC，以微波加热处理高浓度VOC，对象含NOx、CO等排气污染物。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "環境浄化触媒を設計し、VOCなど排ガス中の汚染物質を効率よく分解する。",
+      "theme_en": "Designing environmental catalysts that efficiently decompose VOCs and other exhaust-gas pollutants.",
+      "summary_ja": "工場や自動車から出るVOC、NOx、COなどを対象に、金属ナノ粒子担持触媒やペロブスカイトなどの複合酸化物触媒を設計する。オゾンを酸化剤に低濃度VOCを室温付近で分解し、マイクロ波や低温プラズマなどの反応場で処理を省エネ化する。",
+      "summary_en": "Targeting VOCs, NOx, carbon monoxide and other emissions from chemical plants, workplaces and vehicles, the lab designs supported metal-nanoparticle catalysts and composite metal oxides such as perovskites. Ozone serves as the oxidant for decomposing dilute VOCs near room temperature, while microwave heating and low-temperature plasma make treatment more energy-efficient.",
+      "theme_tw": "設計環境淨化觸媒，高效分解VOC等排氣汙染物。",
+      "summary_tw": "針對工廠和汽車排出的VOC、NOx、CO等汙染物，設計負載金屬奈米顆粒及鈣鈦礦等複合氧化物觸媒，以臭氧為氧化劑在近室溫分解低濃度VOC，並藉助微波加熱和低溫電漿等特殊反應場實現節能處理。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "green-7"
+    },
+    {
+      "field": "green",
+      "university": "東京科学大学",
+      "department": "生命理工学院 生命理工学系",
+      "lab": "松田研究室",
+      "pi": "松田 知子",
+      "pi_title": "准教授",
+      "theme_zh": "以酶为催化剂，利用二氧化碳和空气开发环境友好的有机合成。",
+      "summary_zh": "以推进绿色化学为目标，用酶作有机合成催化剂，以液态或超临界二氧化碳及溶入CO2的生物来源溶剂为反应介质，通过脱羧酶逆反应把CO2固定到有机分子上，并用空气中的氧代替危险氧化剂进行酶促氧化。",
+      "keywords": [
+        "绿色化学",
+        "生物催化",
+        "二氧化碳利用",
+        "超临界流体",
+        "不对称合成"
+      ],
+      "url": "https://www.matsuda.bio.titech.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.bio.titech.ac.jp/dept/kougaku/teachers.html",
+          "evidence": "东京科学大学生命理工学院生命工学科教员页列松田知子为生物有机工学领域准教授，研究领域含绿色化学、超临界流体工学、酶工学、二氧化碳有效利用和环境友好有机合成。"
+        },
+        {
+          "url": "https://www.matsuda.bio.titech.ac.jp/members.html",
+          "evidence": "研究室成员页列出东京科学大学生命理工学院生命理工学系松田知子准教授及博士、硕士研究生。"
+        },
+        {
+          "url": "https://www.matsuda.bio.titech.ac.jp/research.html",
+          "evidence": "研究页说明以酶为有机合成催化剂，利用加压或超临界CO2及溶入CO2的生物来源溶剂作反应介质，以脱羧酶逆反应固定CO2，并用空气中的氧进行酶促氧化。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "酵素を触媒に、二酸化炭素や空気を使う環境にやさしい有機合成を開発する。",
+      "theme_en": "Environmentally friendly organic synthesis using enzymes as catalysts and carbon dioxide or air as reagents.",
+      "summary_ja": "グリーンケミストリーの推進を目指し、酵素を有機合成の触媒に用いる。液体・超臨界CO2やCO2を溶かした生物由来溶媒を反応場とし、脱炭酸酵素の逆反応によるCO2固定化、空気中の酸素を使う酵素酸化、高選択的な不斉還元などを開発する。",
+      "summary_en": "To advance green chemistry, the lab uses enzymes as catalysts for organic synthesis. Liquid or supercritical CO2 and CO2-expanded bio-based solvents serve as reaction media, decarboxylases run in reverse to fix CO2 onto organic molecules, and enzymes use oxygen from air in place of hazardous oxidants, alongside highly stereoselective reductions.",
+      "theme_tw": "以酵素為觸媒，利用二氧化碳和空氣開發環境友善的有機合成。",
+      "summary_tw": "以推動綠色化學為目標，用酵素作有機合成觸媒，以液態或超臨界二氧化碳及溶入CO2的生物來源溶劑為反應介質，透過脫羧酶逆反應把CO2固定到有機分子上，並用空氣中的氧代替危險氧化劑進行酵素氧化。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "green-8"
+    },
+    {
+      "field": "green",
+      "university": "愛媛大学",
+      "department": "大学院理工学研究科 環境機能科学専攻",
+      "lab": "化学汚染・毒性解析部門 環境化学研究室",
+      "pi": "国末 達也",
+      "pi_title": "教授",
+      "theme_zh": "追踪持久性与新型污染物的分布、生物蓄积及生态风险。",
+      "summary_zh": "运用先端仪器分析，调查亚洲发展中国家垃圾场的二噁英、电子废弃物处理场的溴系阻燃剂等有害化学物质污染与暴露风险，并全面筛查鲸类等野生动物体内的已知与未知有机卤素化合物，评估生物蓄积与生态风险。",
+      "keywords": [
+        "持久性有机污染物",
+        "生物蓄积",
+        "有机卤素化合物",
+        "仪器分析",
+        "生态风险"
+      ],
+      "url": "https://researchers.office.ehime-u.ac.jp/html/100000326_ja.html",
+      "references": [
+        {
+          "url": "https://researchers.office.ehime-u.ac.jp/html/100000326_ja.html",
+          "evidence": "爱媛大学研究者信息（2026年6月更新）列国末达也为先端研究院沿岸环境科学研究中心教授（兼任理学部・大学院理工学研究科），研究关键词为环境化学和仪器分析化学，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.ehime-u.ac.jp/data_study/data_study-95361/",
+          "evidence": "爱媛大学研究介绍（2019年）介绍沿岸环境科学研究中心国末达也教授调查亚洲发展中国家垃圾场二噁英、电子废弃物处理场溴系阻燃剂等有害化学物质污染及暴露风险。"
+        },
+        {
+          "url": "https://research.ehime-u.ac.jp/post-ja/post-1708/",
+          "evidence": "爱媛大学研究新闻介绍团队以GC-MS筛查11种齿鲸脂肪中的有机卤素化合物（2025年发表），联系人为沿岸环境科学研究中心国末达也。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "四国",
+      "university_type": "国立",
+      "theme_ja": "残留性・新規環境汚染物質の分布、生物蓄積、生態リスクを解明する。",
+      "theme_en": "Tracking the distribution, bioaccumulation and ecological risks of persistent and emerging pollutants.",
+      "summary_ja": "機器分析により、アジア途上国の廃棄物集積場のダイオキシン類や電子廃棄物処理場の臭素系難燃剤など有害化学物質の汚染と曝露リスクを調べる。鯨類など野生生物に蓄積した既知・未知の有機ハロゲン化合物を網羅的に分析し、リスクを評価する。",
+      "summary_en": "Using advanced instrumental analysis, the lab investigates contamination and exposure risks from hazardous chemicals such as dioxins at open dumpsites and brominated flame retardants at e-waste sites in developing Asian countries, and screens known and unknown organohalogen compounds accumulated in wildlife such as whales to assess bioaccumulation and ecological risk.",
+      "theme_tw": "追蹤持久性與新型汙染物的分布、生物蓄積及生態風險。",
+      "summary_tw": "運用先端儀器分析，調查亞洲開發中國家垃圾場的戴奧辛、電子廢棄物處理場的溴系阻燃劑等有害化學物質汙染與暴露風險，並全面篩查鯨類等野生動物體內的已知與未知有機鹵素化合物，評估生物蓄積與生態風險。",
+      "aliases": [
+        "爱媛大学",
+        "愛媛大學",
+        "Ehime University"
+      ],
+      "id": "green-9"
+    },
+    {
+      "field": "green",
+      "university": "長崎大学",
+      "department": "大学院総合生産科学研究科",
+      "lab": "グリーンケミストリー研究室",
+      "pi": "白川 誠司",
+      "pi_title": "教授",
+      "theme_zh": "设计分子催化剂，开发利用二氧化碳的环境调和型合成。",
+      "summary_zh": "以绿色化学为导向，开发面向未来的环境调和型物质创制方法。设计原创手性有机催化剂等分子催化剂开展精密有机合成，并把二氧化碳视为资源而不只是温室气体，用于合成可成为药物前体的分子。",
+      "keywords": [
+        "绿色化学",
+        "有机催化剂",
+        "不对称合成",
+        "二氧化碳利用",
+        "精密合成"
+      ],
+      "url": "https://www.env.nagasaki-u.ac.jp/professors/shirakawa-seiji/",
+      "references": [
+        {
+          "url": "https://researchers.ir.nagasaki-u.ac.jp/researchdetail.php?id=dTg3YjI2TGpSdXpoNXJuUzVzVmMzOG4xYWlKZFZ5Z0hIbTRiYmc9PQ%3D%3D",
+          "evidence": "长崎大学研究者信息（2026年11月更新）列白川诚司为总合生产科学域（环境科学系）教授，2023年10月起任大学院总合生产科学研究科教授，研究领域含合成有机化学和绿色可持续化学。"
+        },
+        {
+          "url": "https://www.nagasaki-u.ac.jp/ja/science/science272.html",
+          "evidence": "长崎大学新闻（2022年）介绍环境科学部绿色化学研究室开发原创手性硫醚有机催化剂的研究被《化学》月刊报道，作者为白川诚司等。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "分子触媒を設計し、二酸化炭素も資源とする環境調和型の物質創製を目指す。",
+      "theme_en": "Designing molecular catalysts for environmentally benign synthesis, including the use of carbon dioxide as a resource.",
+      "summary_ja": "グリーンケミストリーを強く意識し、未来型の環境調和型物質創製手法を開発する。独自のキラル有機分子触媒などを設計して精密有機合成を行い、二酸化炭素を温室効果ガスとしてだけでなく資源と捉え、医薬品の原料となる物質の合成に利用する。",
+      "summary_en": "Guided by green chemistry, the lab develops environmentally benign methods for making useful substances. It designs original molecular catalysts, including chiral organocatalysts, for precise organic synthesis, and treats carbon dioxide as a resource rather than only a greenhouse gas, using it to build molecules that can serve as pharmaceutical precursors.",
+      "theme_tw": "設計分子觸媒，開發利用二氧化碳的環境調和型合成。",
+      "summary_tw": "以綠色化學為導向，開發面向未來的環境調和型物質創製方法。設計原創手性有機觸媒等分子觸媒進行精密有機合成，並把二氧化碳視為資源而不只是溫室氣體，用於合成可成為藥物前驅物的分子。",
+      "aliases": [
+        "长崎大学",
+        "長崎大學",
+        "Nagasaki University"
+      ],
+      "id": "green-10"
+    },
+    {
       "field": "process",
       "university": "北海道大学",
       "department": "大学院総合化学院 生物化学コース／理学研究院 化学部門",
@@ -11893,6 +13778,338 @@
       "id": "computational-3"
     },
     {
+      "field": "computational",
+      "university": "京都大学",
+      "department": "大学院工学研究科 化学理工学専攻",
+      "lab": "量子理論化学分野（佐藤研究室）",
+      "pi": "佐藤 啓文",
+      "pi_title": "教授",
+      "theme_zh": "量子化学与统计力学解释溶液反应",
+      "summary_zh": "将量子化学与统计力学结合，开发描述溶液中分子电子状态和周围溶剂分布的理论。研究溶剂化、结构涨落及化学反应，分析环境如何改变分子性质，并把方法用于液体和生体分子体系。",
+      "keywords": [
+        "量子化学",
+        "统计力学",
+        "溶剂化",
+        "结构涨落",
+        "溶液反应"
+      ],
+      "url": "https://www.riron.moleng.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.c9c062b36e9a23fd.html",
+          "evidence": "大学教员数据库于2026年10月更新，列佐藤启文为工学研究科化学理工学专攻物理化学讲座现任教授。"
+        },
+        {
+          "url": "https://www.cse.t.kyoto-u.ac.jp/ja/research/introduction/field-1/",
+          "evidence": "新专攻官网在量子理论化学分野列佐藤启文教授并链接研究室，说明以量子化学、统计力学及动力学研究复杂分子环境。"
+        },
+        {
+          "url": "https://www.riron.moleng.kyoto-u.ac.jp/research/index.html",
+          "evidence": "研究概要介绍量子化学与统计力学融合理论、RISM系列方法，以及溶剂化结构、分子涨落和溶液中化学过程的计算。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "量子化学と統計力学による溶液反応の理解",
+      "theme_en": "Quantum chemistry and statistical mechanics of reactions in solution.",
+      "summary_ja": "量子化学と統計力学を融合し、溶液中の分子の電子状態と周囲の溶媒分布を記述する理論を開発する。溶媒和や構造揺らぎ、化学反応を解析し、環境が分子の性質に及ぼす影響を液体や生体分子系で調べる。",
+      "summary_en": "Combines quantum chemistry and statistical mechanics to describe molecular electronic states and surrounding solvent distributions. Develops RISM-based theories to study solvation, structural fluctuations and reactions, explaining how the environment changes molecular properties in liquids and biomolecular systems.",
+      "theme_tw": "量子化學與統計力學解析溶液反應",
+      "summary_tw": "結合量子化學與統計力學，開發描述溶液中分子電子態與周圍溶劑分布的理論。研究溶劑化、結構漲落及化學反應，分析環境如何改變分子性質，並將方法應用於液體與生物分子系統。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "computational-4"
+    },
+    {
+      "field": "computational",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 理学専攻",
+      "lab": "量子化学研究室（柳井研究室）",
+      "pi": "柳井 毅",
+      "pi_title": "教授",
+      "theme_zh": "量子化学理论与分子电子结构计算",
+      "summary_zh": "以量子化学计算研究分子的电子作用，解析化学性质、反应性及分子变化的根源。开发新的电子结构理论、算法和高性能软件，处理复杂化学问题，并与实验研究结合解释分子功能。",
+      "keywords": [
+        "量子化学",
+        "电子结构",
+        "电子相关",
+        "计算算法",
+        "分子反应性"
+      ],
+      "url": "https://www.itbm.nagoya-u.ac.jp/ja/members/post_46/index.php",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100010168_ja.html",
+          "evidence": "大学教员数据库于2026年4月更新，列柳井毅为转化生命分子研究所教授，并明确其大学院理学研究科教学担当。"
+        },
+        {
+          "url": "https://www.chem.nagoya-u.ac.jp/lab/",
+          "evidence": "化学教室列出量子化学研究室（柳井研究室），介绍量子化学理论、算法及高性能计算软件的开发。"
+        },
+        {
+          "url": "https://www.itbm.nagoya-u.ac.jp/ja/members/post_46/index.php",
+          "evidence": "官方组主页列柳井毅为主任研究者及教授，说明从电子作用解析分子性质与反应性，并载有2026年研究动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "量子化学理論と計算手法による分子の理解",
+      "theme_en": "Quantum chemical theories and algorithms for molecular electronic structure.",
+      "summary_ja": "量子化学計算により分子の電子の働きを調べ、化学的性質や反応性、分子変化の原理を探究する。新しい電子状態理論やアルゴリズム、高性能ソフトウェアを開発し、実験で見いだされた複雑な現象の理解に取り組む。",
+      "summary_en": "Uses quantum chemical calculations to explain how electrons govern molecular properties, reactivity and transformations. Develops electronic-structure theories, algorithms and high-performance software, working with experimental researchers to understand complex chemical and biochemical phenomena.",
+      "theme_tw": "量子化學理論與分子電子結構計算",
+      "summary_tw": "以量子化學計算研究分子的電子作用，解析化學性質、反應性及分子變化的根源。開發新的電子結構理論、演算法與高效能軟體，處理複雜化學問題，並結合實驗研究解釋分子功能。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "computational-5"
+    },
+    {
+      "field": "computational",
+      "university": "東京都立大学",
+      "department": "大学院理学研究科 化学専攻",
+      "lab": "理論・計算化学研究室（中谷研究室）",
+      "pi": "中谷 直輝",
+      "pi_title": "教授",
+      "theme_zh": "高精度电子态理论与金属配合物计算",
+      "summary_zh": "开发以密度矩阵重整化群为基础的高精度电子态理论，研究过渡金属配合物与分子簇的物性和反应性。通过量子化学计算解释复杂电子结构，也预测星际环境中分子的形成与演化。",
+      "keywords": [
+        "量子化学",
+        "电子相关",
+        "密度矩阵重整化群",
+        "金属配合物",
+        "星际化学"
+      ],
+      "url": "https://theochem.fpark.tmu.ac.jp/index.html",
+      "references": [
+        {
+          "url": "https://www.tmu.ac.jp/stafflist/data/na/14685.html",
+          "evidence": "大学现职教员目录列中谷直辉为教授，所属为理学部化学科及大学院理学研究科化学专攻。"
+        },
+        {
+          "url": "https://theochem.fpark.tmu.ac.jp/research/index.html",
+          "evidence": "研究介绍说明以量子化学解析过渡金属配合物和分子簇，开发密度矩阵重整化群电子态理论，并研究星际分子演化。"
+        },
+        {
+          "url": "https://www.se.tmu.ac.jp/youkou/2027M/19.pdf",
+          "evidence": "2027年度大学院研究领域介绍第8至9页列中谷直辉教授及理論・計算化学研究室，说明电子相关理论、反应机理及星际化学方向并链接官网。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "公立",
+      "theme_ja": "高精度電子状態理論と金属錯体の計算化学",
+      "theme_en": "Accurate electronic-structure theory for metal complexes and molecular clusters.",
+      "summary_ja": "密度行列繰り込み群に基づく高精度電子状態理論を開発し、遷移金属錯体や分子性クラスターの物性と反応性を調べる。量子化学計算で複雑な電子構造を解析するとともに、星間空間における分子進化も研究する。",
+      "summary_en": "Develops accurate electronic-structure methods based on the density matrix renormalization group. Uses quantum chemistry to explain properties and reactivity of transition-metal complexes and molecular clusters, and to investigate molecular formation and chemical evolution in interstellar clouds.",
+      "theme_tw": "高精度電子態理論與金屬錯合物計算",
+      "summary_tw": "開發以密度矩陣重整化群為基礎的高精度電子態理論，研究過渡金屬錯合物與分子團簇的物性及反應性。透過量子化學計算解釋複雜電子結構，也預測星際環境中分子的形成與演化。",
+      "aliases": [
+        "东京都立大学",
+        "東京都立大學",
+        "Tokyo Metropolitan University"
+      ],
+      "id": "computational-6"
+    },
+    {
+      "field": "computational",
+      "university": "岡山大学",
+      "department": "大学院環境生命自然科学研究科 創成化学学位プログラム",
+      "lab": "理論計算化学研究室",
+      "pi": "篠田 渉",
+      "pi_title": "教授",
+      "theme_zh": "多尺度分子模拟解析膜与软物质",
+      "summary_zh": "开发粗粒化力场与多尺度分子模拟方法，研究脂质膜、生物分子自组装和软物质的结构与动力学。结合不同尺度的分子模型，解析膜性质、电解液中离子运动及分子集合体的功能机制。",
+      "keywords": [
+        "分子动力学",
+        "粗粒化力场",
+        "多尺度模拟",
+        "脂质膜",
+        "离子输运"
+      ],
+      "url": "https://theocomp.chem.okayama-u.ac.jp/home-j.html",
+      "references": [
+        {
+          "url": "https://www.chem.okayama-u.ac.jp/laboratory/theocomp/",
+          "evidence": "大学化学科官网列理論計算化学研究室及篠田涉教授，说明分子模拟、脂质膜、软物质及粗粒化力场SPICA研究。"
+        },
+        {
+          "url": "https://theocomp.chem.okayama-u.ac.jp/home-j.html",
+          "evidence": "研究室首页介绍多尺度分子模拟、SPICA力场和电解液离子动力学，明确修士所属创成化学学位项目并载有2026年成员与研究动态。"
+        },
+        {
+          "url": "https://www.elst.okayama-u.ac.jp/about/32-2/42-2/",
+          "evidence": "大学院环境生命自然科学研究科现行教员表在创成化学的理論計算化学分野列篠田涉教授，确认大学院所属和指导领域。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "多階層分子シミュレーションで膜とソフト物質を解析",
+      "theme_en": "Multiscale molecular simulations of membranes and soft materials.",
+      "summary_ja": "粗視化力場や多階層の分子モデリング手法を開発し、脂質膜、生体分子の自己集合系、ソフトマテリアルの構造と動きを調べる。分子動力学計算から膜の性質や電解液中のイオン輸送、集合体の機能を解析する。",
+      "summary_en": "Develops coarse-grained force fields and multiscale molecular models for lipid membranes, biomolecular assemblies and soft materials. Molecular dynamics simulations connect molecular interactions with membrane properties, self-assembly and ion transport in electrolytes, including applications of the SPICA force field.",
+      "theme_tw": "多尺度分子模擬解析膜與軟物質",
+      "summary_tw": "開發粗粒化力場與多尺度分子模擬方法，研究脂質膜、生物分子自組裝及軟物質的結構與動力學。結合不同尺度的分子模型，解析膜性質、電解液中的離子運動及分子聚集體的功能機制。",
+      "aliases": [
+        "冈山大学",
+        "岡山大學",
+        "Okayama University"
+      ],
+      "id": "computational-7"
+    },
+    {
+      "field": "computational",
+      "university": "九州大学",
+      "department": "大学院工学府 応用化学専攻",
+      "lab": "反応・物性理論研究室",
+      "pi": "塩田 淑仁",
+      "pi_title": "准教授",
+      "theme_zh": "量子化学解释酶与催化反应机制",
+      "summary_zh": "从量子化学出发研究分子与固体的电子结构，分析酶和催化剂怎样改变反应路径与反应性。通过理论计算考察电子运动及自旋状态，将计算结果转化为分子层面的机制解释和化学概念。",
+      "keywords": [
+        "量子化学",
+        "电子结构",
+        "反应机理",
+        "酶催化",
+        "自旋状态"
+      ],
+      "url": "https://sites.google.com/view/imce-theoretical-chemistry",
+      "references": [
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022712_ja.html",
+          "evidence": "大学教员数据库于2026年6月更新，列塩田淑仁为先导物质化学研究所准教授、工学府应用化学专攻兼任教员，明确其大学院研究教育工作。"
+        },
+        {
+          "url": "https://www.cm.kyushu-u.ac.jp/laboratory/theoretical-chemistry/",
+          "evidence": "大学研究所官网列反应与物性理论分野现任成员塩田淑仁准教授，介绍量子化学、电子结构及酶反应研究并链接现研究室网站。"
+        },
+        {
+          "url": "https://sites.google.com/view/imce-theoretical-chemistry",
+          "evidence": "现行官网写明反応・物性理論研究室及塩田研究室，列现任准教授和学生，介绍电子结构、自旋与催化机理并说明旧吉澤研页面停止更新。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "量子化学による酵素・触媒反応機構の解明",
+      "theme_en": "Quantum chemical explanations of enzyme and catalyst reaction mechanisms.",
+      "summary_ja": "量子化学に基づいて分子や固体の電子構造を調べ、酵素や触媒による反応の仕組みを解析する。電子の動きやスピン状態に着目した理論計算を通して、反応性の起源を説明し、新たな化学概念の構築を目指す。",
+      "summary_en": "Uses quantum chemistry to investigate electronic structures of molecules and solids and the mechanisms of enzyme and catalyst reactions. Examines electronic motion and spin states to explain the origins of reactivity, turning computational results into molecular interpretations and chemical concepts.",
+      "theme_tw": "量子化學解析酵素與觸媒反應機制",
+      "summary_tw": "從量子化學出發研究分子與固體的電子結構，分析酵素和觸媒如何改變反應路徑與反應性。透過理論計算探討電子運動及自旋態，將計算結果轉化為分子層次的機制解釋與化學概念。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "computational-8"
+    },
+    {
+      "field": "computational",
+      "university": "東京科学大学",
+      "department": "生命理工学院 生命理工学系",
+      "lab": "北尾研究室",
+      "pi": "北尾 彰朗",
+      "pi_title": "教授",
+      "theme_zh": "分子动力学解析蛋白质运动与结合",
+      "summary_zh": "运用原子分辨率的分子动力学模拟，研究蛋白质、核酸等生物分子系统如何发挥功能。关注构象变化、功能开关和结合解离过程，并开发高效并行算法，以理解生物分子运动与相互作用。",
+      "keywords": [
+        "分子动力学",
+        "蛋白质构象",
+        "分子结合",
+        "自由能",
+        "并行模拟"
+      ],
+      "url": "https://www.kitao.life.isct.ac.jp/",
+      "references": [
+        {
+          "url": "https://strdb.s.isct.ac.jp/html/100001770_ja.html",
+          "evidence": "大学研究信息数据库于2026年10月更新，列北尾彰朗为生命理工学院教授，并链接北尾研究室官网。"
+        },
+        {
+          "url": "https://www.kitao.life.isct.ac.jp/overview.html",
+          "evidence": "研究介绍说明以原子分辨率分子动力学模拟研究蛋白质构象、功能及结合解离过程，并开发准确高效的并行模拟方法。"
+        },
+        {
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?contentsDataId=&contentsId=&fileName=2027_4_2026_9_master&key=99f5b4a4b4a4d5dae647cb75044dce9a.pdf&pageId=3176&prevId=&type=1",
+          "evidence": "2027年硕士募集要项第56页将北尾彰朗列为生命理工学课程指导教授，方向包括分子模拟及理论化学，该条未标注退休导致的志愿限制。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "分子動力学で探るタンパク質の運動と結合",
+      "theme_en": "Molecular dynamics of protein motions, function and binding.",
+      "summary_ja": "原子解像度の分子動力学シミュレーションで、タンパク質や核酸などの生体分子が働く仕組みを調べる。構造変化と機能の関係や結合・解離過程を解析し、精度と効率を両立する並列計算手法も開発する。",
+      "summary_en": "Uses atomistic molecular dynamics simulations to study how proteins, nucleic acids and their molecular complexes function. Investigates conformational changes, functional switching and binding or dissociation, while developing efficient parallel methods to explain biomolecular motions and interactions.",
+      "theme_tw": "分子動力學解析蛋白質運動與結合",
+      "summary_tw": "運用原子解析度的分子動力學模擬，研究蛋白質、核酸等生物分子系統如何發揮功能。關注構形變化、功能開關與結合解離過程，並開發高效率平行演算法，以理解生物分子運動及交互作用。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "computational-9"
+    },
+    {
+      "field": "computational",
+      "university": "明治大学",
+      "department": "大学院理工学研究科 物理学専攻",
+      "lab": "生物物理第一研究室（光武研究室）",
+      "pi": "光武 亜代理",
+      "pi_title": "教授",
+      "theme_zh": "统计力学与蛋白质分子模拟方法",
+      "summary_zh": "以统计力学为基础开发分子模拟方法，研究蛋白质的结构稳定性、构象变化和功能机制。通过计算追踪蛋白质及周围溶剂的运动，分析分子环境与稳定性的关系，探索决定生物分子动态的物理规律。",
+      "keywords": [
+        "分子模拟",
+        "统计力学",
+        "构象采样",
+        "蛋白质动力学",
+        "溶剂效应"
+      ],
+      "url": "https://www.biophys1st-lab-meiji.org/",
+      "references": [
+        {
+          "url": "https://www.meiji.ac.jp/sst/grad/teacher/05/03/6t5h7p00000u2s20.html",
+          "evidence": "大学院理工学研究科物理学专攻个人页列光武亚代理为教授，明确博士前期与博士后期研究指导担当，研究分野为理论生物物理学和分子模拟。"
+        },
+        {
+          "url": "https://www.isc.meiji.ac.jp/~physics/research/mitsutake.html",
+          "evidence": "大学物理学科官网列生物物理第一研究室及光武亚代理教授，介绍统计力学模拟方法、蛋白质稳定性与溶剂效应，并直接链接研究室自有域名。"
+        },
+        {
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/shidouichiran.pdf",
+          "evidence": "2026年4月研究指导担当教员名单第8页在物理学专攻列光武亚代理专任教授，并标明硕士与博士研究指导资格。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "統計力学と分子シミュレーションで探るタンパク質",
+      "theme_en": "Statistical mechanics and molecular simulation methods for protein dynamics.",
+      "summary_ja": "統計力学に基づく分子シミュレーション手法を開発し、タンパク質の構造安定性や動き、機能の仕組みを調べる。タンパク質と周囲の溶媒との関係を計算から解析し、構造変化や安定性を支える物理的な要因を探る。",
+      "summary_en": "Develops molecular simulation methods grounded in statistical mechanics to study protein stability, conformational dynamics and function. Simulates proteins together with surrounding solvent to investigate how molecular environments shape structural stability and the physical mechanisms of biomolecular motion.",
+      "theme_tw": "統計力學與蛋白質分子模擬方法",
+      "summary_tw": "以統計力學為基礎開發分子模擬方法，研究蛋白質的結構穩定性、構形變化與功能機制。透過計算追蹤蛋白質及周圍溶劑的運動，分析分子環境與穩定性的關係，探索決定生物分子動態的物理規律。",
+      "aliases": [
+        "明治大学",
+        "明治大學",
+        "Meiji University"
+      ],
+      "id": "computational-10"
+    },
+    {
       "field": "chemai",
       "university": "明治大学",
       "department": "理工学部 応用化学科／大学院理工学研究科 応用化学専攻",
@@ -12012,6 +14229,337 @@
         "Nagoya University"
       ],
       "id": "chemai-3"
+    },
+    {
+      "field": "chemai",
+      "university": "東京大学",
+      "department": "大学院新領域創成科学研究科 メディカル情報生命専攻",
+      "lab": "津田研究室（大規模知識発見分野）",
+      "pi": "津田 宏治",
+      "pi_title": "教授",
+      "theme_zh": "机器学习驱动的分子与材料自动设计",
+      "summary_zh": "开发机器学习与优化算法，自动探索具有目标功能的有机分子、肽及无机材料。结合实验研究者的验证，研究分子生成、材料搜索与实验规划，并从复杂数据中提取可靠规律，支持数据驱动的分子和材料设计。",
+      "keywords": [
+        "分子生成",
+        "机器学习",
+        "材料设计",
+        "优化算法",
+        "实验规划"
+      ],
+      "url": "https://www.tsudalab.org/",
+      "references": [
+        {
+          "url": "https://www.cbms.k.u-tokyo.ac.jp/labs/tsuda/",
+          "evidence": "专攻官网列津田宏治教授及基干讲座研究室，说明有机分子与无机材料的机器学习自动设计，并链接研究室官网。"
+        },
+        {
+          "url": "https://www.u-tokyo.ac.jp/focus/ja/people/people100782.html",
+          "evidence": "大学教员目录确认津田宏治现任教授，所属新领域创成科学研究科及医疗信息生命专攻。"
+        },
+        {
+          "url": "https://www.tsudalab.org/",
+          "evidence": "研究室官网介绍化学与材料科学中的机器学习应用，列材料探索相关近期成果及2026年研究动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "機械学習による分子・材料の自動設計",
+      "theme_en": "Automated molecular and materials design with machine learning",
+      "summary_ja": "機械学習と最適化のアルゴリズムを開発し、有機分子、ペプチド、無機材料を自動設計します。実験研究者と連携し、分子生成や材料探索、実験計画を進めるほか、複雑なデータから信頼できる規則を見いだす方法も研究します。",
+      "summary_en": "Develops machine-learning and optimization algorithms for automated design of organic molecules, peptides and inorganic materials. Working with experimental researchers, the group studies molecular generation, materials exploration and experimental planning, alongside methods that extract reliable knowledge from complex data.",
+      "theme_tw": "機器學習驅動的分子與材料自動設計",
+      "summary_tw": "開發機器學習與最佳化演算法，自動探索具有目標功能的有機分子、胜肽及無機材料。結合實驗研究者的驗證，研究分子生成、材料搜尋與實驗規劃，並從複雜資料中提取可靠規律，支援資料驅動的分子和材料設計。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "chemai-4"
+    },
+    {
+      "field": "chemai",
+      "university": "東京大学",
+      "department": "大学院新領域創成科学研究科 メディカル情報生命専攻",
+      "lab": "瀧川研究室（データ駆動知能分野）",
+      "pi": "瀧川 一学",
+      "pi_title": "教授",
+      "theme_zh": "分子与化学反应的机器学习方法",
+      "summary_zh": "面向分子结构、分子间相互作用与化学反应，开发处理组合、几何及离散结构数据的机器学习算法。通过统计预测和机器发现研究新分子与新反应，并探索从复杂化学数据中提取规律的方法。",
+      "keywords": [
+        "化学信息学",
+        "化学反应预测",
+        "分子表示",
+        "机器发现",
+        "离散算法"
+      ],
+      "url": "https://takigawa-lab.tokyo/",
+      "references": [
+        {
+          "url": "https://www.k.u-tokyo.ac.jp/gsfs/faculty/ichigaku_takigawa/",
+          "evidence": "大学研究科教员页确认瀧川一学自2025年任教授及现属专攻，说明大学院研究指导，并链接研究室网站。"
+        },
+        {
+          "url": "https://www.cbms.k.u-tokyo.ac.jp/labs/takigawa/",
+          "evidence": "专攻官网列瀧川研究室与数据驱动知能分野，介绍分子间相互作用、化学反应及复杂结构数据的机器学习。"
+        },
+        {
+          "url": "https://www.bs.s.u-tokyo.ac.jp/labs/takigawa/",
+          "evidence": "大学官方研究室页列瀧川一学教授，将多分子相互作用的机器学习、分子结构预测及新分子和新反应的机器发现列为研究课题，并链接研究室官网。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "分子と化学反応の機械学習・機械発見",
+      "theme_en": "Machine learning and discovery for molecules and chemical reactions",
+      "summary_ja": "分子構造、分子間相互作用、化学反応を対象に、組合せ・幾何・離散構造を伴うデータの機械学習法を開発。統計的予測や機械発見のアルゴリズムを通じて、新しい分子や反応の探索と複雑な化学データの理解を目指します。",
+      "summary_en": "Develops machine learning algorithms for molecular structures, intermolecular interactions and chemical reactions. Statistical prediction and machine discovery address combinatorial, geometric and discrete data, supporting searches for new molecules and reactions and understanding of complex chemical information.",
+      "theme_tw": "分子與化學反應的機器學習方法",
+      "summary_tw": "面向分子結構、分子間交互作用與化學反應，開發處理組合、幾何及離散結構資料的機器學習演算法。透過統計預測和機器發現研究新分子與新反應，並探索從複雜化學資料中提取規律的方法。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "chemai-5"
+    },
+    {
+      "field": "chemai",
+      "university": "九州大学",
+      "department": "大学院工学府 応用化学専攻",
+      "lab": "マテリアルズインフォマティクス研究室",
+      "pi": "加藤 幸一郎",
+      "pi_title": "教授",
+      "theme_zh": "材料信息学与数据驱动分子设计",
+      "summary_zh": "从实验、文献与模拟获取材料和分子数据，利用机器学习预测物性并探索未知结构。研究聚合物信息学、二维层状材料和人工智能药物设计，也开发数据分析与模拟方法，连接材料结构和功能。",
+      "keywords": [
+        "材料信息学",
+        "物性预测",
+        "聚合物信息学",
+        "二维材料",
+        "人工智能药物设计"
+      ],
+      "url": "https://www.eng.kyushu-u.ac.jp/research-education/labs/lab-materials-informatics-laboratory/",
+      "references": [
+        {
+          "url": "https://www.eng.kyushu-u.ac.jp/research-education/labs/lab-materials-informatics-laboratory/",
+          "evidence": "大学工学官网列材料信息学研究室、加藤幸一郎教授及工学府应用化学专攻，介绍材料与分子探索并链接研究室网站。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100020171_ja.html",
+          "evidence": "2026年更新的大学数据库确认加藤幸一郎教授所属，说明机器学习物性预测、持续同调分析及大学院研究指导。"
+        },
+        {
+          "url": "https://sites.google.com/view/ku-kato-lab/home",
+          "evidence": "大学背书的研究室主页介绍数据驱动材料与分子设计，刊有2026年10月教师活动和修士、博士学生动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "マテリアルズインフォマティクスと分子設計",
+      "theme_en": "Materials informatics and data-driven molecular design",
+      "summary_ja": "実験・文献・シミュレーションから材料や分子のデータを集め、機械学習で物性予測と未知構造の探索を進めます。ポリマーや二次元積層材料、AI創薬を扱い、構造と機能をつなぐデータ解析や計算手法も開発します。",
+      "summary_en": "Combines experimental, literature and simulation data with machine learning to predict properties and explore materials and molecules. Topics include polymer informatics, two-dimensional layered materials and AI-assisted drug design, alongside methods linking molecular structure to function.",
+      "theme_tw": "材料資訊學與資料驅動分子設計",
+      "summary_tw": "從實驗、文獻與模擬取得材料和分子資料，利用機器學習預測物性並探索未知結構。研究高分子資訊學、二維層狀材料和人工智慧藥物設計，也開發資料分析與模擬方法，連結材料結構和功能。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "chemai-6"
+    },
+    {
+      "field": "chemai",
+      "university": "東北大学",
+      "department": "大学院情報科学研究科 応用情報科学専攻",
+      "lab": "先端応用データ科学（志賀研究室）",
+      "pi": "志賀 元紀",
+      "pi_title": "教授",
+      "theme_zh": "以机器学习解析材料结构并辅助材料探索",
+      "summary_zh": "开发面向材料科学的机器学习方法，解析电子显微镜与放射光实验产生的多维测量数据。研究晶体结构生成、杂乱结构中的秩序描述与物性预测，连接材料结构识别和高性能材料探索。",
+      "keywords": [
+        "材料信息学",
+        "机器学习",
+        "结构生成",
+        "多维测量",
+        "物性预测"
+      ],
+      "url": "https://www.shiga-lab.org/",
+      "references": [
+        {
+          "url": "https://www.is.tohoku.ac.jp/jp/laboratory/list_dept/d13.html",
+          "evidence": "信息科学研究科应用信息科学专攻官方页面列志賀元紀教授，介绍材料信息学研究，并链接志賀研究室自有域名。"
+        },
+        {
+          "url": "https://www.shiga-lab.org/research.html",
+          "evidence": "研究内容说明开发结晶材料生成模型、电子显微镜与放射光多维数据分析，以及材料结构秩序描述和物性预测方法。"
+        },
+        {
+          "url": "https://www.shiga-lab.org/",
+          "evidence": "研究室首页列出2026年10月论文与成员加入等动态，说明以人工智能和机器学习支持高性能材料探索。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "機械学習で材料構造を解析し新材料探索を支援する",
+      "theme_en": "Machine learning for materials structures and discovery.",
+      "summary_ja": "材料科学に向けた機械学習法を開発し、電子顕微鏡や放射光実験の多次元計測データを解析する。結晶構造の生成、乱れた構造の秩序記述、物性予測を研究し、構造の同定と高性能材料の探索を支援する。",
+      "summary_en": "Develops machine-learning methods for materials science, analyzing multidimensional electron microscopy and synchrotron data. Research spans crystal-structure generation, descriptions of order in disordered materials and property prediction to support structural identification and materials discovery.",
+      "theme_tw": "以機器學習解析材料結構並輔助材料探索",
+      "summary_tw": "開發面向材料科學的機器學習方法，解析電子顯微鏡與同步輻射實驗產生的多維量測資料。研究晶體結構生成、雜亂結構中的秩序描述與物性預測，連結材料結構辨識和高性能材料探索。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "chemai-7"
+    },
+    {
+      "field": "chemai",
+      "university": "京都大学",
+      "department": "大学院工学研究科 材料工学専攻",
+      "lab": "量子材料学分野（世古研究室）",
+      "pi": "世古 敦人",
+      "pi_title": "教授",
+      "theme_zh": "机器学习势与晶体材料设计",
+      "summary_zh": "结合材料结构数据、机器学习与优化算法，开发晶体结构和物性的预测方法。研究机器学习原子间势、结构枚举及贝叶斯优化，筛选稳定或亚稳材料，并以材料信息学探索未知组成和结构。",
+      "keywords": [
+        "材料信息学",
+        "机器学习势",
+        "晶体结构预测",
+        "贝叶斯优化",
+        "材料设计"
+      ],
+      "url": "https://cms.mtl.kyoto-u.ac.jp/index.html",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.a04515aed7c7cbba.html",
+          "evidence": "大学数据库于2026年10月更新，列世古敦人为工学研究科材料工学专攻教授，并列当年度大学院课程。"
+        },
+        {
+          "url": "https://cms.mtl.kyoto-u.ac.jp/index.html",
+          "evidence": "研究室官网写明量子材料学分野，列世古敦人教授、助教及修士学生，并介绍机器学习势与材料信息学。"
+        },
+        {
+          "url": "https://cms.mtl.kyoto-u.ac.jp/research/structure_search.html",
+          "evidence": "研究介绍说明机器学习势、结构枚举和贝叶斯优化用于晶体结构搜索与新材料探索。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "機械学習ポテンシャルと結晶材料設計",
+      "theme_en": "Machine learning potentials and crystal materials design",
+      "summary_ja": "材料の構造データと機械学習、最適化を組み合わせ、結晶構造や物性を予測する手法を開発。機械学習ポテンシャル、構造列挙、ベイズ最適化により安定・準安定構造を探索し、未知の組成や材料の設計につなげます。",
+      "summary_en": "Develops machine learning potentials and optimization methods to predict crystal structures and material properties. Structure enumeration and Bayesian optimization guide searches for stable and metastable materials, supporting the discovery of unfamiliar compositions and structures.",
+      "theme_tw": "機器學習位能與晶體材料設計",
+      "summary_tw": "結合材料結構資料、機器學習與最佳化演算法，開發晶體結構和物性的預測方法。研究機器學習原子間位能、結構枚舉及貝氏最佳化，篩選穩定或亞穩材料，並以材料資訊學探索未知組成和結構。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "chemai-8"
+    },
+    {
+      "field": "chemai",
+      "university": "横浜国立大学",
+      "department": "大学院理工学府 化学・生命系理工学専攻",
+      "lab": "物理有機化学・分子設計研究室",
+      "pi": "五東 弘昭",
+      "pi_title": "准教授",
+      "theme_zh": "用化学数据预测反应选择性与分子功能",
+      "summary_zh": "结合有机化学知识、机器学习和化学数据，预测分子功能与反应选择性。研究分子结构和抗氧化活性的关系，利用自然语言处理整理化学信息，并将计算与实验结合，用于功能材料探索及分子设计。",
+      "keywords": [
+        "反应选择性",
+        "构效关系",
+        "机器学习",
+        "自然语言处理",
+        "分子设计"
+      ],
+      "url": "https://poclab-web.github.io/homepage/",
+      "references": [
+        {
+          "url": "https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html",
+          "evidence": "大学数据库确认五东弘昭现任准教授，兼任理工学府化学生命系理工学专攻，列化学信息与机器学习方向并链接研究室官网。"
+        },
+        {
+          "url": "https://chem.ynu.ac.jp/laboratory.php",
+          "evidence": "大学化学教育项目教员页列五东弘昭准教授及物理有机化学与分子设计研究室的正式日文名称，附官网链接。"
+        },
+        {
+          "url": "https://poclab-web.github.io/homepage/portfolio/",
+          "evidence": "研究室当前课题页说明反应选择性预测、自然语言处理、抗氧化构效关系及机器学习辅助功能材料设计，页面更新于2026年。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "化学データによる反応選択性と分子機能の予測",
+      "theme_en": "Predicting reaction selectivity and molecular function from chemical data",
+      "summary_ja": "有機化学の知識と機械学習、化学データを組み合わせ、分子機能や反応選択性を予測します。分子構造と抗酸化活性の関係、自然言語処理による化学情報の活用を調べ、実験と計算を結んで機能性材料の探索や分子設計を進めます。",
+      "summary_en": "Combines organic chemistry, machine learning and chemical data to predict molecular function and reaction selectivity. Research examines structure–antioxidant activity relationships and natural-language processing of chemical information, integrating computation with experiments to explore functional materials and guide molecular design.",
+      "theme_tw": "用化學資料預測反應選擇性與分子功能",
+      "summary_tw": "結合有機化學知識、機器學習和化學資料，預測分子功能與反應選擇性。研究分子結構和抗氧化活性的關係，利用自然語言處理整理化學資訊，並將計算與實驗結合，用於功能材料探索及分子設計。",
+      "aliases": [
+        "横滨国立大学",
+        "橫濱國立大學",
+        "Yokohama National University"
+      ],
+      "id": "chemai-9"
+    },
+    {
+      "field": "chemai",
+      "university": "京都大学",
+      "department": "大学院医学研究科 人間健康科学系専攻",
+      "lab": "ビッグデータ医科学分野（奥野研究室）",
+      "pi": "奥野 恭史",
+      "pi_title": "教授",
+      "theme_zh": "药物性质预测与联邦学习辅助分子设计",
+      "summary_zh": "利用化合物及蛋白质相关数据库，开发机器学习模型预测靶点结合、药代动力学与毒性，并研究联邦学习整合不同机构的学习成果。结合分子模拟分析相互作用，为候选化合物筛选与药物设计提供依据。",
+      "keywords": [
+        "化学信息学",
+        "药物性质预测",
+        "联邦学习",
+        "靶点结合",
+        "机器学习"
+      ],
+      "url": "https://clinfo.med.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.611284437e45bdcb.html",
+          "evidence": "大学教员数据库于2026年10月更新，列奥野恭史为医学研究科人间健康科学系专攻教授，履历确认其现任大数据医科学分野教授。"
+        },
+        {
+          "url": "https://clinfo.med.kyoto-u.ac.jp/research/",
+          "evidence": "研究介绍列化合物靶点、药代动力学及毒性预测AI、联邦学习，以及结合分子模拟开展药物设计的研究。"
+        },
+        {
+          "url": "https://clinfo.med.kyoto-u.ac.jp/",
+          "evidence": "研究室首页使用大数据医科学分野日文名称，说明AI创药方向，并有2026年10月化合物性质预测及靶点活性推断的研究动态。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "化合物特性予測と連合学習による創薬支援",
+      "theme_en": "Drug-property prediction and federated learning for molecular design",
+      "summary_ja": "化合物やタンパク質のデータを基に、標的への結合、薬物動態、毒性を予測する機械学習を研究します。複数機関の学習結果を統合する連合学習や分子シミュレーションを組み合わせ、候補化合物の探索と薬剤設計を支援します。",
+      "summary_en": "Develops machine-learning models to predict compound-target interactions, pharmacokinetics and toxicity from chemical and protein data. Federated learning integrates models across institutions, while molecular simulations support candidate screening and drug design.",
+      "theme_tw": "藥物性質預測與聯邦學習輔助分子設計",
+      "summary_tw": "運用化合物及蛋白質相關資料庫，開發機器學習模型預測標的結合、藥代動力學與毒性，並研究聯邦學習整合不同機構的學習成果。結合分子模擬分析交互作用，為候選化合物篩選與藥物設計提供依據。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "chemai-10"
     }
   ]
 }
