@@ -1993,6 +1993,321 @@
       "id": "protein-3"
     },
     {
+      "field": "protein",
+      "university": "九州大学",
+      "department": "生体防御医学研究所／大学院システム生命科学府",
+      "lab": "トランススケール構造生命科学分野（稲葉研究室）",
+      "pi": "稲葉 謙次",
+      "pi_title": "教授",
+      "theme_zh": "内质网蛋白质质量控制的结构与分子机制",
+      "summary_zh": "从分子结构到细胞层面研究内质网的蛋白质质量控制。利用X射线晶体学、冷冻电镜和高速原子力显微镜解析PDI家族酶、ERdj5、钙泵和锌转运体，探讨二硫键、pH和金属离子如何调控蛋白质折叠。",
+      "keywords": [
+        "蛋白质质量控制",
+        "内质网",
+        "二硫键",
+        "冷冻电镜",
+        "锌稳态"
+      ],
+      "url": "https://www.bioreg.kyushu-u.ac.jp/labo/tssls/index.html",
+      "references": [
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/tssls/research.html",
+          "evidence": "研究介绍说明研究室从分子结构到细胞层面研究内质网蛋白质质量控制，涉及二硫键形成、ERdj5、ERp44，方法包括X射线晶体学、小角散射、生化、蛋白质组学和细胞生物学。"
+        },
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/labo/tssls/members.html",
+          "evidence": "成员页列出主干教授稲葉謙次以及准教授、助教和特任准教授；研究室主页新闻更新至2026年7月，包括钙泵、锌转运体的冷冻电镜结构等成果。"
+        },
+        {
+          "url": "https://hyoka.ofc.kyushu-u.ac.jp/html/100022463_ja.html",
+          "evidence": "九州大学研究者信息库列明稲葉謙次为生体防御医学研究所教授，兼任大学院系统生命科学府，研究关键词包括冷冻电镜、X射线晶体学、二硫键和蛋白质质量控制。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "小胞体におけるタンパク質品質管理の構造基盤",
+      "theme_en": "Structural basis of protein quality control in the endoplasmic reticulum and secretory pathway.",
+      "summary_ja": "小胞体のタンパク質品質管理を構造と細胞の両面から研究する。X線結晶構造解析、クライオ電顕、高速AFMでPDIファミリー酵素、ERdj5、カルシウムポンプ、亜鉛輸送体を解析し、ジスルフィド結合やpH・金属イオンによる制御を探る。",
+      "summary_en": "Studies protein quality control in the endoplasmic reticulum and secretory pathway, from molecular structure to cell biology. Using X-ray crystallography, cryo-EM and high-speed AFM, the lab analyzes PDI-family enzymes, ERdj5, ERp44, calcium pumps and zinc transporters to understand how disulfide bond formation, pH and metal ions regulate protein folding.",
+      "theme_tw": "內質網蛋白質品質管控的結構與分子機制",
+      "summary_tw": "從分子結構到細胞層面研究內質網的蛋白質品質管控。利用X射線晶體學、冷凍電顯和高速原子力顯微鏡解析PDI家族酶、ERdj5、鈣泵和鋅轉運體，探討雙硫鍵、pH和金屬離子如何調控蛋白質摺疊。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "protein-4"
+    },
+    {
+      "field": "protein",
+      "university": "東北大学",
+      "department": "多元物質科学研究所／大学院生命科学研究科 分子化学生物学専攻",
+      "lab": "量子ビーム構造生物化学研究分野（南後研究室）",
+      "pi": "南後 恵理子",
+      "pi_title": "教授",
+      "theme_zh": "用X射线自由电子激光拍摄蛋白质的动态结构",
+      "summary_zh": "利用X射线自由电子激光和同步辐射，在飞秒至毫秒尺度观察蛋白质结构变化。以时间分辨串行飞秒晶体学研究光响应蛋白的开关机制和催化特殊反应的酶，并开发样品导入技术，尝试依据结构设计新功能分子。",
+      "keywords": [
+        "时间分辨结构解析",
+        "X射线自由电子激光",
+        "串行飞秒晶体学",
+        "光响应蛋白",
+        "酶反应机制"
+      ],
+      "url": "https://www2.tagen.tohoku.ac.jp/lab/nango/html/index.html",
+      "references": [
+        {
+          "url": "https://www.lifesci.tohoku.ac.jp/research/fields/field3/",
+          "evidence": "生命科学研究科分子化学生物学专攻页面在阶层结构动力学讲座（协力讲座）下列出分子功能可视化分野，教授为南後恵理子，关键词为动态结构解析、结构功能相关和分子设计。"
+        },
+        {
+          "url": "https://www2.tagen.tohoku.ac.jp/lab/nango/html/members.html",
+          "evidence": "成员页列出教授南後恵理子、3名助教及博士、硕士研究生；研究室主页说明利用X射线自由电子激光和同步辐射在飞秒至毫秒尺度观察蛋白质结构变化，新闻更新至2026年11月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "X線自由電子レーザーによるタンパク質動的構造の可視化",
+      "theme_en": "Visualizing protein structural dynamics with X-ray free-electron lasers and synchrotron radiation.",
+      "summary_ja": "X線自由電子レーザーと放射光を用い、フェムト秒からミリ秒の時間スケールでタンパク質の構造変化を捉える。時分割シリアルフェムト秒結晶構造解析で光応答タンパク質のスイッチ機構や特殊な酵素反応を調べ、試料導入法や分子設計も開発する。",
+      "summary_en": "Uses X-ray free-electron lasers and synchrotron radiation to watch proteins change structure on femtosecond-to-millisecond timescales. Time-resolved serial femtosecond crystallography is applied to light-responsive protein switches and enzymes that catalyze unusual reactions, alongside sample-delivery methods and structure-based molecular design.",
+      "theme_tw": "用X射線自由電子雷射拍攝蛋白質的動態結構",
+      "summary_tw": "利用X射線自由電子雷射和同步輻射，在飛秒至毫秒尺度觀察蛋白質結構變化。以時間分辨串列飛秒晶體學研究光響應蛋白的開關機制和催化特殊反應的酶，並開發樣品導入技術，嘗試依據結構設計新功能分子。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "protein-5"
+    },
+    {
+      "field": "protein",
+      "university": "大阪大学",
+      "department": "蛋白質研究所／大学院理学研究科 生物科学専攻",
+      "lab": "蛋白質デザイン研究室",
+      "pi": "古賀 信康",
+      "pi_title": "教授",
+      "theme_zh": "结合计算与生化实验的蛋白质从头设计",
+      "summary_zh": "基于物理化学和数据科学在计算机上设计蛋白质，再用生化实验检验，以探索结构形成与功能表达的原理。研究室总结了主链结构的设计规则，已从零设计出含新拓扑的多种蛋白质，并以其为构件探索功能蛋白。",
+      "keywords": [
+        "蛋白质设计",
+        "从头设计",
+        "蛋白质折叠",
+        "计算生物物理",
+        "生化实验"
+      ],
+      "url": "https://www.protein.osaka-u.ac.jp/protein_design/index.html",
+      "references": [
+        {
+          "url": "https://www.protein.osaka-u.ac.jp/research-groups/",
+          "evidence": "蛋白质研究所研究室一览在附属蛋白质先端数据科学研究中心下列出蛋白质设计研究室（古賀研），教授为古賀信康，方向为用计算机和生化实验开发蛋白质设计技术。"
+        },
+        {
+          "url": "https://orca01.bio.sci.osaka-u.ac.jp/pdf/r08_lab_annai.pdf",
+          "evidence": "2026年度大阪大学大学院理学研究科生物科学专攻研究室介绍在蛋白质功能学下列出蛋白质设计研究室（蛋白质研究所），教授古賀信康，介绍其总结主链结构设计规则并从零设计新拓扑蛋白质。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "計算機と生化学実験によるタンパク質のデザイン",
+      "theme_en": "Designing proteins from scratch by combining computation with biochemical experiments.",
+      "summary_ja": "物理化学とデータ科学に基づきタンパク質を計算機上で設計し、生化学実験で検証して構造形成と機能発現の原理を探る。主鎖構造に着目した設計原理を体系化し、新規トポロジーを含む構造をゼロから設計しており、機能性タンパク質の創出を目指す。",
+      "summary_en": "Designs proteins on computers based on physical chemistry and data science, then tests their behavior with biochemical experiments to understand how proteins fold and function. The lab has systematized backbone-centered design rules, created proteins from scratch including topologies not found in nature, and aims to use them as building blocks for functional proteins.",
+      "theme_tw": "結合計算與生化實驗的蛋白質從頭設計",
+      "summary_tw": "基於物理化學和數據科學在電腦上設計蛋白質，再用生化實驗檢驗，以探索結構形成與功能表達的原理。研究室總結了主鏈結構的設計規則，已從零設計出含新拓撲的多種蛋白質，並以其為構件探索功能蛋白。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "protein-6"
+    },
+    {
+      "field": "protein",
+      "university": "名古屋大学",
+      "department": "大学院理学研究科 物理科学領域",
+      "lab": "生体分子動態機能研究室",
+      "pi": "内橋 貴之",
+      "pi_title": "教授",
+      "theme_zh": "用高速原子力显微镜观察单个蛋白质分子的动态",
+      "summary_zh": "在单分子水平研究蛋白质在溶液中如何改变结构并发挥功能。研究室开发高速原子力显微镜等测量技术，观察淀粉样β纤维形成等过程，并结合荧光、电化学和力学测量，分析生物分子与合成超分子的动态。",
+      "keywords": [
+        "高速原子力显微镜",
+        "单分子测量",
+        "蛋白质动态",
+        "生物物理",
+        "力学特性"
+      ],
+      "url": "https://www.nagoya-d-lab.com/",
+      "references": [
+        {
+          "url": "https://www.d.phys.nagoya-u.ac.jp/",
+          "evidence": "名古屋大学域名下的生体分子动态功能研究室（D研）旧主页说明研究室网站已迁至nagoya-d-lab.com并给出链接；新网站新闻更新至2026年11月。"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/docs/pamphlet/D.pdf",
+          "evidence": "物理学教室研究室介绍（2026年4月）列出教授内橋貴之、讲师和助教，说明研究室开发高速原子力显微镜，在单分子水平观察蛋白质动态，如淀粉样β纤维形成，并与荧光、电化学和力学测量结合。"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/about/faculty.html",
+          "evidence": "大学院理学研究科物理科学领域教员一览列出内橋貴之为D研教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "高速原子間力顕微鏡によるタンパク質1分子動態の解明",
+      "theme_en": "Watching single protein molecules in action with high-speed atomic force microscopy.",
+      "summary_ja": "溶液中で働くタンパク質の構造変化と機能を1分子レベルで解明する。高速原子間力顕微鏡を中心に計測技術を開発してアミロイドβの線維形成などを観察し、蛍光・電気化学計測や力学操作との複合化で生体分子や合成超分子の動態を解析する。",
+      "summary_en": "Takes a biophysical approach to how proteins change shape and function in solution, one molecule at a time. The lab develops high-speed atomic force microscopy, films processes such as amyloid-beta fibril formation, and combines AFM with fluorescence, electrochemistry and force measurements to analyze biomolecules and synthetic supramolecules.",
+      "theme_tw": "用高速原子力顯微鏡觀察單個蛋白質分子的動態",
+      "summary_tw": "在單分子層次研究蛋白質在溶液中如何改變結構並發揮功能。研究室開發高速原子力顯微鏡等測量技術，觀察類澱粉β纖維形成等過程，並結合螢光、電化學和力學測量，分析生物分子與合成超分子的動態。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "protein-7"
+    },
+    {
+      "field": "protein",
+      "university": "北海道大学",
+      "department": "大学院総合化学院 生物化学コース／理学研究院 化学部門",
+      "lab": "分子生命化学研究室（阿部研究室）",
+      "pi": "阿部 一啓",
+      "pi_title": "教授",
+      "theme_zh": "离子泵与脂质转运体等主动转运蛋白的结构机制",
+      "summary_zh": "以胃质子泵、钠泵和脂质翻转酶等主动转运体为对象，用冷冻电镜和X射线晶体学观察它们利用ATP逆浓度梯度运输离子和脂质的机制，并结合AI辅助设计与有机合成开发调控分子，尝试创造新的转运体。",
+      "keywords": [
+        "膜蛋白",
+        "P型ATP酶",
+        "冷冻电镜",
+        "主动转运",
+        "基于结构的药物设计"
+      ],
+      "url": "https://wwwchem.sci.hokudai.ac.jp/~molbio/",
+      "references": [
+        {
+          "url": "https://www2.sci.hokudai.ac.jp/dept/chem/lab/molecular-biochemistry",
+          "evidence": "理学部化学科研究室页列出分子生命化学研究室教授阿部一啓和助教，说明研究室2024年成立，用X射线晶体学和电子显微镜研究胃质子泵、钠泵和脂质翻转酶，并链接到研究室网站。"
+        },
+        {
+          "url": "https://www.cse.hokudai.ac.jp/staff-all",
+          "evidence": "大学院总合化学院教员一览在生物化学课程生命分子化学讲座下列出分子生命化学研究室，教授阿部一啓（理学研究院）。"
+        },
+        {
+          "url": "https://wwwchem.sci.hokudai.ac.jp/~molbio/research/",
+          "evidence": "研究介绍列出胃质子泵、脂质转运体、钠泵三项课题，以及用冷冻电镜解析结构并结合AI设计化合物的药物研发方向；主页新闻更新至2026年8月。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "イオンポンプや脂質輸送体など能動輸送体の構造と機能",
+      "theme_en": "Structure and mechanism of active membrane transporters such as ion pumps and lipid flippases.",
+      "summary_ja": "胃プロトンポンプ、ナトリウムポンプ、脂質フリッパーゼなどの能動輸送体を対象に、ATPを使ってイオンや脂質を運ぶ仕組みをクライオ電顕などで可視化する。AIを用いた化合物設計と有機合成で制御分子を探り、新しい輸送体の創出も目指す。",
+      "summary_en": "Studies active transporters that use ATP to move ions and lipids against concentration gradients, including the gastric proton pump, the sodium pump and lipid flippases. The lab visualizes their mechanisms by cryo-EM and X-ray crystallography, designs small molecules that control them through AI-assisted design and organic synthesis, and aims to create new transporters.",
+      "theme_tw": "離子泵與脂質轉運體等主動轉運蛋白的結構機制",
+      "summary_tw": "以胃質子泵、鈉泵和脂質翻轉酶等主動轉運體為對象，用冷凍電顯和X射線晶體學觀察它們利用ATP逆濃度梯度運輸離子和脂質的機制，並結合AI輔助設計與有機合成開發調控分子，嘗試創造新的轉運體。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "protein-8"
+    },
+    {
+      "field": "protein",
+      "university": "慶應義塾大学",
+      "department": "薬学部 薬科学科／大学院薬学研究科",
+      "lab": "生命機能物理学講座",
+      "pi": "大澤 匡範",
+      "pi_title": "教授",
+      "theme_zh": "基于蛋白质立体结构的作用机制解析与药物设计",
+      "summary_zh": "以蛋白质立体结构为基础，在原子水平解析功能机制，并设计调控其功能的中分子化合物。用NMR和X射线晶体学研究电压门控离子通道、病毒蛋白与人体受体的结合及蛋白质相互作用，并用AI辅助药物设计。",
+      "keywords": [
+        "核磁共振",
+        "结构生物学",
+        "离子通道",
+        "蛋白质相互作用",
+        "AI药物设计"
+      ],
+      "url": "https://www.keio.ac.jp/ja/pha/research/lab/mfp/",
+      "references": [
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/k_100013016/",
+          "evidence": "慶應義塾大学教员介绍列明大澤匡範为药学部药科学科教授、主持生命机能物理学讲座，研究方向为结合AI与NMR、冷冻电镜、X射线晶体学的结构药物设计。"
+        },
+        {
+          "url": "https://square.umin.ac.jp/keio-skb/index.html",
+          "evidence": "药学部研究室介绍页链接的讲座网站，2026年9月更新，介绍基于生物分子立体结构、结合AI与结构生物学的药物研发及相关成果。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "タンパク質立体構造に基づく機能解明とAI融合創薬",
+      "theme_en": "Atomic-level protein mechanisms and structure-based drug design that combines AI with structural biology.",
+      "summary_ja": "タンパク質の立体構造から機能発現機構を原子レベルで解明し、その機能を制御する中分子の創出を目指す。NMRやX線結晶解析で電位依存性イオンチャネル、ウイルスとヒト受容体の相互作用、タンパク質間相互作用を調べ、AIも創薬に生かす。",
+      "summary_en": "Explains how proteins work at the atomic level from their three-dimensional structures and designs medium-sized molecules that control their function. Using NMR and X-ray crystallography, the lab studies voltage-gated ion channels, viral protein-receptor interactions and intracellular protein-protein interactions, applying AI to drug design.",
+      "theme_tw": "基於蛋白質立體結構的作用機制解析與藥物設計",
+      "summary_tw": "以蛋白質立體結構為基礎，在原子層次解析功能機制，並設計調控其功能的中分子化合物。用NMR和X射線晶體學研究電壓門控離子通道、病毒蛋白與人體受體的結合及蛋白質交互作用，並用AI輔助藥物設計。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "protein-9"
+    },
+    {
+      "field": "protein",
+      "university": "立命館大学",
+      "department": "薬学部 創薬科学科／大学院薬学研究科",
+      "lab": "生体分子構造学研究室",
+      "pi": "北原 亮",
+      "pi_title": "教授",
+      "theme_zh": "利用压力解析蛋白质的结构变化、相分离与聚集",
+      "summary_zh": "以压力和温度为参数，用高压NMR、光谱和高压显微镜研究蛋白质的变性中间态与结构变化。重点分析ALS相关RNA结合蛋白FUS的液-液相分离与固化聚集，也研究深海生物的高压适应及药物研发应用。",
+      "keywords": [
+        "高压核磁共振",
+        "蛋白质折叠",
+        "液-液相分离",
+        "蛋白质聚集",
+        "肌萎缩侧索硬化"
+      ],
+      "url": "https://www.ritsumei.ac.jp/pharmacy/kitahara/kitahara_lab.html",
+      "references": [
+        {
+          "url": "https://www.ritsumei.ac.jp/ph/about/faculty/detail.html/?id=25",
+          "evidence": "药学部教员介绍列明北原亮为教授、主持生体分子构造学研究室，研究基于蛋白质立体结构解析的药物研发，以压力和温度为参数研究蛋白质结构变化、聚集和液-液相分离，并链接到研究室网站。"
+        },
+        {
+          "url": "https://research-db.ritsumei.ac.jp/rithp/k03/resid/S000551",
+          "evidence": "立命馆大学研究者数据库列明北原亮为药学部创药科学科教授，所属还包括大学院药学研究科和生命科学研究科，研究关键词为蛋白质、压力、立体结构和结构涨落。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "私立",
+      "theme_ja": "圧力を用いたタンパク質の構造変化・相分離・凝集の解析",
+      "theme_en": "Using pressure to study protein structural changes, phase separation and aggregation.",
+      "summary_ja": "圧力と温度をパラメータに、高圧NMR、分光法、高圧顕微鏡でタンパク質の変性中間体や構造変化を調べる。ALSに関わるFUSの液-液相分離と固体様凝集への転移を中心に、深海生物の高圧適応も研究し、創薬への応用を探る。",
+      "summary_en": "Uses pressure and temperature as variables to study protein intermediates and structural changes by high-pressure NMR, spectroscopy and high-pressure microscopy. A major focus is liquid-liquid phase separation and liquid-to-solid transitions of FUS, an ALS-linked RNA-binding protein, along with pressure adaptation in deep-sea organisms and applications to drug discovery.",
+      "theme_tw": "利用壓力解析蛋白質的結構變化、相分離與聚集",
+      "summary_tw": "以壓力和溫度為參數，用高壓NMR、光譜和高壓顯微鏡研究蛋白質的變性中間態與結構變化。重點分析ALS相關RNA結合蛋白FUS的液-液相分離與固化聚集，也研究深海生物的高壓適應及藥物研發應用。",
+      "aliases": [
+        "立命馆大学",
+        "立命館大學",
+        "Ritsumeikan University"
+      ],
+      "id": "protein-10"
+    },
+    {
       "field": "metabolism_biochemistry",
       "university": "慶應義塾大学",
       "department": "ヒト生物学-微生物叢-量子計算研究センター（Bio2Q）",
@@ -2901,6 +3216,331 @@
         "Kanazawa University"
       ],
       "id": "cancer-3"
+    },
+    {
+      "field": "cancer",
+      "university": "京都大学",
+      "department": "大学院医学研究科 医学専攻",
+      "lab": "分子腫瘍学（藤田研究室）",
+      "pi": "藤田 恭之",
+      "pi_title": "教授",
+      "theme_zh": "正常上皮细胞如何通过细胞竞争排除癌变细胞",
+      "summary_zh": "关注癌症超早期：正常上皮层中出现单个变异细胞时会发生什么。利用自建的哺乳类培养细胞体系、小鼠和果蝇，研究正常细胞与变异细胞的细胞竞争和相互识别机制，探索借助周围正常细胞防治癌症的途径。",
+      "keywords": [
+        "细胞竞争",
+        "上皮细胞",
+        "癌症超早期",
+        "小鼠模型",
+        "果蝇"
+      ],
+      "url": "https://molonc.research.med.kyoto-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://www.med.kyoto-u.ac.jp/research/field/doctoral_course/r-014",
+          "evidence": "医学研究科研究领域页列出分子腫瘍学、教授藤田恭之，说明用自建的哺乳类培养细胞和小鼠模型发现正常细胞与变异细胞之间的“细胞竞争”会把变异细胞排出上皮层，并链接到研究室网站。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.198b4455a99d868b.html",
+          "evidence": "京都大学教育研究活动数据库列明藤田恭之为医学研究科医学专攻分子生体统御学讲座分子腫瘍学教授（2020年4月至今），研究关键词包括细胞竞争和癌症。"
+        },
+        {
+          "url": "https://molonc.research.med.kyoto-u.ac.jp/",
+          "evidence": "研究室官网说明研究正常上皮细胞与各种变异细胞之间的细胞竞争及相互识别机制，并用果蝇和小鼠进行体内分析。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "正常上皮細胞が細胞競合でがん変異細胞を排除する仕組み",
+      "theme_en": "How normal epithelial cells eliminate transformed cells through cell competition",
+      "summary_ja": "がんの超初期に正常上皮層で変異細胞が一つ生じると何が起こるかを研究。独自の哺乳類培養細胞系、マウス、ショウジョウバエを用い、正常細胞と変異細胞の細胞競合や相互認識の仕組みを解析し、正常細胞を生かしたがん予防・治療を目指します。",
+      "summary_en": "Asks what happens when a single mutant cell arises within a normal epithelial layer at the earliest stage of cancer. Using original mammalian cell-culture systems, mouse models and Drosophila, the lab studies cell competition and mutual recognition between normal and transformed cells, aiming at cancer prevention and therapy that harness surrounding normal cells.",
+      "theme_tw": "正常上皮細胞如何透過細胞競爭排除癌變細胞",
+      "summary_tw": "關注癌症超早期：正常上皮層中出現單個變異細胞時會發生什麼。利用自建的哺乳類培養細胞體系、小鼠和果蠅，研究正常細胞與變異細胞的細胞競爭和相互識別機制，探索藉助周圍正常細胞防治癌症的途徑。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "cancer-4"
+    },
+    {
+      "field": "cancer",
+      "university": "北海道大学",
+      "department": "大学院医学院（遺伝子病制御研究所）",
+      "lab": "がん制御学分野（園下研究室）",
+      "pi": "園下 将大",
+      "pi_title": "教授",
+      "theme_zh": "以果蝇癌症模型解析发病机制并开发候选药物",
+      "summary_zh": "以让癌症成为可控疾病为目标，结合人体样本、果蝇和小鼠研究大肠肿瘤发生与恶性化的机制。构建模拟胰腺癌等基因异常的果蝇模型，通过遗传学筛选寻找治疗靶点，并结合计算化学与药物化学设计候选药物。",
+      "keywords": [
+        "果蝇模型",
+        "胰腺癌",
+        "大肠肿瘤",
+        "药物开发",
+        "激酶抑制剂"
+      ],
+      "url": "https://bmoncology.wixsite.com/mysite",
+      "references": [
+        {
+          "url": "https://researchers.general.hokudai.ac.jp/profile/ja.7cd9ecfd44b85bbf520e17560c007669.html",
+          "evidence": "北海道大学研究者数据库列明园下将大为遗传子病制御研究所疾患制御研究部门教授，担当大学院医学院硕士和博士课程，关键词包括胰腺癌、大肠癌、果蝇和激酶抑制剂。"
+        },
+        {
+          "url": "https://www.igm.hokudai.ac.jp/",
+          "evidence": "遗传子病制御研究所主页在疾患制御研究部门下列出がん制御学分野，并链接到该研究室网站。"
+        },
+        {
+          "url": "https://www.hokudai.ac.jp/news/2023/06/post-1253.html",
+          "evidence": "北海道大学2023年新闻稿介绍园下将大教授团队构建模拟胰腺癌四种基因变异的果蝇模型，经全激酶遗传学筛选找到MEK和AURKB两个治疗靶点。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "ショウジョウバエがんモデルによる発がん機構解明と治療薬開発",
+      "theme_en": "Drosophila cancer models for dissecting tumorigenesis and developing drug leads",
+      "summary_ja": "がんを制御可能な疾患にすることを目指し、ヒト検体、ショウジョウバエ、マウスで大腸腫瘍の発生・悪性化の仕組みを研究。膵がんなどの遺伝子異常を模したハエモデルで治療標的を探索し、計算化学と医薬化学で新たな治療薬リードを設計します。",
+      "summary_en": "Aims to make cancer a controllable disease using human specimens, Drosophila and mice. The lab studies signaling behind colorectal tumor formation and malignant progression, builds fly models that mimic genetic alterations in pancreatic and medullary thyroid cancers to screen for therapeutic targets, and designs new drug leads with computational and medicinal chemistry.",
+      "theme_tw": "以果蠅癌症模型解析發病機制並開發候選藥物",
+      "summary_tw": "以讓癌症成為可控疾病為目標，結合人體樣本、果蠅和小鼠研究大腸腫瘤發生與惡性化的機制。構建模擬胰臟癌等基因異常的果蠅模型，透過遺傳學篩選尋找治療標靶，並結合計算化學與藥物化學設計候選藥物。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "cancer-5"
+    },
+    {
+      "field": "cancer",
+      "university": "東北大学",
+      "department": "大学院医学系研究科 医科学専攻（加齢医学研究所）",
+      "lab": "分子腫瘍学研究分野（田中研究室）",
+      "pi": "田中 耕三",
+      "pi_title": "教授",
+      "theme_zh": "染色体分配异常与癌细胞的染色体不稳定性",
+      "summary_zh": "研究人类细胞分裂时染色体分配的机制，以及其异常如何造成多数癌症中常见的染色体不稳定性。同时探讨染色体不稳定性与衰老的关系及CHAMP1基因的作用，利用培养细胞和小鼠进行活细胞成像与基因组分析。",
+      "keywords": [
+        "染色体不稳定性",
+        "细胞分裂",
+        "基因组稳定性",
+        "衰老",
+        "活细胞成像"
+      ],
+      "url": "https://www2.idac.tohoku.ac.jp/dep/molonc/",
+      "references": [
+        {
+          "url": "https://www.idac.tohoku.ac.jp/site_ja/admission-courses/overcoming-intractable-cancers/dept-molecular-oncology",
+          "evidence": "加龄医学研究所分野页列明教授田中耕三，研究人细胞染色体分配机制及其异常如何导致癌细胞染色体不稳定性，并关注其与衰老的关联及CHAMP1在神经发育中的作用。"
+        },
+        {
+          "url": "https://www.med.tohoku.ac.jp/lab/161/",
+          "evidence": "医学系研究科研究室介绍列出分子腫瘍学研究（田中耕三教授），属医科学专攻，招收硕士和博士生，使用培养细胞、小鼠、活细胞成像及基因组和表观基因组分析。"
+        },
+        {
+          "url": "https://www2.idac.tohoku.ac.jp/dep/molonc/",
+          "evidence": "研究室官网持续更新至2026年，包括2025年11月发表的关于老年人细胞染色体不稳定性的论文。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "染色体分配の異常とがん細胞の染色体不安定性",
+      "theme_en": "Chromosome segregation errors and chromosomal instability in cancer cells",
+      "summary_ja": "ヒト細胞の染色体分配の分子機構と、その破綻が多くのがんで見られる染色体不安定性を生む仕組みを研究。老化との関係や知的障害の原因遺伝子CHAMP1の役割も調べ、培養細胞とマウスでライブイメージングやゲノム解析を行います。",
+      "summary_en": "Studies how chromosomes are distributed during human cell division and how defects in this machinery cause the chromosomal instability seen in many cancers. The lab also examines links between chromosomal instability and aging and the roles of CHAMP1, a gene linked to intellectual disability, using cultured cells, mice, live-cell imaging and genomic analysis.",
+      "theme_tw": "染色體分配異常與癌細胞的染色體不穩定性",
+      "summary_tw": "研究人類細胞分裂時染色體分配的機制，以及其異常如何造成多數癌症中常見的染色體不穩定性。同時探討染色體不穩定性與老化的關係及CHAMP1基因的作用，利用培養細胞和小鼠進行活細胞成像與基因組分析。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "cancer-6"
+    },
+    {
+      "field": "cancer",
+      "university": "名古屋大学",
+      "department": "大学院医学系研究科 総合医学専攻",
+      "lab": "腫瘍病理学・分子病理学分野（榎本研究室）",
+      "pi": "榎本 篤",
+      "pi_title": "教授",
+      "theme_zh": "癌相关成纤维细胞的多样性与肿瘤进展",
+      "summary_zh": "从病理学角度研究肿瘤间质，关注胰腺癌等高恶性度癌症中增生的癌相关成纤维细胞。分析成纤维细胞的多样性、活化与收束机制及间质对癌症进展和治疗反应的影响，并开发以Meflin为靶点的抗体药物偶联物。",
+      "keywords": [
+        "癌相关成纤维细胞",
+        "肿瘤间质",
+        "胰腺癌",
+        "纤维化",
+        "病理学"
+      ],
+      "url": "https://www.med.nagoya-u.ac.jp/patho2/",
+      "references": [
+        {
+          "url": "https://www.med.nagoya-u.ac.jp/medical_J/laboratory/basic-med/pathology/pathology2/",
+          "evidence": "医学系研究科研究室介绍列明腫瘍病理学／分子病理学教授榎本篤，研究癌相关成纤维细胞（CAF）在癌症和纤维化疾病中的作用及其活化与收束机制，并开发抗体药物偶联物。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100001457_ja.html",
+          "evidence": "名古屋大学研究者数据库列明榎本篤为医学系研究科总合医学专攻腫瘍病理学・分子病理学教授，关键词包括癌微环境、纤维化疾病和间充质干细胞。"
+        },
+        {
+          "url": "https://www.med.nagoya-u.ac.jp/patho2/",
+          "evidence": "研究室官网列出榎本篤教授及成员，2026年仍持续更新，包括2026年7月关于CAF来源补体C3增强免疫检查点抑制剂疗效的论文。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "がん関連線維芽細胞の多様性とがん進展・治療応答",
+      "theme_en": "Diversity of cancer-associated fibroblasts in tumor progression and therapy response",
+      "summary_ja": "病理学の視点から、膵がんなど高悪性度がんの間質で増生するがん関連線維芽細胞を研究。線維芽細胞の多様性や活性化・収束の機構、間質ががん進展や治療応答に及ぼす影響を解析し、Meflinを標的とする抗体薬物複合体を開発します。",
+      "summary_en": "Studies the tumor stroma from a pathology perspective, focusing on cancer-associated fibroblasts that expand in aggressive cancers such as pancreatic cancer. The lab examines fibroblast diversity, the mechanisms that activate and resolve fibroblasts and how stroma shapes cancer progression and therapy response, and develops antibody-drug conjugates targeting Meflin.",
+      "theme_tw": "癌相關纖維母細胞的多樣性與腫瘤進展",
+      "summary_tw": "從病理學角度研究腫瘤間質，關注胰臟癌等高惡性度癌症中增生的癌相關纖維母細胞。分析纖維母細胞的多樣性、活化與收束機制及間質對癌症進展和治療反應的影響，並開發以Meflin為標靶的抗體藥物複合體。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "cancer-7"
+    },
+    {
+      "field": "cancer",
+      "university": "岡山大学",
+      "department": "大学院医歯薬学総合研究科",
+      "lab": "腫瘍微小環境学分野（冨樫研究室）",
+      "pi": "冨樫 庸介",
+      "pi_title": "教授",
+      "theme_zh": "肿瘤微环境的单细胞解析与癌症免疫逃逸",
+      "summary_zh": "以单细胞层面解析癌细胞周围免疫细胞等构成的肿瘤微环境。除实验体系外，也在活体状态下分析临床样本并用小鼠验证，研究癌症基因组异常对免疫的影响、癌细胞与淋巴细胞间的线粒体传递和调节性T细胞功能。",
+      "keywords": [
+        "肿瘤微环境",
+        "肿瘤免疫",
+        "单细胞分析",
+        "免疫逃逸",
+        "转化研究"
+      ],
+      "url": "https://www.cc.okayama-u.ac.jp/tme/index.html",
+      "references": [
+        {
+          "url": "https://www.mdps.okayama-u.ac.jp/research/researchfield/tumor-microenvironment/",
+          "evidence": "医齿药学综合研究科研究领域页列明腫瘍微小環境学分野负责教员冨樫庸介教授，说明重点对肿瘤微环境进行单细胞分析，在活体状态下分析临床样本并用小鼠等验证。"
+        },
+        {
+          "url": "https://www.cc.okayama-u.ac.jp/tme/research.html",
+          "evidence": "研究室研究介绍页列出癌症免疫基因组学、癌细胞与肿瘤浸润淋巴细胞之间的线粒体传递、调节性T细胞和单细胞分析等课题。"
+        },
+        {
+          "url": "https://www.cc.okayama-u.ac.jp/tme/index.html",
+          "evidence": "研究室官网列出冨樫庸介教授及研究生名单，2026年4月仍有新成员加入的更新。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "腫瘍微小環境の1細胞解析とがん免疫逃避の仕組み",
+      "theme_en": "Single-cell analysis of the tumor microenvironment and cancer immune evasion",
+      "summary_ja": "がん細胞を取り巻く免疫細胞などの腫瘍微小環境を1細胞レベルで解析。臨床検体を生きた状態で解析しマウスで検証して、がんのゲノム異常が免疫に及ぼす影響、がん細胞とリンパ球間のミトコンドリア伝播、制御性T細胞の役割を探ります。",
+      "summary_en": "Studies the tumor microenvironment, including immune cells surrounding cancer cells, with an emphasis on single-cell analysis. Alongside experimental systems, the lab analyzes live clinical specimens and validates findings in mice, examining how cancer genomic alterations shape immune status, mitochondrial transfer between cancer cells and lymphocytes, and regulatory T cells.",
+      "theme_tw": "腫瘤微環境的單細胞解析與癌症免疫逃脫",
+      "summary_tw": "以單細胞層面解析癌細胞周圍免疫細胞等構成的腫瘤微環境。除實驗體系外，也在活體狀態下分析臨床檢體並用小鼠驗證，研究癌症基因組異常對免疫的影響、癌細胞與淋巴細胞間的粒線體傳遞和調節性T細胞功能。",
+      "aliases": [
+        "冈山大学",
+        "岡山大學",
+        "Okayama University"
+      ],
+      "id": "cancer-8"
+    },
+    {
+      "field": "cancer",
+      "university": "九州大学",
+      "department": "生体防御医学研究所（医学系学府・システム生命科学府）",
+      "lab": "がんゲノム制御学分野（齊藤研究室）",
+      "pi": "齊藤 典子",
+      "pi_title": "教授",
+      "theme_zh": "非编码RNA与细胞核结构在乳腺癌复发中的作用",
+      "summary_zh": "研究细胞核结构动态及与染色质作用的非编码RNA。重点分析在ER阳性复发乳腺癌中过量表达的ELEANOR RNA，探讨其与晚期复发和癌细胞休眠的关系，并用机器学习图像分析研究核结构的形成机制。",
+      "keywords": [
+        "乳腺癌",
+        "非编码RNA",
+        "染色质",
+        "肿瘤休眠",
+        "细胞核结构"
+      ],
+      "url": "https://www.bioreg.kyushu-u.ac.jp/mib/divisions/overview_mls_cancer.pdf",
+      "references": [
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/mib/divisions/overview_mls_cancer.pdf",
+          "evidence": "生体防御医学研究所分野概要列明がんゲノム制御学分野教授齊藤典子（2026年就任），担当医学系学府和系统生命科学府，研究ELEANOR非编码RNA在ER阳性乳腺癌晚期复发和休眠中的作用以及细胞核结构。"
+        },
+        {
+          "url": "https://www.bioreg.kyushu-u.ac.jp/",
+          "evidence": "生体防御医学研究所主页在学际生命科学部门下列出がんゲノム制御学分野，负责人为齊藤典子教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "九州",
+      "university_type": "国立",
+      "theme_ja": "ノンコーディングRNAと核内構造から乳がん再発の仕組みを探る",
+      "theme_en": "Non-coding RNA and nuclear architecture in breast cancer recurrence",
+      "summary_ja": "細胞核の構造・動態と、クロマチンに作用するノンコーディングRNAを研究。ER陽性再発乳がんで過剰発現するエレノアRNAに着目して晩期再発やがん休眠との関係を解析し、機械学習による画像解析で核内構造の形成機構にも迫ります。",
+      "summary_en": "Studies the structure and dynamics of genomic DNA and the cell nucleus, and how chromatin-associated non-coding RNAs regulate gene expression. The lab focuses on ELEANOR RNAs overexpressed in recurrent estrogen receptor-positive breast cancer and their links to late recurrence and dormancy, and uses machine-learning image analysis to study nuclear architecture.",
+      "theme_tw": "非編碼RNA與細胞核結構在乳癌復發中的作用",
+      "summary_tw": "研究細胞核結構動態及與染色質作用的非編碼RNA。重點分析在ER陽性復發乳癌中過量表現的ELEANOR RNA，探討其與晚期復發和癌細胞休眠的關係，並用機器學習影像分析研究核結構的形成機制。",
+      "aliases": [
+        "九州大学",
+        "九州大學",
+        "Kyushu University"
+      ],
+      "id": "cancer-9"
+    },
+    {
+      "field": "cancer",
+      "university": "広島大学",
+      "department": "大学院医系科学研究科（原爆放射線医科学研究所）",
+      "lab": "分子発がん制御研究分野（笹谷研究室）",
+      "pi": "笹谷 めぐみ",
+      "pi_title": "教授",
+      "theme_zh": "放射线暴露诱发癌症的分子机制与风险评估",
+      "summary_zh": "旨在阐明放射线暴露诱发癌症的分子机制并评估风险，利用遗传背景受控的动物模型和培养细胞开展研究。课题包括低剂量（率）暴露的致癌风险评估、干细胞在放射线致癌中的作用及放射损伤动物模型等。",
+      "keywords": [
+        "放射线致癌",
+        "低剂量辐射",
+        "风险评估",
+        "干细胞",
+        "小鼠模型"
+      ],
+      "url": "https://www.hiroshima-u.ac.jp/rbm/research/lab/Experimental_Oncology",
+      "references": [
+        {
+          "url": "https://www.hiroshima-u.ac.jp/rbm/research/lab/Experimental_Oncology",
+          "evidence": "原爆放射线医科学研究所研究室页列明分子発がん制御教授笹谷めぐみ，研究目的是阐明放射线暴露诱发癌症的分子机制并进行风险评估，课题包括低剂量（率）放射线的致癌风险和干细胞在放射线致癌中的作用。"
+        },
+        {
+          "url": "https://www.hiroshima-u.ac.jp/bhs/research/lab/affiliations",
+          "evidence": "医系科学研究科协力讲座列表在原爆放射线医科学研究所下列出分子発がん制御，教授笹谷めぐみ。"
+        },
+        {
+          "url": "https://www.hiroshima-u.ac.jp/rbm/research/lab",
+          "evidence": "研究所研究室一览列明分子発がん制御教授笹谷めぐみ，关键词为放射生物学、放射线致癌、放射线灾害医疗和低剂量放射线影响。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "放射線被ばくによる発がんの分子機構とリスク評価",
+      "theme_en": "Molecular mechanisms and risk assessment of radiation-induced cancer",
+      "summary_ja": "放射線被ばくで誘発されるがんの分子機構解明とリスク評価を目的に、遺伝的に制御された動物モデルや培養細胞で研究。低線量（率）被ばくの発がんリスク評価、放射線発がんにおける幹細胞の役割、放射線障害モデルの開発などに取り組みます。",
+      "summary_en": "Aims to clarify the molecular mechanisms of radiation-induced cancer and assess its risk, using genetically defined animal models and cultured cells. Topics include cancer risk from low-dose and low-dose-rate exposure, the role of stem cells in radiation carcinogenesis, animal models of radiation injury and mechanisms of cellular responses.",
+      "theme_tw": "輻射暴露誘發癌症的分子機制與風險評估",
+      "summary_tw": "旨在闡明輻射暴露誘發癌症的分子機制並評估風險，利用遺傳背景受控的動物模型和培養細胞開展研究。課題包括低劑量（率）暴露的致癌風險評估、幹細胞在輻射致癌中的作用及輻射損傷動物模型等。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "cancer-10"
     },
     {
       "field": "neuro",
@@ -6194,6 +6834,338 @@
       "id": "materials-3"
     },
     {
+      "field": "materials",
+      "university": "京都大学",
+      "department": "化学研究所／大学院理学研究科 化学専攻（協力講座）",
+      "lab": "精密無機合成化学研究分野（寺西研究室）",
+      "pi": "寺西 利治",
+      "pi_title": "教授",
+      "theme_zh": "精密控制无机纳米粒子结构并开发能源功能",
+      "summary_zh": "在液相中精密控制金属、金属硫属化物和金属氧化物纳米粒子的粒径、形状、组成与排列，调控电子数、等离激元波长、激子寿命和催化能力，探索室温单电子器件、纳米复合磁体和可见光全分解水材料。",
+      "keywords": [
+        "无机纳米粒子",
+        "局域表面等离激元",
+        "单电子器件",
+        "纳米复合磁体",
+        "光能转换"
+      ],
+      "url": "https://www.scl.kyoto-u.ac.jp/~teranisi/",
+      "references": [
+        {
+          "url": "https://www.kuchem.kyoto-u.ac.jp/isc.html",
+          "evidence": "理学研究科化学专攻的无机合成化学分科页列出寺西利治教授，说明在液相中精密控制金属、金属硫属化物和金属氧化物纳米粒子的粒径、形状、组成与排列，研究单电子器件、等离激元、纳米复合磁体和光能转换材料。"
+        },
+        {
+          "url": "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.3a75358a95b0c3e8.html",
+          "evidence": "京都大学教育研究活动数据库（2026-10更新）确认寺西利治为化学研究所物质创制化学研究系教授，并任理学研究科化学专攻材料化学讲座（协力讲座）教授。"
+        },
+        {
+          "url": "https://www.scl.kyoto-u.ac.jp/~teranisi/",
+          "evidence": "研究室主页标明化学研究所精密无机合成化学研究分野、理学研究科化学专攻协力讲座；新闻更新至2026年10月，近期论文涉及铂基纳米合金和硫醇保护金纳米簇。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "無機ナノ粒子の精密構造制御とエネルギー機能の開拓",
+      "theme_en": "Precise structural control of inorganic nanoparticles for energy-related functions.",
+      "summary_ja": "液相で金属、金属カルコゲニド、金属酸化物のナノ粒子の粒径・形状・組成・配列を精密に制御し、電子数やプラズモン共鳴波長、励起子寿命、触媒能を調節します。室温単電子デバイス、ナノコンポジット磁石、可視光水分解材料を目指します。",
+      "summary_en": "The laboratory precisely controls the size, shape, composition and arrangement of metal, metal chalcogenide and metal oxide nanoparticles in solution. By tuning confined electrons, plasmon resonances, exciton lifetimes and catalytic activity, it explores room-temperature single-electron devices, nanocomposite magnets and visible-light water splitting.",
+      "theme_tw": "精密控制無機奈米粒子結構並開發能源功能",
+      "summary_tw": "在液相中精密控制金屬、金屬硫屬化物和金屬氧化物奈米粒子的粒徑、形狀、組成與排列，調控電子數、電漿子波長、激子壽命和催化能力，探索室溫單電子元件、奈米複合磁體和可見光全分解水材料。",
+      "aliases": [
+        "京都大学",
+        "京都大學",
+        "Kyoto University"
+      ],
+      "id": "materials-4"
+    },
+    {
+      "field": "materials",
+      "university": "東京大学",
+      "department": "大学院理学系研究科 化学専攻",
+      "lab": "化学反応学研究室（佃研究室）",
+      "pi": "佃 達哉",
+      "pi_title": "教授",
+      "theme_zh": "原子精度合成金属簇并探索其特异物性与催化",
+      "summary_zh": "以2纳米以下、物性随原子数剧烈变化的金属簇为对象，利用配体保护、高分辨分离和质谱尺寸选择地合成金簇，结合光谱和单晶结构解析研究其结构与光物性，并发展负载型簇催化剂和气相簇反应研究。",
+      "keywords": [
+        "金属簇",
+        "原子精度合成",
+        "金纳米簇",
+        "簇催化",
+        "质谱"
+      ],
+      "url": "https://tsukudalab.chem.s.u-tokyo.ac.jp/index.html",
+      "references": [
+        {
+          "url": "https://www.chem.s.u-tokyo.ac.jp/chem_research/",
+          "evidence": "理学系研究科化学专攻研究室一览列出化学反应学研究室，负责人为佃达哉教授，并链接到研究室主页。"
+        },
+        {
+          "url": "https://tsukudalab.chem.s.u-tokyo.ac.jp/research.html",
+          "evidence": "研究概要说明以2 nm以下的金属簇为对象，用有机配体保护、高分辨分离和质谱实现金簇的尺寸选择合成，研究其结构与光物性、负载簇催化及气相簇反应。"
+        },
+        {
+          "url": "https://tsukudalab.chem.s.u-tokyo.ac.jp/member/member.html",
+          "evidence": "成员页列出教授佃达哉、准教授小安喜一郎等；研究室主页新闻更新至2026年10月，并记载佃教授任2026–2030年度学术变革领域A「超原子材料」领域代表。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "金属クラスターの原子精度合成と特異物性・触媒機能",
+      "theme_en": "Atomically precise synthesis of metal clusters and their size-specific properties and catalysis.",
+      "summary_ja": "原子数で物性が大きく変わる2 nm以下の金属クラスターを対象に、配位子保護と高分解能分離・質量分析で金クラスターをサイズ選択的に合成します。分光法や単結晶構造解析で構造と光物性を調べ、担持クラスター触媒や気相反応も研究します。",
+      "summary_en": "The group studies metal clusters smaller than 2 nm, whose properties change sharply with the number of atoms. Using ligand protection, high-resolution separation and mass spectrometry, it synthesizes size-selected gold clusters, examines their structures and optical properties, and develops supported cluster catalysts and gas-phase reaction studies.",
+      "theme_tw": "原子精度合成金屬團簇並探索其特異物性與催化",
+      "summary_tw": "以2奈米以下、物性隨原子數劇烈變化的金屬團簇為對象，利用配體保護、高解析分離和質譜尺寸選擇地合成金團簇，結合光譜和單晶結構解析研究其結構與光物性，並發展負載型團簇催化劑和氣相團簇反應研究。",
+      "aliases": [
+        "东京大学",
+        "東京大學",
+        "University of Tokyo",
+        "UTokyo"
+      ],
+      "id": "materials-5"
+    },
+    {
+      "field": "materials",
+      "university": "東北大学",
+      "department": "多元物質科学研究所／大学院工学研究科 化学工学専攻（協力講座）",
+      "lab": "ハイブリッド炭素ナノ材料研究分野（西原研究室）",
+      "pi": "西原 洋知",
+      "pi_title": "教授",
+      "theme_zh": "自下而上构筑碳纳米材料并开发能源应用",
+      "summary_zh": "针对结构难以控制的非晶碳材料，用有机合成和化学气相沉积自下而上合成金属碳骨架、单层石墨烯三维多孔体等新型碳材料，从分子角度理解其反应性、耐腐蚀性和催化能力，并用于电容器、二次电池和燃料电池。",
+      "keywords": [
+        "碳材料",
+        "石墨烯多孔体",
+        "化学气相沉积",
+        "电极催化",
+        "储能器件"
+      ],
+      "url": "https://www2.tagen.tohoku.ac.jp/lab/nishihara/html/index.html",
+      "references": [
+        {
+          "url": "https://www2.tagen.tohoku.ac.jp/lab/nishihara/html/index.html",
+          "evidence": "研究室主页说明西原研究室隶属材料科学高等研究所和多元物质科学研究所混合碳纳米材料研究分野，并担任工学研究科化学工学专攻、环境科学研究科先端环境创成学专攻的协力讲座；新闻更新至2026年11月。"
+        },
+        {
+          "url": "https://www2.tagen.tohoku.ac.jp/lab/nishihara/html/research.html",
+          "evidence": "研究介绍说明用有机合成和化学气相沉积自下而上合成金属碳骨架、单层石墨烯三维多孔体等碳材料，分子层面理解其反应性、耐腐蚀性和催化能，并应用于电容器、二次电池和燃料电池等。"
+        },
+        {
+          "url": "https://www2.tagen.tohoku.ac.jp/lab/nishihara/html/member.html",
+          "evidence": "成员页列出教授西原洋知、准教授吉井丈晴等研究室成员。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "カーボン系ナノ材料のボトムアップ合成とエネルギー応用",
+      "theme_en": "Bottom-up synthesis of structurally defined carbon nanomaterials for energy applications.",
+      "summary_ja": "構造制御が難しい非晶質カーボン材料を、有機合成や化学気相蒸着で原子・分子レベルからボトムアップ合成し、金属カーボン構造体や単層グラフェン多孔体を創製します。反応性や耐食性、触媒能を分子論的に理解し、電池や燃料電池へ応用します。",
+      "summary_en": "Focusing on largely non-crystalline carbon materials, the laboratory uses organic synthesis and chemical vapor deposition to build carbon frameworks from the molecular level, including metal–carbon frameworks and porous materials with single-layer graphene walls, and studies their reactivity, durability and catalysis for capacitors, batteries and fuel cells.",
+      "theme_tw": "由下而上構築碳奈米材料並開發能源應用",
+      "summary_tw": "針對結構難以控制的非晶碳材料，以有機合成和化學氣相沉積由下而上合成金屬碳骨架、單層石墨烯三維多孔體等新型碳材料，從分子角度理解其反應性、耐腐蝕性和催化能力，並用於電容器、二次電池和燃料電池。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "materials-6"
+    },
+    {
+      "field": "materials",
+      "university": "広島大学",
+      "department": "大学院先進理工系科学研究科 応用化学プログラム",
+      "lab": "無機・ハイブリッド材料化学研究室",
+      "pi": "片桐 清文",
+      "pi_title": "教授",
+      "theme_zh": "以纳米结构与界面设计开发无机及混合功能材料",
+      "summary_zh": "以纳米结构与界面设计为核心，利用无机分子、晶体及纳米尺度的空间与界面开发无机和有机无机混合功能材料，当前目标包括人工光合成、二氧化碳分离回收材料和环境友好的新型色材，并运用溶胶凝胶等方法。",
+      "keywords": [
+        "有机无机混合材料",
+        "纳米结构",
+        "结构色",
+        "二氧化碳分离",
+        "溶胶凝胶法"
+      ],
+      "url": "https://ihmc.hiroshima-u.ac.jp/",
+      "references": [
+        {
+          "url": "https://ihmc.hiroshima-u.ac.jp/",
+          "evidence": "研究室主页说明以纳米结构与界面设计开发无机和混合功能材料，当前目标包括人工光合成、二氧化碳分离回收材料和环境友好的新型色材；所属为先进理工系科学研究科应用化学项目，新闻更新至2026年9月。"
+        },
+        {
+          "url": "https://ihmc.hiroshima-u.ac.jp/member/",
+          "evidence": "成员页列出教授犬丸启、教授片桐清文和准教授樽谷直纪。"
+        },
+        {
+          "url": "https://seeds.office.hiroshima-u.ac.jp/profile/ja.9998aa139fc87e1f520e17560c007669.html",
+          "evidence": "广岛大学研究者总览（2026-11更新）确认片桐清文为先进理工系科学研究科教授，主页为本研究室；研究关键词包括结构显色材料、有机–无机混合材料、纳米粒子、溶胶–凝胶法和层层组装法。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中国",
+      "university_type": "国立",
+      "theme_ja": "ナノ構造と界面デザインによる無機・ハイブリッド機能材料",
+      "theme_en": "Developing inorganic and hybrid functional materials through the design of nanostructures and interfaces.",
+      "summary_ja": "ナノ構造と界面のデザインを掲げ、無機分子や結晶、ナノレベルの空間・界面を活かした無機・ハイブリッド機能材料を開発します。人工光合成、二酸化炭素の分離回収材料、環境に優しい新しい色材が現在の目標で、ゾル–ゲル法なども用います。",
+      "summary_en": "The laboratory develops inorganic and hybrid functional materials by designing nanospaces, interfaces and interstices in inorganic crystals and nanostructures. Current targets include artificial photosynthesis, materials for capturing carbon dioxide and environmentally friendly colorants, using methods such as sol–gel processing and layer-by-layer assembly.",
+      "theme_tw": "以奈米結構與界面設計開發無機及混成功能材料",
+      "summary_tw": "以奈米結構與界面設計為核心，利用無機分子、晶體及奈米尺度的空間與界面開發無機和有機無機混成功能材料，當前目標包括人工光合作用、二氧化碳分離回收材料和環境友善的新型色材，並運用溶膠凝膠等方法。",
+      "aliases": [
+        "广岛大学",
+        "廣島大學",
+        "Hiroshima University"
+      ],
+      "id": "materials-7"
+    },
+    {
+      "field": "materials",
+      "university": "大阪大学",
+      "department": "産業科学研究所／大学院工学研究科 応用化学専攻（協力講座）",
+      "lab": "ソフトナノマテリアル研究分野（家研究室）",
+      "pi": "家 裕隆",
+      "pi_title": "教授",
+      "theme_zh": "设计合成π共轭有机半导体材料并用于光电器件",
+      "summary_zh": "以扩展π共轭体系的有机分子为对象，通过精密的结构修饰调节光吸收和载流子传输性质，系统开发缩环、交联或含氟的电子受体单元，构筑有机半导体和电荷传输材料，并用于有机太阳能电池等光电器件。",
+      "keywords": [
+        "有机半导体",
+        "π共轭分子",
+        "电子受体单元",
+        "有机太阳能电池",
+        "电荷传输材料"
+      ],
+      "url": "https://www.sanken.osaka-u.ac.jp/labs/omm/",
+      "references": [
+        {
+          "url": "https://www.sanken.osaka-u.ac.jp/labs/omm/",
+          "evidence": "研究室主页标明产业科学研究所纳米技术中心软纳米材料研究分野（家研究室），为工学研究科应用化学专攻分子创成化学课程协力讲座，联系人为家裕隆教授；新闻更新至2026年11月，网站正在改版。"
+        },
+        {
+          "url": "https://www.sanken.osaka-u.ac.jp/organization/",
+          "evidence": "产业科学研究所组织页在纳米技术中心下列出软纳米材料研究分野（家研）。"
+        },
+        {
+          "url": "https://www.ccb.osaka-u.ac.jp/wpccb_handle/wp-content/uploads/2022/03/IeYutaka2021JP.pdf",
+          "evidence": "大阪大学研究介绍资料（2021年）列出产业科学研究所软纳米材料研究分野教授家裕隆，说明系统开发缩环、交联及含氟的电子受体单元以构筑有机半导体材料，并应用于有机太阳能电池等。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "π共役系に基づく有機半導体材料の設計・合成と素子応用",
+      "theme_en": "Design and synthesis of π-conjugated organic semiconductor materials for optoelectronic devices.",
+      "summary_ja": "拡張π電子系からなる有機分子を対象に、精密な構造修飾で光吸収やキャリア輸送の特性を調節します。縮環・架橋構造やフッ素を導入した独自の電子受容性ユニットを開発して有機半導体材料を構築し、有機太陽電池などのデバイスに展開します。",
+      "summary_en": "The group studies organic semiconductor materials built from extended π-conjugated molecules, tuning light absorption and charge transport through precise structural modification. It systematically develops original electron-accepting units with fused, bridged or fluorinated structures and applies the resulting materials to organic solar cells and other optoelectronic devices.",
+      "theme_tw": "設計合成π共軛有機半導體材料並用於光電元件",
+      "summary_tw": "以擴展π共軛體系的有機分子為對象，透過精密的結構修飾調節光吸收和載子傳輸性質，系統開發縮環、交聯或含氟的電子受體單元，構築有機半導體和電荷傳輸材料，並用於有機太陽能電池等光電元件。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "materials-8"
+    },
+    {
+      "field": "materials",
+      "university": "慶應義塾大学",
+      "department": "大学院理工学研究科 化学・生命情報科学専攻",
+      "lab": "材料化学研究室（緒明研究室）",
+      "pi": "緒明 佑哉",
+      "pi_title": "教授",
+      "theme_zh": "化学调控柔性二维材料的结构并开拓其功能",
+      "summary_zh": "以层状结构、纳米片和网络结构等二维材料为对象，通过分子与纳米结构设计调控结构柔性，开发用于电池和产氢催化的共轭高分子、以颜色定量外部刺激的层状聚二乙炔和表面修饰纳米片，并结合小数据材料信息学。",
+      "keywords": [
+        "二维材料",
+        "纳米片",
+        "层状聚二乙炔",
+        "共轭高分子",
+        "材料信息学"
+      ],
+      "url": "https://www.applc.keio.ac.jp/~oakiyuya/jp.html",
+      "references": [
+        {
+          "url": "https://www.applc.keio.ac.jp/~oakiyuya/research.html",
+          "evidence": "研究内容页说明以层状结构、纳米片和网络结构等二维材料为对象，化学控制结构柔性，开发共轭高分子能源材料、层状聚二乙炔刺激响应传感材料和表面修饰纳米片，并开展实验主导的材料信息学。"
+        },
+        {
+          "url": "https://k-ris.keio.ac.jp/html/100011366_ja.html",
+          "evidence": "庆应义塾研究者数据库（2026-10更新）确认绪明佑哉为理工学部应用化学科教授，并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.keio.ac.jp/ja/faculty/?page=20",
+          "evidence": "庆应义塾教员一览记载绪明佑哉为理工学部应用化学科教授及理工学研究科化学・生命信息科学专攻教授。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "柔軟な二次元材料の創製・探索と機能開拓",
+      "theme_en": "Creating and exploring flexible two-dimensional materials and their functions.",
+      "summary_ja": "層状構造やナノシート、ネットワーク構造など二次元材料の柔軟性を、分子・ナノ構造設計で化学的に制御します。電池や水素製造触媒向けの共役高分子、刺激を色で定量する層状ポリジアセチレン、表面修飾ナノシートを開発し、MIも活用します。",
+      "summary_en": "The laboratory studies two-dimensional materials such as layered structures, nanosheets and networks, chemically controlling their flexibility through molecular and nanoscale design. It develops conjugated polymers for batteries and hydrogen evolution, color-changing layered polydiacetylenes that quantify stimuli, and surface-modified nanosheets, aided by materials informatics.",
+      "theme_tw": "化學調控柔性二維材料的結構並開拓其功能",
+      "summary_tw": "以層狀結構、奈米片和網路結構等二維材料為對象，透過分子與奈米結構設計調控結構柔性，開發用於電池和產氫催化的共軛高分子、以顏色定量外部刺激的層狀聚二乙炔和表面修飾奈米片，並結合小數據材料資訊學。",
+      "aliases": [
+        "庆应义塾大学",
+        "庆应大学",
+        "慶應義塾大學",
+        "Keio University"
+      ],
+      "id": "materials-9"
+    },
+    {
+      "field": "materials",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 応用物質化学専攻",
+      "lab": "鳥本研究室",
+      "pi": "鳥本 司",
+      "pi_title": "教授",
+      "theme_zh": "合成半导体量子点与金属纳米粒子并用于光能转换",
+      "summary_zh": "以半导体纳米粒子（量子点）和金属纳米粒子为对象，开发利用离子液体和溅射法的新合成方法，制备发光波长可调的半导体纳米粒子集合体，并通过纳米结构控制改进电极表面，探索燃料电池、光催化和光能转换。",
+      "keywords": [
+        "量子点",
+        "半导体纳米粒子",
+        "离子液体",
+        "光催化",
+        "光能转换"
+      ],
+      "url": "https://profs.provost.nagoya-u.ac.jp/html/100003747_ja.html",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100003747_ja.html",
+          "evidence": "名古屋大学研究者数据库（2026-09更新）确认鳥本司为工学研究科教授（兼未来社会创造机构量子化学创新研究所教授），现研究课题包括用离子液体合成纳米粒子、发光波长可控的半导体纳米粒子集合体和光能转换材料，并链接到研究室主页。"
+        },
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100011749_ja.html",
+          "evidence": "同数据库中秋吉一孝讲师的经历记载其2023年起任工学研究科应用物质化学专攻鳥本研究室助教，可确认研究室所属专攻。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/physchem3/index.html",
+          "evidence": "研究室主页介绍半导体纳米粒子新合成法、离子液体溅射法和纳米粒子太阳能电池等研究，但新闻停留在2012年，现职与近况以研究者数据库为准。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "半導体量子ドット・金属ナノ粒子の合成と光エネルギー変換",
+      "theme_en": "Synthesis of semiconductor quantum dots and metal nanoparticles for light-energy conversion.",
+      "summary_ja": "半導体ナノ粒子（量子ドット）や金属ナノ粒子について、イオン液体やスパッタ法を用いる新しい合成法を開発します。発光波長を制御できる半導体ナノ粒子集積体やナノ構造電極を作製し、燃料電池、光触媒、光エネルギー変換材料を探ります。",
+      "summary_en": "The group develops new routes to semiconductor nanoparticles (quantum dots) and metal nanoparticles, including synthesis using ionic liquids and metal sputtering. It prepares semiconductor nanoparticle assemblies with tunable emission and nanostructured electrode surfaces, exploring materials for fuel cells, photocatalysis and efficient light-energy conversion.",
+      "theme_tw": "合成半導體量子點與金屬奈米粒子並用於光能轉換",
+      "summary_tw": "以半導體奈米粒子（量子點）和金屬奈米粒子為對象，開發利用離子液體和濺鍍法的新合成方法，製備發光波長可調的半導體奈米粒子集合體，並透過奈米結構控制改進電極表面，探索燃料電池、光催化和光能轉換。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "materials-10"
+    },
+    {
       "field": "polymer",
       "university": "京都大学",
       "department": "大学院工学研究科 化学理工学専攻",
@@ -6310,6 +7282,332 @@
         "Kyushu University"
       ],
       "id": "polymer-3"
+    },
+    {
+      "field": "polymer",
+      "university": "北海道大学",
+      "department": "大学院総合化学院 生物化学コース／工学研究院",
+      "lab": "高分子化学研究室",
+      "pi": "佐藤 敏文",
+      "pi_title": "教授",
+      "theme_zh": "有机催化精密聚合与可持续高分子合成",
+      "summary_zh": "以有机催化剂和精密聚合为核心，合成环状、分支等特殊结构高分子和嵌段共聚物并解析其相分离行为。同时开发刺激响应性与导电性功能高分子，并利用可再生资源设计可生物降解、可循环的环保型高分子材料。",
+      "keywords": [
+        "有机催化聚合",
+        "特殊结构高分子",
+        "嵌段共聚物",
+        "生物降解高分子"
+      ],
+      "url": "https://www.cse.hokudai.ac.jp/lab/1036",
+      "references": [
+        {
+          "url": "https://www.cse.hokudai.ac.jp/lab/1036",
+          "evidence": "北海道大学综合化学院研究室介绍页列出高分子化学研究室（生物化学课程），负责教员为工学研究院佐藤敏文教授，研究特殊结构高分子合成、刺激响应与导电高分子、嵌段共聚物相分离及环境循环型高分子材料，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.icredd.hokudai.ac.jp/ja/satoh-toshifumi",
+          "evidence": "北海道大学ICReDD研究者页确认佐藤敏文为工学研究院教授，研究主题为可持续高分子合成，关键词包括有机催化、精密聚合和生物降解高分子，并介绍利用羧酸盐等安全催化剂合成生物降解高分子。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "北海道",
+      "university_type": "国立",
+      "theme_ja": "有機触媒による精密重合と持続可能な高分子合成",
+      "theme_en": "Organocatalytic precision polymerization and sustainable polymer synthesis",
+      "summary_ja": "有機触媒を用いた精密重合を軸に、環状・分岐などの特殊構造高分子やブロック共重合体を合成し、その相分離挙動を解析。刺激応答性や導電性をもつ機能性高分子の開発に加え、再生可能資源から生分解性・環境循環型の高分子材料を創出します。",
+      "summary_en": "Centers on precision polymerization using organocatalysts to synthesize cyclic, branched and other specially structured polymers as well as block copolymers, and analyzes their phase-separation behavior. The group also develops stimuli-responsive and conductive functional polymers and designs biodegradable, recyclable polymer materials from renewable resources.",
+      "theme_tw": "有機催化精密聚合與永續高分子合成",
+      "summary_tw": "以有機催化劑和精密聚合為核心，合成環狀、分支等特殊結構高分子和嵌段共聚物並解析其相分離行為。同時開發刺激響應性與導電性功能高分子，並利用可再生資源設計可生物降解、可循環的環保型高分子材料。",
+      "aliases": [
+        "北海道大学",
+        "北海道大學",
+        "Hokkaido University"
+      ],
+      "id": "polymer-4"
+    },
+    {
+      "field": "polymer",
+      "university": "名古屋大学",
+      "department": "大学院工学研究科 有機・高分子化学専攻",
+      "lab": "機能高分子化学研究グループ（上垣外研究室）",
+      "pi": "上垣外 正己",
+      "pi_title": "教授",
+      "theme_zh": "立构与序列控制的精密聚合及生物基高分子",
+      "summary_zh": "开发同时控制分子量与立体结构的立构规整活性自由基聚合及阳离子、阴离子等新型活性聚合；通过设计单体与反应合成单体序列确定的高分子，并以植物来源单体进行精密聚合，开发生物基及可降解功能高分子。",
+      "keywords": [
+        "活性聚合",
+        "立构规整聚合",
+        "序列控制",
+        "生物基高分子"
+      ],
+      "url": "https://www.chembio.nagoya-u.ac.jp/labhp/polymer2/index.html",
+      "references": [
+        {
+          "url": "https://profs.provost.nagoya-u.ac.jp/html/100003666_ja.html",
+          "evidence": "名古屋大学研究者总览（2026年4月更新）列上垣外正己为工学研究科有机・高分子化学专攻教授，研究关键词包括活性聚合、立构规整聚合、序列控制聚合物、植物来源单体和可降解聚合物。"
+        },
+        {
+          "url": "https://www.chembio.nagoya-u.ac.jp/labhp/polymer2/members/",
+          "evidence": "研究室成员页列出上垣外正己教授、内山峰人讲师和渡边大展助教，所属为工学研究科有机・高分子化学专攻上垣外研究室（机能高分子化学研究组）。"
+        },
+        {
+          "url": "https://www.nagoya-u.ac.jp/researchinfo/result/2024/07/post-690.html",
+          "evidence": "名古屋大学2024年7月新闻稿介绍上垣外正己教授与内山峰人讲师在Nature Chemistry发表质子转移型阴离子聚合，可在温和条件下实现丙烯酸类单体的活性阴离子聚合。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "立体・配列制御精密重合とバイオベースポリマー",
+      "theme_en": "Precision polymerization with stereo- and sequence control, and bio-based polymers",
+      "summary_ja": "分子量と立体構造を同時に制御する立体特異性リビングラジカル重合や新しいリビング重合を開発。モノマーと重合反応の設計で配列制御高分子を合成し、植物由来モノマーの精密重合によりバイオベース・分解性の機能性高分子を創出します。",
+      "summary_en": "Develops stereospecific living radical polymerization that controls both molecular weight and tacticity, along with new living cationic and anionic polymerization systems. By designing monomers and reactions, the group synthesizes sequence-regulated polymers and applies precision polymerization to plant-derived monomers to create bio-based and degradable functional polymers.",
+      "theme_tw": "立構與序列控制的精密聚合及生物基高分子",
+      "summary_tw": "開發同時控制分子量與立體結構的立構規整活性自由基聚合及陽離子、陰離子等新型活性聚合；透過設計單體與反應合成單體序列確定的高分子，並以植物來源單體進行精密聚合，開發生物基及可降解功能高分子。",
+      "aliases": [
+        "名古屋大学",
+        "名古屋大學",
+        "Nagoya University"
+      ],
+      "id": "polymer-5"
+    },
+    {
+      "field": "polymer",
+      "university": "東京科学大学",
+      "department": "物質理工学院 応用化学系",
+      "lab": "大塚研究室",
+      "pi": "大塚 英幸",
+      "pi_title": "教授",
+      "theme_zh": "动态共价化学驱动的自修复与力响应高分子",
+      "summary_zh": "以有机化学方法开拓新的高分子反应，利用可逆交换的动态共价键实现高分子链拓扑转换，据此开发受损后可自行修复的自修复材料、受力后颜色或发光改变的力学响应高分子，以及可回收、可再成型的交联高分子。",
+      "keywords": [
+        "动态共价键",
+        "自修复高分子",
+        "力学响应",
+        "机械变色",
+        "高分子反应"
+      ],
+      "url": "http://www.otsuka-cap.mac.titech.ac.jp/",
+      "references": [
+        {
+          "url": "https://educ.titech.ac.jp/cap/faculty/research_lab/",
+          "evidence": "东京科学大学物质理工学院应用化学系研究室一览介绍大塚研究室以动态共价键聚合物、自修复聚合物和力学响应聚合物为中心，开发新一代高分子反应体系，并链接到研究室主页。"
+        },
+        {
+          "url": "https://www.isct.ac.jp/ja/news/kgqxncfohi60",
+          "evidence": "东京科学大学2026年9月官方新闻列大塚英幸为物质理工学院应用化学系教授（高分子反应、功能高分子设计），介绍与水混合即可成型、固化的“水硬性”高分子。"
+        },
+        {
+          "url": "https://educ.titech.ac.jp/cap/publications/file/pub-2675.pdf",
+          "evidence": "应用化学系2025年介绍手册列大塚英幸教授，研究室开拓新高分子反应，创制具有自修复性、力学响应性和可回收性的新一代高分子，关键词含机械变色与电子自旋共振。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "国立",
+      "theme_ja": "動的共有結合化学による自己修復性・力学応答性高分子",
+      "theme_en": "Self-healing and mechanoresponsive polymers based on dynamic covalent chemistry",
+      "summary_ja": "有機化学的手法で新しい高分子反応を開拓し、平衡系の動的共有結合を利用して高分子鎖のトポロジー変換を実現。傷を自ら修復する自己修復性材料、力で色や発光が変わる力学応答性高分子、リサイクル可能な架橋高分子などを開発します。",
+      "summary_en": "Explores new polymer reactions through organic-chemistry approaches and exploits reversible dynamic covalent bonds to transform polymer chain topologies. On this basis the group develops self-healing materials that repair damage, mechanoresponsive polymers whose color or emission changes under force, and recyclable, reprocessable cross-linked polymers.",
+      "theme_tw": "動態共價化學驅動的自修復與力響應高分子",
+      "summary_tw": "以有機化學方法開拓新的高分子反應，利用可逆交換的動態共價鍵實現高分子鏈拓撲轉換，據此開發受損後可自行修復的自修復材料、受力後顏色或發光改變的力學響應高分子，以及可回收、可再成型的交聯高分子。",
+      "aliases": [
+        "东京科学大学",
+        "東京科學大學",
+        "Institute of Science Tokyo",
+        "东京工业大学",
+        "東京工業大学",
+        "Tokyo Tech"
+      ],
+      "id": "polymer-6"
+    },
+    {
+      "field": "polymer",
+      "university": "大阪大学",
+      "department": "大学院理学研究科 高分子科学専攻",
+      "lab": "高分子溶液学研究室（寺尾研究室）",
+      "pi": "寺尾 憲",
+      "pi_title": "教授",
+      "theme_zh": "溶液中高分子的链形态、组装与相分离",
+      "summary_zh": "以高分子溶液物性为基础，利用X射线与中子散射及光谱等方法，定量解析多糖衍生物、环状与分支高分子的分子形态和链刚性，并研究胶束等自组装聚集体、高分子与纳米粒子的复合及溶液的热力学与相分离。",
+      "keywords": [
+        "高分子溶液",
+        "链构象",
+        "散射法",
+        "自组装",
+        "相分离"
+      ],
+      "url": "https://www.chem.sci.osaka-u.ac.jp/lab/terao/",
+      "references": [
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/mms/lab/index.html",
+          "evidence": "大阪大学理学研究科高分子科学专攻研究室一览列高分子溶液学研究室由寺尾宪教授和高桥伦太郎准教授负责，用散射和光谱方法研究溶液中高分子链形态、聚集体、与纳米粒子的复合及相分离。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/lab/terao/",
+          "evidence": "研究室主页说明以高分子溶液物性为基础，研究多种一级结构高分子的分子形态、自组装聚集体以及溶液热力学与相分离，最新动态为2026年11月。"
+        },
+        {
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/mms/lab/annual/25annual.pdf",
+          "evidence": "高分子科学专攻2025年度年报列高分子溶液学研究室（教授寺尾宪），研究关键词包括花型胶束、螺旋高分子、链刚性、分支高分子、自组装和微相分离。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关西",
+      "university_type": "国立",
+      "theme_ja": "溶液中の高分子の分子形態・集合体形成・相分離",
+      "theme_en": "Conformation, self-assembly and phase separation of polymers in solution",
+      "summary_ja": "高分子溶液物性を基盤に、多糖誘導体や環状・分岐高分子などの分子形態と鎖の剛直性を散乱法・分光法で定量的に解析。自己組織化によるミセルなどの集合体、ナノ粒子との複合体形成、溶液の熱力学と相分離挙動を明らかにします。",
+      "summary_en": "Building on polymer solution physics, the group uses X-ray and neutron scattering and spectroscopy to quantify the conformation and chain stiffness of polysaccharide derivatives, cyclic and branched polymers and other macromolecules. It also studies self-assembled micelles and aggregates, polymer–nanoparticle complexes, and solution thermodynamics and phase separation.",
+      "theme_tw": "溶液中高分子的鏈形態、組裝與相分離",
+      "summary_tw": "以高分子溶液物性為基礎，利用X射線與中子散射及光譜等方法，定量解析多醣衍生物、環狀與分支高分子的分子形態和鏈剛性，並研究微胞等自組裝聚集體、高分子與奈米粒子的複合及溶液的熱力學與相分離。",
+      "aliases": [
+        "大阪大学",
+        "大阪大學",
+        "Osaka University",
+        "The University of Osaka"
+      ],
+      "id": "polymer-7"
+    },
+    {
+      "field": "polymer",
+      "university": "金沢大学",
+      "department": "ナノ生命科学研究所／大学院自然科学研究科 物質化学専攻",
+      "lab": "高分子合成化学（前田研究室）",
+      "pi": "前田 勝浩",
+      "pi_title": "教授",
+      "theme_zh": "动态螺旋高分子与手性功能材料",
+      "summary_zh": "合成主链螺旋结构可动态变化的螺旋高分子和新型手性π共轭高分子体系，研究螺旋结构的诱导与控制，并将其发展为手性识别材料、光能转换材料等功能材料，探索高分子立体结构与功能之间的关系。",
+      "keywords": [
+        "螺旋高分子",
+        "手性识别",
+        "共轭高分子",
+        "高分子合成"
+      ],
+      "url": "https://kohka.ch.t.kanazawa-u.ac.jp/lab5/lab5/index.html",
+      "references": [
+        {
+          "url": "https://ridb.kanazawa-u.ac.jp/public/detail.php?id=2010",
+          "evidence": "金泽大学研究者信息列前田胜浩为纳米生命科学研究所教授，担任自然科学研究科物质化学专攻等研究生课程，研究主题包括新型手性π共轭高分子体系、动态螺旋高分子功能材料和光能转换材料，并链接研究室主页。"
+        },
+        {
+          "url": "https://www.nst.kanazawa-u.ac.jp/labp/chemistry/",
+          "evidence": "自然科学研究科物质化学专攻教员一览列前田胜浩教授，所属化学课程高分子合成化学，研究关键词为高分子合成、功能高分子和不对称识别。"
+        },
+        {
+          "url": "https://kohka.ch.t.kanazawa-u.ac.jp/lab5/lab5/index.html",
+          "evidence": "前田研究室主页（Synthetic polymer chemistry lab.）刊载动态螺旋聚苯乙炔超分子聚合等论文，以及2026年9月的学会活动。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "中部",
+      "university_type": "国立",
+      "theme_ja": "動的らせん高分子とキラル機能材料の創製",
+      "theme_en": "Dynamic helical polymers and chiral functional materials",
+      "summary_ja": "主鎖のらせん構造が動的に変化するらせん高分子や、新しいキラルπ共役高分子システムを合成し、らせん構造の誘起と制御を研究。キラル識別材料や光エネルギー変換材料などの機能性材料へ展開し、高分子の立体構造と機能の関係を探ります。",
+      "summary_en": "Synthesizes dynamic helical polymers whose main-chain helices can change, together with new chiral π-conjugated polymer systems, and studies how helical structures are induced and controlled. These polymers are developed into functional materials for chiral recognition and light-energy conversion, linking polymer three-dimensional structure to function.",
+      "theme_tw": "動態螺旋高分子與手性功能材料",
+      "summary_tw": "合成主鏈螺旋結構可動態變化的螺旋高分子和新型手性π共軛高分子系統，研究螺旋結構的誘導與控制，並將其發展為手性辨識材料、光能轉換材料等功能材料，探索高分子立體結構與功能之間的關係。",
+      "aliases": [
+        "金泽大学",
+        "金澤大學",
+        "Kanazawa University"
+      ],
+      "id": "polymer-8"
+    },
+    {
+      "field": "polymer",
+      "university": "東北大学",
+      "department": "大学院工学研究科 応用化学専攻（多元物質科学研究所）",
+      "lab": "高分子物理化学研究分野（陣内研究室）",
+      "pi": "陣内 浩司",
+      "pi_title": "教授",
+      "theme_zh": "以电子显微镜解析高分子的多级结构与物性",
+      "summary_zh": "开发并运用电子断层成像、原子分辨率STEM和纳米衍射成像等电镜技术，在原子至纳米尺度直接观察嵌段共聚物相分离、高分子结晶、单根高分子链、高分子/无机界面及填充橡胶的变形，阐明结构与物性的关系。",
+      "keywords": [
+        "高分子物理",
+        "电子显微镜",
+        "嵌段共聚物",
+        "高分子结晶",
+        "界面结构"
+      ],
+      "url": "https://www2.tagen.tohoku.ac.jp/lab/jinnai/",
+      "references": [
+        {
+          "url": "https://www2.tagen.tohoku.ac.jp/lab/jinnai/member-2/",
+          "evidence": "研究室成员页列出东北大学多元物质科学研究所高分子物理化学研究分野的陣内浩司教授、宫田智众准教授和狩野见秀辅助教。"
+        },
+        {
+          "url": "https://www.che.tohoku.ac.jp/grad/appc/jinnai/",
+          "evidence": "东北大学工学研究科应用化学专攻页面介绍高分子物理化学研究分野利用透射电镜在原子至纳米尺度观察高分子自组织结构、高分子/无机复合材料界面及单根高分子链。"
+        },
+        {
+          "url": "https://www.r-info.tohoku.ac.jp/ja/b0b0787fd27c5da460961b237c27c58f.html",
+          "evidence": "东北大学官方研究者介绍列陣内浩司为多元物质科学研究所计测研究部门高分子物理化学研究分野教授，研究领域包括高分子材料和纳米结构物理。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "东北",
+      "university_type": "国立",
+      "theme_ja": "電子顕微鏡による高分子の階層構造とダイナミクスの解析",
+      "theme_en": "Electron-microscopy analysis of hierarchical structures and dynamics in polymer materials",
+      "summary_ja": "電子線トモグラフィー、原子分解能STEM、ナノ回折イメージングなどの電子顕微鏡技術を開発・活用し、ブロック共重合体の相分離構造、高分子結晶、一本鎖、高分子/無機界面、ゴム複合材料の変形を直接観察して構造と物性の関係を解明します。",
+      "summary_en": "Develops and applies transmission electron microscopy methods such as electron tomography, atomic-resolution STEM and nanodiffraction imaging to directly observe block-copolymer microphase separation, polymer crystals, single polymer chains, polymer/inorganic interfaces and the deformation of filled rubbers, clarifying how microstructure governs macroscopic properties.",
+      "theme_tw": "以電子顯微鏡解析高分子的多級結構與物性",
+      "summary_tw": "開發並運用電子斷層成像、原子解析度STEM和奈米繞射成像等電子顯微技術，在原子至奈米尺度直接觀察嵌段共聚物相分離、高分子結晶、單根高分子鏈、高分子/無機界面及填充橡膠的變形，闡明結構與物性的關係。",
+      "aliases": [
+        "东北大学",
+        "東北大學",
+        "Tohoku University"
+      ],
+      "id": "polymer-9"
+    },
+    {
+      "field": "polymer",
+      "university": "早稲田大学",
+      "department": "大学院先進理工学研究科 応用化学専攻",
+      "lab": "高分子化学研究室（小柳津研究室）",
+      "pi": "小柳津 研一",
+      "pi_title": "教授",
+      "theme_zh": "氧化还原活性高分子与有机能源材料",
+      "summary_zh": "合成高密度带有氧化还原活性基团的功能高分子，研究电荷在高分子中的传输与储存机制，开发柔性有机二次电池、电容器等电子转移型有机电子材料，并研究可逆储氢的载氢高分子以及高折射率、低介电损耗高分子。",
+      "keywords": [
+        "氧化还原高分子",
+        "有机电池",
+        "功能高分子",
+        "电荷传输",
+        "储氢高分子"
+      ],
+      "url": "https://www.waseda-applchem.jp/ja/professors/oyaizu-kenichi/",
+      "references": [
+        {
+          "url": "https://www.waseda-applchem.jp/ja/professors/oyaizu-kenichi/",
+          "evidence": "早稻田大学应用化学科教员页列小柳津研一为高分子化学部门教授，研究领域为功能高分子、高分子合成与有机电子学，利用高密度氧化还原分子开发有机电池、电容器等材料。"
+        },
+        {
+          "url": "https://www.waseda.jp/top/news/82235",
+          "evidence": "早稻田大学官方新闻（2022年）介绍小柳津研一教授率领的高分子化学研究室，研究可折叠的柔性有机蓄电池和可逆储氢高分子等功能高分子，并链接到应用化学科教员页。"
+        },
+        {
+          "url": "https://www.waseda.jp/inst/nanolife/news/2024/07/08/3696/",
+          "evidence": "早稻田大学纳米・生命创新研究机构2024年介绍确认小柳津研一为理工学术院教授，研究高密度氧化还原高分子有机电池、储氢载体高分子、高折射率与低介电损耗高分子。"
+        }
+      ],
+      "checked_at": "2026-11-13",
+      "region": "关东",
+      "university_type": "私立",
+      "theme_ja": "レドックス活性高分子による有機エネルギー材料の開発",
+      "theme_en": "Redox-active polymers for organic batteries and energy materials",
+      "summary_ja": "レドックス活性基を高密度にもつ機能性高分子を合成し、高分子中の電荷輸送・貯蔵の機構を研究。柔軟な有機二次電池やキャパシタなど有機エレクトロニクス材料を開発するほか、水素キャリア高分子や高屈折率・低誘電損失高分子にも取り組みます。",
+      "summary_en": "Synthesizes functional polymers densely populated with redox-active groups and studies how charge is transported and stored within them. The group develops electron-transfer organic electronic materials such as flexible organic rechargeable batteries and capacitors, as well as hydrogen-carrier polymers and polymers with high refractive index or low dielectric loss.",
+      "theme_tw": "氧化還原活性高分子與有機能源材料",
+      "summary_tw": "合成高密度帶有氧化還原活性基團的功能高分子，研究電荷在高分子中的傳輸與儲存機制，開發可撓性有機二次電池、電容器等電子轉移型有機電子材料，並研究可逆儲氫的載氫高分子以及高折射率、低介電損耗高分子。",
+      "aliases": [
+        "早稻田大学",
+        "早稻田大學",
+        "Waseda University"
+      ],
+      "id": "polymer-10"
     },
     {
       "field": "supramolecular",
