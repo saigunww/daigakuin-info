@@ -1,0 +1,464 @@
+{
+  "base_entry_year": 2027,
+  "entry_year": 2027,
+  "rollover": {
+    "timezone": "Asia/Tokyo",
+    "month": 4,
+    "day": 1
+  },
+  "source_documents": {
+    "bio": {
+      "file": "生物入門.pdf",
+      "pages": [
+        8,
+        9
+      ],
+      "base_entry_year": 2027,
+      "sha256": "715587cc567b844cdf8645ddae94b3925bcd3cadb497da264f96063bec563137"
+    },
+    "chem": {
+      "file": "化学入門.pdf",
+      "pages": [
+        8,
+        9
+      ],
+      "base_entry_year": 2027,
+      "sha256": "7ce7f7209f9b6d3813761fa25d6b13e957f0439f4fba7c1f0b752e71dd5f04a9"
+    }
+  },
+  "items": [
+    {
+      "id": "summer",
+      "title": {
+        "ja": "🗓 大学院入試の流れ（夏）",
+        "zh": "🗓 大学院入试流程（夏）",
+        "tw": "🗓 大學院入試流程（夏）",
+        "en": "🗓 Graduate Entrance Exam Flow (Summer)"
+      },
+      "stages": [
+        {
+          "id": "information",
+          "icon": "🔍",
+          "title": {
+            "ja": "情報収集",
+            "zh": "信息收集",
+            "tw": "資訊收集",
+            "en": "Information Gathering"
+          },
+          "details": [
+            {
+              "ja": "大学・研究科・研究室をスクリンニングする",
+              "zh": "筛选大学・研究科・研究室",
+              "tw": "篩選大學・研究科・研究室",
+              "en": "Screen universities, graduate schools and laboratories."
+            },
+            {
+              "ja": "出願・試験日時を確認する",
+              "zh": "确认出愿・考试日期",
+              "tw": "確認出願・考試日期",
+              "en": "Check application and examination dates."
+            },
+            {
+              "ja": "TOEFL・TOEIC・IELTS・JLPTは必要かを確認する",
+              "zh": "确认是否需要TOEFL・TOEIC・IELTS・JLPT",
+              "tw": "確認是否需要TOEFL・TOEIC・IELTS・JLPT",
+              "en": "Check whether TOEFL, TOEIC, IELTS or JLPT is required."
+            },
+            {
+              "ja": "入学試験内容を確認する",
+              "zh": "确认入学考试内容",
+              "tw": "確認入學考試內容",
+              "en": "Check the entrance examination content."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -2,
+              "month": 9
+            },
+            "end": {
+              "year_offset": -2,
+              "month": 10
+            }
+          }
+        },
+        {
+          "id": "contact",
+          "icon": "📧",
+          "title": {
+            "ja": "事前連絡",
+            "zh": "事前联络",
+            "tw": "事前聯絡",
+            "en": "Prior Contact"
+          },
+          "details": [
+            {
+              "ja": "研究室訪問メールの書き方を学ぶ",
+              "zh": "学习研究室访问邮件的写法",
+              "tw": "學習研究室訪問郵件的寫法",
+              "en": "Learn how to write an email requesting a laboratory visit."
+            },
+            {
+              "ja": "研究室訪問の準備",
+              "zh": "准备研究室访问",
+              "tw": "準備研究室訪問",
+              "en": "Prepare for the laboratory visit."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -2,
+              "month": 10,
+              "part": "late"
+            },
+            "end": {
+              "year_offset": -1,
+              "month": 4
+            }
+          }
+        },
+        {
+          "id": "visit",
+          "icon": "🏫",
+          "title": {
+            "ja": "研究室訪問／ZOOM面談",
+            "zh": "研究室访问／ZOOM面谈",
+            "tw": "研究室訪問／ZOOM面談",
+            "en": "Lab Visit / ZOOM Meeting"
+          },
+          "details": [
+            {
+              "ja": "研究室訪問を行い、教授から入試の内諾をもらう",
+              "zh": "进行研究室访问，获取教授的入试内诺",
+              "tw": "進行研究室訪問，取得教授的入試內諾",
+              "en": "Visit the laboratory and obtain the professor’s prior consent to apply."
+            },
+            {
+              "ja": "研究室訪問後お礼メール",
+              "zh": "研究室访问后发送感谢邮件",
+              "tw": "研究室訪問後寄送感謝郵件",
+              "en": "Send a thank-you email after the laboratory visit."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -2,
+              "month": 11
+            },
+            "end": {
+              "year_offset": -1,
+              "month": 5
+            }
+          }
+        },
+        {
+          "id": "application",
+          "icon": "📝",
+          "title": {
+            "ja": "出願はじめ",
+            "zh": "出愿开始",
+            "tw": "出願開始",
+            "en": "Applications Open"
+          },
+          "details": [
+            {
+              "ja": "出願書類を準備し、出願手続きを行う。",
+              "zh": "准备出愿材料，办理出愿手续。",
+              "tw": "準備出願資料，辦理出願手續。",
+              "en": "Prepare application documents and complete the application procedure."
+            },
+            {
+              "ja": "絶対必要書類：卒業・学位証明書（英語・日本語）、成績証明書（英語・日本語）",
+              "zh": "绝对必要材料：毕业・学位证明书（英语・日语）、成绩证明书（英语・日语）",
+              "tw": "絕對必要資料：畢業・學位證明書（英語・日語）、成績證明書（英語・日語）",
+              "en": "Essential documents: graduation/degree certificate (English/Japanese) and academic transcript (English/Japanese)."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 6
+            }
+          }
+        },
+        {
+          "id": "exam",
+          "icon": "✏️",
+          "title": {
+            "ja": "入学試験",
+            "zh": "入学考试",
+            "tw": "入學考試",
+            "en": "Entrance Examination"
+          },
+          "details": [
+            {
+              "ja": "入学試験を参加する",
+              "zh": "参加入学考试",
+              "tw": "參加入學考試",
+              "en": "Take the entrance examination."
+            },
+            {
+              "ja": "目標：70%正確率を確保する",
+              "zh": "目标：确保70%正确率",
+              "tw": "目標：確保70%正確率",
+              "en": "Target: achieve 70% correct answers."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 8
+            }
+          }
+        },
+        {
+          "id": "results",
+          "icon": "🎉",
+          "title": {
+            "ja": "合格発表",
+            "zh": "合格发表",
+            "tw": "合格發表",
+            "en": "Results Announcement"
+          },
+          "details": [
+            {
+              "ja": "インタネットで合格情報を確認する",
+              "zh": "在网上确认合格信息",
+              "tw": "在線上確認合格資訊",
+              "en": "Check the admission results online."
+            },
+            {
+              "ja": "合格通知書を行知学園に送る",
+              "zh": "将合格通知书发送给行知学园",
+              "tw": "將合格通知書寄送給行知學園",
+              "en": "Send the acceptance notification to Coach Academy."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "title": {
+        "ja": "🗓 大学院入試の流れ（冬）",
+        "zh": "🗓 大学院入试流程（冬）",
+        "tw": "🗓 大學院入試流程（冬）",
+        "en": "🗓 Graduate Entrance Exam Flow (Winter)"
+      },
+      "stages": [
+        {
+          "id": "information",
+          "icon": "🔍",
+          "title": {
+            "ja": "情報収集",
+            "zh": "信息收集",
+            "tw": "資訊收集",
+            "en": "Information Gathering"
+          },
+          "details": [
+            {
+              "ja": "大学・研究科・研究室をスクリンニングする",
+              "zh": "筛选大学・研究科・研究室",
+              "tw": "篩選大學・研究科・研究室",
+              "en": "Screen universities, graduate schools and laboratories."
+            },
+            {
+              "ja": "出願・試験日時を確認する",
+              "zh": "确认出愿・考试日期",
+              "tw": "確認出願・考試日期",
+              "en": "Check application and examination dates."
+            },
+            {
+              "ja": "TOEFL・TOEIC・IELTS・JLPTは必要かを確認する",
+              "zh": "确认是否需要TOEFL・TOEIC・IELTS・JLPT",
+              "tw": "確認是否需要TOEFL・TOEIC・IELTS・JLPT",
+              "en": "Check whether TOEFL, TOEIC, IELTS or JLPT is required."
+            },
+            {
+              "ja": "入学試験内容を確認する",
+              "zh": "确认入学考试内容",
+              "tw": "確認入學考試內容",
+              "en": "Check the entrance examination content."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 7
+            },
+            "end": {
+              "year_offset": -1,
+              "month": 9
+            }
+          }
+        },
+        {
+          "id": "contact",
+          "icon": "📧",
+          "title": {
+            "ja": "事前連絡",
+            "zh": "事前联络",
+            "tw": "事前聯絡",
+            "en": "Prior Contact"
+          },
+          "details": [
+            {
+              "ja": "研究室訪問メールの書き方を学ぶ",
+              "zh": "学习研究室访问邮件的写法",
+              "tw": "學習研究室訪問郵件的寫法",
+              "en": "Learn how to write an email requesting a laboratory visit."
+            },
+            {
+              "ja": "研究室訪問の準備",
+              "zh": "准备研究室访问",
+              "tw": "準備研究室訪問",
+              "en": "Prepare for the laboratory visit."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 9,
+              "part": "late"
+            },
+            "end": {
+              "year_offset": -1,
+              "month": 10
+            }
+          }
+        },
+        {
+          "id": "visit",
+          "icon": "🏫",
+          "title": {
+            "ja": "研究室訪問／ZOOM面談",
+            "zh": "研究室访问／ZOOM面谈",
+            "tw": "研究室訪問／ZOOM面談",
+            "en": "Lab Visit / ZOOM Meeting"
+          },
+          "details": [
+            {
+              "ja": "研究室訪問を行い、教授から入試の内諾をもらう",
+              "zh": "进行研究室访问，获取教授的入试内诺",
+              "tw": "進行研究室訪問，取得教授的入試內諾",
+              "en": "Visit the laboratory and obtain the professor’s prior consent to apply."
+            },
+            {
+              "ja": "研究室訪問後お礼メール",
+              "zh": "研究室访问后发送感谢邮件",
+              "tw": "研究室訪問後寄送感謝郵件",
+              "en": "Send a thank-you email after the laboratory visit."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 10
+            },
+            "end": {
+              "year_offset": -1,
+              "month": 11
+            }
+          }
+        },
+        {
+          "id": "application",
+          "icon": "📝",
+          "title": {
+            "ja": "出願はじめ",
+            "zh": "出愿开始",
+            "tw": "出願開始",
+            "en": "Applications Open"
+          },
+          "details": [
+            {
+              "ja": "出願書類を準備し、出願手続きを行う。",
+              "zh": "准备出愿材料，办理出愿手续。",
+              "tw": "準備出願資料，辦理出願手續。",
+              "en": "Prepare application documents and complete the application procedure."
+            },
+            {
+              "ja": "絶対必要書類：卒業・学位証明書（英語・日本語）、成績証明書（英語・日本語）",
+              "zh": "绝对必要材料：毕业・学位证明书（英语・日语）、成绩证明书（英语・日语）",
+              "tw": "絕對必要資料：畢業・學位證明書（英語・日語）、成績證明書（英語・日語）",
+              "en": "Essential documents: graduation/degree certificate (English/Japanese) and academic transcript (English/Japanese)."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": -1,
+              "month": 11
+            }
+          }
+        },
+        {
+          "id": "exam",
+          "icon": "✏️",
+          "title": {
+            "ja": "入学試験",
+            "zh": "入学考试",
+            "tw": "入學考試",
+            "en": "Entrance Examination"
+          },
+          "details": [
+            {
+              "ja": "入学試験を参加する",
+              "zh": "参加入学考试",
+              "tw": "參加入學考試",
+              "en": "Take the entrance examination."
+            },
+            {
+              "ja": "目標：70%正確率を確保する",
+              "zh": "目标：确保70%正确率",
+              "tw": "目標：確保70%正確率",
+              "en": "Target: achieve 70% correct answers."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": 0,
+              "month": 1
+            }
+          }
+        },
+        {
+          "id": "results",
+          "icon": "🎉",
+          "title": {
+            "ja": "合格発表",
+            "zh": "合格发表",
+            "tw": "合格發表",
+            "en": "Results Announcement"
+          },
+          "details": [
+            {
+              "ja": "インタネットで合格情報を確認する",
+              "zh": "在网上确认合格信息",
+              "tw": "在線上確認合格資訊",
+              "en": "Check the admission results online."
+            },
+            {
+              "ja": "合格通知書を行知学園に送る",
+              "zh": "将合格通知书发送给行知学园",
+              "tw": "將合格通知書寄送給行知學園",
+              "en": "Send the acceptance notification to Coach Academy."
+            }
+          ],
+          "timing": {
+            "start": {
+              "year_offset": 0,
+              "month": 2
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-11-13T17:53:24+09:00"
+}

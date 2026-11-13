@@ -1,0 +1,29 @@
+.course-flow-panel .course-flow-year{margin:20px 0 12px;font-size:19px;font-weight:700;color:#0c4a6e}
+.course-flow-panel .exam-flow{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;margin:18px 0 0;padding:0;overflow:visible;list-style:none;align-items:stretch}
+.course-flow-panel .exam-flow-step{display:flex;flex-direction:column;align-items:stretch;min-width:0;padding:0;position:relative;text-align:center}
+.course-flow-panel .exam-flow-step::after{top:69px;right:-15px;transform:none;font-size:23px}
+.course-flow-panel .exam-flow-head{display:flex;flex-direction:column;align-items:center;min-height:150px;gap:6px;padding:4px 3px 12px}
+.course-flow-panel .exam-flow-icon{font-size:28px;margin:0}
+.course-flow-panel .exam-flow-title{font-size:14px;line-height:1.55;font-weight:700;color:#0c4a6e;margin:0 0 5px;overflow-wrap:anywhere}
+.course-flow-panel .exam-flow-date{font-size:13px;line-height:1.55;margin:0;overflow-wrap:anywhere}
+.course-flow-panel .exam-flow-desc{flex:1;text-align:left;background:#f0fdf4;border:1px solid #bbdfc8;border-radius:12px;list-style:none;padding:13px 11px;margin:0;font-size:13px;line-height:1.75;overflow-wrap:anywhere}
+.course-flow-panel .exam-flow-desc>li+li{margin-top:12px}
+.course-flow-source{margin:0 0 24px;font-size:12px;color:#64748b}
+body.dark .course-flow-panel .course-flow-year,body.dark .course-flow-panel .exam-flow-title{color:#bae6fd}
+body.dark .course-flow-panel .exam-flow-desc{background:#122e28;border-color:#315749;color:#d1e3df}
+body.dark .course-flow-panel .exam-flow-date{color:#7dd3fc}
+body.dark .course-flow-source{color:#94a3b8}
+@media(max-width:1000px){
+  #intro .service-grid{grid-template-columns:minmax(0,1fr)}
+  #intro .service-item,#intro .svc-text{min-width:0;overflow-wrap:anywhere}
+  #intro .highlight-card{min-width:0;overflow-wrap:anywhere}
+  .course-flow-panel .exam-flow{grid-template-columns:1fr;gap:20px}
+  .course-flow-panel .exam-flow-step{text-align:left;padding-bottom:4px}
+  .course-flow-panel .exam-flow-head{flex-direction:row;align-items:flex-start;min-height:0;padding:0 0 10px;gap:12px}
+  .course-flow-panel .exam-flow-icon{flex:0 0 34px;text-align:center;font-size:26px}
+  .course-flow-panel .exam-flow-title{font-size:16px}
+  .course-flow-panel .exam-flow-date{font-size:14px}
+  .course-flow-panel .exam-flow-desc{font-size:14px;padding:13px 15px}
+  .course-flow-panel .exam-flow-desc>li+li{margin-top:8px}
+  .course-flow-panel .exam-flow-step::after{content:'↓';top:auto;bottom:-21px;left:50%;right:auto;font-size:20px;line-height:20px}
+}

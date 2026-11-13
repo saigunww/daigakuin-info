@@ -8,11 +8,13 @@ from update_google import update_courses, update_honors
 from update_admissions import update_admissions
 from update_research import update_research
 from update_students import update_students
+from course_flow import update_course_flow
 
 def run(selected=None):
     today = datetime.now(JST).date()
     jobs = {'schedule': update_courses, 'honors': update_honors, 'students': update_students,
-            'admissions': lambda: update_admissions(today), 'research': lambda: update_research(today)}
+            'admissions': lambda: update_admissions(today), 'research': lambda: update_research(today),
+            'course_flow': lambda: update_course_flow(today)}
     results = {}
     with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {pool.submit(fn): name for name, fn in jobs.items() if not selected or name in selected}
@@ -29,7 +31,7 @@ def run(selected=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--only', nargs='+', choices=['schedule','honors','admissions','research','students'])
+    parser.add_argument('--only', nargs='+', choices=['schedule','honors','admissions','research','students','course_flow'])
     args = parser.parse_args()
     results = run(args.only)
     raise SystemExit(0 if all(r['ok'] for r in results.values()) else 1)
