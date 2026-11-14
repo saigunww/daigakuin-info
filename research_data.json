@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.2460/javma.26.07.0552",
+      "doi": "10.2460/javma.26.07.0552",
+      "title": "Antimicrobial use exceeds culture-confirmed urinary tract infections in cats with feline idiopathic cystitis with and without urethral obstruction.",
+      "summary": {
+        "ja": "米国とカナダの紹介病院で特発性膀胱炎の雄猫を前向きに観察し、抗菌薬投与は28%で、尿培養陽性の9.2%を上回った。尿道閉塞の有無で培養陽性率は同程度だったが、閉塞群では紹介後の抗菌薬投与が多く、検査に基づく判断の必要性が示された。",
+        "zh": "美国和加拿大转诊医院对特发性膀胱炎雄猫的前瞻性观察发现，28%接受了抗菌药物，而尿培养阳性率为9.2%。有无尿道梗阻的猫培养阳性率相近，但梗阻组转诊后更常接受抗菌药物，支持依据检查结果决定用药。",
+        "tw": "美國和加拿大轉診醫院對特發性膀胱炎公貓的前瞻性觀察發現，28%接受了抗菌藥物，而尿液培養陽性率為9.2%。有無尿道阻塞的貓培養陽性率相近，但阻塞組轉診後更常接受抗菌藥物，支持依據檢查結果決定用藥。",
+        "en": "A prospective observational study of male cats with idiopathic cystitis at US and Canadian referral hospitals found that 28% received antimicrobials, while 9.2% had positive urine cultures. Culture positivity was similar with and without urethral obstruction, but obstructed cats received more antimicrobials after referral, supporting diagnostic-guided prescribing."
+      },
+      "source": "Journal of the American Veterinary Medical Association",
+      "published_at": "2026-11-13",
+      "url": "https://doi.org/10.2460/javma.26.07.0552",
+      "added_on": "2026-11-15",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43025060/"
+    },
+    {
+      "id": "doi:10.1007/164_2026_863",
+      "doi": "10.1007/164_2026_863",
+      "title": "Carboranes in Medicinal Chemistry: Biological Activities, Drug Design, and Therapeutic Aspects.",
+      "summary": {
+        "ja": "この総説は、立体的なホウ素化合物であるカルボランについて、薬の標的への結合様式や構造と活性の関係を整理した。既報の例では活性や選択性、代謝安定性の向上が示され、中性子捕捉療法や画像化などへの応用と今後の可能性が論じられた。",
+        "zh": "这篇综述梳理了立体硼簇化合物碳硼烷与药物靶点的结合方式，以及分子结构与生物活性的关系。已有研究实例显示其可提高活性、选择性和代谢稳定性，综述还讨论了中子俘获治疗、蛋白降解和生物成像中的应用及前景。",
+        "tw": "這篇綜述梳理了立體硼簇化合物碳硼烷與藥物標的的結合方式，以及分子結構與生物活性的關係。既有研究實例顯示其可提高活性、選擇性和代謝穩定性，綜述也討論了中子捕獲治療、蛋白質降解和生物成像中的應用及前景。",
+        "en": "This review synthesized how carboranes, three-dimensional boron clusters, bind biological targets and how their structures relate to biological activity. Published examples illustrated improvements in potency, selectivity, and metabolic stability, while applications in neutron capture therapy, targeted protein degradation, and imaging highlighted their potential for further drug research."
+      },
+      "source": "Handbook of experimental pharmacology",
+      "published_at": "2026-11-14",
+      "url": "https://doi.org/10.1007/164_2026_863",
+      "added_on": "2026-11-15",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43024085/"
+    },
+    {
+      "id": "doi:10.2196/100445",
+      "doi": "10.2196/100445",
+      "title": "Deep-Learning Analysis of Peripheral Blood Smear for Prediction of Acute Inflammatory States and Chronic Comorbidities: Development and Internal Validation Study.",
+      "summary": {
+        "ja": "臨床の末梢血塗抹標本から細胞の形態を学習し、炎症状態や慢性併存疾患を見分ける深層学習モデルを開発した。内部検証では慢性疾患より急性炎症の識別に優れたが、一部疾患では年齢・性別のみのモデルを有意に上回らず、探索的な結果にとどまる。",
+        "zh": "研究利用临床外周血涂片中的细胞形态，开发了区分急性炎症状态和慢性合并疾病的深度学习模型。内部验证显示，模型对急性炎症的区分能力更强，但对部分慢性疾病未显著优于仅用年龄和性别的模型，结果仍属探索性。",
+        "tw": "研究利用臨床周邊血液抹片中的細胞形態，開發了區分急性發炎狀態和慢性共病的深度學習模型。內部驗證顯示，模型對急性發炎的區分能力較強，但對部分慢性疾病未顯著優於僅用年齡和性別的模型，結果仍屬探索性。",
+        "en": "Researchers developed a deep learning model using cell shapes in clinical peripheral blood smears to distinguish acute inflammatory states and chronic comorbidities. Internal validation showed stronger discrimination for acute inflammation, while some chronic disease predictions did not significantly outperform age and sex alone, leaving the findings exploratory."
+      },
+      "source": "JMIR medical informatics",
+      "published_at": "2026-11-13",
+      "url": "https://doi.org/10.2196/100445",
+      "added_on": "2026-11-15",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43024355/"
+    },
+    {
       "id": "doi:10.1093/nar/gkag1076",
       "doi": "10.1093/nar/gkag1076",
       "title": "Evo2VED: a database of DNA large language model-derived scores for variant interpretation.",
@@ -154,5 +205,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-15T00:12:17+09:00"
+  "updated_at": "2026-11-15T00:19:08+09:00"
 }
