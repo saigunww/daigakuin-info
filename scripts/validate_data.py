@@ -5,6 +5,7 @@ from common import ROOT, load, official_url
 from update_admissions import PROGRAM_FIELDS
 from update_students import validate_student_summary
 from course_flow import validate_payload
+from research_summaries import validate_summary
 
 def validate():
     feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json','course_flow_data.json')}
@@ -28,6 +29,8 @@ def validate():
     for row in papers:
         assert row['url'].startswith(('https://doi.org/','https://pubmed.ncbi.nlm.nih.gov/'))
         assert date.fromisoformat(row['published_at'])<=date.fromisoformat(row['added_on'])
+        validate_summary(row['summary'])
+        assert row['summary_source'].startswith('https://pubmed.ncbi.nlm.nih.gov/')
     programs=feeds['applications.json']['items']
     assert len({r['id'] for r in programs})==len(programs)==100
     for row in programs:

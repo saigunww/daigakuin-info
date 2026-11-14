@@ -11,6 +11,12 @@
 .feed-card h3{font-size:18px;color:#0c4a6e;line-height:1.55;margin:10px 0;overflow-wrap:anywhere}
 .feed-card a{color:#0369a1;text-decoration:none;overflow-wrap:anywhere}
 .feed-card a:hover{text-decoration:underline}
+.research-result{margin:16px 0;padding:14px 16px;border-left:3px solid #38bdf8;border-radius:0 9px 9px 0;background:#f0f9ff}
+.research-result h4{margin:0 0 7px;font-size:14px;color:#075985}
+.research-result p{margin:0;font-size:14px;line-height:1.85;color:#334155;overflow-wrap:anywhere}
+body.dark .research-result{background:#0f253a;border-color:#38bdf8}
+body.dark .research-result h4{color:#7dd3fc}
+body.dark .research-result p{color:#e2e8f0}
 .feed-card ul{padding-left:20px;margin:10px 0;line-height:1.8;font-size:13px}
 .feed-tag{display:inline-block;background:#e0f2fe;color:#075985;font-size:12px;padding:4px 9px;border-radius:6px}
 .feed-empty{padding:30px;text-align:center;color:#64748b}

@@ -4,101 +4,155 @@
       "id": "doi:10.1093/nar/gkag1076",
       "doi": "10.1093/nar/gkag1076",
       "title": "Evo2VED: a database of DNA large language model-derived scores for variant interpretation.",
-      "summary": "",
+      "summary": {
+        "ja": "Evo2VEDは、非フィンランド系欧州集団で一般的な648万変異のEvo2スコアを、大規模集団の遺伝的関連情報とともに公開した。検索・可視化・ダウンロード機能を備え、詳しく調べる候補変異の優先順位づけを支援する。",
+        "zh": "Evo2VED汇集了非芬兰欧洲人群中648万个常见变异的Evo2预计算评分，并整合大型人群研究的遗传关联结果。数据库支持查询、可视化与下载，为筛选值得进一步研究的候选变异提供参考。",
+        "tw": "Evo2VED彙集了非芬蘭歐洲人群中648萬個常見變異的Evo2預先計算評分，並整合大型人群研究的遺傳關聯結果。資料庫支援查詢、視覺化與下載，為篩選值得進一步研究的候選變異提供參考。",
+        "en": "Evo2VED provides precomputed Evo2 scores for 6.48 million variants common in the gnomAD non-Finnish European population, alongside genetic association results from large population studies. Its query, visualization and download tools help researchers explore variant evidence and prioritize candidates for further investigation."
+      },
       "source": "Nucleic acids research",
       "published_at": "2026-11-13",
       "url": "https://doi.org/10.1093/nar/gkag1076",
       "added_on": "2026-11-14",
-      "category": "biology"
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43021690/"
     },
     {
       "id": "doi:10.1186/s11671-026-05138-9",
       "doi": "10.1186/s11671-026-05138-9",
       "title": "Green synthesis of stable gold and silver nanoparticles using aqueous extract of Sargassum spp. and their application in catalysis.",
-      "summary": "",
+      "summary": {
+        "ja": "ホンダワラ類の水抽出物を使って金・銀ナノ粒子を作製し、銀粒子がより高い触媒性能を示すことを確認した。水素化ホウ素ナトリウム存在下の実験では、銀粒子により4-ニトロフェノールを1分で99.3％還元した。",
+        "zh": "研究用马尾藻水提取物制得金、银纳米颗粒，并发现银颗粒的催化表现更优。在硼氢化钠参与的实验中，银颗粒催化4-硝基苯酚还原，1分钟内还原率达到99.3%。",
+        "tw": "研究用馬尾藻水萃取物製得金、銀奈米顆粒，並發現銀顆粒的催化表現更佳。在硼氫化鈉參與的實驗中，銀顆粒催化4-硝基苯酚還原，1分鐘內還原率達到99.3%。",
+        "en": "Researchers used a Sargassum water extract to synthesize gold and silver nanoparticles, with silver showing higher catalytic performance. In experiments containing sodium borohydride, the silver nanoparticles catalysed 99.3% reduction of 4-nitrophenol within one minute, compared with seven minutes for gold."
+      },
       "source": "Discover nano",
       "published_at": "2026-11-12",
       "url": "https://doi.org/10.1186/s11671-026-05138-9",
       "added_on": "2026-11-14",
-      "category": "chemistry"
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43018812/"
     },
     {
       "id": "doi:10.1039/d6ay01549b",
       "doi": "10.1039/d6ay01549b",
       "title": "Machine learning-driven SERS fingerprinting for high-accuracy serum screening of hepatic inflammation in mice.",
-      "summary": "",
+      "summary": {
+        "ja": "銀ナノ結晶基板による血清ラマン測定と機械学習モデルを組み合わせ、健康なマウスとDMN誘発肝炎マウスを識別した。このマウス実験で正解率96.7％、AUC0.973を達成し、肝炎に伴う血清スペクトルの変化を捉えた。",
+        "zh": "研究将银纳米晶基底的血清拉曼检测与机器学习模型结合，用于区分健康小鼠和DMN诱导肝炎小鼠。在该小鼠实验中，模型的识别准确率为96.7%，AUC为0.973，显示血清光谱可反映肝炎相关变化。",
+        "tw": "研究將銀奈米晶基底的血清拉曼檢測與機器學習模型結合，用於區分健康小鼠和DMN誘導肝炎小鼠。在該小鼠實驗中，模型的辨識準確率為96.7%，AUC為0.973，顯示血清光譜可反映肝炎相關變化。",
+        "en": "Researchers combined serum Raman measurements on silver nanocrystal substrates with a machine learning model to distinguish healthy mice from mice with DMN-induced hepatitis. In this mouse experiment, the model achieved 96.7% accuracy and an AUC of 0.973, detecting serum spectral changes associated with hepatic inflammation."
+      },
       "source": "Analytical methods : advancing methods and applications",
       "published_at": "2026-11-12",
       "url": "https://doi.org/10.1039/d6ay01549b",
       "added_on": "2026-11-14",
-      "category": "ai"
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42862136/"
     },
     {
       "id": "doi:10.1017/thg.2026.10113",
       "doi": "10.1017/thg.2026.10113",
       "title": "Detection of Silent Carriers of Spinal Muscular Atrophy: A Survey of Clinical Practice and Recommendations for Screening.",
-      "summary": "",
+      "summary": {
+        "ja": "豪州とニュージーランドの遺伝医療従事者62人への調査では、92％が脊髄性筋萎縮症のサイレントキャリアを認識していた。検査や高リスクSNPの解釈、遺伝相談の課題を示し、診療体制と検査・研修・指針の改善を提案した。",
+        "zh": "澳大利亚与新西兰62名遗传专业人员的问卷显示，92%知晓脊髓性肌萎缩症的隐性携带者，但检测、高风险SNP解读和遗传咨询仍有困难。研究提出诊疗服务模式，并建议改进检测、人员培训与专业指导。",
+        "tw": "澳洲與紐西蘭62名遺傳專業人員的問卷顯示，92%知曉脊髓性肌肉萎縮症的隱性帶因者，但檢測、高風險SNP解讀和遺傳諮詢仍有困難。研究提出診療服務模式，並建議改進檢測、人員培訓與專業指引。",
+        "en": "A survey of 62 genetics professionals in Australia and New Zealand found that 92% knew about spinal muscular atrophy silent carriers, yet testing, high-risk SNP interpretation and counselling remained challenging. The authors proposed a clinical service model and recommended improvements in testing, workforce education and professional guidance."
+      },
       "source": "Twin research and human genetics : the official journal of the International Society for Twin Studies",
       "published_at": "2026-11-12",
       "url": "https://doi.org/10.1017/thg.2026.10113",
       "added_on": "2026-11-13",
-      "category": "biology"
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43016290/"
     },
     {
       "id": "doi:10.1021/acsami.6c16436",
       "doi": "10.1021/acsami.6c16436",
       "title": "Electrode-Side Catalytic Regulation Directs Electrolyte Decomposition for Stable Silicon Anodes.",
-      "summary": "",
+      "summary": {
+        "ja": "単原子コバルトで電解液分解を制御し、結着剤なしのシリコン負極にLiFに富む緻密な界面膜を形成して副反応を抑えた。電極は1 A/gで1200回の充放電後も1128.8 mAh/gを示し、LiCoO₂パウチセルへの適用も実演した。",
+        "zh": "单原子钴调控电解液分解，使无粘结剂硅负极形成致密富LiF界面膜并抑制副反应。电极在1 A/g下循环1200次后可逆容量为1128.8 mAh/g，并用于钴酸锂软包电池演示。",
+        "tw": "單原子鈷調控電解液分解，使無黏結劑矽負極形成緻密富LiF界面膜並抑制副反應。電極在1 A/g下循環1200次後可逆容量為1128.8 mAh/g，並用於鈷酸鋰軟包電池展示。",
+        "en": "Single cobalt atoms steered electrolyte decomposition to form a compact, LiF-rich interphase on a binder-free silicon anode, suppressing side reactions. The electrode delivered 1128.8 mAh/g after 1,200 cycles at 1 A/g, with an additional demonstration in a lithium cobalt oxide pouch cell."
+      },
       "source": "ACS applied materials & interfaces",
       "published_at": "2026-11-12",
       "url": "https://doi.org/10.1021/acsami.6c16436",
       "added_on": "2026-11-13",
-      "category": "chemistry"
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43013850/"
     },
     {
       "id": "doi:10.1093/rheumatology/keag626",
       "doi": "10.1093/rheumatology/keag626",
       "title": "Endothelial IFI16 drives vasculopathy and profibrotic remodeling in systemic sclerosis by activating JAK/STAT signaling.",
-      "summary": "",
+      "summary": {
+        "ja": "複数の発現解析と組織染色で、全身性強皮症の皮膚にIFI16の増加と内皮細胞への集積を認めた。細胞実験ではIFI16過剰発現が内皮機能を損ない、JAK/STAT経由で内皮間葉転換を促し、同経路の阻害で転換が逆転した。",
+        "zh": "多组学分析及组织成像显示，系统性硬化症皮肤中IFI16升高并富集于内皮细胞。细胞实验表明，IFI16过表达损害内皮功能，并经JAK/STAT促进内皮间质转化，抑制该通路可逆转这一转化。",
+        "tw": "多組學分析及組織影像顯示，全身性硬化症皮膚中IFI16升高並富集於內皮細胞。細胞實驗表明，IFI16過度表現損害內皮功能，並經JAK/STAT促進內皮間質轉化，抑制該路徑可逆轉這一轉化。",
+        "en": "Integrated expression analyses and tissue imaging showed increased IFI16 in systemic sclerosis skin, enriched in endothelial cells. In cell experiments, IFI16 overexpression impaired endothelial function and promoted endothelial-to-mesenchymal transition through JAK/STAT signalling, while pathway inhibition reversed this transition."
+      },
       "source": "Rheumatology (Oxford, England)",
       "published_at": "2026-11-12",
       "url": "https://doi.org/10.1093/rheumatology/keag626",
       "added_on": "2026-11-13",
-      "category": "ai"
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43016348/"
     },
     {
       "id": "doi:10.2141/jpsa.2026026",
       "doi": "10.2141/jpsa.2026026",
       "title": "Effect of Sea-Freight Vibrations and Microclimates on Blood Chemistry, Weight Loss, and Meat Quality: A Comparison of Speedboat and Ferry Transit in Broilers.",
-      "summary": "",
+      "summary": {
+        "ja": "高速艇とフェリーによる輸送では、ブロイラーの生体重が約11％減少し、呼吸数増加と肉の硬化、脂肪減少が見られた。高速艇では機械的損傷、フェリーでは炎症・代謝ストレスが中心で、負担の現れ方が異なった。",
+        "zh": "快艇和渡轮运输均使肉鸡活重下降约11%，并伴随呼吸加快、肉质变韧和脂肪减少。快艇组主要表现为机械损伤，渡轮组则偏向炎症与代谢应激，显示两种海运方式的应激模式不同。",
+        "tw": "快艇與渡輪運輸均使肉雞活體重下降約11%，並伴隨呼吸加快、肉質變韌和脂肪減少。快艇組主要表現為機械損傷，渡輪組則偏向發炎與代謝壓力，顯示兩種海運方式的壓力反應不同。",
+        "en": "Speedboat and ferry transport both reduced broiler live weight by about 11%, alongside faster breathing, tougher meat and lower fat content. The speedboat group mainly showed mechanical injury, whereas the ferry group showed inflammatory and metabolic stress, revealing different stress patterns under the two transport conditions."
+      },
       "source": "The journal of poultry science",
       "published_at": "2026-11-07",
       "url": "https://doi.org/10.2141/jpsa.2026026",
       "added_on": "2026-11-12",
-      "category": "biology"
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42991895/"
     },
     {
       "id": "doi:10.1021/acs.joc.6c01915",
       "doi": "10.1021/acs.joc.6c01915",
       "title": "Acidic C─H Functionalization to Access Ketoalkyl-Substituted Quinazolinones by Visible-Light Photoredox Catalysis.",
-      "summary": "",
+      "summary": {
+        "ja": "可視光とイリジウム光触媒、過酸化ベンゾイルを用い、アセトンからケトアルキル置換縮合キナゾリノンを合成した。アセトンは溶媒と三炭素源を兼ね、複数の基質に適用でき、機構はラジカル捕捉・同位体効果・蛍光消光実験で支持された。",
+        "zh": "可见光铱光催化结合过氧化苯甲酰，经自由基级联反应合成酮烷基取代的稠合喹唑啉酮。丙酮兼作溶剂和三碳原料，反应适用于多类底物，其机理获得自由基捕获、同位素效应及荧光淬灭实验支持。",
+        "tw": "可見光銥光催化結合過氧化苯甲醯，經自由基串聯反應合成酮烷基取代的稠合喹唑啉酮。丙酮兼作溶劑和三碳原料，反應適用於多類受質，其機理獲得自由基捕捉、同位素效應及螢光淬熄實驗支持。",
+        "en": "Visible-light iridium photocatalysis with benzoyl peroxide enabled a radical cascade that produced ketoalkyl-substituted fused quinazolinones from acetone. Acetone served as both solvent and a three-carbon building block, with several substrate classes accommodated and mechanistic support from radical trapping, kinetic isotope effect and fluorescence quenching experiments."
+      },
       "source": "The Journal of organic chemistry",
       "published_at": "2026-11-09",
       "url": "https://doi.org/10.1021/acs.joc.6c01915",
       "added_on": "2026-11-12",
-      "category": "chemistry"
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42995010/"
     },
     {
       "id": "doi:10.1016/j.gene.2026.150485",
       "doi": "10.1016/j.gene.2026.150485",
       "title": "Integrative network toxicology and clinical validation identify CD4, PTGS2, and KDR as candidate targets of nicotine in infantile hemangioma.",
-      "summary": "",
+      "summary": {
+        "ja": "ネットワーク解析と組織検査で乳児血管腫のCD4・PTGS2増加を確認し、ニコチンに関わる候補作用ネットワークを示した。患者77人と対照50人の集団で血液4指標モデルのAUCは0.942だったが、機序とモデルには追加検証が必要である。",
+        "zh": "研究结合网络分析与组织检测，发现婴幼儿血管瘤中CD4、PTGS2表达升高，并筛出涉及尼古丁的候选作用网络。在77名患者和50名对照组成的队列中，四项血液指标模型的AUC为0.942，候选机制与模型仍需外部验证。",
+        "tw": "研究結合網絡分析與組織檢測，發現嬰幼兒血管瘤中CD4、PTGS2表現升高，並篩出涉及尼古丁的候選作用網絡。在77名患者和50名對照組成的隊列中，四項血液指標模型的AUC為0.942，候選機制與模型仍需外部驗證。",
+        "en": "Network analysis and tissue testing identified increased CD4 and PTGS2 expression in infantile hemangioma and a candidate network through which nicotine might act. In a cohort of 77 patients and 50 controls, a four-marker blood model achieved an AUC of 0.942; the candidate mechanisms and model still require external validation."
+      },
       "source": "Gene",
       "published_at": "2026-11-07",
       "url": "https://doi.org/10.1016/j.gene.2026.150485",
       "added_on": "2026-11-12",
-      "category": "ai"
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-14T00:18:44+09:00"
+  "updated_at": "2026-11-15T00:12:17+09:00"
 }

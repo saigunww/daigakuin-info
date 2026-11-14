@@ -5,6 +5,7 @@ import html
 import re
 import requests
 from common import ROOT, dataset, load
+from research_summaries import generate_summaries, plain_text
 
 API = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search'
 TOPICS = {
@@ -48,7 +49,7 @@ def update_research(today):
         return old
     seen = {r['id'].lower() for r in items}
     start = today-timedelta(days=59)
-    queues, errors = {}, []
+    queues, errors, evidence = {}, [], {}
     for category, query in TOPICS.items():
         try:
             response = requests.get(API,params={'query':f'({query}) AND SRC:MED AND FIRST_PDATE:[{start} TO {today}] sort_date:y',
@@ -57,7 +58,20 @@ def update_research(today):
             body = response.json()
             if 'hitCount' not in body:
                 raise ValueError('Invalid Europe PMC response')
-            rows = [item for raw in body['resultList']['result'] if (item:=candidate(raw,category,start,today))]
+            rows = []
+            for raw in body['resultList']['result']:
+                item = candidate(raw, category, start, today)
+                abstract = plain_text(raw.get('abstractText'))
+                if not item or len(abstract) < 120:
+                    continue
+                evidence[item['id']] = {
+                    'doi': item['doi'], 'title': item['title'], 'abstract': abstract,
+                    'source_url': 'https://pubmed.ncbi.nlm.nih.gov/' + str(raw['id']) + '/',
+                }
+                # DOI-less records remain eligible and get an unambiguous source key.
+                if not item['doi']:
+                    evidence[item['id']]['doi'] = item['id']
+                rows.append(item)
             queues[category] = sorted(rows,key=lambda x:(x['published_at'],x['id']),reverse=True)
         except (requests.RequestException,ValueError,KeyError) as exc:
             errors.append(category+': '+type(exc).__name__)
@@ -80,4 +94,10 @@ def update_research(today):
             break
     if not added:
         raise RuntimeError('No new eligible research; previous archive retained. '+'; '.join(errors))
+    summaries = generate_summaries([evidence[item['id']] for item in added])
+    added = [{**item, 'summary': summaries[evidence[item['id']]['doi']],
+              'summary_source': evidence[item['id']]['source_url']}
+             for item in added if evidence[item['id']]['doi'] in summaries]
+    if not added:
+        raise RuntimeError('No source-supported research summaries; previous archive retained')
     return dataset('research_data.json',{'items':added+items})
