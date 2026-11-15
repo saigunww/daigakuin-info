@@ -122,7 +122,22 @@
   function refreshSchedulePeriod() {
     const period=schedulePeriod().key;
     if(feeds.schedule && state.schedulePeriod!==period)renderSchedule();
+    refreshScheduleHighlights();
     if(!state.scheduleRefreshPending && state.scheduleLoadedPeriod!==period)fetchFeed('schedule','schedule_data.json',renderSchedule);
+  }
+  function isUpcomingCourse(date, startTime, currentTime=Date.now(), today=jstToday()) {
+    if(date!==today)return date>today;
+    const time=String(startTime || '').trim().match(/^([01]?\d|2[0-3]):([0-5]\d)(?::([0-5]\d))?$/);
+    // Without a scheduled start time, retain today's date-based indication.
+    if(!time)return true;
+    const start=Date.parse(`${date}T${time[1].padStart(2,'0')}:${time[2]}:${time[3] || '00'}+09:00`);
+    return currentTime<start;
+  }
+  function refreshScheduleHighlights() {
+    const currentTime=Date.now(), today=jstToday();
+    document.querySelectorAll('#course-results tr[data-course-date]').forEach(row=>{
+      row.classList.toggle('upcoming',isUpcomingCourse(row.dataset.courseDate,row.dataset.courseStart,currentTime,today));
+    });
   }
   function renderSchedule() {
     const data = feeds.schedule; if (!data) return;
@@ -133,6 +148,7 @@
     host.innerHTML = `<div class="feed-note">${tr('指定の初回時間割を自動同期しています。元の表には後日の授業変更が反映されません。','自动同步指定的初次排课表；原表不记录后续调课，请结合老师通知确认。','自動同步指定的初次排課表；原表不記錄後續調課，請結合老師通知確認。','Automatically synced from the initial timetable. Later class changes are not recorded in this source; check instructor announcements.')}</div>
       <p class="feed-meta">${meta(data)}</p>
       <div class="schedule-period" id="schedule-period" data-start="${period.start}" data-end="${period.end}"><strong>${period.terms.map(term=>monthLabel(term.start)+' — '+monthLabel(term.lastMonth)).join(' ＋ ')}</strong><span>${tr('毎年1月・4月・10月に自動切替。1〜3月は両期の授業を併せて表示','每年1月、4月、10月自动切换；1—3月同时显示两期课程','每年1月、4月、10月自動切換；1—3月同時顯示兩期課程','Automatically switches in January, April and October; both terms are shown together in January–March')}</span></div>
+      <p class="schedule-legend"><span class="schedule-legend-swatch" aria-hidden="true"></span>${tr('淡い緑色：これから始まる授業（日本時間で自動更新）','浅色背景：尚未开始的课程（按日本时间自动更新）','淺色背景：尚未開始的課程（按日本時間自動更新）','Pale green: classes that have not started (updated in Japan time).')}</p>
       <div class="feed-controls">${['bio','chem'].map(g=>button(subject(g),state.scheduleGroup===g,'course-group',g)).join('')}<input id="course-query" type="search" value="${esc(state.scheduleQuery)}" aria-label="${tr('授業を検索','搜索课程','搜尋課程','Search courses')}" placeholder="${tr('科目名・クラス・内容で検索','搜索科目、班期或内容','搜尋科目、班期或內容','Search subjects, classes or topics')}"></div><div id="course-results" aria-live="polite"></div>`;
     $('course-query').oninput = e => {state.scheduleQuery=e.target.value;renderScheduleRows();};
     host.querySelectorAll('[data-course-group]').forEach(b=>b.onclick=()=>{state.scheduleGroup=b.dataset.courseGroup;renderSchedule();});
@@ -168,9 +184,9 @@
     groups.forEach(([,items])=>items.sort((a,b)=>a.date.localeCompare(b.date) || (a.start_time || '99:99').localeCompare(b.start_time || '99:99')));
     const weekdays = tr(['月','火','水','木','金','土','日'],['一','二','三','四','五','六','日'],['一','二','三','四','五','六','日'],['Mon','Tue','Wed','Thu','Fri','Sat','Sun']);
     const headers = [tr('日付','日期','日期','Date'),tr('時間','时间','時間','Time'),tr('クラス・開講期','原课程／班期','原課程／班期','Original course / term'),tr('回','课次','課次','Session'),tr('授業内容','课程内容','課程內容','Topic')];
-    const today = jstToday();
+    const today = jstToday(), currentTime=Date.now();
     const noClasses=termRows.length ? empty() : `<p class="feed-empty">${tr('今期の授業はまだ掲載されていません。元の時間割の更新後に自動表示されます。','本期暂无课程，排课表更新后会自动显示。','本期暫無課程，排課表更新後會自動顯示。','No classes are listed for this period yet. They will appear when the source timetable is updated.')}</p>`;
-    $('course-results').innerHTML = `<p class="feed-meta">${tr('科目別','按科目分组','按科目分組','Grouped by subject')} · ${groups.length} ${tr('科目','门科目','門科目','subjects')} · ${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length ? groups.map(([name,items],index)=>`<section class="course-subject-group" data-course-subject="${esc(name)}" aria-labelledby="course-subject-${index}"><div class="course-subject-heading"><h3 id="course-subject-${index}">${esc(name)}</h3><span>${items.length} ${tr('授業','节课','節課','classes')}</span></div><div class="feed-table-wrap"><table class="feed-table" aria-labelledby="course-subject-${index}"><thead><tr>${headers.map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${items.map(r=>`<tr${r.date>=today?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div></section>`).join('') : noClasses);
+    $('course-results').innerHTML = `<p class="feed-meta">${tr('科目別','按科目分组','按科目分組','Grouped by subject')} · ${groups.length} ${tr('科目','门科目','門科目','subjects')} · ${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length ? groups.map(([name,items],index)=>`<section class="course-subject-group" data-course-subject="${esc(name)}" aria-labelledby="course-subject-${index}"><div class="course-subject-heading"><h3 id="course-subject-${index}">${esc(name)}</h3><span>${items.length} ${tr('授業','节课','節課','classes')}</span></div><div class="feed-table-wrap"><table class="feed-table" aria-labelledby="course-subject-${index}"><thead><tr>${headers.map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${items.map(r=>`<tr data-course-date="${esc(r.date)}" data-course-start="${esc(r.start_time || '')}"${isUpcomingCourse(r.date,r.start_time,currentTime,today)?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div></section>`).join('') : noClasses);
   }
 
   function renderStudents() {

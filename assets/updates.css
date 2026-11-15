@@ -59,7 +59,11 @@ body.dark #noticeBoard .notice-detail:focus-visible,body.dark #noticeBoard .noti
 .feed-table{border-collapse:collapse;width:100%;min-width:680px;font-size:14px}
 .feed-table th,.feed-table td{text-align:left;padding:12px 14px;border-bottom:1px solid #e2e8f0;vertical-align:top;line-height:1.7}
 .feed-table th{background:#f0f9ff;color:#075985;white-space:nowrap}
-.feed-table tr.upcoming{background:#f0fdf4}
+.feed-table tr.upcoming{background:#edf7f2}
+.schedule-legend{display:flex;align-items:center;gap:8px;margin:8px 0 14px;color:#526764;font-size:12px;line-height:1.7}
+.schedule-legend-swatch{flex:0 0 12px;width:12px;height:12px;border:1px solid #b9d5c8;border-radius:2px;background:#edf7f2}
+body.dark .schedule-legend{color:#b4cbbf}
+body.dark .schedule-legend-swatch{background:#1e3c34;border-color:#517568}
 .schedule-period{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:14px 18px;border-radius:10px;background:#e0f2fe;color:#075985;margin:16px 0}
 .schedule-period strong{font-size:20px}
 .schedule-period span{font-size:13px;line-height:1.6}
@@ -110,7 +114,7 @@ body.dark .feed-card h3,body.dark .feed-source-panel>summary,body.dark .feed-car
 body.dark .feed-meta{color:#94a3b8}
 body.dark .feed-table th{background:#0f172a;color:#7dd3fc}
 body.dark .feed-table td,body.dark .feed-table th{border-color:#334155}
-body.dark .feed-table tr.upcoming{background:#13332c}
+body.dark .feed-table tr.upcoming{background:#1e3c34}
 body.dark .course-subject-heading{background:#0c4a6e;color:#e0f2fe}
 body.dark .feed-button.active{background:#0369a1;color:white}
 @media(max-width:600px){.feed-grid{grid-template-columns:1fr}.feed-card{padding:17px}.feed-honors{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.feed-honors img{height:230px}.feed-controls{gap:8px}.feed-controls input{width:100%}.feed-table-wrap{max-width:100%}}
