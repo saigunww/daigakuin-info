@@ -1997,9 +1997,9 @@
         88
       ],
       "title": "受験生の方へ |  名古屋大学",
-      "checked_on": "2026-11-14",
+      "checked_on": "2026-11-15",
       "changed_on": "2026-11-12",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "dea9ddd8ceff1f71afb962a681d4918848d7da26599bd73ea31ccaa8bd7956d9",
       "notices": [
         {
@@ -2035,9 +2035,7 @@
           "url": "https://www.nagoya-u.ac.jp/admissions/exam/us-exam/cat2/"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-15",
-      "error": "ReadTimeout"
+      "application_windows": []
     },
     {
       "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
@@ -2612,5 +2610,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-15T17:17:36+09:00"
+  "updated_at": "2026-11-15T18:18:28+09:00"
 }

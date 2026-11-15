@@ -1262,8 +1262,8 @@
       "uTw": "名古屋大學",
       "dTw": "工學研究科",
       "mTw": "化學生命工學專攻",
-      "source_checked_on": "2026-11-14",
-      "source_status": "unavailable"
+      "source_checked_on": "2026-11-15",
+      "source_status": "ok"
     },
     {
       "id": 62,
@@ -1805,8 +1805,8 @@
       "dEn": "工学研究科",
       "mEn": "物質科学専攻",
       "coEn": "Master",
-      "source_checked_on": "2026-11-14",
-      "source_status": "unavailable"
+      "source_checked_on": "2026-11-15",
+      "source_status": "ok"
     },
     {
       "id": 89,
@@ -2050,5 +2050,5 @@
     }
   ],
   "source_type": "university_official",
-  "updated_at": "2026-11-15T00:18:42+09:00"
+  "updated_at": "2026-11-15T18:18:28+09:00"
 }
