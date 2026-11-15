@@ -7,6 +7,7 @@ from update_students import validate_student_summary
 from course_flow import validate_payload
 from research_summaries import validate_summary
 from update_notices import validate_notices
+from honor_statistics import validate_statistics
 
 def validate():
     feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json','course_flow_data.json','notices_data.json')}
@@ -17,6 +18,7 @@ def validate():
     validate_payload(feeds['course_flow_data.json'])
     validate_notices(feeds['notices_data.json'])
     honors=feeds['honors_data.json']['items']
+    validate_statistics(feeds['honors_data.json'].get('statistics'))
     assert len({r['id'] for r in honors})==len(honors)
     for row in honors:
         assert row['subject'] in ('bio','chem','ai-research','other')

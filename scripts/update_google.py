@@ -127,7 +127,7 @@ def update_honors():
             path = str(p.relative_to(POSTERS))
             if path not in remote_paths and poster_metadata(path):
                 sources.append({'path':path,'name':p.name,'local':str(p)})
-    items, seen = [], set()
+    items, poster_records, seen = [], [], set()
     cache = STATE/'media'
     cache.mkdir(parents=True,exist_ok=True)
     for row in sorted(sources,key=lambda r:r['path']):
@@ -154,6 +154,9 @@ def update_honors():
         if row.get('md5Checksum') and hashlib.md5(data).hexdigest()!=row['md5Checksum']:
             raise ValueError('Poster cache checksum mismatch')
         sha = hashlib.sha256(data).hexdigest()
+        # Retain original source names only in memory for cross-source matching.
+        # Public posters stay anonymous; statistics export aggregate counts only.
+        poster_records.append({'id':sha,'source_path':row['path'],**meta})
         if sha in seen:
             continue
         seen.add(sha)
@@ -168,4 +171,7 @@ def update_honors():
         items.append({'id':sha,**meta,'image':relative})
     if not items:
         raise ValueError('No admission posters found; keeping existing data')
-    return dataset('honors_data.json',{'items':items})
+    from honor_statistics import build_statistics
+    statistics = build_statistics(client('sheets'), poster_records)
+    # All source checks must succeed before replacing the last complete feed.
+    return dataset('honors_data.json',{'items':items,'statistics':statistics})

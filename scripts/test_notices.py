@@ -79,6 +79,23 @@ class NoticeTests(unittest.TestCase):
                 row = next(r for r in changed['items'] if r['kind'] == 'schedule' and r['date'] == current.isoformat())
                 self.assertIn(expected, row['body']['zh'])
 
+    def test_sheet_only_admission_change_announces_and_aggregate_order_is_ignored(self):
+        statistics = {'schema_version': 1, 'counting_unit': 'offers', 'unassigned_total': 0,
+            'pending_review_total': 0, 'years': [{'year': '2027', 'total': 3,
+                'universities': [{'name': '甲大学', 'count': 2}, {'name': '乙大学', 'count': 1}],
+                'by_subject': {}}]}
+        self.sources['honors']['statistics'] = statistics
+        first = self.baseline()
+        statistics['years'][0]['universities'].reverse()
+        statistics['checked_at'] = 'routine source check only'
+        self.assertEqual(notices.build_notices(first, self.sources, TODAY), first)
+        # Same poster gallery and same overall total; the actual school counts changed.
+        statistics['years'][0]['universities'][0]['count'] = 2
+        statistics['years'][0]['universities'][1]['count'] = 1
+        changed = notices.build_notices(first, self.sources, TODAY)
+        self.assertNotEqual(first['source_fingerprints']['honors'], changed['source_fingerprints']['honors'])
+        self.assertEqual(next(row for row in changed['items'] if row['kind'] == 'honors')['target'], 'honor')
+
     def test_public_announcements_reject_unexpected_fields_or_targets(self):
         for key, value in (('target', 'https://invalid.example/'), ('kind', 'private'), ('date', '2026-02-30')):
             data = self.baseline()

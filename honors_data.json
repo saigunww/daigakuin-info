@@ -697,5 +697,387 @@
       "image": "assets/honors/45aa9ac885746928283d8db2.webp"
     }
   ],
-  "updated_at": "2026-11-12T15:59:35+09:00"
+  "statistics": {
+    "schema_version": 1,
+    "counting_unit": "offers",
+    "years": [
+      {
+        "year": "2027",
+        "total": 28,
+        "universities": [
+          {
+            "name": "東京大学",
+            "count": 16
+          },
+          {
+            "name": "京都大学",
+            "count": 2
+          },
+          {
+            "name": "東京科学大学",
+            "count": 2
+          },
+          {
+            "name": "九州大学",
+            "count": 1
+          },
+          {
+            "name": "同志社大学",
+            "count": 1
+          },
+          {
+            "name": "山梨大学",
+            "count": 1
+          },
+          {
+            "name": "慶應義塾大学",
+            "count": 1
+          },
+          {
+            "name": "東京慈恵会医科大学",
+            "count": 1
+          },
+          {
+            "name": "立命館大学",
+            "count": 1
+          },
+          {
+            "name": "筑波大学",
+            "count": 1
+          },
+          {
+            "name": "順天堂大学",
+            "count": 1
+          }
+        ],
+        "by_subject": {
+          "bio": {
+            "total": 18,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 11
+              },
+              {
+                "name": "京都大学",
+                "count": 2
+              },
+              {
+                "name": "九州大学",
+                "count": 1
+              },
+              {
+                "name": "山梨大学",
+                "count": 1
+              },
+              {
+                "name": "慶應義塾大学",
+                "count": 1
+              },
+              {
+                "name": "東京慈恵会医科大学",
+                "count": 1
+              },
+              {
+                "name": "順天堂大学",
+                "count": 1
+              }
+            ]
+          },
+          "chem": {
+            "total": 8,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 5
+              },
+              {
+                "name": "東京科学大学",
+                "count": 2
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              }
+            ]
+          },
+          "ai-research": {
+            "total": 2,
+            "universities": [
+              {
+                "name": "同志社大学",
+                "count": 1
+              },
+              {
+                "name": "立命館大学",
+                "count": 1
+              }
+            ]
+          },
+          "other": {
+            "total": 0,
+            "universities": []
+          }
+        },
+        "pending_review": 0
+      },
+      {
+        "year": "2026",
+        "total": 41,
+        "universities": [
+          {
+            "name": "東京大学",
+            "count": 19
+          },
+          {
+            "name": "東京科学大学",
+            "count": 4
+          },
+          {
+            "name": "九州大学",
+            "count": 2
+          },
+          {
+            "name": "京都大学",
+            "count": 2
+          },
+          {
+            "name": "東京理科大学",
+            "count": 2
+          },
+          {
+            "name": "東北大学",
+            "count": 2
+          },
+          {
+            "name": "筑波大学",
+            "count": 2
+          },
+          {
+            "name": "北海道大学",
+            "count": 1
+          },
+          {
+            "name": "大阪大学",
+            "count": 1
+          },
+          {
+            "name": "岡山大学",
+            "count": 1
+          },
+          {
+            "name": "文京学院大学",
+            "count": 1
+          },
+          {
+            "name": "早稲田大学",
+            "count": 1
+          },
+          {
+            "name": "東京農工大学",
+            "count": 1
+          },
+          {
+            "name": "金沢大学",
+            "count": 1
+          },
+          {
+            "name": "順天堂大学",
+            "count": 1
+          }
+        ],
+        "by_subject": {
+          "bio": {
+            "total": 28,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 14
+              },
+              {
+                "name": "九州大学",
+                "count": 2
+              },
+              {
+                "name": "京都大学",
+                "count": 2
+              },
+              {
+                "name": "東京科学大学",
+                "count": 2
+              },
+              {
+                "name": "大阪大学",
+                "count": 1
+              },
+              {
+                "name": "岡山大学",
+                "count": 1
+              },
+              {
+                "name": "文京学院大学",
+                "count": 1
+              },
+              {
+                "name": "早稲田大学",
+                "count": 1
+              },
+              {
+                "name": "東京理科大学",
+                "count": 1
+              },
+              {
+                "name": "東京農工大学",
+                "count": 1
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              },
+              {
+                "name": "順天堂大学",
+                "count": 1
+              }
+            ]
+          },
+          "chem": {
+            "total": 13,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 5
+              },
+              {
+                "name": "東京科学大学",
+                "count": 2
+              },
+              {
+                "name": "東北大学",
+                "count": 2
+              },
+              {
+                "name": "北海道大学",
+                "count": 1
+              },
+              {
+                "name": "東京理科大学",
+                "count": 1
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              },
+              {
+                "name": "金沢大学",
+                "count": 1
+              }
+            ]
+          },
+          "ai-research": {
+            "total": 0,
+            "universities": []
+          },
+          "other": {
+            "total": 0,
+            "universities": []
+          }
+        },
+        "pending_review": 2
+      },
+      {
+        "year": "2025",
+        "total": 21,
+        "universities": [
+          {
+            "name": "東京大学",
+            "count": 11
+          },
+          {
+            "name": "東京科学大学",
+            "count": 4
+          },
+          {
+            "name": "九州大学",
+            "count": 2
+          },
+          {
+            "name": "千葉大学",
+            "count": 1
+          },
+          {
+            "name": "東京工科大学",
+            "count": 1
+          },
+          {
+            "name": "立命館アジア太平洋大学",
+            "count": 1
+          },
+          {
+            "name": "筑波大学",
+            "count": 1
+          }
+        ],
+        "by_subject": {
+          "bio": {
+            "total": 11,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 6
+              },
+              {
+                "name": "九州大学",
+                "count": 2
+              },
+              {
+                "name": "東京工科大学",
+                "count": 1
+              },
+              {
+                "name": "東京科学大学",
+                "count": 1
+              },
+              {
+                "name": "立命館アジア太平洋大学",
+                "count": 1
+              }
+            ]
+          },
+          "chem": {
+            "total": 10,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 5
+              },
+              {
+                "name": "東京科学大学",
+                "count": 3
+              },
+              {
+                "name": "千葉大学",
+                "count": 1
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              }
+            ]
+          },
+          "ai-research": {
+            "total": 0,
+            "universities": []
+          },
+          "other": {
+            "total": 0,
+            "universities": []
+          }
+        },
+        "pending_review": 0
+      }
+    ],
+    "unassigned_total": 0,
+    "pending_review_total": 2
+  },
+  "updated_at": "2026-11-16T04:19:46+09:00"
 }

@@ -1,0 +1,51 @@
+/* Admission statistics: readable counts, shared scales, no chart dependencies. */
+#honor .honor-gallery-title{margin:0 0 18px;color:#183b4d;font-size:20px;font-weight:600;line-height:1.6}
+body.dark #honor .honor-gallery-title{color:#dce9ed}
+.honor-stats{--honor-ink:#183b4d;--honor-muted:#5b707b;--honor-line:#dce5e9;--honor-panel:#fff;--honor-track:#edf2f4;--honor-accent:#287681;--honor-selected:#145b67;--honor-soft:#f3f8f8;margin:24px 0 34px;padding:28px 30px 20px;border:1px solid var(--honor-line);border-radius:8px;background:var(--honor-panel);color:var(--honor-ink);min-width:0}
+.honor-stats *{box-sizing:border-box}
+.honor-stats-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:26px}
+.honor-stats-intro{min-width:0}
+.honor-stats .honor-stats-kicker{margin:0 0 7px;color:var(--honor-muted);font-size:11px;font-weight:500;line-height:1.7;letter-spacing:.08em}
+.honor-stats h3{margin:0;font-size:24px;font-weight:600;line-height:1.5;color:var(--honor-ink)}
+.honor-stats .honor-stats-scope{margin:8px 0 0;color:var(--honor-muted);font-size:13px;line-height:1.7}
+.honor-stats-summary{display:flex;flex:0 0 auto;gap:30px;margin:0;padding-left:28px;border-left:1px solid var(--honor-line)}
+.honor-stats-summary>div{min-width:90px}
+.honor-stats-summary dt{font-size:12px;line-height:1.7;color:var(--honor-muted)}
+.honor-stats-summary dd{margin:5px 0 0;color:var(--honor-ink);font-size:37px;font-weight:600;line-height:1.2;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.honor-stats-charts{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:32px;padding-top:24px;border-top:1px solid var(--honor-line)}
+.honor-stats-chart{min-width:0}
+.honor-stats h4{margin:0;color:var(--honor-ink);font-size:15px;font-weight:600;line-height:1.6}
+.honor-stats .honor-stats-description{margin:8px 0 18px;color:var(--honor-muted);font-size:12px;line-height:1.8}
+.honor-stats-years-scroll{max-width:100%;overflow-x:auto;padding:4px 2px 0;scrollbar-width:thin;scrollbar-color:var(--honor-line) transparent}
+.honor-stats-years{display:grid;grid-template-columns:repeat(var(--honor-year-count),minmax(58px,1fr));gap:8px;list-style:none;padding:0;margin:0;min-width:calc(var(--honor-year-count) * 66px)}
+.honor-stats-years>li{min-width:0}
+.honor-stats-year{display:flex;flex-direction:column;align-items:center;width:100%;gap:0;margin:0;padding:12px 8px 9px;border:1px solid transparent;border-radius:5px;background:transparent;color:var(--honor-muted);font:inherit;cursor:pointer}
+.honor-stats-year:hover{background:var(--honor-soft)}
+.honor-stats-year.is-selected{border-color:var(--honor-line);background:var(--honor-soft);color:var(--honor-selected)}
+.honor-stats-year-count{display:block;min-height:26px;margin-bottom:8px;font-size:18px;font-weight:600;line-height:1.4;font-variant-numeric:tabular-nums;color:var(--honor-ink)}
+.honor-stats-year-plot{display:flex;align-items:flex-end;justify-content:center;width:100%;height:116px;border-bottom:1px solid var(--honor-line)}
+.honor-stats-year-bar{display:block;flex:0 1 38px;width:60%;max-width:38px;border-radius:3px 3px 0 0;background:var(--honor-accent);opacity:.66}
+.honor-stats-year.is-selected .honor-stats-year-bar{background:var(--honor-selected);opacity:1}
+.honor-stats-year-label{display:block;margin-top:10px;font-size:12px;font-weight:500;line-height:1.6;font-variant-numeric:tabular-nums}
+.honor-stats-chart-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:18px}
+.honor-stats-chart-heading>span{color:var(--honor-muted);font-size:11px;line-height:1.7;white-space:nowrap}
+.honor-stats-school-scroll{max-height:420px;overflow-y:auto;padding:2px 8px 2px 2px;scrollbar-width:thin;scrollbar-color:var(--honor-line) transparent}
+.honor-stats-school-list{display:grid;gap:15px;list-style:none;margin:0;padding:0}
+.honor-stats-school-label{display:flex;align-items:baseline;justify-content:space-between;gap:16px;font-size:13px;line-height:1.6}
+.honor-stats-school-label>span{min-width:0;overflow-wrap:anywhere}
+.honor-stats-school-label>strong{flex:0 0 auto;color:var(--honor-ink);font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
+.honor-stats-school-track{height:6px;margin-top:7px;overflow:hidden;border-radius:2px;background:var(--honor-track)}
+.honor-stats-school-track>span{display:block;height:100%;border-radius:2px;background:var(--honor-accent)}
+.honor-stats .honor-stats-empty{margin:12px 0 0;padding:22px 16px;border:1px dashed var(--honor-line);color:var(--honor-muted);font-size:13px;line-height:1.9}
+.honor-stats .honor-stats-unassigned{margin:22px 0 0;padding:11px 13px;background:var(--honor-soft);color:var(--honor-muted);font-size:12px;line-height:1.8}
+.honor-stats-unassigned>span{display:inline-block;margin-right:10px;color:var(--honor-ink);font-weight:500}
+.honor-stats .honor-stats-review{margin:18px 0 0;color:var(--honor-muted);font-size:12px;line-height:1.8}
+.honor-stats-footer{margin-top:24px;padding-top:16px;border-top:1px solid var(--honor-line)}
+.honor-stats-footer>p{margin:0;color:var(--honor-muted);font-size:11px;line-height:1.9}
+.honor-stats-footer>.honor-stats-updated{margin-top:8px;font-variant-numeric:tabular-nums}
+.honor-stats-year:focus-visible,.honor-stats-school-scroll:focus-visible{outline:2px solid var(--honor-selected);outline-offset:2px}
+.honor-stats-unavailable>p{margin:12px 0 0;color:var(--honor-muted);font-size:13px;line-height:1.8}
+body.dark .honor-stats{--honor-ink:#dce9ed;--honor-muted:#a7bbc5;--honor-line:#354b57;--honor-panel:#182b36;--honor-track:#2a414d;--honor-accent:#72b1b8;--honor-selected:#9cd2d6;--honor-soft:#203945}
+@media(max-width:800px){.honor-stats{padding:24px}.honor-stats-heading{gap:20px}.honor-stats-summary{gap:22px;padding-left:20px}.honor-stats-summary>div{min-width:72px}.honor-stats-summary dd{font-size:32px}.honor-stats-charts{gap:24px}}
+@media(max-width:600px){.honor-stats{margin:20px 0 26px;padding:20px 17px 17px}.honor-stats-heading{display:block;margin-bottom:22px}.honor-stats h3{font-size:21px}.honor-stats-summary{margin-top:20px;padding:17px 0 0;border-left:0;border-top:1px solid var(--honor-line);gap:34px}.honor-stats-summary>div{min-width:94px}.honor-stats-summary dd{font-size:34px}.honor-stats-charts{grid-template-columns:minmax(0,1fr);gap:26px;padding-top:20px}.honor-stats-universities{padding-top:23px;border-top:1px solid var(--honor-line)}.honor-stats-year-plot{height:105px}.honor-stats-school-scroll{max-height:none;overflow:visible;padding-right:2px}.honor-stats-school-label{font-size:13px}.honor-stats-chart-heading{margin-bottom:15px}.honor-stats-footer{margin-top:21px}}
+@media(forced-colors:active){.honor-stats-year-bar,.honor-stats-school-track>span{background:ButtonText;forced-color-adjust:none}.honor-stats-year.is-selected{outline:2px solid Highlight;outline-offset:-2px}.honor-stats-year.is-selected .honor-stats-year-bar{background:Highlight;forced-color-adjust:none}}

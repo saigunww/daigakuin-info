@@ -14,6 +14,7 @@
   const subject = s => ({bio:tr('生物学','生物学','生物學','Biology'),chem:tr('化学','化学','化學','Chemistry'),'ai-research':tr('AI研究経験強化','AI科研背景提升','AI科研背景提升','AI Research Experience'),other:tr('その他','其他','其他','Other')}[s]);
   const category = s => ({biology:tr('生物・生化学','生物与生化','生物與生化','Biology & biochemistry'),chemistry:tr('化学','化学','化學','Chemistry'),ai:tr('AI・生命科学','AI 生命科学','AI 生命科學','AI & life sciences')}[s]);
   const noticesState = {visible:20, pending:false, error:false};
+  const honorsState = {pending:false, error:false};
   const originalNotices = window.renderNotices;
   const noticeTargets = new Set(['home','daily-research','application','honor','schedule','students','intro']);
   function renderAnnouncements() {
@@ -79,26 +80,31 @@
   function renderHonors() {
     const data = feeds.honors; if (!data) return;
     const host = $('honor');
-    const available = years(data.items, r => r.year);
+    const statisticYears = Array.isArray(data.statistics?.years) ? data.statistics.years : [];
+    const available = [...new Set([...data.items.map(r=>r.year),...statisticYears.map(r=>r.year)])].sort().reverse();
     if (!available.includes(state.year) && state.year !== 'all') state.year = available.find(y => /^20\d{2}$/.test(y)) || 'all';
-    const availableSubjects = ['bio','chem','ai-research','other'].filter(s => data.items.some(r => r.subject === s));
+    const availableSubjects = ['bio','chem','ai-research','other'].filter(s => data.items.some(r => r.subject === s) || statisticYears.some(r=>r.by_subject?.[s]?.total>0));
     if (state.subject !== 'all' && !availableSubjects.includes(state.subject)) state.subject = 'all';
     const rows = data.items.filter(r => (state.year === 'all' || r.year === state.year) && (state.subject === 'all' || r.subject === state.subject));
     host.querySelectorAll(':scope > :not(.section-hero)').forEach(n => n.remove());
     const content = document.createElement('div');
-    content.innerHTML = `<p class="feed-meta">${meta(data)} · ${data.items.length} ${tr('件の合格実績','份合格实绩','份合格實績','admission posters')}</p>
+    content.innerHTML = `<p class="feed-meta">${meta(data)} · ${data.items.length} ${tr('枚の公開ポスター','张已发布海报','張已發布海報','published posters')}</p>
       <div class="feed-controls">${button(all(),state.year==='all','honor-year','all')}${available.map(y => button(y==='未分年度'?tr('年度未分類','未分年度','未分年度','Unassigned year'):tr(y+'年度',y+'年度',y+'年度',y),state.year===y,'honor-year',y)).join('')}</div>
       <div class="feed-controls">${['all',...availableSubjects].map(s => button(s==='all'?all():subject(s),state.subject===s,'honor-subject',s)).join('')}</div>
+      <div id="honor-stats"></div>
+      <h3 class="honor-gallery-title">${tr('合格ポスター','合格海报','合格海報','Admission posters')}</h3>
       ${state.subject==='ai-research'?`<h3 class="honor-category-title">${subject('ai-research')}</h3>`:''}
-      <div class="feed-honors">${rows.map(r => `<button class="honor-card" data-poster="${esc(r.image)}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div>${r.subject==='ai-research'?`<span class="honor-category-label">${subject(r.subject)}</span>`:''}</button>`).join('')}</div>${rows.length?'':empty()}`;
+      <div class="feed-honors">${rows.map(r => `<button class="honor-card" data-poster="${esc(r.image)}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div>${r.subject==='ai-research'?`<span class="honor-category-label">${subject(r.subject)}</span>`:''}</button>`).join('')}</div>${rows.length?'':`<p class="feed-empty">${tr('この条件の公開ポスターはまだありません。統計には表の合格記録も含まれます。','此筛选下暂无公开海报；上方统计仍包含表格中的合格记录。','此篩選下暫無公開海報；上方統計仍包含表格中的合格紀錄。','No published posters for this selection. Statistics also include offers recorded in the source sheets.')}</p>`}`;
     host.append(content);
+    if(window.renderHonorStats)window.renderHonorStats(content.querySelector('#honor-stats'),data,state);
+    if(honorsState.error)honorsError();
     content.querySelectorAll('[data-honor-year]').forEach(b => b.onclick = () => window.switchHonorYear(b.dataset.honorYear));
     content.querySelectorAll('[data-honor-subject]').forEach(b => b.onclick = () => window.switchHonorSubject(b.dataset.honorSubject));
     content.querySelectorAll('[data-poster]').forEach(b => b.onclick = () => openLightbox(b.dataset.poster));
   }
   const oldHonorYear = window.switchHonorYear, oldHonorSubject = window.switchHonorSubject;
   window.switchHonorYear = function (year) {
-    state.year = String(year); state.subject='all';
+    state.year = String(year);
     if (feeds.honors) renderHonors(); else if ($('honor-'+year+'-all')) oldHonorYear(year);
     try {localStorage.setItem('honorYear',year);} catch (_) {}
   };
@@ -107,6 +113,32 @@
     if (feeds.honors) renderHonors(); else try {oldHonorSubject(group);} catch (_) {}
     try {localStorage.setItem('honorSub',state.subject);} catch (_) {}
   };
+
+  function honorsError(){
+    const host=$('honor');if(!host)return;
+    host.querySelectorAll('[data-feed-error="honors"]').forEach(n=>n.remove());
+    const message=document.createElement('p');message.className='feed-meta';message.dataset.feedError='honors';
+    message.textContent=tr('最新の合格データを取得できません。前回の内容を保持し、自動で再試行します。','最新合格数据暂时无法读取，保留此前内容并自动重试。','最新合格資料暫時無法讀取，保留先前內容並自動重試。','The latest admission data is unavailable. Keeping previous results and retrying automatically.');
+    host.append(message);
+  }
+
+  async function refreshHonors(){
+    if(honorsState.pending)return;
+    honorsState.pending=true;
+    try{
+      const response=await fetch('honors_data.json',{cache:'no-cache',signal:AbortSignal.timeout(15000)});
+      if(!response.ok)throw new Error('Admission data unavailable');
+      const data=await response.json();
+      if(!data?.updated_at || !Array.isArray(data.items) || !data.items.length ||
+        !data.items.every(row=>typeof row.id==='string' && typeof row.year==='string' && typeof row.image==='string'))throw new Error('Invalid admission data');
+      if((feeds.honors?.statistics && !data.statistics) ||
+        (data.statistics && window.validateHonorStatistics && !window.validateHonorStatistics(data.statistics)))throw new Error('Invalid admission statistics');
+      const changed=honorsState.error || JSON.stringify(feeds.honors)!==JSON.stringify(data);
+      feeds.honors=data;honorsState.error=false;
+      if(changed){renderHonors();if(window.buildSearchIndex)buildSearchIndex();}
+    }catch(_){honorsState.error=true;honorsError();}
+    finally{honorsState.pending=false;}
+  }
 
   function schedulePeriod() {
     const today=jstToday(), year=Number(today.slice(0,4)), month=Number(today.slice(5,7));
@@ -273,10 +305,11 @@
   const oldLang = window.switchToLang;
   window.switchToLang = function (lang) {oldLang(lang);renderHonors();renderSchedule();renderResearch();renderAdmissions();renderStudents();};
   const oldTab = window.switchTab;
-  window.switchTab = function (name) {if(['timeline','calendar'].includes(name))name='application';if (!$(name)?.classList.contains('section')) name='home';oldTab(name);if(name==='schedule')refreshSchedulePeriod();};
+  window.switchTab = function (name) {if(['timeline','calendar'].includes(name))name='application';if (!$(name)?.classList.contains('section')) name='home';oldTab(name);if(name==='schedule')refreshSchedulePeriod();if(name==='honor')refreshHonors();};
   if (location.hash === '#ai-advisor') history.replaceState(null,'','#home');
 
   async function fetchFeed(name, file, ready) {
+    if(name==='honors')return refreshHonors();
     const requestedPeriod=name==='schedule'?schedulePeriod().key:'';
     if(name==='schedule'){
       if(state.scheduleRefreshPending)return;
@@ -313,7 +346,7 @@
   }
   document.addEventListener('DOMContentLoaded', function () {
     refreshNotices();
-    fetchFeed('honors','honors_data.json',()=>{renderHonors();if(window.buildSearchIndex)buildSearchIndex();});
+    refreshHonors();
     fetchFeed('schedule','schedule_data.json',renderSchedule);
     fetchFeed('students','students_data.json',renderStudents);
     fetchFeed('research','research_data.json',renderResearch);
@@ -321,9 +354,11 @@
     fetchFeed('admissions','admissions_updates.json',renderAdmissions);
   });
   setInterval(refreshSchedulePeriod,60000);
-  setInterval(()=>{if(!document.hidden)refreshNotices();},300000);
+  setInterval(()=>{if(!document.hidden){refreshNotices();refreshHonors();}},300000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSchedulePeriod();});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshNotices();});
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshHonors();});
   window.addEventListener('pageshow',refreshSchedulePeriod);
   window.addEventListener('pageshow',refreshNotices);
+  window.addEventListener('pageshow',refreshHonors);
 })();
