@@ -20,11 +20,41 @@ body.dark .research-result p{color:#e2e8f0}
 .feed-card ul{padding-left:20px;margin:10px 0;line-height:1.8;font-size:13px}
 .feed-tag{display:inline-block;background:#e0f2fe;color:#075985;font-size:12px;padding:4px 9px;border-radius:6px}
 .feed-empty{padding:30px;text-align:center;color:#64748b}
-.notice-title{margin:0 0 6px}
-.notice-detail{display:inline-block;margin-top:8px;color:#0369a1;font-size:12px;text-decoration:none}
-.notice-detail:hover{text-decoration:underline}
-.notice-more{margin-top:12px}
-body.dark .notice-detail{color:#7dd3fc}
+/* Announcements: quiet typography and rules, like an academic bulletin. */
+#noticeBoard{padding:20px 24px 0;border:1px solid #dce3e7;border-radius:4px;background:#fff}
+#noticeBoard>.feed-meta{margin:0 0 14px;color:#60717b;font-size:11px;line-height:1.8}
+#noticeBoard>.notice-sync-note{margin-bottom:4px}
+#noticeBoard .notice-list{gap:0;max-height:660px;padding:0 8px 0 0;border-top:1px solid #dce3e7;scrollbar-width:thin;scrollbar-color:#c6d0d6 transparent}
+#noticeBoard .notice-item{display:grid;grid-template-columns:94px minmax(0,1fr);column-gap:20px;margin:0;padding:22px 0;border:0;border-bottom:1px solid #e4e9ec;border-radius:0;background:transparent;box-shadow:none;transition:none;min-width:0}
+#noticeBoard .notice-item:last-child{border-bottom:0}
+#noticeBoard .notice-item:hover{background:transparent;box-shadow:none;transform:none}
+#noticeBoard .notice-date{grid-column:1;grid-row:1 / span 3;display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin:2px 0 0;color:#60717b;font-size:11px;line-height:1.7;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+#noticeBoard .notice-tag{padding:0;margin:0;border:0;border-radius:0;background:transparent;color:#60717b;font-size:10px;font-weight:500;line-height:1.7;letter-spacing:.04em}
+#noticeBoard .notice-title{grid-column:2;margin:0 0 8px;color:#1d3442;font-size:16px;font-weight:600;line-height:1.6;overflow-wrap:anywhere}
+#noticeBoard .notice-body{grid-column:2;color:#465763;font-size:13px;line-height:1.85;-webkit-line-clamp:3;overflow-wrap:anywhere}
+#noticeBoard .notice-detail{grid-column:2;justify-self:start;display:inline-block;margin-top:10px;color:#315b6b;font-size:12px;font-weight:500;line-height:1.8;text-decoration:none;text-underline-offset:4px}
+#noticeBoard .notice-detail:hover{text-decoration:underline}
+#noticeBoard .notice-detail:focus-visible,#noticeBoard .notice-more:focus-visible{outline:2px solid #315b6b;outline-offset:4px}
+#noticeBoard .notice-more{margin:18px 0;padding:9px 13px;border:1px solid #cbd5db;border-radius:3px;background:transparent;color:#315b6b;font-size:12px;line-height:1.6}
+#noticeBoard .notice-more:hover{background:#f4f7f8;border-color:#9aadb8}
+body.dark #noticeBoard{background:#14222e;border-color:#33434f}
+body.dark #noticeBoard .notice-list{border-color:#33434f;scrollbar-color:#4b6070 transparent}
+body.dark #noticeBoard .notice-item{background:transparent;border-bottom-color:#2d3e4b;color:#e4ebef}
+body.dark #noticeBoard .notice-title{color:#e4ebef}
+body.dark #noticeBoard .notice-body{color:#bac6ce}
+body.dark #noticeBoard>.feed-meta,body.dark #noticeBoard .notice-date,body.dark #noticeBoard .notice-tag{color:#9cafbc}
+body.dark #noticeBoard .notice-detail,body.dark #noticeBoard .notice-more{color:#c0d4df;border-color:#526877}
+body.dark #noticeBoard .notice-more:hover{background:#1d303e}
+body.dark #noticeBoard .notice-detail:focus-visible,body.dark #noticeBoard .notice-more:focus-visible{outline-color:#c0d4df}
+@media(max-width:768px){
+  #noticeBoard{padding:16px 18px 0}
+  #noticeBoard .notice-list{max-height:560px;padding-right:6px}
+  #noticeBoard .notice-item{grid-template-columns:minmax(0,1fr);padding:20px 0}
+  #noticeBoard .notice-date{grid-column:1;grid-row:auto;flex-direction:row;align-items:center;gap:12px;margin:0 0 8px}
+  #noticeBoard .notice-title,#noticeBoard .notice-body,#noticeBoard .notice-detail{grid-column:1}
+  #noticeBoard .notice-title{font-size:15px;margin-bottom:6px}
+  #noticeBoard .notice-body{font-size:13px;line-height:1.8}
+}
 .feed-table-wrap{overflow-x:auto;border:1px solid #e2e8f0;border-radius:12px;background:#fff}
 .feed-table{border-collapse:collapse;width:100%;min-width:680px;font-size:14px}
 .feed-table th,.feed-table td{text-align:left;padding:12px 14px;border-bottom:1px solid #e2e8f0;vertical-align:top;line-height:1.7}
