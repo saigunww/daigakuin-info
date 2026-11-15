@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1111/jbg.70087",
+      "doi": "10.1111/jbg.70087",
+      "title": "PolyMaGNet: A Hybrid Method for Inferring Putative Causal Phenotypic Networks Accounting for Polygenic and Major Gene Effects.",
+      "summary": {
+        "ja": "多くの遺伝子の効果と主要遺伝子の効果を考慮し、形質間の因果関係の候補を推定する手法を開発した。シミュレーションでは既存手法より関係構造を正しく復元でき、デュロック種とピエトレン種の交雑第2世代の豚にも適用したが、因果関係は推定段階にある。",
+        "zh": "研究开发了一种同时考虑多基因背景和主要基因效应的方法，用于推断性状之间可能存在的因果网络。模拟中，该方法比仅考虑多基因效应的方法更常正确还原网络结构，并应用于杜洛克猪与皮特兰猪的杂交第二代群体，但因果关系仍属推断。",
+        "tw": "研究開發了一種同時考慮多基因背景和主要基因效應的方法，用於推斷性狀之間可能存在的因果網絡。模擬中，該方法比僅考慮多基因效應的方法更常正確還原網絡結構，並應用於杜洛克豬與皮特蘭豬的雜交第二代族群，但因果關係仍屬推斷。",
+        "en": "Researchers developed a method that accounts for both polygenic background and major gene effects to infer possible causal networks among traits. It recovered network structure more accurately in simulations than a polygenic-only approach and was applied to second-generation Duroc × Pietrain crossbred pigs, although the inferred relationships remain putative."
+      },
+      "source": "Journal of animal breeding and genetics = Zeitschrift fur Tierzuchtung und Zuchtungsbiologie",
+      "published_at": "2026-11-14",
+      "url": "https://doi.org/10.1111/jbg.70087",
+      "added_on": "2026-11-16",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43032944/"
+    },
+    {
+      "id": "doi:10.1021/acs.joc.6c02139",
+      "doi": "10.1021/acs.joc.6c02139",
+      "title": "Atropisomerization of 1,1'-Bi-2-naphthol through Hydrogen-Bond-Acceptor-Coupled Cu(I) Catalysis.",
+      "summary": {
+        "ja": "中性・室温でビナフトールの軸不斉を相互変換する銅触媒系を開発し、実験と計算から水素結合などが回転障壁を下げる仕組みを示した。この反応と一方の鏡像異性体を増やす操作を組み合わせ、軸不斉の向きを制御して反転できることを示した。",
+        "zh": "研究开发了能在中性、室温条件下使联萘酚轴手性相互转化的铜催化体系，实验与计算表明氢键和芳环堆积作用可降低旋转能垒。将这种转化与提高一种对映异构体比例的步骤结合，可受控反转轴手性，为化学驱动分子马达的设计提供潜在思路。",
+        "tw": "研究開發了能在中性、室溫條件下使聯萘酚軸手性相互轉化的銅催化體系，實驗與計算表明氫鍵和芳環堆積作用可降低旋轉能障。將這種轉化與提高一種對映異構物比例的步驟結合，可受控反轉軸手性，為化學驅動分子馬達的設計提供潛在思路。",
+        "en": "Researchers developed a copper catalyst that interconverts the axial forms of BINOL under neutral conditions at room temperature, with experiments and calculations supporting a mechanism involving hydrogen bonding and aromatic stacking. Combining this conversion with enantiomer enrichment enabled controlled reversal of axial chirality, suggesting potential strategies for chemically driven molecular motors."
+      },
+      "source": "The Journal of organic chemistry",
+      "published_at": "2026-11-16",
+      "url": "https://doi.org/10.1021/acs.joc.6c02139",
+      "added_on": "2026-11-16",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43033418/"
+    },
+    {
+      "id": "doi:10.1093/genetics/iyag313",
+      "doi": "10.1093/genetics/iyag313",
+      "title": "Tuned Fitness Landscapes for Benchmarking Model-Guided Protein Design.",
+      "summary": {
+        "ja": "タンパク質の配列と性能の関係を模した人工的な評価環境を、難しさを調整して作る手法SLIPを開発した。作製した環境は機械学習で導くタンパク質設計法の比較に十分な難しさを示し、配列の整列データがあるタンパク質群へ拡張できる。",
+        "zh": "研究开发了SLIP框架，利用统计模型构建难度可调的人工蛋白质性能图景，用于比较机器学习指导的蛋白质设计流程。结果表明，这些人工图景具有足够的挑战性，可用于流程评测；该框架还可扩展到具有序列比对数据的其他蛋白质家族。",
+        "tw": "研究開發了SLIP框架，利用統計模型建構難度可調的人工蛋白質性能圖景，用於比較機器學習指導的蛋白質設計流程。結果表明，這些人工圖景具有足夠的挑戰性，可用於流程評測；該框架還可擴展到具有序列比對資料的其他蛋白質家族。",
+        "en": "Researchers developed SLIP, a framework that uses statistical models to create synthetic relationships between protein sequences and fitness with adjustable difficulty. The resulting landscapes were sufficiently challenging to benchmark machine learning-guided protein design pipelines, and the framework can be extended to protein families with available sequence alignments."
+      },
+      "source": "Genetics",
+      "published_at": "2026-11-14",
+      "url": "https://doi.org/10.1093/genetics/iyag313",
+      "added_on": "2026-11-16",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43031432/"
+    },
+    {
       "id": "doi:10.2460/javma.26.07.0552",
       "doi": "10.2460/javma.26.07.0552",
       "title": "Antimicrobial use exceeds culture-confirmed urinary tract infections in cats with feline idiopathic cystitis with and without urethral obstruction.",
@@ -205,5 +256,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-15T00:19:08+09:00"
+  "updated_at": "2026-11-16T01:18:09+09:00"
 }
