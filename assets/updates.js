@@ -13,6 +13,66 @@
   const empty = () => `<p class="feed-empty">${tr('該当する項目はありません。','暂无符合条件的内容。','暫無符合條件的內容。','No matching entries.')}</p>`;
   const subject = s => ({bio:tr('生物学','生物学','生物學','Biology'),chem:tr('化学','化学','化學','Chemistry'),'ai-research':tr('AI研究経験強化','AI科研背景提升','AI科研背景提升','AI Research Experience'),other:tr('その他','其他','其他','Other')}[s]);
   const category = s => ({biology:tr('生物・生化学','生物与生化','生物與生化','Biology & biochemistry'),chemistry:tr('化学','化学','化學','Chemistry'),ai:tr('AI・生命科学','AI 生命科学','AI 生命科學','AI & life sciences')}[s]);
+  const noticesState = {visible:20, pending:false, error:false};
+  const originalNotices = window.renderNotices;
+  const noticeTargets = new Set(['home','daily-research','application','honor','schedule','students','intro']);
+  function renderAnnouncements() {
+    const host=$('noticeBoard'), data=feeds.notices;
+    if(!host)return;
+    if(!data){
+      if(originalNotices)originalNotices();
+    }else{
+      const language=window.globalLang || 'ja';
+      const localized=value=>value?.[language] || value?.ja || '';
+      const rows=[...data.items,...(window.NOTICES || []).map((r,i)=>({...r,id:'history:'+i}))]
+        .sort((a,b)=>b.date.localeCompare(a.date));
+      host.innerHTML=`<p class="feed-meta notice-sync-note">${tr('各ページの公開内容を毎時確認し、変更がある場合に更新します。','每小时检查各栏目公开内容，有实际变化时更新公告。','每小時檢查各欄目公開內容，有實際變化時更新公告。','Published content is checked hourly; announcements appear when it changes.')}</p>
+        <p class="feed-meta">${meta(data)}</p><div class="notice-list">${rows.slice(0,noticesState.visible).map(row=>{
+          const tag=['new','update','info'].includes(row.tag)?row.tag:'info';
+          const tagLabel=tag==='new'?tr('新機能','新功能','新功能','New'):tag==='update'?tr('更新','更新','更新','Update'):tr('ご案内','信息','資訊','Info');
+          const body=esc(localized(row.body)).replace(/&lt;br\s*\/?&gt;/gi,'<br>');
+          return `<article class="notice-item${tag==='new'?' new':''}" data-notice-id="${esc(row.id)}"><div class="notice-date">${esc(row.date)} <span class="notice-tag ${tag}">${tagLabel}</span></div><h3 class="notice-title">${esc(localized(row.title))}</h3><div class="notice-body">${body}</div>${noticeTargets.has(row.target)&&row.target!=='home'?`<a class="notice-detail" href="#${row.target}" data-notice-target="${row.target}">${tr('詳細を見る','查看详情','查看詳情','View details')} →</a>`:''}</article>`;
+        }).join('')}</div>${rows.length>noticesState.visible?`<button type="button" class="feed-button notice-more">${tr('以前のお知らせを表示','查看更多历史公告','查看更多歷史公告','Show earlier announcements')}</button>`:''}`;
+      host.querySelector('.notice-more')?.addEventListener('click',()=>{noticesState.visible+=20;renderAnnouncements();});
+      host.querySelectorAll('[data-notice-target]').forEach(anchor=>anchor.addEventListener('click',event=>{
+        event.preventDefault();const target=anchor.dataset.noticeTarget;window.switchTab(target);
+        // An open homepage may receive a new announcement hours after loading.
+        // Refresh its destination rather than displaying an older in-memory feed.
+        const targets={
+          'daily-research':['research','research_data.json',renderResearch],
+          application:['admissions','admissions_updates.json',renderAdmissions],
+          honor:['honors','honors_data.json',renderHonors],
+          schedule:['schedule','schedule_data.json',renderSchedule],
+          students:['students','students_data.json',renderStudents]
+        };
+        if(targets[target])fetchFeed(...targets[target]);
+      }));
+    }
+    host.querySelector('[data-feed-error="notices"]')?.remove();
+    if(noticesState.error){
+      const status=document.createElement('p');status.className='feed-meta';status.dataset.feedError='notices';
+      status.textContent=tr('最新のお知らせを取得できないため、前回の内容を表示しています。自動で再試行します。','最新公告暂时无法读取，当前显示此前内容，将自动重试。','最新公告暫時無法讀取，目前顯示先前內容，將自動重試。','Showing previous announcements while the latest updates are unavailable. Retrying automatically.');
+      host.prepend(status);
+    }
+  }
+  window.renderNotices=renderAnnouncements;
+  async function refreshNotices(){
+    if(noticesState.pending)return;
+    noticesState.pending=true;
+    let needsRender=false;
+    try{
+      const response=await fetch('notices_data.json',{cache:'no-cache',signal:AbortSignal.timeout(15000)});
+      if(!response.ok)throw new Error('Announcements unavailable');
+      const data=await response.json();
+      if(!data?.updated_at || !Array.isArray(data.items) || !data.items.length || !data.items.every(row=>
+        /^\d{4}-\d{2}-\d{2}$/.test(row.date) && noticeTargets.has(row.target) &&
+        ['ja','zh','tw','en'].every(lang=>typeof row.title?.[lang]==='string' && typeof row.body?.[lang]==='string')))
+        throw new Error('Invalid announcements');
+      needsRender=noticesState.error || JSON.stringify(feeds.notices)!==JSON.stringify(data);
+      feeds.notices=data;noticesState.error=false;
+    }catch(_){needsRender=!noticesState.error;noticesState.error=true;}
+    finally{noticesState.pending=false;if(needsRender)renderAnnouncements();}
+  }
   function years(items, key) {return [...new Set(items.map(r => key(r)))].sort().reverse();}
   function button(label, active, data, value) {return `<button class="feed-button${active?' active':''}" data-${data}="${esc(value)}" aria-pressed="${active}">${esc(label)}</button>`;}
 
@@ -236,6 +296,7 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function () {
+    refreshNotices();
     fetchFeed('honors','honors_data.json',()=>{renderHonors();if(window.buildSearchIndex)buildSearchIndex();});
     fetchFeed('schedule','schedule_data.json',renderSchedule);
     fetchFeed('students','students_data.json',renderStudents);
@@ -244,6 +305,9 @@
     fetchFeed('admissions','admissions_updates.json',renderAdmissions);
   });
   setInterval(refreshSchedulePeriod,60000);
+  setInterval(()=>{if(!document.hidden)refreshNotices();},300000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSchedulePeriod();});
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshNotices();});
   window.addEventListener('pageshow',refreshSchedulePeriod);
+  window.addEventListener('pageshow',refreshNotices);
 })();

@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "id": "auto:system:enabled",
+      "date": "2026-11-15",
+      "kind": "system",
+      "tag": "info",
+      "target": "home",
+      "title": {
+        "ja": "お知らせの自動更新を開始しました",
+        "zh": "通知公告已接入自动更新",
+        "tw": "通知公告已接入自動更新",
+        "en": "Announcements now update automatically"
+      },
+      "body": {
+        "ja": "各ページの公開内容を毎時確認し、変更がある場合にお知らせを更新します。同日・同項目はまとめ、過去のお知らせも残します。",
+        "zh": "每小时检查各栏目公开内容，有实际变化时更新公告；同日同栏目合并展示，历史公告继续保留。",
+        "tw": "每小時檢查各欄目公開內容，有實際變化時更新公告；同日同欄目合併展示，歷史公告繼續保留。",
+        "en": "Published content is checked hourly. Changes generate announcements, grouped by section and date, while earlier notices are retained."
+      }
+    },
+    {
+      "id": "auto:research:2026-11-15",
+      "date": "2026-11-15",
+      "kind": "research",
+      "tag": "info",
+      "target": "daily-research",
+      "title": {
+        "ja": "研究論文のご紹介",
+        "zh": "每日研究论文汇总",
+        "tw": "每日研究論文彙總",
+        "en": "Research paper collection"
+      },
+      "body": {
+        "ja": "生物・化学・AI生命科学の論文を計12件掲載しています。各論文に2文の成果紹介と原文リンクがあります。",
+        "zh": "现收录12篇生物、化学与AI生命科学论文，每篇附两句话的成果介绍及原文链接。",
+        "tw": "現收錄12篇生物、化學與AI生命科學論文，每篇附兩句話的成果介紹及原文連結。",
+        "en": "The collection contains 12 papers in biology, chemistry and AI for life sciences, with two-sentence findings and original paper links."
+      }
+    },
+    {
+      "id": "auto:admissions:2026-11-15",
+      "date": "2026-11-15",
+      "kind": "admissions",
+      "tag": "info",
+      "target": "application",
+      "title": {
+        "ja": "出願情報のご案内",
+        "zh": "大学官网出愿信息",
+        "tw": "大學官網出願資訊",
+        "en": "University admissions information"
+      },
+      "body": {
+        "ja": "大学公式サイトの通知・募集要項と、期限内の出願日程を確認できます。専攻・入試区分ごとの条件は原文をご確認ください。",
+        "zh": "可查看大学官网通知、募集要项及未过期的出愿日程，具体专攻、批次与要求请核对官网原文。",
+        "tw": "可查看大學官網通知、募集要項及未過期的出願日程，具體專攻、批次與要求請核對官網原文。",
+        "en": "View official university notices, guidelines and unexpired application windows. Check the source for each program and admission round."
+      }
+    },
+    {
+      "id": "auto:honors:2026-11-15",
+      "date": "2026-11-15",
+      "kind": "honors",
+      "tag": "info",
+      "target": "honor",
+      "title": {
+        "ja": "合格実績のご紹介",
+        "zh": "合格榜汇总",
+        "tw": "合格榜彙總",
+        "en": "Admission results"
+      },
+      "body": {
+        "ja": "合格実績ポスターを計87件掲載しています。年度・科目別に絞り込めます。",
+        "zh": "合格榜现有87张海报，可按年度与科目筛选查看。",
+        "tw": "合格榜現有87張海報，可按年度與科目篩選查看。",
+        "en": "The gallery contains 87 admission posters, with filters for year and subject."
+      }
+    },
+    {
+      "id": "auto:schedule:2026-11-15",
+      "date": "2026-11-15",
+      "kind": "schedule",
+      "tag": "info",
+      "target": "schedule",
+      "title": {
+        "ja": "授業時間割のご案内",
+        "zh": "当前课程表",
+        "tw": "目前課程表",
+        "en": "Current timetable"
+      },
+      "body": {
+        "ja": "表示期間は2026年10月—2027年3月です。1〜3月は両期を併せて表示し、後日の授業変更は先生の連絡をご確認ください。",
+        "zh": "当前展示2026年10月—2027年3月的初次排课表；1—3月同时显示两期课程，后续调课请以老师通知为准。",
+        "tw": "目前展示2026年10月—2027年3月的初次排課表；1—3月同時顯示兩期課程，後續調課請以老師通知為準。",
+        "en": "The initial timetable covers 2026-10 to 2027-03. Both terms appear in January–March; check instructor notices for later changes."
+      }
+    },
+    {
+      "id": "auto:students:2026-11-15",
+      "date": "2026-11-15",
+      "kind": "students",
+      "tag": "info",
+      "target": "students",
+      "title": {
+        "ja": "在籍者数のご案内",
+        "zh": "在籍学生人数",
+        "tw": "在籍學生人數",
+        "en": "Enrolled students"
+      },
+      "body": {
+        "ja": "現在の在籍学生は44名です。卒業予定を含み、休学中を除いた人数と出身校の集計を掲載しています。",
+        "zh": "当前在籍学生共44人，含待毕业、不含休学；页面仅展示人数及出身校汇总。",
+        "tw": "目前在籍學生共44人，含待畢業、不含休學；頁面僅展示人數及出身校彙總。",
+        "en": "There are 44 enrolled students, including those awaiting graduation and excluding students on leave. Only counts and origin-school aggregates are published."
+      }
+    },
+    {
+      "id": "auto:course_flow:2026-11-15",
+      "date": "2026-11-15",
+      "kind": "course_flow",
+      "tag": "info",
+      "target": "intro",
+      "title": {
+        "ja": "大学院入試準備の流れ",
+        "zh": "大学院入试准备流程",
+        "tw": "大學院入試準備流程",
+        "en": "Graduate entrance preparation"
+      },
+      "body": {
+        "ja": "2027年度入学に向けた夏・冬の準備手順を掲載しています。大学公式の出願日程は出願情報で別途ご確認ください。",
+        "zh": "展示2027年度入学的夏季、冬季入试准备步骤，大学官网出愿日程请另行查看出愿信息。",
+        "tw": "展示2027年度入學的夏季、冬季入試準備步驟，大學官網出願日程請另行查看出願資訊。",
+        "en": "View summer and winter preparation steps for 2027 entry. Consult the admissions section separately for official university application dates."
+      }
+    }
+  ],
+  "source_fingerprints": {
+    "research": "c486da320a564e9f4f17e0f1cacb2775754d32964c92d19f3a0f53339e7b5b82",
+    "admissions": "e06d46ef4317e38c8b7c1755ac347e167d1111bfa3692d16fd2d4f5772c6cab4",
+    "honors": "1865b60d642313cb467962390751fd7982783bc83df6e3975ec0c367d59eddaa",
+    "schedule": "90d21cc8e0aa4d201fbc42f8f43c5d12a13c2bb081c8f29ee9acb3c3bf5bb2e6",
+    "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
+    "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
+  },
+  "updated_at": "2026-11-15T13:35:55+09:00"
+}

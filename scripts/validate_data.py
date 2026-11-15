@@ -6,14 +6,16 @@ from update_admissions import PROGRAM_FIELDS
 from update_students import validate_student_summary
 from course_flow import validate_payload
 from research_summaries import validate_summary
+from update_notices import validate_notices
 
 def validate():
-    feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json','course_flow_data.json')}
+    feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json','course_flow_data.json','notices_data.json')}
     for name, data in feeds.items():
         if not isinstance(data, dict) or not data.get('items') or not data.get('updated_at'):
             raise ValueError('Empty or invalid public feed: '+name)
     validate_student_summary(feeds['students_data.json'])
     validate_payload(feeds['course_flow_data.json'])
+    validate_notices(feeds['notices_data.json'])
     honors=feeds['honors_data.json']['items']
     assert len({r['id'] for r in honors})==len(honors)
     for row in honors:

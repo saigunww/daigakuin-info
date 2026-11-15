@@ -9,6 +9,7 @@ from update_admissions import update_admissions
 from update_research import update_research
 from update_students import update_students
 from course_flow import update_course_flow
+from update_notices import update_notices
 
 def run(selected=None):
     today = datetime.now(JST).date()
@@ -26,6 +27,15 @@ def run(selected=None):
             except Exception as exc:
                 results[name] = {'ok': False, 'error': type(exc).__name__, 'message': str(exc)[:240]}
             print(json.dumps({name: results[name]}, ensure_ascii=False), flush=True)
+    # Build announcements after all selected sources settle, so each published
+    # notice and its destination content are committed in the same snapshot.
+    try:
+        # Use the completion date in Japan if an earlier source crossed midnight.
+        value = update_notices()
+        results['notices'] = {'ok': True, 'items': len(value['items']), 'updated_at': value.get('updated_at')}
+    except Exception as exc:
+        results['notices'] = {'ok': False, 'error': type(exc).__name__, 'message': str(exc)[:240]}
+    print(json.dumps({'notices': results['notices']}, ensure_ascii=False), flush=True)
     save(STATE / 'last-run.json', {'checked_at': now(), 'feeds': results})
     return results
 
