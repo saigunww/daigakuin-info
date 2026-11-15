@@ -59,9 +59,9 @@ body.dark #noticeBoard .notice-detail:focus-visible,body.dark #noticeBoard .noti
 .feed-table{border-collapse:collapse;width:100%;min-width:680px;font-size:14px}
 .feed-table th,.feed-table td{text-align:left;padding:12px 14px;border-bottom:1px solid #e2e8f0;vertical-align:top;line-height:1.7}
 .feed-table th{background:#f0f9ff;color:#075985;white-space:nowrap}
-.feed-table tr.upcoming{background:#edf7f2}
+.feed-table tr.upcoming{background:#cce8d7}
 .schedule-legend{display:flex;align-items:center;gap:8px;margin:8px 0 14px;color:#526764;font-size:12px;line-height:1.7}
-.schedule-legend-swatch{flex:0 0 12px;width:12px;height:12px;border:1px solid #b9d5c8;border-radius:2px;background:#edf7f2}
+.schedule-legend-swatch{flex:0 0 14px;width:14px;height:14px;border:1px solid #8db69f;border-radius:2px;background:#cce8d7}
 body.dark .schedule-legend{color:#b4cbbf}
 body.dark .schedule-legend-swatch{background:#1e3c34;border-color:#517568}
 .schedule-period{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:14px 18px;border-radius:10px;background:#e0f2fe;color:#075985;margin:16px 0}
