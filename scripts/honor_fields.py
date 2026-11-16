@@ -91,16 +91,26 @@ def _discipline(value):
 
 
 def classify_program(department='', major=''):
-    """Use an explicit major before a broader graduate-school description."""
+    """Use the program and its agricultural-school affiliation consistently."""
     if not major:
         # Public poster metadata often joins university, graduate school and
         # major into one string.  Split a stated major before applying fallback
-        # rules, e.g. 農学研究科 / 応用生命科学専攻 remains Life Sciences.
+        # rules so a joined poster description and a two-column source agree.
         combined = _text(department)
         match = re.match(r'^(.*?(?:研究科|学術院|学院|学府|教育部|学部))(.+)$', combined)
         if match:
             department, major = match.groups()
     specific = _discipline(major)
+    # Agriculture schools include biological programs under agricultural
+    # admissions.  Keep those programs together rather than splitting them
+    # between Life Sciences and Agriculture based on the word 生命 alone.
+    # Explicit narrower disciplines (chemistry, pharmacy, business, ...) keep
+    # their existing precedence.  Combined medical/engineering/agriculture
+    # schools do not establish agricultural affiliation by themselves.
+    agriculture_school = re.search(
+        r'農学生命科学研究科|農学研究科|農学府|生物資源環境科学府', _text(department))
+    if agriculture_school and specific in (None, 'life-sciences'):
+        return 'agriculture-environment'
     if specific is not None:
         return specific
     return _discipline(department) or 'unconfirmed'

@@ -22,7 +22,7 @@ class AcademicFieldClassificationTests(unittest.TestCase):
             ('理工情報生命学術院', '化学学位プログラム', 'chemistry'),
             ('新領域創成科学研究科', 'メディカル情報生命専攻', 'life-sciences'),
             ('工学系研究科', '化学システム工学専攻', 'chemical-systems'),
-            ('農学生命科学研究科', '応用生命化学専攻', 'life-sciences'),
+            ('農学生命科学研究科', '応用生命化学専攻', 'agriculture-environment'),
             ('物質理工学院', '応用化学系', 'applied-chemistry'),
             ('工学研究科', '工業化学専攻', 'applied-chemistry'),
             ('総合化学院', '総合化学専攻', 'chemistry'),
@@ -47,13 +47,45 @@ class AcademicFieldClassificationTests(unittest.TestCase):
 
     def test_combined_poster_program_is_split_before_school_fallback(self):
         for full, expected in [
-            ('九州大学生物資源環境科学府生命機能科学専攻', 'life-sciences'),
-            ('京都大学農学研究科応用生命科学専攻', 'life-sciences'),
+            ('九州大学生物資源環境科学府生命機能科学専攻', 'agriculture-environment'),
+            ('京都大学農学研究科応用生命科学専攻', 'agriculture-environment'),
             ('生命科学部応用化学科', 'applied-chemistry'),
             ('理工学部機能分子・生命化学科', 'chemistry'),
         ]:
             with self.subTest(program=full):
                 self.assertEqual(f.classify_program(full), expected)
+
+    def test_agricultural_life_programs_use_their_confirmed_school_affiliation(self):
+        programs = [
+            ('東京大学', '農学生命科学研究科', '応用生命化学専攻'),
+            ('九州大学', '生物資源環境科学府', '生命機能科学専攻'),
+            ('京都大学', '農学研究科', '応用生命科学専攻'),
+            ('京都大学', '農学研究科', '応用生物科学専攻'),
+            ('東京農工大学', '農学府', '生物科学専攻'),
+        ]
+        for school, department, major in programs:
+            with self.subTest(program=department + major):
+                self.assertEqual(f.classify_program(department, major), 'agriculture-environment')
+                self.assertEqual(f.classify_program(school + department + major), 'agriculture-environment')
+        for department in ('農学生命科学研究科', '農学研究科', '農学府', '生物資源環境科学府'):
+            with self.subTest(department=department):
+                self.assertEqual(f.classify_program(department), 'agriculture-environment')
+
+    def test_agriculture_affiliation_does_not_override_specific_nonlife_disciplines(self):
+        for major, expected in [('経営管理専攻', 'business'), ('応用化学専攻', 'applied-chemistry'),
+                                ('化学専攻', 'chemistry'), ('化学システム工学専攻', 'chemical-systems')]:
+            with self.subTest(major=major):
+                field = f.classify_program('農学研究科', major)
+                self.assertEqual(field, expected)
+                self.assertEqual(f.classify_program('農学研究科' + major), expected)
+        self.assertIn(f.classify_program('農学研究科', '経営管理専攻'), f.EXCLUDED_FIELDS)
+
+    def test_mixed_medical_engineering_agriculture_school_is_not_assumed_agriculture(self):
+        for major, expected in [('', 'unconfirmed'), ('生命科学専攻', 'life-sciences'),
+                                ('生命環境学専攻', 'agriculture-environment'),
+                                ('医科学専攻', 'medicine'), ('応用化学専攻', 'applied-chemistry')]:
+            with self.subTest(major=major):
+                self.assertEqual(f.classify_program('医工農学総合教育部', major), expected)
 
     def test_specific_evidence_refines_a_broad_program(self):
         self.assertEqual(f.resolve_fields(['interdisciplinary', 'chemistry', 'unconfirmed']), ('chemistry', False))

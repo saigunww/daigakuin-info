@@ -529,7 +529,7 @@
       "year": "2025",
       "subject": "bio",
       "image": "assets/honors/176d1a169b0a665ce3d7860d.webp",
-      "field": "life-sciences"
+      "field": "agriculture-environment"
     },
     {
       "id": "ccbf30a4da536aeeeaf599693998a5fd771146bc73d0f5fe67133a557ff74160",
@@ -628,7 +628,7 @@
       "year": "2026",
       "subject": "bio",
       "image": "assets/honors/16f20305dbda341a14ce1160.webp",
-      "field": "life-sciences"
+      "field": "agriculture-environment"
     },
     {
       "id": "d5b6d7a868f8007e4b5ff7191cc8a42d777d89d45b28fbe938f288650a89047d",
@@ -664,7 +664,7 @@
       "year": "2026",
       "subject": "bio",
       "image": "assets/honors/7d543f6c4e99b9196fb6fb43.webp",
-      "field": "life-sciences"
+      "field": "agriculture-environment"
     },
     {
       "id": "e607c120bcb7d29d9eef70ed4cd8efc9c63d38638b403a939ca3b581ceeab012",
@@ -727,7 +727,7 @@
       "year": "2026",
       "subject": "bio",
       "image": "assets/honors/3d7a5a45b5844757e4fc515e.webp",
-      "field": "life-sciences"
+      "field": "agriculture-environment"
     },
     {
       "id": "3ceae4cb626e7356c3f8f281a0173f7ec8e2f8ab30754efaa7e6dd61c0cb3b96",
@@ -763,7 +763,7 @@
       "year": "2026",
       "subject": "bio",
       "image": "assets/honors/9406019e8cf8732305afdb85.webp",
-      "field": "life-sciences"
+      "field": "agriculture-environment"
     },
     {
       "id": "7c5f9c8a3dd3bfd8089038d29be2bed2dd7b7556368a230bfe861ea389766ff1",
@@ -772,7 +772,7 @@
       "year": "2026",
       "subject": "bio",
       "image": "assets/honors/7c5f9c8a3dd3bfd8089038d2.webp",
-      "field": "life-sciences"
+      "field": "agriculture-environment"
     },
     {
       "id": "45aa9ac885746928283d8db2eea67c81692c4e9bf2b5fa1918260e8fc9fe1068",
@@ -1596,19 +1596,15 @@
             }
           },
           "life-sciences": {
-            "total": 16,
+            "total": 11,
             "universities": [
               {
                 "name": "東京大学",
-                "count": 9
+                "count": 7
               },
               {
                 "name": "九州大学",
-                "count": 2
-              },
-              {
-                "name": "京都大学",
-                "count": 2
+                "count": 1
               },
               {
                 "name": "早稲田大学",
@@ -1625,19 +1621,15 @@
             ],
             "by_subject": {
               "bio": {
-                "total": 16,
+                "total": 11,
                 "universities": [
                   {
                     "name": "東京大学",
-                    "count": 9
+                    "count": 7
                   },
                   {
                     "name": "九州大学",
-                    "count": 2
-                  },
-                  {
-                    "name": "京都大学",
-                    "count": 2
+                    "count": 1
                   },
                   {
                     "name": "早稲田大学",
@@ -1810,10 +1802,18 @@
             }
           },
           "agriculture-environment": {
-            "total": 2,
+            "total": 7,
             "universities": [
               {
                 "name": "東京大学",
+                "count": 3
+              },
+              {
+                "name": "京都大学",
+                "count": 2
+              },
+              {
+                "name": "九州大学",
                 "count": 1
               },
               {
@@ -1823,10 +1823,18 @@
             ],
             "by_subject": {
               "bio": {
-                "total": 2,
+                "total": 7,
                 "universities": [
                   {
                     "name": "東京大学",
+                    "count": 3
+                  },
+                  {
+                    "name": "京都大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "九州大学",
                     "count": 1
                   },
                   {
@@ -2086,11 +2094,11 @@
             }
           },
           "life-sciences": {
-            "total": 9,
+            "total": 8,
             "universities": [
               {
                 "name": "東京大学",
-                "count": 5
+                "count": 4
               },
               {
                 "name": "九州大学",
@@ -2107,11 +2115,11 @@
             ],
             "by_subject": {
               "bio": {
-                "total": 9,
+                "total": 8,
                 "universities": [
                   {
                     "name": "東京大学",
-                    "count": 5
+                    "count": 4
                   },
                   {
                     "name": "九州大学",
@@ -2266,17 +2274,22 @@
             }
           },
           "agriculture-environment": {
-            "total": 1,
+            "total": 2,
             "universities": [
               {
                 "name": "東京大学",
-                "count": 1
+                "count": 2
               }
             ],
             "by_subject": {
               "bio": {
-                "total": 0,
-                "universities": []
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  }
+                ]
               },
               "chem": {
                 "total": 1,
@@ -2467,5 +2480,5 @@
     "unassigned_total": 0,
     "pending_review_total": 2
   },
-  "updated_at": "2026-11-16T14:32:46+09:00"
+  "updated_at": "2026-11-16T15:21:09+09:00"
 }
