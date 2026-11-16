@@ -6,7 +6,8 @@
       "university": "同志社大学理工学部",
       "year": "2027",
       "subject": "ai-research",
-      "image": "assets/honors/05bf9776b8c1e9d6f74e7fc4.webp"
+      "image": "assets/honors/05bf9776b8c1e9d6f74e7fc4.webp",
+      "field": "chemistry"
     },
     {
       "id": "25145edb4a96b4366d8da3c4406ef0118407299cd424363371af2a19e5a8f98b",
@@ -14,7 +15,8 @@
       "university": "立命館大学生命科学部",
       "year": "2027",
       "subject": "ai-research",
-      "image": "assets/honors/25145edb4a96b4366d8da3c4.webp"
+      "image": "assets/honors/25145edb4a96b4366d8da3c4.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "e63b64e3ffc2a32be9c1d51f0469aeb7d79ee89896abd5f90c0cb2cbc940a30e",
@@ -22,7 +24,8 @@
       "university": "東京大学総合文化研究科",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/e63b64e3ffc2a32be9c1d51f.webp"
+      "image": "assets/honors/e63b64e3ffc2a32be9c1d51f.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "330ecadd0b3962813363963fa14cb923ccf4e919d74e847b8ea275221665c7b7",
@@ -30,7 +33,8 @@
       "university": "筑波大学理工情報生命学術院",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/330ecadd0b3962813363963f.webp"
+      "image": "assets/honors/330ecadd0b3962813363963f.webp",
+      "field": "chemistry"
     },
     {
       "id": "ea5bad542c71d6ab1ff6a747e92f55c8a07881571b6717f5dc261c3243c85549",
@@ -38,7 +42,8 @@
       "university": "東京科学大学理学院",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/ea5bad542c71d6ab1ff6a747.webp"
+      "image": "assets/honors/ea5bad542c71d6ab1ff6a747.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "f3cf3985a634d79d20d02c229478abbc3456c8346b2caa415ae5d7b4641eb3a9",
@@ -46,7 +51,8 @@
       "university": "東京大学工学系研究科",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/f3cf3985a634d79d20d02c22.webp"
+      "image": "assets/honors/f3cf3985a634d79d20d02c22.webp",
+      "field": "chemical-systems"
     },
     {
       "id": "7ce2b37918a21cfc2d55a5c633d007a6bc84a79ba659474419439b33807727bb",
@@ -54,7 +60,8 @@
       "university": "東京大学理学系研究科",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/7ce2b37918a21cfc2d55a5c6.webp"
+      "image": "assets/honors/7ce2b37918a21cfc2d55a5c6.webp",
+      "field": "chemistry"
     },
     {
       "id": "fd9db7be1a6eac8de2ce55274bae7815fb07d7e50966894bee230ea73a9eb2b2",
@@ -62,7 +69,8 @@
       "university": "東京大学総合文化研究科",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/fd9db7be1a6eac8de2ce5527.webp"
+      "image": "assets/honors/fd9db7be1a6eac8de2ce5527.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "efaca47682bc59f8117be78fe935c3df84eca22505ba37157fd2d4264b4c2c6f",
@@ -70,7 +78,8 @@
       "university": "東京科学大学物質理工学院",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/efaca47682bc59f8117be78f.webp"
+      "image": "assets/honors/efaca47682bc59f8117be78f.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "eed411109f1dd6aea1cf2790b1dec46bb212ceffb607cd9839696db4f90d003b",
@@ -78,7 +87,8 @@
       "university": "東京大学新領域創成科学研究科",
       "year": "2027",
       "subject": "chem",
-      "image": "assets/honors/eed411109f1dd6aea1cf2790.webp"
+      "image": "assets/honors/eed411109f1dd6aea1cf2790.webp",
+      "field": "materials"
     },
     {
       "id": "eaf15c928ee5b9c5d304e738570611f0b8d2bdd868b2770b3e2e1d430330aa11",
@@ -86,7 +96,8 @@
       "university": "東京大学新領域創成科学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/eaf15c928ee5b9c5d304e738.webp"
+      "image": "assets/honors/eaf15c928ee5b9c5d304e738.webp",
+      "field": "life-sciences"
     },
     {
       "id": "f58b321f778ea8933bae050fb8b6734620147395feb0a670399ce4ec4d315a5b",
@@ -94,7 +105,8 @@
       "university": "東京大学総合文化研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/f58b321f778ea8933bae050f.webp"
+      "image": "assets/honors/f58b321f778ea8933bae050f.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "051ee61409998cab17b4f46e86d3fadbf33b700545d643dd6f76edf516dc4ae2",
@@ -102,7 +114,8 @@
       "university": "東京大学薬学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/051ee61409998cab17b4f46e.webp"
+      "image": "assets/honors/051ee61409998cab17b4f46e.webp",
+      "field": "pharmacy"
     },
     {
       "id": "aa1dc8a88cc50c0f1358d66417e72dc66e3060703b37cf012552b6ee612c6ec6",
@@ -110,7 +123,8 @@
       "university": "東京大学新領域創成科学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/aa1dc8a88cc50c0f1358d664.webp"
+      "image": "assets/honors/aa1dc8a88cc50c0f1358d664.webp",
+      "field": "life-sciences"
     },
     {
       "id": "f379a32fc40753636d32525fbd72cdcba218c003af33882b8e81066601de1420",
@@ -118,7 +132,8 @@
       "university": "東京大学総合文化研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/f379a32fc40753636d32525f.webp"
+      "image": "assets/honors/f379a32fc40753636d32525f.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "3691466f8e37978b19fb203f4fea0f1e1534d238686f41e623f11801152b3203",
@@ -126,7 +141,8 @@
       "university": "東京大学薬学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/3691466f8e37978b19fb203f.webp"
+      "image": "assets/honors/3691466f8e37978b19fb203f.webp",
+      "field": "pharmacy"
     },
     {
       "id": "253f4109c8ac496d1ffc9b2c04b5c9f0c187a1c79791b530069876759e652b85",
@@ -134,7 +150,8 @@
       "university": "東京大学理学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/253f4109c8ac496d1ffc9b2c.webp"
+      "image": "assets/honors/253f4109c8ac496d1ffc9b2c.webp",
+      "field": "life-sciences"
     },
     {
       "id": "1082e2ca2a9f63b9b04bd627d4a54aca5ec81d50b56f506901fb3303f10e0e78",
@@ -142,7 +159,8 @@
       "university": "東京大学薬学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/1082e2ca2a9f63b9b04bd627.webp"
+      "image": "assets/honors/1082e2ca2a9f63b9b04bd627.webp",
+      "field": "pharmacy"
     },
     {
       "id": "1ff2043d8f5d618a046406b27469b5380e4b74fe8b0562ac6bc8cb733925e104",
@@ -150,7 +168,8 @@
       "university": "東京大学医学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/1ff2043d8f5d618a046406b2.webp"
+      "image": "assets/honors/1ff2043d8f5d618a046406b2.webp",
+      "field": "medicine"
     },
     {
       "id": "19f039e39811f4065997a23841b83c78ee605fdbf85b143ad061a5ea7f197d5d",
@@ -158,7 +177,8 @@
       "university": "九州大学歯学府",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/19f039e39811f4065997a238.webp"
+      "image": "assets/honors/19f039e39811f4065997a238.webp",
+      "field": "dentistry"
     },
     {
       "id": "cb48aa67a56a0f4a5d83950ebb6caeea867410b0636e9f3fb2b0f43a76d7ae6f",
@@ -166,7 +186,8 @@
       "university": "京都大学理学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/cb48aa67a56a0f4a5d83950e.webp"
+      "image": "assets/honors/cb48aa67a56a0f4a5d83950e.webp",
+      "field": "life-sciences"
     },
     {
       "id": "977d3a74b95498baa96d7f7a52817cf5289737a6e7ee5b6fbe05b1d9db8127d8",
@@ -174,7 +195,8 @@
       "university": "京都大学生命科学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/977d3a74b95498baa96d7f7a.webp"
+      "image": "assets/honors/977d3a74b95498baa96d7f7a.webp",
+      "field": "life-sciences"
     },
     {
       "id": "65cf79546410e966fba4c7ff148df654fb8714be1381c31e4c3b2a3afc3b9412",
@@ -182,7 +204,8 @@
       "university": "慶應義塾大学医学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/65cf79546410e966fba4c7ff.webp"
+      "image": "assets/honors/65cf79546410e966fba4c7ff.webp",
+      "field": "medicine"
     },
     {
       "id": "b5cd6c518d84c24d75e81c526fb663b4580186963f0d333128f9d653290d1bb2",
@@ -190,7 +213,8 @@
       "university": "東京大学医学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/b5cd6c518d84c24d75e81c52.webp"
+      "image": "assets/honors/b5cd6c518d84c24d75e81c52.webp",
+      "field": "medicine"
     },
     {
       "id": "be6f5be70fbb91936e2524fe5a44d1e5158367f4b340f55877d91ee885bda8a6",
@@ -198,7 +222,8 @@
       "university": "東京大学薬学系研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/be6f5be70fbb91936e2524fe.webp"
+      "image": "assets/honors/be6f5be70fbb91936e2524fe.webp",
+      "field": "pharmacy"
     },
     {
       "id": "fd4ff554780d4305cbcce79dc82f1d3ced1353662a9eac7568bb65631b9d76d0",
@@ -206,7 +231,8 @@
       "university": "山梨大学生命環境学部",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/fd4ff554780d4305cbcce79d.webp"
+      "image": "assets/honors/fd4ff554780d4305cbcce79d.webp",
+      "field": "agriculture-environment"
     },
     {
       "id": "e3730b0f50f79690df4bddda0fa2a61520ec6517aab9f65f612720c81a0acd41",
@@ -214,7 +240,8 @@
       "university": "東京慈恵会医科大学医学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/e3730b0f50f79690df4bddda.webp"
+      "image": "assets/honors/e3730b0f50f79690df4bddda.webp",
+      "field": "medicine"
     },
     {
       "id": "5ebfc44c854a0d21b6e951e770ab43ccc0bac1f59ba177f2374a76bd12539d7d",
@@ -222,7 +249,8 @@
       "university": "順天堂大学医学研究科",
       "year": "2027",
       "subject": "bio",
-      "image": "assets/honors/5ebfc44c854a0d21b6e951e7.webp"
+      "image": "assets/honors/5ebfc44c854a0d21b6e951e7.webp",
+      "field": "medicine"
     },
     {
       "id": "932f4d77af57d0f4a5bce0112740921eb41c0fa4993fe67d5ceef5da30e562c5",
@@ -230,7 +258,8 @@
       "university": "東京科学大学物質理工学院応用化学系",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/932f4d77af57d0f4a5bce011.webp"
+      "image": "assets/honors/932f4d77af57d0f4a5bce011.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "3f67f4ab3ca75d91479d7ddd2550e6b2d592df9060ca8b7c44ff2a35e4534964",
@@ -238,7 +267,8 @@
       "university": "東京大学大学院新領域創成科学研究科自然環境専攻",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/3f67f4ab3ca75d91479d7ddd.webp"
+      "image": "assets/honors/3f67f4ab3ca75d91479d7ddd.webp",
+      "field": "agriculture-environment"
     },
     {
       "id": "c85d7688338bea5a733ddbaa7434d1004844b3d214d1e8798aea092a9aca7c50",
@@ -246,7 +276,8 @@
       "university": "東京大学大学院総合文化研究科広域科学専攻",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/c85d7688338bea5a733ddbaa.webp"
+      "image": "assets/honors/c85d7688338bea5a733ddbaa.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "6f0ff71557d9477ec481d74f87830735215b7e0877447e5d8006506ca77d3bd6",
@@ -254,7 +285,8 @@
       "university": "東京大学大学院総合文化研究科広域科学専攻",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/6f0ff71557d9477ec481d74f.webp"
+      "image": "assets/honors/6f0ff71557d9477ec481d74f.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "9687278741bfdc4867001d899a5d8f6dd5314d7ae1dea223b883ba66f5f421f6",
@@ -262,7 +294,8 @@
       "university": "東京大学理学系研究科化学専攻",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/9687278741bfdc4867001d89.webp"
+      "image": "assets/honors/9687278741bfdc4867001d89.webp",
+      "field": "chemistry"
     },
     {
       "id": "0016cc8f1a5d10e13de0cdee59bbc079524a17ee9dae22359d067d5b550a8465",
@@ -270,7 +303,8 @@
       "university": "東京工業大学理学院化学コース",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/0016cc8f1a5d10e13de0cdee.webp"
+      "image": "assets/honors/0016cc8f1a5d10e13de0cdee.webp",
+      "field": "chemistry"
     },
     {
       "id": "4b45ce0635046e9868a32a419b178876e44beab5fdea7181c2efbc4b8b212b43",
@@ -278,7 +312,8 @@
       "university": "東京工業大学大学院-物質理工学院応用化学コース",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/4b45ce0635046e9868a32a41.webp"
+      "image": "assets/honors/4b45ce0635046e9868a32a41.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "3e7772a212a7c0df4e23639afc5fcf86a7c0b2fba91ca225336652e53b1c6e55",
@@ -286,7 +321,8 @@
       "university": "千葉大学融合理工学府先進理化学専攻",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/3e7772a212a7c0df4e23639a.webp"
+      "image": "assets/honors/3e7772a212a7c0df4e23639a.webp",
+      "field": "chemistry"
     },
     {
       "id": "2e45a050c0a114ba6385987b16fd7fed6884ae9eef9e327bc0d3089bcea58c54",
@@ -294,7 +330,8 @@
       "university": "東京大学総合文化研究科広域科学専攻",
       "year": "2025",
       "subject": "chem",
-      "image": "assets/honors/2e45a050c0a114ba6385987b.webp"
+      "image": "assets/honors/2e45a050c0a114ba6385987b.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "220d61773503fd90aa3e7aa3209b43cee5aabefa6c0e0d9e5e6f40127ccc4492",
@@ -302,7 +339,8 @@
       "university": "筑波大学理工情報生命学術院",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/220d61773503fd90aa3e7aa3.webp"
+      "image": "assets/honors/220d61773503fd90aa3e7aa3.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "c1b85fdf62ea2402e6dbd6220ca4cd3d95be118b77e03f4fd29fe2afe845c0cb",
@@ -310,7 +348,8 @@
       "university": "東京科学大学物質理工学院",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/c1b85fdf62ea2402e6dbd622.webp"
+      "image": "assets/honors/c1b85fdf62ea2402e6dbd622.webp",
+      "field": "materials"
     },
     {
       "id": "2b2b4d553b4bb647128ed81ec456a1443a98a1df5d8c3c710db4d7ade07c746d",
@@ -318,7 +357,8 @@
       "university": "東京大学総合文化研究科",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/2b2b4d553b4bb647128ed81e.webp"
+      "image": "assets/honors/2b2b4d553b4bb647128ed81e.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "c1cdcb6832297e5b12348a9bfb0de378458598ac4bf12a328cf741b1e23bb246",
@@ -326,7 +366,8 @@
       "university": "東京理科大学工学研究科",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/c1cdcb6832297e5b12348a9b.webp"
+      "image": "assets/honors/c1cdcb6832297e5b12348a9b.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "672075a0ed034200ee0a10bf5b31827190aab9b9031176e793026b0d12770ca2",
@@ -334,7 +375,8 @@
       "university": "東京大学総合文化研究科",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/672075a0ed034200ee0a10bf.webp"
+      "image": "assets/honors/672075a0ed034200ee0a10bf.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "b3b97889d55d33c76e0c201753267ea88b69a8fac6ebb3a3d0729ce2fe534598",
@@ -342,7 +384,8 @@
       "university": "東京大学総合文化研究科広域科学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/b3b97889d55d33c76e0c2017.webp"
+      "image": "assets/honors/b3b97889d55d33c76e0c2017.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "232b8b1b43b8c199ca9db50aa9bb1b9f169fbeee27bdd8512fa45ed2631f3745",
@@ -350,7 +393,8 @@
       "university": "東京大学総合文化研究科広域科学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/232b8b1b43b8c199ca9db50a.webp"
+      "image": "assets/honors/232b8b1b43b8c199ca9db50a.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "d4ab222572c523ff4b793dc6b69622900b6a9f6f92b073c21db0f363934b5f98",
@@ -358,7 +402,8 @@
       "university": "金沢大学自然科学研究科物質化学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/d4ab222572c523ff4b793dc6.webp"
+      "image": "assets/honors/d4ab222572c523ff4b793dc6.webp",
+      "field": "chemistry"
     },
     {
       "id": "992bf2dd56b7247bd44e6c1ea7fb3ca137ee7eeab66b0e97d090c1824c95f3ec",
@@ -366,7 +411,8 @@
       "university": "東京科学大学物質理工学院応用化学系",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/992bf2dd56b7247bd44e6c1e.webp"
+      "image": "assets/honors/992bf2dd56b7247bd44e6c1e.webp",
+      "field": "applied-chemistry"
     },
     {
       "id": "fef28e0c0d5d442698fefc5ab1b22d0ac8dc6a659973f14ee9cbd9d3aa6d47b8",
@@ -374,7 +420,8 @@
       "university": "東北大学理学研究科化学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/fef28e0c0d5d442698fefc5a.webp"
+      "image": "assets/honors/fef28e0c0d5d442698fefc5a.webp",
+      "field": "chemistry"
     },
     {
       "id": "039a7197aabb78cfb413a3f75bfc8c45f1f5fe6dd19649b1ff5b65d413dff9b7",
@@ -382,7 +429,8 @@
       "university": "北海道大学総合化学院総合化学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/039a7197aabb78cfb413a3f7.webp"
+      "image": "assets/honors/039a7197aabb78cfb413a3f7.webp",
+      "field": "chemistry"
     },
     {
       "id": "076a0c697bd878f0b979344a7d8004d71c9c4f713ba3deb3511f3a027dc10248",
@@ -390,7 +438,8 @@
       "university": "東北大学理学研究科化学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/076a0c697bd878f0b979344a.webp"
+      "image": "assets/honors/076a0c697bd878f0b979344a.webp",
+      "field": "chemistry"
     },
     {
       "id": "3a088f4b73e98bb07d0ed3b718bb82712ea7532a8349878f63be6b50f3bb3907",
@@ -398,7 +447,8 @@
       "university": "東京大学総合文化研究科広域科学専攻",
       "year": "2026",
       "subject": "chem",
-      "image": "assets/honors/3a088f4b73e98bb07d0ed3b7.webp"
+      "image": "assets/honors/3a088f4b73e98bb07d0ed3b7.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "b54fa3258f86c250881009bd2263eaa0836dd262be6d706ef2b40ec6129c996a",
@@ -406,7 +456,8 @@
       "university": "東京大学新領域創成科学研究科 メディカル情報生命専攻",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/b54fa3258f86c250881009bd.webp"
+      "image": "assets/honors/b54fa3258f86c250881009bd.webp",
+      "field": "life-sciences"
     },
     {
       "id": "9b17192ee8338c27867344c29432371a6a11027fd47c515c763af6e8cb8c1439",
@@ -414,7 +465,8 @@
       "university": "東京大学理学系研究科 生物科学専攻",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/9b17192ee8338c27867344c2.webp"
+      "image": "assets/honors/9b17192ee8338c27867344c2.webp",
+      "field": "life-sciences"
     },
     {
       "id": "9d313ae24de4c55dbc9f11537f1cfc2c18f9ef8a17052f3ea3ec09810e8c661e",
@@ -422,7 +474,8 @@
       "university": "九州大学大学院システム生命科学府博士課程",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/9d313ae24de4c55dbc9f1153.webp"
+      "image": "assets/honors/9d313ae24de4c55dbc9f1153.webp",
+      "field": "life-sciences"
     },
     {
       "id": "9d3be65a816dd9e4628513b6545842868e9aa487c1ae15eb8d20772d6ac27339",
@@ -430,7 +483,8 @@
       "university": "東京大学理学系研究科生物科学専攻",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/9d3be65a816dd9e4628513b6.webp"
+      "image": "assets/honors/9d3be65a816dd9e4628513b6.webp",
+      "field": "life-sciences"
     },
     {
       "id": "c18b02f5861b53be841827b62b619e519735fcebdc7e6100a04f77fd80a79331",
@@ -438,7 +492,8 @@
       "university": "九州大学大学院システム生命科学府博士課程",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/c18b02f5861b53be841827b6.webp"
+      "image": "assets/honors/c18b02f5861b53be841827b6.webp",
+      "field": "life-sciences"
     },
     {
       "id": "b5c1fe14fcc32a6b49c8c3c6c506ba9a09063dd159f52fa1a0c8798aadcd45d5",
@@ -446,7 +501,8 @@
       "university": "東京大学新領域創成科学研究科 メディカル情報生命専攻",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/b5c1fe14fcc32a6b49c8c3c6.webp"
+      "image": "assets/honors/b5c1fe14fcc32a6b49c8c3c6.webp",
+      "field": "life-sciences"
     },
     {
       "id": "ca2e05940970b8c148fc486fd22ab63be414e9c3cf1605c5126fc31a1fbc56dc",
@@ -454,7 +510,8 @@
       "university": "東京工業大学理学院生命理工学系",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/ca2e05940970b8c148fc486f.webp"
+      "image": "assets/honors/ca2e05940970b8c148fc486f.webp",
+      "field": "life-sciences"
     },
     {
       "id": "7f2a4c28558a6d0413573e4e5b8faee514041e9fbe97be26186ce3e9ba52d58a",
@@ -462,7 +519,8 @@
       "university": "東京大学大学院薬学系研究科",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/7f2a4c28558a6d0413573e4e.webp"
+      "image": "assets/honors/7f2a4c28558a6d0413573e4e.webp",
+      "field": "pharmacy"
     },
     {
       "id": "176d1a169b0a665ce3d7860ddc889eafd857ae931cbc58c7103d81d75741aca9",
@@ -470,7 +528,8 @@
       "university": "東京大学農学生命科学研究科 水圏生物科学専攻",
       "year": "2025",
       "subject": "bio",
-      "image": "assets/honors/176d1a169b0a665ce3d7860d.webp"
+      "image": "assets/honors/176d1a169b0a665ce3d7860d.webp",
+      "field": "life-sciences"
     },
     {
       "id": "ccbf30a4da536aeeeaf599693998a5fd771146bc73d0f5fe67133a557ff74160",
@@ -478,7 +537,8 @@
       "university": "東京大学新領域創成科学研究科先端生命専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/ccbf30a4da536aeeeaf59969.webp"
+      "image": "assets/honors/ccbf30a4da536aeeeaf59969.webp",
+      "field": "life-sciences"
     },
     {
       "id": "c7b61d8d64a1c8a9e744a5b56b9c0eb54f118ad8f09519acd6cdfed803e9bac1",
@@ -486,7 +546,8 @@
       "university": "東京大学薬学系研究科薬科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/c7b61d8d64a1c8a9e744a5b5.webp"
+      "image": "assets/honors/c7b61d8d64a1c8a9e744a5b5.webp",
+      "field": "pharmacy"
     },
     {
       "id": "a8e7ac1c14fb3eadf11e9eca26946e071d66e1a22986d1aa4101170c3e46d4c2",
@@ -494,7 +555,8 @@
       "university": "東京農工大学農学府",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/a8e7ac1c14fb3eadf11e9eca.webp"
+      "image": "assets/honors/a8e7ac1c14fb3eadf11e9eca.webp",
+      "field": "agriculture-environment"
     },
     {
       "id": "96195b22d1a5fad39ebe0a720dbfd3b0617afcff71d9fba7f337ba50948e3912",
@@ -502,7 +564,8 @@
       "university": "東京大学工学系研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/96195b22d1a5fad39ebe0a72.webp"
+      "image": "assets/honors/96195b22d1a5fad39ebe0a72.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "9d57a2d876e35969ce45822fbef6cd862a737ce3ce9e15ee422eb9f2a4eb9536",
@@ -510,7 +573,8 @@
       "university": "東京科学大学環境・社会理工学院",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/9d57a2d876e35969ce45822f.webp"
+      "image": "assets/honors/9d57a2d876e35969ce45822f.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "e5a3d3e53e74001d862d29ad7eacf50ca7cba44185376b6fe1de4fd254f9bef0",
@@ -518,7 +582,8 @@
       "university": "東京大学新領域創成科学研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/e5a3d3e53e74001d862d29ad.webp"
+      "image": "assets/honors/e5a3d3e53e74001d862d29ad.webp",
+      "field": "life-sciences"
     },
     {
       "id": "4551879b6e1ca58b688f846acf81615a5850ea3870fb4dfb2ef27274555716e9",
@@ -526,7 +591,8 @@
       "university": "東京大学理学系研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/4551879b6e1ca58b688f846a.webp"
+      "image": "assets/honors/4551879b6e1ca58b688f846a.webp",
+      "field": "life-sciences"
     },
     {
       "id": "07b6e074dd1b2d6e6d843c8e0a61dcebece502ee8fc744235b11f9e8b3a7ab40",
@@ -534,7 +600,8 @@
       "university": "文京学院大学保健医療科学研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/07b6e074dd1b2d6e6d843c8e.webp"
+      "image": "assets/honors/07b6e074dd1b2d6e6d843c8e.webp",
+      "field": "medicine"
     },
     {
       "id": "70bd41a0b435fcbcc98302d15703a47f8b74f19d32c0a3fb1795e483206a014a",
@@ -542,7 +609,8 @@
       "university": "順天堂大学医学研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/70bd41a0b435fcbcc98302d1.webp"
+      "image": "assets/honors/70bd41a0b435fcbcc98302d1.webp",
+      "field": "medicine"
     },
     {
       "id": "c2b49d7687513f2ed08098f306065d2881968eb0dbe54b5d76406f634ad71e51",
@@ -550,7 +618,8 @@
       "university": "東京理科大学薬学研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/c2b49d7687513f2ed08098f3.webp"
+      "image": "assets/honors/c2b49d7687513f2ed08098f3.webp",
+      "field": "pharmacy"
     },
     {
       "id": "16f20305dbda341a14ce116011ab5f4aba665c228b027308f4cea2c4e223d601",
@@ -558,7 +627,8 @@
       "university": "東京大学農学生命科学研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/16f20305dbda341a14ce1160.webp"
+      "image": "assets/honors/16f20305dbda341a14ce1160.webp",
+      "field": "life-sciences"
     },
     {
       "id": "d5b6d7a868f8007e4b5ff7191cc8a42d777d89d45b28fbe938f288650a89047d",
@@ -566,7 +636,8 @@
       "university": "大阪大学薬学系研究科",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/d5b6d7a868f8007e4b5ff719.webp"
+      "image": "assets/honors/d5b6d7a868f8007e4b5ff719.webp",
+      "field": "pharmacy"
     },
     {
       "id": "33cabe6b2e262eea321225ad24b5fd7df7d115dacc7a827fb7f75e5ea57d719a",
@@ -574,7 +645,8 @@
       "university": "九州大学システム生命科学府",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/33cabe6b2e262eea321225ad.webp"
+      "image": "assets/honors/33cabe6b2e262eea321225ad.webp",
+      "field": "life-sciences"
     },
     {
       "id": "21e0bd09d46204a436d9b1693e37ca01b3893ffcfea53bc36f39cda3d897be90",
@@ -582,7 +654,8 @@
       "university": "東京科学大学生命理工学院生命理工学系",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/21e0bd09d46204a436d9b169.webp"
+      "image": "assets/honors/21e0bd09d46204a436d9b169.webp",
+      "field": "life-sciences"
     },
     {
       "id": "7d543f6c4e99b9196fb6fb4326306418eb3206d33b41981463431d3a32aa5b41",
@@ -590,7 +663,8 @@
       "university": "京都大学農学研究科応用生命科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/7d543f6c4e99b9196fb6fb43.webp"
+      "image": "assets/honors/7d543f6c4e99b9196fb6fb43.webp",
+      "field": "life-sciences"
     },
     {
       "id": "e607c120bcb7d29d9eef70ed4cd8efc9c63d38638b403a939ca3b581ceeab012",
@@ -598,7 +672,8 @@
       "university": "東京大学新領域創成科学研究科メディカル情報生命専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/e607c120bcb7d29d9eef70ed.webp"
+      "image": "assets/honors/e607c120bcb7d29d9eef70ed.webp",
+      "field": "life-sciences"
     },
     {
       "id": "aacd27a04c864a08332c09112008133954adfd834b44ffe1422d514a6f7219a1",
@@ -606,7 +681,8 @@
       "university": "東京大学薬学系研究科薬科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/aacd27a04c864a08332c0911.webp"
+      "image": "assets/honors/aacd27a04c864a08332c0911.webp",
+      "field": "pharmacy"
     },
     {
       "id": "8fae5a0fbefff2366a95755103ba901753bcbefe92e3098a0b67887f4f3b82a0",
@@ -614,7 +690,8 @@
       "university": "東京大学総合文化研究科広域科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/8fae5a0fbefff2366a957551.webp"
+      "image": "assets/honors/8fae5a0fbefff2366a957551.webp",
+      "field": "interdisciplinary"
     },
     {
       "id": "790da64680d96fdf459d6110c22d98128a344a8389beb973fef7761e2842da8a",
@@ -622,7 +699,8 @@
       "university": "東京大学新領域創成科学研究科先端生命専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/790da64680d96fdf459d6110.webp"
+      "image": "assets/honors/790da64680d96fdf459d6110.webp",
+      "field": "life-sciences"
     },
     {
       "id": "92724f4042f0186aa461e42a1918bea5517c641be0837e30e66ce9dc527415c8",
@@ -630,7 +708,8 @@
       "university": "早稲田大学先進理工学研究科生命医科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/92724f4042f0186aa461e42a.webp"
+      "image": "assets/honors/92724f4042f0186aa461e42a.webp",
+      "field": "life-sciences"
     },
     {
       "id": "63d26bed2cc24b3e0262b566826814fd921c6f3d0d1142ddb92d78acb29e7690",
@@ -638,7 +717,8 @@
       "university": "東京大学新領域創成科学研究科メディカル情報生命専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/63d26bed2cc24b3e0262b566.webp"
+      "image": "assets/honors/63d26bed2cc24b3e0262b566.webp",
+      "field": "life-sciences"
     },
     {
       "id": "3d7a5a45b5844757e4fc515e0bc698444d572ed5971890ab827a1575bfd3ef6e",
@@ -646,7 +726,8 @@
       "university": "京都大学農学研究科応用生命科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/3d7a5a45b5844757e4fc515e.webp"
+      "image": "assets/honors/3d7a5a45b5844757e4fc515e.webp",
+      "field": "life-sciences"
     },
     {
       "id": "3ceae4cb626e7356c3f8f281a0173f7ec8e2f8ab30754efaa7e6dd61c0cb3b96",
@@ -654,7 +735,8 @@
       "university": "東京大学新領域創成科学研究科メディカル情報生命専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/3ceae4cb626e7356c3f8f281.webp"
+      "image": "assets/honors/3ceae4cb626e7356c3f8f281.webp",
+      "field": "life-sciences"
     },
     {
       "id": "0e49ee1aa1bf154f93339bdde86fff33494b82ff124cdf69b0a91fd2cd3674bb",
@@ -662,7 +744,8 @@
       "university": "岡山大学医歯薬学研究科薬科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/0e49ee1aa1bf154f93339bdd.webp"
+      "image": "assets/honors/0e49ee1aa1bf154f93339bdd.webp",
+      "field": "pharmacy"
     },
     {
       "id": "fb38b5af82efd0e51f1b9ce2766b36454ecd087e0b07f55ee679f87d23758adb",
@@ -670,7 +753,8 @@
       "university": "筑波大学理工情報生命学術院生命地球科学研究群",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/fb38b5af82efd0e51f1b9ce2.webp"
+      "image": "assets/honors/fb38b5af82efd0e51f1b9ce2.webp",
+      "field": "life-sciences"
     },
     {
       "id": "9406019e8cf8732305afdb855b39e7a0b5153ed7dab44fb3a863c9e50b4867fe",
@@ -678,7 +762,8 @@
       "university": "東京大学農学生命科学研究科応用生命化学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/9406019e8cf8732305afdb85.webp"
+      "image": "assets/honors/9406019e8cf8732305afdb85.webp",
+      "field": "life-sciences"
     },
     {
       "id": "7c5f9c8a3dd3bfd8089038d29be2bed2dd7b7556368a230bfe861ea389766ff1",
@@ -686,7 +771,8 @@
       "university": "九州大学生物資源環境科学府生命機能科学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/7c5f9c8a3dd3bfd8089038d2.webp"
+      "image": "assets/honors/7c5f9c8a3dd3bfd8089038d2.webp",
+      "field": "life-sciences"
     },
     {
       "id": "45aa9ac885746928283d8db2eea67c81692c4e9bf2b5fa1918260e8fc9fe1068",
@@ -694,11 +780,12 @@
       "university": "東京大学農学生命科学研究科生物・環境工学専攻",
       "year": "2026",
       "subject": "bio",
-      "image": "assets/honors/45aa9ac885746928283d8db2.webp"
+      "image": "assets/honors/45aa9ac885746928283d8db2.webp",
+      "field": "agriculture-environment"
     }
   ],
   "statistics": {
-    "schema_version": 1,
+    "schema_version": 2,
     "counting_unit": "offers",
     "years": [
       {
@@ -817,6 +904,435 @@
           "other": {
             "total": 0,
             "universities": []
+          }
+        },
+        "by_field": {
+          "medicine": {
+            "total": 5,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 2
+              },
+              {
+                "name": "慶應義塾大学",
+                "count": 1
+              },
+              {
+                "name": "東京慈恵会医科大学",
+                "count": 1
+              },
+              {
+                "name": "順天堂大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 5,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "慶應義塾大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京慈恵会医科大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "順天堂大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "pharmacy": {
+            "total": 4,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 4
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 4,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 4
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "dentistry": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "九州大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "九州大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "life-sciences": {
+            "total": 5,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 3
+              },
+              {
+                "name": "京都大学",
+                "count": 2
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 5,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 3
+                  },
+                  {
+                    "name": "京都大学",
+                    "count": 2
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "applied-chemistry": {
+            "total": 3,
+            "universities": [
+              {
+                "name": "東京科学大学",
+                "count": 2
+              },
+              {
+                "name": "立命館大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京科学大学",
+                    "count": 2
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "立命館大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "chemical-systems": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "chemistry": {
+            "total": 3,
+            "universities": [
+              {
+                "name": "同志社大学",
+                "count": 1
+              },
+              {
+                "name": "東京大学",
+                "count": 1
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "筑波大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "同志社大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "materials": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "agriculture-environment": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "山梨大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "山梨大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "interdisciplinary": {
+            "total": 4,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 4
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 2
+                  }
+                ]
+              },
+              "chem": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 2
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "business": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "unconfirmed": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
           }
         },
         "pending_review": 0
@@ -982,6 +1498,477 @@
             "universities": []
           }
         },
+        "by_field": {
+          "medicine": {
+            "total": 2,
+            "universities": [
+              {
+                "name": "文京学院大学",
+                "count": 1
+              },
+              {
+                "name": "順天堂大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "文京学院大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "順天堂大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "pharmacy": {
+            "total": 5,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 2
+              },
+              {
+                "name": "大阪大学",
+                "count": 1
+              },
+              {
+                "name": "岡山大学",
+                "count": 1
+              },
+              {
+                "name": "東京理科大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 5,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "大阪大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "岡山大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京理科大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "dentistry": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "life-sciences": {
+            "total": 16,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 9
+              },
+              {
+                "name": "九州大学",
+                "count": 2
+              },
+              {
+                "name": "京都大学",
+                "count": 2
+              },
+              {
+                "name": "早稲田大学",
+                "count": 1
+              },
+              {
+                "name": "東京科学大学",
+                "count": 1
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 16,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 9
+                  },
+                  {
+                    "name": "九州大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "京都大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "早稲田大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京科学大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "筑波大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "applied-chemistry": {
+            "total": 2,
+            "universities": [
+              {
+                "name": "東京理科大学",
+                "count": 1
+              },
+              {
+                "name": "東京科学大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京理科大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京科学大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "chemical-systems": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "chemistry": {
+            "total": 4,
+            "universities": [
+              {
+                "name": "東北大学",
+                "count": 2
+              },
+              {
+                "name": "北海道大学",
+                "count": 1
+              },
+              {
+                "name": "金沢大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 4,
+                "universities": [
+                  {
+                    "name": "東北大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "北海道大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "金沢大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "materials": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "東京科学大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "東京科学大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "agriculture-environment": {
+            "total": 2,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 1
+              },
+              {
+                "name": "東京農工大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京農工大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "interdisciplinary": {
+            "total": 9,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 7
+              },
+              {
+                "name": "東京科学大学",
+                "count": 1
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 3,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "東京科学大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 6,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 5
+                  },
+                  {
+                    "name": "筑波大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "business": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "unconfirmed": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          }
+        },
         "pending_review": 2
       },
       {
@@ -1073,11 +2060,505 @@
             "universities": []
           }
         },
+        "by_field": {
+          "medicine": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "pharmacy": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "dentistry": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "life-sciences": {
+            "total": 9,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 5
+              },
+              {
+                "name": "九州大学",
+                "count": 2
+              },
+              {
+                "name": "東京工科大学",
+                "count": 1
+              },
+              {
+                "name": "東京科学大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 9,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 5
+                  },
+                  {
+                    "name": "九州大学",
+                    "count": 2
+                  },
+                  {
+                    "name": "東京工科大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京科学大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "applied-chemistry": {
+            "total": 2,
+            "universities": [
+              {
+                "name": "東京科学大学",
+                "count": 2
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 2,
+                "universities": [
+                  {
+                    "name": "東京科学大学",
+                    "count": 2
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "chemical-systems": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "chemistry": {
+            "total": 3,
+            "universities": [
+              {
+                "name": "千葉大学",
+                "count": 1
+              },
+              {
+                "name": "東京大学",
+                "count": 1
+              },
+              {
+                "name": "東京科学大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 3,
+                "universities": [
+                  {
+                    "name": "千葉大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  },
+                  {
+                    "name": "東京科学大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "materials": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "agriculture-environment": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "interdisciplinary": {
+            "total": 4,
+            "universities": [
+              {
+                "name": "東京大学",
+                "count": 3
+              },
+              {
+                "name": "筑波大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 4,
+                "universities": [
+                  {
+                    "name": "東京大学",
+                    "count": 3
+                  },
+                  {
+                    "name": "筑波大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "business": {
+            "total": 1,
+            "universities": [
+              {
+                "name": "立命館アジア太平洋大学",
+                "count": 1
+              }
+            ],
+            "by_subject": {
+              "bio": {
+                "total": 1,
+                "universities": [
+                  {
+                    "name": "立命館アジア太平洋大学",
+                    "count": 1
+                  }
+                ]
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          },
+          "unconfirmed": {
+            "total": 0,
+            "universities": [],
+            "by_subject": {
+              "bio": {
+                "total": 0,
+                "universities": []
+              },
+              "chem": {
+                "total": 0,
+                "universities": []
+              },
+              "ai-research": {
+                "total": 0,
+                "universities": []
+              },
+              "other": {
+                "total": 0,
+                "universities": []
+              }
+            }
+          }
+        },
         "pending_review": 0
+      }
+    ],
+    "fields": [
+      {
+        "id": "medicine",
+        "labels": {
+          "ja": "医学・医療",
+          "zh": "医学与医疗",
+          "tw": "醫學與醫療",
+          "en": "Medicine & Health"
+        }
+      },
+      {
+        "id": "pharmacy",
+        "labels": {
+          "ja": "薬学",
+          "zh": "药学",
+          "tw": "藥學",
+          "en": "Pharmacy"
+        }
+      },
+      {
+        "id": "dentistry",
+        "labels": {
+          "ja": "歯学",
+          "zh": "齿学",
+          "tw": "齒學",
+          "en": "Dentistry"
+        }
+      },
+      {
+        "id": "life-sciences",
+        "labels": {
+          "ja": "生命科学",
+          "zh": "生命科学",
+          "tw": "生命科學",
+          "en": "Life Sciences"
+        }
+      },
+      {
+        "id": "applied-chemistry",
+        "labels": {
+          "ja": "応用化学",
+          "zh": "应用化学",
+          "tw": "應用化學",
+          "en": "Applied Chemistry"
+        }
+      },
+      {
+        "id": "chemical-systems",
+        "labels": {
+          "ja": "化学システム工学",
+          "zh": "化学系统工程",
+          "tw": "化學系統工程",
+          "en": "Chemical Systems Engineering"
+        }
+      },
+      {
+        "id": "chemistry",
+        "labels": {
+          "ja": "化学",
+          "zh": "化学",
+          "tw": "化學",
+          "en": "Chemistry"
+        }
+      },
+      {
+        "id": "materials",
+        "labels": {
+          "ja": "材料・物質科学",
+          "zh": "材料与物质科学",
+          "tw": "材料與物質科學",
+          "en": "Materials Science"
+        }
+      },
+      {
+        "id": "agriculture-environment",
+        "labels": {
+          "ja": "農学・環境",
+          "zh": "农学与环境",
+          "tw": "農學與環境",
+          "en": "Agriculture & Environment"
+        }
+      },
+      {
+        "id": "interdisciplinary",
+        "labels": {
+          "ja": "総合・広域科学",
+          "zh": "综合与广域科学",
+          "tw": "綜合與廣域科學",
+          "en": "Interdisciplinary Sciences"
+        }
+      },
+      {
+        "id": "business",
+        "labels": {
+          "ja": "経済・経営",
+          "zh": "经济与经营",
+          "tw": "經濟與經營",
+          "en": "Economics & Business"
+        }
+      },
+      {
+        "id": "unconfirmed",
+        "labels": {
+          "ja": "専攻確認中",
+          "zh": "专业待确认",
+          "tw": "專業待確認",
+          "en": "Field to Be Confirmed"
+        }
       }
     ],
     "unassigned_total": 0,
     "pending_review_total": 2
   },
-  "updated_at": "2026-11-16T04:19:46+09:00"
+  "updated_at": "2026-11-16T14:21:32+09:00"
 }

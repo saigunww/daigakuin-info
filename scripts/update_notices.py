@@ -56,9 +56,14 @@ def content(kind, data, today):
         if statistics:
             summary = {**select(statistics, ('schema_version', 'counting_unit', 'unassigned_total', 'pending_review_total')),
                 'years': ordered([{**select(year, ('year', 'pending_review')), **bucket(year),
-                    'by_subject': {subject: bucket(value) for subject, value in year['by_subject'].items()}}
+                    'by_subject': {subject: bucket(value) for subject, value in year['by_subject'].items()},
+                    'by_field': {field: {**bucket(value), 'by_subject': {
+                        subject: bucket(part) for subject, part in value['by_subject'].items()}}
+                        for field, value in year.get('by_field', {}).items()}}
                     for year in statistics['years']])}
-        return {'posters': ordered([select(r, ('id', 'name', 'university', 'year', 'subject', 'image')) for r in rows]),
+            if 'fields' in statistics:
+                summary['fields'] = ordered([select(field, ('id', 'labels')) for field in statistics['fields']])
+        return {'posters': ordered([select(r, ('id', 'name', 'university', 'year', 'subject', 'field', 'image')) for r in rows]),
                 'statistics': summary}
     if kind == 'research':
         return ordered([select(r, ('id', 'title', 'summary', 'source', 'published_at', 'url',
@@ -119,10 +124,10 @@ def announcement(kind, data, today, initial):
             '可查看大學官網通知、募集要項及未過期的出願日程，具體專攻、批次與要求請核對官網原文。',
             'View official university notices, guidelines and unexpired application windows. Check the source for each program and admission round.')
     elif kind == 'honors':
-        body = translated(f'合格実績ポスター計{count}枚と、入学年度別・大学別の合格件数を掲載しています。表の登録記録と照合し、同一の合格記録は重複集計しません。',
-            f'合格榜现有{count}张海报，可查看每年合格总数及各大学合格份数。统计与登记表核对，同一录取不重复计数。',
-            f'合格榜現有{count}張海報，可查看每年合格總數及各大學合格份數。統計與登記表核對，同一錄取不重複計數。',
-            f'The gallery contains {count} admission posters, with annual totals and university breakdowns. Source-sheet records and posters are reconciled so that the same offer is counted once.')
+        body = translated(f'合格実績ポスター計{count}枚を掲載しています。入学年度・専門分野を選ぶと、大学別の合格件数と該当ポスターを確認できます。同一の合格記録は重複集計しません。',
+            f'合格榜现有{count}张海报，选择入学年度和专业，即可查看各大学合格份数及对应海报。统计与登记表核对，同一录取不重复计数。',
+            f'合格榜現有{count}張海報，選擇入學年度和專業，即可查看各大學合格份數及對應海報。統計與登記表核對，同一錄取不重複計數。',
+            f'The gallery contains {count} admission posters. Select an entry year and field to see university counts and matching posters. Source-sheet records and posters are reconciled so that the same offer is counted once.')
     elif kind == 'schedule':
         periods = terms(today)
         labels = [' ＋ '.join(f'{a}年{b}月—{c}年{d}月' for a, b, c, d in periods),

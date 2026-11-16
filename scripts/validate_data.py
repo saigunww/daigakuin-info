@@ -19,9 +19,11 @@ def validate():
     validate_notices(feeds['notices_data.json'])
     honors=feeds['honors_data.json']['items']
     validate_statistics(feeds['honors_data.json'].get('statistics'))
+    fields = {row['id'] for row in feeds['honors_data.json']['statistics']['fields']}
     assert len({r['id'] for r in honors})==len(honors)
     for row in honors:
         assert row['subject'] in ('bio','chem','ai-research','other')
+        assert row['field'] in fields
         assert row['image'].startswith('assets/honors/') and '..' not in row['image']
         assert (ROOT/row['image']).is_file()
     for row in feeds['schedule_data.json']['items']:

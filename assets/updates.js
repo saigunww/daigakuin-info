@@ -1,7 +1,7 @@
 /* Public snapshots only. Source credentials never reach the browser. */
 (function () {
   'use strict';
-  const feeds = {}, state = {year: '', subject: 'all', schedulePeriod: '', scheduleLoadedPeriod: '', scheduleRefreshPending: false, scheduleError: false, scheduleGroup: 'bio', scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
+  const feeds = {}, state = {year: '', field: 'all', subject: 'all', honorMoreFilters: false, schedulePeriod: '', scheduleLoadedPeriod: '', scheduleRefreshPending: false, scheduleError: false, scheduleGroup: 'bio', scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
   const $ = id => document.getElementById(id);
   const tr = (ja, zh, tw, en) => ({ja, zh, tw, en}[window.globalLang || 'ja'] || ja);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -11,7 +11,7 @@
   const meta = data => `${tr('データ更新','数据更新','資料更新','Data updated')}: ${esc((data.updated_at || '').replace('T',' ').replace('+09:00',' JST'))}`;
   const all = () => tr('すべて','全部','全部','All');
   const empty = () => `<p class="feed-empty">${tr('該当する項目はありません。','暂无符合条件的内容。','暫無符合條件的內容。','No matching entries.')}</p>`;
-  const subject = s => ({bio:tr('生物学','生物学','生物學','Biology'),chem:tr('化学','化学','化學','Chemistry'),'ai-research':tr('AI研究経験強化','AI科研背景提升','AI科研背景提升','AI Research Experience'),other:tr('その他','其他','其他','Other')}[s]);
+  const subject = s => ({bio:tr('生物学','生物学','生物學','Biology'),chem:tr('化学','化学','化學','Chemistry'),'ai-research':tr('研究経験強化','科研背景提升','科研背景提升','Research experience'),other:tr('その他','其他','其他','Other')}[s]);
   const category = s => ({biology:tr('生物・生化学','生物与生化','生物與生化','Biology & biochemistry'),chemistry:tr('化学','化学','化學','Chemistry'),ai:tr('AI・生命科学','AI 生命科学','AI 生命科學','AI & life sciences')}[s]);
   const noticesState = {visible:20, pending:false, error:false};
   const honorsState = {pending:false, error:false};
@@ -76,6 +76,18 @@
   }
   function years(items, key) {return [...new Set(items.map(r => key(r)))].sort().reverse();}
   function button(label, active, data, value) {return `<button class="feed-button${active?' active':''}" data-${data}="${esc(value)}" aria-pressed="${active}">${esc(label)}</button>`;}
+  const honorFields = data => data.statistics?.schema_version === 2 && Array.isArray(data.statistics.fields) ? data.statistics.fields : [];
+  const honorFieldLabel = (data, id) => id === 'all' ? tr('全専攻','全部专业','全部專業','All fields')
+    : honorFields(data).find(field => field.id === id)?.labels[window.globalLang || 'ja'] || tr('専攻未確認','专业待确认','專業待確認','Field unconfirmed');
+  const honorYearLabel = year => year === 'all' ? tr('全年度','全部年度','全部年度','All years')
+    : year === '未分年度' ? tr('入学年度未確認','入学年度待确认','入學年度待確認','Entry year unconfirmed') : tr(year+'年度',year+'年度',year+'年度',year);
+  function honorFieldCount(data, field) {
+    return (data.statistics?.years || []).filter(row => state.year === 'all' ? row.year !== '未分年度' : row.year === state.year).reduce((total,row) => {
+      const value = field === 'all' ? row : row.by_field?.[field];
+      const selected = state.subject === 'all' ? value : value?.by_subject?.[state.subject];
+      return total + (Number.isSafeInteger(selected?.total) ? selected.total : 0);
+    },0);
+  }
 
   function renderHonors() {
     const data = feeds.honors; if (!data) return;
@@ -85,22 +97,38 @@
     if (!available.includes(state.year) && state.year !== 'all') state.year = available.find(y => /^20\d{2}$/.test(y)) || 'all';
     const availableSubjects = ['bio','chem','ai-research','other'].filter(s => data.items.some(r => r.subject === s) || statisticYears.some(r=>r.by_subject?.[s]?.total>0));
     if (state.subject !== 'all' && !availableSubjects.includes(state.subject)) state.subject = 'all';
-    const rows = data.items.filter(r => (state.year === 'all' || r.year === state.year) && (state.subject === 'all' || r.subject === state.subject));
+    const catalogue = honorFields(data);
+    if (state.field !== 'all' && !catalogue.some(field => field.id === state.field)) state.field = 'all';
+    const availableFields = catalogue.filter(field => state.field === field.id || statisticYears.some(row => row.by_field?.[field.id]?.total > 0) || data.items.some(row => row.field === field.id));
+    const rows = data.items.filter(r => (state.year === 'all' || r.year === state.year) && (state.field === 'all' || r.field === state.field) && (state.subject === 'all' || r.subject === state.subject));
+    const focus = host.contains(document.activeElement) ? ['honorYear','honorField','honorSubject'].find(key => document.activeElement.dataset?.[key] !== undefined) : null;
+    const focusValue = focus ? document.activeElement.dataset[focus] : null;
+    const scope = `${honorYearLabel(state.year)} · ${honorFieldLabel(data,state.field)}${state.subject === 'all' ? '' : ' · '+subject(state.subject)}`;
+    const fieldButton = field => {
+      const count = honorFieldCount(data,field), label = honorFieldLabel(data,field);
+      return `<button type="button" class="feed-button honor-field-button${state.field === field ? ' active' : ''}" data-honor-field="${esc(field)}" aria-pressed="${state.field === field}" aria-label="${esc(label+' · '+tr('合格件数','合格份数','合格份數','Admission offers')+' '+count)}"><span>${esc(label)}</span><span class="honor-field-count" aria-hidden="true">${count}</span></button>`;
+    };
     host.querySelectorAll(':scope > :not(.section-hero)').forEach(n => n.remove());
     const content = document.createElement('div');
-    content.innerHTML = `<p class="feed-meta">${meta(data)} · ${data.items.length} ${tr('枚の公開ポスター','张已发布海报','張已發布海報','published posters')}</p>
-      <div class="feed-controls">${button(all(),state.year==='all','honor-year','all')}${available.map(y => button(y==='未分年度'?tr('年度未分類','未分年度','未分年度','Unassigned year'):tr(y+'年度',y+'年度',y+'年度',y),state.year===y,'honor-year',y)).join('')}</div>
-      <div class="feed-controls">${['all',...availableSubjects].map(s => button(s==='all'?all():subject(s),state.subject===s,'honor-subject',s)).join('')}</div>
+    content.innerHTML = `<p class="feed-meta">${meta(data)}</p>
+      <div class="honor-filters" aria-label="${tr('合格実績の絞り込み','合格结果筛选','合格結果篩選','Filter admission results')}">
+        <div class="honor-filter-row"><span class="honor-filter-label" id="honor-year-filter-label">${tr('入学年度','入学年度','入學年度','Entry year')}</span><div class="feed-controls" role="group" aria-labelledby="honor-year-filter-label">${button(honorYearLabel('all'),state.year==='all','honor-year','all')}${available.map(y => button(honorYearLabel(y),state.year===y,'honor-year',y)).join('')}</div></div>
+        <div class="honor-filter-row"><span class="honor-filter-label" id="honor-field-filter-label">${tr('専攻','专业','專業','Field')}</span><div class="feed-controls" role="group" aria-labelledby="honor-field-filter-label">${catalogue.length ? ['all',...availableFields.map(field => field.id)].map(fieldButton).join('') : `<p class="honor-filter-pending">${tr('専攻別のデータを更新しています。全専攻の実績をご覧いただけます。','专业分类更新中，目前展示全部专业的合格结果。','專業分類更新中，目前展示全部專業的合格結果。','Field data is being updated. Results for all fields are available.')}</p>`}</div></div>
+        <p class="honor-filter-help">${tr('数字は選択した年度の合格件数です。専攻を選ぶと、大学別集計と合格一覧が同時に切り替わります。','专业旁的数字为所选年度的合格份数。点击专业，即可同时查看各校统计与合格榜。','專業旁的數字為所選年度的合格份數。點擊專業，即可同時查看各校統計與合格榜。','Numbers show offers for the selected year. Choose a field to update both the university statistics and admission posters.')}</p>
+        <details class="honor-more-filters"${state.honorMoreFilters ? ' open' : ''}><summary>${tr('その他の絞り込み','更多筛选','更多篩選','More filters')}${state.subject !== 'all' ? ' · '+esc(subject(state.subject)) : ''}</summary><div class="honor-filter-row"><span class="honor-filter-label" id="honor-subject-filter-label">${tr('受講コース','课程类别','課程類別','Course group')}</span><div class="feed-controls" role="group" aria-labelledby="honor-subject-filter-label">${['all',...availableSubjects].map(s => button(s==='all'?all():subject(s),state.subject===s,'honor-subject',s)).join('')}</div></div></details>
+      </div>
       <div id="honor-stats"></div>
-      <h3 class="honor-gallery-title">${tr('合格ポスター','合格海报','合格海報','Admission posters')}</h3>
-      ${state.subject==='ai-research'?`<h3 class="honor-category-title">${subject('ai-research')}</h3>`:''}
-      <div class="feed-honors">${rows.map(r => `<button class="honor-card" data-poster="${esc(r.image)}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div>${r.subject==='ai-research'?`<span class="honor-category-label">${subject(r.subject)}</span>`:''}</button>`).join('')}</div>${rows.length?'':`<p class="feed-empty">${tr('この条件の公開ポスターはまだありません。統計には表の合格記録も含まれます。','此筛选下暂无公开海报；上方统计仍包含表格中的合格记录。','此篩選下暫無公開海報；上方統計仍包含表格中的合格紀錄。','No published posters for this selection. Statistics also include offers recorded in the source sheets.')}</p>`}`;
+      <div class="honor-gallery-heading"><div><h3 class="honor-gallery-title">${tr('合格一覧','合格榜','合格榜','Admission posters')}</h3><p class="honor-gallery-scope">${esc(scope)}</p></div><span class="honor-gallery-count">${rows.length} ${tr('枚の公開ポスター','张公开海报','張公開海報','published posters')}</span></div>
+      <div class="feed-honors">${rows.map(r => `<button type="button" class="honor-card" data-poster="${esc(r.image)}" data-honor-field-id="${esc(r.field || '')}" aria-label="${esc(r.name+' '+r.university)}"><img src="${esc(r.image)}" loading="lazy" decoding="async" alt="${esc(r.name+' '+r.university)}"><div class="honor-name">${esc(r.name)}</div><div class="honor-uni">${esc(r.university)}</div>${catalogue.length ? `<span class="honor-field-tag">${esc(honorFieldLabel(data,r.field))}</span>` : ''}${r.subject==='ai-research'?`<span class="honor-category-label">${subject(r.subject)}</span>`:''}</button>`).join('')}</div>${rows.length?'':`<p class="feed-empty">${tr('この条件の公開ポスターはまだありません。統計には表の合格記録も含まれます。','此筛选下暂无公开海报；上方统计仍包含表格中的合格记录。','此篩選下暫無公開海報；上方統計仍包含表格中的合格紀錄。','No published posters for this selection. Statistics also include offers recorded in the source sheets.')}</p>`}`;
     host.append(content);
     if(window.renderHonorStats)window.renderHonorStats(content.querySelector('#honor-stats'),data,state);
     if(honorsState.error)honorsError();
     content.querySelectorAll('[data-honor-year]').forEach(b => b.onclick = () => window.switchHonorYear(b.dataset.honorYear));
     content.querySelectorAll('[data-honor-subject]').forEach(b => b.onclick = () => window.switchHonorSubject(b.dataset.honorSubject));
+    content.querySelectorAll('[data-honor-field]').forEach(b => b.onclick = () => window.switchHonorField(b.dataset.honorField));
+    content.querySelector('.honor-more-filters')?.addEventListener('toggle',event => {state.honorMoreFilters = event.currentTarget.open;});
     content.querySelectorAll('[data-poster]').forEach(b => b.onclick = () => openLightbox(b.dataset.poster));
+    if (focus) Array.from(content.querySelectorAll('[data-honor-year],[data-honor-field],[data-honor-subject]')).find(control => control.dataset[focus] === focusValue)?.focus({preventScroll:true});
   }
   const oldHonorYear = window.switchHonorYear, oldHonorSubject = window.switchHonorSubject;
   window.switchHonorYear = function (year) {
@@ -112,6 +140,10 @@
     state.subject = ['all','bio','chem','ai-research','other'].includes(group)?group:'all';
     if (feeds.honors) renderHonors(); else try {oldHonorSubject(group);} catch (_) {}
     try {localStorage.setItem('honorSub',state.subject);} catch (_) {}
+  };
+  window.switchHonorField = function (field) {
+    state.field = field === 'all' || honorFields(feeds.honors || {}).some(item => item.id === field) ? field : 'all';
+    if (feeds.honors) renderHonors();
   };
 
   function honorsError(){
@@ -132,7 +164,9 @@
       if(!data?.updated_at || !Array.isArray(data.items) || !data.items.length ||
         !data.items.every(row=>typeof row.id==='string' && typeof row.year==='string' && typeof row.image==='string'))throw new Error('Invalid admission data');
       if((feeds.honors?.statistics && !data.statistics) ||
+        (feeds.honors?.statistics?.schema_version === 2 && data.statistics?.schema_version !== 2) ||
         (data.statistics && window.validateHonorStatistics && !window.validateHonorStatistics(data.statistics)))throw new Error('Invalid admission statistics');
+      if(data.statistics?.schema_version === 2 && !data.items.every(row => honorFields(data).some(field => field.id === row.field)))throw new Error('Invalid admission fields');
       const changed=honorsState.error || JSON.stringify(feeds.honors)!==JSON.stringify(data);
       feeds.honors=data;honorsState.error=false;
       if(changed){renderHonors();if(window.buildSearchIndex)buildSearchIndex();}

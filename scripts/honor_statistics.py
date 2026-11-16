@@ -15,6 +15,8 @@ import re
 import unicodedata
 
 from common import ROOT, clean, load, save
+from honor_fields import (FIELD_IDS, classify_program, public_fields,
+                          resolve_fields, validate_overrides)
 
 PRIVATE = ROOT.parent / '同步私有配置'
 CONFIG = PRIVATE / 'honor_statistics.json'
@@ -218,14 +220,16 @@ def _offer_key(record):
     return tuple(record[k] for k in ('person', 'year', 'university', 'department', 'major'))
 
 
-def _write_review(issues):
+def _write_review(issues, field_issues=None):
     try:
         PRIVATE.mkdir(parents=True, exist_ok=True)
         temporary = REVIEW.with_suffix('.json.tmp')
         descriptor = os.open(temporary, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
         os.fchmod(descriptor, 0o600)
         with os.fdopen(descriptor, 'w', encoding='utf-8') as handle:
-            json.dump({'schema_version': 1, 'pending_count': len(issues), 'issues': issues}, handle, ensure_ascii=False, indent=2)
+            json.dump({'schema_version': 1, 'pending_count': len(issues), 'issues': issues,
+                       'field_pending_count': len(field_issues or []),
+                       'field_issues': field_issues or []}, handle, ensure_ascii=False, indent=2)
             handle.write('\n')
             handle.flush(); os.fsync(handle.fileno())
         temporary.replace(REVIEW)
@@ -233,12 +237,23 @@ def _write_review(issues):
         raise StatisticsError('Cannot save the private statistics review list') from None
 
 
-def build_statistics(api, poster_records):
+def build_statistics(api, poster_records, poster_fields=None):
+    """Build aggregates, optionally returning public poster-to-field bindings.
+
+    The optional dict is updated only after the entire export validates.  It
+    contains public poster IDs and fixed field IDs, never source row identities.
+    """
+    if poster_fields is not None and not isinstance(poster_fields, dict):
+        raise StatisticsError('Academic field output must be a dictionary')
     config = load(CONFIG, {})
     if config.get('schema_version') != 1:
         raise StatisticsError('Admission statistics source configuration is missing or invalid')
     records = _source_records(api, config)
     metadata = load(ROOT / 'config/honor_metadata.json', {})
+    try:
+        overrides = validate_overrides(load(ROOT / 'config/honor_fields.json'))
+    except ValueError:
+        raise StatisticsError('Reviewed academic field configuration is invalid') from None
     person_names = defaultdict(set)
     name_people = defaultdict(set)
     for record in records:
@@ -249,14 +264,26 @@ def build_statistics(api, poster_records):
     entries = {}
     for record in records:
         key = _offer_key(record)
-        entry = entries.setdefault(key, {'year': record['year'], 'university': record['university'], 'subjects': set()})
+        entry = entries.setdefault(key, {'year': record['year'], 'university': record['university'],
+                                         'subjects': set(), 'field_evidence': [], 'poster_ids': set()})
         entry['subjects'].add(record['subject'])
+        entry['field_evidence'].append(classify_program(record['department'], record['major']))
     by_image = defaultdict(list)
     for poster in poster_records:
         if not isinstance(poster, dict) or not isinstance(poster.get('id'), str) or not poster['id']:
             raise StatisticsError('Poster identity metadata is missing or invalid')
         by_image[poster['id']].append(poster)
-    issues, unassigned = [], 0
+    issues, field_issues, unassigned = [], [], 0
+    public_poster_fields = {}
+    for image_id, copies in by_image.items():
+        if image_id in overrides:
+            public_poster_fields[image_id] = overrides[image_id]['field']
+        else:
+            choices = [classify_program(poster.get('university')) for poster in copies]
+            field, conflict = resolve_fields(choices)
+            public_poster_fields[image_id] = field
+            if conflict:
+                field_issues.append({'poster_id': image_id, 'reason': 'Duplicate poster metadata has conflicting academic fields'})
     poster_only = defaultdict(list)
     links = config.get('poster_links', {})
     for image_id, copies in by_image.items():
@@ -335,6 +362,8 @@ def build_statistics(api, poster_records):
         if keys:
             entry = entries[next(iter(keys))]
             entry['subjects'].update(subjects)
+            entry['field_evidence'].append(public_poster_fields[image_id])
+            entry['poster_ids'].add(image_id)
             continue
         if anonymous:
             person = 'anonymous:' + identity
@@ -350,8 +379,11 @@ def build_statistics(api, poster_records):
         # One descriptive program field is sufficient for poster-only records;
         # source-linked records retain the authoritative department/major pair.
         key = (person, year, school, program, '')
-        entry = entries.setdefault(key, {'year': year, 'university': school, 'subjects': set()})
+        entry = entries.setdefault(key, {'year': year, 'university': school, 'subjects': set(),
+                                         'field_evidence': [], 'poster_ids': set()})
         entry['subjects'].update(subjects)
+        entry['field_evidence'].append(public_poster_fields[image_id])
+        entry['poster_ids'].add(image_id)
     for descriptor, images in poster_only.items():
         if len(images) > 1 and any(anonymous for _, anonymous in images):
             key = (descriptor[0], descriptor[1], descriptor[2], descriptor[3], '')
@@ -359,7 +391,16 @@ def build_statistics(api, poster_records):
             for image_id, _ in images:
                 issues.append({'poster_id': image_id, 'year': descriptor[1],
                                'reason': 'Same-surname poster-only records require identity confirmation'})
-    _write_review(issues)
+    for entry in entries.values():
+        field, conflict = resolve_fields(entry['field_evidence'])
+        entry['field'] = field
+        for image_id in entry['poster_ids']:
+            public_poster_fields[image_id] = field
+        if conflict or field == 'unconfirmed':
+            field_issues.append({'year': entry['year'], 'university': entry['university'],
+                                 'poster_ids': sorted(entry['poster_ids']),
+                                 'reason': ('Source and poster have conflicting academic fields' if conflict
+                                            else 'The academic major is not specific enough to classify')})
     # Uncertain posters do not contribute extra offers. Confirmed source records
     # remain counted; there is no implied identity correspondence for a pending
     # poster. Source errors above still abort the entire refresh.
@@ -375,11 +416,24 @@ def build_statistics(api, poster_records):
         for subject in SUBJECTS:
             subject_entries = [e for e in year_entries if subject in e['subjects']]
             by_subject[subject] = {'total': len(subject_entries), 'universities': _counts(subject_entries)}
+        by_field = {}
+        for field in FIELD_IDS:
+            field_entries = [e for e in year_entries if e['field'] == field]
+            field_subjects = {}
+            for subject in SUBJECTS:
+                subject_entries = [e for e in field_entries if subject in e['subjects']]
+                field_subjects[subject] = {'total': len(subject_entries), 'universities': _counts(subject_entries)}
+            by_field[field] = {'total': len(field_entries), 'universities': _counts(field_entries),
+                               'by_subject': field_subjects}
         years.append({'year': year, 'total': len(year_entries), 'universities': universities,
-                      'by_subject': by_subject, 'pending_review': pending_years[year]})
-    output = {'schema_version': 1, 'counting_unit': 'offers', 'years': years,
+                      'by_subject': by_subject, 'by_field': by_field, 'pending_review': pending_years[year]})
+    output = {'schema_version': 2, 'counting_unit': 'offers', 'years': years, 'fields': public_fields(),
               'unassigned_total': unassigned, 'pending_review_total': len(issues)}
     validate_statistics(output)
+    _write_review(issues, field_issues)
+    if poster_fields is not None:
+        poster_fields.clear()
+        poster_fields.update(public_poster_fields)
     return output
 
 
@@ -412,15 +466,16 @@ def validate_statistics(statistics):
         return {r['name']: r['count'] for r in rows}
 
     if (not isinstance(statistics, dict)
-            or set(statistics) != {'schema_version', 'counting_unit', 'years', 'unassigned_total', 'pending_review_total'}
-            or type(statistics['schema_version']) is not int or statistics['schema_version'] != 1
+            or set(statistics) != {'schema_version', 'counting_unit', 'years', 'fields', 'unassigned_total', 'pending_review_total'}
+            or type(statistics['schema_version']) is not int or statistics['schema_version'] != 2
             or statistics['counting_unit'] != 'offers' or not isinstance(statistics['years'], list)
+            or statistics['fields'] != public_fields()
             or not integer(statistics['unassigned_total']) or not integer(statistics['pending_review_total'])):
         raise StatisticsError('Invalid public admission statistics')
     seen_years, previous_year = set(), None
     for year in statistics['years']:
         if (not isinstance(year, dict)
-                or set(year) != {'year', 'total', 'universities', 'by_subject', 'pending_review'}
+                or set(year) != {'year', 'total', 'universities', 'by_subject', 'by_field', 'pending_review'}
                 or not integer(year['pending_review'])):
             raise StatisticsError('Invalid public admission statistics')
         value = year['year']
@@ -432,18 +487,52 @@ def validate_statistics(statistics):
         groups = year['by_subject']
         if not isinstance(groups, dict) or set(groups) != set(SUBJECTS):
             raise StatisticsError('Invalid public admission statistics')
-        summed_memberships = Counter()
+        summed_memberships, subject_school_totals = Counter(), {}
         for subject in SUBJECTS:
             group = groups[subject]
             if not isinstance(group, dict) or set(group) != {'total', 'universities'}:
                 raise StatisticsError('Invalid public admission statistics')
             group_counts = counts(group['universities'], group['total'])
+            subject_school_totals[subject] = group_counts
             for school, value in group_counts.items():
                 if value > school_totals.get(school, 0):
                     raise StatisticsError('Admission subject totals exceed the combined total')
                 summed_memberships[school] += value
         if any(summed_memberships[school] < value for school, value in school_totals.items()):
             raise StatisticsError('Admission subject membership is incomplete')
+        fields = year['by_field']
+        if not isinstance(fields, dict) or set(fields) != set(FIELD_IDS):
+            raise StatisticsError('Invalid public academic field statistics')
+        field_school_sum = Counter()
+        field_subject_sum = {subject: Counter() for subject in SUBJECTS}
+        field_total_sum = 0
+        for field in FIELD_IDS:
+            group = fields[field]
+            if not isinstance(group, dict) or set(group) != {'total', 'universities', 'by_subject'}:
+                raise StatisticsError('Invalid public academic field statistics')
+            field_counts = counts(group['universities'], group['total'])
+            field_school_sum.update(field_counts)
+            field_total_sum += group['total']
+            subjects = group['by_subject']
+            if not isinstance(subjects, dict) or set(subjects) != set(SUBJECTS):
+                raise StatisticsError('Invalid public academic field statistics')
+            field_membership = Counter()
+            for subject in SUBJECTS:
+                subset = subjects[subject]
+                if not isinstance(subset, dict) or set(subset) != {'total', 'universities'}:
+                    raise StatisticsError('Invalid public academic field statistics')
+                subset_counts = counts(subset['universities'], subset['total'])
+                for school, amount in subset_counts.items():
+                    if amount > field_counts.get(school, 0) or amount > subject_school_totals[subject].get(school, 0):
+                        raise StatisticsError('Academic field subject totals exceed their parent total')
+                field_subject_sum[subject].update(subset_counts)
+                field_membership.update(subset_counts)
+            if any(field_membership[school] < amount for school, amount in field_counts.items()):
+                raise StatisticsError('Academic field subject membership is incomplete')
+        if field_total_sum != year['total'] or dict(field_school_sum) != school_totals:
+            raise StatisticsError('Academic field totals do not reconcile')
+        if any(dict(field_subject_sum[s]) != subject_school_totals[s] for s in SUBJECTS):
+            raise StatisticsError('Academic field subject totals do not reconcile')
     if sum(y['pending_review'] for y in statistics['years']) > statistics['pending_review_total']:
         raise StatisticsError('Admission pending-review totals do not reconcile')
     return True

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "posters": {
+    "330ecadd0b3962813363963fa14cb923ccf4e919d74e847b8ea275221665c7b7": {
+      "field": "chemistry",
+      "program": "化学学位プログラム"
+    },
+    "3e7772a212a7c0df4e23639afc5fcf86a7c0b2fba91ca225336652e53b1c6e55": {
+      "field": "chemistry",
+      "program": "先進理化学専攻 化学コース"
+    },
+    "05bf9776b8c1e9d6f74e7fc45bacbd142ad62766c990ebd2b6075eb2658a1843": {
+      "field": "chemistry",
+      "program": "理工学部 機能分子・生命化学科"
+    },
+    "25145edb4a96b4366d8da3c4406ef0118407299cd424363371af2a19e5a8f98b": {
+      "field": "applied-chemistry",
+      "program": "生命科学部 応用化学科"
+    }
+  }
+}

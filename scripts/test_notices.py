@@ -96,6 +96,37 @@ class NoticeTests(unittest.TestCase):
         self.assertNotEqual(first['source_fingerprints']['honors'], changed['source_fingerprints']['honors'])
         self.assertEqual(next(row for row in changed['items'] if row['kind'] == 'honors')['target'], 'honor')
 
+    def test_field_only_admission_changes_announce_but_field_order_does_not(self):
+        def bucket(total):
+            return {'total': total, 'universities': [{'name': '甲大学', 'count': total}] if total else []}
+        def field_bucket(total):
+            return {**bucket(total), 'by_subject': {
+                subject: bucket(total if subject == 'chem' else 0)
+                for subject in ('bio', 'chem', 'ai-research', 'other')}}
+        fields = [{'id': field, 'labels': {lang: field for lang in ('ja', 'zh', 'tw', 'en')}}
+                  for field in ('chemistry', 'applied-chemistry')]
+        statistics = {'schema_version': 2, 'counting_unit': 'offers',
+            'unassigned_total': 0, 'pending_review_total': 0, 'fields': fields,
+            'years': [{'year': '2027', 'pending_review': 0, **field_bucket(3),
+                       'by_field': {'chemistry': field_bucket(2), 'applied-chemistry': field_bucket(1)}}]}
+        self.sources['honors']['statistics'] = statistics
+        first = self.baseline()
+        statistics['fields'].reverse()
+        statistics['years'][0]['by_field'] = dict(reversed(list(statistics['years'][0]['by_field'].items())))
+        self.assertEqual(notices.build_notices(first, self.sources, TODAY), first)
+        statistics['years'][0]['by_field'] = {
+            'chemistry': field_bucket(1), 'applied-chemistry': field_bucket(2)}
+        changed = notices.build_notices(first, self.sources, TODAY)
+        self.assertNotEqual(first['source_fingerprints']['honors'], changed['source_fingerprints']['honors'])
+        self.assertEqual(statistics['years'][0]['total'], 3)
+
+    def test_poster_field_only_change_announces(self):
+        self.sources['honors']['items'][0]['field'] = 'chemistry'
+        first = self.baseline()
+        self.sources['honors']['items'][0]['field'] = 'applied-chemistry'
+        changed = notices.build_notices(first, self.sources, TODAY)
+        self.assertNotEqual(first['source_fingerprints']['honors'], changed['source_fingerprints']['honors'])
+
     def test_public_announcements_reject_unexpected_fields_or_targets(self):
         for key, value in (('target', 'https://invalid.example/'), ('kind', 'private'), ('date', '2026-02-30')):
             data = self.baseline()

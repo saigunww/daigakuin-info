@@ -26,8 +26,8 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 SUBJECTS = ('all', 'bio', 'chem', 'ai-research', 'other')
-LANGUAGES = {'ja': '年度別合格実績', 'zh': '年度合格统计',
-             'tw': '年度合格統計', 'en': 'Annual admission results'}
+LANGUAGES = {'ja': '合格実績の集計', 'zh': '合格统计',
+             'tw': '合格統計', 'en': 'Admission statistics'}
 HONORS_URL = re.compile(r'.*/honors_data\.json(?:\?.*)?$')
 ERROR_SELECTOR = '[data-feed-error="honors"]'
 DOM_COUNTS = """mount => ({
@@ -86,7 +86,11 @@ def add_offer(public_data, amount):
     result = copy.deepcopy(public_data)
     row = next(row for row in result['statistics']['years'] if row['year'] != '未分年度')
     school = row['universities'][0]['name'] if row['universities'] else '東京大学'
-    for selected in (row, row['by_subject']['bio']):
+    selected_buckets = [row, row['by_subject']['bio']]
+    if result['statistics']['schema_version'] == 2:
+        field = row['by_field']['life-sciences']
+        selected_buckets.extend((field, field['by_subject']['bio']))
+    for selected in selected_buckets:
         selected['total'] += amount
         existing = next((item for item in selected['universities'] if item['name'] == school), None)
         if existing:
@@ -237,6 +241,7 @@ def exercise_page(page, data, report, checks):
         visible_subjects = page.locator('[data-honor-subject]').evaluate_all(
             'rows => rows.map(row => row.dataset.honorSubject)')
         for subject in visible_subjects:
+            page.locator('#honor details').evaluate_all('rows => rows.forEach(row => row.open = true)')
             page.locator(f'[data-honor-subject="{subject}"]').click()
             assert_counts(visible_counts(page), bucket(data, year, subject), f'{year}/{subject}')
             expected_images = sorted(row['image'] for row in data['items']

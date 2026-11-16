@@ -19,6 +19,20 @@
     : value === '未分年度'
       ? tr('入学年度未確認', '入学年度待确认', '入學年度待確認', 'Entry year unconfirmed')
       : tr(value + '年度', value + '年度', value + '年度', value);
+  const allFieldsLabel = () => tr('全専攻', '全部专业', '全部專業', 'All fields');
+  const fields = statistics => {
+    if (statistics?.schema_version === 1) return [];
+    if (statistics?.schema_version !== 2 || !Array.isArray(statistics.fields) || !statistics.fields.length) return null;
+    const seen = new Set();
+    for (const field of statistics.fields) {
+      if (!field || typeof field.id !== 'string' || !/^[a-z][a-z0-9-]{0,63}$/.test(field.id) || field.id === 'all' || seen.has(field.id) ||
+          !['ja','zh','tw','en'].every(language => typeof field.labels?.[language] === 'string' && field.labels[language].trim())) return null;
+      seen.add(field.id);
+    }
+    return statistics.fields;
+  };
+  const fieldLabel = (statistics, value) => value === 'all' ? allFieldsLabel()
+    : (fields(statistics) || []).find(field => field.id === value)?.labels[window.globalLang || 'ja'] || allFieldsLabel();
 
   function bucket(value) {
     if (!value || !isCount(value.total) || !Array.isArray(value.universities)) return null;
@@ -34,11 +48,13 @@
     return {total:value.total, universities};
   }
 
-  function readStatistics(data, subject) {
+  function readStatistics(data, subject, field = 'all') {
     const statistics = data?.statistics;
-    if (!statistics || statistics.schema_version !== 1 || statistics.counting_unit !== 'offers' ||
+    const catalogue = fields(statistics);
+    if (!statistics || catalogue === null || statistics.counting_unit !== 'offers' ||
         !Array.isArray(statistics.years) || !isCount(statistics.unassigned_total) ||
         (statistics.pending_review_total !== undefined && !isCount(statistics.pending_review_total))) return null;
+    if (field !== 'all' && !catalogue.some(item => item.id === field)) return null;
     const years = [], seen = new Set();
     let unassigned = null;
     for (const row of statistics.years) {
@@ -46,7 +62,8 @@
       if (row.pending_review !== undefined && !isCount(row.pending_review)) return null;
       seen.add(row.year);
       const aggregate = bucket(row);
-      const selected = subject === 'all' ? aggregate : bucket(row.by_subject?.[subject]);
+      const selectedField = field === 'all' ? row : row.by_field?.[field];
+      const selected = bucket(subject === 'all' ? selectedField : selectedField?.by_subject?.[subject]);
       if (!aggregate || !selected || selected.total > aggregate.total) return null;
       if (row.year === '未分年度') unassigned = selected;
       else years.push({year:row.year, ...selected});
@@ -66,6 +83,42 @@
     return {total, universities:Array.from(schools, ([name, count]) => ({name, count}))};
   }
 
+  function sameBucket(left, right) {
+    if (!left || !right || left.total !== right.total) return false;
+    const counts = new Map(left.universities.map(row => [row.name, row.count]));
+    return counts.size === right.universities.length && right.universities.every(row => counts.get(row.name) === row.count);
+  }
+
+  function containsBucket(parent, child) {
+    if (!parent || !child || child.total > parent.total) return false;
+    const counts = new Map(parent.universities.map(row => [row.name, row.count]));
+    return child.universities.every(row => (counts.get(row.name) || 0) >= row.count);
+  }
+
+  function validStatistics(statistics) {
+    const catalogue = fields(statistics);
+    if (catalogue === null || !SUBJECTS.every(subject => readStatistics({statistics}, subject) !== null)) return false;
+    if (statistics.schema_version === 1) return true;
+    for (const row of statistics.years) {
+      if (!row.by_field || Object.keys(row.by_field).length !== catalogue.length) return false;
+      const fieldBuckets = [];
+      const bySubject = new Map(SUBJECTS.slice(1).map(subject => [subject, []]));
+      for (const field of catalogue) {
+        const value = row.by_field[field.id], aggregate = bucket(value);
+        if (!aggregate || !value.by_subject || Object.keys(value.by_subject).length !== SUBJECTS.length - 1) return false;
+        const subjects = SUBJECTS.slice(1).map(subject => bucket(value.by_subject[subject]));
+        if (subjects.some(value => !containsBucket(aggregate, value))) return false;
+        fieldBuckets.push(aggregate);
+        SUBJECTS.slice(1).forEach((subject, index) => bySubject.get(subject).push(subjects[index]));
+      }
+      if (!sameBucket(bucket(row), combine(fieldBuckets))) return false;
+      for (const subject of SUBJECTS.slice(1)) {
+        if (!sameBucket(bucket(row.by_subject?.[subject]), combine(bySubject.get(subject)))) return false;
+      }
+    }
+    return true;
+  }
+
   function updatedAt(value) {
     const date = new Date(value || '');
     if (Number.isNaN(date.getTime())) return '';
@@ -80,7 +133,7 @@
 
   window.validateHonorStatistics = function (statistics) {
     try {
-      return SUBJECTS.every(subject => readStatistics({statistics}, subject) !== null);
+      return validStatistics(statistics);
     } catch (_) {
       return false;
     }
@@ -89,8 +142,9 @@
   window.renderHonorStats = function (mount, data, state) {
     if (!mount || typeof mount.innerHTML !== 'string') return;
     const subject = SUBJECTS.includes(state?.subject) ? state.subject : 'all';
+    const field = typeof state?.field === 'string' ? state.field : 'all';
     const selectedYear = String(state?.year || 'all');
-    const statistics = readStatistics(data, subject);
+    const statistics = readStatistics(data, subject, field);
     if (!statistics) {unavailable(mount); return;}
     const isUnassigned = selectedYear === '未分年度';
     const selection = isUnassigned
@@ -102,9 +156,9 @@
     const maxSchool = universities?.length ? Math.max(...universities.map(row => row.count)) : 1;
     const countLabel = tr('合格件数', '合格份数', '合格份數', 'Admission offers');
     const universitiesLabel = tr('合格先の大学数', '合格大学数', '合格大學數', 'Universities');
-    const chartDescription = tr('入学年度ごとの合格件数。年度を選ぶと、その年度の大学別実績を表示します。', '按入学年度展示合格份数。选择年度，可查看当年各大学的合格情况。', '按入學年度展示合格份數。選擇年度，可查看當年各大學的合格情況。', 'Admission offers by entry year. Select a year to see its university breakdown.');
+    const chartDescription = tr('選択した専攻の年度別合格件数。年度を選ぶと、大学別実績と合格一覧も切り替わります。', '展示当前专业的历年合格份数。点击年度，下方各校统计与合格榜同步切换。', '展示目前專業的歷年合格份數。點擊年度，下方各校統計與合格榜同步切換。', 'Annual offers for the selected field. Select a year to update the university breakdown and admission posters.');
     const pendingLabel = tr('未確認', '待确认', '待確認', 'Unconfirmed');
-    const scope = `${yearLabel(selectedYear)} · ${subjectLabel(subject)}`;
+    const scope = `${yearLabel(selectedYear)} · ${fieldLabel(data.statistics, field)}${subject === 'all' ? '' : ' · ' + subjectLabel(subject)}`;
     const schoolTitle = tr('大学別の合格実績', '各大学合格统计', '各大學合格統計', 'Offers by university');
     const noSchoolRecords = !selection
       ? tr('年度未確認の記録は、分野別集計を準備中です。', '待确认年度的分科统计暂不可用。', '待確認年度的分科統計暫不可用。', 'Subject statistics for unconfirmed entry years are not yet available.')
@@ -114,7 +168,7 @@
 
     mount.innerHTML = `<section class="honor-stats" aria-labelledby="honor-stats-title">
       <div class="honor-stats-heading">
-        <div class="honor-stats-intro"><p class="honor-stats-kicker">${tr('入学年度別の実績', '按入学年度统计', '按入學年度統計', 'Results by entry year')}</p><h3 id="honor-stats-title">${tr('年度別合格実績', '年度合格统计', '年度合格統計', 'Annual admission results')}</h3><p class="honor-stats-scope">${esc(scope)}</p></div>
+        <div class="honor-stats-intro"><p class="honor-stats-kicker">${tr('入学年度・専攻別の実績', '按入学年度与专业统计', '按入學年度與專業統計', 'Results by entry year and field')}</p><h3 id="honor-stats-title">${tr('合格実績の集計', '合格统计', '合格統計', 'Admission statistics')}</h3><p class="honor-stats-scope">${esc(scope)}</p></div>
         <dl class="honor-stats-summary" aria-label="${esc(scope)}"><div><dt>${countLabel}</dt><dd data-honor-stat="total" data-value="${selection ? selection.total : ''}">${selection ? number(selection.total) : '—'}</dd></div><div><dt>${universitiesLabel}</dt><dd data-honor-stat="universities" data-value="${universities ? universities.length : ''}">${universities ? number(universities.length) : '—'}</dd></div></dl>
       </div>
       <div class="honor-stats-charts">
@@ -127,7 +181,7 @@
       </div>
       ${statistics.unassignedTotal > 0 ? `<p class="honor-stats-unassigned"><span>${pendingLabel}</span>${tr('ほかに入学年度未確認の合格が ' + number(statistics.unassignedTotal) + ' 件あり、上の年度別グラフには含めていません。', '另有 ' + number(statistics.unassignedTotal) + ' 份合格结果待确认入学年度，未计入上方年度图表。', '另有 ' + number(statistics.unassignedTotal) + ' 份合格結果待確認入學年度，未計入上方年度圖表。', number(statistics.unassignedTotal) + ' additional offers have unconfirmed entry years and are excluded from the annual chart.')}</p>` : ''}
       ${statistics.pendingReviewTotal > 0 ? `<p class="honor-stats-review">${tr('全年度を通じて、確認待ちのポスターが ' + number(statistics.pendingReviewTotal) + ' 枚あり、合格件数には追加していません。', '全库另有 ' + number(statistics.pendingReviewTotal) + ' 张海报待核对，未额外计数。', '全庫另有 ' + number(statistics.pendingReviewTotal) + ' 張海報待核對，未額外計數。', number(statistics.pendingReviewTotal) + ' posters across all years await verification and have not been counted as extra offers.')}</p>` : ''}
-      <div class="honor-stats-footer"><p>${tr('確認できた合格を入学年度ごとに集計。同一の合格に関する表の重複記録や重複ポスターはまとめ、複数大学・異なる研究科への合格はそれぞれ計上します。集計値のみを表示しています。', '按入学年度统计已确认的合格份数；同一录取的跨表记录与重复海报合并，多校或不同研究科的录取分别计入。仅展示汇总数据。', '按入學年度統計已確認的合格份數；同一錄取的跨表紀錄與重複海報合併，多校或不同研究科的錄取分別計入。僅展示彙總資料。', 'Counts are confirmed admission offers grouped by entry year. Duplicate records across tables and posters are merged; offers from different universities or graduate schools count separately. Only aggregate data is shown.')}</p>${updatedAt(data?.updated_at)}</div>
+      <div class="honor-stats-footer"><p>${tr('公開の合格ポスターと登録表から、確認できた合格を集計。専攻・研究科の確認できる記載に基づき分類し、専攻が特定できないものは「専攻未確認」に含めます。同一合格の重複はまとめ、異なる大学・研究科の合格はそれぞれ計上します。', '根据合格榜与登记表统计，按已确认的专攻或研究科归类；信息不足的归入“专业待确认”。同一录取合并去重，不同大学或研究科的录取分别计入。', '根據合格榜與登記表統計，按已確認的專攻或研究科歸類；資訊不足的歸入「專業待確認」。同一錄取合併去重，不同大學或研究科的錄取分別計入。', 'Offers are counted from published posters and registration sheets, using confirmed program or graduate school information. Records without a confirmed field are kept under “Field unconfirmed”. Duplicate offers are merged; different universities or graduate schools count separately.')}</p>${updatedAt(data?.updated_at)}</div>
     </section>`;
     mount.querySelectorAll('[data-honor-stat-year]').forEach(button => {
       button.addEventListener('click', () => {

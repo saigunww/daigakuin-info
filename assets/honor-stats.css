@@ -1,6 +1,38 @@
 /* Admission statistics: readable counts, shared scales, no chart dependencies. */
 #honor .honor-gallery-title{margin:0 0 18px;color:#183b4d;font-size:20px;font-weight:600;line-height:1.6}
 body.dark #honor .honor-gallery-title{color:#dce9ed}
+#honor .honor-filters{margin:20px 0 24px;padding:20px 22px 14px;border:1px solid #dce5e9;border-radius:8px;background:#fff;color:#183b4d}
+#honor .honor-filter-row{display:grid;grid-template-columns:86px minmax(0,1fr);align-items:start;gap:12px;margin:0 0 15px}
+#honor .honor-filter-label{padding-top:10px;font-size:13px;font-weight:600;line-height:1.7}
+#honor .honor-filter-row .feed-controls{gap:8px;margin:0;min-width:0}
+#honor .honor-filters .feed-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;max-width:100%;padding:8px 12px;border:1px solid #dce5e9;border-radius:5px;background:#fff;color:#435f6d;font-size:13px;font-weight:500;line-height:1.6;box-shadow:none;cursor:pointer}
+#honor .honor-filters .feed-button:hover{border-color:#92b8bd;background:#f3f8f8}
+#honor .honor-filters .feed-button.active{border-color:#287681;background:#eaf3f3;color:#145b67}
+#honor .honor-field-button>span:first-child{min-width:0;text-align:left;overflow-wrap:anywhere}
+#honor .honor-field-count{display:inline-flex;flex:0 0 auto;align-items:center;justify-content:center;min-width:21px;height:21px;padding:0 5px;border-radius:3px;background:#edf2f4;color:#526974;font-size:11px;font-variant-numeric:tabular-nums}
+#honor .honor-field-button.active .honor-field-count{background:#287681;color:#fff}
+#honor .honor-filter-help{margin:3px 0 15px 98px;color:#5b707b;font-size:12px;line-height:1.8}
+#honor .honor-filter-pending{margin:8px 0;color:#5b707b;font-size:13px;line-height:1.8}
+#honor .honor-more-filters{border-top:1px solid #e6ecef;padding-top:12px}
+#honor .honor-more-filters>summary{width:fit-content;color:#5b707b;font-size:12px;line-height:1.8;cursor:pointer}
+#honor .honor-more-filters[open]>summary{margin-bottom:15px}
+#honor .honor-more-filters .honor-filter-row{margin-bottom:4px}
+#honor .honor-filters button:focus-visible,#honor .honor-more-filters>summary:focus-visible{outline:2px solid #145b67;outline-offset:3px}
+#honor .honor-gallery-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;margin:0 0 20px}
+#honor .honor-gallery-heading .honor-gallery-title{margin:0}
+#honor .honor-gallery-scope{margin:5px 0 0;color:#5b707b;font-size:12px;line-height:1.8}
+#honor .honor-gallery-count{flex:0 0 auto;padding-bottom:2px;color:#5b707b;font-size:12px;line-height:1.8}
+#honor .feed-honors .honor-field-tag{display:block;width:fit-content;max-width:calc(100% - 28px);margin:0 14px 14px;padding:4px 8px;border:1px solid #dce5e9;border-radius:4px;background:#f3f8f8;color:#435f6d;font-size:11px;line-height:1.6;text-align:left;overflow-wrap:anywhere}
+body.dark #honor .honor-filters{border-color:#354b57;background:#182b36;color:#dce9ed}
+body.dark #honor .honor-filters .feed-button{border-color:#354b57;background:#182b36;color:#c3d6df}
+body.dark #honor .honor-filters .feed-button:hover{border-color:#72b1b8;background:#203945}
+body.dark #honor .honor-filters .feed-button.active{border-color:#72b1b8;background:#203945;color:#b2e1e4}
+body.dark #honor .honor-field-count{background:#2a414d;color:#c3d6df}
+body.dark #honor .honor-field-button.active .honor-field-count{background:#72b1b8;color:#102b33}
+body.dark #honor .honor-filter-help,body.dark #honor .honor-filter-pending,body.dark #honor .honor-more-filters>summary,body.dark #honor .honor-gallery-scope,body.dark #honor .honor-gallery-count{color:#a7bbc5}
+body.dark #honor .honor-more-filters{border-top-color:#354b57}
+body.dark #honor .honor-filters button:focus-visible,body.dark #honor .honor-more-filters>summary:focus-visible{outline-color:#9cd2d6}
+body.dark #honor .feed-honors .honor-field-tag{border-color:#354b57;background:#203945;color:#c3d6df}
 .honor-stats{--honor-ink:#183b4d;--honor-muted:#5b707b;--honor-line:#dce5e9;--honor-panel:#fff;--honor-track:#edf2f4;--honor-accent:#287681;--honor-selected:#145b67;--honor-soft:#f3f8f8;margin:24px 0 34px;padding:28px 30px 20px;border:1px solid var(--honor-line);border-radius:8px;background:var(--honor-panel);color:var(--honor-ink);min-width:0}
 .honor-stats *{box-sizing:border-box}
 .honor-stats-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:26px}
@@ -48,4 +80,5 @@ body.dark #honor .honor-gallery-title{color:#dce9ed}
 body.dark .honor-stats{--honor-ink:#dce9ed;--honor-muted:#a7bbc5;--honor-line:#354b57;--honor-panel:#182b36;--honor-track:#2a414d;--honor-accent:#72b1b8;--honor-selected:#9cd2d6;--honor-soft:#203945}
 @media(max-width:800px){.honor-stats{padding:24px}.honor-stats-heading{gap:20px}.honor-stats-summary{gap:22px;padding-left:20px}.honor-stats-summary>div{min-width:72px}.honor-stats-summary dd{font-size:32px}.honor-stats-charts{gap:24px}}
 @media(max-width:600px){.honor-stats{margin:20px 0 26px;padding:20px 17px 17px}.honor-stats-heading{display:block;margin-bottom:22px}.honor-stats h3{font-size:21px}.honor-stats-summary{margin-top:20px;padding:17px 0 0;border-left:0;border-top:1px solid var(--honor-line);gap:34px}.honor-stats-summary>div{min-width:94px}.honor-stats-summary dd{font-size:34px}.honor-stats-charts{grid-template-columns:minmax(0,1fr);gap:26px;padding-top:20px}.honor-stats-universities{padding-top:23px;border-top:1px solid var(--honor-line)}.honor-stats-year-plot{height:105px}.honor-stats-school-scroll{max-height:none;overflow:visible;padding-right:2px}.honor-stats-school-label{font-size:13px}.honor-stats-chart-heading{margin-bottom:15px}.honor-stats-footer{margin-top:21px}}
+@media(max-width:600px){#honor .honor-filters{margin:18px 0 20px;padding:17px 15px 13px}#honor .honor-filter-row{display:block;margin-bottom:17px}#honor .honor-filter-label{display:block;padding:0;margin-bottom:8px}#honor .honor-filter-row .feed-controls{gap:7px}#honor .honor-filters .feed-button{gap:7px;padding:7px 9px;font-size:12px}#honor .honor-filter-help{margin:2px 0 14px;font-size:11px}#honor .honor-field-count{min-width:19px;height:19px;font-size:10px}#honor .honor-gallery-heading{align-items:flex-start;gap:10px}#honor .honor-gallery-count{max-width:105px;text-align:right}#honor .honor-gallery-scope{font-size:11px}#honor .feed-honors .honor-field-tag{max-width:calc(100% - 20px);margin:0 10px 12px;padding:3px 6px;font-size:10px}}
 @media(forced-colors:active){.honor-stats-year-bar,.honor-stats-school-track>span{background:ButtonText;forced-color-adjust:none}.honor-stats-year.is-selected{outline:2px solid Highlight;outline-offset:-2px}.honor-stats-year.is-selected .honor-stats-year-bar{background:Highlight;forced-color-adjust:none}}

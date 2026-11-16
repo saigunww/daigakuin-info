@@ -32,10 +32,10 @@
         "en": "Admission results updated"
       },
       "body": {
-        "ja": "合格実績ポスター計87枚と、入学年度別・大学別の合格件数を掲載しています。表の登録記録と照合し、同一の合格記録は重複集計しません。",
-        "zh": "合格榜现有87张海报，可查看每年合格总数及各大学合格份数。统计与登记表核对，同一录取不重复计数。",
-        "tw": "合格榜現有87張海報，可查看每年合格總數及各大學合格份數。統計與登記表核對，同一錄取不重複計數。",
-        "en": "The gallery contains 87 admission posters, with annual totals and university breakdowns. Source-sheet records and posters are reconciled so that the same offer is counted once."
+        "ja": "合格実績ポスター計87枚を掲載しています。入学年度・専門分野を選ぶと、大学別の合格件数と該当ポスターを確認できます。同一の合格記録は重複集計しません。",
+        "zh": "合格榜现有87张海报，选择入学年度和专业，即可查看各大学合格份数及对应海报。统计与登记表核对，同一录取不重复计数。",
+        "tw": "合格榜現有87張海報，選擇入學年度和專業，即可查看各大學合格份數及對應海報。統計與登記表核對，同一錄取不重複計數。",
+        "en": "The gallery contains 87 admission posters. Select an entry year and field to see university counts and matching posters. Source-sheet records and posters are reconciled so that the same offer is counted once."
       }
     },
     {
@@ -175,10 +175,10 @@
   "source_fingerprints": {
     "research": "5da783a1f74c0dbf7e43a33aca40330a75dd09a1715111b23efa8da96f79fac3",
     "admissions": "e06d46ef4317e38c8b7c1755ac347e167d1111bfa3692d16fd2d4f5772c6cab4",
-    "honors": "6856ef3e82743da80948cbb7f1cb070d57005c0a5a0090086e782bb95e932753",
+    "honors": "3afbdcb98628799d4593fb39350c59d3c25f85e1252fdfb14c777cd6c02c993b",
     "schedule": "813906f8fd3a5dfeb720366e44fa1bf50bf4125dca9be0627cfbbd5ab22a5f05",
     "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
     "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
   },
-  "updated_at": "2026-11-16T04:19:46+09:00"
+  "updated_at": "2026-11-16T14:21:32+09:00"
 }

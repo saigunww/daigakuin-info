@@ -172,6 +172,8 @@ def update_honors():
     if not items:
         raise ValueError('No admission posters found; keeping existing data')
     from honor_statistics import build_statistics
-    statistics = build_statistics(client('sheets'), poster_records)
+    poster_fields = {}
+    statistics = build_statistics(client('sheets'), poster_records, poster_fields=poster_fields)
+    items = [{**item, 'field': poster_fields[item['id']]} for item in items]
     # All source checks must succeed before replacing the last complete feed.
     return dataset('honors_data.json',{'items':items,'statistics':statistics})
