@@ -15,7 +15,7 @@ import re
 import unicodedata
 
 from common import ROOT, clean, load, save
-from honor_fields import (FIELD_IDS, classify_program, public_fields,
+from honor_fields import (EXCLUDED_FIELDS, FIELD_IDS, classify_program, public_fields,
                           resolve_fields, validate_overrides)
 
 PRIVATE = ROOT.parent / '同步私有配置'
@@ -401,6 +401,10 @@ def build_statistics(api, poster_records, poster_fields=None):
                                  'poster_ids': sorted(entry['poster_ids']),
                                  'reason': ('Source and poster have conflicting academic fields' if conflict
                                             else 'The academic major is not specific enough to classify')})
+    # Economic/business offers are intentionally outside this public honor
+    # board.  Preserve internal poster classifications for explicit filtering by
+    # the exporter, then exclude offers from every public aggregate dimension.
+    entries = {key: entry for key, entry in entries.items() if entry['field'] not in EXCLUDED_FIELDS}
     # Uncertain posters do not contribute extra offers. Confirmed source records
     # remain counted; there is no implied identity correspondence for a pending
     # poster. Source errors above still abort the entire refresh.

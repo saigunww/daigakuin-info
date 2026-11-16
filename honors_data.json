@@ -1290,28 +1290,6 @@
               }
             }
           },
-          "business": {
-            "total": 0,
-            "universities": [],
-            "by_subject": {
-              "bio": {
-                "total": 0,
-                "universities": []
-              },
-              "chem": {
-                "total": 0,
-                "universities": []
-              },
-              "ai-research": {
-                "total": 0,
-                "universities": []
-              },
-              "other": {
-                "total": 0,
-                "universities": []
-              }
-            }
-          },
           "unconfirmed": {
             "total": 0,
             "universities": [],
@@ -1924,28 +1902,6 @@
               }
             }
           },
-          "business": {
-            "total": 0,
-            "universities": [],
-            "by_subject": {
-              "bio": {
-                "total": 0,
-                "universities": []
-              },
-              "chem": {
-                "total": 0,
-                "universities": []
-              },
-              "ai-research": {
-                "total": 0,
-                "universities": []
-              },
-              "other": {
-                "total": 0,
-                "universities": []
-              }
-            }
-          },
           "unconfirmed": {
             "total": 0,
             "universities": [],
@@ -1973,7 +1929,7 @@
       },
       {
         "year": "2025",
-        "total": 21,
+        "total": 20,
         "universities": [
           {
             "name": "東京大学",
@@ -1996,17 +1952,13 @@
             "count": 1
           },
           {
-            "name": "立命館アジア太平洋大学",
-            "count": 1
-          },
-          {
             "name": "筑波大学",
             "count": 1
           }
         ],
         "by_subject": {
           "bio": {
-            "total": 11,
+            "total": 10,
             "universities": [
               {
                 "name": "東京大学",
@@ -2022,10 +1974,6 @@
               },
               {
                 "name": "東京科学大学",
-                "count": 1
-              },
-              {
-                "name": "立命館アジア太平洋大学",
                 "count": 1
               }
             ]
@@ -2389,38 +2337,6 @@
               }
             }
           },
-          "business": {
-            "total": 1,
-            "universities": [
-              {
-                "name": "立命館アジア太平洋大学",
-                "count": 1
-              }
-            ],
-            "by_subject": {
-              "bio": {
-                "total": 1,
-                "universities": [
-                  {
-                    "name": "立命館アジア太平洋大学",
-                    "count": 1
-                  }
-                ]
-              },
-              "chem": {
-                "total": 0,
-                "universities": []
-              },
-              "ai-research": {
-                "total": 0,
-                "universities": []
-              },
-              "other": {
-                "total": 0,
-                "universities": []
-              }
-            }
-          },
           "unconfirmed": {
             "total": 0,
             "universities": [],
@@ -2539,15 +2455,6 @@
         }
       },
       {
-        "id": "business",
-        "labels": {
-          "ja": "経済・経営",
-          "zh": "经济与经营",
-          "tw": "經濟與經營",
-          "en": "Economics & Business"
-        }
-      },
-      {
         "id": "unconfirmed",
         "labels": {
           "ja": "専攻確認中",
@@ -2560,5 +2467,5 @@
     "unassigned_total": 0,
     "pending_review_total": 2
   },
-  "updated_at": "2026-11-16T14:21:32+09:00"
+  "updated_at": "2026-11-16T14:32:46+09:00"
 }

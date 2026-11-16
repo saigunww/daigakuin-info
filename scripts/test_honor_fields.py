@@ -61,7 +61,9 @@ class AcademicFieldClassificationTests(unittest.TestCase):
 
     def test_catalog_is_fixed_and_returned_as_a_copy(self):
         catalog = f.public_fields()
-        self.assertEqual(len(catalog), 12)
+        self.assertEqual(len(catalog), 11)
+        self.assertNotIn('business', {row['id'] for row in catalog})
+        self.assertEqual(f.EXCLUDED_FIELDS, {'business'})
         self.assertEqual(set(catalog[0]['labels']), {'ja', 'zh', 'tw', 'en'})
         catalog[0]['labels']['zh'] = 'changed'
         self.assertEqual(f.public_fields()[0]['labels']['zh'], '医学与医疗')
@@ -175,6 +177,33 @@ class AcademicFieldAggregationTests(unittest.TestCase):
         with self.assertRaises(h.StatisticsError):
             h.build_statistics(self.api([offer(major='')]), [poster()], fields)
         self.assertEqual(fields, {'previous': 'medicine'})
+
+    def test_business_offers_and_posters_are_excluded_from_all_public_aggregates(self):
+        business = offer(student='S002', surname='乙', given='二',
+                         school='立命館アジア太平洋大学',
+                         department='経営管理研究科', major='経営管理専攻')
+        api = self.api([offer(), business], extra=[business])
+        fields = {}
+        posters = [poster(),
+                   poster(image='business-source', name='乙二', school='立命館アジア太平洋大学',
+                          department='経営管理研究科', major='経営管理専攻'),
+                   poster(image='business-poster-only', name='丙三', school='京都大学',
+                          department='経済学研究科', major='経済学専攻')]
+        result = h.build_statistics(api, posters, fields)
+        year = result['years'][0]
+        self.assertEqual(year['total'], 1)
+        self.assertEqual(year['universities'], [{'name': '東京大学', 'count': 1}])
+        self.assertEqual(year['by_subject']['bio']['total'], 1)
+        self.assertEqual(year['by_subject']['chem'], {'total': 0, 'universities': []})
+        self.assertEqual(year['by_field']['chemistry']['total'], 1)
+        self.assertEqual(sum(group['total'] for group in year['by_field'].values()), 1)
+        self.assertEqual(year['by_field']['unconfirmed']['total'], 0)
+        self.assertEqual(fields, {'image-1': 'chemistry', 'business-source': 'business',
+                                   'business-poster-only': 'business'})
+        serialized = json.dumps(result, ensure_ascii=False)
+        for excluded in ('business', '立命館アジア太平洋大学', '京都大学', '経営', '経済'):
+            self.assertNotIn(excluded, serialized)
+        self.assertTrue(h.validate_statistics(result))
 
 
 if __name__ == '__main__':

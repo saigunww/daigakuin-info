@@ -22,10 +22,13 @@ FIELDS = [
     {'id': 'materials', 'labels': {'ja': '材料・物質科学', 'zh': '材料与物质科学', 'tw': '材料與物質科學', 'en': 'Materials Science'}},
     {'id': 'agriculture-environment', 'labels': {'ja': '農学・環境', 'zh': '农学与环境', 'tw': '農學與環境', 'en': 'Agriculture & Environment'}},
     {'id': 'interdisciplinary', 'labels': {'ja': '総合・広域科学', 'zh': '综合与广域科学', 'tw': '綜合與廣域科學', 'en': 'Interdisciplinary Sciences'}},
-    {'id': 'business', 'labels': {'ja': '経済・経営', 'zh': '经济与经营', 'tw': '經濟與經營', 'en': 'Economics & Business'}},
     {'id': 'unconfirmed', 'labels': {'ja': '専攻確認中', 'zh': '专业待确认', 'tw': '專業待確認', 'en': 'Field to Be Confirmed'}},
 ]
 FIELD_IDS = tuple(row['id'] for row in FIELDS)
+# Keep recognition for deliberate exclusion from the public results.  Excluded
+# fields remain available to the updater so future posters can also be omitted.
+EXCLUDED_FIELDS = frozenset({'business'})
+INTERNAL_FIELD_IDS = frozenset(FIELD_IDS) | EXCLUDED_FIELDS
 FLEXIBLE = frozenset(('interdisciplinary', 'unconfirmed'))
 
 
@@ -106,7 +109,7 @@ def classify_program(department='', major=''):
 def resolve_fields(evidence):
     """Refine broad fields, but do not choose between conflicting disciplines."""
     fields = set(evidence)
-    if not fields <= set(FIELD_IDS):
+    if not fields <= INTERNAL_FIELD_IDS:
         raise ValueError('Invalid admission academic field')
     concrete = fields - FLEXIBLE
     if len(concrete) > 1:
@@ -129,7 +132,7 @@ def validate_overrides(value):
     for poster_id, row in value['posters'].items():
         if (not isinstance(poster_id, str) or not re.fullmatch(r'[a-f0-9]{64}', poster_id)
                 or not isinstance(row, dict) or set(row) != {'field', 'program'}
-                or row['field'] not in FIELD_IDS or not isinstance(row['program'], str)
+                or row['field'] not in INTERNAL_FIELD_IDS or not isinstance(row['program'], str)
                 or not 1 <= len(row['program']) <= 120
                 or re.search(r'[\n\r@:<>{}/\\]|\d{4,}', row['program'])
                 or classify_program(row['program']) != row['field']):
