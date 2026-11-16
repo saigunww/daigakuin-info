@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1093/cvr/cvag277",
+      "doi": "10.1093/cvr/cvag277",
+      "title": "p66shc N6-methyladenosine methylation induces micronuclear rupture and promotes cardiac fibrosis.",
+      "summary": {
+        "ja": "心線維症のマウスと心臓線維芽細胞で、YTHDF1がメチル化されたp66shcの伝令RNAを安定化し、微小核の破裂や線維化を促す仕組みを示した。ヒト心房細動組織でも関連が見られたが、治療効果は未検証である。",
+        "zh": "研究在心脏纤维化小鼠和心脏成纤维细胞中发现，YTHDF1稳定甲基化的p66shc信使RNA，而减少p66shc可抑制微核破裂并减轻纤维化。人类心房颤动心脏组织也显示相关变化，但治疗效果尚未验证。",
+        "tw": "研究在心臟纖維化小鼠和心臟纖維母細胞中發現，YTHDF1穩定甲基化的p66shc信使RNA，而減少p66shc可抑制微核破裂並減輕纖維化。人類心房顫動心臟組織也顯示相關變化，但治療效果尚未驗證。",
+        "en": "Experiments in mice and cardiac fibroblasts showed that YTHDF1 stabilizes methylated p66shc messenger RNA, while reducing p66shc suppressed micronuclear rupture and alleviated cardiac fibrosis. Heart tissue from people with atrial fibrillation showed corresponding associations between these proteins and cellular damage, but therapeutic benefits in humans remain unvalidated."
+      },
+      "source": "Cardiovascular research",
+      "published_at": "2026-11-16",
+      "url": "https://doi.org/10.1093/cvr/cvag277",
+      "added_on": "2026-11-17",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43036105/"
+    },
+    {
+      "id": "doi:10.1021/acschembio.6c00836",
+      "doi": "10.1021/acschembio.6c00836",
+      "title": "Chemical Synthesis of Thrombostasin: An Anticoagulant Protein Produced by the Horn Fly Haematobia irritans.",
+      "summary": {
+        "ja": "サシバエの一種Haematobia irritansが作る抗凝固タンパク質トロンボスタシンと、その改変体を初めて化学合成した。改変体は天然型よりトロンビン阻害活性が9倍高く、血液凝固試験では300 nMでも凝固時間の延長を示した。",
+        "zh": "研究首次化学合成了角蝇Haematobia irritans产生的抗凝血蛋白及其改造版本。改造版本抑制凝血酶的活性是天然蛋白的9倍，并在凝血试验中以300 nM的浓度明显延长凝血时间。",
+        "tw": "研究首次化學合成了角蠅Haematobia irritans產生的抗凝血蛋白及其改造版本。改造版本抑制凝血酶的活性是天然蛋白的9倍，並在凝血試驗中以300 nM的濃度明顯延長凝血時間。",
+        "en": "Researchers achieved the first chemical synthesis of thrombostasin, an anticoagulant protein from the horn fly Haematobia irritans, and a modified version. The modified protein inhibited thrombin nine times more strongly than the native protein and notably prolonged clotting time at 300 nM in a laboratory coagulation assay."
+      },
+      "source": "ACS chemical biology",
+      "published_at": "2026-11-16",
+      "url": "https://doi.org/10.1021/acschembio.6c00836",
+      "added_on": "2026-11-17",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43036112/"
+    },
+    {
+      "id": "doi:10.1093/bioinformatics/btag834",
+      "doi": "10.1093/bioinformatics/btag834",
+      "title": "A systematic review of EC number prediction algorithms based on reaction chemical structures.",
+      "summary": {
+        "ja": "反応の化学構造から酵素の機能分類番号を予測する手法を体系的に整理し、複数のデータベースや酵素分類で性能と頑健性を比較した。薬物代謝反応にも適用し、未解明の代謝経路への機能付与に役立つ可能性を示した。",
+        "zh": "研究系统梳理了根据反应化学结构预测酶功能分类编号的方法，并比较其在不同数据库和酶类别中的表现与稳健性。这些方法还被用于药物代谢反应，显示出帮助标注未知代谢途径功能的潜力。",
+        "tw": "研究系統梳理了根據反應化學結構預測酶功能分類編號的方法，並比較其在不同資料庫和酶類別中的表現與穩健性。這些方法還被用於藥物代謝反應，顯示出幫助標註未知代謝途徑功能的潛力。",
+        "en": "Researchers systematically reviewed methods that predict enzyme classification numbers from reaction chemical structures, comparing performance across databases and robustness across enzyme classes. Applying these methods to drug metabolism reactions highlighted their potential to help assign functions to uncharacterized metabolic pathways."
+      },
+      "source": "Bioinformatics (Oxford, England)",
+      "published_at": "2026-11-13",
+      "url": "https://doi.org/10.1093/bioinformatics/btag834",
+      "added_on": "2026-11-17",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43023412/"
+    },
+    {
       "id": "doi:10.1111/jbg.70087",
       "doi": "10.1111/jbg.70087",
       "title": "PolyMaGNet: A Hybrid Method for Inferring Putative Causal Phenotypic Networks Accounting for Polygenic and Major Gene Effects.",
@@ -256,5 +307,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-16T01:18:09+09:00"
+  "updated_at": "2026-11-17T00:19:03+09:00"
 }
