@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1371/journal.pntd.0014346",
+      "doi": "10.1371/journal.pntd.0014346",
+      "title": "Transcriptomic profiling of embryo-derived cell lines from the Chagas disease insect vector Rhodnius prolixus (Hemiptera: Triatominae).",
+      "summary": {
+        "ja": "シャーガス病を媒介するサシガメRhodnius prolixusの胚由来２細胞株を解析し、共通の遺伝子発現と細胞株ごとの差を明らかにした。発生や免疫に関わる遺伝子は両株で発現していたが、機能分類などの違いから、細胞の性質が異なる可能性が示された。",
+        "zh": "研究分析了恰加斯病传播昆虫Rhodnius prolixus的两种胚胎来源细胞系，发现它们既有共同表达的基因，也有各自富集的基因。两种细胞系均表达发育和免疫相关基因，但部分基因表达及功能分类存在差异，提示它们可能具有不同的细胞特征。",
+        "tw": "研究分析了恰加斯病傳播昆蟲Rhodnius prolixus的兩種胚胎來源細胞株，發現它們既有共同表現的基因，也有各自富集的基因。兩種細胞株均表現發育和免疫相關基因，但部分基因表現及功能分類存在差異，提示它們可能具有不同的細胞特徵。",
+        "en": "Transcriptome profiling of two embryo-derived cell lines from the Chagas disease vector Rhodnius prolixus revealed shared gene expression alongside differences between the lines. Both expressed developmental and immune pathway genes, while differences in particular genes and functional categories suggested distinct cellular characteristics, providing resources for future genetic studies."
+      },
+      "source": "PLoS neglected tropical diseases",
+      "published_at": "2026-11-16",
+      "url": "https://doi.org/10.1371/journal.pntd.0014346",
+      "added_on": "2026-11-18",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43038271/"
+    },
+    {
+      "id": "doi:10.1093/molbev/msag284",
+      "doi": "10.1093/molbev/msag284",
+      "title": "Evolution of the Cytochrome P450 Family 4 (CYP4) Subfamilies in Birds.",
+      "summary": {
+        "ja": "鳥類363種のゲノムを比較し、脂肪酸代謝に関わるCYP4遺伝子で、基質認識部位の一部に適応進化の証拠を見いだした。渡りなどの生態的特徴と選択圧の違いに関連があり、渡りを行う系統では一時的な正の選択の証拠も示された。",
+        "zh": "研究比较了363种鸟类的基因组，在参与脂肪酸代谢的CYP4基因中，发现部分底物识别位点存在适应性进化的证据。选择压力的差异与迁徙等生态特征相关，迁徙谱系还显示出阶段性正选择的证据，但这些关联不能直接证明代谢功能发生改变。",
+        "tw": "研究比較了363種鳥類的基因組，在參與脂肪酸代謝的CYP4基因中，發現部分受質辨識位點存在適應性演化的證據。選擇壓力的差異與遷徙等生態特徵相關，遷徙譜系還顯示出階段性正選擇的證據，但這些關聯不能直接證明代謝功能發生改變。",
+        "en": "Comparing 363 avian genomes revealed evidence of adaptive evolution at some substrate recognition sites in CYP4 genes, which are involved in fatty acid metabolism. Selection pressures varied with ecological traits, including migration, and migratory lineages showed evidence of episodic positive selection; these associations do not directly establish changes in metabolic function."
+      },
+      "source": "Molecular biology and evolution",
+      "published_at": "2026-11-16",
+      "url": "https://doi.org/10.1093/molbev/msag284",
+      "added_on": "2026-11-18",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43038353/"
+    },
+    {
+      "id": "doi:10.1007/s00210-026-06063-5",
+      "doi": "10.1007/s00210-026-06063-5",
+      "title": "Integration of machine learning and transcriptomics analysis identifies candidate molecular associations between parthenolide and sepsis-associated acute lung injury.",
+      "summary": {
+        "ja": "複数の遺伝子発現データと機械学習を組み合わせ、敗血症に伴う急性肺障害とパルテノリドに関連する候補遺伝子17個を抽出した。予測性能は外部データ間で異なり、結合シミュレーションは標的候補との結合を示唆したが、これらの計算上の仮説には実験検証が必要である。",
+        "zh": "研究结合多个基因表达数据库与机器学习，筛出17个与败血症相关急性肺损伤及小白菊内酯有关的候选基因。模型在不同外部数据中的预测表现不一，分子对接提示了潜在结合关系，但这些计算结果仍需实验验证，尚不能确立治疗作用。",
+        "tw": "研究結合多個基因表現資料庫與機器學習，篩出17個與敗血症相關急性肺損傷及小白菊內酯有關的候選基因。模型在不同外部資料中的預測表現不一，分子對接提示了潛在結合關係，但這些計算結果仍需實驗驗證，尚不能確立治療作用。",
+        "en": "Combining transcriptomic datasets with machine learning identified 17 candidate genes linking predicted parthenolide targets with sepsis-associated acute lung injury. Predictive performance varied across external datasets, and molecular docking suggested potential target binding, but these computational findings remain hypotheses requiring experimental validation and do not establish therapeutic effects."
+      },
+      "source": "Naunyn-Schmiedeberg's archives of pharmacology",
+      "published_at": "2026-11-17",
+      "url": "https://doi.org/10.1007/s00210-026-06063-5",
+      "added_on": "2026-11-18",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43040057/"
+    },
+    {
       "id": "doi:10.1093/cvr/cvag277",
       "doi": "10.1093/cvr/cvag277",
       "title": "p66shc N6-methyladenosine methylation induces micronuclear rupture and promotes cardiac fibrosis.",
@@ -307,5 +358,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-17T00:19:03+09:00"
+  "updated_at": "2026-11-18T00:19:03+09:00"
 }
