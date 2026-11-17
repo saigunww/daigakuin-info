@@ -3006,20 +3006,31 @@
       "weekday": 5
     },
     {
+      "course": "26年冬季生物学- 生物化学過去問",
+      "date": "2026-12-12",
+      "session": "1",
+      "topic": "過去問 - 生物化学方向 - 内諾による",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "format": "ハイブリッド",
+      "group": "bio",
+      "weekday": 5
+    },
+    {
       "course": "26年冬季生物学- 分子生物過去問",
-      "date": "2026-12-14",
+      "date": "2026-12-13",
       "session": "1",
       "topic": "過去問 - 分子生物方向 - 内諾による",
       "start_time": "14:00",
       "end_time": "17:00",
       "format": "ハイブリッド",
       "group": "bio",
-      "weekday": 0
+      "weekday": 6
     },
     {
       "course": "26年冬季生物学- 生物化学過去問",
       "date": "2026-12-19",
-      "session": "1",
+      "session": "2",
       "topic": "過去問 - 生物化学方向 - 内諾による",
       "start_time": "14:00",
       "end_time": "17:00",
@@ -3029,19 +3040,19 @@
     },
     {
       "course": "26年冬季生物学- 分子生物過去問",
-      "date": "2026-12-21",
+      "date": "2026-12-20",
       "session": "2",
       "topic": "過去問 - 分子生物方向 - 内諾による",
       "start_time": "14:00",
       "end_time": "17:00",
       "format": "ハイブリッド",
       "group": "bio",
-      "weekday": 0
+      "weekday": 6
     },
     {
       "course": "26年冬季生物学- 生物化学過去問",
       "date": "2026-12-26",
-      "session": "2",
+      "session": "3",
       "topic": "過去問 - 生物化学方向 - 内諾による",
       "start_time": "14:00",
       "end_time": "17:00",
@@ -3051,19 +3062,19 @@
     },
     {
       "course": "26年冬季生物学- 分子生物過去問",
-      "date": "2026-12-28",
+      "date": "2026-12-27",
       "session": "3",
       "topic": "過去問 - 分子生物方向 - 内諾による",
       "start_time": "14:00",
       "end_time": "17:00",
       "format": "ハイブリッド",
       "group": "bio",
-      "weekday": 0
+      "weekday": 6
     },
     {
       "course": "26年冬季生物学- 生物化学過去問",
       "date": "2027-01-09",
-      "session": "3",
+      "session": "4",
       "topic": "過去問 - 生物化学方向 - 内諾による",
       "start_time": "14:00",
       "end_time": "17:00",
@@ -3081,17 +3092,6 @@
       "format": "ハイブリッド",
       "group": "bio",
       "weekday": 6
-    },
-    {
-      "course": "26年冬季生物学- 生物化学過去問",
-      "date": "2027-01-16",
-      "session": "4",
-      "topic": "過去問 - 生物化学方向 - 内諾による",
-      "start_time": "14:00",
-      "end_time": "17:00",
-      "format": "ハイブリッド",
-      "group": "bio",
-      "weekday": 5
     },
     {
       "course": "入门班第1期",
@@ -6108,5 +6108,5 @@
       "weekday": 0
     }
   ],
-  "updated_at": "2026-11-15T23:51:12+09:00"
+  "updated_at": "2026-11-17T13:17:30+09:00"
 }

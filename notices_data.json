@@ -20,6 +20,25 @@
       }
     },
     {
+      "id": "auto:schedule:2026-11-17",
+      "date": "2026-11-17",
+      "kind": "schedule",
+      "tag": "update",
+      "target": "schedule",
+      "title": {
+        "ja": "授業時間割を更新しました",
+        "zh": "课程表已更新",
+        "tw": "課程表已更新",
+        "en": "Timetable updated"
+      },
+      "body": {
+        "ja": "表示期間は2026年10月—2027年3月です。1〜3月は両期を併せて表示し、後日の授業変更は先生の連絡をご確認ください。",
+        "zh": "当前展示2026年10月—2027年3月的初次排课表；1—3月同时显示两期课程，后续调课请以老师通知为准。",
+        "tw": "目前展示2026年10月—2027年3月的初次排課表；1—3月同時顯示兩期課程，後續調課請以老師通知為準。",
+        "en": "The initial timetable covers 2026-10 to 2027-03. Both terms appear in January–March; check instructor notices for later changes."
+      }
+    },
+    {
       "id": "auto:research:2026-11-16",
       "date": "2026-11-16",
       "kind": "research",
@@ -195,9 +214,9 @@
     "research": "852332db4b686edc0086d7eb65d4c9e362cf733656a3c118a494011adeee499f",
     "admissions": "e06d46ef4317e38c8b7c1755ac347e167d1111bfa3692d16fd2d4f5772c6cab4",
     "honors": "a6c386283d8c2347a716973a3cc551d7bff9fb600e1c9a6519696d81b08acfb4",
-    "schedule": "813906f8fd3a5dfeb720366e44fa1bf50bf4125dca9be0627cfbbd5ab22a5f05",
+    "schedule": "ac4ec3b4f4a611893f5fc3725587046c78104d9a4896432adb4a6b044b44a64e",
     "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
     "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
   },
-  "updated_at": "2026-11-17T00:19:03+09:00"
+  "updated_at": "2026-11-17T13:17:44+09:00"
 }
