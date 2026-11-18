@@ -1059,7 +1059,7 @@
       ],
       "status": "unavailable",
       "attempted_on": "2026-11-19",
-      "error": "ReadTimeout",
+      "error": "SSLError",
       "notices": [],
       "application_windows": []
     },
@@ -2614,5 +2614,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-19T02:18:24+09:00"
+  "updated_at": "2026-11-19T08:18:17+09:00"
 }
