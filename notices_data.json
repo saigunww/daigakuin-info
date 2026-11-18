@@ -1,6 +1,44 @@
 {
   "items": [
     {
+      "id": "auto:research:2026-11-19",
+      "date": "2026-11-19",
+      "kind": "research",
+      "tag": "update",
+      "target": "daily-research",
+      "title": {
+        "ja": "研究論文紹介を更新しました",
+        "zh": "每日研究已更新",
+        "tw": "每日研究已更新",
+        "en": "Research papers updated"
+      },
+      "body": {
+        "ja": "生物・化学・AI生命科学の論文を計24件掲載しています。各論文に2文の成果紹介と原文リンクがあります。",
+        "zh": "现收录24篇生物、化学与AI生命科学论文，每篇附两句话的成果介绍及原文链接。",
+        "tw": "現收錄24篇生物、化學與AI生命科學論文，每篇附兩句話的成果介紹及原文連結。",
+        "en": "The collection contains 24 papers in biology, chemistry and AI for life sciences, with two-sentence findings and original paper links."
+      }
+    },
+    {
+      "id": "auto:admissions:2026-11-19",
+      "date": "2026-11-19",
+      "kind": "admissions",
+      "tag": "update",
+      "target": "application",
+      "title": {
+        "ja": "出願情報を更新しました",
+        "zh": "出愿信息已更新",
+        "tw": "出願資訊已更新",
+        "en": "Admissions information updated"
+      },
+      "body": {
+        "ja": "大学公式サイトの通知・募集要項と、期限内の出願日程を確認できます。専攻・入試区分ごとの条件は原文をご確認ください。",
+        "zh": "可查看大学官网通知、募集要项及未过期的出愿日程，具体专攻、批次与要求请核对官网原文。",
+        "tw": "可查看大學官網通知、募集要項及未過期的出願日程，具體專攻、批次與要求請核對官網原文。",
+        "en": "View official university notices, guidelines and unexpired application windows. Check the source for each program and admission round."
+      }
+    },
+    {
       "id": "auto:research:2026-11-18",
       "date": "2026-11-18",
       "kind": "research",
@@ -249,12 +287,12 @@
     }
   ],
   "source_fingerprints": {
-    "research": "85c9872399bfde89a3b4dfa38ee73fc91c49f1165319306fc52780ca31ab32c0",
-    "admissions": "f96130f56f187dbdfe22e7f244813e4cfe1a1559057238de470ea71399b99c13",
+    "research": "94d2cae5a5a96e26e43ecab2f382e4aaa49ca2d8d1eb87305994639f8f0881fb",
+    "admissions": "46792f3d8392ef58c851f78e0199411ed409913347c5ff526b114139cb1e49dc",
     "honors": "a6c386283d8c2347a716973a3cc551d7bff9fb600e1c9a6519696d81b08acfb4",
     "schedule": "ac4ec3b4f4a611893f5fc3725587046c78104d9a4896432adb4a6b044b44a64e",
     "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
     "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
   },
-  "updated_at": "2026-11-18T00:19:03+09:00"
+  "updated_at": "2026-11-19T00:19:00+09:00"
 }

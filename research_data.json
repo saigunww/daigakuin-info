@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1093/plphys/kiag857",
+      "doi": "10.1093/plphys/kiag857",
+      "title": "A Century of Acid Growth: From Classical Physiology to a Molecular Framework for Auxin-Mediated Cell Expansion.",
+      "summary": {
+        "ja": "この総説は、植物ホルモンのオーキシンが細胞の伸長を促す酸成長説の発展を整理した。近年の知見を統合し、根ではオーキシンが細胞表面をアルカリ性にして成長を抑える場合もあると示した。",
+        "zh": "这篇综述梳理了植物激素生长素促进细胞伸长的酸生长理论及其发展。综合近期研究后，作者指出生长素在根中也可能使细胞表面碱化并抑制生长。",
+        "tw": "這篇綜述梳理了植物激素生長素促進細胞伸長的酸生長理論及其發展。綜合近期研究後，作者指出生長素在根中也可能使細胞表面鹼化並抑制生長。",
+        "en": "This review traces the development of acid growth theory, which explains how the plant hormone auxin can promote cell expansion. It brings together recent findings and highlights that auxin can also cause surface alkalinization and inhibit growth in roots."
+      },
+      "source": "Plant physiology",
+      "published_at": "2026-11-17",
+      "url": "https://doi.org/10.1093/plphys/kiag857",
+      "added_on": "2026-11-19",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43042566/"
+    },
+    {
+      "id": "doi:10.1039/d6dt02351g",
+      "doi": "10.1039/d6dt02351g",
+      "title": "Breaking centrosymmetry induces piezo-pyroelectric coupling in sulfur-vacancy Bi<sub>2</sub>S<sub>3</sub> for enhanced hydrogen evolution.",
+      "summary": {
+        "ja": "研究チームは硫黄原子を欠損させた硫化ビスマスを作り、結晶の対称性が崩れたことを光学的に確認した。この材料は超音波下で水素生成が向上し、対照実験では熱電効果が主に寄与することが示された。",
+        "zh": "研究人员在硫化铋中制造硫空位，并用光学证据确认晶体对称性被打破。这种材料在超声激发下提高了产氢能力，对照实验显示热释电效应是主要贡献。",
+        "tw": "研究人員在硫化鉍中製造硫空位，並用光學證據確認晶體對稱性被打破。這種材料在超音波激發下提高了產氫能力，對照實驗顯示熱釋電效應是主要貢獻。",
+        "en": "Researchers introduced sulfur vacancies into bismuth sulfide and used optical evidence to confirm that its crystal symmetry was broken. The modified material produced more hydrogen under ultrasound, and control experiments indicated that the pyroelectric effect was the main contributor."
+      },
+      "source": "Dalton transactions (Cambridge, England : 2003)",
+      "published_at": "2026-11-17",
+      "url": "https://doi.org/10.1039/d6dt02351g",
+      "added_on": "2026-11-19",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42992971/"
+    },
+    {
+      "id": "doi:10.1093/nar/gkag1183",
+      "doi": "10.1093/nar/gkag1183",
+      "title": "HIPPIE 3.0: expanding experimental evidence for mining and predicting protein interaction networks.",
+      "summary": {
+        "ja": "研究チームはヒトのタンパク質間相互作用データベースを更新し、実験で裏付けられた約120万件の相互作用を収録した。検証済みの非相互作用ペアや予測モデルの評価用データも追加し、データ漏洩による性能の過大評価を減らせるようにした。",
+        "zh": "研究人员更新了人类蛋白质相互作用数据库，收录约120万条有实验支持的相互作用。新版还加入经实验测试但未相互作用的蛋白质对和评估数据生成工具，以减少数据泄漏导致的性能高估。",
+        "tw": "研究人員更新了人類蛋白質交互作用資料庫，收錄約120萬筆有實驗支持的交互作用。新版還加入經實驗測試但未交互作用的蛋白質對和評估資料產生工具，以減少資料洩漏導致的效能高估。",
+        "en": "Researchers updated a human protein interaction database to include about 1.2 million experimentally supported interactions and revised confidence scores. The resource also adds experimentally tested non-interacting pairs and tools for creating evaluation datasets designed to reduce inflated prediction scores caused by data leakage."
+      },
+      "source": "Nucleic acids research",
+      "published_at": "2026-11-17",
+      "url": "https://doi.org/10.1093/nar/gkag1183",
+      "added_on": "2026-11-19",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43042462/"
+    },
+    {
       "id": "doi:10.1371/journal.pntd.0014346",
       "doi": "10.1371/journal.pntd.0014346",
       "title": "Transcriptomic profiling of embryo-derived cell lines from the Chagas disease insect vector Rhodnius prolixus (Hemiptera: Triatominae).",
@@ -358,5 +409,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-18T00:19:03+09:00"
+  "updated_at": "2026-11-19T00:19:00+09:00"
 }
