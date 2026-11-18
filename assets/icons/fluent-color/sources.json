@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project": "Microsoft Fluent UI System Icons — Color",
+  "repository": "https://github.com/microsoft/fluentui-system-icons",
+  "commit": "41089846ad80c5749df505aef35a68712c1561b9",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2020 Microsoft Corporation",
+  "license_file": "LICENSE",
+  "notice_file": "NOTICE",
+  "assets": [
+    {
+      "file": "molecule.svg",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/41089846ad80c5749df505aef35a68712c1561b9/assets/Molecule/SVG/ic_fluent_molecule_48_color.svg",
+      "sha256": "d0794b6b11a82a0f4138f85bc2ebfa52c896dbbd538870cb6e0b7b212150ad2a",
+      "modifications": "none"
+    },
+    {
+      "file": "academy.svg",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/41089846ad80c5749df505aef35a68712c1561b9/assets/Building%20Government/SVG/ic_fluent_building_government_32_color.svg",
+      "sha256": "85af9f7ac88e2777abb9a79882d1f32c6bc5d15fa806ba47c3a4448bd608be8f",
+      "modifications": "none"
+    },
+    {
+      "file": "book-open.svg",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/41089846ad80c5749df505aef35a68712c1561b9/assets/Book%20Open/SVG/ic_fluent_book_open_48_color.svg",
+      "sha256": "3d655edd351850463bc14fa72c6fc62a349eb23e2ad0f95ed7d6a3d819d9ad7b",
+      "modifications": "none"
+    },
+    {
+      "file": "globe.svg",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/41089846ad80c5749df505aef35a68712c1561b9/assets/Globe/SVG/ic_fluent_globe_24_color.svg",
+      "sha256": "b726489c1c3e0438b0d9f2d85495643c1e1d8dbaf44613290baf3efce115fd34",
+      "modifications": "none"
+    }
+  ]
+}
