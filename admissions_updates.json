@@ -1479,9 +1479,9 @@
         44
       ],
       "title": "入試日程・募集要項|東北大学 大学院 生命科学研究科",
-      "checked_on": "2026-11-19",
+      "checked_on": "2026-11-20",
       "changed_on": "2026-11-12",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "0a427253097c126be89e891920136c7c7d77f78e1ff62738fa1fdd5b80d91131",
       "notices": [
         {
@@ -1517,9 +1517,7 @@
           "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/admission/schedule/"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-20",
-      "error": "ConnectionError"
+      "application_windows": []
     },
     {
       "url": "https://www.sci.nagoya-u.ac.jp/admission/graduate/",
@@ -2601,5 +2599,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-20T00:18:27+09:00"
+  "updated_at": "2026-11-20T06:17:17+09:00"
 }

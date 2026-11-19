@@ -913,8 +913,8 @@
       "dEn": "生命科学研究科",
       "mEn": "生命科学専攻",
       "coEn": "Master",
-      "source_checked_on": "2026-11-19",
-      "source_status": "unavailable"
+      "source_checked_on": "2026-11-20",
+      "source_status": "ok"
     },
     {
       "id": 45,
@@ -2050,5 +2050,5 @@
     }
   ],
   "source_type": "university_official",
-  "updated_at": "2026-11-20T00:18:27+09:00"
+  "updated_at": "2026-11-20T06:17:17+09:00"
 }
