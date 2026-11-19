@@ -355,9 +355,9 @@
         10
       ],
       "title": "入試情報 | 広島大学",
-      "checked_on": "2026-11-18",
+      "checked_on": "2026-11-19",
       "changed_on": "2026-11-12",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "b98d57838ed5e4c42a526cf59f29e8cd6f13d5fc78d7b444163d73c1c57a91b1",
       "notices": [
         {
@@ -377,9 +377,7 @@
           "url": "https://www.hiroshima-u.ac.jp/bhs/admission/exam"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-19",
-      "error": "HTTPError"
+      "application_windows": []
     },
     {
       "url": "https://www.med.kanazawa-u.ac.jp/master/index.html",
@@ -1155,9 +1153,9 @@
         34
       ],
       "title": "入試情報 | 広島大学",
-      "checked_on": "2026-11-18",
+      "checked_on": "2026-11-19",
       "changed_on": "2026-11-12",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "5791a07d41806cab62b195293299178051ec39a4e97ae7aca1cb17100670553f",
       "notices": [
         {
@@ -1193,9 +1191,7 @@
           "url": "https://www.hiroshima-u.ac.jp/ilife/nyuusi_admission"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-19",
-      "error": "HTTPError"
+      "application_windows": []
     },
     {
       "url": "https://www.ans.kobe-u.ac.jp/jyukensei/siken02.html",
@@ -2488,14 +2484,14 @@
         93
       ],
       "title": "入試情報 | 広島大学",
-      "checked_on": "2026-11-18",
+      "checked_on": "2026-11-19",
       "changed_on": "2026-11-12",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "a842e0fe8e4d3c5889932fe657bcb6a42bea1e3af0f5ac6e967d36abb95d38d3",
       "notices": [
         {
           "title": "入試情報",
-          "url": "https://www.hiroshima-u.ac.jp/adse/admission"
+          "url": "https://www.hiroshima-u.ac.jp/index.php/adse/admission"
         },
         {
           "title": "博士課程前期 学生募集について",
@@ -2508,11 +2504,13 @@
         {
           "title": "国際連携専攻 学生募集について",
           "url": "https://www.hiroshima-u.ac.jp/adse/admission/%E5%9B%BD%E9%9A%9B%E9%80%A3%E6%90%BA%E5%B0%82%E6%94%BB%EF%BC%88%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%B3%E3%83%88%E3%83%BB%E3%83%87%E3%82%A3%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%EF%BC%89%E5%85%A5%E8%A9%A6%E6%83%85%E5%A0%B1"
+        },
+        {
+          "title": "入試情報",
+          "url": "https://www.hiroshima-u.ac.jp/adse/admission"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-19",
-      "error": "HTTPError"
+      "application_windows": []
     },
     {
       "url": "https://www.nst.kanazawa-u.ac.jp/admission/master/",
@@ -2614,5 +2612,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-19T08:18:17+09:00"
+  "updated_at": "2026-11-19T13:18:17+09:00"
 }
