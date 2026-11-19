@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1097/mnh.0000000000001245",
+      "doi": "10.1097/mnh.0000000000001245",
+      "title": "Genetics of hypertension.",
+      "summary": {
+        "ja": "この総説は、血圧や治療抵抗性高血圧に関連する多数の遺伝的領域と、腎臓やアルドステロンに関わる候補遺伝子を整理した。遺伝子検査などの臨床応用が進む一方、多遺伝子リスクスコアは個人の診療判断にはまだ使えないとした。",
+        "zh": "这篇综述梳理了与血压及难治性高血压相关的众多遗传区域，以及涉及肾脏和醛固酮的候选基因。综述指出，基因检测等已有临床应用前景，但多基因风险评分尚不能用于个人诊疗决策。",
+        "tw": "這篇綜述整理了與血壓及難治性高血壓相關的眾多遺傳區域，以及涉及腎臟和醛固酮的候選基因。綜述指出，基因檢測等已有臨床應用前景，但多基因風險評分尚不能用於個人診療決策。",
+        "en": "This review brought together genetic findings on blood pressure and resistant hypertension, including candidate genes linked to kidney function and the aldosterone pathway. It identified genetic testing and related evaluations as ready for clinical use, while concluding that polygenic risk scores are not yet ready to guide individual clinical decisions."
+      },
+      "source": "Current opinion in nephrology and hypertension",
+      "published_at": "2026-11-19",
+      "url": "https://doi.org/10.1097/mnh.0000000000001245",
+      "added_on": "2026-11-20",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43048817/"
+    },
+    {
+      "id": "doi:10.1039/d6ob01561a",
+      "doi": "10.1039/d6ob01561a",
+      "title": "Organophotoredox-catalyzed decarboxylative alkyl radical addition and cyclization-reductive protonation of <i>N</i>-allyl acrylamides.",
+      "summary": {
+        "ja": "研究者らは、可視光と有機光触媒を使い、アクリルアミド誘導体からオクタヒドロインドール骨格を作る反応を開発した。この穏やかで簡便な方法は幅広い原料に適用でき、金属を使わない付加反応にも利用できた。",
+        "zh": "研究人员利用可见光和有机光催化剂，开发了从丙烯酰胺衍生物构建八氢吲哚骨架的反应。该方法条件温和、操作简单，适用于多种原料，也实现了无需金属的加成反应。",
+        "tw": "研究人員利用可見光和有機光催化劑，開發了從丙烯醯胺衍生物構建八氫吲哚骨架的反應。此方法條件溫和、操作簡單，適用於多種原料，也實現了不使用金屬的加成反應。",
+        "en": "Researchers developed a visible-light reaction that uses an organic photocatalyst to build octahydroindole structures from acrylamide derivatives. The mild, simple method worked with a broad range of starting materials and also enabled a metal-free addition reaction, with a tertiary amine acting as a reducing agent."
+      },
+      "source": "Organic & biomolecular chemistry",
+      "published_at": "2026-11-18",
+      "url": "https://doi.org/10.1039/d6ob01561a",
+      "added_on": "2026-11-20",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43049057/"
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0362843",
+      "doi": "10.1371/journal.pone.0362843",
+      "title": "Machine learning for host-pathogen protein-protein interaction prediction: A tutorial paper.",
+      "summary": {
+        "ja": "研究者らは、ヒトと細菌のタンパク質間相互作用を予測する機械学習の手順を、実行可能な教材として作成した。6種類の分類器のうちLightGBMが交差検証で最も高い平均性能を示し、独立データと未学習の病原体でも評価された。",
+        "zh": "研究人员制作了一套可运行的机器学习教程，用于预测人类与细菌蛋白质之间的相互作用。六种分类器中，LightGBM的平均交叉验证表现最好，随后又用独立测试集和未见过的病原体进行评估。",
+        "tw": "研究人員製作了一套可執行的機器學習教學流程，用於預測人類與細菌蛋白質之間的交互作用。六種分類器中，LightGBM的平均交叉驗證表現最佳，之後又以獨立測試集和未見過的病原體進行評估。",
+        "en": "Researchers created a reproducible machine learning tutorial for predicting interactions between human and bacterial proteins using six classifiers. LightGBM had the highest average cross-validation performance and was then assessed on an independent test set and with validation designed to examine generalization to previously unseen bacterial pathogens."
+      },
+      "source": "PloS one",
+      "published_at": "2026-11-17",
+      "url": "https://doi.org/10.1371/journal.pone.0362843",
+      "added_on": "2026-11-20",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43043908/"
+    },
+    {
       "id": "doi:10.1093/plphys/kiag857",
       "doi": "10.1093/plphys/kiag857",
       "title": "A Century of Acid Growth: From Classical Physiology to a Molecular Framework for Auxin-Mediated Cell Expansion.",
@@ -409,5 +460,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-19T00:19:00+09:00"
+  "updated_at": "2026-11-20T01:19:34+09:00"
 }

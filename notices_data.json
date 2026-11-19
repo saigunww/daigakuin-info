@@ -20,6 +20,25 @@
       }
     },
     {
+      "id": "auto:research:2026-11-20",
+      "date": "2026-11-20",
+      "kind": "research",
+      "tag": "update",
+      "target": "daily-research",
+      "title": {
+        "ja": "研究論文紹介を更新しました",
+        "zh": "每日研究已更新",
+        "tw": "每日研究已更新",
+        "en": "Research papers updated"
+      },
+      "body": {
+        "ja": "生物・化学・AI生命科学の論文を計27件掲載しています。各論文に2文の成果紹介と原文リンクがあります。",
+        "zh": "现收录27篇生物、化学与AI生命科学论文，每篇附两句话的成果介绍及原文链接。",
+        "tw": "現收錄27篇生物、化學與AI生命科學論文，每篇附兩句話的成果介紹及原文連結。",
+        "en": "The collection contains 27 papers in biology, chemistry and AI for life sciences, with two-sentence findings and original paper links."
+      }
+    },
+    {
       "id": "auto:research:2026-11-19",
       "date": "2026-11-19",
       "kind": "research",
@@ -306,12 +325,12 @@
     }
   ],
   "source_fingerprints": {
-    "research": "94d2cae5a5a96e26e43ecab2f382e4aaa49ca2d8d1eb87305994639f8f0881fb",
+    "research": "f7a3af9a6a2f2d68c8f8d3049ee305546da83e286e8826a52234bbca9afe1527",
     "admissions": "b80b8c7b06a89fc96bbc9647981c7971df46be23e50e611ec3c9a1b1a7958511",
     "honors": "a6c386283d8c2347a716973a3cc551d7bff9fb600e1c9a6519696d81b08acfb4",
     "schedule": "ac4ec3b4f4a611893f5fc3725587046c78104d9a4896432adb4a6b044b44a64e",
     "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
     "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
   },
-  "updated_at": "2026-11-20T00:19:45+09:00"
+  "updated_at": "2026-11-20T01:19:34+09:00"
 }
