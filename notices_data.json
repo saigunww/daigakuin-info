@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "id": "auto:admissions:2026-11-20",
+      "date": "2026-11-20",
+      "kind": "admissions",
+      "tag": "update",
+      "target": "application",
+      "title": {
+        "ja": "出願情報を更新しました",
+        "zh": "出愿信息已更新",
+        "tw": "出願資訊已更新",
+        "en": "Admissions information updated"
+      },
+      "body": {
+        "ja": "大学公式サイトの通知・募集要項と、期限内の出願日程を確認できます。専攻・入試区分ごとの条件は原文をご確認ください。",
+        "zh": "可查看大学官网通知、募集要项及未过期的出愿日程，具体专攻、批次与要求请核对官网原文。",
+        "tw": "可查看大學官網通知、募集要項及未過期的出願日程，具體專攻、批次與要求請核對官網原文。",
+        "en": "View official university notices, guidelines and unexpired application windows. Check the source for each program and admission round."
+      }
+    },
+    {
       "id": "auto:research:2026-11-19",
       "date": "2026-11-19",
       "kind": "research",
@@ -288,11 +307,11 @@
   ],
   "source_fingerprints": {
     "research": "94d2cae5a5a96e26e43ecab2f382e4aaa49ca2d8d1eb87305994639f8f0881fb",
-    "admissions": "460f29a2ce697020760997e6a7a906446d8edbb995aec79129cb0a8b087625bb",
+    "admissions": "b80b8c7b06a89fc96bbc9647981c7971df46be23e50e611ec3c9a1b1a7958511",
     "honors": "a6c386283d8c2347a716973a3cc551d7bff9fb600e1c9a6519696d81b08acfb4",
     "schedule": "ac4ec3b4f4a611893f5fc3725587046c78104d9a4896432adb4a6b044b44a64e",
     "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
     "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
   },
-  "updated_at": "2026-11-19T13:18:26+09:00"
+  "updated_at": "2026-11-20T00:19:45+09:00"
 }
