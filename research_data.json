@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.7554/elife.108797",
+      "doi": "10.7554/elife.108797",
+      "title": "Explainable machine learning-assisted exploration of chromatin dynamics reveals chromosome-specific response to serum starvation.",
+      "summary": {
+        "ja": "血清飢餓中の細胞を連続撮影し、染色体1の領域が最初の1時間に核膜へ移動する様子を捉えた。機械学習による解析では、核の周辺に近い相同染色体ほど強く反応し、限られた空間内でも動きや長距離の移動を示した。",
+        "zh": "研究人员连续拍摄血清饥饿条件下的细胞，发现1号染色体的部分区域在最初一小时向核膜移动。机器学习分析显示，位置更靠近核周边的同源染色体反应更强，并在受限空间中保持活动，出现长距离跳跃。",
+        "tw": "研究人員連續拍攝血清飢餓條件下的細胞，發現1號染色體的部分區域在最初一小時向核膜移動。機器學習分析顯示，位置更靠近細胞核周邊的同源染色體反應更強，並在受限空間中保持活動，出現長距離跳躍。",
+        "en": "Time-lapse imaging showed that chromosome 1 regions moved toward the nuclear envelope during the first hour of serum starvation in cells. Machine learning analysis revealed continued movement in a constrained space and long jumps at the nuclear periphery, with the more peripheral homolog responding more strongly."
+      },
+      "source": "eLife",
+      "published_at": "2026-11-19",
+      "url": "https://doi.org/10.7554/elife.108797",
+      "added_on": "2026-11-21",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43055753/"
+    },
+    {
+      "id": "doi:10.1007/s00604-026-08556-9",
+      "doi": "10.1007/s00604-026-08556-9",
+      "title": "Cooperative DSN-Cas12a cascade and Cu/Zr-MOF nanozyme for label-free electrochemical detection of circulating exosomal miR-21 in colorectal cancer.",
+      "summary": {
+        "ja": "大腸がん患者の血中エクソソームに含まれるmiR-21を高感度に測る電気化学センサーを開発した。このセンサーは患者と健常対照者を識別し、既存の測定法と一致する結果を示した。",
+        "zh": "研究人员开发了一种电化学生物传感器，用于高灵敏度检测血液外泌体中的miR-21。该传感器区分了结直肠癌患者与健康对照者，结果与现有检测方法一致，显示出液体活检的潜力。",
+        "tw": "研究人員開發了一種電化學生物感測器，用於高靈敏度偵測血液外泌體中的miR-21。該感測器區分了大腸直腸癌患者與健康對照者，結果與現有檢測方法一致，顯示出液態切片的潛力。",
+        "en": "Researchers developed a sensitive electrochemical sensor for miR-21 carried in circulating exosomes. It distinguished colorectal cancer patients from healthy controls, with results consistent with an established measurement method, suggesting potential for liquid biopsy."
+      },
+      "source": "Mikrochimica acta",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1007/s00604-026-08556-9",
+      "added_on": "2026-11-21",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43058268/"
+    },
+    {
+      "id": "doi:10.1007/s00210-026-06065-3",
+      "doi": "10.1007/s00210-026-06065-3",
+      "title": "Exploring candidate molecular links between acetamiprid-related targets and osteosarcoma-associated signatures using network toxicology, transcriptomic analyses, and in vitro validation.",
+      "summary": {
+        "ja": "公開遺伝子データなどの解析から、アセタミプリド関連標的と骨肉腫の特徴を結ぶ候補としてCATを優先した。U-2 OS細胞では処理によって代謝活性、傷の閉鎖、CAT発現が変化したが、骨肉腫との因果関係は未確立である。",
+        "zh": "研究人员分析公开基因数据等资料，将CAT列为联系啶虫脒相关靶点与骨肉瘤特征的优先候选分子。啶虫脒处理改变了U-2 OS细胞的代谢活性、划痕闭合和CAT表达，但尚未确立其与骨肉瘤的因果关系。",
+        "tw": "研究人員分析公開基因資料等資訊，將CAT列為連結亞滅培相關標靶與骨肉瘤特徵的優先候選分子。亞滅培處理改變了U-2 OS細胞的代謝活性、刮痕閉合和CAT表現，但尚未確立其與骨肉瘤的因果關係。",
+        "en": "Analysis of public gene datasets and other data prioritized CAT as a candidate link between acetamiprid-related targets and osteosarcoma signatures. In U-2 OS cells, acetamiprid changed metabolic activity, wound closure and CAT expression, but the findings do not establish a causal relationship with osteosarcoma."
+      },
+      "source": "Naunyn-Schmiedeberg's archives of pharmacology",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1007/s00210-026-06065-3",
+      "added_on": "2026-11-21",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43058337/"
+    },
+    {
       "id": "doi:10.1097/mnh.0000000000001245",
       "doi": "10.1097/mnh.0000000000001245",
       "title": "Genetics of hypertension.",
@@ -460,5 +511,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-20T01:19:34+09:00"
+  "updated_at": "2026-11-21T00:20:06+09:00"
 }
