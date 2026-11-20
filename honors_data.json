@@ -235,6 +235,15 @@
       "field": "agriculture-environment"
     },
     {
+      "id": "f126496fd027d5c2cb14bc8521f980e67da63ee7f35ad645bec51f4804815f40",
+      "name": "邵同学",
+      "university": "東京大学医学系研究科",
+      "year": "2027",
+      "subject": "bio",
+      "image": "assets/honors/f126496fd027d5c2cb14bc85.webp",
+      "field": "medicine"
+    },
+    {
       "id": "e3730b0f50f79690df4bddda0fa2a61520ec6517aab9f65f612720c81a0acd41",
       "name": "邵同学",
       "university": "東京慈恵会医科大学医学研究科",
@@ -790,11 +799,11 @@
     "years": [
       {
         "year": "2027",
-        "total": 28,
+        "total": 29,
         "universities": [
           {
             "name": "東京大学",
-            "count": 16
+            "count": 17
           },
           {
             "name": "京都大学",
@@ -839,11 +848,11 @@
         ],
         "by_subject": {
           "bio": {
-            "total": 18,
+            "total": 19,
             "universities": [
               {
                 "name": "東京大学",
-                "count": 11
+                "count": 12
               },
               {
                 "name": "京都大学",
@@ -908,11 +917,11 @@
         },
         "by_field": {
           "medicine": {
-            "total": 5,
+            "total": 6,
             "universities": [
               {
                 "name": "東京大学",
-                "count": 2
+                "count": 3
               },
               {
                 "name": "慶應義塾大学",
@@ -929,11 +938,11 @@
             ],
             "by_subject": {
               "bio": {
-                "total": 5,
+                "total": 6,
                 "universities": [
                   {
                     "name": "東京大学",
-                    "count": 2
+                    "count": 3
                   },
                   {
                     "name": "慶應義塾大学",
@@ -2480,5 +2489,5 @@
     "unassigned_total": 0,
     "pending_review_total": 2
   },
-  "updated_at": "2026-11-16T15:21:09+09:00"
+  "updated_at": "2026-11-20T13:29:24+09:00"
 }
