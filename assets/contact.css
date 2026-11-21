@@ -23,3 +23,5 @@ body.dark #contact .consult-panel{background:#20352e;color:#edf3e8}body.dark #co
 #contact .consult-channels{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 #contact .consult-qr{padding:18px 12px}
 @media(max-width:480px){#contact .consult-channels{grid-template-columns:1fr}#contact .consult-qr{padding:24px}}
+
+#contact .consult-line{grid-column:1/-1;display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:center}#contact .consult-line img{margin:0;width:150px}#contact .consult-line-link{display:inline-block;margin-top:14px;padding:10px 14px;border-radius:7px;background:#087c3b;color:#fff;font-weight:700;text-decoration:none;font-size:14px}#contact .consult-line-link:hover{background:#05632e}@media(max-width:480px){#contact .consult-line{display:block}#contact .consult-line img{width:200px;margin:0 auto 18px}}
