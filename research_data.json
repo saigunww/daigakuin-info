@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1210/endrev/bnag045",
+      "doi": "10.1210/endrev/bnag045",
+      "title": "Past, present and future of Estetrol (E4); a natural fetal estrogen for human use.",
+      "summary": {
+        "ja": "胎児の肝臓で作られるエステトロールについて、25年間の研究と臨床開発を総説にまとめた。配合経口避妊薬の有効性や閉経後女性の症状改善が報告され、安全性の向上や新たな用途が期待される。",
+        "zh": "这篇综述梳理了胎儿肝脏产生的雌激素雌四醇的25年研究与临床开发。研究显示其复方口服避孕药有效，并可改善绝经后女性的部分症状；更好的安全性和其他用途仍有待进一步研究。",
+        "tw": "這篇綜述整理了胎兒肝臟產生的雌激素雌四醇的25年研究與臨床開發。研究顯示其複方口服避孕藥有效，並可改善停經後女性的部分症狀；更好的安全性和其他用途仍有待進一步研究。",
+        "en": "This review brings together 25 years of research and clinical development of estetrol, an estrogen made by the fetal liver. It reports effective combined oral contraception and symptom improvements in postmenopausal women, while improved safety and wider applications remain areas for further study."
+      },
+      "source": "Endocrine reviews",
+      "published_at": "2026-11-21",
+      "url": "https://doi.org/10.1210/endrev/bnag045",
+      "added_on": "2026-11-22",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43065308/"
+    },
+    {
+      "id": "doi:10.1007/s00604-026-08568-5",
+      "doi": "10.1007/s00604-026-08568-5",
+      "title": "Self-validating triple-mode sensing platform for tricresyl phosphate based on an aggregation induced emission​-active Zr-MOFs nanozyme.",
+      "summary": {
+        "ja": "研究者らは、色、蛍光、電気化学発光の三つの信号でリン酸トリクレシルを測る材料を開発した。水道水の試料では三つの測定結果が一致し、互いに確認できる検出法となった。",
+        "zh": "研究人员开发了一种材料，可用颜色、荧光和电化学发光三种信号检测磷酸三甲苯酯。在自来水样品中，三种方法的结果一致，显示出相互验证检测结果的潜力。",
+        "tw": "研究人員開發了一種材料，可用顏色、螢光和電化學發光三種信號檢測磷酸三甲苯酯。在自來水樣品中，三種方法的結果一致，顯示出相互驗證檢測結果的潛力。",
+        "en": "Researchers developed a material that detects tricresyl phosphate using color, fluorescence, and electrochemiluminescence signals. The three methods gave consistent results in tap water samples, suggesting they can help check one another’s measurements."
+      },
+      "source": "Mikrochimica acta",
+      "published_at": "2026-11-21",
+      "url": "https://doi.org/10.1007/s00604-026-08568-5",
+      "added_on": "2026-11-22",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43064814/"
+    },
+    {
+      "id": "doi:10.1093/nar/gkag1214",
+      "doi": "10.1093/nar/gkag1214",
+      "title": "FusionGDB 3.0: integrating breakpoints, generating personalized sequences, and inferring tumorigenic scenarios for human fusion genes.",
+      "summary": {
+        "ja": "研究者らはヒトの融合遺伝子を調べるデータベースを更新し、切断点や個人ごとの融合タンパク質配列を統合した。文献に基づく発がんの可能性も整理され、融合遺伝子の機能研究に役立つ情報源となった。",
+        "zh": "研究人员更新了人类融合基因数据库，整合断点信息和个体化融合蛋白序列。数据库还汇集了文献支持的潜在肿瘤发生情景，为研究融合基因功能提供了资源。",
+        "tw": "研究人員更新了人類融合基因資料庫，整合斷點資訊和個人化融合蛋白序列。資料庫也彙整了文獻支持的潛在腫瘤發生情境，為研究融合基因功能提供了資源。",
+        "en": "Researchers updated a human fusion gene database with breakpoint information and personalized fusion protein sequences. They also organized literature-supported possible scenarios for tumor development, providing a resource for studying the functions of fusion genes."
+      },
+      "source": "Nucleic acids research",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1093/nar/gkag1214",
+      "added_on": "2026-11-22",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43059400/"
+    },
+    {
       "id": "doi:10.7554/elife.108797",
       "doi": "10.7554/elife.108797",
       "title": "Explainable machine learning-assisted exploration of chromatin dynamics reveals chromosome-specific response to serum starvation.",
@@ -511,5 +562,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-21T00:20:06+09:00"
+  "updated_at": "2026-11-22T05:19:18+09:00"
 }
