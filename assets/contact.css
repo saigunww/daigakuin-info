@@ -1,0 +1,25 @@
+#contact{scroll-margin-top:180px}
+/* Contact channels shared with the research program website. */
+#contact .consult-panel{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;background:#f0f2e9;color:#193e35;border-radius:24px;padding:64px 48px;margin:24px 0}
+#contact .consult-eyebrow{font-size:12px;letter-spacing:.14em;font-weight:700;color:#42705e;margin:0 0 20px}
+#contact .consult-title{font-size:clamp(30px,3.4vw,46px);line-height:1.35;margin:0 0 22px;font-weight:700}
+#contact .consult-description{font-size:16px;line-height:1.9;margin:0 0 28px;color:#4a6258}
+#contact .consult-button{display:inline-flex;gap:30px;align-items:center;background:#193e35;color:white;text-decoration:none;padding:14px 24px;border-radius:8px;font-weight:700}
+#contact .consult-button:hover{background:#2d5f4d}
+#contact .consult-email{display:block;margin-top:16px;font-size:15px;color:inherit;overflow-wrap:anywhere;text-underline-offset:4px}
+#contact .consult-channels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#contact .consult-qr{background:#fff;border:1px solid #dce4d8;border-radius:18px;padding:24px 16px;text-align:center;min-width:0}
+#contact .consult-qr img{display:block;width:100%;max-width:200px;height:auto;aspect-ratio:1;object-fit:contain;margin:0 auto 18px;background:white}
+#contact .consult-qr h2{font-size:18px;margin:0 0 8px;line-height:1.5}
+#contact .consult-qr p{font-size:13px;line-height:1.6;margin:0;color:#596e62}
+#contact a:focus-visible{outline:3px solid #b07925;outline-offset:5px}
+body.dark #contact .consult-panel{background:#20352e;color:#edf3e8}body.dark #contact .consult-description,body.dark #contact .consult-eyebrow{color:#b6cabc}body.dark #contact .consult-qr{background:#2c4439;border-color:#456052}body.dark #contact .consult-qr p{color:#c6d5c9}body.dark #contact .consult-button{background:#dceacb;color:#16372d}
+@media(max-width:960px){#contact .consult-panel{grid-template-columns:1fr;gap:36px;padding:36px 28px}#contact .consult-channels{max-width:580px;width:100%}}
+@media(max-width:480px){#contact .consult-panel{padding:30px 18px;border-radius:18px}#contact .consult-channels{grid-template-columns:1fr}#contact .consult-qr{padding:24px}#contact .consult-title{font-size:30px}}
+
+/* This is a home-page card directly below the external links. */
+#contact .consult-panel{grid-template-columns:1fr;gap:26px;padding:30px 22px;margin:24px 0 0;border-radius:18px}
+#contact .consult-title{font-size:30px}
+#contact .consult-channels{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+#contact .consult-qr{padding:18px 12px}
+@media(max-width:480px){#contact .consult-channels{grid-template-columns:1fr}#contact .consult-qr{padding:24px}}
