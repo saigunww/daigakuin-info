@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1371/journal.pone.0361194",
+      "doi": "10.1371/journal.pone.0361194",
+      "title": "Effects of proton pump inhibitors on serum and fecal biomarkers and intestinal microbiota in dogs.",
+      "summary": {
+        "ja": "健康なゴールデンレトリバーを対象に、胃酸を抑える薬の腸内細菌への影響を調べた。全体的な腸内細菌の乱れや臨床症状は見られなかったが、一部の細菌には変化があった。",
+        "zh": "研究人员在健康金毛犬中评估了抑制胃酸的药物对肠道菌群的影响。整体菌群失调指标和临床表现未见变化，但部分细菌发生了变化。",
+        "tw": "研究人員在健康黃金獵犬中評估了抑制胃酸的藥物對腸道菌群的影響。整體菌群失調指標和臨床表現未見變化，但部分細菌發生了變化。",
+        "en": "Researchers assessed how acid-suppressing drugs affected gut microbes in healthy Golden Retrievers over 30 days. The overall dysbiosis index and clinical signs did not change, although some bacteria changed in particular treatment groups or individual dogs."
+      },
+      "source": "PloS one",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1371/journal.pone.0361194",
+      "added_on": "2026-11-23",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43063192/"
+    },
+    {
+      "id": "doi:10.1371/journal.ppat.1014772",
+      "doi": "10.1371/journal.ppat.1014772",
+      "title": "A new therapeutic opportunity in Crimean-Congo hemorrhagic fever: Targeting the stalk domain of viral nucleocapsid protein for therapeutic intervention.",
+      "summary": {
+        "ja": "研究者らは、クリミア・コンゴ出血熱ウイルスのタンパク質とRNAの結合を阻害する候補物質を見つけた。候補物質は代替ウイルスを用いた細胞培養で抗ウイルス活性を示し、今後の開発につながる可能性がある。",
+        "zh": "研究人员筛选出可阻碍克里米亚-刚果出血热病毒蛋白与病毒RNA结合的候选化合物。这些化合物在使用替代病毒的细胞培养实验中显示抗病毒活性，仍需进一步开发。",
+        "tw": "研究人員篩選出可阻礙克里米亞-剛果出血熱病毒蛋白與病毒RNA結合的候選化合物。這些化合物在使用替代病毒的細胞培養實驗中顯示抗病毒活性，仍需進一步開發。",
+        "en": "Researchers identified compounds that disrupt binding between a Crimean-Congo hemorrhagic fever virus protein and viral RNA. The compounds showed antiviral activity in cell cultures using a surrogate virus, providing leads for further development rather than an established treatment."
+      },
+      "source": "PLoS pathogens",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1371/journal.ppat.1014772",
+      "added_on": "2026-11-23",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43063196/"
+    },
+    {
+      "id": "doi:10.1093/nar/gkag1144",
+      "doi": "10.1093/nar/gkag1144",
+      "title": "canSAR 2026-an update to the public drug discovery knowledgebase.",
+      "summary": {
+        "ja": "研究者らは、がん創薬のために多様なデータを結び付ける公開基盤canSARを更新した。データと予測ツールを拡充し、ヒトのタンパク質について文脈に応じたAI生成要約を導入した。",
+        "zh": "研究人员更新了整合多种数据的公开癌症药物发现平台canSAR。更新扩充了数据和预测工具，并为人类蛋白质提供根据具体情境生成的人工智能摘要。",
+        "tw": "研究人員更新了整合多種資料的公開癌症藥物探索平台canSAR。更新擴充了資料和預測工具，並為人類蛋白質提供依具體情境產生的人工智慧摘要。",
+        "en": "Researchers updated canSAR, a public platform that connects diverse data to support cancer drug discovery and hypothesis generation. The update expands its data and prediction tools and introduces context-specific AI-generated summaries for human proteins across the website."
+      },
+      "source": "Nucleic acids research",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1093/nar/gkag1144",
+      "added_on": "2026-11-23",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43059368/"
+    },
+    {
       "id": "doi:10.1210/endrev/bnag045",
       "doi": "10.1210/endrev/bnag045",
       "title": "Past, present and future of Estetrol (E4); a natural fetal estrogen for human use.",
@@ -562,5 +613,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-22T05:19:18+09:00"
+  "updated_at": "2026-11-23T02:19:10+09:00"
 }
