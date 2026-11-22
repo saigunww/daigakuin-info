@@ -99,6 +99,9 @@ def drive_tree(api, folder=DRIVE_FOLDER, prefix=''):
 
 def poster_metadata(path):
     p = Path(path)
+    # Working originals and previews are kept beside the published year folders.
+    if p.parts and p.parts[0] == '制作资料':
+        return None
     if p.suffix.lower() not in ('.png','.jpg','.jpeg','.webp'):
         return None
     if not (p.name.startswith('合格榜_') or any(x in p.parts for x in HONOR_SUBJECTS)):

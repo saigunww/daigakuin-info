@@ -45,6 +45,18 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(poster_metadata('2027年度/大学院化学/合格榜_甲同学_测试大学.png')['subject'],'chem')
         self.assertIsNone(poster_metadata('AI科研背景提升/2027年度/notes.txt'))
 
+    def test_poster_working_materials_are_not_public(self):
+        for path in ('制作资料/2026-11-20/合格榜_甲同学_测试大学.png',
+                     '制作资料/大学院生物/录取通知.jpeg',
+                     '制作资料/2027年度/AI科研背景提升/预览.webp'):
+            self.assertIsNone(poster_metadata(path), path)
+
+    def test_working_material_exclusion_only_applies_to_root_folder(self):
+        row=poster_metadata('2027年度/大学院生物/合格榜_甲同学_测试大学.png')
+        self.assertEqual((row['year'],row['subject']),('2027','bio'))
+        self.assertIsNotNone(poster_metadata('制作资料副本/合格榜_甲同学_测试大学.png'))
+        self.assertIsNotNone(poster_metadata('2027年度/大学院生物/制作资料/合格榜_甲同学_测试大学.png'))
+
     def test_paper_date_type_and_doi(self):
         raw={'source':'MED','id':'123','title':'<i>Gene</i> study','doi':'https://doi.org/10.1234/ABC','firstPublicationDate':'2026-11-11','pubTypeList':{'pubType':['Journal Article']}}
         row=candidate(raw,'biology',date(2026,9,1),date(2026,11,12))
