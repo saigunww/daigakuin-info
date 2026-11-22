@@ -57,7 +57,7 @@
 同步环境为 Python 3.12；另需系统 `pdftotext`、Git、已登录的 GitHub CLI，以及使用现有 ChatGPT 账号登录的 Codex CLI。
 
 ```bash
-cd /home/admin-coach-ai/Documents/大学院生化网页/github
+cd /home/admin-coach-ai/Documents/官网主页/大学院生化网页/github
 ../.sync-venv/bin/python -m pip install -r requirements-sync.txt
 ../.sync-venv/bin/python scripts/test_sync.py
 ../.sync-venv/bin/python scripts/sync_data.py
