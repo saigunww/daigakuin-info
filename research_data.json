@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1111/cge.70281",
+      "doi": "10.1111/cge.70281",
+      "title": "Whole-Exome Sequencing for Diagnostic Investigation of 267 Patients From the Brazilian Public Health System (SUS) Followed by Reanalysis of Nondiagnostic Cases.",
+      "summary": {
+        "ja": "ブラジルの公的医療を利用する希少疾患疑いの患者267人に全エクソーム解析を行い、124人で遺伝学的診断が得られた。診断に至らなかった症例を再解析すると、主に新たな遺伝子と疾患の関連や変異の解釈更新により、さらに10人が診断された。",
+        "zh": "研究人员对巴西公立医疗系统中267名疑似罕见病患者进行全外显子组测序，124人获得分子诊断。重新分析未确诊病例后，主要依据新发现的基因与疾病关联及更新的变异解释，又确诊了10人。",
+        "tw": "研究人員對巴西公立醫療系統中267名疑似罕見疾病患者進行全外顯子組定序，124人獲得分子診斷。重新分析未確診病例後，主要依據新發現的基因與疾病關聯及更新的變異解讀，又確診了10人。",
+        "en": "Researchers used whole-exome sequencing to investigate 267 patients with suspected rare diseases in Brazil’s public health system, obtaining molecular diagnoses in 124 cases. Reanalysis of the remaining cases identified 10 additional diagnoses, mainly through newly established gene–disease associations and updated interpretations of variants."
+      },
+      "source": "Clinical genetics",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1111/cge.70281",
+      "added_on": "2026-11-24",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43065171/"
+    },
+    {
+      "id": "doi:10.1016/j.jmb.2026.170102",
+      "doi": "10.1016/j.jmb.2026.170102",
+      "title": "LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins.",
+      "summary": {
+        "ja": "研究者らは、タンパク質の配列から柔軟で無秩序な領域を予測する公開ウェブツールを開発した。二つのベンチマークでは高い予測性能を示し、軽量版は精度を保ちながら高速化された。",
+        "zh": "研究人员开发了公开网页工具，可根据蛋白质序列预测无序柔性连接区。该工具在两项基准测试中表现出较高预测性能，轻量版本则在保持较好准确度的同时提高了速度。",
+        "tw": "研究人員開發了公開網頁工具，可根據蛋白質序列預測無序柔性連接區。此工具在兩項基準測試中展現較高預測效能，輕量版本則在保持良好準確度的同時提高了速度。",
+        "en": "Researchers developed a publicly available web tool that predicts disordered flexible linkers from protein sequences using deep learning. Its main predictor performed strongly on two benchmarks, while a lighter version increased speed and retained competitive accuracy."
+      },
+      "source": "Journal of molecular biology",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170102",
+      "added_on": "2026-11-24",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43064342/"
+    },
+    {
+      "id": "doi:10.1093/jas/skag365",
+      "doi": "10.1093/jas/skag365",
+      "title": "Genetics of bovine viral diarrhea virus antibody response to vaccination in beef calves.",
+      "summary": {
+        "ja": "肉用交雑子牛のワクチン接種後の抗体量を調べ、子牛自身の遺伝と母牛に由来する要因の関係を推定した。接種前の抗体量はその後の反応と強く関連し、母由来の受動免疫を考慮すると母性遺伝率の推定値は低下した。",
+        "zh": "研究人员测量杂交肉牛犊接种疫苗后的抗体水平，估计了犊牛遗传和母体因素的影响。接种前抗体水平与后续反应密切相关，考虑母源被动免疫后，母体遗传力估计值下降。",
+        "tw": "研究人員測量雜交肉牛犢接種疫苗後的抗體濃度，估計了牛犢遺傳和母體因素的影響。接種前抗體濃度與後續反應密切相關，考慮母源被動免疫後，母體遺傳力估計值下降。",
+        "en": "Researchers measured antibody levels in crossbred beef calves around vaccination against bovine viral diarrhea virus and estimated the contributions of calf genetics and maternal factors. Baseline antibody levels were strongly associated with later responses, and estimated maternal heritability decreased when baseline passive immunity was considered."
+      },
+      "source": "Journal of animal science",
+      "published_at": "2026-11-20",
+      "url": "https://doi.org/10.1093/jas/skag365",
+      "added_on": "2026-11-24",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43062198/"
+    },
+    {
       "id": "doi:10.1371/journal.pone.0361194",
       "doi": "10.1371/journal.pone.0361194",
       "title": "Effects of proton pump inhibitors on serum and fecal biomarkers and intestinal microbiota in dogs.",
@@ -613,5 +664,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-23T02:19:10+09:00"
+  "updated_at": "2026-11-24T00:19:28+09:00"
 }
