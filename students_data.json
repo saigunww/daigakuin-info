@@ -1,6 +1,6 @@
 {
   "counting_basis": "active_and_pending_graduation_excludes_leave",
-  "total": 44,
+  "total": 45,
   "items": [
     {
       "group": "bio",
@@ -8,7 +8,7 @@
     },
     {
       "group": "chem",
-      "count": 16
+      "count": 17
     }
   ],
   "schools": [
@@ -58,6 +58,10 @@
     },
     {
       "school": "大理大学",
+      "count": 1
+    },
+    {
+      "school": "大阪大学",
       "count": 1
     },
     {
@@ -158,6 +162,6 @@
     }
   ],
   "unknown_school_count": 1,
-  "checked_at": "2026-11-23T21:17:13+09:00",
-  "updated_at": "2026-11-23T21:17:13+09:00"
+  "checked_at": "2026-11-24T10:17:44+09:00",
+  "updated_at": "2026-11-24T10:17:44+09:00"
 }

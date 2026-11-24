@@ -39,6 +39,25 @@
       }
     },
     {
+      "id": "auto:students:2026-11-24",
+      "date": "2026-11-24",
+      "kind": "students",
+      "tag": "update",
+      "target": "students",
+      "title": {
+        "ja": "在籍者数を更新しました",
+        "zh": "在籍人数统计已更新",
+        "tw": "在籍人數統計已更新",
+        "en": "Enrollment summary updated"
+      },
+      "body": {
+        "ja": "現在の在籍学生は45名です。卒業予定を含み、休学中を除いた人数と出身校の集計を掲載しています。",
+        "zh": "当前在籍学生共45人，含待毕业、不含休学；页面仅展示人数及出身校汇总。",
+        "tw": "目前在籍學生共45人，含待畢業、不含休學；頁面僅展示人數及出身校彙總。",
+        "en": "There are 45 enrolled students, including those awaiting graduation and excluding students on leave. Only counts and origin-school aggregates are published."
+      }
+    },
+    {
       "id": "auto:research:2026-11-23",
       "date": "2026-11-23",
       "kind": "research",
@@ -443,8 +462,8 @@
     "admissions": "93147e07400e7cc32f77df770a610537b6389f86449c9908fa27df13a0672f65",
     "honors": "49257449ff29098d2940ca68cd53c5ffbb7ff9fcba1e0a54c07c828bcc9210fa",
     "schedule": "ac4ec3b4f4a611893f5fc3725587046c78104d9a4896432adb4a6b044b44a64e",
-    "students": "e8712f42b79c36ed7f651d190b7f3df0114130ed0e83b45ab76529e0cb158281",
+    "students": "eb59868c873d941b9ad353aeadf770432318f4cee125816c2710eed7f06450c8",
     "course_flow": "7994e551c6871518ea0efd33df57770a603e3ab1f203290e7656c2b2d641655c"
   },
-  "updated_at": "2026-11-24T00:19:28+09:00"
+  "updated_at": "2026-11-24T10:17:44+09:00"
 }
