@@ -467,9 +467,9 @@
         14
       ],
       "title": "入試情報|大学院入試情報|東京大学大学院 薬学系研究科・薬学部",
-      "checked_on": "2026-11-17",
+      "checked_on": "2026-11-24",
       "changed_on": "2026-11-12",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "20211aa21ffbeb29ad13e887017b5124cfa630473a849d5542e533bb876b66a1",
       "notices": [
         {
@@ -485,9 +485,7 @@
           "url": "https://www.f.u-tokyo.ac.jp/wysiwyg/kcfinder/upload/files/2027%E5%B9%B4%E5%BA%A6%20%E8%96%AC%E5%AD%A6%E7%B3%BB%E7%A0%94%E7%A9%B6%E7%A7%91%E8%96%AC%E5%AD%A6%E5%8D%9A%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%281%29.pdf"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-24",
-      "error": "HTTPError"
+      "application_windows": []
     },
     {
       "url": "https://www.pharm.kyoto-u.ac.jp/entrance-exam/admission-requirements/master-course/",
@@ -2599,5 +2597,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-24T00:17:30+09:00"
+  "updated_at": "2026-11-24T17:17:18+09:00"
 }

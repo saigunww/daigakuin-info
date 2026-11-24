@@ -307,8 +307,8 @@
       "dEn": "薬学系研究科",
       "mEn": "薬科学専攻",
       "coEn": "Master",
-      "source_checked_on": "2026-11-17",
-      "source_status": "unavailable"
+      "source_checked_on": "2026-11-24",
+      "source_status": "ok"
     },
     {
       "id": 15,
@@ -2050,5 +2050,5 @@
     }
   ],
   "source_type": "university_official",
-  "updated_at": "2026-11-24T00:17:30+09:00"
+  "updated_at": "2026-11-24T17:17:18+09:00"
 }
