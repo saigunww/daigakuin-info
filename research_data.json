@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1111/dom.71557",
+      "doi": "10.1111/dom.71557",
+      "title": "Genetics-First Multi-Omic Triangulation Prioritizes Druggable Targets for Complementary Metabolic Traits.",
+      "summary": {
+        "ja": "遺伝子情報と複数の解析を統合し、血糖やインスリンに関わる代謝形質の研究候補として6遺伝子を優先した。脂質と糖によるストレスを受けたMIN6細胞ではCry2の抑制と刺激後のインスリン分泌増加が関連したが、臨床効果は未確立である。",
+        "zh": "研究整合遗传信息和多种分析，筛选出6个与血糖及胰岛素相关代谢性状有关的优先研究基因。在受到糖脂毒性压力的MIN6细胞中，抑制Cry2与刺激后胰岛素分泌增加相关，但临床疗效尚未确立。",
+        "tw": "研究整合遺傳資訊和多種分析，篩選出6個與血糖及胰島素相關代謝性狀有關的優先研究基因。在受到糖脂毒性壓力的MIN6細胞中，抑制Cry2與刺激後胰島素分泌增加相關，但臨床療效尚未確立。",
+        "en": "By combining genetic data with several lines of analysis, researchers prioritized six genes for further study of metabolic traits involving blood sugar and insulin. In MIN6 cells under glucolipotoxic stress, Cry2 suppression was associated with higher stimulated insulin secretion, but clinical benefit remains unestablished."
+      },
+      "source": "Diabetes, obesity & metabolism",
+      "published_at": "2026-11-22",
+      "url": "https://doi.org/10.1111/dom.71557",
+      "added_on": "2026-11-25",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43068959/"
+    },
+    {
+      "id": "doi:10.1007/s40820-026-02358-7",
+      "doi": "10.1007/s40820-026-02358-7",
+      "title": "Predicting Asymmetric Organocatalysis via Machine-Learning-Driven Molecular Dynamics of Chiral Deep Eutectic Solvents.",
+      "summary": {
+        "ja": "機械学習を用いた分子動力学と量子化学計算を組み合わせ、キラル深共晶溶媒中の不斉触媒反応を調べた。シミュレーションは水素結合網の持続性が反応効率や立体選択性に影響することを示し、触媒効率を予測する計算枠組みを提示した。",
+        "zh": "研究结合机器学习驱动的分子动力学和量子化学计算，探索手性深共熔溶剂中的不对称催化。模拟显示氢键网络的持久性会影响反应效率和立体选择性，并据此提出预测催化效率的计算框架。",
+        "tw": "研究結合機器學習驅動的分子動力學和量子化學計算，探索手性深共熔溶劑中的不對稱催化。模擬顯示氫鍵網絡的持久性會影響反應效率和立體選擇性，並據此提出預測催化效率的計算架構。",
+        "en": "Researchers combined machine-learning-driven molecular dynamics with quantum chemical calculations to investigate asymmetric catalysis in chiral deep eutectic solvents. Simulations suggested that hydrogen-bond persistence influences reaction efficiency and stereoselectivity, providing a computational framework for predicting catalytic efficiency."
+      },
+      "source": "Nano-micro letters",
+      "published_at": "2026-11-23",
+      "url": "https://doi.org/10.1007/s40820-026-02358-7",
+      "added_on": "2026-11-25",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43069409/"
+    },
+    {
+      "id": "doi:10.1007/s00210-026-06066-2",
+      "doi": "10.1007/s00210-026-06066-2",
+      "title": "Integrative network toxicology, transcriptomic analysis, and experimental validation identify TOP2A-associated molecular alterations in NNK-related hepatocellular carcinoma.",
+      "summary": {
+        "ja": "遺伝子発現データなどを解析し、たばこ由来のNNKに関連する肝細胞がんの候補分子としてTOP2Aを特定した。2種類の肝がん細胞ではNNKへの曝露に伴い増殖関連活性や遊走性とTOP2A、ORM1のタンパク質量が増えたが、両遺伝子の関係は未確立である。",
+        "zh": "研究分析基因表达等数据，将TOP2A确定为与烟草来源的NNK相关肝细胞癌的候选分子。在两种肝癌细胞中，NNK暴露伴随生长相关活性、迁移表现及TOP2A和ORM1蛋白增加，但两种基因之间的关系尚未证实。",
+        "tw": "研究分析基因表現等資料，將TOP2A確定為與菸草來源的NNK相關肝細胞癌的候選分子。在兩種肝癌細胞中，NNK暴露伴隨生長相關活性、遷移表現及TOP2A和ORM1蛋白增加，但兩個基因之間的關係尚未證實。",
+        "en": "Analysis of gene-expression and other data identified TOP2A as a candidate associated with liver cancer linked to the tobacco-derived compound NNK. In two liver cancer cell lines, NNK exposure accompanied increased growth-related activity, migration and TOP2A and ORM1 protein levels; a regulatory relationship between the genes remains unproven."
+      },
+      "source": "Naunyn-Schmiedeberg's archives of pharmacology",
+      "published_at": "2026-11-23",
+      "url": "https://doi.org/10.1007/s00210-026-06066-2",
+      "added_on": "2026-11-25",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43069251/"
+    },
+    {
       "id": "doi:10.1111/cge.70281",
       "doi": "10.1111/cge.70281",
       "title": "Whole-Exome Sequencing for Diagnostic Investigation of 267 Patients From the Brazilian Public Health System (SUS) Followed by Reanalysis of Nondiagnostic Cases.",
@@ -664,5 +715,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-24T00:19:28+09:00"
+  "updated_at": "2026-11-25T00:19:21+09:00"
 }
