@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1097/mou.0000000000001456",
+      "doi": "10.1097/mou.0000000000001456",
+      "title": "Beyond PSA: a narrative review of novel biomarkers for prostate cancer screening and early detection.",
+      "summary": {
+        "ja": "前立腺がんの早期発見に用いる血液・尿・遺伝子の指標について、既存の研究を概説した。多くの指標はPSA単独よりリスク評価を改善したが、重要ながんの1〜13%を見逃し、幅広い集団での検証が必要である。",
+        "zh": "这篇综述总结了用于前列腺癌早期发现的血液、尿液和遗传标志物研究。多数标志物比单用PSA更有助于评估风险，但漏诊了1%至13%的临床显著癌症，仍需在不同人群中验证。",
+        "tw": "這篇綜述總結了用於前列腺癌早期發現的血液、尿液和遺傳標誌物研究。多數標誌物比單用PSA更有助於評估風險，但漏診了1%至13%的臨床顯著癌症，仍需在不同人群中驗證。",
+        "en": "This narrative review assessed evidence for blood, urine, and genetic markers that could improve early prostate cancer detection. Most markers improved risk assessment over PSA alone but missed 1–13% of clinically significant cancers, and further validation in diverse populations is needed."
+      },
+      "source": "Current opinion in urology",
+      "published_at": "2026-11-24",
+      "url": "https://doi.org/10.1097/mou.0000000000001456",
+      "added_on": "2026-11-26",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43071431/"
+    },
+    {
+      "id": "doi:10.1371/journal.pcbi.1014968",
+      "doi": "10.1371/journal.pcbi.1014968",
+      "title": "CoEVFold suite: User friendly pipelines to visually represent protein coevolution.",
+      "summary": {
+        "ja": "タンパク質の配列から共進化を検出し、単一分子から複合体やネットワークまで可視化するツール群を開発した。既知の細菌、酵母、ファージのタンパク質で関係を検出したが、構造既知の異種複合体18例のうち高精度だったのは7例だった。",
+        "zh": "研究开发了一套工具，用蛋白质序列检测并可视化单个蛋白质、复合物及网络中的共同进化。它在已知的细菌、酵母和噬菌体蛋白质中检测到相关关系，但在18个已知结构的异源复合物中，只有7个达到较高的接触预测精度。",
+        "tw": "研究開發了一套工具，用蛋白質序列偵測並視覺化單個蛋白質、複合物及網絡中的共同演化。它在已知的細菌、酵母和噬菌體蛋白質中偵測到相關關係，但在18個已知結構的異源複合物中，只有7個達到較高的接觸預測精確度。",
+        "en": "The researchers developed tools to detect and visualize protein coevolution within individual proteins, complexes, and networks. Tests on known bacterial, yeast, and phage proteins detected established relationships, although contact predictions reached high precision in only 7 of 18 structurally known heteromeric complexes."
+      },
+      "source": "PLoS computational biology",
+      "published_at": "2026-11-24",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014968",
+      "added_on": "2026-11-26",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43077480/"
+    },
+    {
+      "id": "doi:10.1073/pnas.2607496123",
+      "doi": "10.1073/pnas.2607496123",
+      "title": "Quantifying (de)mixing of disordered proteins in molecular dynamics simulations.",
+      "summary": {
+        "ja": "分子動力学シミュレーションで、無秩序タンパク質領域の凝縮体内での混合や分離を定量する方法を開発した。領域の物理化学的な類似性は混合を促し、実験との比較では13種中10種の分配傾向を予測したが、RNAや立体構造を持つ領域が必要な例では食い違いがあった。",
+        "zh": "研究开发了一种方法，用分子动力学模拟定量分析无序蛋白质区域在凝聚体中的混合与分离。模拟显示，理化性质相似促进混合，并预测对了13种蛋白质中10种的分配偏好；需要RNA或折叠结构域的情况则出现偏差。",
+        "tw": "研究開發了一種方法，用分子動力學模擬定量分析無序蛋白質區域在凝聚體中的混合與分離。模擬顯示，理化性質相似促進混合，並預測對了13種蛋白質中10種的分配偏好；需要RNA或摺疊結構域的情況則出現差異。",
+        "en": "The researchers developed a method to measure mixing and separation of disordered protein regions in molecular dynamics simulations of condensates. Similar physicochemical properties favored mixing, and simulations predicted partitioning preferences for 10 of 13 proteins, with discrepancies where RNA or folded domains were required."
+      },
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "published_at": "2026-11-24",
+      "url": "https://doi.org/10.1073/pnas.2607496123",
+      "added_on": "2026-11-26",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43077496/"
+    },
+    {
       "id": "doi:10.1111/dom.71557",
       "doi": "10.1111/dom.71557",
       "title": "Genetics-First Multi-Omic Triangulation Prioritizes Druggable Targets for Complementary Metabolic Traits.",
@@ -715,5 +766,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-25T00:19:21+09:00"
+  "updated_at": "2026-11-26T00:18:16+09:00"
 }
