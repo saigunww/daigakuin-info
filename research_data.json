@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1007/s00431-026-07598-8",
+      "doi": "10.1007/s00431-026-07598-8",
+      "title": "Clinical characteristics, genetics, and long-term outcomes in children with very early-onset inflammatory bowel disease: a Turkish cohort.",
+      "summary": {
+        "ja": "トルコの専門施設で、超早期発症炎症性腸疾患の小児49人を後ろ向きに追跡した。乳児期発症では遺伝子変異と発育阻害が多く、重症な経過はクローン病と診断時の疾患活動性に関連した。",
+        "zh": "研究回顾追踪了土耳其一家专科中心的49名极早发炎症性肠病患儿。婴儿期发病者更常见遗传变异和发育迟缓，而克罗恩病及初诊时较高疾病活动度与侵袭性病程相关。",
+        "tw": "研究回顧追蹤了土耳其一家專科中心的49名極早發炎症性腸病患兒。嬰兒期發病者更常見遺傳變異和發育遲緩，而克隆氏症及初診時較高疾病活動度與侵襲性病程相關。",
+        "en": "Researchers retrospectively followed 49 children with very early-onset inflammatory bowel disease at a Turkish tertiary center. Infantile onset was associated with more genetic variants and stunting, while Crohn disease and higher disease activity at diagnosis independently predicted an aggressive course."
+      },
+      "source": "European journal of pediatrics",
+      "published_at": "2026-11-26",
+      "url": "https://doi.org/10.1007/s00431-026-07598-8",
+      "added_on": "2026-11-27",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43086352/"
+    },
+    {
+      "id": "doi:10.1039/d6ob01519k",
+      "doi": "10.1039/d6ob01519k",
+      "title": "NHC-catalyzed direct oxidative amidation of aldehydes with amine salts for rapid synthesis of Weinreb amides.",
+      "summary": {
+        "ja": "アルデヒドとアミン塩からワインレブアミドを直接合成する触媒法を開発した。穏和な条件で芳香族や複素芳香族のアルデヒドに適用でき、生成物をケトンに変換できた。",
+        "zh": "研究开发了一种催化方法，可由醛和胺盐直接合成魏因雷布酰胺。该方法反应条件温和，适用于芳香族和杂芳香族醛，所得产物还可转化为酮。",
+        "tw": "研究開發了一種催化方法，可由醛和胺鹽直接合成魏因雷布醯胺。此方法反應條件溫和，適用於芳香族和雜芳香族醛，所得產物還可轉化為酮。",
+        "en": "Researchers developed a catalytic method to make Weinreb amides directly from aldehydes and amine salts under mild conditions. The method accommodated aromatic and heteroaromatic aldehydes, could be scaled up, and produced amides that could be converted into ketones."
+      },
+      "source": "Organic & biomolecular chemistry",
+      "published_at": "2026-11-25",
+      "url": "https://doi.org/10.1039/d6ob01519k",
+      "added_on": "2026-11-27",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42992564/"
+    },
+    {
+      "id": "doi:10.1371/journal.pcbi.1014965",
+      "doi": "10.1371/journal.pcbi.1014965",
+      "title": "Biophysically grounded deep learning improves protein-protein ΔΔG prediction.",
+      "summary": {
+        "ja": "タンパク質間結合への変異の影響を予測するため、生物物理的な特徴を深層学習に組み込んだ。類似配列の漏れを抑えた評価で予測が改善し、少量の新型コロナウイルス結合データへの転用でも改善が見られた。",
+        "zh": "研究将生物物理特征融入深度学习，预测突变对蛋白质间结合的影响。在控制相似序列泄漏的评估中，该方法提高了预测表现，在少量新冠病毒结合数据上的迁移表现也有所改善。",
+        "tw": "研究將生物物理特徵融入深度學習，預測突變對蛋白質間結合的影響。在控制相似序列洩漏的評估中，此方法提升了預測表現，在少量新冠病毒結合資料上的遷移表現也有所改善。",
+        "en": "Researchers combined protein representations with biophysical features to predict how mutations change protein binding strength. Under evaluation that controlled sequence similarity between training and test data, the framework improved prediction across five encoders and also improved transfer to small SARS-CoV-2 binding datasets."
+      },
+      "source": "PLoS computational biology",
+      "published_at": "2026-11-25",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014965",
+      "added_on": "2026-11-27",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43084595/"
+    },
+    {
       "id": "doi:10.1097/mou.0000000000001456",
       "doi": "10.1097/mou.0000000000001456",
       "title": "Beyond PSA: a narrative review of novel biomarkers for prostate cancer screening and early detection.",
@@ -766,5 +817,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-26T00:18:16+09:00"
+  "updated_at": "2026-11-27T00:18:34+09:00"
 }
