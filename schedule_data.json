@@ -2,10 +2,12 @@
   "source_type": "rooms_schedule",
   "coverage_start": "2026-10-01",
   "coverage_end": "2027-04-01",
-  "last_success_at": "2026-11-27T12:20:34+09:00",
-  "last_attempt_at": "2026-11-27T12:20:34+09:00",
+  "last_success_at": "2026-11-27T12:38:42+09:00",
+  "last_attempt_at": "2026-11-27T12:38:42+09:00",
   "sync_status": "ok",
   "sync_interval_minutes": 60,
+  "metadata_status": "ok",
+  "metadata_checked_at": "2026-11-27T12:38:42+09:00",
   "items": [
     {
       "course": "26年10月期生物学 入门课程",
@@ -15,9 +17,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "1",
+      "topic": "生物 - 入門",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 入门课程",
@@ -29,7 +32,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "化学 - 入門",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -41,7 +45,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "理学生物 - 生物化学 - 糖代謝関連",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -53,7 +58,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "有機化学 - エノール生成と反応、アルケンへ求核付加",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -65,7 +71,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "医薬生物  - 分子細胞生物学 - 細胞膜構造、低分子の膜輸送と膜の電気的性質",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -77,7 +84,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "食品工学 - 主要な食品成分(水、タンパク質、脂質、糖質等)の構造",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 分析化学课程",
@@ -89,7 +97,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "分析化学 - 各種反応と滴定、クロマトグラフィー",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -99,9 +108,10 @@
       "weekday": 3,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "2",
+      "topic": "基礎化学 - 無機化学 - 単純な固体構造",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -111,9 +121,10 @@
       "weekday": 4,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "1",
+      "topic": "無機物理化学 - 量子力学法則の復習と量子力学的調和振動子",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期生化升学指导课程",
@@ -137,7 +148,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "理学生物 - 生物化学 - 脂質代謝関連",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -149,7 +161,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "有機化学 - 芳香族求電子と求核置換反応",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -161,7 +174,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "医薬生物  - 分子細胞生物学 - 細胞内区画とタンパク質選別",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 生物AI课程",
@@ -171,9 +185,10 @@
       "weekday": 0,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "2",
+      "topic": "生物AI -  関数の実装,ニューラルネットワーク,データから学習する",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -185,7 +200,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "基礎化学 - 無機化学 - 酸と塩基、酸化と還元、電位化学",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -197,7 +213,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "食品工学 - 食品化学的・生化学的特性",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 分析化学课程",
@@ -209,7 +226,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "分析化学 -  紫外分光法、赤外ラマンー分光、原子分光法",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -219,9 +237,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "3",
+      "topic": "無機物理化学 - 二原子分子の回転運動と振動回転遷移スペクトル、水素原子の波動関数",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -231,9 +250,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "2",
+      "topic": "基礎生物 - 生物化学 - アミノ酸、タンパク質の構造",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -245,7 +265,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "理学生物 - 生物化学 - アミノ酸代謝関連",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -257,7 +278,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "医薬生物  - 分子細胞生物学 - 細胞内運送システム",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 生物AI课程",
@@ -267,9 +289,10 @@
       "weekday": 0,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "3",
+      "topic": "生物AI - pyTorchでニューラルネットワークの実装、 画像の分類、転移学習",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -281,7 +304,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "基礎化学 - 無機化学 - 配位化合物と配位化学",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -293,7 +317,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "食品工学 - 食品成分間相互作用",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 分析化学课程",
@@ -305,7 +330,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "分析化学 - 質量分析法、NMR、X線回折、蛍光分光法",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -315,9 +341,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "4",
+      "topic": "無機物理化学 - 変分原理とLCAO近似、分子軌道法の基礎",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -327,9 +354,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "3",
+      "topic": "基礎生物 - 生物化学 - 酵素関連",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -341,7 +369,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "理学生物 - 生物化学 - ヌクレオチド代謝関連",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -353,7 +382,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "医薬生物  - 分子細胞生物学 - エネルギー変換、ミトコンドリアと葉緑体",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 生物AI课程",
@@ -363,9 +393,10 @@
       "weekday": 0,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "4",
+      "topic": "生物AI -バッチ処理システム、CNN・VGG16・Transfomerモデル",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -377,7 +408,8 @@
       "status": "scheduled",
       "session": "5",
       "topic": "基礎化学 - 無機化学 - d-金属錯体、錯体の反応、d-金属の有機金属化学",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -389,7 +421,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "食品工学 - 食品の変質・劣化",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 分析化学课程",
@@ -401,7 +434,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "分析化学 - 電子顕微鏡、電気泳動、電気化学分析、熱分析",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -411,9 +445,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "5",
+      "topic": "無機物理化学 - ヒュッケル分子軌道法と分子構造",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -425,7 +460,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "有機化学 - 芳香族ヘテロ環化合物の合成と反応",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 生物AI课程",
@@ -435,9 +471,10 @@
       "weekday": 0,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "1",
+      "topic": "生物AI - バイオインフォマティクス概観",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -449,7 +486,8 @@
       "status": "scheduled",
       "session": "5",
       "topic": "食品工学 - 食品添加物、味成分と味覚、加工・物性機能",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -459,9 +497,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "5",
+      "topic": "基礎生物 - 生物化学 - DNAの構造、DNAの複製",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -471,9 +510,10 @@
       "weekday": 6,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "3",
+      "topic": "有機化学 - 逆合成解析",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -485,7 +525,8 @@
       "status": "scheduled",
       "session": "6",
       "topic": "理学生物 - 細胞の研究法 - 遺伝子のノックダウン、ノックイン技術、免疫沈降法(IP)",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -497,7 +538,8 @@
       "status": "scheduled",
       "session": "5",
       "topic": "有機化学 - ペリ環状反応、隣接基関与",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -509,7 +551,8 @@
       "status": "scheduled",
       "session": "6",
       "topic": "医薬生物  - 分子細胞生物学 - 細胞連結と細胞外基質",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -521,7 +564,8 @@
       "status": "scheduled",
       "session": "7",
       "topic": "基礎化学 - 物理化学 - 運動の量子論",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -533,7 +577,8 @@
       "status": "scheduled",
       "session": "6",
       "topic": "食品工学 - 生体調節機能、機能性食品",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -543,9 +588,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "7",
+      "topic": "無機物理化学 - 熱力学関数と公式のまとめ、相平衡の熱力学、相転移と相図",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -555,9 +601,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "6",
+      "topic": "基礎生物 - 分子細胞生物学 - DNAの修復、組み換え",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -569,7 +616,8 @@
       "status": "scheduled",
       "session": "7",
       "topic": "理学生物 - 細胞の研究法 - RT-qPCR、SDS-PAGE、WB",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -581,7 +629,8 @@
       "status": "scheduled",
       "session": "6",
       "topic": "有機化学 - 転移反応、開裂反応",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -593,7 +642,8 @@
       "status": "scheduled",
       "session": "7",
       "topic": "医薬生物  - 分子細胞生物学 - 細胞周期と細胞死",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -603,9 +653,10 @@
       "weekday": 1,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "6",
+      "topic": "基礎化学 - 物理化学 - 量子論への導入",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期生物学 食品工学课程",
@@ -617,7 +668,8 @@
       "status": "scheduled",
       "session": "7",
       "topic": "食品工学 - ニュートリゲノミクス、食の安全性",
-      "format": "オンライン"
+      "format": "オンライン",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -627,9 +679,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "8",
+      "topic": "無機物理化学 - 化学平衡の熱力学、化学反応動力学と速度論",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -639,9 +692,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "7",
+      "topic": "基礎生物 - 分子細胞生物学 - 転写",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -653,7 +707,8 @@
       "status": "scheduled",
       "session": "8",
       "topic": "理学生物 - 細胞の研究法 - NGS(DNA-seq, RNA-seq)",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -665,7 +720,8 @@
       "status": "scheduled",
       "session": "8",
       "topic": "医薬生物  - 分子細胞生物学 - がん、免疫",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -675,9 +731,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "9",
+      "topic": "無機物理化学 - 統計力学の入門、小正準(microcanonical)分布と正準(canonical)分布",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -687,9 +744,10 @@
       "weekday": 6,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "8",
+      "topic": "基礎化学 - 有機化学 - 有機化合物の構造と命名",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期化学 有机化学课程",
@@ -699,9 +757,10 @@
       "weekday": 6,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "7",
+      "topic": "有機化学 - ラジカル反応、カルベン反応",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年冬季生物学 生物化学过去问课程",
@@ -713,7 +772,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "過去問 - 生物化学方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -723,9 +783,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "10",
+      "topic": "無機物理化学 - 正準分布、Boltzman分布と分配関数、気体分子運動論モデルとMaxwell-Boltzman分布",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -735,9 +796,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "9",
+      "topic": "基礎生物 - 分子細胞生物学 - 遺伝子発現調節",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -749,7 +811,8 @@
       "status": "scheduled",
       "session": "9",
       "topic": "基礎化学 - 有機化学 - カルボニル基への求核付加反応",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 理学生物课程",
@@ -759,9 +822,10 @@
       "weekday": 6,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "5",
+      "topic": "理学生物 - 細胞の研究法 - 遺伝子組み換え技術、遺伝子増幅技術、RNAとタンパク質精製",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 医药生物课程",
@@ -771,9 +835,10 @@
       "weekday": 6,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "5",
+      "topic": "医薬生物  - 分子細胞生物学 - 細胞シグナル、細胞骨格",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 有机化学过去问课程",
@@ -785,7 +850,8 @@
       "status": "scheduled",
       "session": "1",
       "topic": "過去問 - 有機方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 无机物化过去问课程",
@@ -795,9 +861,10 @@
       "weekday": 0,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "1",
+      "topic": "過去問 - 物化・無機方向 - 内諾による",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季生物学 生物化学过去问课程",
@@ -809,7 +876,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "過去問 - 生物化学方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -819,9 +887,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "11",
+      "topic": "無機物理化学 - 理想気体分子の並進分配関数、直線型剛体回転子の回転分配関数、調和振動子の振動分配関数",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -831,9 +900,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "8",
+      "topic": "基礎生物 - 分子細胞生物学 - 翻訳",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -845,7 +915,8 @@
       "status": "scheduled",
       "session": "10",
       "topic": "基礎化学 - 有機化学 - カルボニル基への求核置換反応",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季生物学 分子生物学过去问课程",
@@ -857,7 +928,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "過去問 - 分子生物方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 有机化学过去问课程",
@@ -869,7 +941,8 @@
       "status": "scheduled",
       "session": "2",
       "topic": "過去問 - 有機方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 无机物化过去问课程",
@@ -879,9 +952,10 @@
       "weekday": 0,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "2",
+      "topic": "過去問 - 物化・無機方向 - 内諾による",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季生物学 生物化学过去问课程",
@@ -893,7 +967,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "過去問 - 生物化学方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -903,9 +978,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "2",
+      "topic": "無機物理化学 - 軌道角運動量、量子力学的二次元剛体回転子と三次元剛体回転子",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期生物学 必修课程",
@@ -915,9 +991,10 @@
       "weekday": 5,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "4",
+      "topic": "基礎生物 - 生物化学 - 糖質、脂質の構造",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年10月期化学 必修课程",
@@ -929,7 +1006,8 @@
       "status": "scheduled",
       "session": "11",
       "topic": "基礎化学 - 有機化学 - 立体化学、SN1,SN2,E1,E2反応",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季生物学 分子生物学过去问课程",
@@ -941,7 +1019,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "過去問 - 分子生物方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 有机化学过去问课程",
@@ -953,7 +1032,8 @@
       "status": "scheduled",
       "session": "3",
       "topic": "過去問 - 有機方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 无机物化过去问课程",
@@ -963,9 +1043,10 @@
       "weekday": 0,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "3",
+      "topic": "過去問 - 物化・無機方向 - 内諾による",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季生物学 生物化学过去问课程",
@@ -977,7 +1058,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "過去問 - 生物化学方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年10月期化学 无机物化课程",
@@ -987,9 +1069,10 @@
       "weekday": 5,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "6",
+      "topic": "無機物理化学 - 熱力学三法則",
+      "format": "ハイブリッド",
+      "metadata_basis": "plan_estimate"
     },
     {
       "course": "26年冬季生物学 分子生物学过去问课程",
@@ -1001,7 +1084,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "過去問 - 分子生物方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 有机化学过去问课程",
@@ -1013,7 +1097,8 @@
       "status": "scheduled",
       "session": "4",
       "topic": "過去問 - 有機方向 - 内諾による",
-      "format": "ハイブリッド"
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季化学 无机物化过去问课程",
@@ -1023,9 +1108,10 @@
       "weekday": 0,
       "group": "chem",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "4",
+      "topic": "過去問 - 物化・無機方向 - 内諾による",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     },
     {
       "course": "26年冬季生物学 分子生物学过去问课程",
@@ -1035,10 +1121,11 @@
       "weekday": 6,
       "group": "bio",
       "status": "scheduled",
-      "session": "",
-      "topic": "",
-      "format": ""
+      "session": "1",
+      "topic": "過去問 - 分子生物方向 - 内諾による",
+      "format": "ハイブリッド",
+      "metadata_basis": "excel"
     }
   ],
-  "updated_at": "2026-11-27T12:20:34+09:00"
+  "updated_at": "2026-11-27T12:38:42+09:00"
 }
