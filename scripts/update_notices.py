@@ -46,7 +46,7 @@ def content(kind, data, today):
         raise ValueError('Missing public source; retaining prior announcements')
     if kind == 'schedule':
         return {'terms': terms(today), 'source_type':data.get('source_type'), 'items': ordered([select(r, (
-            'course', 'date', 'start_time', 'end_time', 'session', 'topic', 'format', 'group', 'status')) for r in rows])}
+            'course', 'date', 'start_time', 'end_time', 'session', 'topic', 'format', 'group', 'status','metadata_basis')) for r in rows])}
     if kind == 'honors':
         def bucket(value):
             return {'total': value['total'],

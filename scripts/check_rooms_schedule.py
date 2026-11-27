@@ -46,19 +46,27 @@ def main():
                     page.locator(f'[data-course-group="{group}"]').click()
                     assert page.locator('#course-results tbody tr').count()==counts[group]
                     expected=Counter((r['date'],r['start_time']+' – '+r['end_time'],r['course'],r['session'] or '—',r['topic'] or '—') for r in source['items'] if r['group']==group)
-                    actual=Counter(tuple([r[0][:10],*r[1:]]) for r in page.locator('#course-results tbody tr').evaluate_all('els=>els.map(e=>[...e.cells].map(c=>c.textContent))'))
+                    actual=Counter(tuple([r[0][:10],*r[1:]]) for r in page.locator('#course-results tbody tr').evaluate_all('els=>els.map(e=>[...e.cells].map(c=>{const clone=c.cloneNode(true);clone.querySelectorAll(".course-plan-label,.course-adjustment").forEach(b=>b.remove());return clone.textContent;}))'))
                     assert actual==expected,(language,group,'snapshot row mismatch')
+                    planned=sum(r.get('metadata_basis')=='plan_estimate' for r in source['items'] if r['group']==group)
+                    assert page.locator('.course-plan-label').count()==planned
+                    labels={'ja':'当初予定','zh':'原计划','tw':'原計畫','en':'Original plan'}
+                    assert all(text==labels[language] for text in page.locator('.course-plan-label').all_text_contents())
                 assert 'Rooms' in page.locator('#schedule-live .feed-note').inner_text()
                 assert not page.locator('#schedule-live a').count()
                 assert not page.locator('[data-rooms-stale]').count()
             page.evaluate("switchToLang('zh')")
             page.locator('[data-course-group="bio"]').click()
             page.screenshot(path=str(args.report/'rooms-desktop.png'))
+            page.fill('#course-query','必修')
+            page.locator('#course-results').screenshot(path=str(args.report/'rooms-filled-metadata.png'))
+            page.fill('#course-query','')
             page.set_viewport_size({'width':390,'height':844})
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
             page.screenshot(path=str(args.report/'rooms-phone.png'))
             page.evaluate("document.body.classList.add('dark')")
             page.screenshot(path=str(args.report/'rooms-phone-dark.png'))
+            page.evaluate("document.body.classList.remove('dark')")
 
             # A periodic refresh must keep search, focus and selection, while
             # replacing a rescheduled lesson instead of appending a duplicate.
@@ -80,6 +88,10 @@ def main():
             assert page.locator('#course-results tbody tr').count()==sum(r['group']=='bio' and '必修' in r['course'] for r in source['items'])
 
             # A failed source sync retains the previous rows and success time.
+            snapshot['metadata_status']='cached'
+            page.evaluate("window.dispatchEvent(new Event('pageshow'))")
+            page.wait_for_selector('[data-metadata-cached]')
+            snapshot['metadata_status']='ok'
             snapshot['sync_status']='error'
             page.evaluate("window.dispatchEvent(new Event('pageshow'))")
             page.wait_for_selector('[data-rooms-stale]')
@@ -112,7 +124,7 @@ def main():
             assert page.locator('#course-results tbody tr').count()==0
             assert not errors,errors
             result={'status':'passed','counts':dict(counts),'languages':['ja','zh','tw','en'],
-                'checks':['exact_rows','390px','dark','hourly_source_note','five_minute_refresh',
+                'checks':['exact_rows','plan_labels_four_languages','390px','dark','hourly_source_note','five_minute_refresh','excel_cache_note',
                           'search_focus_selection','reschedule_replaces','source_failure_retains',
                           'http_failure_retains','verified_empty','unchanged_snapshot_ages','january_coverage_pending'],
                 'page_errors':errors}

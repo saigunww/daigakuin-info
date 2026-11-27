@@ -29,9 +29,10 @@ def validate():
         assert (ROOT/row['image']).is_file()
     for row in feeds['schedule_data.json']['items']:
         date.fromisoformat(row['date'])
-        assert set(row)<={'course','date','session','topic','start_time','end_time','format','group','weekday','status'}
+        assert set(row)<={'course','date','session','topic','start_time','end_time','format','group','weekday','status','metadata_basis'}
         assert row['group'] in ('bio','chem')
         assert row.get('status', 'scheduled') in ('scheduled','rescheduling')
+        assert row.get('metadata_basis', 'excel') in ('excel','plan_estimate')
     schedule = feeds['schedule_data.json']
     if schedule.get('source_type') == 'rooms_schedule':
         assert schedule['sync_status'] in ('ok','error')

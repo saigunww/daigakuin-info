@@ -18,7 +18,7 @@ HEADERS = ['', '名称', '科目', 'カリキュラム', 'スタッフ', '授業
            '面談', '出席人数', 'タグ', '備考', '出席ログ', '承認/未/否認']
 CANCELLED = ('cancel', 'cancel_today_contact', 'cancel_no_contact')
 PUBLIC_FIELDS = {'course', 'date', 'session', 'topic', 'start_time', 'end_time',
-                 'format', 'group', 'weekday', 'status'}
+                 'format', 'group', 'weekday', 'status', 'metadata_basis'}
 
 
 def coverage(today):
@@ -214,10 +214,13 @@ def metadata_key(row):
     return (row.get('group'), course, row.get('date'), row.get('start_time'), row.get('end_time'))
 
 
-def project(rows, cancelled_ids, baseline, cached, start, end):
+def project(rows, cancelled_ids, baseline, cached, start, end, bindings=None):
     index = {}
+    source_index = {}
     for row in baseline:
         index.setdefault(metadata_key(row), []).append(row)
+        source_index.setdefault((row.get('group'),row.get('course'),row.get('session')), []).append(row)
+    from course_metadata import resolve_binding
     output, metadata = [], {}
     for row in rows:
         if 'course' not in row or row['id'] in cancelled_ids:
@@ -226,11 +229,20 @@ def project(rows, cancelled_ids, baseline, cached, start, end):
             raise RuntimeError('Rooms returned a lecture outside the requested period')
         old = cached.get(row['id'], {})
         matches = index.get(metadata_key(row), [])
-        if old.get('curriculum_id') == row['curriculum_id'] and old.get('course') == row['course'] and old.get('group') == row['group']:
+        bound = resolve_binding(row, (bindings or {}).get(row['id']), source_index)
+        if bound is not None:
+            detail = bound
+        elif bindings:
+            # Once reviewed bindings are configured, new IDs require review;
+            # a moved/recreated lecture must not reuse an occupied Excel row.
+            detail = {}
+        elif old.get('curriculum_id') == row['curriculum_id'] and old.get('course') == row['course'] and old.get('group') == row['group']:
             detail = old
         else:
             detail = matches[0] if len(matches) == 1 else {}
         extra = {key: str(detail.get(key, '')) for key in ('session', 'topic', 'format')}
+        if detail.get('metadata_basis') in ('excel','plan_estimate'):
+            extra['metadata_basis'] = detail['metadata_basis']
         metadata[row['id']] = {**extra, 'curriculum_id': row['curriculum_id'], 'course': row['course'], 'group': row['group']}
         output.append({**{key: value for key, value in row.items() if key in PUBLIC_FIELDS}, **extra})
     output.sort(key=lambda row: (row['date'], row['start_time'], row['course']))
@@ -258,8 +270,14 @@ def update_rooms(today=None):
         cancelled_ids = {r['id'] for r in cancelled}
         if not cancelled_ids <= all_ids:
             raise RuntimeError('Rooms cancellation and lecture snapshots disagree')
-        items, metadata = project(all_rows, cancelled_ids, baseline,
-                                   load(state_dir / 'metadata.json', {}), start, end)
+        from course_metadata import load_excel_metadata
+        excel, metadata_status = load_excel_metadata(state_dir, baseline)
+        binding_file = load(state_dir / 'excel-bindings.json', {})
+        if binding_file and binding_file.get('schema_version') != 1:
+            raise RuntimeError('Excel-to-Rooms binding schema changed')
+        items, metadata = project(all_rows, cancelled_ids, excel['items'],
+                                  load(state_dir / 'metadata.json', {}), start, end,
+                                  binding_file.get('entries', {}))
         if previous.get('source_type') == 'rooms_schedule' and previous.get('coverage_start') == start.isoformat() and previous.get('items') and not items and len(cancelled_ids) < len(previous['items']):
             raise RuntimeError('Rooms public classes disappeared; previous timetable retained')
         stamp = now()
@@ -276,7 +294,8 @@ def update_rooms(today=None):
         return dataset('schedule_data.json', {'source_type':'rooms_schedule',
             'coverage_start':start.isoformat(), 'coverage_end':end.isoformat(),
             'last_success_at':stamp, 'last_attempt_at':stamp, 'sync_status':'ok',
-            'sync_interval_minutes':60, 'items':items})
+            'sync_interval_minutes':60, 'metadata_status':metadata_status,
+            'metadata_checked_at':excel.get('checked_at'), 'items':items})
     except Exception:
         if previous.get('source_type') == 'rooms_schedule':
             save(path, {**previous, 'sync_status':'error', 'last_attempt_at':now()})
