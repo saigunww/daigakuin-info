@@ -40,6 +40,7 @@ def main():
             page.wait_for_selector('#course-results tbody tr')
             page.evaluate("switchTab('schedule')")
             counts=Counter(row['group'] for row in source['items'])
+            assert page.locator('[data-course-group="bio"]').get_attribute('aria-pressed')=='true'
             for language in ['ja','zh','tw','en']:
                 page.evaluate('(lang)=>switchToLang(lang)',language)
                 for group in ['bio','chem']:
@@ -57,6 +58,47 @@ def main():
                 assert 'Rooms' in page.locator('#schedule-live .feed-note').inner_text()
                 assert not page.locator('#schedule-live a').count()
                 assert not page.locator('[data-rooms-stale]').count()
+
+            # A full reload restores the last chosen subject before rendering.
+            page.locator('[data-course-group="chem"]').click()
+            page.reload(wait_until='domcontentloaded');page.wait_for_selector('#course-results tbody tr')
+            assert page.locator('[data-course-group="chem"]').get_attribute('aria-pressed')=='true'
+            assert page.locator('#course-results tbody tr').count()==counts['chem']
+            page.evaluate("switchToLang('zh')")
+            assert page.locator('[data-course-group="chem"]').get_attribute('aria-pressed')=='true'
+            refreshed=next(row for row in snapshot['items'] if row['group']=='chem')
+            refreshed['topic']+=' [refresh-check]'
+            page.clock.fast_forward(300001)
+            page.wait_for_function("document.querySelector('#course-results').textContent.includes('[refresh-check]')")
+            assert page.locator('[data-course-group="chem"]').get_attribute('aria-pressed')=='true'
+            snapshot=copy.deepcopy(source)
+            page.locator('[data-course-group="bio"]').click()
+            page.reload(wait_until='domcontentloaded');page.wait_for_selector('#course-results tbody tr')
+            assert page.locator('[data-course-group="bio"]').get_attribute('aria-pressed')=='true'
+            assert page.locator('#course-results tbody tr').count()==counts['bio']
+            page.evaluate("localStorage.setItem('scheduleGroup','invalid-subject')")
+            page.reload(wait_until='domcontentloaded');page.wait_for_selector('#course-results tbody tr')
+            assert page.locator('[data-course-group="bio"]').get_attribute('aria-pressed')=='true'
+
+            # Storage restrictions must not break initial rendering or clicks.
+            restricted=browser.new_context()
+            restricted.add_init_script("""for(const method of ['getItem','setItem']){
+              const original=Storage.prototype[method];
+              Storage.prototype[method]=function(key,...args){
+                if(key==='scheduleGroup')throw new DOMException('Storage disabled','SecurityError');
+                return original.call(this,key,...args);
+              };
+            }""")
+            restricted_page=restricted.new_page()
+            restricted_page.on('pageerror',lambda error:errors.append(str(error)))
+            restricted_page.route('**/schedule_data.json',lambda route:route.fulfill(json=source))
+            restricted_page.goto(f'http://127.0.0.1:{server.server_port}/#schedule',wait_until='domcontentloaded')
+            restricted_page.wait_for_selector('#course-results tbody tr')
+            assert restricted_page.locator('[data-course-group="bio"]').get_attribute('aria-pressed')=='true'
+            restricted_page.locator('[data-course-group="chem"]').click()
+            assert restricted_page.locator('[data-course-group="chem"]').get_attribute('aria-pressed')=='true'
+            assert restricted_page.locator('#course-results tbody tr').count()==counts['chem']
+            restricted.close()
             page.evaluate("switchToLang('zh')")
             page.locator('[data-course-group="bio"]').click()
             page.screenshot(path=str(args.report/'rooms-desktop.png'))
@@ -126,7 +168,7 @@ def main():
             assert page.locator('#course-results tbody tr').count()==0
             assert not errors,errors
             result={'status':'passed','counts':dict(counts),'languages':['ja','zh','tw','en'],
-                'checks':['exact_rows','four_columns_without_session','plan_labels_on_topics_four_languages','390px','dark','hourly_source_note','five_minute_refresh','excel_cache_note',
+                'checks':['exact_rows','four_columns_without_session','plan_labels_on_topics_four_languages','subject_reload_persistence','subject_language_and_periodic_refresh','invalid_saved_subject','restricted_storage','390px','dark','hourly_source_note','five_minute_refresh','excel_cache_note',
                           'search_focus_selection','reschedule_replaces','source_failure_retains',
                           'http_failure_retains','verified_empty','unchanged_snapshot_ages','january_coverage_pending'],
                 'page_errors':errors}

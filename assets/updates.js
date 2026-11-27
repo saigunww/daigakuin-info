@@ -1,7 +1,14 @@
 /* Public snapshots only. Source credentials never reach the browser. */
 (function () {
   'use strict';
-  const feeds = {}, state = {year: '', field: 'all', subject: 'all', honorMoreFilters: false, schedulePeriod: '', scheduleLoadedPeriod: '', scheduleRefreshPending: false, scheduleLastFetch: 0, scheduleError: false, scheduleGroup: 'bio', scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
+  function savedScheduleGroup() {
+    try {
+      const group=localStorage.getItem('scheduleGroup');
+      if(['bio','chem'].includes(group))return group;
+    } catch (_) {}
+    return 'bio';
+  }
+  const feeds = {}, state = {year: '', field: 'all', subject: 'all', honorMoreFilters: false, schedulePeriod: '', scheduleLoadedPeriod: '', scheduleRefreshPending: false, scheduleLastFetch: 0, scheduleError: false, scheduleGroup: savedScheduleGroup(), scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
   const $ = id => document.getElementById(id);
   const tr = (ja, zh, tw, en) => ({ja, zh, tw, en}[window.globalLang || 'ja'] || ja);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -225,7 +232,11 @@
       <p class="schedule-legend"><span class="schedule-legend-swatch" aria-hidden="true"></span>${tr('淡い緑色：これから始まる授業（日本時間で自動更新）','浅色背景：尚未开始的课程（按日本时间自动更新）','淺色背景：尚未開始的課程（按日本時間自動更新）','Pale green: classes that have not started (updated in Japan time).')}</p>
       <div class="feed-controls">${['bio','chem'].map(g=>button(subject(g),state.scheduleGroup===g,'course-group',g)).join('')}<input id="course-query" type="search" value="${esc(state.scheduleQuery)}" aria-label="${tr('授業を検索','搜索课程','搜尋課程','Search courses')}" placeholder="${tr('科目名・クラス・内容で検索','搜索科目、班期或内容','搜尋科目、班期或內容','Search subjects, classes or topics')}"></div><div id="course-results" aria-live="polite"></div>`;
     $('course-query').oninput = e => {state.scheduleQuery=e.target.value;renderScheduleRows();};
-    host.querySelectorAll('[data-course-group]').forEach(b=>b.onclick=()=>{state.scheduleGroup=b.dataset.courseGroup;renderSchedule();});
+    host.querySelectorAll('[data-course-group]').forEach(b=>b.onclick=()=>{
+      state.scheduleGroup=b.dataset.courseGroup;
+      try {localStorage.setItem('scheduleGroup',state.scheduleGroup);} catch (_) {}
+      renderSchedule();
+    });
     renderScheduleRows();
     if(state.scheduleError)host.insertAdjacentHTML('beforeend',`<p class="feed-meta" data-feed-error="schedule">${tr('更新できませんでした。自動で再試行します。','课表暂时更新失败，正在自动重试。','課表暫時更新失敗，正在自動重試。','The timetable could not be refreshed. Retrying automatically.')}</p>`);
   }
