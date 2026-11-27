@@ -12,7 +12,8 @@ from honor_statistics import validate_statistics
 def validate():
     feeds = {name: load(ROOT / name) for name in ('honors_data.json','schedule_data.json','research_data.json','applications.json','admissions_updates.json','students_data.json','course_flow_data.json','notices_data.json')}
     for name, data in feeds.items():
-        if not isinstance(data, dict) or not data.get('items') or not data.get('updated_at'):
+        empty_schedule = name == 'schedule_data.json' and isinstance(data, dict) and data.get('source_type') == 'rooms_schedule' and isinstance(data.get('items'), list)
+        if not isinstance(data, dict) or (not data.get('items') and not empty_schedule) or not data.get('updated_at'):
             raise ValueError('Empty or invalid public feed: '+name)
     validate_student_summary(feeds['students_data.json'])
     validate_payload(feeds['course_flow_data.json'])
@@ -28,8 +29,16 @@ def validate():
         assert (ROOT/row['image']).is_file()
     for row in feeds['schedule_data.json']['items']:
         date.fromisoformat(row['date'])
-        assert set(row)<={'course','date','session','topic','start_time','end_time','format','group','weekday'}
+        assert set(row)<={'course','date','session','topic','start_time','end_time','format','group','weekday','status'}
         assert row['group'] in ('bio','chem')
+        assert row.get('status', 'scheduled') in ('scheduled','rescheduling')
+    schedule = feeds['schedule_data.json']
+    if schedule.get('source_type') == 'rooms_schedule':
+        assert schedule['sync_status'] in ('ok','error')
+        assert schedule['sync_interval_minutes'] == 60
+        assert date.fromisoformat(schedule['coverage_start']) < date.fromisoformat(schedule['coverage_end'])
+        assert schedule['last_success_at'] and schedule['last_attempt_at']
+        assert all(schedule['coverage_start'] <= row['date'] < schedule['coverage_end'] for row in schedule['items'])
     papers=feeds['research_data.json']['items']
     assert len({r['id'] for r in papers})==len(papers)
     for row in papers:

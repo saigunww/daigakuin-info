@@ -66,6 +66,10 @@ def parse_courses(values, group):
     return sorted(result,key=lambda r:(r['date'],r.get('start_time',''),r['course']))
 
 def update_courses():
+    source = load(ROOT / 'config/schedule_source.json', {})
+    if source.get('provider') == 'rooms':
+        from update_rooms import update_rooms
+        return update_rooms()
     api = client('sheets')
     meta = api.spreadsheets().get(spreadsheetId=COURSE_SHEET,fields='sheets.properties').execute(num_retries=2)
     info = {s['properties']['title']:s['properties'] for s in meta['sheets']}

@@ -42,11 +42,11 @@ def terms(today):
 def content(kind, data, today):
     """Only published business fields participate in change detection."""
     rows = data['items']
-    if not isinstance(rows, list) or not rows:
+    if not isinstance(rows, list) or (not rows and not (kind == 'schedule' and data.get('source_type') == 'rooms_schedule')):
         raise ValueError('Missing public source; retaining prior announcements')
     if kind == 'schedule':
-        return {'terms': terms(today), 'items': ordered([select(r, (
-            'course', 'date', 'start_time', 'end_time', 'session', 'topic', 'format', 'group')) for r in rows])}
+        return {'terms': terms(today), 'source_type':data.get('source_type'), 'items': ordered([select(r, (
+            'course', 'date', 'start_time', 'end_time', 'session', 'topic', 'format', 'group', 'status')) for r in rows])}
     if kind == 'honors':
         def bucket(value):
             return {'total': value['total'],
@@ -132,7 +132,13 @@ def announcement(kind, data, today, initial):
         periods = terms(today)
         labels = [' ＋ '.join(f'{a}年{b}月—{c}年{d}月' for a, b, c, d in periods),
                   ' + '.join(f'{a}-{b:02d} to {c}-{d:02d}' for a, b, c, d in periods)]
-        body = translated(f'表示期間は{labels[0]}です。1〜3月は両期を併せて表示し、後日の授業変更は先生の連絡をご確認ください。',
+        if data.get('source_type') == 'rooms_schedule':
+            body = translated(f'{labels[0]}の授業をRoomsの最新の予定から毎時同期します。1〜3月は両期を併せて表示し、時間変更とキャンセルも反映します。',
+                f'当前展示{labels[0]}的课程，每小时从Rooms同步最新安排，反映调课与取消；1—3月同时显示两期课程。',
+                f'目前展示{labels[0]}的課程，每小時從Rooms同步最新安排，反映調課與取消；1—3月同時顯示兩期課程。',
+                f'Classes for {labels[1]} are synced hourly from Rooms, including time changes and cancellations. Both terms appear in January–March.')
+        else:
+            body = translated(f'表示期間は{labels[0]}です。1〜3月は両期を併せて表示し、後日の授業変更は先生の連絡をご確認ください。',
             f'当前展示{labels[0]}的初次排课表；1—3月同时显示两期课程，后续调课请以老师通知为准。',
             f'目前展示{labels[0]}的初次排課表；1—3月同時顯示兩期課程，後續調課請以老師通知為準。',
             f'The initial timetable covers {labels[1]}. Both terms appear in January–March; check instructor notices for later changes.')

@@ -1,7 +1,7 @@
 /* Public snapshots only. Source credentials never reach the browser. */
 (function () {
   'use strict';
-  const feeds = {}, state = {year: '', field: 'all', subject: 'all', honorMoreFilters: false, schedulePeriod: '', scheduleLoadedPeriod: '', scheduleRefreshPending: false, scheduleError: false, scheduleGroup: 'bio', scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
+  const feeds = {}, state = {year: '', field: 'all', subject: 'all', honorMoreFilters: false, schedulePeriod: '', scheduleLoadedPeriod: '', scheduleRefreshPending: false, scheduleLastFetch: 0, scheduleError: false, scheduleGroup: 'bio', scheduleQuery: '', research: 'all', officialQuery: '', admissionsGroup: 'all'};
   const $ = id => document.getElementById(id);
   const tr = (ja, zh, tw, en) => ({ja, zh, tw, en}[window.globalLang || 'ja'] || ja);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -185,11 +185,11 @@
     // once so each source row appears once, including distinct class cohorts.
     return {start,end,terms,key:start+'/'+end};
   }
-  function refreshSchedulePeriod() {
+  function refreshSchedulePeriod(force=false) {
     const period=schedulePeriod().key;
     if(feeds.schedule && state.schedulePeriod!==period)renderSchedule();
     refreshScheduleHighlights();
-    if(!state.scheduleRefreshPending && state.scheduleLoadedPeriod!==period)fetchFeed('schedule','schedule_data.json',renderSchedule);
+    if(!state.scheduleRefreshPending && (force===true || state.scheduleLoadedPeriod!==period || state.scheduleError || Date.now()-state.scheduleLastFetch>=300000))fetchFeed('schedule','schedule_data.json',renderSchedule);
   }
   function isUpcomingCourse(date, startTime, currentTime=Date.now(), today=jstToday()) {
     if(date!==today)return date>today;
@@ -211,8 +211,15 @@
     state.schedulePeriod=period.key;
     const monthLabel=value=>tr(`${value.slice(0,4)}年${Number(value.slice(5,7))}月`,`${value.slice(0,4)}年${Number(value.slice(5,7))}月`,`${value.slice(0,4)}年${Number(value.slice(5,7))}月`,value.slice(0,7));
     const host = $('schedule-live');
-    host.innerHTML = `<div class="feed-note">${tr('指定の初回時間割を自動同期しています。元の表には後日の授業変更が反映されません。','自动同步指定的初次排课表；原表不记录后续调课，请结合老师通知确认。','自動同步指定的初次排課表；原表不記錄後續調課，請結合老師通知確認。','Automatically synced from the initial timetable. Later class changes are not recorded in this source; check instructor announcements.')}</div>
-      <p class="feed-meta">${meta(data)}</p>
+    const rooms=data.source_type==='rooms_schedule';
+    const covered=!rooms || (data.coverage_start<=period.start && data.coverage_end>=period.end);
+    const lastSuccess=String(data.last_success_at || data.updated_at || '').replace('T',' ').replace('+09:00',' JST');
+    const stale=rooms && (data.sync_status!=='ok' || Date.now()-Date.parse(data.last_success_at)>90*60000);
+    const note=rooms?tr('Roomsの最新の授業予定を毎時同期し、時間変更とキャンセルを反映します。授業回・内容は初回時間割と一致を確認できた項目を補っています。','每小时从Rooms同步最新课程安排，反映调课与取消；课次和内容补充自能明确对应的初次排课表。','每小時從Rooms同步最新課程安排，反映調課與取消；課次和內容補充自能明確對應的初次排課表。','Synced hourly from Rooms, including time changes and cancellations. Session numbers and topics are supplemented where the initial timetable can be matched unambiguously.'):tr('指定の初回時間割を自動同期しています。元の表には後日の授業変更が反映されません。','自动同步指定的初次排课表；原表不记录后续调课，请结合老师通知确认。','自動同步指定的初次排課表；原表不記錄後續調課，請結合老師通知確認。','Automatically synced from the initial timetable. Later class changes are not recorded in this source; check instructor announcements.');
+    host.innerHTML = `<div class="feed-note">${note}</div>
+      <p class="feed-meta">${rooms?tr('最終同期成功','最近成功同步','最近成功同步','Last successful sync')+': '+esc(lastSuccess)+' · '+tr('毎時自動同期','每小时自动同步','每小時自動同步','Synced hourly'):meta(data)}</p>
+      ${stale?`<p class="feed-meta feed-unavailable" data-rooms-stale>${tr('最新の同期を確認できないため、上記時点の予定を表示しています。','最新同步尚未成功，当前显示上述时间的课表。','最新同步尚未成功，目前顯示上述時間的課表。','The latest sync is unavailable; showing the timetable verified at the time above.')}</p>`:''}
+      ${!covered?`<p class="feed-meta feed-unavailable" data-rooms-period-pending>${tr('新しい表示期間の時間割は次回の同期で確認します。','新展示期间的课表将在下一次同步时确认。','新展示期間的課表將在下一次同步時確認。','The new display period is awaiting the next timetable sync.')}</p>`:''}
       <div class="schedule-period" id="schedule-period" data-start="${period.start}" data-end="${period.end}"><strong>${period.terms.map(term=>monthLabel(term.start)+' — '+monthLabel(term.lastMonth)).join(' ＋ ')}</strong><span>${tr('毎年1月・4月・10月に自動切替。1〜3月は両期の授業を併せて表示','每年1月、4月、10月自动切换；1—3月同时显示两期课程','每年1月、4月、10月自動切換；1—3月同時顯示兩期課程','Automatically switches in January, April and October; both terms are shown together in January–March')}</span></div>
       <p class="schedule-legend"><span class="schedule-legend-swatch" aria-hidden="true"></span>${tr('淡い緑色：これから始まる授業（日本時間で自動更新）','浅色背景：尚未开始的课程（按日本时间自动更新）','淺色背景：尚未開始的課程（按日本時間自動更新）','Pale green: classes that have not started (updated in Japan time).')}</p>
       <div class="feed-controls">${['bio','chem'].map(g=>button(subject(g),state.scheduleGroup===g,'course-group',g)).join('')}<input id="course-query" type="search" value="${esc(state.scheduleQuery)}" aria-label="${tr('授業を検索','搜索课程','搜尋課程','Search courses')}" placeholder="${tr('科目名・クラス・内容で検索','搜索科目、班期或内容','搜尋科目、班期或內容','Search subjects, classes or topics')}"></div><div id="course-results" aria-live="polite"></div>`;
@@ -224,9 +231,10 @@
   function courseSubject(course) {
     const original = String(course || '').trim().replace(/\s+/g,' ');
     const withoutTerm = original.replace(/^\d{2,4}年(?:\d{1,2}月期|春期|秋期|冬季)\s*/,'');
-    const named = withoutTerm.match(/^(?:生物学|生物|化学|化)\s*[-－—]\s*(.+)$/);
+    const named = withoutTerm.match(/^(?:生物学|生物|化学|化)\s*(?:[-－—]\s*)?(.+)$/);
     const basic = withoutTerm.match(/^(?:生物学|化学)\s*(必修课程|入门课程)$/);
     let name = named ? named[1].trim() : basic ? basic[1] : original;
+    if(!['入门课程','必修课程'].includes(name))name=name.replace(/课程$/,'');
     if (/^入门班第\d+期$/.test(original)) name = '入门课程';
     if (withoutTerm === '生化升学指导课程') name = withoutTerm;
     // Only explicit subject aliases are merged; old A/B/TA class names stay distinct.
@@ -241,7 +249,9 @@
     const q = state.scheduleQuery.trim().toLowerCase();
     const canonicalQuery = courseSubject(q).toLowerCase();
     const period=schedulePeriod();
-    const termRows=feeds.schedule.items.filter(r=>r.date>=period.start && r.date<period.end);
+    const data=feeds.schedule;
+    const covered=data.source_type!=='rooms_schedule' || (data.coverage_start<=period.start && data.coverage_end>=period.end);
+    const termRows=covered?data.items.filter(r=>r.date>=period.start && r.date<period.end):[];
     const rows = termRows.filter(r=>r.group===state.scheduleGroup && [q,canonicalQuery].some(query=>(r.course+' '+r.topic+' '+courseSubject(r.course)).toLowerCase().includes(query)));
     const grouped = new Map();
     rows.forEach(r => {const name=courseSubject(r.course);if(!grouped.has(name))grouped.set(name,[]);grouped.get(name).push(r);});
@@ -251,8 +261,13 @@
     const weekdays = tr(['月','火','水','木','金','土','日'],['一','二','三','四','五','六','日'],['一','二','三','四','五','六','日'],['Mon','Tue','Wed','Thu','Fri','Sat','Sun']);
     const headers = [tr('日付','日期','日期','Date'),tr('時間','时间','時間','Time'),tr('クラス・開講期','原课程／班期','原課程／班期','Original course / term'),tr('回','课次','課次','Session'),tr('授業内容','课程内容','課程內容','Topic')];
     const today = jstToday(), currentTime=Date.now();
-    const noClasses=termRows.length ? empty() : `<p class="feed-empty">${tr('今期の授業はまだ掲載されていません。元の時間割の更新後に自動表示されます。','本期暂无课程，排课表更新后会自动显示。','本期暫無課程，排課表更新後會自動顯示。','No classes are listed for this period yet. They will appear when the source timetable is updated.')}</p>`;
-    $('course-results').innerHTML = `<p class="feed-meta">${tr('科目別','按科目分组','按科目分組','Grouped by subject')} · ${groups.length} ${tr('科目','门科目','門科目','subjects')} · ${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length ? groups.map(([name,items],index)=>`<section class="course-subject-group" data-course-subject="${esc(name)}" aria-labelledby="course-subject-${index}"><div class="course-subject-heading"><h3 id="course-subject-${index}">${esc(name)}</h3><span>${items.length} ${tr('授業','节课','節課','classes')}</span></div><div class="feed-table-wrap"><table class="feed-table" aria-labelledby="course-subject-${index}"><thead><tr>${headers.map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${items.map(r=>`<tr data-course-date="${esc(r.date)}" data-course-start="${esc(r.start_time || '')}"${isUpcomingCourse(r.date,r.start_time,currentTime,today)?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div></section>`).join('') : noClasses);
+    const noClasses=termRows.length ? empty() : `<p class="feed-empty">${!covered?tr('今期の時間割を確認中です。','正在等待本期课表同步。','正在等待本期課表同步。','Awaiting the timetable for this period.'):tr('今期の授業はまだ掲載されていません。元の時間割の更新後に自動表示されます。','本期暂无课程，排课表更新后会自动显示。','本期暫無課程，排課表更新後會自動顯示。','No classes are listed for this period yet. They will appear when the source timetable is updated.')}</p>`;
+    $('course-results').innerHTML = `<p class="feed-meta">${tr('科目別','按科目分组','按科目分組','Grouped by subject')} · ${groups.length} ${tr('科目','门科目','門科目','subjects')} · ${rows.length} ${tr('授業','节课','節課','classes')}</p>` + (rows.length ? groups.map(([name,items],index)=>`<section class="course-subject-group" data-course-subject="${esc(name)}" aria-labelledby="course-subject-${index}"><div class="course-subject-heading"><h3 id="course-subject-${index}">${esc(name)}</h3><span>${items.length} ${tr('授業','节课','節課','classes')}</span></div><div class="feed-table-wrap"><table class="feed-table" aria-labelledby="course-subject-${index}"><thead><tr>${headers.map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${items.map(r=>`<tr data-course-date="${esc(r.date)}" data-course-start="${esc(r.start_time || '')}" data-course-status="${esc(r.status || 'scheduled')}"${isUpcomingCourse(r.date,r.start_time,currentTime,today)?' class="upcoming"':''}><td>${esc(r.date)} (${weekdays[r.weekday]})</td><td>${esc(r.start_time || '—')}${r.end_time?' – '+esc(r.end_time):''}</td><td>${esc(r.course)}</td><td>${esc(r.session || '—')}</td><td>${esc(r.topic || '—')}</td></tr>`).join('')}</tbody></table></div></section>`).join('') : noClasses);
+    $('course-results').querySelectorAll('tr[data-course-status="rescheduling"] td:nth-child(2)').forEach(cell=>{
+      const badge=document.createElement('span');badge.className='course-adjustment';
+      badge.textContent=tr('時間調整中','时间调整中','時間調整中','Time being rescheduled');
+      cell.append(document.createElement('br'),badge);
+    });
   }
 
   function renderStudents() {
@@ -353,12 +368,21 @@
       const response = await fetch(file,{cache:'no-cache',signal:AbortSignal.timeout(15000)});
       if (!response.ok) throw new Error('Snapshot unavailable');
       const data = await response.json();
-      if (!data || !Array.isArray(data.items) || !data.items.length) throw new Error('Invalid snapshot');
+      if (!data || !Array.isArray(data.items) || (!data.items.length && !(name==='schedule' && data.source_type==='rooms_schedule'))) throw new Error('Invalid snapshot');
       if(name==='schedule'){
         if(requestedPeriod!==schedulePeriod().key)return;
-        state.scheduleLoadedPeriod=requestedPeriod;state.scheduleError=false;
+        if(data.source_type==='rooms_schedule' && (!data.last_success_at || !data.coverage_start || !data.coverage_end || !['ok','error'].includes(data.sync_status)))throw new Error('Invalid Rooms snapshot');
+        const unchanged=!state.scheduleError && JSON.stringify(feeds.schedule)===JSON.stringify(data);
+        state.scheduleLoadedPeriod=requestedPeriod;state.scheduleError=false;state.scheduleLastFetch=Date.now();
+        if(unchanged)return;
       }
+      const preserve=name==='schedule' && Boolean(feeds.schedule);
+      const input=preserve && document.activeElement?.id==='course-query';
+      const selection=input?[$('course-query').selectionStart,$('course-query').selectionEnd]:null;
+      const position=preserve?[window.scrollX,window.scrollY]:null;
       feeds[name] = data; ready(data);
+      if(input){$('course-query').focus({preventScroll:true});$('course-query').setSelectionRange(...selection);}
+      if(position)window.scrollTo(...position);
     } catch (_) {
       if(name==='schedule'){
         if(requestedPeriod!==schedulePeriod().key)return;
@@ -388,11 +412,11 @@
     fetchFeed('admissions','admissions_updates.json',renderAdmissions);
   });
   setInterval(refreshSchedulePeriod,60000);
-  setInterval(()=>{if(!document.hidden){refreshNotices();refreshHonors();}},300000);
-  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSchedulePeriod();});
+  setInterval(()=>{if(!document.hidden){refreshNotices();refreshHonors();refreshSchedulePeriod(true);}},300000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSchedulePeriod(true);});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshNotices();});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshHonors();});
-  window.addEventListener('pageshow',refreshSchedulePeriod);
+  window.addEventListener('pageshow',()=>refreshSchedulePeriod(true));
   window.addEventListener('pageshow',refreshNotices);
   window.addEventListener('pageshow',refreshHonors);
 })();

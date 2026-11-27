@@ -131,3 +131,6 @@ body.dark .feed-button.active{background:#0369a1;color:white}
   #home #noticeBoard .notice-item{flex-shrink:0}
   #home #noticeBoard .notice-more{align-self:flex-start;flex-shrink:0}
 }
+
+.course-adjustment { display:inline-block; margin-top:.3rem; padding:.15rem .4rem; font-size:.875rem; font-weight:600; border:1px solid currentColor; border-radius:.3rem; }
+#schedule-live > .feed-meta { font-size:.875rem; line-height:1.6; }
