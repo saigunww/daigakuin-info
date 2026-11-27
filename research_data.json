@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1186/s40694-026-00230-2",
+      "doi": "10.1186/s40694-026-00230-2",
+      "title": "A synthetic biology tool that utilizes β-estradiol to enable tight and tunable gene expression in aspergilli with a wide dynamic range.",
+      "summary": {
+        "ja": "麹菌で、βエストラジオールの量に応じて遺伝子発現を調節でき、無添加時の発現は検出されない仕組みを構築した。主要な炭素源に左右されず、複数のデンプン分解酵素の生産量も調節でき、別種のアスペルギルス属菌でも作動した。",
+        "zh": "研究在米曲霉中建立了由β雌二醇调节的基因表达系统，未添加诱导物时未检测到表达。该系统不受主要碳源影响，可随诱导物剂量调节多种淀粉分解酶的产量，并在构巢曲霉中发挥作用。",
+        "tw": "研究在米麴黴中建立了由β雌二醇調節的基因表現系統，未添加誘導物時未偵測到表現。該系統不受主要碳源影響，可隨誘導物劑量調節多種澱粉分解酵素的產量，並在構巢麴黴中發揮作用。",
+        "en": "Researchers built a β-estradiol-controlled gene expression system in Aspergillus oryzae, with adjustable induction and no detectable expression without the inducer. Expression remained unaffected by major carbon sources, production of several starch-degrading enzymes increased with inducer dose, and the system also functioned in Aspergillus nidulans."
+      },
+      "source": "Fungal biology and biotechnology",
+      "published_at": "2026-11-26",
+      "url": "https://doi.org/10.1186/s40694-026-00230-2",
+      "added_on": "2026-11-28",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43099678/"
+    },
+    {
+      "id": "doi:10.1039/d6ob01594h",
+      "doi": "10.1039/d6ob01594h",
+      "title": "Exploration of ribonucleoside hydrolases from Escherichia coli for the synthesis of modified nucleobases.",
+      "summary": {
+        "ja": "リボースを一時的な保護基として用いる化学反応と、Rih型酵素で外す反応を組み合わせ、修飾核酸塩基を合成した。幅広い修飾ヌクレオシドを変換でき、酵素間の比較と変異体の解析から、基質の選択性を調整できることも示した。",
+        "zh": "研究将化学修饰与Rih型酶反应结合，以核糖作为临时保护基，再温和去除，制备修饰核碱基。这些酶能转化多种修饰核苷，酶间比较揭示了活性和底物偏好的差异，突变实验还表明底物选择性可以调整。",
+        "tw": "研究將化學修飾與Rih型酵素反應結合，以核糖作為暫時保護基，再溫和去除，製備修飾核鹼基。這些酵素能轉化多種修飾核苷，酵素間比較揭示了活性和受質偏好的差異，突變實驗還表明受質選擇性可以調整。",
+        "en": "Researchers combined chemical modification with Rih-type enzyme reactions to make modified cytosine and uracil derivatives, using ribose as a temporary protecting group that enzymes could gently remove. The enzymes converted diverse modified nucleosides, while comparisons and RihA mutants showed differences in substrate preferences and demonstrated that these preferences could be engineered."
+      },
+      "source": "Organic & biomolecular chemistry",
+      "published_at": "2026-11-27",
+      "url": "https://doi.org/10.1039/d6ob01594h",
+      "added_on": "2026-11-28",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43100136/"
+    },
+    {
+      "id": "doi:10.1080/07853890.2026.2760032",
+      "doi": "10.1080/07853890.2026.2760032",
+      "title": "Development and validation of a machine learning model for early prediction of severe scrub typhus in older patients.",
+      "summary": {
+        "ja": "高齢のツツガムシ病患者を対象に、血液検査値と胸水の有無から重症化を予測する機械学習モデルを開発・検証した。ランダムフォレストは外部検証で最も高い識別性能を示し、血小板低値や肝酵素・炎症指標の高値は予測リスクの上昇に寄与した。",
+        "zh": "研究利用血液指标和胸腔积液信息，开发并验证了预测老年恙虫病患者重症风险的机器学习模型。随机森林在外部验证中的区分能力最佳，血小板较低及肝酶、炎症指标较高通常推动模型预测更高风险。",
+        "tw": "研究利用血液指標和胸腔積液資訊，開發並驗證了預測老年恙蟲病患者重症風險的機器學習模型。隨機森林在外部驗證中的區分能力最佳，血小板較低及肝酵素、發炎指標較高通常推動模型預測更高風險。",
+        "en": "Researchers developed and validated a machine learning model using blood measurements and pleural effusion to predict severe scrub typhus in older patients. Random forest performed best in external validation, with an AUROC of 0.866; lower platelet counts and higher AST and CRP generally contributed to higher predicted risk."
+      },
+      "source": "Annals of medicine",
+      "published_at": "2026-11-26",
+      "url": "https://doi.org/10.1080/07853890.2026.2760032",
+      "added_on": "2026-11-28",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43099892/"
+    },
+    {
       "id": "doi:10.1007/s00431-026-07598-8",
       "doi": "10.1007/s00431-026-07598-8",
       "title": "Clinical characteristics, genetics, and long-term outcomes in children with very early-onset inflammatory bowel disease: a Turkish cohort.",
@@ -817,5 +868,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-27T00:18:34+09:00"
+  "updated_at": "2026-11-28T00:19:13+09:00"
 }
