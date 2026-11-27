@@ -100,6 +100,11 @@ def main():
             page.wait_for_function("document.querySelectorAll('#course-results tbody tr').length===0")
             assert page.locator('#course-results .feed-empty').count()==1
             snapshot=copy.deepcopy(source)
+            page.evaluate("window.dispatchEvent(new Event('pageshow'))")
+            page.wait_for_function("document.querySelectorAll('#course-results tbody tr').length>0")
+            page.clock.fast_forward(91*60000)
+            page.wait_for_selector('[data-rooms-stale]')
+            assert page.locator('#course-results tbody tr').count()>0
             page.clock.set_fixed_time(datetime.fromisoformat('2027-01-01T12:00:00+09:00'))
             page.evaluate("window.dispatchEvent(new Event('pageshow'))")
             page.wait_for_selector('[data-rooms-period-pending]')
@@ -109,7 +114,7 @@ def main():
             result={'status':'passed','counts':dict(counts),'languages':['ja','zh','tw','en'],
                 'checks':['exact_rows','390px','dark','hourly_source_note','five_minute_refresh',
                           'search_focus_selection','reschedule_replaces','source_failure_retains',
-                          'http_failure_retains','verified_empty','january_coverage_pending'],
+                          'http_failure_retains','verified_empty','unchanged_snapshot_ages','january_coverage_pending'],
                 'page_errors':errors}
             (args.report/'browser_result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
             print(json.dumps(result,ensure_ascii=False))

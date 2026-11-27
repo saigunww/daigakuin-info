@@ -372,7 +372,8 @@
       if(name==='schedule'){
         if(requestedPeriod!==schedulePeriod().key)return;
         if(data.source_type==='rooms_schedule' && (!data.last_success_at || !data.coverage_start || !data.coverage_end || !['ok','error'].includes(data.sync_status)))throw new Error('Invalid Rooms snapshot');
-        const unchanged=!state.scheduleError && JSON.stringify(feeds.schedule)===JSON.stringify(data);
+        const stale=data.source_type==='rooms_schedule' && (data.sync_status!=='ok' || Date.now()-Date.parse(data.last_success_at)>90*60000);
+        const unchanged=!state.scheduleError && JSON.stringify(feeds.schedule)===JSON.stringify(data) && Boolean($('schedule-live').querySelector('[data-rooms-stale]'))===stale;
         state.scheduleLoadedPeriod=requestedPeriod;state.scheduleError=false;state.scheduleLastFetch=Date.now();
         if(unchanged)return;
       }
