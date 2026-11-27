@@ -83,8 +83,8 @@
       "dEn": "医学系研究科",
       "mEn": "医科学専攻",
       "coEn": "Master",
-      "source_checked_on": "2026-11-27",
-      "source_status": "unavailable"
+      "source_checked_on": "2026-11-28",
+      "source_status": "ok"
     },
     {
       "id": 5,
@@ -2050,5 +2050,5 @@
     }
   ],
   "source_type": "university_official",
-  "updated_at": "2026-11-28T00:18:32+09:00"
+  "updated_at": "2026-11-28T02:17:21+09:00"
 }

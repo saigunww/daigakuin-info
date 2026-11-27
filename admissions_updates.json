@@ -124,10 +124,10 @@
         4
       ],
       "title": "募集要項 | 東北大学大学院医学系研究科・医学部",
-      "checked_on": "2026-11-27",
-      "changed_on": "2026-11-12",
-      "status": "unavailable",
-      "fingerprint": "206314a8b545a2d03d37a149cb29490beb03ef36d993a6de92a88a8b8de383c7",
+      "checked_on": "2026-11-28",
+      "changed_on": "2026-11-28",
+      "status": "ok",
+      "fingerprint": "367a4c45e004486d3e629554c3bda2348bc74447375a46f01ae865719048dcec",
       "notices": [
         {
           "title": "・基礎研究医プログラム 学生募集要項(PDF)",
@@ -154,9 +154,7 @@
           "url": "https://www.med.tohoku.ac.jp/wp-content/uploads/2021/10/200708juken.pdf"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-28",
-      "error": "ReadTimeout"
+      "application_windows": []
     },
     {
       "url": "https://www.med.nagoya-u.ac.jp/medical_J/admission/",
@@ -2603,5 +2601,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-28T00:18:32+09:00"
+  "updated_at": "2026-11-28T02:17:21+09:00"
 }
