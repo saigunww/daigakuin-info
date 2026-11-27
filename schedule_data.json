@@ -2,12 +2,12 @@
   "source_type": "rooms_schedule",
   "coverage_start": "2026-10-01",
   "coverage_end": "2027-04-01",
-  "last_success_at": "2026-11-28T07:18:02+09:00",
-  "last_attempt_at": "2026-11-28T07:18:02+09:00",
+  "last_success_at": "2026-11-28T08:17:27+09:00",
+  "last_attempt_at": "2026-11-28T08:17:27+09:00",
   "sync_status": "ok",
   "sync_interval_minutes": 60,
   "metadata_status": "ok",
-  "metadata_checked_at": "2026-11-28T07:18:02+09:00",
+  "metadata_checked_at": "2026-11-28T08:17:27+09:00",
   "items": [
     {
       "course": "26年10月期生物学 入门课程",
@@ -1127,5 +1127,5 @@
       "metadata_basis": "excel"
     }
   ],
-  "updated_at": "2026-11-28T07:18:02+09:00"
+  "updated_at": "2026-11-28T08:17:27+09:00"
 }
