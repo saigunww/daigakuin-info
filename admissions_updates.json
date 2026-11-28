@@ -124,9 +124,9 @@
         4
       ],
       "title": "募集要項 | 東北大学大学院医学系研究科・医学部",
-      "checked_on": "2026-11-28",
+      "checked_on": "2026-11-29",
       "changed_on": "2026-11-28",
-      "status": "unavailable",
+      "status": "ok",
       "fingerprint": "367a4c45e004486d3e629554c3bda2348bc74447375a46f01ae865719048dcec",
       "notices": [
         {
@@ -154,9 +154,7 @@
           "url": "https://www.med.tohoku.ac.jp/wp-content/uploads/2021/10/200708juken.pdf"
         }
       ],
-      "application_windows": [],
-      "attempted_on": "2026-11-29",
-      "error": "ReadTimeout"
+      "application_windows": []
     },
     {
       "url": "https://www.med.nagoya-u.ac.jp/medical_J/admission/",
@@ -2603,5 +2601,5 @@
       "application_windows": []
     }
   ],
-  "updated_at": "2026-11-29T00:17:34+09:00"
+  "updated_at": "2026-11-29T01:17:42+09:00"
 }
