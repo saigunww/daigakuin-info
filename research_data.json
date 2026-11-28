@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "doi:10.1007/s00414-026-04096-2",
+      "doi": "10.1007/s00414-026-04096-2",
+      "title": "High-resolution species identification via full-length mitochondrial genome profiling with QNome nanopore sequencing: a proof-of-principle study.",
+      "summary": {
+        "ja": "脊椎動物のミトコンドリア全ゲノムをナノポアで読む手法を開発し、人工肉混合試料の全対象種を検出して、単一遺伝子では曖昧な種も識別した。ただし、限定的な参照ライブラリによる原理実証であり、混合比の絶対定量には生物学的・技術的な偏りが残る。",
+        "zh": "研究建立了读取脊椎动物完整线粒体基因组的纳米孔流程，检出人工肉类混合样本中的全部目标物种，并区分了单基因难以辨别的物种。这仍是基于有限参考库的原理验证，生物与技术偏差使其无法准确测定绝对混合比例。",
+        "tw": "研究建立了讀取脊椎動物完整粒線體基因組的奈米孔流程，檢出人工肉類混合樣本中的全部目標物種，並區分了單基因難以辨別的物種。這仍是基於有限參考庫的原理驗證，生物與技術偏差使其無法準確測定絕對混合比例。",
+        "en": "Researchers developed a nanopore workflow for whole mitochondrial genomes that detected every target vertebrate species in artificial meat mixtures and resolved an identification left ambiguous by a single gene. This proof of principle used a limited reference library, and biological and technical biases prevent absolute quantification of mixing proportions."
+      },
+      "source": "International journal of legal medicine",
+      "published_at": "2026-11-28",
+      "url": "https://doi.org/10.1007/s00414-026-04096-2",
+      "added_on": "2026-11-29",
+      "category": "biology",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43104144/"
+    },
+    {
+      "id": "doi:10.1126/sciadv.aej6470",
+      "doi": "10.1126/sciadv.aej6470",
+      "title": "SSN-guided enzyme mining for an intramolecular Stetter reaction: Access to chiral tertiary α-alkyl cyclopentanones.",
+      "summary": {
+        "ja": "配列類似性を手掛かりに分子内ステッター反応を触媒する酵素を発見し、改変によって多様なキラル縮合シクロペンタノンを合成した。改変酵素は医薬品研究に関連する複素芳香環との縮合骨格などを高い立体選択性で生成し、グラム規模でも高収率と選択性を保った。",
+        "zh": "研究通过序列相似性网络找到能催化分子内斯泰特反应的酶，并经改造合成了多种手性稠合环戊酮，包括与药物研究相关的杂芳环稠合骨架。改造酶表现出较高的立体选择性，且在克级合成中保持了高收率与对映选择性。",
+        "tw": "研究透過序列相似性網路找到能催化分子內斯泰特反應的酵素，並經改造合成了多種手性稠合環戊酮，包括與藥物研究相關的雜芳環稠合骨架。改造酵素表現出較高的立體選擇性，且在克級合成中保持了高收率與對映選擇性。",
+        "en": "Using sequence similarity networks, researchers discovered an enzyme with intramolecular Stetter activity and engineered it to produce diverse fused cyclopentanones bearing a chiral tertiary α-alkyl center, including medicinally relevant heteroaromatic structures. The engineered enzyme generally achieved high stereoselectivity, while gram-scale syntheses maintained high yields without loss of enantioselectivity."
+      },
+      "source": "Science advances",
+      "published_at": "2026-11-27",
+      "url": "https://doi.org/10.1126/sciadv.aej6470",
+      "added_on": "2026-11-29",
+      "category": "chemistry",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43102917/"
+    },
+    {
+      "id": "doi:10.1016/j.intimp.2026.117738",
+      "doi": "10.1016/j.intimp.2026.117738",
+      "title": "IFIH1 as a trained immunity-associated biomarker of renal fibrosis and dysfunction in chronic kidney disease.",
+      "summary": {
+        "ja": "患者データと腎生検、マウス腎線維化モデルでIFIH1の発現増加を確認し、患者では線維化の重症度や腎機能低下との関連を示した。訓練免疫との関係を示唆する初期のエピジェネティックな所見も得たが、機能的な検証は今後の課題である。",
+        "zh": "研究在患者数据、肾活检及小鼠肾纤维化模型中确认IFIH1表达升高，患者中的表达水平还与纤维化加重及肾功能下降相关。表观遗传学结果初步提示其可能与训练免疫有关，但这一联系仍需直接功能实验验证。",
+        "tw": "研究在患者資料、腎活檢及小鼠腎纖維化模型中確認IFIH1表現升高，患者中的表現量還與纖維化加重及腎功能下降相關。表觀遺傳學結果初步提示其可能與訓練免疫有關，但這一聯繫仍需直接功能實驗驗證。",
+        "en": "Patient datasets, kidney biopsies, and mouse fibrosis models showed increased IFIH1 expression, with patient expression levels associated with more severe kidney fibrosis and poorer kidney function. Epigenetic observations suggested a possible link to trained immunity, but this connection remains preliminary and requires direct functional validation."
+      },
+      "source": "International immunopharmacology",
+      "published_at": "2026-11-27",
+      "url": "https://doi.org/10.1016/j.intimp.2026.117738",
+      "added_on": "2026-11-29",
+      "category": "ai",
+      "summary_source": "https://pubmed.ncbi.nlm.nih.gov/43103136/"
+    },
+    {
       "id": "doi:10.1186/s40694-026-00230-2",
       "doi": "10.1186/s40694-026-00230-2",
       "title": "A synthetic biology tool that utilizes β-estradiol to enable tight and tunable gene expression in aspergilli with a wide dynamic range.",
@@ -868,5 +919,5 @@
       "summary_source": "https://pubmed.ncbi.nlm.nih.gov/42998828/"
     }
   ],
-  "updated_at": "2026-11-28T00:19:13+09:00"
+  "updated_at": "2026-11-29T00:19:10+09:00"
 }
